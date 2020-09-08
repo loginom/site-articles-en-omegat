@@ -12,8 +12,8 @@
 ### Создание PR
 
 1. Добавляем исходные файлы в папку *source* и *target* и пушим эти изменения в ветку `master-translated` (с веткой не ошибся)
-2. Добавляем feature ветку `master` ссылающуюся на `master-translated`. Проект для перевода готов
-3. Создаем PR для слияния ветки `master` в ветку `master-translated`
+2. Добавляем feature ветку `master` ссылающуюся на `master-translated`. Проект для перевода готов, ссылка https://github.com/loginom/site-articles-en-omegat.git
+3. **После первого комита от переводчика*, можно создавать PR для слияния ветки `master` в ветку `master-translated`
 
 ### Установка OmegaT
 
@@ -25,5 +25,5 @@
 ### Открытие проекта
 
 * В OmegaT выбрать "Проект" --> "Загрузить командный проект"
-* Вставляем ссылку для клонирования репозитория https://github.com/loginom/site-articles-en-omegat.git.
+* Вставляем ссылку для клонирования репозитория https://github.com/loginom/site-articles-en-omegat.git
     * Локальная папка нового проекта, должна появится сама в соответствующем поле. Папка для проекта должна быть пустой.
