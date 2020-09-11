@@ -2,17 +2,17 @@
 publish: 2020-01-14
 ---
 
-# Кластеризация категорийных данных: масштабируемый алгоритм CLOPE
+# Clustering of Categorical Data: the Scalable CLOPE Algorithm
 
-**Разбиение на группы со схожими характеристиками категорийных и транзакционных массивов данных в больших БД является важнейшей задачей Data Mining. Традиционные алгоритмы кластеризации в большинстве случаев не эффективны при обработке сверхбольших баз данных. В материале рассказывается о масштабируемом эвристическом алгоритме CLOPE, который позволяет проводить кластеризацию с высоким качеством и производительностью.**
+**Grouping according to the similar features of categorical and transactional arrays of data in large DB is the most important task of Data Mining. In the majority of cases, traditional clustering algorithms are not effective while large databases processing. The scalable heuristical CLOPE algorithm is discussed in the article. It allows for high quality and performance of clustering.**
 
-## Введение и основные идеи
+## Introduction and Main Concepts
 
-Задачи [кластеризации](https://wiki.loginom.ru/articles/clustering.html) больших массивов [категорийных данных](https://wiki.loginom.ru/articles/categorical-data.html) весьма актуальна для систем анализа данных. Категорийные данные встречаются в любых областях: производство, коммерция, маркетинг, медицина… Категорийные данные включают в себя и так называемые транзакционные данные: чеки в супермаркетах, логи посещений веб-ресурсов. Сюда же относится анализ и классификация текстовых документов ([Text Mining](https://wiki.loginom.ru/articles/text-mining.html)).
+The issue of [clustering](https://wiki.loginom.ru/articles/clustering.html) of large arrays of [categorical data](https://wiki.loginom.ru/articles/categorical-data.html) is highly topical for data analysis systems. The categorical data occur in all spheres: industry, trade, marketing, medicine, etc. The categorical data include so-called transactional data: supermarket receipts, tracking data of web surfing. This includes analysis and classification of text documents ([Text Mining](https://wiki.loginom.ru/articles/text-mining.html)).
 
-Здесь и далее под категорийными данными понимаются качественные характеристики объектов, измеренные в [шкале](https://wiki.loginom.ru/articles/scale-type.html) наименований. Напомним: при использовании шкалы наименований указывается только, одинаковы или нет объекты относительно измеряемого признака.
+Hereafter the categirical data refer to qualitative characteristics of objects measured according to the nominal [scale](https://wiki.loginom.ru/articles/scale-type.html). It is to be recalled that when using the nominal scale, it is required to specify only whether the objects are similar as far as the measured feature is concerned.
 
-Применять для кластеризации объектов с категорийными признаками традиционные алгоритмы неэффективно, а часто — невозможно (подробнее см. материал «[Алгоритмы кластеризации на службе Data Mining»](https://loginom.ru/blog/data-mining-clustering)). Основные трудности связаны с высокой размерностью и гигантским объемом, которыми часто характеризуются такие базы данных.
+It is not effective and sometimes even impossible to use traditional algorithms for clustering of objects with categorical features (more detailed information is available in материал «[Алгоритмы кластеризации на службе Data Mining»](https://loginom.ru/blog/data-mining-clustering)). Основные трудности связаны с высокой размерностью и гигантским объемом, которыми часто характеризуются такие базы данных.
 
 Алгоритмы, основанные на парном вычислении расстояний ([k-means](https://wiki.loginom.ru/articles/k-means.html) и аналоги) эффективны в основном на числовых данных. Их производительность на массивах записей с большим количеством нечисловых факторов неудовлетворительная. И дело даже не столько в сложности задания метрики для вычисления расстояния между категорийными [атрибутами](https://wiki.loginom.ru/articles/attribute.html), сколько в том, что на каждой итерации алгоритма требуется попарно сравнивать объекты между собой, а итераций может быть очень много. Для таблиц с миллионами записей и тысячами полей это неприменимо.
 
@@ -55,7 +55,7 @@ publish: 2020-01-14
 
 * {% math %}D(C){% endmath %} – множество уникальных объектов;
 * {% math %}Occ(i,C){% endmath %} – количество вхождений (частота) объекта {% math %}i{% endmath %} в кластер {% math %}C{% endmath %};
-* {% math %}S(C)=\sum_{i\in\ D(C)}\ Occ\ (i, C)=\sum_{t_i\in C}\mid  t_i \mid{% endmath %}  
+* {% math %}S(C)=\sum_{i\in\ D(C)}\ Occ\ (i, C)=\sum_{t_i\in C}\mid  t_i \mid{% endmath %}
 * {% math %}W(C) = |D(C)|{% endmath %};
 * {% math %}H(C) = S(C)/W(C){% endmath %}.
 
@@ -150,7 +150,7 @@ publish: 2020-01-14
 
 Общее количество уникальных характеристик объектов равно 116. 2480 записей имеют пропущенные значения в одном атрибуте. Описание набора данных — [https://archive.ics.uci.edu/ml/datasets/mushroom](https://archive.ics.uci.edu/ml/datasets/mushroom).
 
-Если такой набор данных представить в описанном выше нормализованном виде, то получится 8124 транзакции, из которых 2408 будут длиной 21, а остальные – 22 элемента (пропущенные значения игнорируются). И теперь можно применить алгоритм CLOPE. Результат работы CLOPE при {% math %}r=2.6{% endmath %} для задачи о грибах после 1-ой итерации (фаза инициализации) представлен в таблице 1. 
+Если такой набор данных представить в описанном выше нормализованном виде, то получится 8124 транзакции, из которых 2408 будут длиной 21, а остальные – 22 элемента (пропущенные значения игнорируются). И теперь можно применить алгоритм CLOPE. Результат работы CLOPE при {% math %}r=2.6{% endmath %} для задачи о грибах после 1-ой итерации (фаза инициализации) представлен в таблице 1.
 
 При этом критерием качества работы алгоритма служит количество «грязных» кластеров, т.е. таких, в которых присутствуют как съедобные ({% math %}e{% endmath %}), так и несъедобные ({% math %}p{% endmath %}) грибы. Чем меньше таких кластеров, тем лучше. Из таблицы 1 видно, что уже после 1-ой итерации остался только 1 «грязный» кластер №18. Потребуется еще пару-тройку сканирований базы данных для получения финальной кластеризации. Очевидно, что кластер 12 исчезнет.
 
@@ -158,36 +158,36 @@ publish: 2020-01-14
 
 Таблица 1: результат работы CLOPE после 1 итерации.
 
-| CLUSTER   | e         | p         |
+| CLUSTER | e | p |
 |----------:|----------:|----------:|
-| 1         |           | 256       |
-| 2         | 512       |           |
-| 3         | 768       |           |
-| 4         | 96        |           |
-| 5         | 96        |           |
-| 6         | 192       |           |
-| 7         | 1296      |           |
-| 8         | 432       |           |
-| 9         |           | 149       |
-| 10        |           | 192       |
-| 11        |           | 1146      |
-| 12        |           | 1         |
-| 13        |           | 288       |
-| 14        | 192       |           |
-| 15        |           | 223       |
-| 16        | 48        |           |
-| 17        |           | 72        |
-| 18        | 48        | 32        |
-| 19        |           | 8         |
-| 20        |           | 8         |
-| 21        |           | 1497      |
-| 22        | 192       |           |
-| 23        | 288       |           |
-| 24        | 32        |           |
-| 25        |           | 36        |
-| 26        |           | 8         |
-| 27        | 16        |           |
-| Итого     | 4208      | 3916      |
+| 1 |           | 256 |
+| 2 | 512 |           |
+| 3 | 768 |           |
+| 4 | 96 |           |
+| 5 | 96 |           |
+| 6 | 192 |           |
+| 7 | 1296 |           |
+| 8 | 432 |           |
+| 9 |           | 149 |
+| 10 |           | 192 |
+| 11 |           | 1146 |
+| 12 |           | 1 |
+| 13 |           | 288 |
+| 14 | 192 |           |
+| 15 |           | 223 |
+| 16 | 48 |           |
+| 17 |           | 72 |
+| 18 | 48 | 32 |
+| 19 |           | 8 |
+| 20 |           | 8 |
+| 21 |           | 1497 |
+| 22 | 192 |           |
+| 23 | 288 |           |
+| 24 | 32 |           |
+| 25 |           | 36 |
+| 26 |           | 8 |
+| 27 | 16 |           |
+| Итого | 4208 | 3916 |
 
 ## Области применения CLOPE
 
