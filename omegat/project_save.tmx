@@ -1,9 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="4.3.2_0_6a661c5e" segtype="sentence" srclang="ru"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="4.3.1_0_99222d65" segtype="sentence" srclang="ru"/>
   <body>
 <!-- Default translations -->
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Разбиение на группы со схожими характеристиками категорийных и транзакционных массивов данных в больших БД является важнейшей задачей Data Mining.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200911T065435Z" creationid="Марианна" creationdate="20200911T065435Z">
+        <seg>&lt;x1/&gt;Grouping according to the similar features of categorical and transactional arrays of data in large DB is the most important task of Data Mining.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В материале рассказывается о масштабируемом эвристическом алгоритме CLOPE, который позволяет проводить кластеризацию с высоким качеством и производительностью.&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200911T072927Z" creationid="Марианна" creationdate="20200911T072927Z">
+        <seg>The scalable heuristical CLOPE algorithm is discussed in the article. It allows for high quality and performance of clustering.&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Введение и основные идеи</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200911T072952Z" creationid="Марианна" creationdate="20200911T072952Z">
+        <seg>Introduction and Main Concepts</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Задачи &lt;x1/&gt;кластеризации&lt;x2/&gt; больших массивов &lt;x3/&gt;категорийных данных&lt;x4/&gt; весьма актуальна для систем анализа данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200911T073256Z" creationid="Марианна" creationdate="20200911T073256Z">
+        <seg>The issue of &lt;x1/&gt;clustering&lt;x2/&gt; of large arrays of &lt;x3/&gt;categorical data&lt;x4/&gt; is highly topical for data analysis systems.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Здесь и далее под категорийными данными понимаются качественные характеристики объектов, измеренные в &lt;x1/&gt;шкале&lt;x2/&gt; наименований.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200911T074534Z" creationid="Марианна" creationdate="20200911T074534Z">
+        <seg>Hereafter the categirical data refer to qualitative characteristics of objects measured according to the nominal &lt;x1/&gt;scale&lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Категорийные данные встречаются в любых областях: производство, коммерция, маркетинг, медицина… Категорийные данные включают в себя и так называемые транзакционные данные: чеки в супермаркетах, логи посещений веб-ресурсов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200911T074229Z" creationid="Марианна" creationdate="20200911T074229Z">
+        <seg>The categorical data occur in all spheres: industry, trade, marketing, medicine, etc. The categorical data include so-called transactional data: supermarket receipts, tracking data of web surfing.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Кластеризация категорийных данных: масштабируемый алгоритм CLOPE</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200911T073516Z" creationid="Марианна" creationdate="20200911T064612Z">
+        <seg>Clustering of Categorical Data: the Scalable CLOPE Algorithm</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Напомним: при использовании шкалы наименований указывается только, одинаковы или нет объекты относительно измеряемого признака.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200911T074814Z" creationid="Марианна" creationdate="20200911T074814Z">
+        <seg>It is to be recalled that when using the nominal scale, it is required to specify only whether the objects are similar as far as the measured feature is concerned.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Применять для кластеризации объектов с категорийными признаками традиционные алгоритмы неэффективно, а часто — невозможно (подробнее см.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200911T075234Z" creationid="Марианна" creationdate="20200911T075234Z">
+        <seg>It is not effective and sometimes even impossible to use traditional algorithms for clustering of objects with categorical features (more detailed information is available in</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Сюда же относится анализ и классификация текстовых документов (&lt;x5/&gt;Text Mining&lt;x6/&gt;).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200911T074331Z" creationid="Марианна" creationdate="20200911T074331Z">
+        <seg>This includes analysis and classification of text documents (&lt;x5/&gt;Text Mining&lt;x6/&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Традиционные алгоритмы кластеризации в большинстве случаев не эффективны при обработке сверхбольших баз данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200911T065952Z" creationid="Марианна" creationdate="20200911T065952Z">
+        <seg>In the majority of cases, traditional clustering algorithms are not effective while large databases processing.</seg>
+      </tuv>
+    </tu>
 <!-- Alternative translations -->
   </body>
 </tmx>
