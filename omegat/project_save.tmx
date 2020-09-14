@@ -383,6 +383,14 @@ cluster is kept in the RAM space during the work. It includes the number of tran
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для завершения реализации алгоритма нам нужны еще две функции, рассчитывающие прирост {% math %}Profit(C,r){% endmath %} при добавлении и удалении транзакции из кластера.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T191452Z" creationid="Марианна" creationdate="20200914T191452Z">
+        <seg>To finish the algorithm implementation, we need two more functions that enable to calculate the profit {% math %}Profit(C,r){% endmath %} when addition or deleting transactions from the cluster.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для начала формализуем рассматриваемую задачу кластеризации для категорийных данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T070628Z" creationid="Марианна" creationdate="20200914T070628Z">
