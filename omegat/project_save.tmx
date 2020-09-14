@@ -54,10 +54,18 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Алгоритм CLOPE</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T115359Z" creationid="Марианна" creationdate="20200914T115359Z">
+        <seg>The CLOPE Algorithm</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Алгоритм CLOPE, который мы рассматриваем в данной статье, очень похож на LargeItem, но быстрее и проще в программной реализации.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200914T070105Z" creationid="Марианна" creationdate="20200914T070105Z">
-        <seg>The CLOPE algorithm analysed in this article is similar to LargeItem but it is faster and easier as far as software implementation is concerned.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T115342Z" creationid="Марианна" creationdate="20200914T070105Z">
+        <seg>The CLOPE algorithm analyzed in this article is similar to LargeItem but it is faster and easier as far as software implementation is concerned.</seg>
       </tuv>
     </tu>
     <tu>
