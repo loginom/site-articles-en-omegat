@@ -471,6 +471,15 @@ cluster is kept in the RAM space during the work. It includes the number of tran
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Временная сложность одной итерации равна {% math %}O(N&lt;x1/&gt;K&lt;x2/&gt;A){% endmath %}, показывающая, что скорость работы алгоритма растет линейно с ростом кластеров и размера таблицы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T194112Z" creationid="Марианна" creationdate="20200914T194112Z">
+        <seg>The time complexity for one iteration is {% math %}O(N&lt;x1/&gt;K&lt;x2/&gt;A){% endmath %},  indicating that the algorithm execution speed is affected linearly by the number
+of clusters and table size.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Все изложение будет идти как будто бы у нас в наличии имеется база транзакционных данных, а в конце материала будет показано, как с помощью CLOPE разбивать на &lt;x1/&gt;кластеры&lt;x2/&gt; любые категорийные массивы, работая с ними как с транзакционными.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T071955Z" creationid="Марианна" creationdate="20200914T071955Z">
@@ -1039,6 +1048,14 @@ the initial clustering, driven by function {% math %}Profit(C,r){% endmath %}.</
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T133125Z" creationid="Марианна" creationdate="20200914T133125Z">
         <seg>The higher is {% math %}r{% endmath %}, the lower the similarity level is and the more clusters will be generated.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Это делает алгоритм быстрым и эффективным на больших объемах.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T194222Z" creationid="Марианна" creationdate="20200914T194222Z">
+        <seg>It makes the algorithm fast and effective for large volumes.</seg>
       </tuv>
     </tu>
     <tu>
