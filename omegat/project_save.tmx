@@ -407,6 +407,14 @@ respectively for the number of transactions, the number of objects in the base o
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Но если для оценки вместо {% math %}H(C){% endmath %} использовать градиент {% math %}G(C)=H(C)/W(C)=S(C)/W(C)^2{% endmath %}, то разбиение { { {% math %}abc{% endmath %} },{ {% math %}def{% endmath %} } } будет лучше (градиент каждого кластера равен 1/3 против 1/6 у разбиения { { {% math %}abc, def{% endmath %} } }).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T131604Z" creationid="Марианна" creationdate="20200914T131604Z">
+        <seg>But if we use Но если для оценки вместо {% math %}H(C){% endmath %} использовать градиент {% math %}G(C)=H(C)/W(C)=S(C)/W(C)^2{% endmath %}, то разбиение { { {% math %}abc{% endmath %} },{ {% math %}def{% endmath %} } } будет лучше (градиент каждого кластера равен 1/3 против 1/6 у разбиения { { {% math %}abc, def{% endmath %} } }).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Но не всегда они удовлетворяют перечисленным выше требованиям.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T064325Z" creationid="Марианна" creationdate="20200914T064325Z">
@@ -468,6 +476,14 @@ transactions (consequently, {% math %}H{% endmath %} parameter is higher).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T072449Z" creationid="Марианна" creationdate="20200914T072422Z">
         <seg>In this case, the &lt;x1/&gt;transaction&lt;x2/&gt; means a random set of objects, for example, a list of key words in an article, goods bought in the supermarket, a set of patient symptoms, typical image elements, etc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Получается, оба варианта разбиения равноценны.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T131032Z" creationid="Марианна" creationdate="20200914T131032Z">
+        <seg>Thus, both clustering cases are equivalent.</seg>
       </tuv>
     </tu>
     <tu>
