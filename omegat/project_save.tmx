@@ -640,6 +640,14 @@ respectively for the number of transactions, the number of objects in the base o
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Они называются кластерными характеристиками (CF – cluster features).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T190323Z" creationid="Марианна" creationdate="20200914T190323Z">
+        <seg>They are called cluster features.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Они не содержат общих объектов, но разбиение { { {% math %}abc, def{% endmath %} } } и разбиение { { {% math %}abc{% endmath %} }, { {% math %}def{% endmath %} } } характеризуются одинаковой высотой {% math %}H=1{% endmath %}.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T130722Z" creationid="Марианна" creationdate="20200914T130722Z">
