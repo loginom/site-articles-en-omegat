@@ -72,8 +72,8 @@
       <tuv lang="ru">
         <seg>Применять для кластеризации объектов с категорийными признаками традиционные алгоритмы неэффективно, а часто — невозможно (подробнее см.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200911T075234Z" creationid="Марианна" creationdate="20200911T075234Z">
-        <seg>It is not effective and sometimes even impossible to use traditional algorithms for clustering of objects with categorical features (more detailed information is available in</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T060249Z" creationid="Марианна" creationdate="20200911T075234Z">
+        <seg>It is not effective and sometimes even impossible to use traditional algorithms for clustering of objects with categorical features (more detailed information is available in the mateiral called</seg>
       </tuv>
     </tu>
     <tu>
@@ -90,6 +90,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200911T065952Z" creationid="Марианна" creationdate="20200911T065952Z">
         <seg>In the majority of cases, traditional clustering algorithms are not effective while large databases processing.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>материал «&lt;x1/&gt;Алгоритмы кластеризации на службе Data Mining»&lt;x2/&gt;).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T060227Z" creationid="Марианна" creationdate="20200914T060227Z">
+        <seg>"&lt;x1/&gt;Clustering Algorithms for Data Mining"&lt;x2/&gt;).</seg>
       </tuv>
     </tu>
 <!-- Alternative translations -->
