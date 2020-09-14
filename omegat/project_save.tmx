@@ -14,6 +14,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>2 {% math %}S(C)=8{% endmath %}, соответствует площади прямоугольника, ограниченного осями координат и пунктирной линией.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T122215Z" creationid="Марианна" creationdate="20200914T122215Z">
+        <seg>2 shows that {% math %}S(C)=8{% endmath %}, it complies with the area of the rectangle restricted by coordinate axes and dashed line.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>2).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T121732Z" creationid="Марианна" creationdate="20200914T121732Z">
@@ -355,6 +363,14 @@ respectively for the number of transactions, the number of objects in the base o
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T120641Z" creationid="Марианна" creationdate="20200914T114858Z">
         <seg>The CLOPE algorithm (English: Clustering with sLOPE) is used according to such obvious and simple concept of geometric histograms.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>На рис.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T121941Z" creationid="Марианна" creationdate="20200914T121941Z">
+        <seg>Figure</seg>
       </tuv>
     </tu>
     <tu>
