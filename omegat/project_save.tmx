@@ -222,6 +222,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Теорема.&lt;x2/&gt; Если {% math %}DeltaAdd(Ci,t){% endmath %} есть максимум, то перемещение {% math %}t{% endmath %} в кластер {% math %}C_i{% endmath %} максимизирует {% math %}Profit(C,r){% endmath %}.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T192330Z" creationid="Марианна" creationdate="20200914T192330Z">
+        <seg>&lt;x1/&gt;Theorema.&lt;x2/&gt; If {% math %}DeltaAdd(Ci,t){% endmath %} is the maximum, then moving {% math %}t{% endmath %} to {% math %}C_i{% endmath %} cluster will maximize {% math %}Profit(C,r){% endmath %}.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>CLOPE предложен в 2002 году группой китайских ученых.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T070315Z" creationid="Марианна" creationdate="20200914T070315Z">
@@ -927,6 +935,14 @@ the initial clustering, driven by function {% math %}Profit(C,r){% endmath %}.</
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T132944Z" creationid="Марианна" creationdate="20200914T132926Z">
         <seg>{% math %}r{% endmath %} parameter called a repulsion coefficient by the CLOPE authors enables to control the level of intra-cluster similarity, and the final number of clusters, as a consequence.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Следующая теорема гарантирует корректность использования функции {% math %}DeltaAdd{% endmath %}.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T192213Z" creationid="Марианна" creationdate="20200914T192213Z">
+        <seg>The following theorema guarantees the correctness of function {% math %}DeltaAdd{% endmath %} usage.</seg>
       </tuv>
     </tu>
     <tu>
