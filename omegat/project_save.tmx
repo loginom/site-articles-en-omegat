@@ -328,8 +328,9 @@
       <tuv lang="ru">
         <seg>Очевидно, что разбиение (1) лучше, поскольку обеспечивает большее наложение транзакций друг на друга (соответственно, параметр {% math %}H{% endmath %} там выше).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200914T114656Z" creationid="Марианна" creationdate="20200914T113632Z">
-        <seg>It is obvious that clustering (1) is better because it provides more significant overlapping of transactions on each other (consequently, {% math %}H{% endmath %} parameter is higher).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T120609Z" creationid="Марианна" creationdate="20200914T113632Z">
+        <seg>Clearly, clustering (1) is better since we prefer more overlapping among
+transactions (consequently, {% math %}H{% endmath %} parameter is higher).</seg>
       </tuv>
     </tu>
     <tu>
