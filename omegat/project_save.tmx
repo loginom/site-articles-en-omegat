@@ -102,6 +102,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>На сегодняшний день предложено свыше десятка методов для работы с категорийными данными, например, семейство иерархических кластерных алгоритмов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T064237Z" creationid="Марианна" creationdate="20200914T064237Z">
+        <seg>Nowadays there are more than a dozen methods of work with categorical data, for example, a family of hierarchical clustering algorithms.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Напомним: при использовании шкалы наименований указывается только, одинаковы или нет объекты относительно измеряемого признака.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200911T074814Z" creationid="Марианна" creationdate="20200911T074814Z">
