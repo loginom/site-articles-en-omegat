@@ -6,6 +6,22 @@
 <!-- Default translations -->
     <tu>
       <tuv lang="ru">
+        <seg>&amp;nbsp;&amp;nbsp; Пока не конец</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T140521Z" creationid="Марианна" creationdate="20200914T140521Z">
+        <seg>&amp;nbsp;&amp;nbsp; It's not the end yet</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>// Фаза 1 – инициализация</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T140313Z" creationid="Марианна" creationdate="20200914T140313Z">
+        <seg>// Phase 1 – initialization</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>1 эти результаты показаны геометрически в виде гистограмм.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T111923Z" creationid="Марианна" creationdate="20200914T111923Z">
