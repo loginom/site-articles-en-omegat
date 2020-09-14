@@ -342,6 +342,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Рассмотрим его подробнее в более формальном описании.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T115224Z" creationid="Марианна" creationdate="20200914T115224Z">
+        <seg>Let's analyze it in detail in its more formal description.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Рассмотрим простой пример из 5 транзакций: { {% math %}(a,b){% endmath %}, {% math %}(a,b,c){% endmath %}, {% math %}(a,c,d){% endmath %}, {% math %}(d,e){% endmath %}, {% math %}(d,e,f){% endmath %} }.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T073027Z" creationid="Марианна" creationdate="20200914T073027Z">
