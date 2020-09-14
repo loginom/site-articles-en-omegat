@@ -594,8 +594,8 @@ transactions (consequently, {% math %}H{% endmath %} parameter is higher).</seg>
       <tuv lang="ru">
         <seg>С помощью параметра {% math %}r{% endmath %}, названного авторами CLOPE коэффициентом отталкивания (repulsion), регулируется уровень сходства транзакций внутри кластера, и, как следствие, финальное количество кластеров.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200914T132926Z" creationid="Марианна" creationdate="20200914T132926Z">
-        <seg>{% math %}r{% endmath %} parameter called repulsion by the CLOPE authors enables to control the level of intra-cluster similarity, and the final number of clusters, as a consequence.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T132944Z" creationid="Марианна" creationdate="20200914T132926Z">
+        <seg>{% math %}r{% endmath %} parameter called a repulsion coefficient by the CLOPE authors enables to control the level of intra-cluster similarity, and the final number of clusters, as a consequence.</seg>
       </tuv>
     </tu>
     <tu>
@@ -616,10 +616,26 @@ transactions (consequently, {% math %}H{% endmath %} parameter is higher).</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Чем больше {% math %}r{% endmath %}, тем ниже уровень сходства и тем больше кластеров будет сгенерировано.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T133125Z" creationid="Марианна" creationdate="20200914T133125Z">
+        <seg>The higher is {% math %}r{% endmath %}, the lower the similarity level is and the more clusters will be generated.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Этот глобальный критерий использует параметр поддержки (в терминологии здесь много общего с алгоритмами для выявления &lt;x1/&gt;ассоциативных правил&lt;x2/&gt;).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T065233Z" creationid="Марианна" creationdate="20200914T065233Z">
         <seg>This global criterion is based on the support parameter (as far as terminology is concerned, there is much in common with algorithms for detection of &lt;x1/&gt;association rules&lt;x2/&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Этот коэффициент подбирается пользователем.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T132959Z" creationid="Марианна" creationdate="20200914T132959Z">
+        <seg>This coefficient is selected by a user.</seg>
       </tuv>
     </tu>
     <tu>
