@@ -110,6 +110,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Поэтому в настоящее время ведутся активные исследования в области разработки &lt;x1/&gt;масштабируемых (scalable) алгоритмов&lt;x2/&gt; кластеризации категорийных и транзакционных данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T062905Z" creationid="Марианна" creationdate="20200914T062905Z">
+        <seg>That's why development of &lt;x1/&gt;scalable algorithms&lt;x2/&gt; for clustering of the categorical and transactional data are actively researched nowadays.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Применять для кластеризации объектов с категорийными признаками традиционные алгоритмы неэффективно, а часто — невозможно (подробнее см.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T060249Z" creationid="Марианна" creationdate="20200911T075234Z">
