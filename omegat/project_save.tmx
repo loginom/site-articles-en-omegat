@@ -150,6 +150,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>алгоритм должен работать, когда объекты из базы данных могут извлекаться только в режиме однонаправленного курсора (т.е. в режиме навигации по записям).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T063857Z" creationid="Марианна" creationdate="20200914T063857Z">
+        <seg>operability of the algorithm when objects can be extracted from database only in the forward-only cursor mode (namely, in the record navigation mode).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>материал «&lt;x1/&gt;Алгоритмы кластеризации на службе Data Mining»&lt;x2/&gt;).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T060227Z" creationid="Марианна" creationdate="20200914T060227Z">
@@ -168,8 +176,8 @@
       <tuv lang="ru">
         <seg>работа в ограниченном объеме оперативной памяти компьютера;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200914T063606Z" creationid="Марианна" creationdate="20200914T063606Z">
-        <seg>operation under condition of the restricted computer RAM capacity;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T063747Z" creationid="Марианна" creationdate="20200914T063606Z">
+        <seg>operation under condition of the limited computer RAM capacity;</seg>
       </tuv>
     </tu>
     <tu>
