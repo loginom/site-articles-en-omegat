@@ -38,6 +38,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Вообще, вычисление глобального критерия делает алгоритм кластеризации во много раз быстрее, чем при использовании локального критерия при парном сравнении объектов, поэтому «глобализация» оценочной функции – один из путей получения масштабируемых алгоритмов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T065645Z" creationid="Марианна" creationdate="20200914T065645Z">
+        <seg>In fact, calculation of the global criterion makes the clustering algorithm many times faster as compared with the local criterion in the case of the pairwise comparison of objects. That's why "globalisation" of the valuation function is one of the ways to get scalable algorithms.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для таблиц с миллионами записей и тысячами полей это неприменимо.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T062500Z" creationid="Марианна" creationdate="20200914T062500Z">
