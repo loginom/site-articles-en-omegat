@@ -112,8 +112,8 @@
       <tuv lang="ru">
         <seg>Гистограмма для кластера { {% math %}ab, abc, acd{% endmath %} } содержит 4 различных элемента и имеет площадь 8 блоков ({% math %}H=2.0, H/W=0.5{% endmath %}), а кластер { {% math %}acd, de, def{% endmath %} } – 5 различных элементов с такой же площадью ({% math %}H=1.6, H/W=0.32{% endmath %}).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200914T112800Z" creationid="Марианна" creationdate="20200914T112800Z">
-        <seg>The histogram for { {% math %}ab, abc, acd{% endmath %} } cluster contains 4 different elements, and its area is equal to 8 blocks ({% math %}H=2.0, H/W=0.5{% endmath %}), and { {% math %}acd, de, def{% endmath %} } cluster contains 5 different elements with the same area ({% math %}H=1.6, H/W=0.32{% endmath %}).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T114426Z" creationid="Марианна" creationdate="20200914T112800Z">
+        <seg>The histogram for { {% math %}ab, abc, acd{% endmath %} } cluster contains 4 different items, and its area is equal to 8 blocks ({% math %}H=2.0, H/W=0.5{% endmath %}), and { {% math %}acd, de, def{% endmath %} } cluster contains 5 different items with the same area ({% math %}H=1.6, H/W=0.32{% endmath %}).</seg>
       </tuv>
     </tu>
     <tu>
@@ -144,8 +144,8 @@
       <tuv lang="ru">
         <seg>Для первого и второго вариантов разбиения в каждом кластере рассчитаем количество вхождений в него каждого элемента транзакции, а затем вычислим высоту ({% math %}H{% endmath %}) и ширину ({% math %}W{% endmath %}) кластера.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200914T111452Z" creationid="Марианна" creationdate="20200914T111452Z">
-        <seg>For the first and second cases of clustering it is required to calculate the number of occurrences of each transaction element in each cluster, and then it is required to calculate the height ({% math %}H{% endmath %}) and width ({% math %}W{% endmath %}) of the cluster.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T114402Z" creationid="Марианна" creationdate="20200914T111452Z">
+        <seg>For the first and second cases of clustering it is required to calculate the number of occurrences of each transaction item in each cluster, and then it is required to calculate the height ({% math %}H{% endmath %}) and width ({% math %}W{% endmath %}) of the cluster.</seg>
       </tuv>
     </tu>
     <tu>
@@ -320,8 +320,8 @@
       <tuv lang="ru">
         <seg>При этом он обеспечивает более высокую производительность и лучшее качество кластеризации в сравнении с алгоритмом LargeItem и многими иерархическими алгоритмами.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200914T070449Z" creationid="Марианна" creationdate="20200914T070449Z">
-        <seg>It provides higher capacity and clustering quality as compared with the LargeItem algorithm and many hierarchical algorithms.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T114345Z" creationid="Марианна" creationdate="20200914T070449Z">
+        <seg>It provides higher performance and clustering quality as compared with the LargeItem algorithm and many hierarchical algorithms.</seg>
       </tuv>
     </tu>
     <tu>
