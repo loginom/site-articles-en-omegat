@@ -280,8 +280,8 @@
       <tuv lang="ru">
         <seg>Основные трудности связаны с высокой размерностью и гигантским объемом, которыми часто характеризуются такие базы данных.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200914T060653Z" creationid="Марианна" creationdate="20200914T060653Z">
-        <seg>The main complications are connected with high dimension and large volume typical of such databases.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T114038Z" creationid="Марианна" creationdate="20200914T060653Z">
+        <seg>The main complications are connected with high dimensionality and large volume typical of such databases.</seg>
       </tuv>
     </tu>
     <tu>
