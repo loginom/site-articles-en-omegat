@@ -192,8 +192,8 @@
       <tuv lang="ru">
         <seg>Их производительность на массивах записей с большим количеством нечисловых факторов неудовлетворительная.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200914T061800Z" creationid="Марианна" creationdate="20200914T061800Z">
-        <seg>When using arrays of records with large amount of nonnumerical factors, their capacity is insufficient.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T114309Z" creationid="Марианна" creationdate="20200914T061800Z">
+        <seg>When using arrays of records with large amount of non-numerical factors, their performance is unsatisfactory.</seg>
       </tuv>
     </tu>
     <tu>
@@ -280,8 +280,8 @@
       <tuv lang="ru">
         <seg>Основные трудности связаны с высокой размерностью и гигантским объемом, которыми часто характеризуются такие базы данных.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200914T114038Z" creationid="Марианна" creationdate="20200914T060653Z">
-        <seg>The main complications are connected with high dimensionality and large volume typical of such databases.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T114156Z" creationid="Марианна" creationdate="20200914T060653Z">
+        <seg>The main complications are connected with high dimensionality and huge volume typical of such databases.</seg>
       </tuv>
     </tu>
     <tu>
