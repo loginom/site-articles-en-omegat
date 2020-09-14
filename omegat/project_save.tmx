@@ -278,6 +278,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>{% math %}..., ..., ...{% endmath %}</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T193742Z" creationid="Марианна" creationdate="20200914T193742Z">
+        <seg>{% math %}..., ..., ...{% endmath %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>{% math %}D(C){% endmath %} – множество уникальных объектов;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T121103Z" creationid="Марианна" creationdate="20200914T121103Z">
@@ -326,10 +334,50 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>{% math %}e,b,s,w,t,l,f,c,b,n,e,c,s,s,w,w,p,w,o,p,n,n,m{% endmath %}</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T193730Z" creationid="Марианна" creationdate="20200914T193730Z">
+        <seg>{% math %}e,b,s,w,t,l,f,c,b,n,e,c,s,s,w,w,p,w,o,p,n,n,m{% endmath %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>{% math %}e,x,s,g,f,n,f,w,b,k,t,e,s,s,w,w,p,w,o,e,n,a,g{% endmath %}</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T193738Z" creationid="Марианна" creationdate="20200914T193738Z">
+        <seg>{% math %}e,x,s,g,f,n,f,w,b,k,t,e,s,s,w,w,p,w,o,e,n,a,g{% endmath %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>{% math %}e,x,s,y,t,a,f,c,b,k,e,c,s,s,w,w,p,w,o,p,n,n,g{% endmath %}</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T193725Z" creationid="Марианна" creationdate="20200914T193725Z">
+        <seg>{% math %}e,x,s,y,t,a,f,c,b,k,e,c,s,s,w,w,p,w,o,p,n,n,g{% endmath %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>{% math %}k{% endmath %} – количество кластеров</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T132504Z" creationid="Марианна" creationdate="20200914T132504Z">
         <seg>{% math %}k{% endmath %} – the number of clusters</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>{% math %}p,x,s,n,t,p,f,c,n,k,e,e,s,s,w,w,p,w,o,p,k,s,u{% endmath %}</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T193721Z" creationid="Марианна" creationdate="20200914T193721Z">
+        <seg>{% math %}p,x,s,n,t,p,f,c,n,k,e,e,s,s,w,w,p,w,o,p,k,s,u{% endmath %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>{% math %}p,x,y,w,t,p,f,c,n,n,e,e,s,s,w,w,p,w,o,p,k,s,u{% endmath %}</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T193734Z" creationid="Марианна" creationdate="20200914T193734Z">
+        <seg>{% math %}p,x,y,w,t,p,f,c,n,n,e,e,s,s,w,w,p,w,o,p,k,s,u{% endmath %}</seg>
       </tuv>
     </tu>
     <tu>
@@ -886,6 +934,14 @@ much higher as compared with the pair-wise comparison of transactions.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T120009Z" creationid="Марианна" creationdate="20200914T120009Z">
         <seg>Let's take a database of transactions {% math %}D{% endmath %} taht consists of a set of transactions { {% math %}t_1,t_2,…,t_n{% endmath %} }.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Пусть средняя длина транзакции равна {% math %}A{% endmath %}, общее число транзакций {% math %}N{% endmath %}, максимально возможное число кластеров {% math %}K{% endmath %}.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T193951Z" creationid="Марианна" creationdate="20200914T193951Z">
+        <seg>Suppose the average length of a transaction is {% math %}A{% endmath %}, the total number of transactions is {% math %}N{% endmath %}, and the maximum possible number of clusters is {% math %}K{% endmath %}.</seg>
       </tuv>
     </tu>
     <tu>
