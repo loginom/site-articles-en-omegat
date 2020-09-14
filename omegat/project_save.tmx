@@ -54,6 +54,46 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>{% math %}D(C){% endmath %} – множество уникальных объектов;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T121103Z" creationid="Марианна" creationdate="20200914T121103Z">
+        <seg>{% math %}D(C){% endmath %} – a set of unique objects;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>{% math %}H(C) = S(C)/W(C){% endmath %}.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T121203Z" creationid="Марианна" creationdate="20200914T121203Z">
+        <seg>{% math %}H(C) = S(C)/W(C){% endmath %}.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>{% math %}Occ(i,C){% endmath %} – количество вхождений (частота) объекта {% math %}i{% endmath %} в кластер {% math %}C{% endmath %};</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T121150Z" creationid="Марианна" creationdate="20200914T121150Z">
+        <seg>{% math %}Occ(i,C){% endmath %} – number of occurrences (frequency) of the object {% math %}i{% endmath %} in {% math %}C{% endmath %} cluster;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>{% math %}S(C)=\sum_{i\in\ D(C)}\ Occ\ (i, C)=\sum_{t_i\in C}\mid  t_i \mid{% endmath %}</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T121155Z" creationid="Марианна" creationdate="20200914T121155Z">
+        <seg>{% math %}S(C)=\sum_{i\in\ D(C)}\ Occ\ (i, C)=\sum_{t_i\in C}\mid  t_i \mid{% endmath %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>{% math %}W(C) = |D(C)|{% endmath %};</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T121159Z" creationid="Марианна" creationdate="20200914T121159Z">
+        <seg>{% math %}W(C) = |D(C)|{% endmath %};</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Алгоритм CLOPE</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T115359Z" creationid="Марианна" creationdate="20200914T115359Z">
@@ -122,6 +162,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T114426Z" creationid="Марианна" creationdate="20200914T112800Z">
         <seg>The histogram for { {% math %}ab, abc, acd{% endmath %} } cluster contains 4 different items, and its area is equal to 8 blocks ({% math %}H=2.0, H/W=0.5{% endmath %}), and { {% math %}acd, de, def{% endmath %} } cluster contains 5 different items with the same area ({% math %}H=1.6, H/W=0.32{% endmath %}).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Гистограммой кластера {% math %}C{% endmath %} называется графическое изображение его расчетных характеристик: по оси {% math %}OX{% endmath %} откладываются объекты кластера в порядке убывания величины {% math %}Occ(i,C){% endmath %}, а сама величина {% math %}Occ(i,C){% endmath %} – по оси {% math %}OY{% endmath %} (рис.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T121728Z" creationid="Марианна" creationdate="20200914T121728Z">
+        <seg>The histogram of {% math %}C{% endmath %} cluster is called the graphic presentation of its estimated characteristics: with cluster objects along the {% math %}OX{% endmath %}-axis decreasingly ordered by {% math %}Occ(i,C){% endmath %} value, and  {% math %}Occ(i,C){% endmath %} value – along the {% math %}OY{% endmath %}-axis (refer to Figure</seg>
       </tuv>
     </tu>
     <tu>
