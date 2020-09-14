@@ -172,6 +172,14 @@
         <seg>operation under condition of the restricted computer RAM capacity;</seg>
       </tuv>
     </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>работу алгоритма можно прервать с сохранением промежуточных результатов, чтобы продолжить вычисления позже;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T063738Z" creationid="Марианна" creationdate="20200914T063738Z">
+        <seg>possibility to interrupt the algorithm operation providing saving of intermediate results to continue calculations later;</seg>
+      </tuv>
+    </tu>
 <!-- Alternative translations -->
   </body>
 </tmx>
