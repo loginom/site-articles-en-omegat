@@ -1056,6 +1056,14 @@ of clusters and table size.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Задача о грибах (The mushroom dataset) – популярный тест, который применяют для оценки алгоритмов кластеризации категорийных наборов данных (доступен на &lt;x1/&gt;UCI machine learning repository&lt;x2/&gt;).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T200234Z" creationid="Марианна" creationdate="20200914T200234Z">
+        <seg>The mushroom dataset is a popular test that is used for assessment of clustering algorithms used for categorical data sets (it is available in &lt;x1/&gt;UCI machine learning repository&lt;x2/&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Задачи &lt;x1/&gt;кластеризации&lt;x2/&gt; больших массивов &lt;x3/&gt;категорийных данных&lt;x4/&gt; весьма актуальна для систем анализа данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200911T073256Z" creationid="Марианна" creationdate="20200911T073256Z">
@@ -1556,10 +1564,26 @@ the initial clustering, driven by function {% math %}Profit(C,r){% endmath %}.</
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Тестовая выборка содержит 8124 записи с описанием 22 характеристик грибов двух классов: 4208 съедобных ({% math %}e{% endmath %}) и 3916 несъедобных ({% math %}p{% endmath %}) грибов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T200417Z" creationid="Марианна" creationdate="20200914T200417Z">
+        <seg>The test set contains 8,124 records with description of 22 characteristics of two types of mushrooms: 4,208 edible mushrooms ({% math %}e{% endmath %}) and 3,916 poisonous mushrooms ({% math %}p{% endmath %}).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Традиционные алгоритмы кластеризации в большинстве случаев не эффективны при обработке сверхбольших баз данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200911T065952Z" creationid="Марианна" creationdate="20200911T065952Z">
         <seg>In the majority of cases, traditional clustering algorithms are not effective while large databases processing.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Файл выборки имеет следующий вид:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T200501Z" creationid="Марианна" creationdate="20200914T200501Z">
+        <seg>The set file is as follows:</seg>
       </tuv>
     </tu>
     <tu>
