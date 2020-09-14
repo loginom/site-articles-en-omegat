@@ -230,6 +230,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>CLOPE позволяет решать задачи кластеризации не только транзакционных данных, но и любых категорийных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T194551Z" creationid="Марианна" creationdate="20200914T194551Z">
+        <seg>CLOPE enables to complete the clustering tasks not only for transactional data but also for any categorical data.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>CLOPE предложен в 2002 году группой китайских ученых.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T070315Z" creationid="Марианна" creationdate="20200914T070315Z">
@@ -951,6 +959,14 @@ much higher as compared with the pair-wise comparison of transactions.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T193951Z" creationid="Марианна" creationdate="20200914T193951Z">
         <seg>Suppose the average length of a transaction is {% math %}A{% endmath %}, the total number of transactions is {% math %}N{% endmath %}, and the maximum possible number of clusters is {% math %}K{% endmath %}.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Рассказав о реализации алгоритма, мы ничего не сказали о виде таблицы транзакций, чтобы можно было применять алгоритм CLOPE.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T194437Z" creationid="Марианна" creationdate="20200914T194437Z">
+        <seg>Having described the algorithm implementation, we said nothing about the type of the transactions table to make usage of the CLOPE algorithm possible.</seg>
       </tuv>
     </tu>
     <tu>
