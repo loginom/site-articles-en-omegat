@@ -278,6 +278,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если в текущем проходе по таблице изменений не произошло, то алгоритм прекращает свою работу.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T140146Z" creationid="Марианна" creationdate="20200914T140146Z">
+        <seg>If no changes are made in the current scan in the table, the algorithm will stop.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Задача кластеризации транзакционных данных состоит в получении такого разбиения всего множества транзакций, чтобы похожие транзакции оказались в одном кластере, а отличающиеся друг от друга — в разных кластерах.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T072638Z" creationid="Марианна" creationdate="20200914T072638Z">
@@ -545,6 +553,14 @@ much higher as compared with the pair-wise comparison of transactions.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>После этого требуется незначительное (1-3) количество дополнительных сканирований таблицы для повышения качества кластеризации и оптимизации функции стоимости.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T140024Z" creationid="Марианна" creationdate="20200914T140024Z">
+        <seg>After that, insignificant (1-3) number of additional table scans are required to increase the clustering quality and optimize the cost function.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Поэтому алгоритм должен выбирать такие разбиения, которые максимизируют {% math %}H{% endmath %}.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T122651Z" creationid="Марианна" creationdate="20200914T122651Z">
@@ -589,6 +605,14 @@ much higher as compared with the pair-wise comparison of transactions.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T060249Z" creationid="Марианна" creationdate="20200911T075234Z">
         <seg>It is not effective and sometimes even impossible to use traditional algorithms for clustering of objects with categorical features (more detailed information is available in the mateiral called</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Псевдокод алгоритма имеет следующий вид.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T140244Z" creationid="Марианна" creationdate="20200914T140244Z">
+        <seg>The algorithm pseudocode is as follows:</seg>
       </tuv>
     </tu>
     <tu>
