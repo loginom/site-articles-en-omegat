@@ -495,6 +495,14 @@ respectively for the number of transactions, the number of objects in the base o
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Как видно, алгоритм CLOPE является масштабируемым, поскольку способен работать в ограниченном объеме оперативной памяти компьютера.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T141336Z" creationid="Марианна" creationdate="20200914T141336Z">
+        <seg>It is evident that the CLOPE algorithm is scalable because it can work in the limited RAM space.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Категорийные данные встречаются в любых областях: производство, коммерция, маркетинг, медицина… Категорийные данные включают в себя и так называемые транзакционные данные: чеки в супермаркетах, логи посещений веб-ресурсов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200911T074229Z" creationid="Марианна" creationdate="20200911T074229Z">
