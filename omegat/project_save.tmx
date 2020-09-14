@@ -570,8 +570,8 @@ respectively for the number of transactions, the number of objects in the base o
       <tuv lang="ru">
         <seg>Можно посчитать, что для хранения частоты вхождений 10 тыс.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200914T191022Z" creationid="Марианна" creationdate="20200914T191022Z">
-        <seg>It is easy to calculate that frequency of occurrences equal to 10 thous.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T191232Z" creationid="Марианна" creationdate="20200914T191022Z">
+        <seg>It is easy to calculate that frequency of occurrences equal to 10 k</seg>
       </tuv>
     </tu>
     <tu>
@@ -901,8 +901,8 @@ the initial clustering, driven by function {% math %}Profit(C,r){% endmath %}.</
       <tuv lang="ru">
         <seg>кластерах необходимо около 40 Мб оперативной памяти.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200914T190750Z" creationid="Марианна" creationdate="20200914T190750Z">
-        <seg>кластерах  can be fit into a 40M RAM.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T191147Z" creationid="Марианна" creationdate="20200914T190750Z">
+        <seg>clusters can be fit into a 40M RAM.</seg>
       </tuv>
     </tu>
     <tu>
@@ -919,6 +919,14 @@ the initial clustering, driven by function {% math %}Profit(C,r){% endmath %}.</
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T063349Z" creationid="Марианна" creationdate="20200914T063349Z">
         <seg>minimum possible number of the database table "scans";</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>объектов в 1 тыс.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T191321Z" creationid="Марианна" creationdate="20200914T191037Z">
+        <seg>objects with a clustering of 1k</seg>
       </tuv>
     </tu>
     <tu>
