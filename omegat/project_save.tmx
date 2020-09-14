@@ -86,6 +86,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Задача кластеризации транзакционных данных состоит в получении такого разбиения всего множества транзакций, чтобы похожие транзакции оказались в одном кластере, а отличающиеся друг от друга — в разных кластерах.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T072638Z" creationid="Марианна" creationdate="20200914T072638Z">
+        <seg>The task of the transactional data clustering is to provide clustering of the whole set of transactions to place all similar transactions into one cluster and the different ones - into different clusters.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Задачи &lt;x1/&gt;кластеризации&lt;x2/&gt; больших массивов &lt;x3/&gt;категорийных данных&lt;x4/&gt; весьма актуальна для систем анализа данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200911T073256Z" creationid="Марианна" creationdate="20200911T073256Z">
@@ -184,8 +192,8 @@
       <tuv lang="ru">
         <seg>Под термином &lt;x1/&gt;транзакция&lt;x2/&gt; здесь понимается некоторый произвольный набор объектов, будь это список ключевых слов статьи, товары, купленные в супермаркете, множество симптомов пациента, характерные фрагменты изображения и так далее.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200914T072422Z" creationid="Марианна" creationdate="20200914T072422Z">
-        <seg>In this case, the &lt;x1/&gt;transaction&lt;x2/&gt; means a random set of objects, for example, a list of key words in an article, goods bought in the supermarket, a set of  patient symptoms, typical image elements, etc.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T072449Z" creationid="Марианна" creationdate="20200914T072422Z">
+        <seg>In this case, the &lt;x1/&gt;transaction&lt;x2/&gt; means a random set of objects, for example, a list of key words in an article, goods bought in the supermarket, a set of patient symptoms, typical image elements, etc.</seg>
       </tuv>
     </tu>
     <tu>
