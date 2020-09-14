@@ -14,6 +14,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Алгоритм CLOPE, который мы рассматриваем в данной статье, очень похож на LargeItem, но быстрее и проще в программной реализации.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T070105Z" creationid="Марианна" creationdate="20200914T070105Z">
+        <seg>The CLOPE algorithm analysed in this article is similar to LargeItem but it is faster and easier as far as software implementation is concerned.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Алгоритмы, основанные на парном вычислении расстояний (&lt;x1/&gt;k-means&lt;x2/&gt; и аналоги) эффективны в основном на числовых данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T061026Z" creationid="Марианна" creationdate="20200914T061026Z">
