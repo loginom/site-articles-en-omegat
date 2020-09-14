@@ -174,10 +174,26 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>1</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T195133Z" creationid="Марианна" creationdate="20200914T195133Z">
+        <seg>1</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>1 эти результаты показаны геометрически в виде гистограмм.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T111923Z" creationid="Марианна" creationdate="20200914T111923Z">
         <seg>1 shows these results geometrically in the form of histograms.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>2</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T195139Z" creationid="Марианна" creationdate="20200914T195139Z">
+        <seg>2</seg>
       </tuv>
     </tu>
     <tu>
@@ -194,6 +210,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T121732Z" creationid="Марианна" creationdate="20200914T121732Z">
         <seg>2).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>256</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T195136Z" creationid="Марианна" creationdate="20200914T195136Z">
+        <seg>256</seg>
       </tuv>
     </tu>
     <tu>
@@ -230,6 +254,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>CIKM’99, Kansas, Missouri, 1999.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T195024Z" creationid="Марианна" creationdate="20200914T195024Z">
+        <seg>CIKM’99, Kansas, Missouri, 1999.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>CLOPE позволяет решать задачи кластеризации не только транзакционных данных, но и любых категорийных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T194551Z" creationid="Марианна" creationdate="20200914T194551Z">
@@ -246,10 +278,82 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>CLOPE: A fast and Effective Clustering Algorithm for Transactional Data In Proc.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T194959Z" creationid="Марианна" creationdate="20200914T194959Z">
+        <seg>CLOPE: A fast and Effective Clustering Algorithm for Transactional Data In Proc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>CLUSTER</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T195122Z" creationid="Марианна" creationdate="20200914T195122Z">
+        <seg>CLUSTER</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Clustering transactions using large items.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T195016Z" creationid="Марианна" creationdate="20200914T195016Z">
+        <seg>Clustering transactions using large items.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>In Proc.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T195021Z" creationid="Марианна" creationdate="20200914T195021Z">
+        <seg>In Proc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>J.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T194954Z" creationid="Марианна" creationdate="20200914T194954Z">
+        <seg>J.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Liu, B.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T195011Z" creationid="Марианна" creationdate="20200914T195011Z">
+        <seg>Liu, B.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Wang, K., Xu, C..</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T195007Z" creationid="Марианна" creationdate="20200914T195007Z">
+        <seg>Wang, K., Xu, C..</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Yang, Y., Guan, H., You.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T194949Z" creationid="Марианна" creationdate="20200914T194949Z">
+        <seg>Yang, Y., Guan, H., You.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>begin</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T191612Z" creationid="Марианна" creationdate="20200914T191612Z">
         <seg>begin</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>e</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T195125Z" creationid="Марианна" creationdate="20200914T195125Z">
+        <seg>e</seg>
       </tuv>
     </tu>
     <tu>
@@ -266,6 +370,22 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T191608Z" creationid="Марианна" creationdate="20200914T191608Z">
         <seg>function DeltaAdd(C,t,r): double;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>of SIGKDD’02, July 23-26, 2002, Edmonton, Alberta, Canada.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T195003Z" creationid="Марианна" creationdate="20200914T195003Z">
+        <seg>of SIGKDD’02, July 23-26, 2002, Edmonton, Alberta, Canada.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>p</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T195129Z" creationid="Марианна" creationdate="20200914T195129Z">
+        <seg>p</seg>
       </tuv>
     </tu>
     <tu>
@@ -717,6 +837,14 @@ respectively for the number of transactions, the number of objects in the base o
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T112258Z" creationid="Марианна" creationdate="20200914T112258Z">
         <seg>{ {% math %}de, def{% endmath %} } and { {% math %}ab, abc{% endmath %} } clusters have the similar histograms, consequently, they are equivalent.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Литература</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T195120Z" creationid="Марианна" creationdate="20200914T195120Z">
+        <seg>Bibliography</seg>
       </tuv>
     </tu>
     <tu>
