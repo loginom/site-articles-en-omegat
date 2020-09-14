@@ -22,6 +22,22 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>{  { {% math %}ab, abc, acd{% endmath %} }, { {% math %}de, def{% endmath %} } } , (1)</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T073335Z" creationid="Марианна" creationdate="20200914T073335Z">
+        <seg>{  { {% math %}ab, abc, acd{% endmath %} }, { {% math %}de, def{% endmath %} } } , (1)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>{ { {% math %}ab, abc{% endmath %} }, { {% math %}acd, de, def{% endmath %} } }, (2)</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T073341Z" creationid="Марианна" creationdate="20200914T073341Z">
+        <seg>{ { {% math %}ab, abc{% endmath %} }, { {% math %}acd, de, def{% endmath %} } }, (2)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Алгоритм CLOPE, который мы рассматриваем в данной статье, очень похож на LargeItem, но быстрее и проще в программной реализации.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T070105Z" creationid="Марианна" creationdate="20200914T070105Z">
