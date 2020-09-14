@@ -85,29 +85,31 @@ The formal clustering task using the CLOPE algorithm is as follows: it is requir
 
 ## The Algorithm Implementation
 
-Предположим, что транзакции хранятся в таблице базы данных. Лучшее решение ищется в течение последовательного итеративного перебора записей базы данных. Поскольку критерий оптимизации имеет глобальный характер, основанный только на расчете {% math %}H{% endmath %} и {% math %}W{% endmath %}, производительность и скорость алгоритма будет значительно выше, чем при попарном сравнении транзакций.
+Let's assume that transactions are kept in the database table. We approximate the best solution by sequential iterative scanning of the database records. As the optimization criterion is defined globally based only on calculation of {% math %}H{% endmath %} and {% math %}W{% endmath %}, the algorithm performance and speed will be
+much higher as compared with the pair-wise comparison of transactions.
 
-Реализация алгоритма требует первого прохода по таблице транзакций для построения начального разбиения, определяемого функцией {% math %}Profit(C,r){% endmath %}. После этого требуется незначительное (1-3) количество дополнительных сканирований таблицы для повышения качества кластеризации и оптимизации функции стоимости. Если в текущем проходе по таблице изменений не произошло, то алгоритм прекращает свою работу. Псевдокод алгоритма имеет следующий вид.
+The algorithm implementation requires the first scan of the transaction table to build
+the initial clustering, driven by function {% math %}Profit(C,r){% endmath %}. After that, insignificant (1-3) number of additional table scans are required to increase the clustering quality and optimize the cost function. If no changes are made in the current scan in the table, the algorithm will stop. The algorithm pseudocode is as follows:
 
-1. // Фаза 1 – инициализация
-2. &nbsp;&nbsp; Пока не конец
-3. &nbsp;&nbsp;&nbsp;&nbsp;прочитать из таблицы следующую транзакцию [t, -];
-4. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;положить t в существующий либо в новый кластер C<sub>i</sub>, который дает максимум Profit(C,r);
-5. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;записать [t,i] в таблицу (номер кластера);
-6. // Фаза 2 – Итерация
-7. &nbsp;&nbsp;Повторять
-8. &nbsp;&nbsp;&nbsp;&nbsp;перейти в начало таблицы;
+1. // Phase 1 – initialization
+2. &nbsp;&nbsp; not the end yet
+3. &nbsp;&nbsp;&nbsp;&nbsp; read the following transaction from the table [t, -];
+4. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;place t into the existing or new cluster C<sub>i</sub>, that provides maximum Profit(C,r);
+5. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;write [t,i] to the table (cluster number);
+6. // Phase 2 – Iteration
+7. &nbsp;&nbsp;Repeat
+8. &nbsp;&nbsp;&nbsp;&nbsp;go to the table start;
 9. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;moved := false;
-10. &nbsp;&nbsp;&nbsp;&nbsp;пока не конец таблицы
-11. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;читать [t,i];
-12. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;положить t в существующий либо в новый кластер C<sub>j</sub>, который максимизирует Profit(C,r);
-13. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;если C<sub>i</sub>&lt;&gt;C<sub>j</sub> тогда
-14. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;записать [t,i];
+10. &nbsp;&nbsp;&nbsp;&nbsp;not the table end yet
+11. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;read [t,i];
+12. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;place t into the existing or new cluster C<sub>j</sub>, that provides maximum Profit(C,r);
+13. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if C<sub>i</sub>&lt;&gt;C<sub>j</sub> then
+14. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;write [t,i];
 15. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;moved := true;
-16. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;пока (not moved).
-17. удалить все пустые кластеры;
+16. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;yet (not moved).
+17. delete all blank clusters;
 
-Как видно, алгоритм CLOPE является масштабируемым, поскольку способен работать в ограниченном объеме оперативной памяти компьютера. Во время работы в RAM хранится только текущая транзакция и небольшое количество информации по каждому кластеру, которая состоит из: количества транзакций {% math %}N{% endmath %}, числа уникальных объектов (или ширины кластера) {% math %}W{% endmath %}, простой хэш-таблицы для расчета {% math %}Occ(i,C){% endmath %} и значения {% math %}S{% endmath %} площади кластера. Они называются кластерными характеристиками (CF – cluster features). Для простоты обозначим их как свойства кластера {% math %}C{% endmath %}, например, {% math %}C.Occ[i]{% endmath %} означает число вхождений объекта {% math %}i{% endmath %} в кластер {% math %}C{% endmath %} и т.д. Можно посчитать, что для хранения частоты вхождений 10 тыс. объектов в 1 тыс. кластерах необходимо около 40 Мб оперативной памяти.
+It is evident that the CLOPE algorithm is scalable because it can work in the limited RAM space. Во время работы в RAM хранится только текущая транзакция и небольшое количество информации по каждому кластеру, которая состоит из: количества транзакций {% math %}N{% endmath %}, числа уникальных объектов (или ширины кластера) {% math %}W{% endmath %}, простой хэш-таблицы для расчета {% math %}Occ(i,C){% endmath %} и значения {% math %}S{% endmath %} площади кластера. Они называются кластерными характеристиками (CF – cluster features). Для простоты обозначим их как свойства кластера {% math %}C{% endmath %}, например, {% math %}C.Occ[i]{% endmath %} означает число вхождений объекта {% math %}i{% endmath %} в кластер {% math %}C{% endmath %} и т.д. Можно посчитать, что для хранения частоты вхождений 10 тыс. объектов в 1 тыс. кластерах необходимо около 40 Мб оперативной памяти.
 
 Для завершения реализации алгоритма нам нужны еще две функции, рассчитывающие прирост {% math %}Profit(C,r){% endmath %} при добавлении и удалении транзакции из кластера. Это легко сделать, зная величины {% math %}S{% endmath %}, {% math %}W{% endmath %} и {% math %}N{% endmath %} каждого кластера:
 
