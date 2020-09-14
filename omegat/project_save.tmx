@@ -198,6 +198,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Например, кластер { {% math %}ab, abc, acd{% endmath %} } имеет вхождения {% math %}a:3{% endmath %}, {% math %}b:2{% endmath %}, {% math %}c:2{% endmath %} с {% math %}H=2{% endmath %} и {% math %}W=4{% endmath %}.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T111745Z" creationid="Марианна" creationdate="20200914T111745Z">
+        <seg>For example, { {% math %}ab, abc, acd{% endmath %} } cluster has {% math %}a:3{% endmath %}, {% math %}b:2{% endmath %}, {% math %}c:2{% endmath %} с {% math %}H=2{% endmath %} and {% math %}W=4{% endmath %} occurrences.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Но не всегда они удовлетворяют перечисленным выше требованиям.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T064325Z" creationid="Марианна" creationdate="20200914T064325Z">
