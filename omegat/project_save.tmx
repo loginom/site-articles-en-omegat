@@ -214,6 +214,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Представим себе, что мы хотим сравнить между собой следующие два разбиения на кластеры:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T073332Z" creationid="Марианна" creationdate="20200914T073332Z">
+        <seg>Imagine that it is required to compare two cases of clustering with each other:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При этом он обеспечивает более высокую производительность и лучшее качество кластеризации в сравнении с алгоритмом LargeItem и многими иерархическими алгоритмами.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T070449Z" creationid="Марианна" creationdate="20200914T070449Z">
@@ -226,6 +234,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T060249Z" creationid="Марианна" creationdate="20200911T075234Z">
         <seg>It is not effective and sometimes even impossible to use traditional algorithms for clustering of objects with categorical features (more detailed information is available in the mateiral called</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Рассмотрим простой пример из 5 транзакций: { {% math %}(a,b){% endmath %}, {% math %}(a,b,c){% endmath %}, {% math %}(a,c,d){% endmath %}, {% math %}(d,e){% endmath %}, {% math %}(d,e,f){% endmath %} }.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T073027Z" creationid="Марианна" creationdate="20200914T073027Z">
+        <seg>Let's consider a simple example that consists of 5 transactions: { {% math %}(a,b){% endmath %}, {% math %}(a,b,c){% endmath %}, {% math %}(a,c,d){% endmath %}, {% math %}(d,e){% endmath %}, {% math %}(d,e,f){% endmath %} }.</seg>
       </tuv>
     </tu>
     <tu>
