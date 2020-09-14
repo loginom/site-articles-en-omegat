@@ -14,6 +14,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>2).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T121732Z" creationid="Марианна" creationdate="20200914T121732Z">
+        <seg>2).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Разбиение на группы со схожими характеристиками категорийных и транзакционных массивов данных в больших БД является важнейшей задачей Data Mining.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200911T065435Z" creationid="Марианна" creationdate="20200911T065435Z">
@@ -26,6 +34,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T111929Z" creationid="Марианна" creationdate="20200914T111929Z">
         <seg>&lt;x1/&gt;Figure 1.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Рисунок 2.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T121740Z" creationid="Марианна" creationdate="20200914T121740Z">
+        <seg>&lt;x1/&gt;Figure 2.</seg>
       </tuv>
     </tu>
     <tu>
@@ -242,6 +258,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T114519Z" creationid="Марианна" creationdate="20200914T062402Z">
         <seg>And the importance lies not so much in the complexity of metrics definition to calculate distances between the categorical &lt;x3/&gt;attributes&lt;x4/&gt;, as in the fact that it is required to provide pair-wise comparison of objects with each other for each algorithm iteration, and there can be too many iterations.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Иллюстрация гистограммы кластера&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T121855Z" creationid="Марианна" creationdate="20200914T121855Z">
+        <seg>Representation of the histogram of cluster&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
