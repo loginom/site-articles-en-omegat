@@ -592,6 +592,14 @@ transactions (consequently, {% math %}H{% endmath %} parameter is higher).</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Реализация алгоритма</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T133409Z" creationid="Марианна" creationdate="20200914T133409Z">
+        <seg>The Algorithm Implementation</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>С помощью параметра {% math %}r{% endmath %}, названного авторами CLOPE коэффициентом отталкивания (repulsion), регулируется уровень сходства транзакций внутри кластера, и, как следствие, финальное количество кластеров.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T132944Z" creationid="Марианна" creationdate="20200914T132926Z">
