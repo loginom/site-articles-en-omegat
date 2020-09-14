@@ -519,6 +519,22 @@ cluster is kept in the RAM space during the work. It includes the number of tran
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Заметим, что {% math %}DeltaAdd(C,t,r){% endmath %} при добавлении {% math %}t{% endmath %} в новый кластер равна {% math %}S/W^r{% endmath %}, где {% math %}S{% endmath %} и {% math %}W{% endmath %} – площадь и ширина кластера, состоящего из добавляемой транзакции {% math %}t{% endmath %}.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T191907Z" creationid="Марианна" creationdate="20200914T191907Z">
+        <seg>Note that {% math %}DeltaAdd(C,t,r){% endmath %} when adding {% math %}t{% endmath %} to the new cluster is equal to {% math %}S/W^r{% endmath %}, where {% math %}S{% endmath %} and {% math %}W{% endmath %} – area and width of the cluster that consists of the added transaction {% math %}t{% endmath %}.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Здесь {% math %}t.Items&lt;x1/&gt;i&lt;x2/&gt;{% endmath %} – значение {% math %}i{% endmath %}-го объекта транзакции {% math %}t{% endmath %}.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T191750Z" creationid="Марианна" creationdate="20200914T191750Z">
+        <seg>In this case, {% math %}t.Items&lt;x1/&gt;i&lt;x2/&gt;{% endmath %} – value {% math %}i{% endmath %}- transaction object {% math %}t{% endmath %}.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Здесь и далее под категорийными данными понимаются качественные характеристики объектов, измеренные в &lt;x1/&gt;шкале&lt;x2/&gt; наименований.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200911T074534Z" creationid="Марианна" creationdate="20200911T074534Z">
@@ -895,6 +911,14 @@ much higher as compared with the pair-wise comparison of transactions.</seg>
       <tuv lang="en" changeid="Марианна" changedate="20200914T135844Z" creationid="Марианна" creationdate="20200914T135844Z">
         <seg>The algorithm implementation requires the first scan of the transaction table to build
 the initial clustering, driven by function {% math %}Profit(C,r){% endmath %}.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Реализация функции прироста {% math %}Profit(C,r){% endmath %} при удалении транзакции похожа на {% math %}DeltaAdd(C,t,r){% endmath %}, поэтому опустим ее подробный код.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T192106Z" creationid="Марианна" creationdate="20200914T192106Z">
+        <seg>Implentation of the profit function {% math %}Profit(C,r){% endmath %} when deleting a transaction is similar to {% math %}DeltaAdd(C,t,r){% endmath %}, that's why let's omit its detailed code.</seg>
       </tuv>
     </tu>
     <tu>
