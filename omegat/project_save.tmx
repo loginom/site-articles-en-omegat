@@ -8,8 +8,48 @@
       <tuv lang="ru">
         <seg>&amp;nbsp;&amp;nbsp; Пока не конец</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200914T140521Z" creationid="Марианна" creationdate="20200914T140521Z">
-        <seg>&amp;nbsp;&amp;nbsp; It's not the end yet</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T140528Z" creationid="Марианна" creationdate="20200914T140521Z">
+        <seg>&amp;nbsp;&amp;nbsp; not the end yet</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;записать &lt;x1/&gt;t,i&lt;x2/&gt; в таблицу (номер кластера);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T140713Z" creationid="Марианна" creationdate="20200914T140656Z">
+        <seg>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;write &lt;x1/&gt;t,i&lt;x2/&gt; to the table (cluster number);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;положить t в существующий либо в новый кластер C&lt;x1/&gt;i&lt;x2/&gt;, который дает максимум Profit(C,r);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T140641Z" creationid="Марианна" creationdate="20200914T140641Z">
+        <seg>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;place t into the existing or new cluster C&lt;x1/&gt;i&lt;x2/&gt;, that provides maximum Profit(C,r);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;перейти в начало таблицы;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T140745Z" creationid="Марианна" creationdate="20200914T140745Z">
+        <seg>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;go to the table beginning;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;прочитать из таблицы следующую транзакцию &lt;x1/&gt;t, -&lt;x2/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T140700Z" creationid="Марианна" creationdate="20200914T140547Z">
+        <seg>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; read the following transaction from the table &lt;x1/&gt;t, -&lt;x2/&gt;;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&amp;nbsp;&amp;nbsp;Повторять</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T140731Z" creationid="Марианна" creationdate="20200914T140731Z">
+        <seg>&amp;nbsp;&amp;nbsp;Repeat</seg>
       </tuv>
     </tu>
     <tu>
@@ -18,6 +58,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T140313Z" creationid="Марианна" creationdate="20200914T140313Z">
         <seg>// Phase 1 – initialization</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>// Фаза 2 – Итерация</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T140724Z" creationid="Марианна" creationdate="20200914T140724Z">
+        <seg>// Phase 2 – Iteration</seg>
       </tuv>
     </tu>
     <tu>
