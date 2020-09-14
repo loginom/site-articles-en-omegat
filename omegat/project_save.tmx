@@ -126,6 +126,30 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>{% math %}k{% endmath %} – количество кластеров</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T132504Z" creationid="Марианна" creationdate="20200914T132504Z">
+        <seg>{% math %}k{% endmath %} – the number of clusters</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>{% math %}r{% endmath %} – положительное вещественное число большее 1.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T132557Z" creationid="Марианна" creationdate="20200914T132557Z">
+        <seg>{% math %}r{% endmath %} – positive real number exceeding 1.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>{% math %}|Ci|{% endmath %} – количество транзакций в {% math %}i{% endmath %}-том кластере</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T132454Z" creationid="Марианна" creationdate="20200914T132454Z">
+        <seg>{% math %}|Ci|{% endmath %} – the number of transactions in {% math %}i{% endmath %} cluster</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Алгоритм CLOPE</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T115359Z" creationid="Марианна" creationdate="20200914T115359Z">
@@ -564,6 +588,14 @@ transactions (consequently, {% math %}H{% endmath %} parameter is higher).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T073027Z" creationid="Марианна" creationdate="20200914T073027Z">
         <seg>Let's consider a simple example that consists of 5 transactions: { {% math %}(a,b){% endmath %}, {% math %}(a,b,c){% endmath %}, {% math %}(a,c,d){% endmath %}, {% math %}(d,e){% endmath %}, {% math %}(d,e,f){% endmath %} }.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>С помощью параметра {% math %}r{% endmath %}, названного авторами CLOPE коэффициентом отталкивания (repulsion), регулируется уровень сходства транзакций внутри кластера, и, как следствие, финальное количество кластеров.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T132926Z" creationid="Марианна" creationdate="20200914T132926Z">
+        <seg>{% math %}r{% endmath %} parameter called repulsion by the CLOPE authors enables to control the level of intra-cluster similarity, and the final number of clusters, as a consequence.</seg>
       </tuv>
     </tu>
     <tu>
