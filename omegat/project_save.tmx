@@ -54,6 +54,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>И дело даже не столько в сложности задания метрики для вычисления расстояния между категорийными &lt;x3/&gt;атрибутами&lt;x4/&gt;, сколько в том, что на каждой итерации алгоритма требуется попарно сравнивать объекты между собой, а итераций может быть очень много.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T062402Z" creationid="Марианна" creationdate="20200914T062402Z">
+        <seg>And the importance lies not so much in the complexity of metrics definition to calculate distances between the categorical &lt;x3/&gt;attributes&lt;x4/&gt;, as in the fact that it is required to provide pairwise comparison of objects with each other for each algorithm iteration, and there can be too many iterations.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Их производительность на массивах записей с большим количеством нечисловых факторов неудовлетворительная.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T061800Z" creationid="Марианна" creationdate="20200914T061800Z">
