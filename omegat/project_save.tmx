@@ -22,6 +22,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Рисунок 1.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T111929Z" creationid="Марианна" creationdate="20200914T111929Z">
+        <seg>&lt;x1/&gt;Figure 1.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>CLOPE предложен в 2002 году группой китайских ученых.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T070315Z" creationid="Марианна" creationdate="20200914T070315Z">
@@ -98,6 +106,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T071955Z" creationid="Марианна" creationdate="20200914T071955Z">
         <seg>The case will be described as though we had a database of transactional data, and in the end it will be explained how to use CLOPE to &lt;x1/&gt;cluster&lt;x2/&gt; any categorical arrays working with them as with the transactional ones.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Гистограммы двух разбиений&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T111951Z" creationid="Марианна" creationdate="20200914T111951Z">
+        <seg>Histograms of two clustering cases&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -186,6 +202,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200911T074229Z" creationid="Марианна" creationdate="20200911T074229Z">
         <seg>The categorical data occur in all spheres: industry, trade, marketing, medicine, etc. The categorical data include so-called transactional data: supermarket receipts, tracking data of web surfing.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Качество двух разбиений оценим, проанализировав их высоту {% math %}H{% endmath %} и ширину {% math %}W{% endmath %}.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T112157Z" creationid="Марианна" creationdate="20200914T112157Z">
+        <seg>Let's estimate the quality of two clustring cases according to analysis of their {% math %}H{% endmath %} height and {% math %}W{% endmath %} width.</seg>
       </tuv>
     </tu>
     <tu>
