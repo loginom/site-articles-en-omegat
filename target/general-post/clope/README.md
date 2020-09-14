@@ -67,23 +67,23 @@ The histogram of {% math %}C{% endmath %} cluster is called the graphic presenta
 
 Figure 2 shows that {% math %}S(C)=8{% endmath %}, it complies with the area of the rectangle restricted by coordinate axes and dashed line. It's straightforward that the larger {% math %}H{% endmath %} value is, the more similar the two transactions are. That's why the algorithm must select the clusterings that maximize {% math %}H{% endmath %}.
 
-However, {% math %}H{% endmath %} height value alone is not enough. Возьмем базу, состоящую из 2-х транзакций: { {% math %}abc, def{% endmath %} }. Они не содержат общих объектов, но разбиение { { {% math %}abc, def{% endmath %} } } и разбиение { { {% math %}abc{% endmath %} }, { {% math %}def{% endmath %} } } характеризуются одинаковой высотой {% math %}H=1{% endmath %}. Получается, оба варианта разбиения равноценны. Но если для оценки вместо {% math %}H(C){% endmath %} использовать градиент {% math %}G(C)=H(C)/W(C)=S(C)/W(C)^2{% endmath %}, то разбиение { { {% math %}abc{% endmath %} },{ {% math %}def{% endmath %} } } будет лучше (градиент каждого кластера равен 1/3 против 1/6 у разбиения { { {% math %}abc, def{% endmath %} } }).
+However, {% math %}H{% endmath %} height value alone is not enough. Let's take a base that contains 2 transactions: { {% math %}abc, def{% endmath %} }. They do not contain shared objects but { { {% math %}abc, def{% endmath %} } } clustering and { { {% math %}abc{% endmath %} }, { {% math %}def{% endmath %} } } clustering have the same {% math %}H=1{% endmath %} height. Thus, both clustering cases are equivalent. But if we use gradient {% math %}G(C)=H(C)/W(C)=S(C)/W(C)^2{% endmath %} insteda of {% math %}H(C){% endmath %} as the quality measure, then { { {% math %}abc{% endmath %} },{ {% math %}def{% endmath %} } } clustering will be better (the gradient of each cluster is equal to 1/3 as compared with 1/6 of clustering { { {% math %}abc, def{% endmath %} } }).
 
-Обобщив вышесказанное, запишем формулу для вычисления глобального критерия – функции стоимости {% math %}Profit(C){% endmath %}:
+Having generalized the information above, let's take down the formula for calculation of the global criterion – cost function {% math %}Profit(C){% endmath %}:
 
 {% math %}Profit (C) = \frac {\sum_{i=1}^k G(C_i)\times\mid C_i\mid}{\sum_{i=1}^k \mid C_i\mid}=\frac {\sum_{i=1}^k \frac{S(C_i)}{W(C_i)^r}\times\mid C_i\mid}{\sum_{i=1}^k \mid C_i\mid}{% endmath %}
 
-где:
+where:
 
-* {% math %}|Ci|{% endmath %} – количество транзакций в {% math %}i{% endmath %}-том кластере
-* {% math %}k{% endmath %} – количество кластеров
-* {% math %}r{% endmath %} – положительное вещественное число большее 1.
+* {% math %}|Ci|{% endmath %} – the number of transactions in {% math %}i{% endmath %} cluster
+* {% math %}k{% endmath %} – the number of clusters
+* {% math %}r{% endmath %} – positive real number exceeding 1.
 
-С помощью параметра {% math %}r{% endmath %}, названного авторами CLOPE коэффициентом отталкивания (repulsion), регулируется уровень сходства транзакций внутри кластера, и, как следствие, финальное количество кластеров. Этот коэффициент подбирается пользователем. Чем больше {% math %}r{% endmath %}, тем ниже уровень сходства и тем больше кластеров будет сгенерировано.
+{% math %}r{% endmath %} parameter called a repulsion coefficient by the CLOPE authors enables to control the level of intra-cluster similarity, and the final number of clusters, as a consequence. This coefficient is selected by a user. The higher is {% math %}r{% endmath %}, the lower the similarity level is and the more clusters will be generated.
 
-Формальная постановка задачи кластеризации алгоритмом CLOPE выглядит следующим образом: для заданных {% math %}D{% endmath %} и {% math %}r{% endmath %} найти разбиение {% math %}C: Profit(C,r) -> max{% endmath %}.
+The formal clustering task using the CLOPE algorithm is as follows: it is required to find clustering {% math %}C: Profit(C,r) -> max{% endmath %} for the set {% math %}D{% endmath %} and {% math %}r{% endmath %} .
 
-## Реализация алгоритма
+## The Algorithm Implementation
 
 Предположим, что транзакции хранятся в таблице базы данных. Лучшее решение ищется в течение последовательного итеративного перебора записей базы данных. Поскольку критерий оптимизации имеет глобальный характер, основанный только на расчете {% math %}H{% endmath %} и {% math %}W{% endmath %}, производительность и скорость алгоритма будет значительно выше, чем при попарном сравнении транзакций.
 
