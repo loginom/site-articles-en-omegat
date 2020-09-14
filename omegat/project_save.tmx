@@ -14,6 +14,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; if (C.Occ[t.items&lt;x1/&gt;i&lt;x2/&gt;]=0) then W_new := W_new + 1;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T191631Z" creationid="Марианна" creationdate="20200914T191631Z">
+        <seg>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; if (C.Occ[t.items&lt;x1/&gt;i&lt;x2/&gt;]=0) then W_new := W_new + 1;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;moved := true;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T141002Z" creationid="Марианна" creationdate="20200914T141002Z">
@@ -110,6 +118,38 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&amp;nbsp;&amp;nbsp;S_new := C.S + t.ItemCount;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T191616Z" creationid="Марианна" creationdate="20200914T191616Z">
+        <seg>&amp;nbsp;&amp;nbsp;S_new := C.S + t.ItemCount;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&amp;nbsp;&amp;nbsp;W_new := C.W;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T191623Z" creationid="Марианна" creationdate="20200914T191623Z">
+        <seg>&amp;nbsp;&amp;nbsp;W_new := C.W;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&amp;nbsp;&amp;nbsp;for i:=0 to t.ItemCount–1 do</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T191627Z" creationid="Марианна" creationdate="20200914T191627Z">
+        <seg>&amp;nbsp;&amp;nbsp;for i:=0 to t.ItemCount–1 do</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&amp;nbsp;&amp;nbsp;result := S_new &amp;#042; (C.N+1)/(W_new)&lt;x1/&gt;r&lt;x2/&gt; – C.S &amp;#042; C.N/(C.W)&lt;x3/&gt;r&lt;x4/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T191636Z" creationid="Марианна" creationdate="20200914T191636Z">
+        <seg>&amp;nbsp;&amp;nbsp;result := S_new &amp;#042; (C.N+1)/(W_new)&lt;x1/&gt;r&lt;x2/&gt; – C.S &amp;#042; C.N/(C.W)&lt;x3/&gt;r&lt;x4/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&amp;nbsp;&amp;nbsp;Повторять</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T140731Z" creationid="Марианна" creationdate="20200914T140731Z">
@@ -186,6 +226,30 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T070315Z" creationid="Марианна" creationdate="20200914T070315Z">
         <seg>CLOPE was proposed in 2002 by a team of the Chinese scientists.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>begin</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T191612Z" creationid="Марианна" creationdate="20200914T191612Z">
+        <seg>begin</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>end;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T191640Z" creationid="Марианна" creationdate="20200914T191640Z">
+        <seg>end;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>function DeltaAdd(C,t,r): double;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T191608Z" creationid="Марианна" creationdate="20200914T191608Z">
+        <seg>function DeltaAdd(C,t,r): double;</seg>
       </tuv>
     </tu>
     <tu>
@@ -385,8 +449,8 @@ cluster is kept in the RAM space during the work. It includes the number of tran
       <tuv lang="ru">
         <seg>Для завершения реализации алгоритма нам нужны еще две функции, рассчитывающие прирост {% math %}Profit(C,r){% endmath %} при добавлении и удалении транзакции из кластера.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200914T191452Z" creationid="Марианна" creationdate="20200914T191452Z">
-        <seg>To finish the algorithm implementation, we need two more functions that enable to calculate the profit {% math %}Profit(C,r){% endmath %} when addition or deleting transactions from the cluster.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T191517Z" creationid="Марианна" creationdate="20200914T191452Z">
+        <seg>To finish the algorithm implementation, we need two more functions that enable to calculate the profit {% math %}Profit(C,r){% endmath %} when adding or removing transactions from the cluster.</seg>
       </tuv>
     </tu>
     <tu>
@@ -871,6 +935,14 @@ the initial clustering, driven by function {% math %}Profit(C,r){% endmath %}.</
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T133125Z" creationid="Марианна" creationdate="20200914T133125Z">
         <seg>The higher is {% math %}r{% endmath %}, the lower the similarity level is and the more clusters will be generated.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Это легко сделать, зная величины {% math %}S{% endmath %}, {% math %}W{% endmath %} и {% math %}N{% endmath %} каждого кластера:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T191604Z" creationid="Марианна" creationdate="20200914T191604Z">
+        <seg>It is easy to do if you know the values {% math %}S{% endmath %}, {% math %}W{% endmath %} and {% math %}N{% endmath %} of each cluster:</seg>
       </tuv>
     </tu>
     <tu>
