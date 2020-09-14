@@ -407,6 +407,14 @@ respectively for the number of transactions, the number of objects in the base o
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Однако учитывать одно только значение высоты {% math %}H{% endmath %} недостаточно.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T122744Z" creationid="Марианна" creationdate="20200914T122744Z">
+        <seg>However, {% math %}H{% endmath %} height value alone is not enough.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Одним из эффективных считается алгоритм LargeItem, который основан на оптимизации некоторого глобального критерия.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T064540Z" creationid="Марианна" creationdate="20200914T064540Z">
