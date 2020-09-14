@@ -391,6 +391,14 @@ respectively for the number of transactions, the number of objects in the base o
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Лучшее решение ищется в течение последовательного итеративного перебора записей базы данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T135335Z" creationid="Марианна" creationdate="20200914T135335Z">
+        <seg>We approximate the best solution by sequential iterative scanning of the database records.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Множество кластеров { {% math %}C_1,…,C_k{% endmath %} } есть разбиение множества { {% math %}t_1,…,t_n{% endmath %} }, такое, что {% math %}C_1 … C_k={% endmath %} { {% math %}t_1,…,t_n{% endmath %} } и {% math %}C_i\neq \varnothing  \wedge C_i \bigcap C_j = \varnothing{% endmath %}, для {% math %}1&lt;=i{% endmath %}, {% math %}j&lt;=k{% endmath %}.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T120219Z" creationid="Марианна" creationdate="20200914T120219Z">
