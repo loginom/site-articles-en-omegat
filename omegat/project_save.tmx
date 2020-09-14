@@ -54,6 +54,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Их производительность на массивах записей с большим количеством нечисловых факторов неудовлетворительная.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T061800Z" creationid="Марианна" creationdate="20200914T061800Z">
+        <seg>When using arrays of records with large amount of nonnumerical factors, their capacity is insufficient.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Категорийные данные встречаются в любых областях: производство, коммерция, маркетинг, медицина… Категорийные данные включают в себя и так называемые транзакционные данные: чеки в супермаркетах, логи посещений веб-ресурсов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200911T074229Z" creationid="Марианна" creationdate="20200911T074229Z">
