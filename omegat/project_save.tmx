@@ -1273,6 +1273,14 @@ respectively for the number of transactions, the number of objects in the base o
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Области применения CLOPE</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T195601Z" creationid="Марианна" creationdate="20200914T195601Z">
+        <seg>Spheres of CLOPE Usage</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Обобщив вышесказанное, запишем формулу для вычисления глобального критерия – функции стоимости {% math %}Profit(C){% endmath %}:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T132404Z" creationid="Марианна" creationdate="20200914T132404Z">
@@ -1301,6 +1309,14 @@ respectively for the number of transactions, the number of objects in the base o
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T064540Z" creationid="Марианна" creationdate="20200914T064540Z">
         <seg>The LargeItem algorithm is considered to be one of the most effective algorithms. It is based on improvement of some global criterion.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Он может иметь вид бинарной матрицы образов, как в ассоциативных правилах, так и представлять собой взаимно однозначное отображение между множеством уникальных объектов {% math %}{u_1,…u_q}{% endmath %} таблицы и множеством целых чисел {% math %}{0,1,2,…,q-1}{% endmath %}.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T200005Z" creationid="Марианна" creationdate="20200914T200005Z">
+        <seg>It can be in the form of binary matrix of images in the association rules, and it can also be in the form of bijective mapping between a set of unique objects {% math %}{u_1,…u_q}{% endmath %} of the table and a set of integer numbers {% math %}{0,1,2,…,q-1}{% endmath %}.</seg>
       </tuv>
     </tu>
     <tu>
