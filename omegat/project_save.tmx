@@ -432,6 +432,14 @@ transactions (consequently, {% math %}H{% endmath %} parameter is higher).</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Очевидно, что чем больше значение {% math %}H{% endmath %}, тем более «похожи» две транзакции.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T122533Z" creationid="Марианна" creationdate="20200914T122533Z">
+        <seg>It's straightforward that the larger {% math %}H{% endmath %} value is, the more similar the two transactions are.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Под термином &lt;x1/&gt;транзакция&lt;x2/&gt; здесь понимается некоторый произвольный набор объектов, будь это список ключевых слов статьи, товары, купленные в супермаркете, множество симптомов пациента, характерные фрагменты изображения и так далее.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T072449Z" creationid="Марианна" creationdate="20200914T072422Z">
