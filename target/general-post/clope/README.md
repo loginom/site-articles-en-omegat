@@ -123,23 +123,24 @@ To finish the algorithm implementation, we need two more functions that enable t
 7. &nbsp;&nbsp;result := S_new &#042; (C.N+1)/(W_new)<sup>r</sup> – C.S &#042; C.N/(C.W)<sup>r</sup>
 8. end;
 
-Здесь {% math %}t.Items[i]{% endmath %} – значение {% math %}i{% endmath %}-го объекта транзакции {% math %}t{% endmath %}. Заметим, что {% math %}DeltaAdd(C,t,r){% endmath %} при добавлении {% math %}t{% endmath %} в новый кластер равна {% math %}S/W^r{% endmath %}, где {% math %}S{% endmath %} и {% math %}W{% endmath %} – площадь и ширина кластера, состоящего из добавляемой транзакции {% math %}t{% endmath %}.
+In this case, {% math %}t.Items[i]{% endmath %} – value {% math %}i{% endmath %}- transaction object {% math %}t{% endmath %}. Note that {% math %}DeltaAdd(C,t,r){% endmath %} when adding {% math %}t{% endmath %} to the new cluster is equal to {% math %}S/W^r{% endmath %}, where {% math %}S{% endmath %} and {% math %}W{% endmath %} – area and width of the cluster that consists of the added transaction {% math %}t{% endmath %}.
 
-Реализация функции прироста {% math %}Profit(C,r){% endmath %} при удалении транзакции похожа на {% math %}DeltaAdd(C,t,r){% endmath %}, поэтому опустим ее подробный код.
+Implentation of the profit function {% math %}Profit(C,r){% endmath %} when deleting a transaction is similar to {% math %}DeltaAdd(C,t,r){% endmath %}, that's why let's omit its detailed code.
 
-Следующая теорема гарантирует корректность использования функции {% math %}DeltaAdd{% endmath %}.
+The following theorema guarantees the correctness of function {% math %}DeltaAdd{% endmath %} usage.
 
-**Теорема.** Если {% math %}DeltaAdd(Ci,t){% endmath %} есть максимум, то перемещение {% math %}t{% endmath %} в кластер {% math %}C_i{% endmath %} максимизирует {% math %}Profit(C,r){% endmath %}.
+**Theorema.** If {% math %}DeltaAdd(Ci,t){% endmath %} is the maximum, then moving {% math %}t{% endmath %} to {% math %}C_i{% endmath %} cluster will maximize {% math %}Profit(C,r){% endmath %}.
 
-Теперь можно оценить вычислительную сложность алгоритма CLOPE. Пусть средняя длина транзакции равна {% math %}A{% endmath %}, общее число транзакций {% math %}N{% endmath %}, максимально возможное число кластеров {% math %}K{% endmath %}. Временная сложность одной итерации равна {% math %}O(N*K*A){% endmath %}, показывающая, что скорость работы алгоритма растет линейно с ростом кластеров и размера таблицы. Это делает алгоритм быстрым и эффективным на больших объемах.
+Now it is possible to estimate the computational complexity of the CLOPE algorithm. Suppose the average length of a transaction is {% math %}A{% endmath %}, the total number of transactions is {% math %}N{% endmath %}, and the maximum possible number of clusters is {% math %}K{% endmath %}. The time complexity for one iteration is {% math %}O(N*K*A){% endmath %},  indicating that the algorithm execution speed is affected linearly by the number
+of clusters and table size. It makes the algorithm fast and effective for large volumes.
 
-Рассказав о реализации алгоритма, мы ничего не сказали о виде таблицы транзакций, чтобы можно было применять алгоритм CLOPE. CLOPE позволяет решать задачи кластеризации не только транзакционных данных, но и любых категорийных. Главное, чтобы все признаки объектов были измерены в шкале наименований.
+Having described the algorithm implementation, we said nothing about the type of the transactions table to make usage of the CLOPE algorithm possible. CLOPE enables to complete the clustering tasks not only for transactional data but also for any categorical data. The main thing is to provide measurement of all features of objects in the nominal scale.
 
-Однако перед тем как запускать CLOPE, данные необходимо привести к нормализованному виду. Он может иметь вид бинарной матрицы образов, как в ассоциативных правилах, так и представлять собой взаимно однозначное отображение между множеством уникальных объектов {% math %}{u_1,…u_q}{% endmath %} таблицы и множеством целых чисел {% math %}{0,1,2,…,q-1}{% endmath %}.
+However, before we run CLOPE, it is required to provide the normalized data form. It can be in the form of binary matrix of images in the association rules, and it can also be in the form of bijective mapping between a set of unique objects {% math %}{u_1,…u_q}{% endmath %} of the table and a set of integer numbers {% math %}{0,1,2,…,q-1}{% endmath %}.
 
-## Задача о грибах
+## The Mushroom Dataset
 
-Задача о грибах (The mushroom dataset) – популярный тест, который применяют для оценки алгоритмов кластеризации категорийных наборов данных (доступен на [UCI machine learning repository](http://archive.ics.uci.edu/ml/index.php)). Тестовая выборка содержит 8124 записи с описанием 22 характеристик грибов двух классов: 4208 съедобных ({% math %}e{% endmath %}) и 3916 несъедобных ({% math %}p{% endmath %}) грибов. Файл выборки имеет следующий вид:
+The mushroom dataset is a popular test that is used for assessment of clustering algorithms used for categorical data sets (it is available in [UCI machine learning repository](http://archive.ics.uci.edu/ml/index.php)). The test set contains 8,124 records with description of 22 characteristics of two types of mushrooms: 4,208 edible mushrooms ({% math %}e{% endmath %}) and 3,916 poisonous mushrooms ({% math %}p{% endmath %}). The set file is as follows:
 
 {% math %}p,x,s,n,t,p,f,c,n,k,e,e,s,s,w,w,p,w,o,p,k,s,u{% endmath %}
 
@@ -153,7 +154,7 @@ To finish the algorithm implementation, we need two more functions that enable t
 
 {% math %}..., ..., ...{% endmath %}
 
-Общее количество уникальных характеристик объектов равно 116. 2480 записей имеют пропущенные значения в одном атрибуте. Описание набора данных — [https://archive.ics.uci.edu/ml/datasets/mushroom](https://archive.ics.uci.edu/ml/datasets/mushroom).
+There are 116 unique characteristics of the objects in total. 2,480 records have missing values in one attribute. Description of the data set — [https://archive.ics.uci.edu/ml/datasets/mushroom](https://archive.ics.uci.edu/ml/datasets/mushroom).
 
 Если такой набор данных представить в описанном выше нормализованном виде, то получится 8124 транзакции, из которых 2408 будут длиной 21, а остальные – 22 элемента (пропущенные значения игнорируются). И теперь можно применить алгоритм CLOPE. Результат работы CLOPE при {% math %}r=2.6{% endmath %} для задачи о грибах после 1-ой итерации (фаза инициализации) представлен в таблице 1.
 
@@ -192,9 +193,9 @@ To finish the algorithm implementation, we need two more functions that enable t
 | 25 |           | 36 |
 | 26 |           | 8 |
 | 27 | 16 |           |
-| Итого | 4208 | 3916 |
+| Total | 4208 | 3916 |
 
-## Области применения CLOPE
+## Spheres of CLOPE Usage
 
 Алгоритм CLOPE предназначен для работы с транзакционными данными, но, как мы увидели, очень много наборов данных с категорийными атрибутами представляют собой транзакционные данные либо сводятся к ним. Ответы респондента в анкете, список ключевых слов документа, множество посещенных веб-ресурсов пользователя, симптомы больного, характеристики гриба – все это не что иное, как транзакция. Поэтому области применения CLOPE распространяются на все массивы категорийных баз данных.
 
@@ -205,7 +206,7 @@ To finish the algorithm implementation, we need two more functions that enable t
 1. Высокие масштабируемость и скорость работы, а так же качество кластеризации, что достигается использованием глобального критерия оптимизации на основе максимизации градиента высоты гистограммы кластера. Он легко рассчитывается и интерпретируется. Во время работы алгоритм хранит в RAM небольшое количество информации по каждому кластеру и требует минимальное число сканирований набора данных. Это позволяет применять его для кластеризации огромных объемов категорийных данных (large categorical data sets);
 2. CLOPE автоматически подбирает количество кластеров, причем это регулируется одним единственным параметром – коэффициентом отталкивания.
 
-## Литература
+## References
 
 1. Yang, Y., Guan, H., You. J. CLOPE: A fast and Effective Clustering Algorithm for Transactional Data In Proc. of SIGKDD’02, July 23-26, 2002, Edmonton, Alberta, Canada.
 2. Wang, K., Xu, C.. Liu, B. Clustering transactions using large items. In Proc. CIKM’99, Kansas, Missouri, 1999.
