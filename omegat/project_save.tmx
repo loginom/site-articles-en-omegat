@@ -118,6 +118,22 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Но не всегда они удовлетворяют перечисленным выше требованиям.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T064325Z" creationid="Марианна" creationdate="20200914T064325Z">
+        <seg>But they do not always meet the requirements specified above.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Одним из эффективных считается алгоритм LargeItem, который основан на оптимизации некоторого глобального критерия.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T064540Z" creationid="Марианна" creationdate="20200914T064540Z">
+        <seg>The LargeItem algorithm is considered to be one of the most effective algorithms. It is based on improvement of some global criterion.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Основные трудности связаны с высокой размерностью и гигантским объемом, которыми часто характеризуются такие базы данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T060653Z" creationid="Марианна" creationdate="20200914T060653Z">
