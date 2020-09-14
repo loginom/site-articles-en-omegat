@@ -350,6 +350,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Пусть имеется база транзакций {% math %}D{% endmath %}, состоящая из множества транзакций { {% math %}t_1,t_2,…,t_n{% endmath %} }.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T120009Z" creationid="Марианна" creationdate="20200914T120009Z">
+        <seg>Let's take a database of transactions {% math %}D{% endmath %} taht consists of a set of transactions { {% math %}t_1,t_2,…,t_n{% endmath %} }.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Рассмотрим его подробнее в более формальном описании.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T115224Z" creationid="Марианна" creationdate="20200914T115224Z">
