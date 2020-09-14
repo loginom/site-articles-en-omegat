@@ -156,6 +156,22 @@
         <seg>"&lt;x1/&gt;Clustering Algorithms for Data Mining"&lt;x2/&gt;).</seg>
       </tuv>
     </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>минимально возможное количество «сканирований» таблицы базы данных;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T063349Z" creationid="Марианна" creationdate="20200914T063349Z">
+        <seg>minimum possible number of the database table "scans";</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>работа в ограниченном объеме оперативной памяти компьютера;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T063606Z" creationid="Марианна" creationdate="20200914T063606Z">
+        <seg>operation under condition of the restricted computer RAM capacity;</seg>
+      </tuv>
+    </tu>
 <!-- Alternative translations -->
   </body>
 </tmx>
