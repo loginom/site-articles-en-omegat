@@ -64,8 +64,8 @@
       <tuv lang="ru">
         <seg>Алгоритмы, основанные на парном вычислении расстояний (&lt;x1/&gt;k-means&lt;x2/&gt; и аналоги) эффективны в основном на числовых данных.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200914T061026Z" creationid="Марианна" creationdate="20200914T061026Z">
-        <seg>The algorithms based on the pairwise distance calculation (&lt;x1/&gt;k-means&lt;x2/&gt; and the similar ones) are mostly effective for numerical data.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T114514Z" creationid="Марианна" creationdate="20200914T061026Z">
+        <seg>The algorithms based on the pair-wise distance calculation (&lt;x1/&gt;k-means&lt;x2/&gt; and the similar ones) are mostly effective for numerical data.</seg>
       </tuv>
     </tu>
     <tu>
@@ -96,8 +96,8 @@
       <tuv lang="ru">
         <seg>Вообще, вычисление глобального критерия делает алгоритм кластеризации во много раз быстрее, чем при использовании локального критерия при парном сравнении объектов, поэтому «глобализация» оценочной функции – один из путей получения масштабируемых алгоритмов.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200914T065645Z" creationid="Марианна" creationdate="20200914T065645Z">
-        <seg>In fact, calculation of the global criterion makes the clustering algorithm many times faster as compared with the local criterion in the case of the pairwise comparison of objects. That's why "globalisation" of the valuation function is one of the ways to get scalable algorithms.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T114617Z" creationid="Марианна" creationdate="20200914T065645Z">
+        <seg>In fact, calculation of the global criterion makes the clustering algorithm many times faster as compared with the local criterion in the case of the pair-wise comparison of objects. That's why "globalisation" of the valuation function is one of the ways to get scalable algorithms.</seg>
       </tuv>
     </tu>
     <tu>
@@ -184,8 +184,8 @@
       <tuv lang="ru">
         <seg>И дело даже не столько в сложности задания метрики для вычисления расстояния между категорийными &lt;x3/&gt;атрибутами&lt;x4/&gt;, сколько в том, что на каждой итерации алгоритма требуется попарно сравнивать объекты между собой, а итераций может быть очень много.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200914T062402Z" creationid="Марианна" creationdate="20200914T062402Z">
-        <seg>And the importance lies not so much in the complexity of metrics definition to calculate distances between the categorical &lt;x3/&gt;attributes&lt;x4/&gt;, as in the fact that it is required to provide pairwise comparison of objects with each other for each algorithm iteration, and there can be too many iterations.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T114519Z" creationid="Марианна" creationdate="20200914T062402Z">
+        <seg>And the importance lies not so much in the complexity of metrics definition to calculate distances between the categorical &lt;x3/&gt;attributes&lt;x4/&gt;, as in the fact that it is required to provide pair-wise comparison of objects with each other for each algorithm iteration, and there can be too many iterations.</seg>
       </tuv>
     </tu>
     <tu>
@@ -234,6 +234,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T112258Z" creationid="Марианна" creationdate="20200914T112258Z">
         <seg>{ {% math %}de, def{% endmath %} } and { {% math %}ab, abc{% endmath %} } clusters have the similar histograms, consequently, they are equivalent.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>На основе такой очевидной и простой идеи геометрических гистограмм и работает алгоритм CLOPE (англ.: Clustering with sLOPE).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T114858Z" creationid="Марианна" creationdate="20200914T114858Z">
+        <seg>The CLOPE algorithm (English: Clustering with sLOPE) is used according to such obvious and simple concept of geometrical histograms.</seg>
       </tuv>
     </tu>
     <tu>
@@ -288,8 +296,8 @@
       <tuv lang="ru">
         <seg>Очевидно, что разбиение (1) лучше, поскольку обеспечивает большее наложение транзакций друг на друга (соответственно, параметр {% math %}H{% endmath %} там выше).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200914T113632Z" creationid="Марианна" creationdate="20200914T113632Z">
-        <seg>It is obvious that clustering (1) is better because it provides more significant ovelapping of transactions on each other (consequently, {% math %}H{% endmath %} parameter is higher).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T114656Z" creationid="Марианна" creationdate="20200914T113632Z">
+        <seg>It is obvious that clustering (1) is better because it provides more significant overlapping of transactions on each other (consequently, {% math %}H{% endmath %} parameter is higher).</seg>
       </tuv>
     </tu>
     <tu>
