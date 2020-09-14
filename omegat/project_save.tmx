@@ -214,6 +214,22 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Каждая транзакция есть набор объектов { {% math %}i_1,…,i_m{% endmath %} }.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T120026Z" creationid="Марианна" creationdate="20200914T120026Z">
+        <seg>Each transaction has s set of objects { {% math %}i_1,…,i_m{% endmath %} }.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Каждый элемент {% math %}C_i{% endmath %} называется кластером, {% math %}n{% endmath %}, {% math %}m{% endmath %}, {% math %}k{% endmath %} – количество транзакций, количество объектов в базе транзакций и число кластеров соответственно.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T120537Z" creationid="Марианна" creationdate="20200914T120537Z">
+        <seg>Each {% math %}C_i{% endmath %} item is called a cluster, {% math %}n{% endmath %}, {% math %}m{% endmath %}, {% math %}k{% endmath %} – number of transactions, number of objects in the transactions database and number of clusters, correspondingly.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Категорийные данные встречаются в любых областях: производство, коммерция, маркетинг, медицина… Категорийные данные включают в себя и так называемые транзакционные данные: чеки в супермаркетах, логи посещений веб-ресурсов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200911T074229Z" creationid="Марианна" creationdate="20200911T074229Z">
@@ -242,6 +258,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T112258Z" creationid="Марианна" creationdate="20200914T112258Z">
         <seg>{ {% math %}de, def{% endmath %} } and { {% math %}ab, abc{% endmath %} } clusters have the similar histograms, consequently, they are equivalent.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Множество кластеров { {% math %}C_1,…,C_k{% endmath %} } есть разбиение множества { {% math %}t_1,…,t_n{% endmath %} }, такое, что {% math %}C_1 … C_k={% endmath %} { {% math %}t_1,…,t_n{% endmath %} } и {% math %}C_i\neq \varnothing  \wedge C_i \bigcap C_j = \varnothing{% endmath %}, для {% math %}1&lt;=i{% endmath %}, {% math %}j&lt;=k{% endmath %}.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T120219Z" creationid="Марианна" creationdate="20200914T120219Z">
+        <seg>Set of clusters { {% math %}C_1,…,C_k{% endmath %} } is clustering of a set { {% math %}t_1,…,t_n{% endmath %} } that allows for {% math %}C_1 … C_k={% endmath %} { {% math %}t_1,…,t_n{% endmath %} } and {% math %}C_i\neq \varnothing  \wedge C_i \bigcap C_j = \varnothing{% endmath %}, for {% math %}1&lt;=i{% endmath %}, {% math %}j&lt;=k{% endmath %}.</seg>
       </tuv>
     </tu>
     <tu>
