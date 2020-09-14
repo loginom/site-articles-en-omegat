@@ -448,6 +448,14 @@ transactions (consequently, {% math %}H{% endmath %} parameter is higher).</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Поэтому алгоритм должен выбирать такие разбиения, которые максимизируют {% math %}H{% endmath %}.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T122651Z" creationid="Марианна" creationdate="20200914T122651Z">
+        <seg>That's why the algorithm must select the clusterings that maximize {% math %}H{% endmath %}.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Поэтому в настоящее время ведутся активные исследования в области разработки &lt;x1/&gt;масштабируемых (scalable) алгоритмов&lt;x2/&gt; кластеризации категорийных и транзакционных данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T062905Z" creationid="Марианна" creationdate="20200914T062905Z">
