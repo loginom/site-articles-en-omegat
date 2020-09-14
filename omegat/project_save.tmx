@@ -382,6 +382,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>2480 записей имеют пропущенные значения в одном атрибуте.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T200638Z" creationid="Марианна" creationdate="20200914T200638Z">
+        <seg>2,480 records have missing values in one attribute.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>25</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T195349Z" creationid="Марианна" creationdate="20200914T195349Z">
@@ -1305,6 +1313,14 @@ respectively for the number of transactions, the number of objects in the base o
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Общее количество уникальных характеристик объектов равно 116.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T200602Z" creationid="Марианна" creationdate="20200914T200602Z">
+        <seg>There are 116 unique characteristics of the objects in total.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Однако перед тем как запускать CLOPE, данные необходимо привести к нормализованному виду.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T194912Z" creationid="Марианна" creationdate="20200914T194912Z">
@@ -1349,6 +1365,14 @@ respectively for the number of transactions, the number of objects in the base o
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T130722Z" creationid="Марианна" creationdate="20200914T130722Z">
         <seg>They do not contain shared objects but { { {% math %}abc, def{% endmath %} } } clustering and { { {% math %}abc{% endmath %} }, { {% math %}def{% endmath %} } } clustering have the same {% math %}H=1{% endmath %} height.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Описание набора данных — &lt;x1/&gt;https://archive.ics.uci.edu/ml/datasets/mushroom&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T200651Z" creationid="Марианна" creationdate="20200914T200651Z">
+        <seg>Description of the data set — &lt;x1/&gt;https://archive.ics.uci.edu/ml/datasets/mushroom&lt;x2/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
