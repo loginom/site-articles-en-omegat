@@ -538,9 +538,9 @@ transactions (consequently, {% math %}H{% endmath %} parameter is higher).</seg>
       <tuv lang="ru">
         <seg>Поскольку критерий оптимизации имеет глобальный характер, основанный только на расчете {% math %}H{% endmath %} и {% math %}W{% endmath %}, производительность и скорость алгоритма будет значительно выше, чем при попарном сравнении транзакций.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200914T135647Z" creationid="Марианна" creationdate="20200914T135647Z">
+      <tuv lang="en" changeid="Марианна" changedate="20200914T135700Z" creationid="Марианна" creationdate="20200914T135647Z">
         <seg>As the optimization criterion is defined globally based only on calculation of {% math %}H{% endmath %} and {% math %}W{% endmath %}, the algorithm performance and speed will be
-much higher as compared with the par-wise comparison of transactions.</seg>
+much higher as compared with the pair-wise comparison of transactions.</seg>
       </tuv>
     </tu>
     <tu>
@@ -621,6 +621,15 @@ much higher as compared with the par-wise comparison of transactions.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T133409Z" creationid="Марианна" creationdate="20200914T133409Z">
         <seg>The Algorithm Implementation</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Реализация алгоритма требует первого прохода по таблице транзакций для построения начального разбиения, определяемого функцией {% math %}Profit(C,r){% endmath %}.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T135844Z" creationid="Марианна" creationdate="20200914T135844Z">
+        <seg>The algorithm implementation requires the first scan of the transaction table to build
+the initial clustering, driven by function {% math %}Profit(C,r){% endmath %}.</seg>
       </tuv>
     </tu>
     <tu>
