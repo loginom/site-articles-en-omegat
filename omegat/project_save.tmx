@@ -431,6 +431,14 @@ respectively for the number of transactions, the number of objects in the base o
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Они не содержат общих объектов, но разбиение { { {% math %}abc, def{% endmath %} } } и разбиение { { {% math %}abc{% endmath %} }, { {% math %}def{% endmath %} } } характеризуются одинаковой высотой {% math %}H=1{% endmath %}.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T130722Z" creationid="Марианна" creationdate="20200914T130722Z">
+        <seg>They do not contain shared objects but { { {% math %}abc, def{% endmath %} } } clustering and { { {% math %}abc{% endmath %} }, { {% math %}def{% endmath %} } } clustering have the same {% math %}H=1{% endmath %} height.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Основные трудности связаны с высокой размерностью и гигантским объемом, которыми часто характеризуются такие базы данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T114156Z" creationid="Марианна" creationdate="20200914T060653Z">
