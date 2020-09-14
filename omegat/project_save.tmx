@@ -166,6 +166,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Возьмем базу, состоящую из 2-х транзакций: { {% math %}abc, def{% endmath %} }.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T122914Z" creationid="Марианна" creationdate="20200914T122914Z">
+        <seg>Let's take a base that contains 2 transactions: { {% math %}abc, def{% endmath %} }.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Вообще, вычисление глобального критерия делает алгоритм кластеризации во много раз быстрее, чем при использовании локального критерия при парном сравнении объектов, поэтому «глобализация» оценочной функции – один из путей получения масштабируемых алгоритмов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T114617Z" creationid="Марианна" creationdate="20200914T065645Z">
