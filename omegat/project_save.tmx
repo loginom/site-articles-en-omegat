@@ -78,6 +78,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>К ним предъявляются особые требования, а именно:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T063143Z" creationid="Марианна" creationdate="20200914T063143Z">
+        <seg>The following special requirements are imposed on them:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Категорийные данные встречаются в любых областях: производство, коммерция, маркетинг, медицина… Категорийные данные включают в себя и так называемые транзакционные данные: чеки в супермаркетах, логи посещений веб-ресурсов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200911T074229Z" creationid="Марианна" creationdate="20200911T074229Z">
