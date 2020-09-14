@@ -286,6 +286,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Очевидно, что разбиение (1) лучше, поскольку обеспечивает большее наложение транзакций друг на друга (соответственно, параметр {% math %}H{% endmath %} там выше).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T113632Z" creationid="Марианна" creationdate="20200914T113632Z">
+        <seg>It is obvious that clustering (1) is better because it provides more significant ovelapping of transactions on each other (consequently, {% math %}H{% endmath %} parameter is higher).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Под термином &lt;x1/&gt;транзакция&lt;x2/&gt; здесь понимается некоторый произвольный набор объектов, будь это список ключевых слов статьи, товары, купленные в супермаркете, множество симптомов пациента, характерные фрагменты изображения и так далее.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T072449Z" creationid="Марианна" creationdate="20200914T072422Z">
