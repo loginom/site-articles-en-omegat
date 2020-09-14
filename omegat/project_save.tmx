@@ -520,6 +520,14 @@ of clusters and table size.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Главное, чтобы все признаки объектов были измерены в шкале наименований.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T194737Z" creationid="Марианна" creationdate="20200914T194737Z">
+        <seg>The main thing is to provide measurement of all features of objects in the nominal scale.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для завершения реализации алгоритма нам нужны еще две функции, рассчитывающие прирост {% math %}Profit(C,r){% endmath %} при добавлении и удалении транзакции из кластера.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T191517Z" creationid="Марианна" creationdate="20200914T191452Z">
@@ -797,6 +805,14 @@ respectively for the number of transactions, the number of objects in the base o
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T132404Z" creationid="Марианна" creationdate="20200914T132404Z">
         <seg>Having generalized the information above, let's take down the formula for calculation of the global criterion – cost function {% math %}Profit(C){% endmath %}:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Однако перед тем как запускать CLOPE, данные необходимо привести к нормализованному виду.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T194912Z" creationid="Марианна" creationdate="20200914T194912Z">
+        <seg>However, before we run CLOPE, it is required to provide the normalized data form.</seg>
       </tuv>
     </tu>
     <tu>
