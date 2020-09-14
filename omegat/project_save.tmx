@@ -14,6 +14,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>CLOPE предложен в 2002 году группой китайских ученых.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T070315Z" creationid="Марианна" creationdate="20200914T070315Z">
+        <seg>CLOPE was proposed in 2002 by a team of the Chinese scientists.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Алгоритм CLOPE, который мы рассматриваем в данной статье, очень похож на LargeItem, но быстрее и проще в программной реализации.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T070105Z" creationid="Марианна" creationdate="20200914T070105Z">
@@ -162,6 +170,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T062905Z" creationid="Марианна" creationdate="20200914T062905Z">
         <seg>That's why development of &lt;x1/&gt;scalable algorithms&lt;x2/&gt; for clustering of the categorical and transactional data are actively researched nowadays.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При этом он обеспечивает более высокую производительность и лучшее качество кластеризации в сравнении с алгоритмом LargeItem и многими иерархическими алгоритмами.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T070449Z" creationid="Марианна" creationdate="20200914T070449Z">
+        <seg>It provides higher capacity and clustering quality as compared with the LargeItem algorithm and many hierarchical algorithms.</seg>
       </tuv>
     </tu>
     <tu>
