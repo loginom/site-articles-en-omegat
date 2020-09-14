@@ -102,6 +102,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>{% math %}Profit (C) = \frac {\sum_{i=1}^k G(C_i)\times\mid C_i\mid}{\sum_{i=1}^k \mid C_i\mid}=\frac {\sum_{i=1}^k \frac{S(C_i)}{W(C_i)^r}\times\mid C_i\mid}{\sum_{i=1}^k \mid C_i\mid}{% endmath %}</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T132407Z" creationid="Марианна" creationdate="20200914T132407Z">
+        <seg>{% math %}Profit (C) = \frac {\sum_{i=1}^k G(C_i)\times\mid C_i\mid}{\sum_{i=1}^k \mid C_i\mid}=\frac {\sum_{i=1}^k \frac{S(C_i)}{W(C_i)^r}\times\mid C_i\mid}{\sum_{i=1}^k \mid C_i\mid}{% endmath %}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>{% math %}S(C)=\sum_{i\in\ D(C)}\ Occ\ (i, C)=\sum_{t_i\in C}\mid  t_i \mid{% endmath %}</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T121155Z" creationid="Марианна" creationdate="20200914T121155Z">
@@ -588,6 +596,14 @@ transactions (consequently, {% math %}H{% endmath %} parameter is higher).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T063857Z" creationid="Марианна" creationdate="20200914T063857Z">
         <seg>operability of the algorithm when objects can be extracted from database only in the forward-only cursor mode (namely, in the record navigation mode).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>где:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T132415Z" creationid="Марианна" creationdate="20200914T132415Z">
+        <seg>where:</seg>
       </tuv>
     </tu>
     <tu>
