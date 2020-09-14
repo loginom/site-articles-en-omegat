@@ -616,6 +616,14 @@ transactions (consequently, {% math %}H{% endmath %} parameter is higher).</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Формальная постановка задачи кластеризации алгоритмом CLOPE выглядит следующим образом: для заданных {% math %}D{% endmath %} и {% math %}r{% endmath %} найти разбиение {% math %}C: Profit(C,r) -&gt; max{% endmath %}.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T133352Z" creationid="Марианна" creationdate="20200914T133352Z">
+        <seg>The formal clustering task using the CLOPE algorithm is as follows: it is required to find clustering {% math %}C: Profit(C,r) -&gt; max{% endmath %} for the set {% math %}D{% endmath %} and {% math %}r{% endmath %} .</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Чем больше {% math %}r{% endmath %}, тем ниже уровень сходства и тем больше кластеров будет сгенерировано.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T133125Z" creationid="Марианна" creationdate="20200914T133125Z">
