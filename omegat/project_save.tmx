@@ -544,6 +544,14 @@ transactions (consequently, {% math %}H{% endmath %} parameter is higher).</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Предположим, что транзакции хранятся в таблице базы данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T135147Z" creationid="Марианна" creationdate="20200914T135147Z">
+        <seg>Let's assume that transactions are kept in the database table.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Представим себе, что мы хотим сравнить между собой следующие два разбиения на кластеры:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T073332Z" creationid="Марианна" creationdate="20200914T073332Z">
