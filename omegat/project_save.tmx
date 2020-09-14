@@ -568,6 +568,14 @@ respectively for the number of transactions, the number of objects in the base o
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Можно посчитать, что для хранения частоты вхождений 10 тыс.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T191022Z" creationid="Марианна" creationdate="20200914T191022Z">
+        <seg>It is easy to calculate that frequency of occurrences equal to 10 thous.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>На основе такой очевидной и простой идеи геометрических гистограмм и работает алгоритм CLOPE (англ.: Clustering with sLOPE).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T120641Z" creationid="Марианна" creationdate="20200914T114858Z">
@@ -887,6 +895,14 @@ the initial clustering, driven by function {% math %}Profit(C,r){% endmath %}.</
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T132415Z" creationid="Марианна" creationdate="20200914T132415Z">
         <seg>where:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>кластерах необходимо около 40 Мб оперативной памяти.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T190750Z" creationid="Марианна" creationdate="20200914T190750Z">
+        <seg>кластерах  can be fit into a 40M RAM.</seg>
       </tuv>
     </tu>
     <tu>
