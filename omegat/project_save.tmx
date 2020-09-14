@@ -955,6 +955,14 @@ the initial clustering, driven by function {% math %}Profit(C,r){% endmath %}.</
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Теперь можно оценить вычислительную сложность алгоритма CLOPE.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T192427Z" creationid="Марианна" creationdate="20200914T192427Z">
+        <seg>Now it is possible to estimate the computational complexity of the CLOPE algorithm.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Традиционные алгоритмы кластеризации в большинстве случаев не эффективны при обработке сверхбольших баз данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200911T065952Z" creationid="Марианна" creationdate="20200911T065952Z">
