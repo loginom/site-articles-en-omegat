@@ -423,6 +423,14 @@ respectively for the number of transactions, the number of objects in the base o
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Обобщив вышесказанное, запишем формулу для вычисления глобального критерия – функции стоимости {% math %}Profit(C){% endmath %}:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T132404Z" creationid="Марианна" creationdate="20200914T132404Z">
+        <seg>Having generalized the information above, let's take down the formula for calculation of the global criterion – cost function {% math %}Profit(C){% endmath %}:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Однако учитывать одно только значение высоты {% math %}H{% endmath %} недостаточно.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T122744Z" creationid="Марианна" creationdate="20200914T122744Z">
