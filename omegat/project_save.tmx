@@ -110,6 +110,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Гистограмма для кластера { {% math %}ab, abc, acd{% endmath %} } содержит 4 различных элемента и имеет площадь 8 блоков ({% math %}H=2.0, H/W=0.5{% endmath %}), а кластер { {% math %}acd, de, def{% endmath %} } – 5 различных элементов с такой же площадью ({% math %}H=1.6, H/W=0.32{% endmath %}).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T112800Z" creationid="Марианна" creationdate="20200914T112800Z">
+        <seg>The histogram for { {% math %}ab, abc, acd{% endmath %} } cluster contains 4 different elements, and its area is equal to 8 blocks ({% math %}H=2.0, H/W=0.5{% endmath %}), and { {% math %}acd, de, def{% endmath %} } cluster contains 5 different elements with the same area ({% math %}H=1.6, H/W=0.32{% endmath %}).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Гистограммы двух разбиений&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T111951Z" creationid="Марианна" creationdate="20200914T111951Z">
@@ -218,6 +226,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200911T073516Z" creationid="Марианна" creationdate="20200911T064612Z">
         <seg>Clustering of Categorical Data: the Scalable CLOPE Algorithm</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Кластеры { {% math %}de, def{% endmath %} } и { {% math %}ab, abc{% endmath %} } имеют одинаковые гистограммы, следовательно, равноценны.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T112258Z" creationid="Марианна" creationdate="20200914T112258Z">
+        <seg>{ {% math %}de, def{% endmath %} } and { {% math %}ab, abc{% endmath %} } clusters have the similar histograms, consequently, they are equivalent.</seg>
       </tuv>
     </tu>
     <tu>
