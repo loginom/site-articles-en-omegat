@@ -14,6 +14,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Алгоритмы, основанные на парном вычислении расстояний (&lt;x1/&gt;k-means&lt;x2/&gt; и аналоги) эффективны в основном на числовых данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T061026Z" creationid="Марианна" creationdate="20200914T061026Z">
+        <seg>The algorithms based on the pairwise distance calculation (&lt;x1/&gt;k-means&lt;x2/&gt; and the similar ones) are mostly effective for numerical data.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В материале рассказывается о масштабируемом эвристическом алгоритме CLOPE, который позволяет проводить кластеризацию с высоким качеством и производительностью.&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200911T072927Z" creationid="Марианна" creationdate="20200911T072927Z">
