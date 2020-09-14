@@ -14,10 +14,50 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;moved := true;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T141002Z" creationid="Марианна" creationdate="20200914T141002Z">
+        <seg>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;moved := true;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;записать &lt;x1/&gt;t,i&lt;x2/&gt; в таблицу (номер кластера);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T140713Z" creationid="Марианна" creationdate="20200914T140656Z">
         <seg>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;write &lt;x1/&gt;t,i&lt;x2/&gt; to the table (cluster number);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;записать &lt;x1/&gt;t,i&lt;x2/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T140957Z" creationid="Марианна" creationdate="20200914T140957Z">
+        <seg>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;write &lt;x1/&gt;t,i&lt;x2/&gt;;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;пока (not moved).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T141011Z" creationid="Марианна" creationdate="20200914T141011Z">
+        <seg>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;yet (not moved).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;moved := false;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T140815Z" creationid="Марианна" creationdate="20200914T140815Z">
+        <seg>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;moved := false;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;если C&lt;x1/&gt;i&lt;x2/&gt;&amp;lt;&amp;gt;C&lt;x3/&gt;j&lt;x4/&gt; тогда</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T140951Z" creationid="Марианна" creationdate="20200914T140951Z">
+        <seg>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if C&lt;x1/&gt;i&lt;x2/&gt;&amp;lt;&amp;gt;C&lt;x3/&gt;j&lt;x4/&gt; then</seg>
       </tuv>
     </tu>
     <tu>
@@ -30,10 +70,34 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;положить t в существующий либо в новый кластер C&lt;x1/&gt;j&lt;x2/&gt;, который максимизирует Profit(C,r);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T140930Z" creationid="Марианна" creationdate="20200914T140930Z">
+        <seg>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;place t into the existing or new cluster C&lt;x1/&gt;j&lt;x2/&gt;, that provides maximum Profit(C,r);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;читать &lt;x1/&gt;t,i&lt;x2/&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T140837Z" creationid="Марианна" creationdate="20200914T140837Z">
+        <seg>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;read &lt;x1/&gt;t,i&lt;x2/&gt;;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;перейти в начало таблицы;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200914T140745Z" creationid="Марианна" creationdate="20200914T140745Z">
-        <seg>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;go to the table beginning;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T140810Z" creationid="Марианна" creationdate="20200914T140745Z">
+        <seg>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;go to the table start;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;пока не конец таблицы</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T140831Z" creationid="Марианна" creationdate="20200914T140831Z">
+        <seg>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;not the table end yet</seg>
       </tuv>
     </tu>
     <tu>
@@ -822,6 +886,14 @@ the initial clustering, driven by function {% math %}Profit(C,r){% endmath %}.</
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T063738Z" creationid="Марианна" creationdate="20200914T063738Z">
         <seg>possibility to interrupt the algorithm operation providing saving of intermediate results to continue calculations later;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>удалить все пустые кластеры;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T141125Z" creationid="Марианна" creationdate="20200914T141125Z">
+        <seg>delete all blank clusters;</seg>
       </tuv>
     </tu>
 <!-- Alternative translations -->
