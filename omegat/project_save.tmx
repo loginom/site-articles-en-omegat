@@ -326,6 +326,15 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Во время работы в RAM хранится только текущая транзакция и небольшое количество информации по каждому кластеру, которая состоит из: количества транзакций {% math %}N{% endmath %}, числа уникальных объектов (или ширины кластера) {% math %}W{% endmath %}, простой хэш-таблицы для расчета {% math %}Occ(i,C){% endmath %} и значения {% math %}S{% endmath %} площади кластера.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T190309Z" creationid="Марианна" creationdate="20200914T190309Z">
+        <seg>Only the current transaction and a small amount of information for each
+cluster is kept in the RAM space during the work. It includes the number of transactions {% math %}N{% endmath %}, the number of unique objects (or the cluster width) {% math %}W{% endmath %}, simple hash table for calculation {% math %}Occ(i,C){% endmath %}, and values {% math %}S{% endmath %} of the cluster area.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Возьмем базу, состоящую из 2-х транзакций: { {% math %}abc, def{% endmath %} }.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T122914Z" creationid="Марианна" creationdate="20200914T122914Z">
