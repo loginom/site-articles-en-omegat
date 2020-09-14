@@ -46,6 +46,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В основе алгоритма кластеризации CLOPE лежит идея максимизации глобальной функции стоимости, которая повышает близость транзакций в кластерах при помощи увеличения параметра кластерной &lt;x1/&gt;гистограммы&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T072955Z" creationid="Марианна" creationdate="20200914T072955Z">
+        <seg>The CLOPE clustering algorithm is based on the concept of maximisation of the global cost function that increases proximity of transactions in clusters by increase of the cluster &lt;x1/&gt;histogram&lt;x2/&gt; parameter.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Введение и основные идеи</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200911T072952Z" creationid="Марианна" creationdate="20200911T072952Z">
