@@ -222,10 +222,19 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Каждый кластер {% math %}C{% endmath %} имеет следующие характеристики:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T120846Z" creationid="Марианна" creationdate="20200914T120846Z">
+        <seg>Each {% math %}C{% endmath %} cluster has the following features:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Каждый элемент {% math %}C_i{% endmath %} называется кластером, {% math %}n{% endmath %}, {% math %}m{% endmath %}, {% math %}k{% endmath %} – количество транзакций, количество объектов в базе транзакций и число кластеров соответственно.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200914T120537Z" creationid="Марианна" creationdate="20200914T120537Z">
-        <seg>Each {% math %}C_i{% endmath %} item is called a cluster, {% math %}n{% endmath %}, {% math %}m{% endmath %}, {% math %}k{% endmath %} – number of transactions, number of objects in the transactions database and number of clusters, correspondingly.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T121036Z" creationid="Марианна" creationdate="20200914T120537Z">
+        <seg>Each {% math %}C_i{% endmath %} item is called a cluster, {% math %}n{% endmath %}, {% math %}m{% endmath %}, {% math %}k{% endmath %} are used
+respectively for the number of transactions, the number of objects in the base of transactions, and the number of clusters.</seg>
       </tuv>
     </tu>
     <tu>
@@ -272,8 +281,8 @@
       <tuv lang="ru">
         <seg>На основе такой очевидной и простой идеи геометрических гистограмм и работает алгоритм CLOPE (англ.: Clustering with sLOPE).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200914T114858Z" creationid="Марианна" creationdate="20200914T114858Z">
-        <seg>The CLOPE algorithm (English: Clustering with sLOPE) is used according to such obvious and simple concept of geometrical histograms.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T120641Z" creationid="Марианна" creationdate="20200914T114858Z">
+        <seg>The CLOPE algorithm (English: Clustering with sLOPE) is used according to such obvious and simple concept of geometric histograms.</seg>
       </tuv>
     </tu>
     <tu>
