@@ -102,6 +102,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для первого и второго вариантов разбиения в каждом кластере рассчитаем количество вхождений в него каждого элемента транзакции, а затем вычислим высоту ({% math %}H{% endmath %}) и ширину ({% math %}W{% endmath %}) кластера.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T111452Z" creationid="Марианна" creationdate="20200914T111452Z">
+        <seg>For the first and second cases of clustering it is required to calculate the number of occurrences of each transaction element in each cluster, and then it is required to calculate the height ({% math %}H{% endmath %}) and width ({% math %}W{% endmath %}) of the cluster.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для таблиц с миллионами записей и тысячами полей это неприменимо.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T062500Z" creationid="Марианна" creationdate="20200914T062500Z">
