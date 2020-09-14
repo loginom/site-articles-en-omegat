@@ -1048,6 +1048,14 @@ of clusters and table size.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Задача о грибах</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200914T200114Z" creationid="Марианна" creationdate="20200914T200114Z">
+        <seg>The Mushroom Dataset</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Задачи &lt;x1/&gt;кластеризации&lt;x2/&gt; больших массивов &lt;x3/&gt;категорийных данных&lt;x4/&gt; весьма актуальна для систем анализа данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200911T073256Z" creationid="Марианна" creationdate="20200911T073256Z">
