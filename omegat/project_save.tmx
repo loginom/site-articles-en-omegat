@@ -984,6 +984,14 @@ of clusters and table size.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Высокие масштабируемость и скорость работы, а так же качество кластеризации, что достигается использованием глобального критерия оптимизации на основе максимизации градиента высоты гистограммы кластера.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200915T063754Z" creationid="Марианна" creationdate="20200915T063754Z">
+        <seg>High scalability level and operation speed, clustering quality that is achieved by using the global optimization criterion based on maximisation of height gradient of the cluster histogram.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Гистограмма для кластера { {% math %}ab, abc, acd{% endmath %} } содержит 4 различных элемента и имеет площадь 8 блоков ({% math %}H=2.0, H/W=0.5{% endmath %}), а кластер { {% math %}acd, de, def{% endmath %} } – 5 различных элементов с такой же площадью ({% math %}H=1.6, H/W=0.32{% endmath %}).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T114426Z" creationid="Марианна" creationdate="20200914T112800Z">
@@ -1235,8 +1243,8 @@ respectively for the number of transactions, the number of objects in the base o
       <tuv lang="ru">
         <seg>Категорийные данные встречаются в любых областях: производство, коммерция, маркетинг, медицина… Категорийные данные включают в себя и так называемые транзакционные данные: чеки в супермаркетах, логи посещений веб-ресурсов.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200911T074229Z" creationid="Марианна" creationdate="20200911T074229Z">
-        <seg>The categorical data occur in all spheres: industry, trade, marketing, medicine, etc. The categorical data include so-called transactional data: supermarket receipts, tracking data of web surfing.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200915T063527Z" creationid="Марианна" creationdate="20200911T074229Z">
+        <seg>The categorical data occur in all spheres: industry, trade, marketing, medicine, etc. The categorical data include so-called transactional data: market basket data, tracking data of web surfing.</seg>
       </tuv>
     </tu>
     <tu>
