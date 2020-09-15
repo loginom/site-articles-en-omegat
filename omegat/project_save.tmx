@@ -606,6 +606,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>CLOPE автоматически подбирает количество кластеров, причем это регулируется одним единственным параметром – коэффициентом отталкивания.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200915T064140Z" creationid="Марианна" creationdate="20200915T064140Z">
+        <seg>CLOPE automatically selects the number of clusters, and it is controlled using the only parameter, namely, the repulsion coefficient.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>CLOPE позволяет решать задачи кластеризации не только транзакционных данных, но и любых категорийных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T194551Z" creationid="Марианна" creationdate="20200914T194551Z">
