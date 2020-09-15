@@ -1323,8 +1323,8 @@ respectively for the number of transactions, the number of objects in the base o
       <tuv lang="ru">
         <seg>На основе такой очевидной и простой идеи геометрических гистограмм и работает алгоритм CLOPE (англ.: Clustering with sLOPE).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200914T120641Z" creationid="Марианна" creationdate="20200914T114858Z">
-        <seg>The CLOPE algorithm (English: Clustering with sLOPE) is used according to such obvious and simple concept of geometric histograms.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200915T065901Z" creationid="Марианна" creationdate="20200914T114858Z">
+        <seg>The CLOPE algorithm (Clustering with sLOPE) is used according to such obvious and simple concept of geometric histograms.</seg>
       </tuv>
     </tu>
     <tu>
