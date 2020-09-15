@@ -158,7 +158,7 @@ There are 116 unique characteristics of the objects in total. 2,480 records have
 
 If such data set is represented in the normalized form described above, there will be 8,124 transactions, 2,408 transactions will have the length equal to 21, the other transactions – 22 items (missing values are ignored). Now we can use the CLOPE algorithm. Result of the CLOPE operation when {% math %}r=2.6{% endmath %} for the Mushroom Dataset after the first iteration (the initialization phase) is shown in Table 1.
 
-We can estimate the algorithm quality according to the number of the "dirty" clusters, namely, the clusters that include both edible ({% math %}e{% endmath %}), and poisonouse ({% math %}p{% endmath %}) mushrooms. The number of such clusters should be as few as possible. Table 1 shows that there is only one "dirty" cluster #18 already after the first iteration. Two or three database scans are required to achieve the final clustering. It is clear that cluster 12 disappears.
+We can estimate the algorithm quality according to the number of the "dirty" clusters, namely, the clusters that include both edible ({% math %}e{% endmath %}), and poisonous ({% math %}p{% endmath %}) mushrooms. The number of such clusters should be as few as possible. Table 1 shows that there is only one "dirty" cluster #18 already after the first iteration. Two or three database scans are required to achieve the final clustering. It is clear that cluster 12 disappears.
 
 The detailed analysis of the CLOPE algorithm performed by its authors proved the high clustering quality as compared with other algorithms, namely, the hierarchical ones. Its operation speed and performance are several times higher.
 
