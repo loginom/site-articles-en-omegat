@@ -1226,8 +1226,8 @@ of clusters and table size.</seg>
       <tuv lang="ru">
         <seg>Каждая транзакция есть набор объектов { {% math %}i_1,…,i_m{% endmath %} }.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200914T120026Z" creationid="Марианна" creationdate="20200914T120026Z">
-        <seg>Each transaction has s set of objects { {% math %}i_1,…,i_m{% endmath %} }.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200915T070743Z" creationid="Марианна" creationdate="20200914T120026Z">
+        <seg>Each transaction has a set of objects { {% math %}i_1,…,i_m{% endmath %} }.</seg>
       </tuv>
     </tu>
     <tu>
