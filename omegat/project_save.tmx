@@ -1605,8 +1605,8 @@ much higher as compared with the pair-wise comparison of transactions.</seg>
       <tuv lang="ru">
         <seg>При этом критерием качества работы алгоритма служит количество «грязных» кластеров, т.е. таких, в которых присутствуют как съедобные ({% math %}e{% endmath %}), так и несъедобные ({% math %}p{% endmath %}) грибы.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200915T060954Z" creationid="Марианна" creationdate="20200915T060954Z">
-        <seg>We can estimate the algorithm quality according to the number of the "dirty" clusters, namely, the clusters that include both eadible ({% math %}e{% endmath %}), and poisonouse ({% math %}p{% endmath %}) mushrooms.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200915T072208Z" creationid="Марианна" creationdate="20200915T060954Z">
+        <seg>We can estimate the algorithm quality according to the number of the "dirty" clusters, namely, the clusters that include both edible ({% math %}e{% endmath %}), and poisonouse ({% math %}p{% endmath %}) mushrooms.</seg>
       </tuv>
     </tu>
     <tu>
