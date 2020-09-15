@@ -1660,6 +1660,14 @@ the initial clustering, driven by function {% math %}Profit(C,r){% endmath %}.</
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Чем меньше таких кластеров, тем лучше.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200915T061020Z" creationid="Марианна" creationdate="20200915T061020Z">
+        <seg>The number of such clusters should be as few as possible.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Это делает алгоритм быстрым и эффективным на больших объемах.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T194222Z" creationid="Марианна" creationdate="20200914T194222Z">
