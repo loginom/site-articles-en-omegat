@@ -1106,8 +1106,8 @@ of clusters and table size.</seg>
       <tuv lang="ru">
         <seg>Если такой набор данных представить в описанном выше нормализованном виде, то получится 8124 транзакции, из которых 2408 будут длиной 21, а остальные – 22 элемента (пропущенные значения игнорируются).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200915T060533Z" creationid="Марианна" creationdate="20200915T060246Z">
-        <seg>If such data set is represented in the normalized form described above, there will be 8124 transactions, 2408 transactions will have the length equal to 21, the other transactions – 22 items (missing values are ignored).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200915T071952Z" creationid="Марианна" creationdate="20200915T060246Z">
+        <seg>If such data set is represented in the normalized form described above, there will be 8,124 transactions, 2,408 transactions will have the length equal to 21, the other transactions – 22 items (missing values are ignored).</seg>
       </tuv>
     </tu>
     <tu>
