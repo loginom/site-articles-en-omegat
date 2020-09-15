@@ -951,6 +951,14 @@ cluster is kept in the RAM space during the work. It includes the number of tran
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Вообще, кластеризация транзакционных данных имеет много общего с анализом ассоциаций.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200915T062644Z" creationid="Марианна" creationdate="20200915T062644Z">
+        <seg>In fact, the transactional data clustering has much in common with analysis of associations.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Временная сложность одной итерации равна {% math %}O(N&lt;x1/&gt;K&lt;x2/&gt;A){% endmath %}, показывающая, что скорость работы алгоритма растет линейно с ростом кластеров и размера таблицы.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T194112Z" creationid="Марианна" creationdate="20200914T194112Z">
@@ -1329,10 +1337,26 @@ respectively for the number of transactions, the number of objects in the base o
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Но есть и отличия.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200915T062753Z" creationid="Марианна" creationdate="20200915T062753Z">
+        <seg>But there are differences as well.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Но не всегда они удовлетворяют перечисленным выше требованиям.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T064325Z" creationid="Марианна" creationdate="20200914T064325Z">
         <seg>But they do not always meet the requirements specified above.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Обе эти технологии &lt;x1/&gt;Data Mining&lt;x2/&gt; выявляют скрытые зависимости в наборах данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200915T062742Z" creationid="Марианна" creationdate="20200915T062742Z">
+        <seg>Both &lt;x1/&gt;Data Mining&lt;x2/&gt; methods enable to detect concealed dependences in data sets.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1515,6 +1539,14 @@ much higher as compared with the pair-wise comparison of transactions.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Поэтому области применения CLOPE распространяются на все массивы категорийных баз данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200915T062558Z" creationid="Марианна" creationdate="20200915T062552Z">
+        <seg>Therefore, the CLOPE spheres of usage include all arrays of the categorical databases.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Предположим, что транзакции хранятся в таблице базы данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T135147Z" creationid="Марианна" creationdate="20200914T135147Z">
@@ -1640,6 +1672,14 @@ the initial clustering, driven by function {% math %}Profit(C,r){% endmath %}.</
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200915T061759Z" creationid="Марианна" creationdate="20200915T060735Z">
         <seg>Result of the CLOPE operation when {% math %}r=2.6{% endmath %} for the Mushroom Dataset after the first iteration (the initialization phase) is shown in Table 1.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>С одной стороны, кластеризация дает общий взгляд на совокупность данных, тогда как ассоциативный анализ находит конкретные зависимости между атрибутами.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200915T063205Z" creationid="Марианна" creationdate="20200915T063205Z">
+        <seg>On the one hand, clustering provides a general vision of a data set, whereas association analysis enables to detect particular dependences between attributes.</seg>
       </tuv>
     </tu>
     <tu>
