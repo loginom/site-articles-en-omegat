@@ -1531,6 +1531,14 @@ much higher as compared with the pair-wise comparison of transactions.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При этом по скорости работы и производительности он обгоняет их в несколько раз.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200915T061617Z" creationid="Марианна" creationdate="20200915T061617Z">
+        <seg>Its operation speed and performance are several times higher.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Применять для кластеризации объектов с категорийными признаками традиционные алгоритмы неэффективно, а часто — невозможно (подробнее см.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T060249Z" creationid="Марианна" creationdate="20200911T075234Z">
@@ -1644,6 +1652,14 @@ the initial clustering, driven by function {% math %}Profit(C,r){% endmath %}.</
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Таблица 1: результат работы CLOPE после 1 итерации.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200915T061726Z" creationid="Марианна" creationdate="20200915T061726Z">
+        <seg>Table 1: результат работы CLOPE после 1 итерации.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Теперь можно оценить вычислительную сложность алгоритма CLOPE.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T192427Z" creationid="Марианна" creationdate="20200914T192427Z">
@@ -1744,6 +1760,14 @@ the initial clustering, driven by function {% math %}Profit(C,r){% endmath %}.</
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T132415Z" creationid="Марианна" creationdate="20200914T132415Z">
         <seg>where:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>иерархическими.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200915T061412Z" creationid="Марианна" creationdate="20200915T061412Z">
+        <seg>the hierarchical ones.</seg>
       </tuv>
     </tu>
     <tu>
