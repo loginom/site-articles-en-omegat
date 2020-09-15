@@ -6,7 +6,7 @@ publish: 2020-01-14
 
 **Grouping according to the similar features of categorical and transactional arrays of data in large DB is the most important task of Data Mining. In the majority of cases, traditional clustering algorithms are not effective while large databases processing. The scalable heuristical CLOPE algorithm is discussed in the article. It allows for high quality and performance of clustering.**
 
-## Introduction and Main Concepts
+## Introduction and the Main Concepts
 
 The issue of [clustering](https://wiki.loginom.ru/articles/clustering.html) of large arrays of [categorical data](https://wiki.loginom.ru/articles/categorical-data.html) is highly topical for data analysis systems. The categorical data occur in all spheres: industry, trade, marketing, medicine, etc. The categorical data include so-called transactional data: market basket data, tracking data of web surfing. This includes analysis and classification of text documents ([Text Mining](https://wiki.loginom.ru/articles/text-mining.html)).
 
