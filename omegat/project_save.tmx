@@ -1491,8 +1491,8 @@ respectively for the number of transactions, the number of objects in the base o
       <tuv lang="ru">
         <seg>Ответы респондента в анкете, список ключевых слов документа, множество посещенных веб-ресурсов пользователя, симптомы больного, характеристики гриба – все это не что иное, как транзакция.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200915T062514Z" creationid="Марианна" creationdate="20200915T062514Z">
-        <seg>The respondent's answers in the questionary, a list of the document key words, a set of tracking data of web surfing, patinet's symptoms, mushroom characteristics represent a transaction.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200915T072530Z" creationid="Марианна" creationdate="20200915T062514Z">
+        <seg>The respondent's answers in the questionary, a list of the document key words, a set of tracking data of web surfing, patient's symptoms, mushroom characteristics represent a transaction.</seg>
       </tuv>
     </tu>
     <tu>
