@@ -902,6 +902,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В завершение подчеркнем преимущества алгоритма CLOPE:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200915T063405Z" creationid="Марианна" creationdate="20200915T063405Z">
+        <seg>To draw a conclusion, let's emphasize the CLOPE algorithm advantages:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В материале рассказывается о масштабируемом эвристическом алгоритме CLOPE, который позволяет проводить кластеризацию с высоким качеством и производительностью.&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200911T072927Z" creationid="Марианна" creationdate="20200911T072927Z">
@@ -1672,6 +1680,14 @@ the initial clustering, driven by function {% math %}Profit(C,r){% endmath %}.</
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200915T061759Z" creationid="Марианна" creationdate="20200915T060735Z">
         <seg>Result of the CLOPE operation when {% math %}r=2.6{% endmath %} for the Mushroom Dataset after the first iteration (the initialization phase) is shown in Table 1.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>С другой стороны, ассоциативные правила сразу пригодны для использования, тогда как кластеризация чаще всего используется как первая стадия анализа.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200915T063319Z" creationid="Марианна" creationdate="20200915T063319Z">
+        <seg>On the other hand, association rules can be used at once, whereas clustering is frequently used as the first analysis stage.</seg>
       </tuv>
     </tu>
     <tu>
