@@ -1363,8 +1363,8 @@ respectively for the number of transactions, the number of objects in the base o
       <tuv lang="ru">
         <seg>Но если для оценки вместо {% math %}H(C){% endmath %} использовать градиент {% math %}G(C)=H(C)/W(C)=S(C)/W(C)^2{% endmath %}, то разбиение { { {% math %}abc{% endmath %} },{ {% math %}def{% endmath %} } } будет лучше (градиент каждого кластера равен 1/3 против 1/6 у разбиения { { {% math %}abc, def{% endmath %} } }).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200914T132122Z" creationid="Марианна" creationdate="20200914T131604Z">
-        <seg>But if we use gradient {% math %}G(C)=H(C)/W(C)=S(C)/W(C)^2{% endmath %} insteda of {% math %}H(C){% endmath %} as the quality measure, then { { {% math %}abc{% endmath %} },{ {% math %}def{% endmath %} } } clustering will be better (the gradient of each cluster is equal to 1/3 as compared with 1/6 of clustering { { {% math %}abc, def{% endmath %} } }).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200915T071010Z" creationid="Марианна" creationdate="20200914T131604Z">
+        <seg>But if we use gradient {% math %}G(C)=H(C)/W(C)=S(C)/W(C)^2{% endmath %} instead of {% math %}H(C){% endmath %} as the quality measure, then { { {% math %}abc{% endmath %} },{ {% math %}def{% endmath %} } } clustering will be better (the gradient of each cluster is equal to 1/3 as compared with 1/6 of clustering { { {% math %}abc, def{% endmath %} } }).</seg>
       </tuv>
     </tu>
     <tu>
