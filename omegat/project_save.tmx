@@ -1622,8 +1622,8 @@ the initial clustering, driven by function {% math %}Profit(C,r){% endmath %}.</
       <tuv lang="ru">
         <seg>Результат работы CLOPE при {% math %}r=2.6{% endmath %} для задачи о грибах после 1-ой итерации (фаза инициализации) представлен в таблице 1.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200915T060735Z" creationid="Марианна" creationdate="20200915T060735Z">
-        <seg>The CLOPE result of work when {% math %}r=2.6{% endmath %} for the Mushroom Dataset after the first iteration (the initialization phase) is shown in Table 1.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200915T061759Z" creationid="Марианна" creationdate="20200915T060735Z">
+        <seg>Result of the CLOPE operation when {% math %}r=2.6{% endmath %} for the Mushroom Dataset after the first iteration (the initialization phase) is shown in Table 1.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1654,8 +1654,8 @@ the initial clustering, driven by function {% math %}Profit(C,r){% endmath %}.</
       <tuv lang="ru">
         <seg>Таблица 1: результат работы CLOPE после 1 итерации.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200915T061726Z" creationid="Марианна" creationdate="20200915T061726Z">
-        <seg>Table 1: результат работы CLOPE после 1 итерации.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200915T061837Z" creationid="Марианна" creationdate="20200915T061726Z">
+        <seg>Table 1: Result of the CLOPE operation after the first iteration.</seg>
       </tuv>
     </tu>
     <tu>
