@@ -16,7 +16,7 @@ It is not effective and sometimes even impossible to use traditional algorithms 
 
 The algorithms based on the pair-wise distance calculation ([k-means](https://wiki.loginom.ru/articles/k-means.html) and the similar ones) are mostly effective for numerical data. When using arrays of records with large amount of non-numerical factors, their performance is unsatisfactory. And the importance lies not so much in the complexity of metrics definition to calculate distances between the categorical [attributes](https://wiki.loginom.ru/articles/attribute.html), as in the fact that it is required to provide pair-wise comparison of objects with each other for each algorithm iteration, and there can be too many iterations. It is not applicable for the tables with millions of records and thousands of fields.
 
-That's why development of [scalable algorithms](https://wiki.loginom.ru/articles/scalable-algorithm.html) for clustering of the categorical and transactional data are actively researched nowadays. The following special requirements are imposed on them:
+That's why development of [scalable algorithms](https://wiki.loginom.ru/articles/scalable-algorithm.html) for clustering of the categorical and transactional data is actively performed nowadays. The following special requirements are imposed on them:
 
 * minimum possible number of the database table "scans";
 * operation under condition of the limited computer RAM capacity;
