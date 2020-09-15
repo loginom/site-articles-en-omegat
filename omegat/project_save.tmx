@@ -1806,8 +1806,8 @@ the initial clustering, driven by function {% math %}Profit(C,r){% endmath %}.</
       <tuv lang="ru">
         <seg>Чем больше {% math %}r{% endmath %}, тем ниже уровень сходства и тем больше кластеров будет сгенерировано.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200915T071222Z" creationid="Марианна" creationdate="20200914T133125Z">
-        <seg>The higher {% math %}r{% endmath %} is, the lower the similarity level is and the more clusters will be generated.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200915T071306Z" creationid="Марианна" creationdate="20200914T133125Z">
+        <seg>The higher {% math %}r{% endmath %} is, the lower the similarity level is, and the more clusters will be generated.</seg>
       </tuv>
     </tu>
     <tu>
