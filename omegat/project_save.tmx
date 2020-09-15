@@ -934,6 +934,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Во время работы алгоритм хранит в RAM небольшое количество информации по каждому кластеру и требует минимальное число сканирований набора данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200915T063948Z" creationid="Марианна" creationdate="20200915T063948Z">
+        <seg>During the operation process the algorithm keep a small amount of information for each cluster in RAM, and it requires the minimum number of data set scans.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Во время работы в RAM хранится только текущая транзакция и небольшое количество информации по каждому кластеру, которая состоит из: количества транзакций {% math %}N{% endmath %}, числа уникальных объектов (или ширины кластера) {% math %}W{% endmath %}, простой хэш-таблицы для расчета {% math %}Occ(i,C){% endmath %} и значения {% math %}S{% endmath %} площади кластера.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T190309Z" creationid="Марианна" creationdate="20200914T190309Z">
@@ -1425,6 +1433,14 @@ respectively for the number of transactions, the number of objects in the base o
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Он легко рассчитывается и интерпретируется.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200915T063812Z" creationid="Марианна" creationdate="20200915T063812Z">
+        <seg>It is easily computed and interpreted.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Он может иметь вид бинарной матрицы образов, как в ассоциативных правилах, так и представлять собой взаимно однозначное отображение между множеством уникальных объектов {% math %}{u_1,…u_q}{% endmath %} таблицы и множеством целых чисел {% math %}{0,1,2,…,q-1}{% endmath %}.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T200005Z" creationid="Марианна" creationdate="20200914T200005Z">
@@ -1808,6 +1824,14 @@ the initial clustering, driven by function {% math %}Profit(C,r){% endmath %}.</
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T191604Z" creationid="Марианна" creationdate="20200914T191604Z">
         <seg>It is easy to do if you know the values {% math %}S{% endmath %}, {% math %}W{% endmath %} and {% math %}N{% endmath %} of each cluster:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Это позволяет применять его для кластеризации огромных объемов категорийных данных (large categorical data sets);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200915T064020Z" creationid="Марианна" creationdate="20200915T064020Z">
+        <seg>It enables to use it for clustering of the large categorical data sets.</seg>
       </tuv>
     </tu>
     <tu>
