@@ -878,6 +878,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Алгоритм CLOPE предназначен для работы с транзакционными данными, но, как мы увидели, очень много наборов данных с категорийными атрибутами представляют собой транзакционные данные либо сводятся к ним.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200915T062234Z" creationid="Марианна" creationdate="20200915T062234Z">
+        <seg>The CLOPE algorithm is designated for transactional data but it has been shown that there are many data sets with categorical attributes that represent the transactional data, or they are reduced to them.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Алгоритм CLOPE, который мы рассматриваем в данной статье, очень похож на LargeItem, но быстрее и проще в программной реализации.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T115342Z" creationid="Марианна" creationdate="20200914T070105Z">
