@@ -197,7 +197,7 @@ Table 1: Result of the CLOPE operation after the first iteration.
 
 ## Spheres of the CLOPE Usage
 
-The CLOPE algorithm is designated for transactional data but it has been shown that there are many data sets with categorical attributes that represent the transactional data, or they are reduced to them. The respondent's answers in the questionary, a list of the document key words, a set of tracking data of web surfing, patinet's symptoms, mushroom characteristics represent a transaction. Therefore, the CLOPE spheres of usage include all arrays of the categorical databases.
+The CLOPE algorithm is designated for transactional data but it has been shown that there are many data sets with categorical attributes that represent the transactional data, or they are reduced to them. The respondent's answers in the questionary, a list of the document key words, a set of tracking data of web surfing, patient's symptoms, mushroom characteristics represent a transaction. Therefore, the CLOPE spheres of usage include all arrays of the categorical databases.
 
 In fact, the transactional data clustering has much in common with analysis of associations. Both [Data Mining](https://wiki.loginom.ru/articles/data-mining.html) methods enable to detect concealed dependences in data sets. But there are differences as well. On the one hand, clustering provides a general vision of a data set, whereas association analysis enables to detect particular dependences between attributes. On the other hand, association rules can be used at once, whereas clustering is frequently used as the first analysis stage.
 
