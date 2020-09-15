@@ -1483,6 +1483,14 @@ much higher as compared with the pair-wise comparison of transactions.</seg>
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При этом критерием качества работы алгоритма служит количество «грязных» кластеров, т.е. таких, в которых присутствуют как съедобные ({% math %}e{% endmath %}), так и несъедобные ({% math %}p{% endmath %}) грибы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200915T060954Z" creationid="Марианна" creationdate="20200915T060954Z">
+        <seg>We can estimate the algorithm quality according to the number of the "dirty" clusters, namely, the clusters that include both eadible ({% math %}e{% endmath %}), and poisonouse ({% math %}p{% endmath %}) mushrooms.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При этом он обеспечивает более высокую производительность и лучшее качество кластеризации в сравнении с алгоритмом LargeItem и многими иерархическими алгоритмами.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T114345Z" creationid="Марианна" creationdate="20200914T070449Z">
@@ -1568,6 +1576,14 @@ the initial clustering, driven by function {% math %}Profit(C,r){% endmath %}.</
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T192106Z" creationid="Марианна" creationdate="20200914T192106Z">
         <seg>Implentation of the profit function {% math %}Profit(C,r){% endmath %} when deleting a transaction is similar to {% math %}DeltaAdd(C,t,r){% endmath %}, that's why let's omit its detailed code.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Результат работы CLOPE при {% math %}r=2.6{% endmath %} для задачи о грибах после 1-ой итерации (фаза инициализации) представлен в таблице 1.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200915T060735Z" creationid="Марианна" creationdate="20200915T060735Z">
+        <seg>The CLOPE result of work when {% math %}r=2.6{% endmath %} for the Mushroom Dataset after the first iteration (the initialization phase) is shown in Table 1.</seg>
       </tuv>
     </tu>
     <tu>
