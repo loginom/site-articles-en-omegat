@@ -1050,8 +1050,8 @@ of clusters and table size.</seg>
       <tuv lang="ru">
         <seg>Если такой набор данных представить в описанном выше нормализованном виде, то получится 8124 транзакции, из которых 2408 будут длиной 21, а остальные – 22 элемента (пропущенные значения игнорируются).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200915T060246Z" creationid="Марианна" creationdate="20200915T060246Z">
-        <seg>Если такой набор данных представить в описанном выше нормализованном виде, то получится 8124 транзакции, из которых 2408 будут длиной 21, а остальные – 22 элемента (missing values are ignored).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200915T060533Z" creationid="Марианна" creationdate="20200915T060246Z">
+        <seg>If such data set is represented in the normalized form described above, there will be 8124 transactions, 2408 transactions will have the length equal to 21, the other transactions – 22 items (missing values are ignored).</seg>
       </tuv>
     </tu>
     <tu>
@@ -1116,6 +1116,14 @@ of clusters and table size.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20200914T114519Z" creationid="Марианна" creationdate="20200914T062402Z">
         <seg>And the importance lies not so much in the complexity of metrics definition to calculate distances between the categorical &lt;x3/&gt;attributes&lt;x4/&gt;, as in the fact that it is required to provide pair-wise comparison of objects with each other for each algorithm iteration, and there can be too many iterations.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>И теперь можно применить алгоритм CLOPE.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20200915T060552Z" creationid="Марианна" creationdate="20200915T060552Z">
+        <seg>Now we can use the CLOPE algorithm.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1331,8 +1339,8 @@ respectively for the number of transactions, the number of objects in the base o
       <tuv lang="ru">
         <seg>Однако перед тем как запускать CLOPE, данные необходимо привести к нормализованному виду.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200914T194912Z" creationid="Марианна" creationdate="20200914T194912Z">
-        <seg>However, before we run CLOPE, it is required to provide the normalized data form.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200915T060257Z" creationid="Марианна" creationdate="20200914T194912Z">
+        <seg>However, before we run CLOPE, it is required to provide the normalized data kind.</seg>
       </tuv>
     </tu>
     <tu>
