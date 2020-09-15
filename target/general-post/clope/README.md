@@ -43,7 +43,7 @@ For the first and second cases of clustering it is required to calculate the num
 
 ![Figure 1. Histograms of two clustering cases](split.svg)
 
-Let's estimate the quality of two clustring cases according to analysis of their {% math %}H{% endmath %} height and {% math %}W{% endmath %} width. { {% math %}de, def{% endmath %} } and { {% math %}ab, abc{% endmath %} } clusters have the similar histograms, consequently, they are equivalent. The histogram for { {% math %}ab, abc, acd{% endmath %} } cluster contains 4 different items, and its area is equal to 8 blocks ({% math %}H=2.0, H/W=0.5{% endmath %}), and { {% math %}acd, de, def{% endmath %} } cluster contains 5 different items with the same area ({% math %}H=1.6, H/W=0.32{% endmath %}). Clearly, clustering (1) is better since we prefer more overlapping among
+Let's estimate the quality of two clustering cases according to analysis of their {% math %}H{% endmath %} height and {% math %}W{% endmath %} width. { {% math %}de, def{% endmath %} } and { {% math %}ab, abc{% endmath %} } clusters have the similar histograms, consequently, they are equivalent. The histogram for { {% math %}ab, abc, acd{% endmath %} } cluster contains 4 different items, and its area is equal to 8 blocks ({% math %}H=2.0, H/W=0.5{% endmath %}), and { {% math %}acd, de, def{% endmath %} } cluster contains 5 different items with the same area ({% math %}H=1.6, H/W=0.32{% endmath %}). Clearly, clustering (1) is better since we prefer more overlapping among
 transactions (consequently, {% math %}H{% endmath %} parameter is higher).
 
 The CLOPE algorithm (Clustering with sLOPE) is used according to such obvious and simple concept of geometric histograms. Let's analyze it in detail in its more formal description.
