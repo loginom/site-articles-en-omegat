@@ -50,7 +50,7 @@ The CLOPE algorithm (Clustering with sLOPE) is used according to such obvious an
 
 ## The CLOPE Algorithm
 
-Let's take a database of transactions {% math %}D{% endmath %} taht consists of a set of transactions { {% math %}t_1,t_2,…,t_n{% endmath %} }. Each transaction has s set of objects { {% math %}i_1,…,i_m{% endmath %} }. Set of clusters { {% math %}C_1,…,C_k{% endmath %} } is clustering of a set { {% math %}t_1,…,t_n{% endmath %} } that allows for {% math %}C_1 … C_k={% endmath %} { {% math %}t_1,…,t_n{% endmath %} } and {% math %}C_i\neq \varnothing  \wedge C_i \bigcap C_j = \varnothing{% endmath %}, for {% math %}1<=i{% endmath %}, {% math %}j<=k{% endmath %}. Each {% math %}C_i{% endmath %} item is called a cluster, {% math %}n{% endmath %}, {% math %}m{% endmath %}, {% math %}k{% endmath %} are used
+Let's take a database of transactions {% math %}D{% endmath %} that consists of a set of transactions { {% math %}t_1,t_2,…,t_n{% endmath %} }. Each transaction has s set of objects { {% math %}i_1,…,i_m{% endmath %} }. Set of clusters { {% math %}C_1,…,C_k{% endmath %} } is clustering of a set { {% math %}t_1,…,t_n{% endmath %} } that allows for {% math %}C_1 … C_k={% endmath %} { {% math %}t_1,…,t_n{% endmath %} } and {% math %}C_i\neq \varnothing  \wedge C_i \bigcap C_j = \varnothing{% endmath %}, for {% math %}1<=i{% endmath %}, {% math %}j<=k{% endmath %}. Each {% math %}C_i{% endmath %} item is called a cluster, {% math %}n{% endmath %}, {% math %}m{% endmath %}, {% math %}k{% endmath %} are used
 respectively for the number of transactions, the number of objects in the base of transactions, and the number of clusters.
 
 Each {% math %}C{% endmath %} cluster has the following features:
