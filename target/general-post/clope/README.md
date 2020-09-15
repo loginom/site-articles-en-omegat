@@ -79,7 +79,7 @@ where:
 * {% math %}k{% endmath %} – the number of clusters
 * {% math %}r{% endmath %} – positive real number exceeding 1.
 
-{% math %}r{% endmath %} parameter called a repulsion coefficient by the CLOPE authors enables to control the level of intra-cluster similarity, and the final number of clusters, as a consequence. This coefficient is selected by a user. The higher {% math %}r{% endmath %} is, the lower the similarity level is and the more clusters will be generated.
+{% math %}r{% endmath %} parameter called a repulsion coefficient by the CLOPE authors enables to control the level of intra-cluster similarity, and the final number of clusters, as a consequence. This coefficient is selected by a user. The higher {% math %}r{% endmath %} is, the lower the similarity level is, and the more clusters will be generated.
 
 The formal clustering task using the CLOPE algorithm is as follows: it is required to find clustering {% math %}C: Profit(C,r) -> max{% endmath %} for the set {% math %}D{% endmath %} and {% math %}r{% endmath %} .
 
