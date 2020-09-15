@@ -1267,8 +1267,8 @@ respectively for the number of transactions, the number of objects in the base o
       <tuv lang="ru">
         <seg>Качество двух разбиений оценим, проанализировав их высоту {% math %}H{% endmath %} и ширину {% math %}W{% endmath %}.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20200914T112157Z" creationid="Марианна" creationdate="20200914T112157Z">
-        <seg>Let's estimate the quality of two clustring cases according to analysis of their {% math %}H{% endmath %} height and {% math %}W{% endmath %} width.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20200915T070020Z" creationid="Марианна" creationdate="20200914T112157Z">
+        <seg>Let's estimate the quality of two clustering cases according to analysis of their {% math %}H{% endmath %} height and {% math %}W{% endmath %} width.</seg>
       </tuv>
     </tu>
     <tu>
