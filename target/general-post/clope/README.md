@@ -8,7 +8,7 @@ publish: 2020-01-14
 
 ## Introduction and Main Concepts
 
-The issue of [clustering](https://wiki.loginom.ru/articles/clustering.html) of large arrays of [categorical data](https://wiki.loginom.ru/articles/categorical-data.html) is highly topical for data analysis systems. The categorical data occur in all spheres: industry, trade, marketing, medicine, etc. The categorical data include so-called transactional data: supermarket receipts, tracking data of web surfing. This includes analysis and classification of text documents ([Text Mining](https://wiki.loginom.ru/articles/text-mining.html)).
+The issue of [clustering](https://wiki.loginom.ru/articles/clustering.html) of large arrays of [categorical data](https://wiki.loginom.ru/articles/categorical-data.html) is highly topical for data analysis systems. The categorical data occur in all spheres: industry, trade, marketing, medicine, etc. The categorical data include so-called transactional data: market basket data, tracking data of web surfing. This includes analysis and classification of text documents ([Text Mining](https://wiki.loginom.ru/articles/text-mining.html)).
 
 Hereafter the categirical data refer to qualitative characteristics of objects measured according to the nominal [scale](https://wiki.loginom.ru/articles/scale-type.html). It is to be recalled that when using the nominal scale, it is required to specify only whether the objects are similar as far as the measured feature is concerned.
 
@@ -136,7 +136,7 @@ of clusters and table size. It makes the algorithm fast and effective for large 
 
 Having described the algorithm implementation, we said nothing about the type of the transactions table to make usage of the CLOPE algorithm possible. CLOPE enables to complete the clustering tasks not only for transactional data but also for any categorical data. The main thing is to provide measurement of all features of objects in the nominal scale.
 
-However, before we run CLOPE, it is required to provide the normalized data form. It can be in the form of binary matrix of images in the association rules, and it can also be in the form of bijective mapping between a set of unique objects {% math %}{u_1,…u_q}{% endmath %} of the table and a set of integer numbers {% math %}{0,1,2,…,q-1}{% endmath %}.
+However, before we run CLOPE, it is required to provide the normalized data kind. It can be in the form of binary matrix of images in the association rules, and it can also be in the form of bijective mapping between a set of unique objects {% math %}{u_1,…u_q}{% endmath %} of the table and a set of integer numbers {% math %}{0,1,2,…,q-1}{% endmath %}.
 
 ## The Mushroom Dataset
 
@@ -156,13 +156,13 @@ The mushroom dataset is a popular test that is used for assessment of clustering
 
 There are 116 unique characteristics of the objects in total. 2,480 records have missing values in one attribute. Description of the data set — [https://archive.ics.uci.edu/ml/datasets/mushroom](https://archive.ics.uci.edu/ml/datasets/mushroom).
 
-Если такой набор данных представить в описанном выше нормализованном виде, то получится 8124 транзакции, из которых 2408 будут длиной 21, а остальные – 22 элемента (пропущенные значения игнорируются). И теперь можно применить алгоритм CLOPE. Результат работы CLOPE при {% math %}r=2.6{% endmath %} для задачи о грибах после 1-ой итерации (фаза инициализации) представлен в таблице 1.
+If such data set is represented in the normalized form described above, there will be 8124 transactions, 2408 transactions will have the length equal to 21, the other transactions – 22 items (missing values are ignored). Now we can use the CLOPE algorithm. Result of the CLOPE operation when {% math %}r=2.6{% endmath %} for the Mushroom Dataset after the first iteration (the initialization phase) is shown in Table 1.
 
-При этом критерием качества работы алгоритма служит количество «грязных» кластеров, т.е. таких, в которых присутствуют как съедобные ({% math %}e{% endmath %}), так и несъедобные ({% math %}p{% endmath %}) грибы. Чем меньше таких кластеров, тем лучше. Из таблицы 1 видно, что уже после 1-ой итерации остался только 1 «грязный» кластер №18. Потребуется еще пару-тройку сканирований базы данных для получения финальной кластеризации. Очевидно, что кластер 12 исчезнет.
+We can estimate the algorithm quality according to the number of the "dirty" clusters, namely, the clusters that include both eadible ({% math %}e{% endmath %}), and poisonouse ({% math %}p{% endmath %}) mushrooms. The number of such clusters should be as few as possible. Table 1 shows that there is only one "dirty" cluster #18 already after the first iteration. Two or three database scans are required to achieve the final clustering. It is clear that cluster 12 disappears.
 
-Детальное исследование работы алгоритма CLOPE, проведенное его авторами, показало высокое качество кластеризации в сравнении с другими алгоритмами, в т.ч. иерархическими. При этом по скорости работы и производительности он обгоняет их в несколько раз.
+The detailed analysis of the CLOPE algorithm performed by its authors proved the high clustering quality as compared with other algorithms, namely, the hierarchical ones. Its operation speed and performance are several times higher.
 
-Таблица 1: результат работы CLOPE после 1 итерации.
+Table 1: Result of the CLOPE operation after the first iteration.
 
 | CLUSTER | e | p |
 |----------:|----------:|----------:|
@@ -197,14 +197,14 @@ There are 116 unique characteristics of the objects in total. 2,480 records have
 
 ## Spheres of CLOPE Usage
 
-Алгоритм CLOPE предназначен для работы с транзакционными данными, но, как мы увидели, очень много наборов данных с категорийными атрибутами представляют собой транзакционные данные либо сводятся к ним. Ответы респондента в анкете, список ключевых слов документа, множество посещенных веб-ресурсов пользователя, симптомы больного, характеристики гриба – все это не что иное, как транзакция. Поэтому области применения CLOPE распространяются на все массивы категорийных баз данных.
+The CLOPE algorithm is designated for transactional data but it has been shown that there are many data sets with categorical attributes that represent the transactional data, or they are reduced to them. The respondent's answers in the questionary, a list of the document key words, a set of tracking data of web surfing, patinet's symptoms, mushroom characteristics represent a transaction. Therefore, the CLOPE spheres of usage include all arrays of the categorical databases.
 
-Вообще, кластеризация транзакционных данных имеет много общего с анализом ассоциаций. Обе эти технологии [Data Mining](https://wiki.loginom.ru/articles/data-mining.html) выявляют скрытые зависимости в наборах данных. Но есть и отличия. С одной стороны, кластеризация дает общий взгляд на совокупность данных, тогда как ассоциативный анализ находит конкретные зависимости между атрибутами. С другой стороны, ассоциативные правила сразу пригодны для использования, тогда как кластеризация чаще всего используется как первая стадия анализа.
+In fact, the transactional data clustering has much in common with analysis of associations. Both [Data Mining](https://wiki.loginom.ru/articles/data-mining.html) methods enable to detect concealed dependences in data sets. But there are differences as well. On the one hand, clustering provides a general vision of a data set, whereas association analysis enables to detect particular dependences between attributes. On the other hand, association rules can be used at once, whereas clustering is frequently used as the first analysis stage.
 
-В завершение подчеркнем преимущества алгоритма CLOPE:
+To draw a conclusion, let's emphasize the CLOPE algorithm advantages:
 
-1. Высокие масштабируемость и скорость работы, а так же качество кластеризации, что достигается использованием глобального критерия оптимизации на основе максимизации градиента высоты гистограммы кластера. Он легко рассчитывается и интерпретируется. Во время работы алгоритм хранит в RAM небольшое количество информации по каждому кластеру и требует минимальное число сканирований набора данных. Это позволяет применять его для кластеризации огромных объемов категорийных данных (large categorical data sets);
-2. CLOPE автоматически подбирает количество кластеров, причем это регулируется одним единственным параметром – коэффициентом отталкивания.
+1. High scalability level and operation speed, clustering quality that is achieved by using the global optimization criterion based on maximisation of height gradient of the cluster histogram. It is easily computed and interpreted. During the operation process the algorithm keep a small amount of information for each cluster in RAM, and it requires the minimum number of data set scans. It enables to use it for clustering of the large categorical data sets.
+2. CLOPE automatically selects the number of clusters, and it is controlled using the only parameter, namely, the repulsion coefficient.
 
 ## References
 
