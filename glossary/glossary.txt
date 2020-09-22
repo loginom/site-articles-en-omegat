@@ -163,7 +163,7 @@ XSD-схема на входе	Input XSD schema
 Отменить выбор выделенных	Uncheck selected
 Количество строк данных	Row count
 Гистограмма	Histogram
-Доля	Weight	Конечные классы
+Доля	Rate	Конечные классы, доля класса, доля событий
 Перейти к строке	Go to row
 Режим включенных/исключенных значений	Inclusive/exclusive filter
 Время жизни на время транзакции при неактивности	Idle-in-transaction timeout
@@ -382,16 +382,16 @@ P-значение	P-value
 Описание изменений	Release notes
 Повышение информативности	UI/UX improvement
 Оптимизация работы	Performance improvements
-Смещение	Bias 
-Заполнение пропусков	Imputing, imputation 
-Исправление ошибок в самой программе Loginom	Bug fixes
+Смещение	Bias
+Заполнение пропусков	Imputing, imputation
+Исправление ошибок	Bug fixes	Исправление ошибок в самой программе Loginom
 Повышение удобства	Usability improvements
 Пакетное выполнение	Batch processing
-Версия Loginom	Loginom version 
+Версия Loginom	Loginom version
 Редакция Loginom	Loginom edition
 Рабочее пространство	Working space
 От имени администратора	As an administrator
 Запуск службы	Service start
-Программы и компоненты	Programs & Features 
-Сервер сетевых ключей	Network dongles server 
-Экземпляр программы	Program instance 
+Программы и компоненты	Programs & Features
+Сервер сетевых ключей	Network dongles server
+Экземпляр программы	Program instance
