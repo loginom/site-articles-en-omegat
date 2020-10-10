@@ -273,7 +273,7 @@ OPR (Усредненная точность прогноза)	OPR (Overall Prec
 Каталог	Directory
 Черновик	Draft
 Недавние пакеты	Recent packages
-Правильное представление множества	Valid set representation
+Правильное представление множества	Valid set representation	в описаниях функций калькулятора
 Отображение данных в виде диаграммы	Chart data view
 Константа	Intercept	Intercept только в контексте регрессионных моделей
 Не-событие	Non-event	Терминология статистики
@@ -395,3 +395,10 @@ P-значение	P-value
 Программы и компоненты	Programs & Features
 Сервер сетевых ключей	Network dongles server
 Экземпляр программы	Program instance
+ООО «Аналитические технологии»	OOO ANALITICHESKIE TEHNOLOGII
+Категорийные данные	Categorical data
+Масштабируемый алгоритм	Scalable algorithm
+Сверхбольшие базы данных	Large databases
+Транзакционные данные	Transactional data
+Производительность алгоритма	Algorithm performance
+Панель инструментов	Toolbar
