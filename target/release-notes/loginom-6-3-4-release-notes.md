@@ -2,60 +2,60 @@
 publish: 2020-10-08
 ---
 
-# Loginom 6.3.4 — описание изменений
+# Loginom 6.3.4 — Release Notes
 
-_В этой версии исправлено несколько ошибок, возникавших при работе Узла-ссылки, решена проблема с неожиданной ошибкой Калькулятора при работе в параллельном Цикле, устранена потеря связей у пакетов со сложными зависимостями, а также исключен ряд проблем в Веб-клиенте и Настольном приложении._
+_Several fixes detected while the Reference Node operation were performed in this version, the problem with the sudden Calculator error while operation in the parallel Loop was solved, the problem of lost links of packages with complex dependences was also fixed, some issues in the Web Client and Desktop application were resolved.  
 
-## Исправление ошибок
+## Fixes
 
-[**JavaScript:**](https://help.loginom.ru/userguide/processors/transformation/java-script/) при закрытии мастера настройки сразу после начала выполнения какого-то действия внутри мастера настройки могла возникнуть ошибка “Cannot read property 'hasFocus' of null” (#7475).
+**JavaScript:** when closing the wizard just after the start of any action in the wizard, the following fix was done: “Cannot read property 'hasFocus' of null” (#7475).
 
-[**JavaScript, Калькулятор JavaScript:**](https://help.loginom.ru/userguide/processors/transformation/calc/javascript.html) ранее было возможно записать массив в поле переменного типа, при этом далее такие значения не могли использоваться и возникали ошибки; теперь, если возвращается значение типа *Объект*, то для него выполняется принудительное приведение типа (с помощью функции *object.valueOf()*); ранее в этом случае возвращалось значение *null* (#7603).
+**JavaScript, JavaScript Calculator:** previously, it was possible to record an array in the variable field. In this case, such values could not be further used, and fixes were done. Now, if the Object  value returns, compulsory type cast is executed for it (using the object.valueOf() function). Previously, the null value returned (#7603).
 
-[**Loginom Server:**](https://help.loginom.ru/adminguide/server/) если выполнялся пакет из пула пакетов, который ссылается на другие пакеты, и во время выполнения такого пакета возникала ошибка, то преждевременно закрывались некоторые из пакетов, на которые он ссылался, что приводило к ошибкам (#7811).
+**Loginom Server:** if a package from the package pool with reference to other packages was executed, and a fix was done during such package execution, some packages to which it had a reference were untimely closed that required fixes (#7811).
 
-[**REST-запрос:**](https://help.loginom.ru/userguide/processors/integration/rest-request.html) ранее в конце каждого REST-запроса добавлялся перевод строки (CR LF), но некоторые веб-сервисы, которые в конце запроса ожидали пароль, интерпретировали перевод строки как часть пароля, поэтому теперь (CR LF) в конце запроса не добавляется (#7705).
+**REST request:** previously, string translation (CR LF) was added at the end of each REST request but some web services that were waiting for a password at the request end, interpreted the string translation as a password part that’s why now (CR LF) at the request end is not added (#7705).
 
-**Веб-приложение, Настольное приложение:** в некоторых случаях при нажатии на клавишу *Delete* закрывалась текущая вкладка (#3587).
+**Web application, Desktop application:** the current tab was closed in some cases when Delete key pressing (#3587).
 
-**Веб-приложение, Настольное приложение:** в мастерах настройки, если содержимое окна не помещалось на экране, то не появлялись полосы прокрутки, из-за чего было невозможно задать некоторые настройки (#6124, #6189).
+**Web application, Desktop application:** if there was no enough place for the window contents in the wizards on the display, scroll bars appeared that’s why it was not possible to configure some settings (#6124, #6189).
 
-[**Визуализаторы:**](https://help.loginom.ru/userguide/visualization/) иногда приложение оказывалось заблокированным, если попытаться активировать визуализаторы, подключенные к узлам, которые невозможно выполнить (#5753).
+**Visualizers:** some applications were locked when attempting to activate visualizers connected to the nodes that could not be executed(#5753).
 
-[**Качество бинарной классификации:**](https://help.loginom.ru/userguide/visualization/binary-classification/) в случае, если для *Порога отсечения* был выбран вариант *Из настроек узла*, неверно рассчитывались количества корректо распознаных значений (TP и FP) (#7730).
+**Quality of the binary classification:** if From node settings option was selected for Cutoff, the count of correctly recognized values (TP and FP) was incorrectly calculated (#7730).
 
-[**Калькулятор:**](https://help.loginom.ru/userguide/processors/transformation/calc/) при выполнении узла Калькулятор в Цикле в режиме *Параллельная обработка*, если была включена опция кэширования значений, а тип значений был *Строковый* или *Переменный*, то в произвольный момент могла возникать ошибка "invalid argument" (#7726).
+**Calculator:** when running the Calculator node in the Loop in the Parallel processing  mode, if the option of values caching was enabled, and the String or Variable type of values was used, the following fix could be done: "invalid argument" (#7726).
 
-**[Линейная регрессия](https://help.loginom.ru/userguide/processors/datamining/linear-regression/), [Логистическая регрессия:](https://help.loginom.ru/userguide/processors/datamining/logistic-regression/)** в мастере настройки, если для параметра *Опорное значение* был выбран вариант *Задано явно*, при пересортировке значений без активации входных портов и последующем выборе другого поля, возникала ошибка «Значение индекса -1 параметра "Indexes" вне диапазона [0; -1]» (#7073).
+**Linear regression, Logistic regression:** if Explicitly set  option was selected in the wizard for the Reference value parameter, the following fix was required when resorting values without activation of input ports and subsequent selection of other field: “Index value of -1 of "Indexes" parameter is out of [0; -1] range”(#7073).
 
-**Линейная регрессия, Логистическая регрессия:** после сохранения и загрузки сценария на выходном порту *Сводка* выводились нулевые значения параметров *Примеров в тестовом множестве* и *Примеров в валидационном множестве*, даже если при сохранении был задан не нулевые размеры этих множеств (#7746).
+**Linear regression, Logistic regression:** upon the workflow saving and downloading at the Summary output port, the null values of Samples in the test set  and Samples in the validation set parameters were shown, even if not null sizes of these sets were set when saving (#7746).
 
-**Линейная регрессия, [Нейросеть (регрессия):](https://help.loginom.ru/userguide/processors/datamining/neural-network-regression.html)** если был задан [*Метод разбиения обучающего и текстового множеств*](https://help.loginom.ru/userguide/processors/preprocessing/separating-to-multiplicity.html) *Последовательный*, то при попытке просмотреть данные сразу после обучения возникала ошибка (#7738).
+**Linear regression, Neutral network (regression):** if Sequence was set as a Method of partition of training and text sets, when attempting to view data just after training, a fix was required(#7738).
 
-[**Подключения к базам данных:**](https://help.loginom.ru/userguide/quick-start/database.html) при переходе на страницу *Подключения* по ссылке, полученной через кнопку *Поделиться*, возникала ошибка "Cannot read property 'IRecordModel' of undefined" (#6157).
+**Connections to databases:** when jumping to the Connections page by the reference received using Share button, the following fix was required: "Cannot read property 'IRecordModel' of undefined" (#6157).
 
-**Подключение к базам данных:** если использовалось подключение через ODBC-драйвер *Cloudera* для Hive, то при выборе в мастере настройки любой таблицы из списка возникала ошибка "Table or view not found: HIVE..default.pokes" (#7709).
+**Connection to databases:** if connection via Cloudera ODBC driver for Hive was used, the following fix was done when selecting any table from the list in the wizard: "Table or view not found: HIVE..default.pokes" (#7709).
 
-**Подключение к базам данных:** если использовалось подключение через ODBC-драйвер *Cloudera* для Hive, то в процессе импорта полей типа *struct* или *array* возникала ошибка (#7748).
+**Connection to databases:** if connection via Cloudera ODBC driver for Hive was used, a fix was done when importing the struct or array fields (#7748).
 
-[**Подмодель:**](https://help.loginom.ru/userguide/processors/control/submodel.html) если у активированной Подмодели при автосинхронизации изменялся список полей во входном или выходном порту, то производные Подмодели ошибочно помечались как изменённые (#5990).
+**Supernode:** if the list of fields in the input or output port of the activated Supernode was changed while automapping, the Supernode derivatives were incorrectly marked as the changed ones (#5990).
 
-**Страница авторизации:** при изменении на странице авторизации при изменении масштаба могли возникать ошибки в отображении страницы, а также могло полностью блокироваться окно, в результате чего было невозможно авторизоваться в приложении (#7704, #7715, #7779).
+**Login page:** when changing the scale on the login page, fixes could be required when page displaying, and the window could be completely locked that caused failure to login to the application (#7704, #7715, #7779).
 
-[**Узел-ссылка:**](https://help.loginom.ru/userguide/processors/control/unit-link.html) сервер мог зависать при запуске Подмодели, содержащей циклическую зависимость; например, если выполнялась Подмодель, содержащая узел-источник получающий данные из Узла-ссылки, ссылающегося на тот же узел-источник (#5197).
+**Reference Node:** the server could be frozen when starting the Supernode that contained circular dependence.  For example, if the Supernode containing the source node receiving the data from the Reference Node with reference to the same source node was run (#5197).
 
-**Узел-ссылка:** при сворачивании Узла-ссылки в Подмодель пропадали связи от его выходов к внешним узлам (#7759).
+**Reference Node:** when collapsing the Reference Node to the Supernode, the links from its outputs to the external nodes were lost (#7759).
 
-[**Формирование XML:**](https://help.loginom.ru/userguide/processors/integration/formation-xml.html) если в XSD-схеме параметр *maxOccurs* был задан числом больше *1*, то при повторном запуске узла возникала ошибка «XSD-схема не позволяет экспортировать элемент ... в текущий XML-документ» (#7729).
+**XML generation:** if the maxOccurs parameter was set by the number exceeding 1 in the XSD schema, in the case of the repeated node start, the following fix could be required: “XSD schema does not allow to export  ... element to current XML document” (#7729).
 
-[**Экспорт в Базу данных:**](https://help.loginom.ru/userguide/integration/export/database.html) при попытке экспорта строковых guid'ов (например, созданных в Калькуляторе функцией *CreateGuid*) в базу данных PostgreSQL возникала ошибка «колонка "guid" имеет тип uuid, а выражение - character varying» (#7784).
+**Export to Database:** while attempting to export the string guids (for example, the ones created in Calculator using the CreateGuid function) to the PostgreSQL database, the following fix was done: “the "guid" column has the uuid type, and the expression - character varying” (#7784).
 
-**Ядро платформы:** при попытке одновременно добавить ссылки на пакет и его копию, возникает ошибка «В списке для идентификатора {....-..-..-..-....} локальный компонент уже существует»; ранее это также могло приводить к тому, что производные компоненты и узлы с модификатором доступа *Открытый* становились недоступны из внешних пакетов (#7750).
+**Core framework:** the following fix was required while attempting to add references to a package and its copy simultaneously: “{....-..-..-..-....} local component already exists in the identifier list”. Previously, it could also cause failure to access the derived components and nodes with the Public  access modifier  from the external packages (#7750).
 
-## Повышение информативности
+## UI/UX  Improvement
 
-**JavaScript:** переименована страница настройки столбцов выходной таблицы, заполняемой из кода: старый заголовок «Настройка столбцов», новый заголовок «Настройка столбцов выходной таблицы JavaScript»; переименован заголовок страницы с настройкой параметров полей: старый заголовок «Параметры полей», новый заголовок «Настройка параметров полей» (#7721).
+**JavaScript:** the columns configuration page of the output table filled in using the code was renamed as follows: the old header is “Configure columns”, the new header is “Configure columns of JavaScript output table”. The header of the page with fields features configuration was renamed. The old header is “Fields features”, the new header is “Configure fields features” (#7721).
 
-## Оптимизация работы
+## Performance Improvements
 
-[**Импорт из ClickHouse:**](https://help.loginom.ru/userguide/integration/connections/list/clickhouse.html) оптимизировано потребление памяти при импорте данных из ClickHouse (#7727).
+**Import from ClickHouse:** memory consumption while data import from ClickHouse was optimized (#7727).
