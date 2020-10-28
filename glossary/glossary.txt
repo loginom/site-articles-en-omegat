@@ -171,7 +171,7 @@ XSD-схема на входе	Input XSD schema
 Ошибка при….	Error while….+ing
 Предпросмотр	Preview
 Тип кавычек	Identifier quotes
-Диапазон	Bin
+Диапазон	Bin	Для квантования и конечных классов bin. Но для других контекстов возможно нет.
 Итоги	Show totals
 Снять	Uncheck
 Снять все	Uncheck all
@@ -384,7 +384,7 @@ P-значение	P-value
 Оптимизация работы	Performance improvements
 Смещение	Bias
 Заполнение пропусков	Imputing, imputation
-Исправление ошибок	Bug fixes	Исправление ошибок в самой программе Loginom
+Исправление ошибок	Fixes	Исправление ошибок в самой программе Loginom
 Повышение удобства	Usability improvements
 Пакетное выполнение	Batch processing
 Версия Loginom	Loginom version
@@ -402,3 +402,4 @@ P-значение	P-value
 Транзакционные данные	Transactional data
 Производительность алгоритма	Algorithm performance
 Панель инструментов	Toolbar
+Регулярное выражение Perl	Perl regular expression
