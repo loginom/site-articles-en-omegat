@@ -36,7 +36,7 @@ _Several issues detected while the Reference Node operation were fixed in this v
 
 **Connection to databases:** if connection via Cloudera ODBC driver for Hive was used, the following error occurred when selecting any table from the list in the wizard: "Table or view not found: HIVE..default.pokes" (#7709).
 
-**Connection to databases:** if connection via Cloudera ODBC driver for Hive was used, a fix was done when importing the struct or array fields (#7748).
+**Connection to databases:** if connection via Cloudera ODBC driver for Hive was used, an error occurred when importing the struct or array fields (#7748).
 
 **Supernode:** if the list of fields in the input or output port of the activated Supernode was changed while automapping, the Supernode derivatives were incorrectly marked as the changed ones (#5990).
 
