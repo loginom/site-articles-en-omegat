@@ -24,7 +24,7 @@ _Several issues detected while the Reference Node operation were fixed in this v
 
 **Quality of the binary classification:** if From node settings option was selected for Cutoff, the count of correctly recognized values (TP and FP) was incorrectly calculated (#7730).
 
-**Calculator:** when running the Calculator node in the Loop in the Parallel processing  mode, if the option of values caching was enabled, and the String or Variable type of values was used, the following fix could be done: "invalid argument" (#7726).
+**Calculator:** when running the Calculator node in the Loop in the Parallel processing  mode, if the option of values caching was enabled, and the String or Variable type of values was used, the following error occurred: "invalid argument" (#7726).
 
 **Linear regression, Logistic regression:** if Explicitly set  option was selected in the wizard for the Reference value parameter, the following fix was required when resorting values without activation of input ports and subsequent selection of other field: “Index value of -1 of "Indexes" parameter is out of [0; -1] range”(#7073).
 
