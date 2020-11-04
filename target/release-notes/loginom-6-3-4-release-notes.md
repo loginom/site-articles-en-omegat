@@ -30,7 +30,7 @@ _Several issues detected while the Reference Node operation were fixed in this v
 
 **Linear regression, Logistic regression:** upon the workflow saving and downloading at the Summary output port, the null values of Samples in the test set  and Samples in the validation set parameters were shown, even if not null sizes of these sets were set when saving (#7746).
 
-**Linear regression, Neutral network (regression):** if Sequence was set as a Method of partition of training and text sets, when attempting to view data just after training, a fix was required(#7738).
+**Linear regression, Neutral network (regression):** if Sequence was set as a Method of partition of training and text sets, when attempting to view data just after training, an error occurred(#7738).
 
 **Connections to databases:** when jumping to the Connections page by the reference received using Share button, the following error occurred: "Cannot read property 'IRecordModel' of undefined" (#6157).
 
