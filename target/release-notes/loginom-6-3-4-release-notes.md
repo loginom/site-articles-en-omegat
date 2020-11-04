@@ -50,7 +50,7 @@ _Several issues detected while the Reference Node operation were fixed in this v
 
 **Export to Database:** while attempting to export the string guids (for example, the ones created in Calculator using the CreateGuid function) to the PostgreSQL database, the following fix was done: “the "guid" column has the uuid type, and the expression - character varying” (#7784).
 
-**Core framework:** the following fix was required while attempting to add references to a package and its copy simultaneously: “{....-..-..-..-....} local component already exists in the identifier list”. Previously, it could also cause failure to access the derived components and nodes with the Public  access modifier  from the external packages (#7750).
+**Core framework:** the following error occurred while attempting to add references to a package and its copy simultaneously: “{....-..-..-..-....} local component already exists in the identifier list”. Previously, it could also cause failure to access the derived components and nodes with the Public  access modifier  from the external packages (#7750).
 
 ## UI/UX  Improvement
 
