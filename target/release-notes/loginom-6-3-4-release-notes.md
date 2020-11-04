@@ -26,13 +26,13 @@ _Several issues detected while the Reference Node operation were fixed in this v
 
 **Calculator:** when running the Calculator node in the Loop in the Parallel processing  mode, if the option of values caching was enabled, and the String or Variable type of values was used, the following error occurred: "invalid argument" (#7726).
 
-**Linear regression, Logistic regression:** if Explicitly set  option was selected in the wizard for the Reference value parameter, the following fix was required when resorting values without activation of input ports and subsequent selection of other field: “Index value of -1 of "Indexes" parameter is out of [0; -1] range”(#7073).
+**Linear regression, Logistic regression:** if Explicitly set  option was selected in the wizard for the Reference value parameter, the following error occurred when resorting values without activation of input ports and subsequent selection of other field: “Index value of -1 of "Indexes" parameter is out of [0; -1] range”(#7073).
 
 **Linear regression, Logistic regression:** upon the workflow saving and downloading at the Summary output port, the null values of Samples in the test set  and Samples in the validation set parameters were shown, even if not null sizes of these sets were set when saving (#7746).
 
 **Linear regression, Neutral network (regression):** if Sequence was set as a Method of partition of training and text sets, when attempting to view data just after training, a fix was required(#7738).
 
-**Connections to databases:** when jumping to the Connections page by the reference received using Share button, the following fix was required: "Cannot read property 'IRecordModel' of undefined" (#6157).
+**Connections to databases:** when jumping to the Connections page by the reference received using Share button, the following error occurred: "Cannot read property 'IRecordModel' of undefined" (#6157).
 
 **Connection to databases:** if connection via Cloudera ODBC driver for Hive was used, the following error occurred when selecting any table from the list in the wizard: "Table or view not found: HIVE..default.pokes" (#7709).
 
