@@ -46,7 +46,7 @@ _Several issues detected while the Reference Node operation were fixed in this v
 
 **Reference Node:** when collapsing the Reference Node to the Supernode, the links from its outputs to the external nodes were lost (#7759).
 
-**XML generation:** if the maxOccurs parameter was set by the number exceeding 1 in the XSD schema, in the case of the repeated node start, the following fix could be required: “XSD schema does not allow to export  ... element to current XML document” (#7729).
+**XML generation:** if the maxOccurs parameter was set by the number exceeding 1 in the XSD schema, in the case of the repeated node start, the following error occurred: “XSD schema does not allow to export  ... element to current XML document” (#7729).
 
 **Export to Database:** while attempting to export the string guids (for example, the ones created in Calculator using the CreateGuid function) to the PostgreSQL database, the following fix was done: “the "guid" column has the uuid type, and the expression - character varying” (#7784).
 
