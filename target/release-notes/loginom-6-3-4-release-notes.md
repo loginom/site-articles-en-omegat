@@ -26,7 +26,7 @@ _Several issues detected while the Reference Node operation were fixed in this v
 
 **Calculator:** when running the Calculator node in the Loop in the Parallel processing  mode, if the option of values caching was enabled, and the String or Variable type of values was used, the following error occurred: "invalid argument" (#7726).
 
-**Linear regression, Logistic regression:** if Explicitly set  option was selected in the wizard for the Reference value parameter, the following error occurred when resorting values without activation of input ports and subsequent selection of other field: “Index value of -1 of "Indexes" parameter is out of [0; -1] range”(#7073).
+**Linear regression, Logistic regression:** if Explicitly set option was selected in the wizard for the Reference value parameter, the following error occurred when resorting values without activation of input ports and subsequent selection of other field: “Index value of -1 of "Indexes" parameter is out of [0; -1] range”(#7073).
 
 **Linear regression, Logistic regression:** upon the workflow saving and downloading at the Summary output port, the null values of Samples in the test set  and Samples in the validation set parameters were shown, even if not null sizes of these sets were set when saving (#7746).
 
