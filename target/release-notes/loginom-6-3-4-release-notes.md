@@ -34,7 +34,7 @@ _Several issues detected while the Reference Node operation were fixed in this v
 
 **Connections to databases:** when jumping to the Connections page by the reference received using Share button, the following fix was required: "Cannot read property 'IRecordModel' of undefined" (#6157).
 
-**Connection to databases:** if connection via Cloudera ODBC driver for Hive was used, the following fix was done when selecting any table from the list in the wizard: "Table or view not found: HIVE..default.pokes" (#7709).
+**Connection to databases:** if connection via Cloudera ODBC driver for Hive was used, the following error occurred when selecting any table from the list in the wizard: "Table or view not found: HIVE..default.pokes" (#7709).
 
 **Connection to databases:** if connection via Cloudera ODBC driver for Hive was used, a fix was done when importing the struct or array fields (#7748).
 
