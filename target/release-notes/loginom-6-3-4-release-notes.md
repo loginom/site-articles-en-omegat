@@ -20,7 +20,7 @@ _Several issues detected while the Reference Node operation were fixed in this v
 
 **Web application, Desktop application:** if there was no enough place for the window contents in the wizards on the display, scroll bars appeared that’s why it was not possible to configure some settings (#6124, #6189).
 
-**Visualizers:** some applications were locked when attempting to activate visualizers connected to the nodes that could not be executed(#5753).
+**Visualizers:** applications were locked sometimes when attempting to activate visualizers connected to the nodes that could not be executed(#5753).
 
 **Quality of the binary classification:** if From node settings option was selected for Cutoff, the count of correctly recognized values (TP and FP) was incorrectly calculated (#7730).
 
