@@ -10,7 +10,7 @@ _Several issues detected while the Reference Node operation were fixed in this v
 
 **JavaScript:** when closing the wizard just after the start of any action in the wizard, the following error message was received: “Cannot read property 'hasFocus' of null” (#7475).
 
-**JavaScript, JavaScript Calculator:** previously, it was possible to record an array in the variable field. In this case, such values could not be further used, and fixes were done. Now, if the Object  value returns, compulsory type cast is executed for it (using the object.valueOf() function). Previously, the null value returned (#7603).
+**JavaScript, JavaScript Calculator:** previously, it was possible to record an array in the variable field. In this case, such values could not be further used, and errors occurred. Now, if the Object  value returns, compulsory type cast is executed for it (using the object.valueOf() function). Previously, the null value returned (#7603).
 
 **Loginom Server:** if a package from the package pool with reference to other packages was executed, and a fix was done during such package execution, some packages to which it had a reference were untimely closed that required fixes (#7811).
 
