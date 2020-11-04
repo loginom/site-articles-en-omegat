@@ -4,7 +4,7 @@ publish: 2020-10-08
 
 # Loginom 6.3.4 — Release Notes
 
-_Several fixes detected while the Reference Node operation were performed in this version, the problem with the sudden Calculator error while operation in the parallel Loop was solved, the problem of lost links of packages with complex dependences was also fixed, some issues in the Web Client and Desktop application were resolved.  
+_Several issues detected while the Reference Node operation were fixed in this version, the problem with the sudden Calculator error while operation in the parallel Loop was solved, the problem of lost links of packages with complex dependences was also fixed, some issues in the Web Client and Desktop application were resolved.  
 
 ## Fixes
 
