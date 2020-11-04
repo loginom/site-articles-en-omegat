@@ -14,7 +14,7 @@ _Several issues detected while the Reference Node operation were fixed in this v
 
 **Loginom Server:** if a package from the package pool with reference to other packages was executed, and an error occurred during such package execution, some packages to which it had a reference were untimely closed that required fixes (#7811).
 
-**REST request:** previously, string translation (CR LF) was added at the end of each REST request but some web services that were waiting for a password at the request end, interpreted the string translation as a password part that’s why now (CR LF) at the request end is not added (#7705).
+**REST request:** previously, linefeed (CR LF) was added at the end of each REST request but some web services that were waiting for a password at the request end, interpreted the linefeed as a password part that’s why now (CR LF) at the request end is not added (#7705).
 
 **Web application, Desktop application:** the current tab was closed in some cases when Delete key pressing (#3587).
 
