@@ -12,7 +12,7 @@ _Several issues detected while the Reference Node operation were fixed in this v
 
 **JavaScript, JavaScript Calculator:** previously, it was possible to record an array in the variable field. In this case, such values could not be further used, and errors occurred. Now, if the Object  value returns, compulsory type cast is executed for it (using the object.valueOf() function). Previously, the null value returned (#7603).
 
-**Loginom Server:** if a package from the package pool with reference to other packages was executed, and a fix was done during such package execution, some packages to which it had a reference were untimely closed that required fixes (#7811).
+**Loginom Server:** if a package from the package pool with reference to other packages was executed, and an error occurred during such package execution, some packages to which it had a reference were untimely closed that required fixes (#7811).
 
 **REST request:** previously, string translation (CR LF) was added at the end of each REST request but some web services that were waiting for a password at the request end, interpreted the string translation as a password part that’s why now (CR LF) at the request end is not added (#7705).
 
