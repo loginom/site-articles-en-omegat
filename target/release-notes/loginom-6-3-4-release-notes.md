@@ -40,7 +40,7 @@ _Several issues detected while the Reference Node operation were fixed in this v
 
 **Supernode:** if the list of fields in the input or output port of the activated Supernode was changed while automapping, the Supernode derivatives were incorrectly marked as the changed ones (#5990).
 
-**Login page:** when changing the scale on the login page, fixes could be required when page displaying, and the window could be completely locked that caused failure to login to the application (#7704, #7715, #7779).
+**Login page:** when changing the scale on the login page, errors could occur when page displaying, and the window could be completely locked that caused failure to login to the application (#7704, #7715, #7779).
 
 **Reference Node:** the server could be frozen when starting the Supernode that contained circular dependence.  For example, if the Supernode containing the source node receiving the data from the Reference Node with reference to the same source node was run (#5197).
 
