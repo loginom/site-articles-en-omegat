@@ -22,7 +22,7 @@ _Several issues detected while the Reference Node operation were fixed in this v
 
 **Visualizers:** application was locked sometimes when attempting to activate visualizers connected to the nodes that could not be executed(#5753).
 
-**Quality of the binary classification:** if From node settings option was selected for Cutoff, the count of correctly recognized values (TP and FP) was incorrectly calculated (#7730).
+**Quality of the binary classification:** if From node settings option was selected for *Cutoff*, the count of correctly recognized values (TP and FP) was incorrectly calculated (#7730).
 
 **Calculator:** when running the Calculator node in the Loop in the Parallel processing  mode, if the option of values caching was enabled, and the String or Variable type of values was used, the following error occurred: "invalid argument" (#7726).
 
