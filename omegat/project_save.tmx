@@ -72,8 +72,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt;Конечные классы:&lt;x3/&gt;&lt;x4/&gt; если объединить начальные классы в мастере настройки c помощью перетаскивания границы класса, то возникала ошибка "Cannot read property 'element' of undefined" (#7504).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201122T101301Z" creationid="Марианна" creationdate="20201122T101301Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt;Coarse сlasses:&lt;x3/&gt;&lt;x4/&gt; если объединить начальные классы в мастере настройки c помощью перетаскивания границы класса, то возникала ошибка "Cannot read property 'element' of undefined" (#7504).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201122T102925Z" creationid="Марианна" creationdate="20201122T101301Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;Coarse сlasses:&lt;x3/&gt;&lt;x4/&gt; the following error occurred when joining the fine classes in the wizard by dragging the class border: "Cannot read property 'element' of undefined" (#7504).</seg>
       </tuv>
     </tu>
     <tu>
