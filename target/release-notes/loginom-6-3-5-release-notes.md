@@ -8,9 +8,9 @@ _Several issues detected while operation of web-services and databases were fixe
 
 ## Fixes
 
-[**JavaScript, Calculator (JavaScript):**](https://help.loginom.ru/userguide/processors/transformation/calc/javascript.html) the web application could be frozen if the JSDoc comments were used in the JavaScript wizard, and the name of the function that contained such comment was entered, or the lookup wizard was called (*Ctrl* + *Space*). Such problem could also arise when writing the module import string if the imported module contained the JSDoc comments (#7833).
+[**JavaScript, Calculator (JavaScript):**](https://help.loginom.ru/userguide/processors/transformation/calc/javascript.html) the web application could be frozen if the JSDoc comments were used in the JavaScript wizard, and the name of the function that contained such comment was entered, or the lookup wizard was called (*Ctrl* + *Space*). Such problem could also arise when writing the module import row if the imported module contained the JSDoc comments (#7833).
 
-[**JavaScript:**](https://help.loginom.ru/userguide/processors/transformation/java-script) if the resulting table contained too large (several thousands) number of strings in the code editor when previewing, the following error could occur: "Runtime is disabled" (#8048).
+[**JavaScript:**](https://help.loginom.ru/userguide/processors/transformation/java-script) if the resulting table contained too large (several thousands) row count in the code editor when previewing, the following error could occur: "Runtime is disabled" (#8048).
 
 **Web application:** when adding link and creating a new port at the same time (using "+" port of Join, Enrich Data components, etc), the following error could sometimes occur: "Failed to create new port ObjectId value is not cached" (#8039).
 
@@ -22,7 +22,7 @@ _Several issues detected while operation of web-services and databases were fixe
 
 **Import from Excel:** the data from the xlsx files was not loaded if there was no information on the data range in the metadata, and the data was not displayed in the wizard preview window. The files with incomplete metadata can be generated when exporting from the third-party applications, for example, 1C or Google Docs (#6684, #7745).
 
-[**Import from Database:**](https://help.loginom.ru/userguide/integration/import/database.html) if the string that was lower than the first data page was selected in the import wizard in the preview window, in the case of the repeated opening, the preview window could be empty, and to display the data, it was required to scroll up the view window or to open the preview once again (#8044).
+[**Import from Database:**](https://help.loginom.ru/userguide/integration/import/database.html) if the row that was lower than the first data page was selected in the import wizard in the preview window, in the case of the repeated opening, the preview window could be empty, and to display the data, it was required to scroll up the view window or to open the preview once again (#8044).
 
 [**Calculator:**](https://help.loginom.ru/userguide/processors/transformation/calc/) if *Null* was the first argument to be moved to *DateTimeToStr* function, the error occurred in the function, and calculation of the expression in which the function was used was stopped, and error message was written in the log. Now, in such case, *DateTimeToStr* function returns *Null* (#7969).
 
@@ -44,13 +44,13 @@ _Several issues detected while operation of web-services and databases were fixe
 
 [**Supernode:**](https://help.loginom.ru/userguide/processors/control/submodel.html) if the node receiving data from the Node execution node referring to the Supernode was activated, an error occurred when attempting to move the source Supernode into another Supernode (#7901).
 
-**Supernode:** при попытке переместить несколько узлов сложно связанных узлов могла возникнуть ошибка «Сценарий содержит 1 заблокированных узлов»; например, такая ошибка могла возникнуть при перемещении узлов, связанных через Узел-ссылку, находящийся внутри Подмодели (#7977).
+**Supernode:** when attempting to move several nodes of complexly connected nodes, the following error could occur: "Workflow contains 1 locked node". For example, such error could occur when moving the nodes connected by means of the Reference Node that is inside the Supernode (#7977).
 
-[**Производный компонент:**](https://help.loginom.ru/userguide/scenario/derived-component.html) если удалялся Производный компонент (№1), Производный узел (№1) которого являлся Базовым для другого Производного компонента (№2), то при попытке создать Производный узел (№2) возникала неинформативная ошибка (#7993).
+[**Derived component:**](https://help.loginom.ru/userguide/scenario/derived-component.html) if Derived Component (№1) was deleted, Derived Node (№1) of which was the Base one for other Derived Component (№2), when attempting to create Derived Node (№2), uninformative error occurred (#7993).
 
-**Развернуть/Свернуть подмодель:** если внутри Подмодели был создан производный компонент, а затем внутри Подмодели были удалены все узлы, то при разворачивании такой Подмодели удалялся ранее созданный Производный компонент; теперь при разворачивании подмодели Производный компонент выносится из подмодели на уровень вверх (#7923).
+**Expand/Collapse Supernode:** if the derived component was created inside the Supernode, and then all nodes were deleted inside the Supernode, when expanding such Supernode, the earlier created Derived Component was deleted. Now, when expanding the supernode, the Derived Component is moved one level up from the supernode (#7923).
 
-[**Соединение:**](https://help.loginom.ru/userguide/processors/transformation/addition.html) при соединение таблицы и переменных некорректно обрабатывалась настройка «Количество строк соответствует» со значением *Определяется набором*: на выход всегда передавалась одна строка (#7945).
+[**Join:**](https://help.loginom.ru/userguide/processors/transformation/addition.html) when joining a table and variables, "Row count complies" setting was incorrectly processed with the following value: *Data set defined*. One row was always transferred to the output (#7945).
 
 [**Сортировка:**](https://help.loginom.ru/userguide/processors/transformation/sorting.html) на странице *Сортировка* мастера настройки теперь поля пропадают из списка *Доступные поля* при добавлении их в список *Поля сортировки*; ранее поля оставались в списке доступных, что могло приводить к ошибкам, если ранее добавленное в список сортируемых поле переносилось в список повторно при помощи Drag&Drop (#7831).
 
