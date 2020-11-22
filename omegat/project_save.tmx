@@ -48,8 +48,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt;Импорт из Базы данных:&lt;x3/&gt;&lt;x4/&gt; если в мастере настройки импорта в окне предпросмотра выделялась строка, находящаяся ниже первой страницы данных, то при повторном открытии окно предпросмотра могло быть пустым и для отображения данных требовалось прокрутить окно просмотра вверх или открыть предпросмотр повторно (#8044).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201122T094659Z" creationid="Марианна" creationdate="20201122T094659Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt;Import from Database:&lt;x3/&gt;&lt;x4/&gt; if the string that was lower than the first data page was selected in the import wizard in the preview window, in the case of the repeated opening, the preview window could be empty, and to display the data, it was required to scroll the view window upwards or to open the preview once again (#8044).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201122T094900Z" creationid="Марианна" creationdate="20201122T094659Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;Import from Database:&lt;x3/&gt;&lt;x4/&gt; if the string that was lower than the first data page was selected in the import wizard in the preview window, in the case of the repeated opening, the preview window could be empty, and to display the data, it was required to scroll up the view window or to open the preview once again (#8044).</seg>
       </tuv>
     </tu>
     <tu>
