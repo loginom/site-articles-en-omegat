@@ -10,41 +10,41 @@ _Several issues detected while operation of web-services and databases were fixe
 
 [**JavaScript, Calculator (JavaScript):**](https://help.loginom.ru/userguide/processors/transformation/calc/javascript.html) the web application could be frozen if the JSDoc comments were used in the JavaScript wizard, and the name of the function that contained such comment was entered, or the lookup wizard was called (*Ctrl* + *Space*). Such problem could also arise when writing the module import string if the imported module contained the JSDoc comments (#7833).
 
-[**JavaScript:**](https://help.loginom.ru/userguide/processors/transformation/java-script) если в редакторе кода при выполнении предпросмотра результирующая таблица содержала большое количество (несколько тысяч) строк, то могла возникать ошибка "Runtime is disabled" (#8048).
+[**JavaScript:**](https://help.loginom.ru/userguide/processors/transformation/java-script) if the resulting table contained too large (several thousands) number of strings in the code editor when previewing, the following error could occur: "Runtime is disabled" (#8048).
 
-**Веб-приложение:** при добавлении связи с одновременным созданием нового порта (через порт «+», который есть у компонентов Соединение, Дополнение данных и других) в редких случаях могла возникнуть ошибка «Не удалось создать новый порт Значение ObjectId не закешировано» (#8039).
+**Web application:** when adding link and creating a new port at the same time (using "+" port of Join, Enrich Data components, etc), the following error could sometimes occur: "Failed to create new port ObjectId value is not cached" (#8039).
 
-[**Группировка, Таблица в переменные:**](https://help.loginom.ru/userguide/processors/variables/variables-from-table.html) если при выполнении сценария возникала нехватка оперативной памяти, то могли возникать неинформативные ошибки «Ошибка активации узла...» (#8052).
+[**Grouping, Table into Variables:**](https://help.loginom.ru/userguide/processors/variables/variables-from-table.html) if there was a lack of memory during the workflow execution, the following uninformative errors could occur: "Error while node activation..." (#8052).
 
-[**Замена:**](https://help.loginom.ru/userguide/processors/transformation/substitution/) при подключении нескольких таблиц замены использовались данные только из первой таблицы (#7872).
+[**Replace:**](https://help.loginom.ru/userguide/processors/transformation/substitution/) when connecting several replacement tables, the data only from the first table was used (#7872).
 
-[**Импорт из Excel:**](https://help.loginom.ru/userguide/integration/import/excel.html) при повторном открытии мастера настройки не обновлялись данные в окне предпросмотра, даже если исходный файл был изменен (#6088).
+[**Import from Excel:**](https://help.loginom.ru/userguide/integration/import/excel.html) in the case of the repeated wizard opening, the data was not updated in the preview window even if the source file had been changed (#6088).
 
-**Импорт из Excel:** не загружались данные из xlsx-файлов, если в метаданных файла отсутствовала информация о диапазоне данных, при этом в окне предварительного просмотра мастера настройки данные отображались; файлы с неполными метаданными могут формироваться при экспорте из сторонних приложений, например, 1C или Google Docs (#6684, #7745).
+**Import from Excel:** the data from the xlsx files was not loaded if there was no information on the data range in the metadata, and the data was not displayed in the wizard preview window. The files with incomplete metadata can be generated when exporting from the third-party applications, for example, 1C or Google Docs (#6684, #7745).
 
-[**Импорт из Базы данных:**](https://help.loginom.ru/userguide/integration/import/database.html) если в мастере настройки импорта в окне предпросмотра выделялась строка, находящаяся ниже первой страницы данных, то при повторном открытии окно предпросмотра могло быть пустым и для отображения данных требовалось прокрутить окно просмотра вверх или открыть предпросмотр повторно (#8044).
+[**Import from Database:**](https://help.loginom.ru/userguide/integration/import/database.html) if the string that was lower than the first data page was selected in the import wizard in the preview window, in the case of the repeated opening, the preview window could be empty, and to display the data, it was required to scroll up the view window or to open the preview once again (#8044).
 
-[**Калькулятор:**](https://help.loginom.ru/userguide/processors/transformation/calc/) если первым аргументом в функцию *DateTimeToStr* передавался *Null*, то в функции возникала ошибка и вычисление выражения, в котором использовалась функция, останавливалось, а в лог записывалось сообщение об ошибке; теперь в такой ситуации функция *DateTimeToStr* возвращает *Null* (#7969).
+[**Calculator:**](https://help.loginom.ru/userguide/processors/transformation/calc/) if *Null* was the first argument to be moved to *DateTimeToStr* function, the error occurred in the function, and calculation of the expression in which the function was used was stopped, and error message was written in the log. Now, in such case, *DateTimeToStr* function returns *Null* (#7969).
 
-[**Квантование:**](https://help.loginom.ru/userguide/processors/preprocessing/quantization.html) если количество интервалов квантования задавалось при помощи управляющей переменной и перед сопоставленным с переменной столбцом имелся неиспользуемый столбец, то при сохранении и повторном открытии пакета сопоставление переменной сбрасывалось (#5163, #6281).
+[**Binning:**](https://help.loginom.ru/userguide/processors/preprocessing/quantization.html) if the binning bin count was set by means of the control variable, and there was an unused column before the column mapped with the variable, the variable mapping was cancelled when saving and repeated opening of the package (#5163, #6281).
 
-**Квантование:** если сразу после изменения настроек метода (например, количества интервалов) изменялась настройка разрядности отображаемых в таблице чисел, то ранее заданные настройки метода сбрасывались (#7848).
+**Binning:** if upon the method settings change (for example, bin count), the bitness configuration displayed in the numerical table was changed, the earlier defined method settings were reset (#7848).
 
-[**Конечные классы:**](https://help.loginom.ru/userguide/visualization/fine-classes/) если объединить начальные классы в мастере настройки c помощью перетаскивания границы класса, то возникала ошибка "Cannot read property 'element' of undefined" (#7504).
+[**Coarse сlasses:**](https://help.loginom.ru/userguide/visualization/fine-classes/) the following error occurred when joining the fine classes in the wizard by dragging the class bound: "Cannot read property 'element' of undefined" (#7504).
 
-**Конечные классы:** если в таблицах полей и конечных классов отменялась сортировка при помощи трехкратного нажатия на заголовок, то возникала ошибка (#7889).
+**Coarse сlasses:** an error occurred if sorting by means of three-time pressing the header was cancelled in the fields tables and coarse classes (#7889).
 
-[**Логистическая регрессия:**](https://help.loginom.ru/userguide/processors/datamining/logistic-regression/) в браузере Internet Explorer при выборе метода валидации возникала ошибка «Не удалось получить свойство "setWidth" ссылки, значение которой не определено или является NULL» (#7659).
+[**Logistic regression:**](https://help.loginom.ru/userguide/processors/datamining/logistic-regression/) the following error occurred in the Internet Explorer browser when selecting the validation method: "Failed to get "setWidth" property of the reference the value of which is not defined or is NULL" (#7659).
 
-**Настройка соответствия между переменными:** если одна из выделенных записей удалялась при помощи иконки корзины, то при последующей попытке удалить все вделенные записи при помощи вызова пункта контекстного меню или нажатием на *Delete*, то возникала ошибка «Расширение для базового идентификатора {...-..-..-..-...} не найдено» (#7843).
+**Adjustment of Variables Mapping:** if one of the selected records was removed using the recycle bin icon, the following error occurred when attempting to delete all selected records calling the contex menu item or pressing *Delete*: "No extension for {...-..-..-..-...} base identifier found" (#7843).
 
-**Настройка соответствия между столбцами:** при множественном удалении используемых выходных полей приложение долго обрабатывало запрос, а затем запрашивало подтверждение удаления для каждого поля в отдельности (#7921).
+**Adjustment of Columns Mapping:** in the case of multiple deleting of used output fields, the application processed the request for a long period of time and separately requested a confirmation of deletion of each field (#7921).
 
-[**Подключения:**](https://help.loginom.ru/userguide/integration/connections/) если значение URL сервиса задавалось через переменную, то при первичной настройке на шаге тестирования или верификации подключения возникала ошибка «Не указан URL сервиса» (#7982).
+[**Connections:**](https://help.loginom.ru/userguide/integration/connections/) if the URL service value was set by means of a variable, the following error occurred during the inintial setting at the stage of connection testing or verification: "Service URL not specified" (#7982).
 
-[**Подмодель:**](https://help.loginom.ru/userguide/processors/control/submodel.html) если был активирован узел, получающий данные из узла Выполение узла, ссылающегося на Подмодель, то при попытке переместить исходную Подмодель внутрь другой Подмодели возникала ошибка (#7901).
+[**Supernode:**](https://help.loginom.ru/userguide/processors/control/submodel.html) if the node receiving data from the Node execution node referring to the Supernode was activated, an error occurred when attempting to move the source Supernode into another Supernode (#7901).
 
-**Подмодель:** при попытке переместить несколько узлов сложно связанных узлов могла возникнуть ошибка «Сценарий содержит 1 заблокированных узлов»; например, такая ошибка могла возникнуть при перемещении узлов, связанных через Узел-ссылку, находящийся внутри Подмодели (#7977).
+**Supernode:** при попытке переместить несколько узлов сложно связанных узлов могла возникнуть ошибка «Сценарий содержит 1 заблокированных узлов»; например, такая ошибка могла возникнуть при перемещении узлов, связанных через Узел-ссылку, находящийся внутри Подмодели (#7977).
 
 [**Производный компонент:**](https://help.loginom.ru/userguide/scenario/derived-component.html) если удалялся Производный компонент (№1), Производный узел (№1) которого являлся Базовым для другого Производного компонента (№2), то при попытке создать Производный узел (№2) возникала неинформативная ошибка (#7993).
 
