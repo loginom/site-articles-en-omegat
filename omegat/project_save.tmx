@@ -128,8 +128,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Настройка соответствия между переменными:&lt;x2/&gt; если одна из выделенных записей удалялась при помощи иконки корзины, то при последующей попытке удалить все вделенные записи при помощи вызова пункта контекстного меню или нажатием на &lt;x3/&gt;Delete&lt;x4/&gt;, то возникала ошибка «Расширение для базового идентификатора {...-..-..-..-...} не найдено» (#7843).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201122T104413Z" creationid="Марианна" creationdate="20201122T104135Z">
-        <seg>&lt;x1/&gt;Adjustment of Variables Mapping:&lt;x2/&gt; if one of the selected records was removed using the bin icon, the following error occurred when attempting to delete all selected records using the contex menu call &lt;x3/&gt;Delete&lt;x4/&gt;: "No extension for {...-..-..-..-...} base identifier found" (#7843).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201122T104524Z" creationid="Марианна" creationdate="20201122T104135Z">
+        <seg>&lt;x1/&gt;Adjustment of Variables Mapping:&lt;x2/&gt; if one of the selected records was removed using the bin icon, the following error occurred when attempting to delete all selected records calling the contex menu item or pressing &lt;x3/&gt;Delete&lt;x4/&gt;: "No extension for {...-..-..-..-...} base identifier found" (#7843).</seg>
       </tuv>
     </tu>
     <tu>
