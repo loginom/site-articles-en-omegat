@@ -128,8 +128,16 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Настройка соответствия между переменными:&lt;x2/&gt; если одна из выделенных записей удалялась при помощи иконки корзины, то при последующей попытке удалить все вделенные записи при помощи вызова пункта контекстного меню или нажатием на &lt;x3/&gt;Delete&lt;x4/&gt;, то возникала ошибка «Расширение для базового идентификатора {...-..-..-..-...} не найдено» (#7843).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201122T104524Z" creationid="Марианна" creationdate="20201122T104135Z">
-        <seg>&lt;x1/&gt;Adjustment of Variables Mapping:&lt;x2/&gt; if one of the selected records was removed using the bin icon, the following error occurred when attempting to delete all selected records calling the contex menu item or pressing &lt;x3/&gt;Delete&lt;x4/&gt;: "No extension for {...-..-..-..-...} base identifier found" (#7843).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201122T104639Z" creationid="Марианна" creationdate="20201122T104135Z">
+        <seg>&lt;x1/&gt;Adjustment of Variables Mapping:&lt;x2/&gt; if one of the selected records was removed using the recycle bin icon, the following error occurred when attempting to delete all selected records calling the contex menu item or pressing &lt;x3/&gt;Delete&lt;x4/&gt;: "No extension for {...-..-..-..-...} base identifier found" (#7843).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Настройка соответствия между столбцами:&lt;x2/&gt; при множественном удалении используемых выходных полей приложение долго обрабатывало запрос, а затем запрашивало подтверждение удаления для каждого поля в отдельности (#7921).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201122T105239Z" creationid="Марианна" creationdate="20201122T105239Z">
+        <seg>&lt;x1/&gt;Adjustment of Columns Mapping:&lt;x2/&gt; in the case of multiple deleting of used output fields, the application processed the request for a long period of time and separately requested a confirmation of deletion of each field (#7921).</seg>
       </tuv>
     </tu>
     <tu>
