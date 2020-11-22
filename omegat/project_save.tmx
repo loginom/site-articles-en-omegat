@@ -16,8 +16,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt;JavaScript:&lt;x3/&gt;&lt;x4/&gt; если в редакторе кода при выполнении предпросмотра результирующая таблица содержала большое количество (несколько тысяч) строк, то могла возникать ошибка "Runtime is disabled" (#8048).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201122T082926Z" creationid="Марианна" creationdate="20201122T082752Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt;JavaScript:&lt;x3/&gt;&lt;x4/&gt; if the resulting table contained too large (several thousands) number of strings in the code editor when previewing, the following error could occur: "Runtime is disabled". (#8048).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201122T084104Z" creationid="Марианна" creationdate="20201122T082752Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;JavaScript:&lt;x3/&gt;&lt;x4/&gt; if the resulting table contained too large (several thousands) number of strings in the code editor when previewing, the following error could occur: "Runtime is disabled" (#8048).</seg>
       </tuv>
     </tu>
     <tu>
