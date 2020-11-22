@@ -40,8 +40,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt;Импорт из Excel:&lt;x3/&gt;&lt;x4/&gt; при повторном открытии мастера настройки не обновлялись данные в окне предпросмотра, даже если исходный файл был изменен (#6088).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201122T085631Z" creationid="Марианна" creationdate="20201122T085631Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt;Import from Excel:&lt;x3/&gt;&lt;x4/&gt; при повторном открытии мастера настройки не обновлялись данные в окне предпросмотра, даже если исходный файл был изменен (#6088).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201122T085752Z" creationid="Марианна" creationdate="20201122T085631Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;Import from Excel:&lt;x3/&gt;&lt;x4/&gt; in the case of the repeated wizard opening, the data was not updated in the preview window even if the source file had been changed (#6088).</seg>
       </tuv>
     </tu>
     <tu>
