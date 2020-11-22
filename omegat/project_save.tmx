@@ -72,8 +72,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt;Конечные классы:&lt;x3/&gt;&lt;x4/&gt; если объединить начальные классы в мастере настройки c помощью перетаскивания границы класса, то возникала ошибка "Cannot read property 'element' of undefined" (#7504).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201122T102925Z" creationid="Марианна" creationdate="20201122T101301Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt;Coarse сlasses:&lt;x3/&gt;&lt;x4/&gt; the following error occurred when joining the fine classes in the wizard by dragging the class border: "Cannot read property 'element' of undefined" (#7504).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201122T103155Z" creationid="Марианна" creationdate="20201122T101301Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;Coarse сlasses:&lt;x3/&gt;&lt;x4/&gt; the following error occurred when joining the fine classes in the wizard by dragging the class bound: "Cannot read property 'element' of undefined" (#7504).</seg>
       </tuv>
     </tu>
     <tu>
@@ -106,6 +106,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201122T101251Z" creationid="Марианна" creationdate="20201122T100313Z">
         <seg>&lt;x1/&gt;Binning:&lt;x2/&gt; if upon the method settings change (for example, bin count), the bitness configuration displayed in the numerical table was changed, the earlier defined method settings were reset (#7848).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Конечные классы:&lt;x2/&gt; если в таблицах полей и конечных классов отменялась сортировка при помощи трехкратного нажатия на заголовок, то возникала ошибка (#7889).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201122T103837Z" creationid="Марианна" creationdate="20201122T103837Z">
+        <seg>&lt;x1/&gt;Coarse сlasses:&lt;x2/&gt; an error occurred if sorting by means of three-time pressing the header was cancelled in the fields tables and coarse classes (#7889).</seg>
       </tuv>
     </tu>
     <tu>
