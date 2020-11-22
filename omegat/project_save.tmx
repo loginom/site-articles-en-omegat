@@ -70,6 +70,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;Конечные классы:&lt;x3/&gt;&lt;x4/&gt; если объединить начальные классы в мастере настройки c помощью перетаскивания границы класса, то возникала ошибка "Cannot read property 'element' of undefined" (#7504).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201122T101301Z" creationid="Марианна" creationdate="20201122T101301Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;Coarse сlasses:&lt;x3/&gt;&lt;x4/&gt; если объединить начальные классы в мастере настройки c помощью перетаскивания границы класса, то возникала ошибка "Cannot read property 'element' of undefined" (#7504).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;В этой версии исправлено несколько ошибок, возникавших при работе с веб-сервисами и базами данных, исправлена проблема с использованием JSDoc-комментариев в мастере настройки JavaScript, а также внесены исправления в другие компоненты.&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201122T080802Z" creationid="Марианна" creationdate="20201122T080710Z">
@@ -96,8 +104,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Квантование:&lt;x2/&gt; если сразу после изменения настроек метода (например, количества интервалов) изменялась настройка разрядности отображаемых в таблице чисел, то ранее заданные настройки метода сбрасывались (#7848).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201122T100952Z" creationid="Марианна" creationdate="20201122T100313Z">
-        <seg>&lt;x1/&gt;Binning:&lt;x2/&gt; if just after the method settings change (for example, bin count), the bitness configuration displayed in the table of digits was changed, the earlier defined method settings were reset (#7848).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201122T101251Z" creationid="Марианна" creationdate="20201122T100313Z">
+        <seg>&lt;x1/&gt;Binning:&lt;x2/&gt; if upon the method settings change (for example, bin count), the bitness configuration displayed in the numerical table was changed, the earlier defined method settings were reset (#7848).</seg>
       </tuv>
     </tu>
     <tu>
