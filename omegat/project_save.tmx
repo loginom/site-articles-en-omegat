@@ -112,8 +112,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt;Соединение:&lt;x3/&gt;&lt;x4/&gt; при соединение таблицы и переменных некорректно обрабатывалась настройка «Количество строк соответствует» со значением &lt;x5/&gt;Определяется набором&lt;x6/&gt;: на выход всегда передавалась одна строка (#7945).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201122T120208Z" creationid="Марианна" creationdate="20201122T120208Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt;Join:&lt;x3/&gt;&lt;x4/&gt; when joining a table and variables, "Row count complies" setting was incorrectly processed with the following value: &lt;x5/&gt;Data set defined&lt;x6/&gt;: one string was always supplied to the output (#7945).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201122T120249Z" creationid="Марианна" creationdate="20201122T120208Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;Join:&lt;x3/&gt;&lt;x4/&gt; when joining a table and variables, "Row count complies" setting was incorrectly processed with the following value: &lt;x5/&gt;Data set defined&lt;x6/&gt;. One row was always transferred to the output (#7945).</seg>
       </tuv>
     </tu>
     <tu>
