@@ -2,13 +2,13 @@
 publish: 2020-11-03
 ---
 
-# Loginom 6.3.5 — описание изменений
+# Loginom 6.3.5 — Release Notes
 
-_В этой версии исправлено несколько ошибок, возникавших при работе с веб-сервисами и базами данных, исправлена проблема с использованием JSDoc-комментариев в мастере настройки JavaScript, а также внесены исправления в другие компоненты._
+_Several issues detected while operation of web-services and databases were fixed in this version, the problem connected with the usage of the JSDoc comments in the JavaScript wizard was solved, other components were also corrected._
 
-## Исправление ошибок
+## Fixes
 
-[**JavaScript, Калькулятор (JavaScript):**](https://help.loginom.ru/userguide/processors/transformation/calc/javascript.html) веб-приложение зависало, если в мастере настройки JavaScript использовались JSDoc-комментарии и начали вводить имя функции, содержащей такой комментарий, или же вызывался мастер подстановки (*Ctrl* + *Пробел*); проблема могла также возникнуть после написания строки импорта модуля, если в импортируемом модуле содержались JSDoc-комментарии (#7833).
+[**JavaScript, Calculator (JavaScript):**](https://help.loginom.ru/userguide/processors/transformation/calc/javascript.html) the web application could be frozen if the JSDoc comments were used in the JavaScript wizard, and the name of the function that contained such comment was entered, or the lookup wizard was called (*Ctrl* + *Space*). Such problem could also arise when writing the module import string if the imported module contained the JSDoc comments (#7833).
 
 [**JavaScript:**](https://help.loginom.ru/userguide/processors/transformation/java-script) если в редакторе кода при выполнении предпросмотра результирующая таблица содержала большое количество (несколько тысяч) строк, то могла возникать ошибка "Runtime is disabled" (#8048).
 
