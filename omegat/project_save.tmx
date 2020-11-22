@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="4.3.2_0_6a661c5e" segtype="sentence" srclang="ru"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="4.3.1_0_99222d65" segtype="sentence" srclang="ru"/>
   <body>
 <!-- Default translations -->
+    <tu>
+      <tuv lang="ru">
+        <seg>Loginom 6.3.5 — описание изменений</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201122T075750Z" creationid="Марианна" creationdate="20201122T075750Z">
+        <seg>Loginom 6.3.5 — Release Notes</seg>
+      </tuv>
+    </tu>
 <!-- Alternative translations -->
   </body>
 </tmx>
