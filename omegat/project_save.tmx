@@ -64,8 +64,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Импорт из Excel:&lt;x2/&gt; не загружались данные из xlsx-файлов, если в метаданных файла отсутствовала информация о диапазоне данных, при этом в окне предварительного просмотра мастера настройки данные отображались; файлы с неполными метаданными могут формироваться при экспорте из сторонних приложений, например, 1C или Google Docs (#6684, #7745).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201122T085844Z" creationid="Марианна" creationdate="20201122T085844Z">
-        <seg>&lt;x1/&gt;Import from Excel:&lt;x2/&gt; не загружались данные из xlsx-файлов, если в метаданных файла отсутствовала информация о диапазоне данных, при этом в окне предварительного просмотра мастера настройки данные отображались; файлы с неполными метаданными могут формироваться при экспорте из сторонних приложений, например, 1C или Google Docs (#6684, #7745).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201122T094040Z" creationid="Марианна" creationdate="20201122T085844Z">
+        <seg>&lt;x1/&gt;Import from Excel:&lt;x2/&gt; data was not loaded from the xlsx files if there was no information on the data range in the metadata, and the data was not displayed in the wizard preview window. The files with incomplete metadata can be generated when exporting from the third-party applications, for example, 1C or Google Docs (#6684, #7745).</seg>
       </tuv>
     </tu>
     <tu>
