@@ -160,8 +160,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Подмодель:&lt;x2/&gt; при попытке переместить несколько узлов сложно связанных узлов могла возникнуть ошибка «Сценарий содержит 1 заблокированных узлов»; например, такая ошибка могла возникнуть при перемещении узлов, связанных через Узел-ссылку, находящийся внутри Подмодели (#7977).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201122T105833Z" creationid="Марианна" creationdate="20201122T105833Z">
-        <seg>&lt;x1/&gt;Supernode:&lt;x2/&gt; при попытке переместить несколько узлов сложно связанных узлов могла возникнуть ошибка «Сценарий содержит 1 заблокированных узлов»; например, такая ошибка могла возникнуть при перемещении узлов, связанных через Узел-ссылку, находящийся внутри Подмодели (#7977).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201122T114958Z" creationid="Марианна" creationdate="20201122T105833Z">
+        <seg>&lt;x1/&gt;Supernode:&lt;x2/&gt; when attempting to move several nodes of complexly connected nodes, the following error could occur: "Workflow contains 1 locked node. For example, such error could occur when moving the nodes connected by means of the Reference Node that is inside the Supernode (#7977).</seg>
       </tuv>
     </tu>
     <tu>
