@@ -104,8 +104,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt;Производный компонент:&lt;x3/&gt;&lt;x4/&gt; если удалялся Производный компонент (№1), Производный узел (№1) которого являлся Базовым для другого Производного компонента (№2), то при попытке создать Производный узел (№2) возникала неинформативная ошибка (#7993).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201122T115305Z" creationid="Марианна" creationdate="20201122T115305Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt;Derived component:&lt;x3/&gt;&lt;x4/&gt; if Derived Component (№1) was deleted, Derived Node (№1) of which was the base one for other Derived Component (№2), when attempting to create Derived Node (№2), uninformative error occurred (#7993).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201122T115340Z" creationid="Марианна" creationdate="20201122T115305Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;Derived component:&lt;x3/&gt;&lt;x4/&gt; if Derived Component (№1) was deleted, Derived Node (№1) of which was the Base one for other Derived Component (№2), when attempting to create Derived Node (№2), uninformative error occurred (#7993).</seg>
       </tuv>
     </tu>
     <tu>
