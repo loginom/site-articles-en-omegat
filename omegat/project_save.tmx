@@ -6,6 +6,14 @@
 <!-- Default translations -->
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;JavaScript, Калькулятор (JavaScript):&lt;x3/&gt;&lt;x4/&gt; веб-приложение зависало, если в мастере настройки JavaScript использовались JSDoc-комментарии и начали вводить имя функции, содержащей такой комментарий, или же вызывался мастер подстановки (&lt;x5/&gt;Ctrl&lt;x6/&gt; + &lt;x7/&gt;Пробел&lt;x8/&gt;); проблема могла также возникнуть после написания строки импорта модуля, если в импортируемом модуле содержались JSDoc-комментарии (#7833).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201122T082318Z" creationid="Марианна" creationdate="20201122T082318Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;JavaScript, Calculator (JavaScript):&lt;x3/&gt;&lt;x4/&gt; the web application could be frozen if the JSDoc comments were used in the JavaScript wizard, and the name of the function that contained such comment was entered, or the lookup wizard was called (&lt;x5/&gt;Ctrl&lt;x6/&gt; + &lt;x7/&gt;Space&lt;x8/&gt;). Such problem could arise when writing the module import string if the imported module contained the JSDoc comments (#7833).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;В этой версии исправлено несколько ошибок, возникавших при работе с веб-сервисами и базами данных, исправлена проблема с использованием JSDoc-комментариев в мастере настройки JavaScript, а также внесены исправления в другие компоненты.&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201122T080802Z" creationid="Марианна" creationdate="20201122T080710Z">
