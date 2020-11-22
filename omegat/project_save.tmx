@@ -32,8 +32,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Веб-приложение:&lt;x2/&gt; при добавлении связи с одновременным созданием нового порта (через порт «+», который есть у компонентов Соединение, Дополнение данных и других) в редких случаях могла возникнуть ошибка «Не удалось создать новый порт Значение ObjectId не закешировано» (#8039).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201122T082911Z" creationid="Марианна" creationdate="20201122T082911Z">
-        <seg>&lt;x1/&gt;Web application:&lt;x2/&gt; при добавлении связи с одновременным созданием нового порта (через порт «+», который есть у компонентов Соединение, Дополнение данных и других) в редких случаях могла возникнуть ошибка «Не удалось создать новый порт Значение ObjectId не закешировано» (#8039).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201122T084059Z" creationid="Марианна" creationdate="20201122T082911Z">
+        <seg>&lt;x1/&gt;Web application:&lt;x2/&gt; when adding link and creating a new port at the same time (using "+" port of Join, Enrich Data components, etc), the following error could sometimes occur: "Failed to create new port ObjectId value is not cached" (#8039).</seg>
       </tuv>
     </tu>
     <tu>
