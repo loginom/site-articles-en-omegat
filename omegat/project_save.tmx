@@ -96,8 +96,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Квантование:&lt;x2/&gt; если сразу после изменения настроек метода (например, количества интервалов) изменялась настройка разрядности отображаемых в таблице чисел, то ранее заданные настройки метода сбрасывались (#7848).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201122T100652Z" creationid="Марианна" creationdate="20201122T100313Z">
-        <seg>&lt;x1/&gt;Binning:&lt;x2/&gt; if just after the method settings change (for example, bin count), the bitness configuration displayed in the table of digits was changed, the set method configuration was reser (#7848).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201122T100715Z" creationid="Марианна" creationdate="20201122T100313Z">
+        <seg>&lt;x1/&gt;Binning:&lt;x2/&gt; if just after the method settings change (for example, bin count), the bitness configuration displayed in the table of digits was changed, the set method configuration was reset (#7848).</seg>
       </tuv>
     </tu>
     <tu>
