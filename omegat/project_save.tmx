@@ -78,6 +78,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;Логистическая регрессия:&lt;x3/&gt;&lt;x4/&gt; в браузере Internet Explorer при выборе метода валидации возникала ошибка «Не удалось получить свойство "setWidth" ссылки, значение которой не определено или является NULL» (#7659).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201122T104050Z" creationid="Марианна" creationdate="20201122T104050Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;Logistic regression:&lt;x3/&gt;&lt;x4/&gt; the following error occurred in the Internet Explorer browser when selecting the validation method: "Failed to get "setWidth" property of the reference the value of which is not defined or is NULL" (#7659).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;В этой версии исправлено несколько ошибок, возникавших при работе с веб-сервисами и базами данных, исправлена проблема с использованием JSDoc-комментариев в мастере настройки JavaScript, а также внесены исправления в другие компоненты.&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201122T080802Z" creationid="Марианна" creationdate="20201122T080710Z">
