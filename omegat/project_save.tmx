@@ -6,6 +6,14 @@
 <!-- Default translations -->
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;В этой версии исправлено несколько ошибок, возникавших при работе с веб-сервисами и базами данных, исправлена проблема с использованием JSDoc-комментариев в мастере настройки JavaScript, а также внесены исправления в другие компоненты.&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201122T080710Z" creationid="Марианна" creationdate="20201122T080710Z">
+        <seg>&lt;x1/&gt;Several issues detected while operation of web-services and databases were fixed in this version, the problem with the JSDoc comments in the JavaScript wizard was solved, other components were also corrected.&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Loginom 6.3.5 — описание изменений</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201122T075750Z" creationid="Марианна" creationdate="20201122T075750Z">
