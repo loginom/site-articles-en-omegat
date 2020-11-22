@@ -32,8 +32,16 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt;Замена:&lt;x3/&gt;&lt;x4/&gt; при подключении нескольких таблиц замены использовались данные только из первой таблицы (#7872).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201122T085554Z" creationid="Марианна" creationdate="20201122T085554Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt;Replace:&lt;x3/&gt;&lt;x4/&gt; when connecting several replacement tables, the data from the first table was used (#7872).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201122T085608Z" creationid="Марианна" creationdate="20201122T085554Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;Replace:&lt;x3/&gt;&lt;x4/&gt; when connecting several replacement tables, the data only from the first table was used (#7872).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;Импорт из Excel:&lt;x3/&gt;&lt;x4/&gt; при повторном открытии мастера настройки не обновлялись данные в окне предпросмотра, даже если исходный файл был изменен (#6088).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201122T085631Z" creationid="Марианна" creationdate="20201122T085631Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;Import from Excel:&lt;x3/&gt;&lt;x4/&gt; при повторном открытии мастера настройки не обновлялись данные в окне предпросмотра, даже если исходный файл был изменен (#6088).</seg>
       </tuv>
     </tu>
     <tu>
