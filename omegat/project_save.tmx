@@ -142,6 +142,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;Фильтр строк:&lt;x3/&gt;&lt;x4/&gt; если запросить список уникальных значений у предварительно настроенного фильтра с типом условия «В списке», то в редких случаях возникала ошибка "Cannot read property 'getRange' of null" (#4461, #5598, #6436).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201123T101606Z" creationid="Марианна" creationdate="20201123T101158Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;Row filter:&lt;x3/&gt;&lt;x4/&gt; the following error seldom occurred if the unique values list was requested for the preset filter with "Listed" condition type: "Cannot read property 'getRange' of null" (#4461, #5598, #6436).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;В этой версии исправлено несколько ошибок, возникавших при работе с веб-сервисами и базами данных, исправлена проблема с использованием JSDoc-комментариев в мастере настройки JavaScript, а также внесены исправления в другие компоненты.&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201122T080802Z" creationid="Марианна" creationdate="20201122T080710Z">
@@ -226,6 +234,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201123T100100Z" creationid="Марианна" creationdate="20201123T100100Z">
         <seg>&lt;x1/&gt;Statistics:&lt;x2/&gt; sorting of the unique values on the histogram panel of the Statistics visualizer didn't match the order in other visualizers (#7679).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;x1/&gt;Фильтр строк:&lt;x2/&gt; если был выбран тип данных &lt;x3/&gt;Дата/Время&lt;x4/&gt; и один из типов условия &lt;x5/&gt;(не) первый / (не) последний&lt;x6/&gt;, то не сохранялась настройка «Тип временного промежутка» &lt;x7/&gt;День&lt;x8/&gt;, а также после сохранения и повторного открытия пакета сбрасывалось значение параметра «Базовая дата интервала» (#7893).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201123T101202Z" creationid="Марианна" creationdate="20201123T101202Z">
+        <seg>&lt;x1/&gt;Row filter:&lt;x2/&gt; если был выбран тип данных &lt;x3/&gt;Дата/Время&lt;x4/&gt; и один из типов условия &lt;x5/&gt;(не) первый / (не) последний&lt;x6/&gt;, то не сохранялась настройка «Тип временного промежутка» &lt;x7/&gt;День&lt;x8/&gt;, а также после сохранения и повторного открытия пакета сбрасывалось значение параметра «Базовая дата интервала» (#7893).</seg>
       </tuv>
     </tu>
     <tu>
