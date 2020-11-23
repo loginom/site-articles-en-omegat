@@ -126,6 +126,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;Статистика:&lt;x3/&gt;&lt;x4/&gt; для строковых полей в визуализаторе Статистика были перепутаны текстовые подсказки для столбцов &lt;x5/&gt;Минимум&lt;x6/&gt; и &lt;x7/&gt;Максимум&lt;x8/&gt; (отображались, соответственно «Наибольшая длина строки:» и «Наименьшая длина строки:») (#7647).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201123T094649Z" creationid="Марианна" creationdate="20201123T094649Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;Statistics:&lt;x3/&gt;&lt;x4/&gt; для строковых полей in the Statistics visualizer были перепутаны text tips for &lt;x5/&gt;Minimum&lt;x6/&gt; and &lt;x7/&gt;Maximum&lt;x8/&gt; columns("Maximum string length:" and "Minimum string length:" were displayed, correspondingly) (#7647).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;В этой версии исправлено несколько ошибок, возникавших при работе с веб-сервисами и базами данных, исправлена проблема с использованием JSDoc-комментариев в мастере настройки JavaScript, а также внесены исправления в другие компоненты.&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201122T080802Z" creationid="Марианна" creationdate="20201122T080710Z">
