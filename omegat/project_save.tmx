@@ -206,6 +206,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Статистика:&lt;x2/&gt; при сортировке в таблице уникальных значений по полю &lt;x3/&gt;Кол-во&lt;x4/&gt; большого количества записей (несколько тысяч и более), значения сортировались как строки, а при отмене сортировки таблица уникальных значений оставалась пустой (#7829, #7830).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201123T100543Z" creationid="Марианна" creationdate="20201123T100543Z">
+        <seg>&lt;x1/&gt;Statistics:&lt;x2/&gt; when sorting large number of records (several thousands and more) in the table of the unique values by the &lt;x3/&gt;Count&lt;x4/&gt; field, the values were sorted as strings, and when cancelling sorting, the table of the unique values stayed empty (#7829, #7830).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;Статистика:&lt;x2/&gt; сортировка уникальных значений в панели гистограммы визуализатора Статистика не совпадала с порядком в других визуализаторах (#7679).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201123T100100Z" creationid="Марианна" creationdate="20201123T100100Z">
