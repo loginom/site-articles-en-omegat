@@ -240,8 +240,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Фильтр строк:&lt;x2/&gt; если был выбран тип данных &lt;x3/&gt;Дата/Время&lt;x4/&gt; и один из типов условия &lt;x5/&gt;(не) первый / (не) последний&lt;x6/&gt;, то не сохранялась настройка «Тип временного промежутка» &lt;x7/&gt;День&lt;x8/&gt;, а также после сохранения и повторного открытия пакета сбрасывалось значение параметра «Базовая дата интервала» (#7893).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201123T101202Z" creationid="Марианна" creationdate="20201123T101202Z">
-        <seg>&lt;x1/&gt;Row filter:&lt;x2/&gt; если был выбран тип данных &lt;x3/&gt;Дата/Время&lt;x4/&gt; и один из типов условия &lt;x5/&gt;(не) первый / (не) последний&lt;x6/&gt;, то не сохранялась настройка «Тип временного промежутка» &lt;x7/&gt;День&lt;x8/&gt;, а также после сохранения и повторного открытия пакета сбрасывалось значение параметра «Базовая дата интервала» (#7893).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201123T102247Z" creationid="Марианна" creationdate="20201123T101202Z">
+        <seg>&lt;x1/&gt;Row filter:&lt;x2/&gt; if the &lt;x3/&gt;Date/Time&lt;x4/&gt; data type and one of &lt;x5/&gt;(not) first / (not) last&lt;x6/&gt; condition types were selected, "Time span unit" &lt;x7/&gt;Day&lt;x8/&gt; setting was not saved, and just after saving and repeated opening of the package, the value of "Base interval date" parameter was reset (#7893).</seg>
       </tuv>
     </tu>
     <tu>
