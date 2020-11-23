@@ -78,6 +78,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;Конечные классы:&lt;x3/&gt;&lt;x4/&gt; оптимизировано потребление оперативной памяти при использовании визуализатора «Конечные классы» (#7924).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201123T104259Z" creationid="Марианна" creationdate="20201123T104259Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;Coarse сlasses:&lt;x3/&gt;&lt;x4/&gt; memory consumption when using the "Coarse classes" visualizer was optimized (#7924).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt;Логистическая регрессия:&lt;x3/&gt;&lt;x4/&gt; в браузере Internet Explorer при выборе метода валидации возникала ошибка «Не удалось получить свойство "setWidth" ссылки, значение которой не определено или является NULL» (#7659).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201122T104050Z" creationid="Марианна" creationdate="20201122T104050Z">
@@ -274,6 +282,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201122T080841Z" creationid="Марианна" creationdate="20201122T080841Z">
         <seg>Fixes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Оптимизация работы</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201123T103954Z" creationid="Марианна" creationdate="20201123T103954Z">
+        <seg>Performance Improvements</seg>
       </tuv>
     </tu>
 <!-- Alternative translations -->
