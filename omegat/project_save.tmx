@@ -120,8 +120,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt;Сортировка:&lt;x3/&gt;&lt;x4/&gt; на странице &lt;x5/&gt;Сортировка&lt;x6/&gt; мастера настройки теперь поля пропадают из списка &lt;x7/&gt;Доступные поля&lt;x8/&gt; при добавлении их в список &lt;x9/&gt;Поля сортировки&lt;x10/&gt;; ранее поля оставались в списке доступных, что могло приводить к ошибкам, если ранее добавленное в список сортируемых поле переносилось в список повторно при помощи Drag&amp;Drop (#7831).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201123T094001Z" creationid="Марианна" creationdate="20201123T094001Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt;Sort:&lt;x3/&gt;&lt;x4/&gt; now the fields disappear from the &lt;x7/&gt;Available fields&lt;x8/&gt; list on &lt;x5/&gt;Sort&lt;x6/&gt; wizard page when adding them to &lt;x9/&gt;Sort fields&lt;x10/&gt; list. Previously, the fields were in the list of the available ones that could cause errors if the field earlier added to the list of the sorted ones was repeatedly moved to the list using Drag&amp;Drop (#7831).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201123T094320Z" creationid="Марианна" creationdate="20201123T094001Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;Sort:&lt;x3/&gt;&lt;x4/&gt; now the fields disappear from the &lt;x7/&gt;Available fields&lt;x8/&gt; list on &lt;x5/&gt;Sort&lt;x6/&gt; wizard page when adding them to &lt;x9/&gt;Sort fields&lt;x10/&gt; list. Previously, the fields were in the list of the available ones that could cause errors if the field earlier added to the list of the sorted fields was repeatedly moved to the list using Drag&amp;Drop (#7831).</seg>
       </tuv>
     </tu>
     <tu>
