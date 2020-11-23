@@ -206,6 +206,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;x1/&gt;Статистика:&lt;x2/&gt; сортировка уникальных значений в панели гистограммы визуализатора Статистика не совпадала с порядком в других визуализаторах (#7679).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20201123T100100Z" creationid="Марианна" creationdate="20201123T100100Z">
+        <seg>&lt;x1/&gt;Statistics:&lt;x2/&gt; sorting of the unique values on the histogram panel of the Statistics visualizer didn't match the order in other visualizers (#7679).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Loginom 6.3.5 — описание изменений</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201122T075750Z" creationid="Марианна" creationdate="20201122T075750Z">
