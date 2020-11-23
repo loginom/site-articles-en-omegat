@@ -26,7 +26,7 @@ _Several issues detected while operation of web-services and databases were fixe
 
 [**Calculator:**](https://help.loginom.ru/userguide/processors/transformation/calc/) if *Null* was the first argument to be moved to *DateTimeToStr* function, the error occurred in the function, and calculation of the expression in which the function was used was stopped, and error message was written in the log. Now, in such case, *DateTimeToStr* function returns *Null* (#7969).
 
-[**Binning:**](https://help.loginom.ru/userguide/processors/preprocessing/quantization.html) if the binning bin count was set by means of the control variable, and there was an unused column before the column mapped with the variable, the variable mapping was cancelled when saving and repeated opening of the package (#5163, #6281).
+[**Binning:**](https://help.loginom.ru/userguide/processors/preprocessing/quantization.html) if the binning bin count was set by means of the control variable, and there was an unused column before the column mapped with the variable, the variable mapping was reset when saving and repeated opening of the package (#5163, #6281).
 
 **Binning:** if upon the method settings change (for example, bin count), the bitness configuration displayed in the numerical table was changed, the earlier defined method settings were reset (#7848).
 
@@ -52,24 +52,24 @@ _Several issues detected while operation of web-services and databases were fixe
 
 [**Join:**](https://help.loginom.ru/userguide/processors/transformation/addition.html) when joining a table and variables, "Row count complies" setting was incorrectly processed with the following value: *Data set defined*. One row was always transferred to the output (#7945).
 
-[**Сортировка:**](https://help.loginom.ru/userguide/processors/transformation/sorting.html) на странице *Сортировка* мастера настройки теперь поля пропадают из списка *Доступные поля* при добавлении их в список *Поля сортировки*; ранее поля оставались в списке доступных, что могло приводить к ошибкам, если ранее добавленное в список сортируемых поле переносилось в список повторно при помощи Drag&Drop (#7831).
+[**Sort:**](https://help.loginom.ru/userguide/processors/transformation/sorting.html) now the fields disappear from the *Available fields* list on *Sort* wizard page when adding them to *Sort fields* list. Previously, the fields were in the list of the available ones that could cause errors if the field earlier added to the list of the sorted fields was repeatedly moved to the list using Drag&Drop (#7831).
 
-[**Статистика:**](https://help.loginom.ru/userguide/visualization/statistics/) для строковых полей в визуализаторе Статистика были перепутаны текстовые подсказки для столбцов *Минимум* и *Максимум* (отображались, соответственно «Наибольшая длина строки:» и «Наименьшая длина строки:») (#7647).
+[**Statistics:**](https://help.loginom.ru/userguide/visualization/statistics/) text tips were confused for *Minimum* and *Maximum* columns ("Maximum string length:" and "Minimum string length:" were displayed, correspondingly) for string fields in the Statistics visualizer (#7647).
 
-**Статистика:** сортировка уникальных значений в панели гистограммы визуализатора Статистика не совпадала с порядком в других визуализаторах (#7679).
+**Statistics:** sorting of the unique values on the histogram panel of the Statistics visualizer didn't match the order in other visualizers (#7679).
 
-**Статистика:** при сортировке в таблице уникальных значений по полю *Кол-во* большого количества записей (несколько тысяч и более), значения сортировались как строки, а при отмене сортировки таблица уникальных значений оставалась пустой (#7829, #7830).
+**Statistics:** when sorting large number of records (several thousands and more) in the table of the unique values by the *Count* field, the values were sorted as strings, and when cancelling sorting, the table of the unique values stayed empty (#7829, #7830).
 
-[**Таблица:**](https://help.loginom.ru/userguide/visualization/table/) доступные в детализации Таблицы пункты меню «Переместить вверх» и «Переместить вниз» работали некорректно (#5760).
+[**Table:**](https://help.loginom.ru/userguide/visualization/table/) "Move up" and "Move down" menu items available in the Table detailing functioned incorrectly (#5760).
 
-[**Фильтр строк:**](https://help.loginom.ru/userguide/processors/transformation/row-filter/) если запросить список уникальных значений у предварительно настроенного фильтра с типом условия «В списке», то в редких случаях возникала ошибка "Cannot read property 'getRange' of null" (#4461, #5598, #6436).
+[**Row filter:**](https://help.loginom.ru/userguide/processors/transformation/row-filter/) the following error seldom occurred if the unique values list was requested for the preset filter with "Listed" condition type: "Cannot read property 'getRange' of null" (#4461, #5598, #6436).
 
-**Фильтр строк:** если был выбран тип данных *Дата/Время* и один из типов условия *(не) первый / (не) последний*, то не сохранялась настройка «Тип временного промежутка» *День*, а также после сохранения и повторного открытия пакета сбрасывалось значение параметра «Базовая дата интервала» (#7893).
+**Row filter:** if the *Date/Time* data type and one of *(not) first / (not) last* condition types were selected, "Time span unit" *Day* setting was not saved, and just after saving and repeated opening of the package, the value of the "Base interval date" parameter was reset (#7893).
 
-[**Формирование XML:**](https://help.loginom.ru/userguide/processors/integration/formation-xml.html) если элемент XSD-схемы содержал несколько элементов с *maxOccurs > 1*, то при повторном запуске узла возникала ошибка (#7932).
+[**XML Generation:**](https://help.loginom.ru/userguide/processors/integration/formation-xml.html) if the XSD schema item contained several items with *maxOccurs > 1*, an error occurred after the repeated start of the node (#7932).
 
-[**Экспорт в Базу данных Firebird:**](https://help.loginom.ru/userguide/integration/connections/list/firebird.html) не экспортировались строковые данные в локальную базу данных Firebird если экспортированный набор данных имел более одной строки (#7839).
+[**Export to Firebird Database:**](https://help.loginom.ru/userguide/integration/connections/list/firebird.html) the string data was not exported to the local Firebird database if the exported data set contained more than one string (#7839).
 
-## Оптимизация работы
+## Performance Improvements
 
-[**Конечные классы:**](https://help.loginom.ru/userguide/visualization/fine-classes/) оптимизировано потребление оперативной памяти при использовании визуализатора «Конечные классы» (#7924).
+[**Coarse сlasses:**](https://help.loginom.ru/userguide/visualization/fine-classes/) memory consumption when using the "Coarse classes" visualizer was optimized (#7924).
