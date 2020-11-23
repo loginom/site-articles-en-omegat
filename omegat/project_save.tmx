@@ -128,8 +128,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt;Статистика:&lt;x3/&gt;&lt;x4/&gt; для строковых полей в визуализаторе Статистика были перепутаны текстовые подсказки для столбцов &lt;x5/&gt;Минимум&lt;x6/&gt; и &lt;x7/&gt;Максимум&lt;x8/&gt; (отображались, соответственно «Наибольшая длина строки:» и «Наименьшая длина строки:») (#7647).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201123T094804Z" creationid="Марианна" creationdate="20201123T094649Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt;Statistics:&lt;x3/&gt;&lt;x4/&gt; для строковых полей in the Statistics visualizer были перепутаны text tips were&lt;x5/&gt;Minimum&lt;x6/&gt; and &lt;x7/&gt;Maximum&lt;x8/&gt; columns("Maximum string length:" and "Minimum string length:" were displayed, correspondingly) (#7647).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201123T094959Z" creationid="Марианна" creationdate="20201123T094649Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;Statistics:&lt;x3/&gt;&lt;x4/&gt; text tips were confused for &lt;x5/&gt;Minimum&lt;x6/&gt; and &lt;x7/&gt;Maximum&lt;x8/&gt; columns ("Maximum string length:" and "Minimum string length:" were displayed, correspondingly) for string fields in the Statistics visualizer (#7647).</seg>
       </tuv>
     </tu>
     <tu>
