@@ -36,7 +36,7 @@ _Several issues detected while operation of web-services and databases were fixe
 
 [**Logistic regression:**](https://help.loginom.ru/userguide/processors/datamining/logistic-regression/) the following error occurred in the Internet Explorer browser when selecting the validation method: "Failed to get "setWidth" property of the reference the value of which is not defined or is NULL" (#7659).
 
-**Adjustment of Variables Mapping:** if one of the selected records was removed using the recycle bin icon, the following error occurred when attempting to delete all selected records calling the contex menu item or pressing *Delete*: "No extension for {...-..-..-..-...} base identifier found" (#7843).
+**Adjustment of Variables Mapping:** if one of the selected records was removed using the recycle bin icon, the following error occurred when attempting to delete all selected records calling the context menu item or pressing *Delete*: "No extension for {...-..-..-..-...} base identifier found" (#7843).
 
 **Adjustment of Columns Mapping:** in the case of multiple deleting of used output fields, the application processed the request for a long period of time and separately requested a confirmation of deletion of each field (#7921).
 
