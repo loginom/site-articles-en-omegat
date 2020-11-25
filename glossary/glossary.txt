@@ -297,7 +297,7 @@ OPR (Усредненная точность прогноза)	OPR (Overall Prec
 Сумма разностей	Sum of differences
 Количество разностей	Count of differences
 Внешнее правое соединение	Outer right join
-Данные группируются	Data are grouped
+Данные группируются	Data is grouped
 Статус выполнения итераций	Iteration execution status
 Максимальное количество потоков	Maximum thread count
 Должно быть не меньше	Must be no less than/must not be less than
@@ -338,7 +338,6 @@ OPR (Усредненная точность прогноза)	OPR (Overall Prec
 Экземпляр класса	Class instance
 Расстановка связей по метке поля и типу данных	Links arranged by field caption and data type
 Агрегация	Aggregation
-Условие фильтрации	Filter relation
 Значение верхней границы	Upper bound value
 Выброс	Outlier
 Экстремальные значения	Extreme values
@@ -403,3 +402,10 @@ P-значение	P-value
 Производительность алгоритма	Algorithm performance
 Панель инструментов	Toolbar
 Регулярное выражение Perl	Perl regular expression
+Осуществлять перебор, перебирать	Iterate over
+Количество отсчетов	Lag count
+Транспонировать	Transpose
+Условия фильтрации	Filtering criteria
+Сложное условие	Complex criterion
+Метод скользящего окна	Windowing method
+Таблица замен	Replacement table
