@@ -96,8 +96,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt;Подключения:&lt;x3/&gt;&lt;x4/&gt; если значение URL сервиса задавалось через переменную, то при первичной настройке на шаге тестирования или верификации подключения возникала ошибка «Не указан URL сервиса» (#7982).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201122T105449Z" creationid="Марианна" creationdate="20201122T105449Z">
-        <seg>&lt;x1/&gt;&lt;x2/&gt;Connections:&lt;x3/&gt;&lt;x4/&gt; if the URL service value was set by means of a variable, the following error occurred during the inintial setting at the stage of connection testing or verification: "Service URL not specified" (#7982).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201127T110946Z" creationid="Марианна" creationdate="20201122T105449Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;Connections:&lt;x3/&gt;&lt;x4/&gt; if the URL service value was set by means of a variable, the following error occurred during the initial setting at the stage of connection testing or verification: "Service URL not specified" (#7982).</seg>
       </tuv>
     </tu>
     <tu>
