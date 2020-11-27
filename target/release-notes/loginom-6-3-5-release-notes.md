@@ -40,7 +40,7 @@ _Several issues detected while operation of web-services and databases were fixe
 
 **Adjustment of Columns Mapping:** in the case of multiple deleting of used output fields, the application processed the request for a long period of time and separately requested a confirmation of deletion of each field (#7921).
 
-[**Connections:**](https://help.loginom.ru/userguide/integration/connections/) if the URL service value was set by means of a variable, the following error occurred during the inintial setting at the stage of connection testing or verification: "Service URL not specified" (#7982).
+[**Connections:**](https://help.loginom.ru/userguide/integration/connections/) if the URL service value was set by means of a variable, the following error occurred during the initial setting at the stage of connection testing or verification: "Service URL not specified" (#7982).
 
 [**Supernode:**](https://help.loginom.ru/userguide/processors/control/submodel.html) if the node receiving data from the Node execution node referring to the Supernode was activated, an error occurred when attempting to move the source Supernode into another Supernode (#7901).
 
@@ -48,7 +48,7 @@ _Several issues detected while operation of web-services and databases were fixe
 
 [**Derived component:**](https://help.loginom.ru/userguide/scenario/derived-component.html) if Derived Component (№1) was deleted, Derived Node (№1) of which was the Base one for other Derived Component (№2), when attempting to create Derived Node (№2), uninformative error occurred (#7993).
 
-**Expand/Collapse Supernode:** if the derived component was created inside the Supernode, and then all nodes were deleted inside the Supernode, when expanding such Supernode, the earlier created Derived Component was deleted. Now, when expanding the supernode, the Derived Component is moved one level up from the supernode (#7923).
+**Expand/Collapse Supernode:** if the derived component was created inside the Supernode, and then all nodes were deleted inside the Supernode, when expanding such Supernode, the earlier created Derived Component was deleted. Now, when expanding the Supernode, the Derived Component is moved one level up from the Supernode (#7923).
 
 [**Join:**](https://help.loginom.ru/userguide/processors/transformation/addition.html) when joining a table and variables, "Row count complies" setting was incorrectly processed with the following value: *Data set defined*. One row was always transferred to the output (#7945).
 
