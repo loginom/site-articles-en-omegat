@@ -240,8 +240,8 @@
       <tuv lang="ru">
         <seg>&lt;x1/&gt;Развернуть/Свернуть подмодель:&lt;x2/&gt; если внутри Подмодели был создан производный компонент, а затем внутри Подмодели были удалены все узлы, то при разворачивании такой Подмодели удалялся ранее созданный Производный компонент; теперь при разворачивании подмодели Производный компонент выносится из подмодели на уровень вверх (#7923).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20201122T115855Z" creationid="Марианна" creationdate="20201122T115403Z">
-        <seg>&lt;x1/&gt;Expand/Collapse Supernode:&lt;x2/&gt; if the derived component was created inside the Supernode, and then all nodes were deleted inside the Supernode, when expanding such Supernode, the earlier created Derived Component was deleted. Now, when expanding the supernode, the Derived Component is moved one level up from the supernode (#7923).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20201127T111020Z" creationid="Марианна" creationdate="20201122T115403Z">
+        <seg>&lt;x1/&gt;Expand/Collapse Supernode:&lt;x2/&gt; if the derived component was created inside the Supernode, and then all nodes were deleted inside the Supernode, when expanding such Supernode, the earlier created Derived Component was deleted. Now, when expanding the Supernode, the Derived Component is moved one level up from the Supernode (#7923).</seg>
       </tuv>
     </tu>
     <tu>
