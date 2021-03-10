@@ -409,3 +409,23 @@ P-значение	P-value
 Сложное условие	Complex criterion
 Метод скользящего окна	Windowing method
 Таблица замен	Replacement table
+Подсказка	Tip
+Доля	Quota
+Разгруппированные	Ungrouped
+Заголовок Content-Type	Content-Type caption
+Диспетчер	Session Manager
+Установить/снять флажок	Select/Deselect a checkbox
+Доля событий	Event rate	Только в контексте конечных классов (Coarse Classes)
+Дубликаты и противоречия	Duplicates Detection	Это название компонента (узла)
+Дубликаты и противоречия	Duplicates and Contradictions	Это название визуализатора к узлу Duplicates Detection
+Пошаговое исключение	Backward
+Гребневая регрессия	Ridge
+Регрессия Лассо	LASSO
+Регрессия «эластичная сеть»	Elastic Net
+Принудительное включение	Enter
+Коэффициент детерминации	R^2
+Коэффициент детерминации (скорр.)	R^2 adj.
+Критерий Акаике	AIC
+Критерий Акаике (скорр.)	AICc
+Критерий Байеса	BIC
+Критерий Ханнана-Куинна	HQC
