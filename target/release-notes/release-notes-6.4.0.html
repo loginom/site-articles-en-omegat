@@ -1,0 +1,233 @@
+<p>Крупное обновление аналитической платформы Loginom. Реализован функционал мониторинга пользователей и пакетов. Добавлена поддержка Python. Оптимизированы существующие алгоритмы. Появился новый обработчик и визуализатор, а также улучшены существующие.</p>
+
+<p>В обновление вошло большое количество изменений и новых возможностей.&nbsp;Ниже приведен список наиболее важных, на наш взгляд, изменений:</p>
+
+<ol>
+	<li>Поддержка Python.</li>
+	<li>Формирование выходного набора данных из кода в компоненте <a href="https://help.loginom.ru/userguide/processors/transformation/java-script/" target="_blank">JavaScript.</a></li>
+	<li>Компонент Экспорт в Хранилище данных, а также механизм наследования для компонента <a href="https://help.loginom.ru/userguide/integration/import/warehouse.html" target="_blank">Импорт из Хранилища данных.</a></li>
+	<li>Обработчик Дубликаты и противоречия.</li>
+	<li>Задание весов и калибровка моделей <a href="https://help.loginom.ru/userguide/processors/datamining/logistic-regression/" target="_blank">Логистической регрессии.</a></li>
+	<li>
+	<p>Мониторинг активных пользователей и занятых пакетов.</p>
+	</li>
+</ol>
+
+<h2 data-line="24" id="%D0%BF%D0%BE%D0%B4%D0%B4%D0%B5%D1%80%D0%B6%D0%BA%D0%B0-%D1%8F%D0%B7%D1%8B%D0%BA%D0%BE%D0%B2-%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F">Поддержка языков программирования</h2>
+
+<h3 data-line="26" id="python">Python</h3>
+
+<p data-line="28">В Loginom 6.4 появилась возможность встраивать в сценарий расчеты, сделанные при помощи кода на языке программирования Python. В качестве среды исполнения используется CPython, а работа с компонентом Python в сценарии идентична работе с компонентом JavaScript. Поддерживается преобразование данных в структуру Pandas DataFrame и обратно. Доступны для импорта популярные библиотеки, используемые при анализе данных на Python: NumPy, Pandas, Scikit-learn и другие.</p>
+
+<figure class="lg-text-img lg-text-img_preview"><a href="/sites/default/files/blogpost-images/01-python.png"><img alt="Использование скриптов на языке Python" data-entity-type="file" data-entity-uuid="insert-image792-e80d2531-28fa-41ee-9de0-a3404db8f8ca" data-insert-class="" data-insert-type="image" src="/sites/default/files/styles/image792/public/blogpost-images/01-python.png" title="Использование скриптов на языке Python"> </a>
+
+<figcaption>
+<p>Использование скриптов на языке Python</p>
+</figcaption>
+</figure>
+
+<p data-line="32">В Loginom не содержится инструментов разработки, аналогичных PyCharm и другим специализированным продуктам. Основной кейс использования Python — встраивание расчетов, реализованных на Python в существующий сценарий анализа данных.</p>
+
+<p data-line="34">В связи с тем, что компонент выполняет код&nbsp;Python на сервере, на его использование накладывается ряд ограничений:</p>
+
+<ol>
+	<li data-line="35">Нельзя выполнять команды для работы с GUI (graphical user interface, графическим пользовательским интерфейсом).</li>
+	<li data-line="36">Код, вызываемый в компоненте Python выполняется в один поток, а одновременно может выполняться только один узел Python. Узел Python, активированный в процессе выполнения другого узла Python, будет ожидать завершения работы первого узла, даже если не является зависимым от него.</li>
+	<li data-line="37">Не поддерживаются модули пакета multiprocessing, используемые для реализации параллельной работы через создание нескольких процессов, а также зависимые от них сторонние пакеты.</li>
+	<li data-line="38">Если в процессе выполнения кода Python возникнут критические ошибки, то приложение может аварийно завершится. В связи с этим рекомендуется использовать для выполнения ранее отлаженный код Python.</li>
+	<li data-line="39">При конвертации набора данных в структуру Pandas DataFrame используется весь обрабатываемый набор данных, что в некоторых случаях может приводить к существенному замедлению работы сценариев.</li>
+</ol>
+
+<p>Также есть несколько особенностей, касающихся безопасности. Работа Python, в отличие от JavaScript, не ограничивается средой исполнения, а выполняемый код имеет полный доступ к операционной системе и сетевым протоколам. В связи с этим, администратор должен явно предоставить возможность использования на сервере компонента Python. Весь код выполняется на сервере с правами пользователя операционной системы, от имени которого запущен <a href="https://help.loginom.ru/adminguide/server/" target="_blank">Loginom Server.</a></p>
+
+<figure class="lg-text-img lg-text-img_preview"><a href="/sites/default/files/blogpost-images/02-python-admin.png"><img alt="Активация возможности выполнения Python" data-entity-type="file" data-entity-uuid="insert-image792-0eab3e48-e7f7-4121-9683-a11766f67a74" data-insert-class="" data-insert-type="image" src="/sites/default/files/styles/image792/public/blogpost-images/02-python-admin.png" title="Активация возможности выполнения Python"> </a>
+
+<figcaption>
+<p>Активация возможности выполнения Python</p>
+</figcaption>
+</figure>
+
+<p>Для работы компонента Python на сервере должен быть установлен Python версии 3.4 или выше, а также все пакеты, которые планируется использовать в работе. Более подробная информация о работе компонента доступна в соответствующем разделе справки, а также всегда можно <a href="https://qa.loginom.ru" target="_blank">задать вопрос в Loginom Q&amp;A</a> или <a href="https://loginom.ru/company/feedback" target="_blank">обратиться в службу технической поддержки.</a></p>
+
+<h3 data-line="47" id="javascript">JavaScript</h3>
+
+<p data-line="49">Существенно расширены возможности использования компонента JavaScript, а также исправлено несколько ошибок, которые могли возникать ранее.</p>
+
+<p data-line="51">Появилась возможность задавать из кода структуру выходного набора данных. Такое поведение может потребоваться, если структура данных заранее не известна и формируется в процессе выполнения узла. Например, при разборе ответа от веб-сервиса. Для формирования набора выходных столбцов могут использоваться следующие методы:</p>
+
+<ul>
+	<li data-line="52">AssignColumns — создание столбцов выходного набора из коллекции имен/описаний столбцов;</li>
+	<li data-line="53">AddColumn — добавление столбца в конец списка столбцов выходного набора;</li>
+	<li data-line="54">InsertColumn — вставка столбца по заданному индексу в выходной набор;</li>
+	<li data-line="55">DeleteColumn — удаление столбца по имени или индексу;</li>
+	<li data-line="56">ClearColumns — очистка списка столбцов.</li>
+</ul>
+
+<figure class="lg-text-img lg-text-img_preview"><a href="/sites/default/files/blogpost-images/03-javascript-output.png"><img alt="Структуру выходных полей можно задавать непосредственно из кода" data-entity-type="file" data-entity-uuid="insert-image792-d48cc328-38fb-48fa-8487-1ef9ee91e1f3" data-insert-class="" data-insert-type="image" src="/sites/default/files/styles/image792/public/blogpost-images/03-javascript-output.png" title="Структуру выходных полей можно задавать непосредственно из кода"> </a>
+
+<figcaption>
+<p>Структуру выходных полей можно задавать непосредственно из кода</p>
+</figcaption>
+</figure>
+
+<p>Исправлены ошибки, связанные с некорректной индексацией строк, в результате которых при выполнении кода JavaScript могла возникать ошибка «Номер строки 0 вне диапазона [0; -1]» или некорректно отображаться набор данных в окне предварительного просмотра.</p>
+
+<h2 data-line="62" id="%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D0%BB%D0%B8%D1%89%D0%B5-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85">Хранилище данных</h2>
+
+<p data-line="64">При импорте из Хранилища данных появилась возможность отображения данных в виде иерархической (древовидной) структуры, что существенно упрощает настройку импорта данных, если хранилище имеет сложную структуру.</p>
+
+<figure class="lg-text-img lg-text-img_preview"><a href="/sites/default/files/blogpost-images/dw-import.png"><img alt="Древовидная структура при импорте из Хранилища данных" data-entity-type="file" data-entity-uuid="insert-image792-3e99d3b2-5b36-4536-afe2-1be491ce3628" data-insert-class="" data-insert-type="image" src="/sites/default/files/styles/image792/public/blogpost-images/dw-import.png" title="Древовидная структура при импорте из Хранилища данных"> </a>
+
+<figcaption>
+<p>Древовидная структура при импорте из Хранилища данных</p>
+</figcaption>
+</figure>
+
+<p data-line="64">Добавлена возможность наследования для Импорта из Хранилища данных, что может быть полезно в случае, если в нескольких местах используются подключения к одному и тому же Хранилищу данных, но с различными параметрами настройки. В мастерах подключения к Хранилищу данных на СУБД <a href="https://help.loginom.ru/userguide/integration/connections/list/mssql.html" target="_blank">MS SQL</a> и <a href="https://help.loginom.ru/userguide/integration/connections/list/oracle.html" target="_blank">Oracle </a>добавлена возможность указать имя схемы, в которой находятся метаданные и данные ХД.</p>
+
+<p data-line="64">Появилась возможность экспорта в Хранилище данных. Теперь в Loginom можно выполнить весь цикл ETL операций, связанных с Хранилищами данных.</p>
+
+<figure class="lg-text-img lg-text-img_preview"><a href="/sites/default/files/blogpost-images/dw-export.png"><img alt="Настройка экспорта в Хранилище данных" data-entity-type="file" data-entity-uuid="insert-image792-e7bbf234-8eed-4375-84d2-665f7de426aa" data-insert-class="" data-insert-type="image" src="/sites/default/files/styles/image792/public/blogpost-images/dw-export.png" title="Настройка экспорта в Хранилище данных"> </a>
+
+<figcaption>
+<p>Настройка экспорта в Хранилище данных</p>
+</figcaption>
+</figure>
+
+<h2 data-line="76" id="%D0%B4%D1%83%D0%B1%D0%BB%D0%B8%D0%BA%D0%B0%D1%82%D1%8B-%D0%B8-%D0%BF%D1%80%D0%BE%D1%82%D0%B8%D0%B2%D0%BE%D1%80%D0%B5%D1%87%D0%B8%D1%8F">Дубликаты и противоречия</h2>
+
+<p data-line="78">Компонент, способный существенно упростить аналитику первые этапы в работе с <a href="https://wiki.loginom.ru/articles/data-quality.html" target="_blank">качеством данных</a>. Для работы необходимо задать входные и выходные наборы полей, а далее компонент автоматически выявляет полные <a href="https://wiki.loginom.ru/articles/dublicate.html" target="_blank">дубли </a>и <a href="https://wiki.loginom.ru/articles/contradiction.html" target="_blank" title="Термин Противоречие">противоречия</a> в наборе данных. В данном случае дублирующимися строками считаются строки с точным совпадением сравниваемых полей.</p>
+
+<figure class="lg-text-img lg-text-img_preview"><a href="/sites/default/files/blogpost-images/07-duplicates.png"><img alt="Визуализатор «Дуликаты и противоречия»" data-entity-type="file" data-entity-uuid="insert-image792-d217d4cf-a528-4793-8504-4c72d4866193" data-insert-class="" data-insert-type="image" src="/sites/default/files/styles/image792/public/blogpost-images/07-duplicates.png" title="Визуализатор «Дуликаты и противоречия»"> </a>
+
+<figcaption>
+<p>Визуализатор «Дуликаты и противоречия»</p>
+</figcaption>
+</figure>
+
+<h2 data-line="82" id="%D0%BB%D0%BE%D0%B3%D0%B8%D1%81%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F-%D1%80%D0%B5%D0%B3%D1%80%D0%B5%D1%81%D1%81%D0%B8%D1%8F">Логистическая регрессия</h2>
+
+<p data-line="84">В Loginom 6.4 внесено два существенных изменения, позволяющих расширить возможности использования Логистической регрессии, а в ряде случаев повысить качество получаемых моделей.</p>
+
+<ol>
+	<li data-line="85">Задание весов для отдельных записей, используемых при обучении модели позволяет получить более точную модель в том случае, если требуется учитывать значимость отдельной записи в наборе данных. Например, такой подход может использоваться при построении модели оценки <a href="https://wiki.loginom.ru/articles/risk.html" target="_blank">рисков</a> в кредитовании, когда в качестве веса может быть задана сумма кредита.</li>
+	<li data-line="86">Калибровка модели при помощи поправки на априорную вероятность позволяет скорректировать искажения, которые могут вноситься на этапе построения модели при балансировке классов. Пропорции «событий» и «не&nbsp;событий» могут задаваться автоматически на основе данных обучающего или тестового множества, а также задаваться вручную в мастере настройки или интерактивно в визуализаторе<a href="https://help.loginom.ru/userguide/visualization/binary-classification/" target="_blank"> Качество бинарной классификации.</a></li>
+</ol>
+
+<figure class="lg-text-img lg-text-img_preview"><a href="/sites/default/files/blogpost-images/08-logreg-weights.png"><img alt="Задание весов для записей при настройке Логистической регрессии" data-entity-type="file" data-entity-uuid="insert-image792-b22f6f9a-ddb2-4d7d-8172-0bbe5232599d" data-insert-class="" data-insert-type="image" src="/sites/default/files/styles/image792/public/blogpost-images/08-logreg-weights.png" title="Задание весов для записей при настройке Логистической регрессии"> </a>
+
+<figcaption>
+<p>Задание весов для записей при настройке Логистической регрессии</p>
+</figcaption>
+</figure>
+
+<figure class="lg-text-img lg-text-img_preview"><a href="/sites/default/files/blogpost-images/09-logregression.png"><img alt="Настройка поправки на соотношение событий к не-событиям" data-entity-type="file" data-entity-uuid="insert-image792-c07b1d4f-5899-499c-bde3-65f58f9c8a3e" data-insert-class="" data-insert-type="image" src="/sites/default/files/styles/image792/public/blogpost-images/09-logregression.png" title="Настройка поправки на соотношение событий к не-событиям"> </a>
+
+<figcaption>
+<p>Настройка поправки на соотношение событий к не-событиям</p>
+</figcaption>
+</figure>
+
+<h2 data-line="92" id="rest-%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81">REST-запрос</h2>
+
+<p data-line="94">Добавлена поддержка методов PUT, DELETE и PATCH в мастерах настройки подключения <a href="https://help.loginom.ru/userguide/integration/connections/list/rest-service.html" target="_blank">REST-запроса</a>. Ранее были доступны только методы POST и GET. Такие методы могли требоваться для работы с некоторыми веб-сервисами.</p>
+
+<p data-line="96">Ранее никак не учитывался http-статус полученного от сервера ответа, и его значение не возвращалось ни в одном из выходных портов. В выходном наборе «Дополнительные данные» добавлен столбец, содержащий код ответа веб-сервера. Столбец содержит целочисленные значения с именем HttpStatusCode и меткой «Код состояния HTTP».</p>
+
+<h2 data-line="98" id="loginom-server">Loginom Server</h2>
+
+<p data-line="100">В некоторых случаях внутри сценария могло потребоваться значение идентификатора запроса, полученного при выполнении узла сценария через <a href="https://help.loginom.ru/adminguide/integrator/" target="_blank">Loginom Integrator</a>. Ранее не было возможности получить и использовать этот идентификатор. Теперь в узел <a href="https://help.loginom.ru/userguide/scenario/variables/scenario-variables.html" target="_blank">«Переменных сценария»</a> в порт «Переменные сессии» добавлена переменная&nbsp;<em>RequestId</em>. Ее&nbsp;значение соответствует либо пропущенному значению&nbsp;<em>null</em>&nbsp;по умолчанию, либо значению идентификатора запроса при выполнении узла сценария через Loginom Integrator.</p>
+
+<h2 data-line="102" id="%D0%B0%D0%B4%D0%BC%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D1%80%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5">Администрирование</h2>
+
+<p data-line="104">В процессе коллективной работы или при выполнении сценариев со сложными зависимостями нередко возникала ситуация, что сервер предупреждал о том, что необходимый пакет уже используется. При этом невозможно было понять, каким пользователем или процессом занят пакет. Вдобавок к этому, иногда требовалось принудительно сбросить кэш пакетов, опубликованных через Loginom Integrator, например, при обновлении версий сразу нескольких пакетов.</p>
+
+<p data-line="106">Для решения этих задач в раздел <a href="https://help.loginom.ru/userguide/admin/" target="_blank">Администрирование</a> добавлен «Диспетчер», который может использоваться для просмотра открытых сессий и пакетов, мониторинга и управления их активностью. Также в этом разделе можно принудительно остановить выполнение сценария или сбросить сессию пользователя.</p>
+
+<figure class="lg-text-img lg-text-img_preview"><a href="/sites/default/files/blogpost-images/admin.png"><img alt="Панель Диспетчер раздела Администрирования" data-entity-type="file" data-entity-uuid="insert-image792-15395594-9cd7-4479-bd15-06ea62ef5199" data-insert-class="" data-insert-type="image" src="/sites/default/files/styles/image792/public/blogpost-images/admin.png" title="Панель Диспетчер раздела Администрирование"> </a>
+
+<figcaption>
+<p>Панель Диспетчер раздела Администрирование</p>
+</figcaption>
+</figure>
+
+<p data-line="108">При отладке возникающих ошибок иногда требовалось включить подробное логирование возникающих ошибок и для этого требовалось перезапустить Loginom Server, поместив рядом с исполняемым файлом специальный файл для записи отладочной информации. Теперь это можно сделать в настройках сервера и настольных приложений, для чего добавлен специальный параметр «Трассировка исключений». Перезапуска сервера при этом не требуется, но активация параметра вступает в силу с небольшой задержкой.</p>
+
+<h2 data-line="110" id="%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D1%81-%D0%B1%D0%B0%D0%B7%D0%B0%D0%BC%D0%B8-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85">Работа с базами данных</h2>
+
+<p data-line="112">В мастере настройки подключения добавлена проверка строки подключения и обязательных параметров. Добавлена поддержка <a href="https://help.loginom.ru/userguide/integration/connections/list/postgresql.html" target="_blank">PostgreSQL 12.</a></p>
+
+<p data-line="114">Исправлен пакетный экспорт в базу данных <a href="https://help.loginom.ru/userguide/integration/connections/list/firebird.html" target="_blank">Firebird </a>строк длиной&nbsp;<em>9</em>&nbsp;и более символов в поля с типом&nbsp;<em>BLOB SUB_TYPE TEXT</em>. Исправлена ошибка «столбец "value" имеет тип money, а выражение - double precision», возникавшая при попытке экспорта вещественных чисел в поле&nbsp;<em>money</em>&nbsp;базы данных PostgreSQL. Исправлена ошибка «столбец "value" имеет тип time with time zone, а выражение - timestamp without time zone», возникавшая при попытке экспорта значения типа&nbsp;<a href="https://help.loginom.ru/userguide/processors/func/calc-func/datetime.html" target="_blank"><em>Дата/Время</em></a>&nbsp;в поле&nbsp;<em>time with timezone</em>&nbsp;базы данных PostgreSQL.</p>
+
+<h2 data-line="116" id="%D0%BA%D1%83%D0%B1">Куб</h2>
+
+<p data-line="118">Появилась возможность одновременного отображения нескольких фактов на графике диаграммы. Кроме того, отображаемые на графике ряды можно активировать и деактивировать.</p>
+
+<p data-line="120">При фильтрации по уникальным значениям в <a href="https://help.loginom.ru/userguide/visualization/cube/" target="_blank">Кубе</a> снято ограничение в отображении не более 10000 уникальных элементов. Аналогичное ограничение снято для<a href="https://help.loginom.ru/userguide/processors/transformation/row-filter/" target="_blank"> Фильтра строк.</a> Ранее это могло доставлять неудобство, если производилась настройка фильтров по большому количеству записей, например, SKU.</p>
+
+<p data-line="124">Несколько менее существенных, но важных улучшений пользовательского интерфейса:</p>
+
+<ul>
+	<li data-line="125">добавлена возможность изменять цвет серий на графике в диаграмме;</li>
+	<li data-line="126">добавлено контекстное меню в диаграмме;</li>
+	<li data-line="127">добавлена возможность группового управления видимостью серий в диаграмме: «Показать все серии», «Скрыть все серии», «Инвертировать серии».</li>
+</ul>
+
+<p>Исправлена ошибка удаления нулей в начале строковых полей при экспорте из Куба в <a href="https://help.loginom.ru/userguide/integration/export/excel.html" target="_blank">Excel</a>. Особенно часто это могло доставлять неудобства, если в экспортируемых наборах встречались поля с артикулами товаров, начинающихся с нулей.</p>
+
+<h2 data-line="133" id="%D0%BA%D0%BE%D0%BD%D0%B5%D1%87%D0%BD%D1%8B%D0%B5-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D1%8B">Конечные классы</h2>
+
+<p data-line="135">При подаче данных на ранее обученную модель, в визуализаторе <a href="https://help.loginom.ru/userguide/visualization/fine-classes/" target="_blank">Конечные классы</a> появилась возможность сравнить распределение фактических долей интервалов с теми, которые были при обучении. Это позволяет оценить соответствие между данными, использованными при построении и применении модели, а в случае существенного расхождения — перестроить модель.</p>
+
+<figure class="lg-text-img lg-text-img_preview"><a href="/sites/default/files/blogpost-images/quant.png"><img alt="Сравнение распределения фактических долей интервалов с теми, которые были при обучении" data-entity-type="file" data-entity-uuid="insert-image792-76fa2aa8-21b4-4a4c-9726-21f823be438c" data-insert-class="" data-insert-type="image" src="/sites/default/files/styles/image792/public/blogpost-images/quant.png" title="Сравнение распределения фактических долей интервалов с теми, которые были при обучении"> </a>
+
+<figcaption>
+<p>Сравнение распределения фактических долей интервалов с теми, которые были при обучении</p>
+</figcaption>
+</figure>
+
+<p data-line="137">Унифицированы имена переменных, а также описания долей событий и классов.</p>
+
+<h2 data-line="139" id="%D0%BF%D0%B0%D0%BA%D0%B5%D1%82%D0%BD%D0%BE%D0%B5-%D0%B2%D1%8B%D0%BF%D0%BE%D0%BB%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5">Пакетное выполнение</h2>
+
+<p data-line="141">Для запуска узла в режиме <a href="https://help.loginom.ru/userguide/scenario/batchlauncher.html" target="_blank">Пакетного выполнения</a> требуется задать для него имя, при этом узел не обязательно должен быть опубликован. Ранее это можно было сделать только следующим образом: в окне настройки модификатора доступа выбираем статус «Опубликованный», затем задаем имя узла, затем возвращаем прежний статус. Теперь добавлена возможность задать имя для узла модели с модификатором доступа «Открытый». Для сброса имени узла достаточно оставить поле пустым (возможно только для модификатора доступа «Открытый»).</p>
+
+<p>
+<video class="lg-intro__video__container" controls="controls" style="width: 100%"><source src="/sites/default/files/blogpost-files/13-node-name-1920_0.mp4" type="video/mp4"></video>
+</p>
+
+<h2 data-line="145" id="%D0%BF%D1%80%D0%BE%D1%87%D0%B8%D0%B5-%D0%B8%D0%B7%D0%BC%D0%B5%D0%BD%D0%B5%D0%BD%D0%B8%D1%8F">Прочие изменения</h2>
+
+<p data-line="147">Добавлена анимированная иконка статуса процессов при наличии активных процессов.</p>
+
+<p>
+<video class="lg-intro__video__container" controls="controls" style="width: 100%"><source src="/sites/default/files/blogpost-files/14-process-1920_0.mp4" type="video/mp4"></video>
+</p>
+
+<p data-line="147">В таблице добавлена возможность группового редактирования формата данных.</p>
+
+<p>
+<video class="lg-intro__video__container" controls="controls" style="width: 100%"><source src="/sites/default/files/blogpost-files/15-group-format.mp4" type="video/mp4"></video>
+</p>
+
+<p data-line="155">Добавлено автоматизированное end-to-end тестирование, что позволит существенно повысить надежность приложения. Подробнее об изменениях можно узнать из&nbsp;<a data-href="https://loginom.ru/blog/ld2020-kiselev" href="https://loginom.ru/blog/ld2020-kiselev" title="https://loginom.ru/blog/ld2020-kiselev">выступления Георгия Киселева на Loginom Days 2020</a>.</p>
+
+<p data-line="157">Ранее в процессе вырезания/вставки узлов могла возникнуть блокировка узлов, в результате чего могли происходить ошибки. Механизм блокировки был сделан более надежным.</p>
+
+<p data-line="159">В обработчике <a href="https://help.loginom.ru/userguide/processors/scrutiny/correlation-analysis.html" target="_blank">Корреляционный анализ</a> при расчете экстремума взаимокорреляционной функции для пользователя добавлен вывод номера лага (величины смещения).</p>
+
+<p data-line="161">Исправлены названия показателей моделей в отчетах по <a href="https://help.loginom.ru/userguide/visualization/linear-regression/" target="_blank">Линейной </a>и Логистической регрессиям, добавлены недостающие показатели в Отчет по линейной регрессии, дополнены названия методов и факторов отбора моделей.</p>
+
+<p data-line="163">В обработчике Заполнение пропусков добавлена возможность заменять пропущенные числовые значения на&nbsp;<em>0</em>, а также оптимизирована работа обработчика, а из списка допустимых методов для Логического типа данных убран вариант&nbsp;<em>Не задано</em>.</p>
+
+<p data-line="165">Добавлены всплывающие подсказки с полным текстом, отображаемые при наведении на поле или метку поля.</p>
+
+<p data-line="167">В окне быстрого просмотра удалена нижняя панель с единственной кнопкой «Закрыть», вместо этого окно может быть закрыто кликом по любому месту вне окна быстрого просмотра или по нажатию на «×» (кнопку закрытия окна).</p>
+
+<p data-line="169">Добавлена группа компонентов «Программирование» (включает в себя Python и JavaScript).</p>
+
+<p data-line="171">Исправлены обнаруженные ранее ошибки, повышена стабильность работы приложения, оптимизировано потребление оперативной памяти.</p>
+
+<div class="text-align-center">
+<p class="lg-text-btn lg-text-btn_border"><a href="https://loginom.ru/download">Попробовать новую версию</a></p>
+</div>
