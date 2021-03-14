@@ -526,6 +526,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/integration/export/excel.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T202358Z" creationid="Марианна" creationdate="20210314T202358Z">
+        <seg>https://help.loginom.ru/userguide/integration/export/excel.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>https://help.loginom.ru/userguide/integration/import/warehouse.html</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T173402Z" creationid="Марианна" creationdate="20210314T173402Z">
@@ -710,10 +718,18 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Добавлена поддержка &lt;a0&gt;PostgreSQL 12.&lt;/a0&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T202515Z" creationid="Марианна" creationdate="20210314T202515Z">
+        <seg>&lt;a0&gt;PostgreSQL 12.&lt;/a0&gt; support was added.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Добавлена поддержка Python.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210314T174805Z" creationid="Марианна" creationdate="20210314T174805Z">
-        <seg>Python support has been introduced.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T202526Z" creationid="Марианна" creationdate="20210314T174805Z">
+        <seg>Python support was added.</seg>
       </tuv>
     </tu>
     <tu>
