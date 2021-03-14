@@ -78,6 +78,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>/sites/default/files/blogpost-images/quant.png</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T202129Z" creationid="Марианна" creationdate="20210314T202129Z">
+        <seg>/sites/default/files/blogpost-images/quant.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>/sites/default/files/styles/image792/public/blogpost-images/01-python.png</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T174417Z" creationid="Марианна" creationdate="20210314T174417Z">
@@ -146,6 +154,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T195932Z" creationid="Марианна" creationdate="20210314T195932Z">
         <seg>/sites/default/files/styles/image792/public/blogpost-images/dw-import.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>/sites/default/files/styles/image792/public/blogpost-images/quant.png</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T202132Z" creationid="Марианна" creationdate="20210314T202132Z">
+        <seg>/sites/default/files/styles/image792/public/blogpost-images/quant.png</seg>
       </tuv>
     </tu>
     <tu>
@@ -470,6 +486,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/integration/connections/list/firebird.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T202035Z" creationid="Марианна" creationdate="20210314T202035Z">
+        <seg>https://help.loginom.ru/userguide/integration/connections/list/firebird.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>https://help.loginom.ru/userguide/integration/connections/list/mssql.html</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T195942Z" creationid="Марианна" creationdate="20210314T195942Z">
@@ -482,6 +506,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T195945Z" creationid="Марианна" creationdate="20210314T195945Z">
         <seg>https://help.loginom.ru/userguide/integration/connections/list/oracle.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/integration/connections/list/postgresql.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T201958Z" creationid="Марианна" creationdate="20210314T201958Z">
+        <seg>https://help.loginom.ru/userguide/integration/connections/list/postgresql.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -510,10 +542,42 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/processors/func/calc-func/datetime.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T202038Z" creationid="Марианна" creationdate="20210314T202038Z">
+        <seg>https://help.loginom.ru/userguide/processors/func/calc-func/datetime.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/processors/scrutiny/correlation-analysis.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T202238Z" creationid="Марианна" creationdate="20210314T202238Z">
+        <seg>https://help.loginom.ru/userguide/processors/scrutiny/correlation-analysis.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>https://help.loginom.ru/userguide/processors/transformation/java-script/</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T173428Z" creationid="Марианна" creationdate="20210314T173428Z">
         <seg>https://help.loginom.ru/userguide/processors/transformation/java-script/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/processors/transformation/row-filter/</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T202056Z" creationid="Марианна" creationdate="20210314T202056Z">
+        <seg>https://help.loginom.ru/userguide/processors/transformation/row-filter/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/scenario/batchlauncher.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T202200Z" creationid="Марианна" creationdate="20210314T202200Z">
+        <seg>https://help.loginom.ru/userguide/scenario/batchlauncher.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -534,10 +598,50 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/visualization/cube/</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T202053Z" creationid="Марианна" creationdate="20210314T202053Z">
+        <seg>https://help.loginom.ru/userguide/visualization/cube/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/visualization/fine-classes/</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T202111Z" creationid="Марианна" creationdate="20210314T202111Z">
+        <seg>https://help.loginom.ru/userguide/visualization/fine-classes/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/visualization/linear-regression/</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T202243Z" creationid="Марианна" creationdate="20210314T202243Z">
+        <seg>https://help.loginom.ru/userguide/visualization/linear-regression/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>https://loginom.ru/blog/ld2020-kiselev</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T202229Z" creationid="Марианна" creationdate="20210314T202229Z">
+        <seg>https://loginom.ru/blog/ld2020-kiselev</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>https://loginom.ru/company/feedback</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T174727Z" creationid="Марианна" creationdate="20210314T174727Z">
         <seg>https://loginom.ru/company/feedback</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>https://loginom.ru/download</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T202254Z" creationid="Марианна" creationdate="20210314T202254Z">
+        <seg>https://loginom.ru/download</seg>
       </tuv>
     </tu>
     <tu>
@@ -654,6 +758,22 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Конечные классы</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T202109Z" creationid="Марианна" creationdate="20210314T202109Z">
+        <seg>Coarse Classes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Куб</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T202050Z" creationid="Марианна" creationdate="20210314T202050Z">
+        <seg>Cube</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Логистическая регрессия</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T200603Z" creationid="Марианна" creationdate="20210314T200603Z">
@@ -702,6 +822,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Пакетное выполнение</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T202158Z" creationid="Марианна" creationdate="20210314T202158Z">
+        <seg>Batch Processing</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Панель Диспетчер раздела Администрирование</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T201946Z" creationid="Марианна" creationdate="20210314T201946Z">
@@ -734,10 +862,34 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Попробовать новую версию</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T202340Z" creationid="Марианна" creationdate="20210314T202340Z">
+        <seg>Try new version</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Появилась возможность экспорта в Хранилище данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T200155Z" creationid="Марианна" creationdate="20210314T200155Z">
         <seg>It also became possible to export to the Data Warehouse.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Прочие изменения</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T202227Z" creationid="Марианна" creationdate="20210314T202227Z">
+        <seg>Other Changes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Работа с базами данных</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T202033Z" creationid="Марианна" creationdate="20210314T202033Z">
+        <seg>Data Warehouses Operation</seg>
       </tuv>
     </tu>
     <tu>
