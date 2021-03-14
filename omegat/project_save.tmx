@@ -22,6 +22,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>/sites/default/files/blogpost-images/03-javascript-output.png</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T195541Z" creationid="Марианна" creationdate="20210314T195541Z">
+        <seg>/sites/default/files/blogpost-images/03-javascript-output.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>/sites/default/files/styles/image792/public/blogpost-images/01-python.png</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T174417Z" creationid="Марианна" creationdate="20210314T174417Z">
@@ -34,6 +42,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T195017Z" creationid="Марианна" creationdate="20210314T195017Z">
         <seg>/sites/default/files/styles/image792/public/blogpost-images/02-python-admin.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>/sites/default/files/styles/image792/public/blogpost-images/03-javascript-output.png</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T195546Z" creationid="Марианна" creationdate="20210314T195546Z">
+        <seg>/sites/default/files/styles/image792/public/blogpost-images/03-javascript-output.png</seg>
       </tuv>
     </tu>
     <tu>
@@ -442,6 +458,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T174400Z" creationid="Марианна" creationdate="20210314T174400Z">
         <seg>Programming languages support</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Структуру выходных полей можно задавать непосредственно из кода</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T195659Z" creationid="Марианна" creationdate="20210314T195659Z">
+        <seg>It is possible to set the output fields structure directly from the code.</seg>
       </tuv>
     </tu>
     <tu>
