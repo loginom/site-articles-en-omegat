@@ -30,6 +30,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>/sites/default/files/blogpost-images/dw-import.png</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T195738Z" creationid="Марианна" creationdate="20210314T195738Z">
+        <seg>/sites/default/files/blogpost-images/dw-import.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>/sites/default/files/styles/image792/public/blogpost-images/01-python.png</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T174417Z" creationid="Марианна" creationdate="20210314T174417Z">
@@ -50,6 +58,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T195546Z" creationid="Марианна" creationdate="20210314T195546Z">
         <seg>/sites/default/files/styles/image792/public/blogpost-images/03-javascript-output.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>/sites/default/files/styles/image792/public/blogpost-images/dw-import.png</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T195932Z" creationid="Марианна" creationdate="20210314T195932Z">
+        <seg>/sites/default/files/styles/image792/public/blogpost-images/dw-import.png</seg>
       </tuv>
     </tu>
     <tu>
@@ -398,6 +414,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Древовидная структура при импорте из Хранилища данных</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T195930Z" creationid="Марианна" creationdate="20210314T195930Z">
+        <seg>Tree-Like Structure when Importing from the Data Warehouse</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Использование скриптов на языке Python</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T174717Z" creationid="Марианна" creationdate="20210314T174717Z">
@@ -474,6 +498,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T195008Z" creationid="Марианна" creationdate="20210314T195008Z">
         <seg>There are also several safety issues.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Хранилище данных</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T195734Z" creationid="Марианна" creationdate="20210314T195734Z">
+        <seg>Data Warehouse</seg>
       </tuv>
     </tu>
 <!-- Alternative translations -->
