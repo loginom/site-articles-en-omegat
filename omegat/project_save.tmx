@@ -126,6 +126,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>/sites/default/files/styles/image792/public/blogpost-images/admin.png</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T201915Z" creationid="Марианна" creationdate="20210314T201915Z">
+        <seg>/sites/default/files/styles/image792/public/blogpost-images/admin.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>/sites/default/files/styles/image792/public/blogpost-images/dw-export.png</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T200202Z" creationid="Марианна" creationdate="20210314T200202Z">
@@ -690,6 +698,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T174857Z" creationid="Марианна" creationdate="20210314T174857Z">
         <seg>The existing algorithms have been optimized.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Панель Диспетчер раздела Администрирование</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T201946Z" creationid="Марианна" creationdate="20210314T201946Z">
+        <seg>Session Manager Bar of the Administration Section</seg>
       </tuv>
     </tu>
     <tu>
