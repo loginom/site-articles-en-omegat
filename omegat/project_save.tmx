@@ -494,6 +494,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/admin/users.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T203120Z" creationid="Марианна" creationdate="20210314T203120Z">
+        <seg>https://help.loginom.ru/userguide/admin/users.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>https://help.loginom.ru/userguide/integration/connections/list/firebird.html</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T202035Z" creationid="Марианна" creationdate="20210314T202035Z">
@@ -598,6 +606,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/scenario/ports/field-synchronization.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T203044Z" creationid="Марианна" creationdate="20210314T203044Z">
+        <seg>https://help.loginom.ru/userguide/scenario/ports/field-synchronization.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>https://help.loginom.ru/userguide/scenario/variables/scenario-variables.html</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T201735Z" creationid="Марианна" creationdate="20210314T201735Z">
@@ -634,6 +650,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T202243Z" creationid="Марианна" creationdate="20210314T202243Z">
         <seg>https://help.loginom.ru/userguide/visualization/linear-regression/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/visualization/preview/quick-view.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T203152Z" creationid="Марианна" creationdate="20210314T203152Z">
+        <seg>https://help.loginom.ru/userguide/visualization/preview/quick-view.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -702,6 +726,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Автоматическая синхронизация полей в Loginom</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T203118Z" creationid="Марианна" creationdate="20210314T203118Z">
+        <seg>Automapping of fields in Loginom</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Администрирование</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T201757Z" creationid="Марианна" creationdate="20210314T201757Z">
@@ -714,6 +746,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T195521Z" creationid="Марианна" creationdate="20210314T195521Z">
         <seg>Activation of the Python execution feature</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Быстрый просмор данных в Loginom</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T203237Z" creationid="Марианна" creationdate="20210314T203237Z">
+        <seg>Quick View in Loginom</seg>
       </tuv>
     </tu>
     <tu>
@@ -962,6 +1002,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T200919Z" creationid="Марианна" creationdate="20210314T200919Z">
         <seg>The Contradiction Notion</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Управление пользователями Loginom</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T203149Z" creationid="Марианна" creationdate="20210314T203149Z">
+        <seg>Loginom users administration</seg>
       </tuv>
     </tu>
     <tu>
