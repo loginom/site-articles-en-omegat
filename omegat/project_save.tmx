@@ -38,6 +38,22 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>/sites/default/files/blogpost-images/08-logreg-weights.png</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T200940Z" creationid="Марианна" creationdate="20210314T200940Z">
+        <seg>/sites/default/files/blogpost-images/08-logreg-weights.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>/sites/default/files/blogpost-images/09-logregression.png</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T200952Z" creationid="Марианна" creationdate="20210314T200952Z">
+        <seg>/sites/default/files/blogpost-images/09-logregression.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>/sites/default/files/blogpost-images/dw-export.png</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T200158Z" creationid="Марианна" creationdate="20210314T200158Z">
@@ -82,6 +98,22 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T200549Z" creationid="Марианна" creationdate="20210314T200549Z">
         <seg>/sites/default/files/styles/image792/public/blogpost-images/07-duplicates.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>/sites/default/files/styles/image792/public/blogpost-images/08-logreg-weights.png</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T200946Z" creationid="Марианна" creationdate="20210314T200946Z">
+        <seg>/sites/default/files/styles/image792/public/blogpost-images/08-logreg-weights.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>/sites/default/files/styles/image792/public/blogpost-images/09-logregression.png</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T200956Z" creationid="Марианна" creationdate="20210314T200956Z">
+        <seg>/sites/default/files/styles/image792/public/blogpost-images/09-logregression.png</seg>
       </tuv>
     </tu>
     <tu>
@@ -430,6 +462,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/visualization/binary-classification/</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T200936Z" creationid="Марианна" creationdate="20210314T200936Z">
+        <seg>https://help.loginom.ru/userguide/visualization/binary-classification/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>https://loginom.ru/company/feedback</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T174727Z" creationid="Марианна" creationdate="20210314T174727Z">
@@ -506,6 +546,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T200243Z" creationid="Марианна" creationdate="20210314T200243Z">
         <seg>Duplicates Detection</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Задание весов для записей при настройке Логистической регрессии</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T201231Z" creationid="Марианна" creationdate="20210314T201231Z">
+        <seg>Setting weights for records while Logistic Regression configuring</seg>
       </tuv>
     </tu>
     <tu>
