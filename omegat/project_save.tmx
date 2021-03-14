@@ -950,6 +950,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Механизм блокировки был сделан более надежным.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T204853Z" creationid="Марианна" creationdate="20210314T204853Z">
+        <seg>The locking mechanism became more reliable.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Мониторинг активных пользователей и занятых пакетов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T194928Z" creationid="Марианна" creationdate="20210314T194928Z">
@@ -1138,6 +1146,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T201637Z" creationid="Марианна" creationdate="20210314T201637Z">
         <seg>Previously, only POST and GET methods were available.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Ранее не было возможности получить и использовать этот идентификатор.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T204622Z" creationid="Марианна" creationdate="20210314T204622Z">
+        <seg>Previously, it was not possible to get and use this identifier.</seg>
       </tuv>
     </tu>
     <tu>
