@@ -478,6 +478,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>https://help.loginom.ru/adminguide/server/</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T202754Z" creationid="Марианна" creationdate="20210314T202754Z">
+        <seg>https://help.loginom.ru/adminguide/server/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>https://help.loginom.ru/userguide/admin/</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T201803Z" creationid="Марианна" creationdate="20210314T201803Z">
@@ -886,6 +894,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Появилась возможность задавать из кода структуру выходного набора данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T202915Z" creationid="Марианна" creationdate="20210314T202915Z">
+        <seg>It became possible to set the output data set structure from the code.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Появилась возможность экспорта в Хранилище данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T200155Z" creationid="Марианна" creationdate="20210314T200155Z">
@@ -946,6 +962,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T200919Z" creationid="Марианна" creationdate="20210314T200919Z">
         <seg>The Contradiction Notion</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Формирование выходного набора данных из кода в компоненте &lt;a0&gt;JavaScript.&lt;/a0&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T202716Z" creationid="Марианна" creationdate="20210314T202716Z">
+        <seg>Generation of the output data set from the code in &lt;a0&gt;JavaScript.&lt;/a0&gt; component.</seg>
       </tuv>
     </tu>
     <tu>
