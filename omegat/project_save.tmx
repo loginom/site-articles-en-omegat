@@ -542,6 +542,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/integration/connections/list/sqlite.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T203806Z" creationid="Марианна" creationdate="20210314T203806Z">
+        <seg>https://help.loginom.ru/userguide/integration/connections/list/sqlite.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>https://help.loginom.ru/userguide/integration/export/excel.html</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T202358Z" creationid="Марианна" creationdate="20210314T202358Z">
@@ -566,6 +574,22 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/processors/control/condition.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T203938Z" creationid="Марианна" creationdate="20210314T203938Z">
+        <seg>https://help.loginom.ru/userguide/processors/control/condition.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/processors/control/submodel.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T203837Z" creationid="Марианна" creationdate="20210314T203837Z">
+        <seg>https://help.loginom.ru/userguide/processors/control/submodel.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>https://help.loginom.ru/userguide/processors/datamining/logistic-regression/</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T174206Z" creationid="Марианна" creationdate="20210314T174206Z">
@@ -578,6 +602,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T202038Z" creationid="Марианна" creationdate="20210314T202038Z">
         <seg>https://help.loginom.ru/userguide/processors/func/calc-func/datetime.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/processors/preprocessing/editing-of-emissions.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T203900Z" creationid="Марианна" creationdate="20210314T203900Z">
+        <seg>https://help.loginom.ru/userguide/processors/preprocessing/editing-of-emissions.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -610,6 +642,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T202056Z" creationid="Марианна" creationdate="20210314T202056Z">
         <seg>https://help.loginom.ru/userguide/processors/transformation/row-filter/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/report/</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T203745Z" creationid="Марианна" creationdate="20210314T203745Z">
+        <seg>https://help.loginom.ru/userguide/report/</seg>
       </tuv>
     </tu>
     <tu>
@@ -682,6 +722,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T202229Z" creationid="Марианна" creationdate="20210314T202229Z">
         <seg>https://loginom.ru/blog/ld2020-kiselev</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>https://loginom.ru/blog/release-64</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T203828Z" creationid="Марианна" creationdate="20210314T203828Z">
+        <seg>https://loginom.ru/blog/release-64</seg>
       </tuv>
     </tu>
     <tu>
@@ -778,6 +826,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T200845Z" creationid="Марианна" creationdate="20210314T200845Z">
         <seg>Duplicates and Contradictions Visualizer</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Визуализатор «Куб»</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T203743Z" creationid="Марианна" creationdate="20210314T203743Z">
+        <seg>"Cube" Visualizer</seg>
       </tuv>
     </tu>
     <tu>
@@ -886,6 +942,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Обработчик «Редактирование выбросов»</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T203936Z" creationid="Марианна" creationdate="20210314T203936Z">
+        <seg>Eliminate Outliers Handler</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Обработчик Дубликаты и противоречия.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T174204Z" creationid="Марианна" creationdate="20210314T174204Z">
@@ -946,6 +1010,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T174400Z" creationid="Марианна" creationdate="20210314T174400Z">
         <seg>Programming languages support</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Подмодель в Loginom</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T203857Z" creationid="Марианна" creationdate="20210314T203857Z">
+        <seg>Supernode in Loginom</seg>
       </tuv>
     </tu>
     <tu>
