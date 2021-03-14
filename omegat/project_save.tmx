@@ -14,10 +14,26 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>/sites/default/files/blogpost-images/02-python-admin.png</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T195011Z" creationid="Марианна" creationdate="20210314T195011Z">
+        <seg>/sites/default/files/blogpost-images/02-python-admin.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>/sites/default/files/styles/image792/public/blogpost-images/01-python.png</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T174417Z" creationid="Марианна" creationdate="20210314T174417Z">
         <seg>/sites/default/files/styles/image792/public/blogpost-images/01-python.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>/sites/default/files/styles/image792/public/blogpost-images/02-python-admin.png</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T195017Z" creationid="Марианна" creationdate="20210314T195017Z">
+        <seg>/sites/default/files/styles/image792/public/blogpost-images/02-python-admin.png</seg>
       </tuv>
     </tu>
     <tu>
@@ -350,6 +366,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Активация возможности выполнения Python</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T195521Z" creationid="Марианна" creationdate="20210314T195521Z">
+        <seg>Activation of the Python execution feature</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Добавлена поддержка Python.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T174805Z" creationid="Марианна" creationdate="20210314T174805Z">
@@ -418,6 +442,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T174400Z" creationid="Марианна" creationdate="20210314T174400Z">
         <seg>Programming languages support</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Также есть несколько особенностей, касающихся безопасности.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T195008Z" creationid="Марианна" creationdate="20210314T195008Z">
+        <seg>There are also several safety issues.</seg>
       </tuv>
     </tu>
 <!-- Alternative translations -->
