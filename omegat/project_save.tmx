@@ -6,6 +6,22 @@
 <!-- Default translations -->
     <tu>
       <tuv lang="ru">
+        <seg>/sites/default/files/blogpost-images/01-python.png</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T174412Z" creationid="Марианна" creationdate="20210314T174412Z">
+        <seg>/sites/default/files/blogpost-images/01-python.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>/sites/default/files/styles/image792/public/blogpost-images/01-python.png</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T174417Z" creationid="Марианна" creationdate="20210314T174417Z">
+        <seg>/sites/default/files/styles/image792/public/blogpost-images/01-python.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt;JavaScript, Калькулятор (JavaScript):&lt;x3/&gt;&lt;x4/&gt; веб-приложение зависало, если в мастере настройки JavaScript использовались JSDoc-комментарии и начали вводить имя функции, содержащей такой комментарий, или же вызывался мастер подстановки (&lt;x5/&gt;Ctrl&lt;x6/&gt; + &lt;x7/&gt;Пробел&lt;x8/&gt;); проблема могла также возникнуть после написания строки импорта модуля, если в импортируемом модуле содержались JSDoc-комментарии (#7833).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201122T120310Z" creationid="Марианна" creationdate="20201122T082318Z">
@@ -278,6 +294,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Python</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T174407Z" creationid="Марианна" creationdate="20210314T174407Z">
+        <seg>Python</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>https://help.loginom.ru/userguide/integration/import/warehouse.html</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T173402Z" creationid="Марианна" creationdate="20210314T173402Z">
@@ -286,10 +310,26 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/processors/datamining/logistic-regression/</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T174206Z" creationid="Марианна" creationdate="20210314T174206Z">
+        <seg>https://help.loginom.ru/userguide/processors/datamining/logistic-regression/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>https://help.loginom.ru/userguide/processors/transformation/java-script/</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T173428Z" creationid="Марианна" creationdate="20210314T173428Z">
         <seg>https://help.loginom.ru/userguide/processors/transformation/java-script/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Использование скриптов на языке Python</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T174717Z" creationid="Марианна" creationdate="20210314T174717Z">
+        <seg>Use of the Python based scripts</seg>
       </tuv>
     </tu>
     <tu>
@@ -322,6 +362,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T173838Z" creationid="Марианна" creationdate="20210314T173838Z">
         <seg>Python is suported.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Поддержка языков программирования</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T174400Z" creationid="Марианна" creationdate="20210314T174400Z">
+        <seg>Programming languages support</seg>
       </tuv>
     </tu>
 <!-- Alternative translations -->
