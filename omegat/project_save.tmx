@@ -374,6 +374,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Мониторинг активных пользователей и занятых пакетов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T194928Z" creationid="Марианна" creationdate="20210314T194928Z">
+        <seg>Monitoring of active users and busy packages.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Обработчик Дубликаты и противоречия.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T174204Z" creationid="Марианна" creationdate="20210314T174204Z">
