@@ -1126,6 +1126,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Появился новый обработчик и визуализатор, а также улучшены существующие.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T205118Z" creationid="Марианна" creationdate="20210314T205118Z">
+        <seg>New handler and visualizer appeared, whereas the existing ones were upgraded.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Прочие изменения</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T202227Z" creationid="Марианна" creationdate="20210314T202227Z">
