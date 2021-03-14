@@ -582,6 +582,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/processors/control/cycle.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T203947Z" creationid="Марианна" creationdate="20210314T203947Z">
+        <seg>https://help.loginom.ru/userguide/processors/control/cycle.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>https://help.loginom.ru/userguide/processors/control/submodel.html</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T203837Z" creationid="Марианна" creationdate="20210314T203837Z">
@@ -626,6 +634,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T202238Z" creationid="Марианна" creationdate="20210314T202238Z">
         <seg>https://help.loginom.ru/userguide/processors/scrutiny/correlation-analysis.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/processors/transformation/calc/</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T204104Z" creationid="Марианна" creationdate="20210314T204104Z">
+        <seg>https://help.loginom.ru/userguide/processors/transformation/calc/</seg>
       </tuv>
     </tu>
     <tu>
@@ -942,10 +958,34 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Обработчик «Калькулятор»</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T204103Z" creationid="Марианна" creationdate="20210314T204103Z">
+        <seg>Calculator Handler</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Обработчик «Конечные классы»</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T204048Z" creationid="Марианна" creationdate="20210314T204048Z">
+        <seg>Coarse Classes Handler</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Обработчик «Редактирование выбросов»</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T203936Z" creationid="Марианна" creationdate="20210314T203936Z">
         <seg>Eliminate Outliers Handler</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Обработчик «Цикл»</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T204006Z" creationid="Марианна" creationdate="20210314T204006Z">
+        <seg>Loop Handler</seg>
       </tuv>
     </tu>
     <tu>
