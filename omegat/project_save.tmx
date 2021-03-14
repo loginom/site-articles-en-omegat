@@ -302,6 +302,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Обработчик Дубликаты и противоречия.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T174204Z" creationid="Марианна" creationdate="20210314T174204Z">
+        <seg>Duplicates Detection Handler.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Оптимизация работы</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201123T103954Z" creationid="Марианна" creationdate="20201123T103954Z">
