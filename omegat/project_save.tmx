@@ -30,6 +30,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>/sites/default/files/blogpost-images/dw-export.png</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T200158Z" creationid="Марианна" creationdate="20210314T200158Z">
+        <seg>/sites/default/files/blogpost-images/dw-export.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>/sites/default/files/blogpost-images/dw-import.png</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T195738Z" creationid="Марианна" creationdate="20210314T195738Z">
@@ -58,6 +66,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T195546Z" creationid="Марианна" creationdate="20210314T195546Z">
         <seg>/sites/default/files/styles/image792/public/blogpost-images/03-javascript-output.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>/sites/default/files/styles/image792/public/blogpost-images/dw-export.png</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T200202Z" creationid="Марианна" creationdate="20210314T200202Z">
+        <seg>/sites/default/files/styles/image792/public/blogpost-images/dw-export.png</seg>
       </tuv>
     </tu>
     <tu>
@@ -358,6 +374,22 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/integration/connections/list/mssql.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T195942Z" creationid="Марианна" creationdate="20210314T195942Z">
+        <seg>https://help.loginom.ru/userguide/integration/connections/list/mssql.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/integration/connections/list/oracle.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T195945Z" creationid="Марианна" creationdate="20210314T195945Z">
+        <seg>https://help.loginom.ru/userguide/integration/connections/list/oracle.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>https://help.loginom.ru/userguide/integration/import/warehouse.html</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T173402Z" creationid="Марианна" creationdate="20210314T173402Z">
@@ -398,6 +430,30 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>https://wiki.loginom.ru/articles/contradiction.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T200214Z" creationid="Марианна" creationdate="20210314T200214Z">
+        <seg>https://wiki.loginom.ru/articles/contradiction.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>https://wiki.loginom.ru/articles/data-quality.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T200206Z" creationid="Марианна" creationdate="20210314T200206Z">
+        <seg>https://wiki.loginom.ru/articles/data-quality.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>https://wiki.loginom.ru/articles/dublicate.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T200209Z" creationid="Марианна" creationdate="20210314T200209Z">
+        <seg>https://wiki.loginom.ru/articles/dublicate.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Активация возможности выполнения Python</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T195521Z" creationid="Марианна" creationdate="20210314T195521Z">
@@ -422,6 +478,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Дубликаты и противоречия</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T200243Z" creationid="Марианна" creationdate="20210314T200243Z">
+        <seg>Duplicates Detection</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Использование скриптов на языке Python</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T174717Z" creationid="Марианна" creationdate="20210314T174717Z">
@@ -442,6 +506,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T194928Z" creationid="Марианна" creationdate="20210314T194928Z">
         <seg>Monitoring of active users and busy packages.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Настройка экспорта в Хранилище данных</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T200445Z" creationid="Марианна" creationdate="20210314T200445Z">
+        <seg>Configure export to the Data Warehouse</seg>
       </tuv>
     </tu>
     <tu>
@@ -482,6 +554,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T174400Z" creationid="Марианна" creationdate="20210314T174400Z">
         <seg>Programming languages support</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Появилась возможность экспорта в Хранилище данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T200155Z" creationid="Марианна" creationdate="20210314T200155Z">
+        <seg>It also became possible to export to the Data Warehouse.</seg>
       </tuv>
     </tu>
     <tu>
