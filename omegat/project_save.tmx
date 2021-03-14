@@ -574,6 +574,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/interface/processes-panel.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T204239Z" creationid="Марианна" creationdate="20210314T204239Z">
+        <seg>https://help.loginom.ru/userguide/interface/processes-panel.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>https://help.loginom.ru/userguide/processors/control/condition.html</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T203938Z" creationid="Марианна" creationdate="20210314T203938Z">
@@ -958,6 +966,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Не удается найти указанный файл» (#7978).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T204211Z" creationid="Марианна" creationdate="20210314T204211Z">
+        <seg>Failed to find the specified file» (#7978).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Обработчик «Калькулятор»</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T204103Z" creationid="Марианна" creationdate="20210314T204103Z">
@@ -1022,6 +1038,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Панель «Отчеты» в Loginom</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T204237Z" creationid="Марианна" creationdate="20210314T204237Z">
+        <seg>Reports Bar in Loginom</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Панель Диспетчер раздела Администрирование</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T201946Z" creationid="Марианна" creationdate="20210314T201946Z">
@@ -1050,6 +1074,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T174400Z" creationid="Марианна" creationdate="20210314T174400Z">
         <seg>Programming languages support</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Подключение к SQLite в Loginom</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T204326Z" creationid="Марианна" creationdate="20210314T204326Z">
+        <seg>SQLite Connection in Loginom</seg>
       </tuv>
     </tu>
     <tu>
