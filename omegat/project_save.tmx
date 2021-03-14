@@ -30,6 +30,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>/sites/default/files/blogpost-images/07-duplicates.png</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T200536Z" creationid="Марианна" creationdate="20210314T200536Z">
+        <seg>/sites/default/files/blogpost-images/07-duplicates.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>/sites/default/files/blogpost-images/dw-export.png</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T200158Z" creationid="Марианна" creationdate="20210314T200158Z">
