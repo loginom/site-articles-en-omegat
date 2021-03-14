@@ -54,6 +54,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>/sites/default/files/blogpost-images/admin.png</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T201809Z" creationid="Марианна" creationdate="20210314T201809Z">
+        <seg>/sites/default/files/blogpost-images/admin.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>/sites/default/files/blogpost-images/dw-export.png</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T200158Z" creationid="Марианна" creationdate="20210314T200158Z">
@@ -414,6 +422,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Loginom Server</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T201728Z" creationid="Марианна" creationdate="20210314T201728Z">
+        <seg>Loginom Server</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Python</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T174407Z" creationid="Марианна" creationdate="20210314T174407Z">
@@ -426,6 +442,22 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T201433Z" creationid="Марианна" creationdate="20210314T201433Z">
         <seg>REST request</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>https://help.loginom.ru/adminguide/integrator/</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T201732Z" creationid="Марианна" creationdate="20210314T201732Z">
+        <seg>https://help.loginom.ru/adminguide/integrator/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/admin/</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T201803Z" creationid="Марианна" creationdate="20210314T201803Z">
+        <seg>https://help.loginom.ru/userguide/admin/</seg>
       </tuv>
     </tu>
     <tu>
@@ -474,6 +506,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T173428Z" creationid="Марианна" creationdate="20210314T173428Z">
         <seg>https://help.loginom.ru/userguide/processors/transformation/java-script/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/scenario/variables/scenario-variables.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T201735Z" creationid="Марианна" creationdate="20210314T201735Z">
+        <seg>https://help.loginom.ru/userguide/scenario/variables/scenario-variables.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -530,6 +570,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T201345Z" creationid="Марианна" creationdate="20210314T201345Z">
         <seg>https://wiki.loginom.ru/articles/risk.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Администрирование</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T201757Z" creationid="Марианна" creationdate="20210314T201757Z">
+        <seg>Administration</seg>
       </tuv>
     </tu>
     <tu>
@@ -646,6 +694,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Панель Диспетчер раздела Администрирования</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T201911Z" creationid="Марианна" creationdate="20210314T201911Z">
+        <seg>Session Manager Bar of the Administration Section</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Поддержка Python.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T173838Z" creationid="Марианна" creationdate="20210314T173838Z">
@@ -670,6 +726,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ранее были доступны только методы POST и GET.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T201637Z" creationid="Марианна" creationdate="20210314T201637Z">
+        <seg>Previously, only POST and GET methods were available.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Структуру выходных полей можно задавать непосредственно из кода</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T195659Z" creationid="Марианна" creationdate="20210314T195659Z">
@@ -682,6 +746,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T195008Z" creationid="Марианна" creationdate="20210314T195008Z">
         <seg>There are also several safety issues.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Такие методы могли требоваться для работы с некоторыми веб-сервисами.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T201726Z" creationid="Марианна" creationdate="20210314T201726Z">
+        <seg>Such methods could be required for operation of some web services.</seg>
       </tuv>
     </tu>
     <tu>
