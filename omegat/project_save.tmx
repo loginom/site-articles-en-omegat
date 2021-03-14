@@ -78,6 +78,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>/sites/default/files/styles/image792/public/blogpost-images/07-duplicates.png</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T200549Z" creationid="Марианна" creationdate="20210314T200549Z">
+        <seg>/sites/default/files/styles/image792/public/blogpost-images/07-duplicates.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>/sites/default/files/styles/image792/public/blogpost-images/dw-export.png</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T200202Z" creationid="Марианна" creationdate="20210314T200202Z">
@@ -470,6 +478,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Визуализатор «Дуликаты и противоречия»</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T200845Z" creationid="Марианна" creationdate="20210314T200845Z">
+        <seg>Duplicates and Contradictions Visualizer</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Добавлена поддержка Python.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T174805Z" creationid="Марианна" creationdate="20210314T174805Z">
@@ -506,6 +522,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201122T080841Z" creationid="Марианна" creationdate="20201122T080841Z">
         <seg>Fixes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Логистическая регрессия</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T200603Z" creationid="Марианна" creationdate="20210314T200603Z">
+        <seg>Logistic Regression</seg>
       </tuv>
     </tu>
     <tu>
