@@ -350,6 +350,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Добавлена поддержка Python.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T174805Z" creationid="Марианна" creationdate="20210314T174805Z">
+        <seg>Python support has been introduced.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Использование скриптов на языке Python</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T174717Z" creationid="Марианна" creationdate="20210314T174717Z">
@@ -378,6 +386,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201123T103954Z" creationid="Марианна" creationdate="20201123T103954Z">
         <seg>Performance Improvements</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Оптимизированы существующие алгоритмы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T174857Z" creationid="Марианна" creationdate="20210314T174857Z">
+        <seg>The existing algorithms have been optimized.</seg>
       </tuv>
     </tu>
     <tu>
