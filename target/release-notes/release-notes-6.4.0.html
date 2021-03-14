@@ -1,4 +1,4 @@
-<p>Крупное обновление аналитической платформы Loginom. Реализован функционал мониторинга пользователей и пакетов. Python support was added. The existing algorithms have been optimized. Появился новый обработчик и визуализатор, а также улучшены существующие.</p>
+<p>Крупное обновление аналитической платформы Loginom. Реализован функционал мониторинга пользователей и пакетов. Python support was added. The existing algorithms have been optimized. New handler and visualizer appeared, whereas the existing ones were upgraded.</p>
 
 <p>В обновление вошло большое количество изменений и новых возможностей.&nbsp;Ниже приведен список наиболее важных, на наш взгляд, изменений:</p>
 
@@ -136,7 +136,7 @@
 
 <h2 data-line="98" id="loginom-server">Loginom Server</h2>
 
-<p data-line="100">В некоторых случаях внутри сценария могло потребоваться значение идентификатора запроса, полученного при выполнении узла сценария через <a href="https://help.loginom.ru/adminguide/integrator/" target="_blank">Loginom Integrator</a>. Ранее не было возможности получить и использовать этот идентификатор. Теперь в узел <a href="https://help.loginom.ru/userguide/scenario/variables/scenario-variables.html" target="_blank">«Переменных сценария»</a> в порт «Переменные сессии» добавлена переменная&nbsp;<em>RequestId</em>. Ее&nbsp;значение соответствует либо пропущенному значению&nbsp;<em>null</em>&nbsp;по умолчанию, либо значению идентификатора запроса при выполнении узла сценария через Loginom Integrator.</p>
+<p data-line="100">В некоторых случаях внутри сценария могло потребоваться значение идентификатора запроса, полученного при выполнении узла сценария через <a href="https://help.loginom.ru/adminguide/integrator/" target="_blank">Loginom Integrator</a>. Previously, it was not possible to get and use this identifier. Теперь в узел <a href="https://help.loginom.ru/userguide/scenario/variables/scenario-variables.html" target="_blank">«Переменных сценария»</a> в порт «Переменные сессии» добавлена переменная&nbsp;<em>RequestId</em>. Ее&nbsp;значение соответствует либо пропущенному значению&nbsp;<em>null</em>&nbsp;по умолчанию, либо значению идентификатора запроса при выполнении узла сценария через Loginom Integrator.</p>
 
 <h2 data-line="102" id="%D0%B0%D0%B4%D0%BC%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D1%80%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5">Administration</h2>
 
@@ -212,7 +212,7 @@
 
 <p data-line="155">Добавлено автоматизированное end-to-end тестирование, что позволит существенно повысить надежность приложения. Подробнее об изменениях можно узнать из&nbsp;<a data-href="https://loginom.ru/blog/ld2020-kiselev" href="https://loginom.ru/blog/ld2020-kiselev" title="https://loginom.ru/blog/ld2020-kiselev">выступления Георгия Киселева на Loginom Days 2020</a>.</p>
 
-<p data-line="157">Ранее в процессе вырезания/вставки узлов могла возникнуть блокировка узлов, в результате чего могли происходить ошибки. Механизм блокировки был сделан более надежным.</p>
+<p data-line="157">Ранее в процессе вырезания/вставки узлов могла возникнуть блокировка узлов, в результате чего могли происходить ошибки. The locking mechanism became more reliable.</p>
 
 <p data-line="159">В обработчике <a href="https://help.loginom.ru/userguide/processors/scrutiny/correlation-analysis.html" target="_blank">Корреляционный анализ</a> при расчете экстремума взаимокорреляционной функции для пользователя добавлен вывод номера лага (величины смещения).</p>
 
