@@ -614,6 +614,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Термин Противоречие</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T200919Z" creationid="Марианна" creationdate="20210314T200919Z">
+        <seg>The Contradiction Notion</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Хранилище данных</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T195734Z" creationid="Марианна" creationdate="20210314T195734Z">
