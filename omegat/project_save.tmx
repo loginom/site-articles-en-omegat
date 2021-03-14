@@ -592,8 +592,8 @@
       <tuv lang="ru">
         <seg>Настройка экспорта в Хранилище данных</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210314T200445Z" creationid="Марианна" creationdate="20210314T200445Z">
-        <seg>Configure export to the Data Warehouse</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T201319Z" creationid="Марианна" creationdate="20210314T200445Z">
+        <seg>Configuring export to the Data Warehouse</seg>
       </tuv>
     </tu>
     <tu>
