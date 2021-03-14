@@ -422,6 +422,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>REST-запрос</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T201433Z" creationid="Марианна" creationdate="20210314T201433Z">
+        <seg>REST request</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>https://help.loginom.ru/userguide/integration/connections/list/mssql.html</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T195942Z" creationid="Марианна" creationdate="20210314T195942Z">
@@ -434,6 +442,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T195945Z" creationid="Марианна" creationdate="20210314T195945Z">
         <seg>https://help.loginom.ru/userguide/integration/connections/list/oracle.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/integration/connections/list/rest-service.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T201437Z" creationid="Марианна" creationdate="20210314T201437Z">
+        <seg>https://help.loginom.ru/userguide/integration/connections/list/rest-service.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -506,6 +522,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T200209Z" creationid="Марианна" creationdate="20210314T200209Z">
         <seg>https://wiki.loginom.ru/articles/dublicate.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>https://wiki.loginom.ru/articles/risk.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T201345Z" creationid="Марианна" creationdate="20210314T201345Z">
+        <seg>https://wiki.loginom.ru/articles/risk.html</seg>
       </tuv>
     </tu>
     <tu>
