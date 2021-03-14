@@ -308,6 +308,14 @@
         <seg>Performance Improvements</seg>
       </tuv>
     </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Поддержка Python.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210314T173838Z" creationid="Марианна" creationdate="20210314T173838Z">
+        <seg>Python is suported.</seg>
+      </tuv>
+    </tu>
 <!-- Alternative translations -->
   </body>
 </tmx>
