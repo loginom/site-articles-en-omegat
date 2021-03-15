@@ -1174,6 +1174,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Реализован функционал мониторинга пользователей и пакетов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210315T203901Z" creationid="Марианна" creationdate="20210315T203901Z">
+        <seg>Functionality of users and packages monitoring was implemented.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Структуру выходных полей можно задавать непосредственно из кода</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T195659Z" creationid="Марианна" creationdate="20210314T195659Z">
