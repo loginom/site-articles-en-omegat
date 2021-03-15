@@ -934,6 +934,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Крупное обновление аналитической платформы Loginom.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210315T203625Z" creationid="Марианна" creationdate="20210315T203625Z">
+        <seg>Major Update of Loginom Analytical Platform</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Куб</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T202050Z" creationid="Марианна" creationdate="20210314T202050Z">
@@ -1072,8 +1080,8 @@
       <tuv lang="ru">
         <seg>Поддержка Python.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210314T173838Z" creationid="Марианна" creationdate="20210314T173838Z">
-        <seg>Python is suported.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210315T202653Z" creationid="Марианна" creationdate="20210314T173838Z">
+        <seg>Python is supported.</seg>
       </tuv>
     </tu>
     <tu>
