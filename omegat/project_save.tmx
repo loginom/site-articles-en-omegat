@@ -1056,8 +1056,8 @@
       <tuv lang="ru">
         <seg>Не поддерживаются модули пакета multiprocessing, используемые для реализации параллельной работы через создание нескольких процессов, а также зависимые от них сторонние пакеты.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210320T222457Z" creationid="Марианна" creationdate="20210320T222457Z">
-        <seg>Multiprocessing package modules used for parallel operation by creating several processes and third-party packages dependent on them are not supported.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210320T222545Z" creationid="Марианна" creationdate="20210320T222457Z">
+        <seg>Multiprocessing package modules used for parallel operation by creating several processes and also third-party packages dependent on them are not supported.</seg>
       </tuv>
     </tu>
     <tu>
