@@ -902,6 +902,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Доступны для импорта популярные библиотеки, используемые при анализе данных на Python: NumPy, Pandas, Scikit-learn и другие.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210320T215621Z" creationid="Марианна" creationdate="20210320T215621Z">
+        <seg>The popular libraries used for Python data analysis are available for import: NumPy, Pandas, Scikit-learn, etc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Древовидная структура при импорте из Хранилища данных</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T195930Z" creationid="Марианна" creationdate="20210314T195930Z">
