@@ -982,6 +982,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Код, вызываемый в компоненте Python выполняется в один поток, а одновременно может выполняться только один узел Python.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210320T221309Z" creationid="Марианна" creationdate="20210320T221309Z">
+        <seg>The code called in the Python component is executed in one stream, and only one Python node can be simultaneously executed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Компонент Экспорт в Хранилище данных, а также механизм наследования для компонента &lt;a0&gt;Импорт из Хранилища данных.&lt;/a0&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210320T212659Z" creationid="Марианна" creationdate="20210320T212659Z">
