@@ -910,6 +910,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Задание весов и калибровка моделей &lt;a0&gt;Логистической регрессии.&lt;/a0&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210320T212905Z" creationid="Марианна" creationdate="20210320T212905Z">
+        <seg>Setting weights and model calibration of &lt;a0&gt;Logistic Regression&lt;/a0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Импорт из Баз данных в Loginom</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T203547Z" creationid="Марианна" creationdate="20210314T203547Z">
@@ -930,6 +938,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201122T080841Z" creationid="Марианна" creationdate="20201122T080841Z">
         <seg>Fixes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Компонент Экспорт в Хранилище данных, а также механизм наследования для компонента &lt;a0&gt;Импорт из Хранилища данных.&lt;/a0&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210320T212659Z" creationid="Марианна" creationdate="20210320T212659Z">
+        <seg>Export to Data Warehouse component and inheritance mechanism for &lt;a0&gt;Import from Data Warehouse&lt;/a0&gt; component.</seg>
       </tuv>
     </tu>
     <tu>
