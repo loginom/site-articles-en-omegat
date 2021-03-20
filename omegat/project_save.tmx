@@ -1094,6 +1094,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Например, при разборе ответа от веб-сервиса.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210320T233251Z" creationid="Марианна" creationdate="20210320T233251Z">
+        <seg>For example, when analyzing the web service response.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Настройка экспорта в Хранилище данных</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T201319Z" creationid="Марианна" creationdate="20210314T200445Z">
