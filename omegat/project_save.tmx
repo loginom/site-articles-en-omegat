@@ -854,6 +854,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В Loginom не содержится инструментов разработки, аналогичных PyCharm и другим специализированным продуктам.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210320T220000Z" creationid="Марианна" creationdate="20210320T220000Z">
+        <seg>There are no development tools in Loginom that are similar to PyCharm and other specialized products.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В качестве среды исполнения используется CPython, а работа с компонентом Python в сценарии идентична работе с компонентом JavaScript.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210320T214623Z" creationid="Марианна" creationdate="20210320T214623Z">
