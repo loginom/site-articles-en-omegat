@@ -1,13 +1,13 @@
-<p>Крупное обновление аналитической платформы Loginom. Реализован функционал мониторинга пользователей и пакетов. Python support was added. The existing algorithms have been optimized. New handler and visualizer appeared, whereas the existing ones were upgraded.</p>
+<p>Major Update of Loginom Analytical Platform Functionality of users and packages monitoring was implemented. Python support was added. The existing algorithms were optimized. New handler and visualizer appeared, whereas the existing ones were upgraded.</p>
 
-<p>В обновление вошло большое количество изменений и новых возможностей.&nbsp;Ниже приведен список наиболее важных, на наш взгляд, изменений:</p>
+<p>Many changes and new options were introduced into the new updated version. In our opinion, the most important changes are listed below:</p>
 
 <ol>
-	<li>Python is suported.</li>
+	<li>Python is supported.</li>
 	<li>Generation of the output data set from the code in <a href="https://help.loginom.ru/userguide/processors/transformation/java-script/" target="_blank">JavaScript.</a> component.</li>
-	<li>Компонент Экспорт в Хранилище данных, а также механизм наследования для компонента <a href="https://help.loginom.ru/userguide/integration/import/warehouse.html" target="_blank">Импорт из Хранилища данных.</a></li>
+	<li>Export to Data Warehouse component and inheritance mechanism for <a href="https://help.loginom.ru/userguide/integration/import/warehouse.html" target="_blank">Import from Data Warehouse</a> component.</li>
 	<li>Duplicates Detection Handler.</li>
-	<li>Задание весов и калибровка моделей <a href="https://help.loginom.ru/userguide/processors/datamining/logistic-regression/" target="_blank">Логистической регрессии.</a></li>
+	<li>Setting weights and model calibration of <a href="https://help.loginom.ru/userguide/processors/datamining/logistic-regression/" target="_blank">Logistic Regression</a>.</li>
 	<li>
 	<p>Monitoring of active users and busy packages.</p>
 	</li>
@@ -17,7 +17,7 @@
 
 <h3 data-line="26" id="python">Python</h3>
 
-<p data-line="28">В Loginom 6.4 появилась возможность встраивать в сценарий расчеты, сделанные при помощи кода на языке программирования Python. В качестве среды исполнения используется CPython, а работа с компонентом Python в сценарии идентична работе с компонентом JavaScript. Поддерживается преобразование данных в структуру Pandas DataFrame и обратно. Доступны для импорта популярные библиотеки, используемые при анализе данных на Python: NumPy, Pandas, Scikit-learn и другие.</p>
+<p data-line="28">In Loginom 6.4 it became possible to embed the calculations made using the Python programming language code into the workflow. CPython is used as the runtime environment, and the Python component operation in the workflow is identical to the JavaScript component operation. Data transformation to Pandas DataFrame structure and vice versa is supported. The popular libraries used for Python data analysis are available for import: NumPy, Pandas, Scikit-learn, etc.</p>
 
 <figure class="lg-text-img lg-text-img_preview"><a href="/sites/default/files/blogpost-images/01-python.png"><img alt="Use of the Python based scripts" data-entity-type="file" data-entity-uuid="insert-image792-e80d2531-28fa-41ee-9de0-a3404db8f8ca" data-insert-class="" data-insert-type="image" src="/sites/default/files/styles/image792/public/blogpost-images/01-python.png" title="Use of the Python based scripts"> </a>
 
@@ -26,13 +26,13 @@
 </figcaption>
 </figure>
 
-<p data-line="32">В Loginom не содержится инструментов разработки, аналогичных PyCharm и другим специализированным продуктам. Основной кейс использования Python — встраивание расчетов, реализованных на Python в существующий сценарий анализа данных.</p>
+<p data-line="32">There are no development tools in Loginom that are similar to PyCharm and other specialized products. The main Python use case is to imbed the Python calculations into the existing data analysis workflow.</p>
 
-<p data-line="34">В связи с тем, что компонент выполняет код&nbsp;Python на сервере, на его использование накладывается ряд ограничений:</p>
+<p data-line="34">Taking into consideration the fact that the component executes the&nbsp;Python code on server, there are several restrictions concerning its use:</p>
 
 <ol>
-	<li data-line="35">Нельзя выполнять команды для работы с GUI (graphical user interface, графическим пользовательским интерфейсом).</li>
-	<li data-line="36">Код, вызываемый в компоненте Python выполняется в один поток, а одновременно может выполняться только один узел Python. Узел Python, активированный в процессе выполнения другого узла Python, будет ожидать завершения работы первого узла, даже если не является зависимым от него.</li>
+	<li data-line="35">It is not allowed to run the commands to work with GUI (graphical user interface, graphic user interface).</li>
+	<li data-line="36">The code called in the Python component is executed in a single thread, and only one Python node can be simultaneously executed. The Python node activated in the process of another Python node execution will wait for completion of the first node operation even if it does not depend on it.</li>
 	<li data-line="37">Не поддерживаются модули пакета multiprocessing, используемые для реализации параллельной работы через создание нескольких процессов, а также зависимые от них сторонние пакеты.</li>
 	<li data-line="38">Если в процессе выполнения кода Python возникнут критические ошибки, то приложение может аварийно завершится. В связи с этим рекомендуется использовать для выполнения ранее отлаженный код Python.</li>
 	<li data-line="39">При конвертации набора данных в структуру Pandas DataFrame используется весь обрабатываемый набор данных, что в некоторых случаях может приводить к существенному замедлению работы сценариев.</li>
