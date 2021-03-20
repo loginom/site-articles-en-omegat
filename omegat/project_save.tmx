@@ -1278,6 +1278,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Работа Python, в отличие от JavaScript, не ограничивается средой исполнения, а выполняемый код имеет полный доступ к операционной системе и сетевым протоколам.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210320T224653Z" creationid="Марианна" creationdate="20210320T224653Z">
+        <seg>As opposed to JavaScript, the Python operation is not restricted by the runtime environment and the executed code has full access to the operational system and network protocols.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Работа с базами данных</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T203607Z" creationid="Марианна" creationdate="20210314T202033Z">
