@@ -1040,8 +1040,8 @@
       <tuv lang="ru">
         <seg>Оптимизированы существующие алгоритмы.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210314T174857Z" creationid="Марианна" creationdate="20210314T174857Z">
-        <seg>The existing algorithms have been optimized.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210315T203913Z" creationid="Марианна" creationdate="20210314T174857Z">
+        <seg>The existing algorithms were optimized.</seg>
       </tuv>
     </tu>
     <tu>
