@@ -840,8 +840,8 @@
       <tuv lang="ru">
         <seg>Более подробная информация о работе компонента доступна в соответствующем разделе справки, а также всегда можно &lt;a0&gt;задать вопрос в Loginom Q&amp;A&lt;/a0&gt; или &lt;a1&gt;обратиться в службу технической поддержки.&lt;/a1&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210320T232355Z" creationid="Марианна" creationdate="20210320T232355Z">
-        <seg>More detailed information on the component operation is available in the corresponding Help section, and it is always possible to &lt;a0&gt;ask a question in Loginom Q&amp;A&lt;/a0&gt; or &lt;a1&gt;contact the Technical Support&lt;/a1&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210320T232448Z" creationid="Марианна" creationdate="20210320T232355Z">
+        <seg>More detailed information on the component operation is available in the corresponding Help section, and it is always possible to &lt;a0&gt;ask a question in Loginom Q&amp;A&lt;/a0&gt; or &lt;a1&gt;contact the Technical Support Service&lt;/a1&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1354,6 +1354,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T195659Z" creationid="Марианна" creationdate="20210314T195659Z">
         <seg>It is possible to set the output fields structure directly from the code.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Существенно расширены возможности использования компонента JavaScript, а также исправлено несколько ошибок, которые могли возникать ранее.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210320T232829Z" creationid="Марианна" creationdate="20210320T232829Z">
+        <seg>Opportunities of the JavaScript component use were significantly expanded, and several errors that could previously occur were corrected.</seg>
       </tuv>
     </tu>
     <tu>
