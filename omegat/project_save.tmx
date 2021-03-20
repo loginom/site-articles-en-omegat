@@ -1264,8 +1264,8 @@
       <tuv lang="ru">
         <seg>При конвертации набора данных в структуру Pandas DataFrame используется весь обрабатываемый набор данных, что в некоторых случаях может приводить к существенному замедлению работы сценариев.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210320T224034Z" creationid="Марианна" creationdate="20210320T224034Z">
-        <seg>When converting data set into Pandas DataFrame structure, the whole data set is used that can sometimes cause considerable slow-down of the workflows operation.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210320T224225Z" creationid="Марианна" creationdate="20210320T224034Z">
+        <seg>When converting data set into Pandas DataFrame structure, the whole processed data set is used that can sometimes cause considerable slow-down of the workflows operation.</seg>
       </tuv>
     </tu>
     <tu>
