@@ -886,6 +886,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В связи с этим рекомендуется использовать для выполнения ранее отлаженный код Python.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210320T223753Z" creationid="Марианна" creationdate="20210320T223753Z">
+        <seg>In this context, it is recommended to use previously debugged Python code.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Визуализатор «Дуликаты и противоречия»</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T200845Z" creationid="Марианна" creationdate="20210314T200845Z">
