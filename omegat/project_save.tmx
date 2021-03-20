@@ -894,6 +894,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В связи с этим, администратор должен явно предоставить возможность использования на сервере компонента Python.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210320T225134Z" creationid="Марианна" creationdate="20210320T225134Z">
+        <seg>In this context, the administrator must provide the definite possibility to use the Python component on server.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Визуализатор «Дуликаты и противоречия»</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T200845Z" creationid="Марианна" creationdate="20210314T200845Z">
