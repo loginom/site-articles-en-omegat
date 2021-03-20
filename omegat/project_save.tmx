@@ -446,6 +446,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>DeleteColumn — удаление столбца по имени или индексу;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210320T233936Z" creationid="Марианна" creationdate="20210320T233936Z">
+        <seg>DeleteColumn — deletion of a column by name or index.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>InsertColumn — вставка столбца по заданному индексу в выходной набор;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210320T233859Z" creationid="Марианна" creationdate="20210320T233821Z">
