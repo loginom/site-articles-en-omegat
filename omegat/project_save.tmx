@@ -984,8 +984,8 @@
       <tuv lang="ru">
         <seg>Код, вызываемый в компоненте Python выполняется в один поток, а одновременно может выполняться только один узел Python.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210320T221309Z" creationid="Марианна" creationdate="20210320T221309Z">
-        <seg>The code called in the Python component is executed in one stream, and only one Python node can be simultaneously executed.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210320T221607Z" creationid="Марианна" creationdate="20210320T221309Z">
+        <seg>The code called in the Python component is executed in a single thread, and only one Python node can be simultaneously executed.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1306,6 +1306,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T200919Z" creationid="Марианна" creationdate="20210314T200919Z">
         <seg>The Contradiction Notion</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Узел Python, активированный в процессе выполнения другого узла Python, будет ожидать завершения работы первого узла, даже если не является зависимым от него.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210320T221912Z" creationid="Марианна" creationdate="20210320T221912Z">
+        <seg>The Python node activated in the process of another Python node execution will wait for completion of the first node operation even if it does not depend on it.</seg>
       </tuv>
     </tu>
     <tu>
