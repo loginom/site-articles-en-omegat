@@ -854,6 +854,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В качестве среды исполнения используется CPython, а работа с компонентом Python в сценарии идентична работе с компонентом JavaScript.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210320T214623Z" creationid="Марианна" creationdate="20210320T214623Z">
+        <seg>CPython is used as the runtime environment, and the Python component operation in the workflow is identical to the JavaScript component operation.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В обновление вошло большое количество изменений и новых возможностей. Ниже приведен список наиболее важных, на наш взгляд, изменений:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210320T212430Z" creationid="Марианна" creationdate="20210320T212430Z">
