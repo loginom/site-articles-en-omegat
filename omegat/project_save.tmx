@@ -1382,6 +1382,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Такое поведение может потребоваться, если структура данных заранее не известна и формируется в процессе выполнения узла.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210320T233104Z" creationid="Марианна" creationdate="20210320T233104Z">
+        <seg>Such behaviour could be required if the data structure is not known in advance and it is generated in the node execution process.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Термин Противоречие</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T200919Z" creationid="Марианна" creationdate="20210314T200919Z">
