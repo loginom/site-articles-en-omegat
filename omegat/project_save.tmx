@@ -1158,6 +1158,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Настройка поправки на соотношение событий к не-событиям</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210320T235930Z" creationid="Марианна" creationdate="20210320T235930Z">
+        <seg>Configuration of events to non-events ratio correction</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Настройка экспорта в Хранилище данных</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T201319Z" creationid="Марианна" creationdate="20210314T200445Z">
