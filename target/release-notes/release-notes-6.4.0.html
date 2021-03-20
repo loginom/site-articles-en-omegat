@@ -33,12 +33,12 @@
 <ol>
 	<li data-line="35">It is not allowed to run the commands to work with GUI (graphical user interface, graphic user interface).</li>
 	<li data-line="36">The code called in the Python component is executed in a single thread, and only one Python node can be simultaneously executed. The Python node activated in the process of another Python node execution will wait for completion of the first node operation even if it does not depend on it.</li>
-	<li data-line="37">Не поддерживаются модули пакета multiprocessing, используемые для реализации параллельной работы через создание нескольких процессов, а также зависимые от них сторонние пакеты.</li>
-	<li data-line="38">Если в процессе выполнения кода Python возникнут критические ошибки, то приложение может аварийно завершится. В связи с этим рекомендуется использовать для выполнения ранее отлаженный код Python.</li>
-	<li data-line="39">При конвертации набора данных в структуру Pandas DataFrame используется весь обрабатываемый набор данных, что в некоторых случаях может приводить к существенному замедлению работы сценариев.</li>
+	<li data-line="37">Multiprocessing package modules used for parallel operation by creating several processes and also third-party packages dependent on them are not supported.</li>
+	<li data-line="38">If critical errors occur while executing the Python code, the application can be crashed. In this context, it is recommended to use previously debugged Python code.</li>
+	<li data-line="39">When converting data set into Pandas DataFrame structure, the whole processed data set is used that can sometimes cause considerable slow-down of the workflows operation.</li>
 </ol>
 
-<p>There are also several safety issues. Работа Python, в отличие от JavaScript, не ограничивается средой исполнения, а выполняемый код имеет полный доступ к операционной системе и сетевым протоколам. В связи с этим, администратор должен явно предоставить возможность использования на сервере компонента Python. Весь код выполняется на сервере с правами пользователя операционной системы, от имени которого запущен <a href="https://help.loginom.ru/adminguide/server/" target="_blank">Loginom Server.</a></p>
+<p>There are also several safety issues. As opposed to JavaScript, the Python operation is not restricted by the runtime environment and the executed code has full access to the operational system and network protocols. In this context, the administrator must provide the definite possibility to use the Python component on server. The whole code is executed on server with rights of the operational system user under whose id <a href="https://help.loginom.ru/adminguide/server/" target="_blank">Loginom Server</a> has been started.</p>
 
 <figure class="lg-text-img lg-text-img_preview"><a href="/sites/default/files/blogpost-images/02-python-admin.png"><img alt="Activation of the Python execution feature" data-entity-type="file" data-entity-uuid="insert-image792-0eab3e48-e7f7-4121-9683-a11766f67a74" data-insert-class="" data-insert-type="image" src="/sites/default/files/styles/image792/public/blogpost-images/02-python-admin.png" title="Activation of the Python execution feature"> </a>
 
