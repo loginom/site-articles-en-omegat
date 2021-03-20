@@ -430,10 +430,26 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>AddColumn — добавление столбца в конец списка столбцов выходного набора;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210320T233742Z" creationid="Марианна" creationdate="20210320T233742Z">
+        <seg>AddColumn — addition of a column to the list end of the output data set columns.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>AssignColumns — создание столбцов выходного набора из коллекции имен/описаний столбцов;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210320T233557Z" creationid="Марианна" creationdate="20210320T233557Z">
         <seg>AssignColumns — creation of the output data set columns from the collection of columns names/descriptions.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>InsertColumn — вставка столбца по заданному индексу в выходной набор;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210320T233821Z" creationid="Марианна" creationdate="20210320T233821Z">
+        <seg>InsertColumn — insertion of a column by the set index into the output data set.</seg>
       </tuv>
     </tu>
     <tu>
