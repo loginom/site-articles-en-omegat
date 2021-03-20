@@ -942,6 +942,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для формирования набора выходных столбцов могут использоваться следующие методы:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210320T233417Z" creationid="Марианна" creationdate="20210320T233417Z">
+        <seg>The following methods can be used to generate a set of the output columns:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Добавлена поддержка &lt;a0&gt;PostgreSQL 12.&lt;/a0&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T202515Z" creationid="Марианна" creationdate="20210314T202515Z">
