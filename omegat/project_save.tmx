@@ -942,6 +942,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если в процессе выполнения кода Python возникнут критические ошибки, то приложение может аварийно завершится.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210320T223505Z" creationid="Марианна" creationdate="20210320T223505Z">
+        <seg>If critical errors occur while executing the Python code, the application can be crashed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Задание весов для записей при настройке Логистической регрессии</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T201231Z" creationid="Марианна" creationdate="20210314T201231Z">
