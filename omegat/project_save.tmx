@@ -430,6 +430,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>AssignColumns — создание столбцов выходного набора из коллекции имен/описаний столбцов;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210320T233557Z" creationid="Марианна" creationdate="20210320T233557Z">
+        <seg>AssignColumns — creation of the output data set columns from the collection of columns names/descriptions.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>JavaScript</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T174732Z" creationid="Марианна" creationdate="20210314T174732Z">
