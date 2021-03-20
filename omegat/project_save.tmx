@@ -878,6 +878,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В связи с тем, что компонент выполняет код Python на сервере, на его использование накладывается ряд ограничений:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210320T220758Z" creationid="Марианна" creationdate="20210320T220758Z">
+        <seg>Taking into consideration the fact that the component executes the Python code on server, there are several restrictions concerning its use:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Визуализатор «Дуликаты и противоречия»</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T200845Z" creationid="Марианна" creationdate="20210314T200845Z">
