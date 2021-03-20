@@ -846,6 +846,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В Loginom 6.4 появилась возможность встраивать в сценарий расчеты, сделанные при помощи кода на языке программирования Python.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210320T214339Z" creationid="Марианна" creationdate="20210320T214339Z">
+        <seg>In Loginom 6.4 it became possible to embed the calculations made using the Python programming language code into the workflow.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В обновление вошло большое количество изменений и новых возможностей. Ниже приведен список наиболее важных, на наш взгляд, изменений:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210320T212430Z" creationid="Марианна" creationdate="20210320T212430Z">
