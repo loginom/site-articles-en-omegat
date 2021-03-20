@@ -446,6 +446,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>ClearColumns — очистка списка столбцов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210320T234047Z" creationid="Марианна" creationdate="20210320T234047Z">
+        <seg>ClearColumns — clearing a list of columns.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>DeleteColumn — удаление столбца по имени или индексу;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210320T233936Z" creationid="Марианна" creationdate="20210320T233936Z">
