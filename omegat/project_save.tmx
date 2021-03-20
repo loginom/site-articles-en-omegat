@@ -838,6 +838,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Более подробная информация о работе компонента доступна в соответствующем разделе справки, а также всегда можно &lt;a0&gt;задать вопрос в Loginom Q&amp;A&lt;/a0&gt; или &lt;a1&gt;обратиться в службу технической поддержки.&lt;/a1&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210320T232355Z" creationid="Марианна" creationdate="20210320T232355Z">
+        <seg>More detailed information on the component operation is available in the corresponding Help section, and it is always possible to &lt;a0&gt;ask a question in Loginom Q&amp;A&lt;/a0&gt; or &lt;a1&gt;contact the Technical Support&lt;/a1&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Быстрый просмор данных в Loginom</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T203237Z" creationid="Марианна" creationdate="20210314T203237Z">
