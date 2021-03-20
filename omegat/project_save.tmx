@@ -904,8 +904,8 @@
       <tuv lang="ru">
         <seg>Весь код выполняется на сервере с правами пользователя операционной системы, от имени которого запущен &lt;a0&gt;Loginom Server.&lt;/a0&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210320T225535Z" creationid="Марианна" creationdate="20210320T225535Z">
-        <seg>The whole code is executed on server with operational system user rights under whose id &lt;a0&gt;Loginom Server&lt;/a0&gt; was started.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210320T225727Z" creationid="Марианна" creationdate="20210320T225535Z">
+        <seg>The whole code is executed on server with rights of the operational system user under whose id &lt;a0&gt;Loginom Server&lt;/a0&gt; has been started.</seg>
       </tuv>
     </tu>
     <tu>
