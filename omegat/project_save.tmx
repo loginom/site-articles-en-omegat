@@ -1358,6 +1358,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При импорте из Хранилища данных появилась возможность отображения данных в виде иерархической (древовидной) структуры, что существенно упрощает настройку импорта данных, если хранилище имеет сложную структуру.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210320T235254Z" creationid="Марианна" creationdate="20210320T235254Z">
+        <seg>When importing from Data Warehouse, it became possible to display data in the hierarchal (tree-like) structure that can considerably simplify the data import configuration if the warehouse has a complex structure.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При конвертации набора данных в структуру Pandas DataFrame используется весь обрабатываемый набор данных, что в некоторых случаях может приводить к существенному замедлению работы сценариев.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210320T224225Z" creationid="Марианна" creationdate="20210320T224034Z">
