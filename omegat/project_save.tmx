@@ -448,8 +448,8 @@
       <tuv lang="ru">
         <seg>InsertColumn — вставка столбца по заданному индексу в выходной набор;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210320T233821Z" creationid="Марианна" creationdate="20210320T233821Z">
-        <seg>InsertColumn — insertion of a column by the set index into the output data set.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210320T233859Z" creationid="Марианна" creationdate="20210320T233821Z">
+        <seg>InsertColumn — insertion of a column into the output data set by the set index.</seg>
       </tuv>
     </tu>
     <tu>
