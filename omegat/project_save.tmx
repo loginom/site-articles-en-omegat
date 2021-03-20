@@ -926,6 +926,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для работы компонента Python на сервере должен быть установлен Python версии 3.4 или выше, а также все пакеты, которые планируется использовать в работе.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210320T231755Z" creationid="Марианна" creationdate="20210320T231755Z">
+        <seg>Python 3.4 and higher and also all packages to be used in the operation process must be installed on server for the Python component operation.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Добавлена поддержка &lt;a0&gt;PostgreSQL 12.&lt;/a0&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T202515Z" creationid="Марианна" creationdate="20210314T202515Z">
