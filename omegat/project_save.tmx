@@ -1054,6 +1054,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Нельзя выполнять команды для работы с GUI (graphical user interface, графическим пользовательским интерфейсом).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210320T221121Z" creationid="Марианна" creationdate="20210320T221121Z">
+        <seg>It is not allowed to run the commands to work with GUI (graphical user interface, graphic user interface).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Обработчик «Калькулятор»</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T204103Z" creationid="Марианна" creationdate="20210314T204103Z">
