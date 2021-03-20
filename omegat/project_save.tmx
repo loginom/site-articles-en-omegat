@@ -1078,6 +1078,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Исправлены ошибки, связанные с некорректной индексацией строк, в результате которых при выполнении кода JavaScript могла возникать ошибка «Номер строки 0 вне диапазона [0; -1]» или некорректно отображаться набор данных в окне предварительного просмотра.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210320T234648Z" creationid="Марианна" creationdate="20210320T234648Z">
+        <seg>The errors connected with incorrect indexation of rows that can cause the following error while JavaScript code executing: "Row number 0 is out of [0; -1] range", or incorrect displaying of a data set in the preview window were corrected.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Код, вызываемый в компоненте Python выполняется в один поток, а одновременно может выполняться только один узел Python.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210320T221607Z" creationid="Марианна" creationdate="20210320T221309Z">
