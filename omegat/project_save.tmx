@@ -1118,6 +1118,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Поддерживается преобразование данных в структуру Pandas DataFrame и обратно.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210320T214755Z" creationid="Марианна" creationdate="20210320T214755Z">
+        <seg>Data transformation to Pandas DataFrame structure and vice versa is supported.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Поддержка Python.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210315T202653Z" creationid="Марианна" creationdate="20210314T173838Z">
