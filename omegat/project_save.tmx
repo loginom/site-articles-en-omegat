@@ -950,6 +950,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В некоторых случаях внутри сценария могло потребоваться значение идентификатора запроса, полученного при выполнении узла сценария через &lt;a0&gt;Loginom Integrator&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210321T204649Z" creationid="Марианна" creationdate="20210321T204649Z">
+        <seg>In some cases, the identifier value of the request received when executing the workflow node by means of &lt;a0&gt;Loginom Integrator&lt;/a0&gt; could be required in the workflow.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В обновление вошло большое количество изменений и новых возможностей. Ниже приведен список наиболее важных, на наш взгляд, изменений:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210320T212430Z" creationid="Марианна" creationdate="20210320T212430Z">
