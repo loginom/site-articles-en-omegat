@@ -1046,6 +1046,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для решения этих задач в раздел &lt;a0&gt;Администрирование&lt;/a0&gt; добавлен «Диспетчер», который может использоваться для просмотра открытых сессий и пакетов, мониторинга и управления их активностью.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210321T212019Z" creationid="Марианна" creationdate="20210321T212019Z">
+        <seg>To solve these tasks, "Session Manager" that can be used to view the opened sessions and packages, monitoring and управления их активностью was added to &lt;a0&gt;Administration&lt;/a0&gt; section.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для формирования набора выходных столбцов могут использоваться следующие методы:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210320T233417Z" creationid="Марианна" creationdate="20210320T233417Z">
