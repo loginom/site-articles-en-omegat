@@ -1134,6 +1134,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Калибровка модели при помощи поправки на априорную вероятность позволяет скорректировать искажения, которые могут вноситься на этапе построения модели при балансировке классов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210321T194939Z" creationid="Марианна" creationdate="20210321T194557Z">
+        <seg>The model calibration using the priori probability correction enables to correct distortions that can occur at the model training stage when balancing the classes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Код, вызываемый в компоненте Python выполняется в один поток, а одновременно может выполняться только один узел Python.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210320T221607Z" creationid="Марианна" creationdate="20210320T221309Z">
@@ -1216,8 +1224,8 @@
       <tuv lang="ru">
         <seg>Например, такой подход может использоваться при построении модели оценки &lt;a0&gt;рисков&lt;/a0&gt; в кредитовании, когда в качестве веса может быть задана сумма кредита.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210321T194417Z" creationid="Марианна" creationdate="20210321T194417Z">
-        <seg>For example, such approach can be used to build the model of &lt;a0&gt;risks&lt;/a0&gt; assessment in the sphere of crediting when the credit sum can be set as the weight.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210321T194608Z" creationid="Марианна" creationdate="20210321T194417Z">
+        <seg>For example, such approach can be used to train the model of &lt;a0&gt;risks&lt;/a0&gt; assessment in the sphere of crediting when the credit sum can be set as the weight.</seg>
       </tuv>
     </tu>
     <tu>
