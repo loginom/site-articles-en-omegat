@@ -1654,6 +1654,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Теперь это можно сделать в настройках сервера и настольных приложений, для чего добавлен специальный параметр «Трассировка исключений».</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210321T213057Z" creationid="Марианна" creationdate="20210321T213057Z">
+        <seg>Now it can be done in the server settings and desktop applications. Special parameter "Trace exceptions" was added for this purpose.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Термин Противоречие</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T200919Z" creationid="Марианна" creationdate="20210314T200919Z">
