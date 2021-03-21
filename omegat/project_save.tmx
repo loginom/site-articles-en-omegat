@@ -1608,8 +1608,8 @@
       <tuv lang="ru">
         <seg>Также в этом разделе можно принудительно остановить выполнение сценария или сбросить сессию пользователя.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210321T212606Z" creationid="Марианна" creationdate="20210321T212606Z">
-        <seg>It is also possible to stop the workflow execution forcedly or to reset the user session in this session.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210321T212642Z" creationid="Марианна" creationdate="20210321T212606Z">
+        <seg>It is also possible to stop the workflow execution forcedly or to reset the user session in this section.</seg>
       </tuv>
     </tu>
     <tu>
