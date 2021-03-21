@@ -920,8 +920,8 @@
       <tuv lang="ru">
         <seg>В мастерах подключения к Хранилищу данных на СУБД &lt;a0&gt;MS SQL&lt;/a0&gt; и &lt;a1&gt;Oracle &lt;/a1&gt;добавлена возможность указать имя схемы, в которой находятся метаданные и данные ХД.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210321T180229Z" creationid="Марианна" creationdate="20210321T180229Z">
-        <seg>In wizards of connection to Хранилищу данных на СУБД &lt;a0&gt;MS SQL&lt;/a0&gt; and &lt;a1&gt;Oracle &lt;/a1&gt;it became possible to specify the name of the schema in which metadata and DW data are located .</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210321T180551Z" creationid="Марианна" creationdate="20210321T180229Z">
+        <seg>In wizards of connection to the Data Warehouse on &lt;a0&gt;MS SQL&lt;/a0&gt; and &lt;a1&gt;Oracle &lt;/a1&gt; DBMS it became possible to specify the name of the schema in which metadata and DW data are located.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1000,8 +1000,8 @@
       <tuv lang="ru">
         <seg>Добавлена возможность наследования для Импорта из Хранилища данных, что может быть полезно в случае, если в нескольких местах используются подключения к одному и тому же Хранилищу данных, но с различными параметрами настройки.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210321T175740Z" creationid="Марианна" creationdate="20210321T175740Z">
-        <seg>Inheritance possibility for Import from Data Warehouse was added. It can be useful if connections to one and the same Data Warehouse with different configuration parameters are used in several places.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210321T180240Z" creationid="Марианна" creationdate="20210321T175740Z">
+        <seg>Inheritance possibility for Import from the Data Warehouse was added. It can be useful if connections to one and the same Data Warehouse with different configuration parameters are used in several places.</seg>
       </tuv>
     </tu>
     <tu>
