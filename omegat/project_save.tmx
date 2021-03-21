@@ -1422,6 +1422,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Перезапуска сервера при этом не требуется, но активация параметра вступает в силу с небольшой задержкой.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210321T213702Z" creationid="Марианна" creationdate="20210321T213702Z">
+        <seg>Server restart is not required in this case but parameter is enabled with a slight delay.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Поддерживается преобразование данных в структуру Pandas DataFrame и обратно.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210320T214755Z" creationid="Марианна" creationdate="20210320T214755Z">
