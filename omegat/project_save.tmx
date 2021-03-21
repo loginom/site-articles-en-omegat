@@ -918,6 +918,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В выходном наборе «Дополнительные данные» добавлен столбец, содержащий код ответа веб-сервера.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210321T203017Z" creationid="Марианна" creationdate="20210321T203017Z">
+        <seg>The column that contains the web server response code was added in the output data set - "Additional data".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В данном случае дублирующимися строками считаются строки с точным совпадением сравниваемых полей.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210321T185254Z" creationid="Марианна" creationdate="20210321T185254Z">
