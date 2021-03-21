@@ -1086,6 +1086,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Задание весов для отдельных записей, используемых при обучении модели позволяет получить более точную модель в том случае, если требуется учитывать значимость отдельной записи в наборе данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210321T194102Z" creationid="Марианна" creationdate="20210321T194102Z">
+        <seg>Setting weights for separate records used while model training provides more accurate model if it is required to consider significance of a separate record in the data set.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Задание весов и калибровка моделей &lt;a0&gt;Логистической регрессии.&lt;/a0&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210320T212905Z" creationid="Марианна" creationdate="20210320T212905Z">
