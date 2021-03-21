@@ -894,6 +894,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В Loginom 6.4 внесено два существенных изменения, позволяющих расширить возможности использования Логистической регрессии, а в ряде случаев повысить качество получаемых моделей.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210321T185949Z" creationid="Марианна" creationdate="20210321T185949Z">
+        <seg>Two important changes that enable to expand possibilities of the Logistic Regression use and in some cases to increase the quality of the received models were introduced into Loginom 6.4.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В Loginom 6.4 появилась возможность встраивать в сценарий расчеты, сделанные при помощи кода на языке программирования Python.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210320T214339Z" creationid="Марианна" creationdate="20210320T214339Z">
