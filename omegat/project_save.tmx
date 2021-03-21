@@ -1494,6 +1494,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Появилась возможность одновременного отображения нескольких фактов на графике диаграммы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210321T214941Z" creationid="Марианна" creationdate="20210321T214941Z">
+        <seg>It became possible to display several measures simultaneously in the chart graph.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Появилась возможность экспорта в Хранилище данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T200155Z" creationid="Марианна" creationdate="20210314T200155Z">
