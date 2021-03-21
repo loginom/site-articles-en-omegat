@@ -990,6 +990,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для работы необходимо задать входные и выходные наборы полей, а далее компонент автоматически выявляет полные &lt;a1&gt;дубли &lt;/a1&gt;и &lt;a2&gt;противоречия&lt;/a2&gt; в наборе данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210321T185053Z" creationid="Марианна" creationdate="20210321T185053Z">
+        <seg>For operation, it is required to set the input and output data sets of fields, and then the component automatically detects full &lt;a1&gt;doubles &lt;/a1&gt;and &lt;a2&gt;contradictions&lt;/a2&gt; in the data set.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для формирования набора выходных столбцов могут использоваться следующие методы:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210320T233417Z" creationid="Марианна" creationdate="20210320T233417Z">
