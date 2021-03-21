@@ -1048,8 +1048,8 @@
       <tuv lang="ru">
         <seg>Добавлена поддержка методов PUT, DELETE и PATCH в мастерах настройки подключения &lt;a0&gt;REST-запроса&lt;/a0&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210321T200903Z" creationid="Марианна" creationdate="20210321T200903Z">
-        <seg>Support of PUT, DELETE and PATCH methods in connection wizards of &lt;a0&gt;REST request&lt;/a0&gt; was added.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210321T201130Z" creationid="Марианна" creationdate="20210321T200903Z">
+        <seg>Support of PUT, DELETE and PATCH methods was added in &lt;a0&gt;REST request&lt;/a0&gt; connection wizards.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1506,6 +1506,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T204622Z" creationid="Марианна" creationdate="20210314T204622Z">
         <seg>Previously, it was not possible to get and use this identifier.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Ранее никак не учитывался http-статус полученного от сервера ответа, и его значение не возвращалось ни в одном из выходных портов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210321T201715Z" creationid="Марианна" creationdate="20210321T201715Z">
+        <seg>Previously, http status of the response received from the server was not taken into account, and its value was not returned in any of the output ports.</seg>
       </tuv>
     </tu>
     <tu>
