@@ -990,6 +990,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Добавлена возможность наследования для Импорта из Хранилища данных, что может быть полезно в случае, если в нескольких местах используются подключения к одному и тому же Хранилищу данных, но с различными параметрами настройки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210321T175740Z" creationid="Марианна" creationdate="20210321T175740Z">
+        <seg>Inheritance possibility for Import from Data Warehouse was added. It can be useful if connections to one and the same Data Warehouse with different configuration parameters are used in several places.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Добавлена поддержка &lt;a0&gt;PostgreSQL 12.&lt;/a0&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T202515Z" creationid="Марианна" creationdate="20210314T202515Z">
