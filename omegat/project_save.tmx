@@ -1454,6 +1454,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Пропорции «событий» и «не событий» могут задаваться автоматически на основе данных обучающего или тестового множества, а также задаваться вручную в мастере настройки или интерактивно в визуализаторе&lt;a0&gt; Качество бинарной классификации.&lt;/a0&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210321T195423Z" creationid="Марианна" creationdate="20210321T195423Z">
+        <seg>Events to non-events ratio can be automatically set according to the training or test set data and it can be also manually set in the wizard or interactively in &lt;a0&gt; Binary сlassification assessment&lt;/a0&gt; visualizer.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Прочие изменения</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T202227Z" creationid="Марианна" creationdate="20210314T202227Z">
