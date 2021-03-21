@@ -1094,6 +1094,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ее значение соответствует либо пропущенному значению &lt;e3&gt;null&lt;/e3&gt; по умолчанию, либо значению идентификатора запроса при выполнении узла сценария через Loginom Integrator.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210321T210236Z" creationid="Марианна" creationdate="20210321T210236Z">
+        <seg>Its value matches either &lt;e3&gt;null&lt;/e3&gt; value by default, or the request identifier value when executing the workflow node by means of Loginom Integrator.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если в процессе выполнения кода Python возникнут критические ошибки, то приложение может аварийно завершится.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210320T223505Z" creationid="Марианна" creationdate="20210320T223505Z">
