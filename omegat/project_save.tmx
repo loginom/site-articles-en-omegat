@@ -1118,6 +1118,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Компонент, способный существенно упростить аналитику первые этапы в работе с &lt;a0&gt;качеством данных&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210321T181844Z" creationid="Марианна" creationdate="20210321T181844Z">
+        <seg>The component that can significantly simplify analytics, the first stages of work with &lt;a0&gt;Data quality&lt;/a0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Конечные классы</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T202109Z" creationid="Марианна" creationdate="20210314T202109Z">
