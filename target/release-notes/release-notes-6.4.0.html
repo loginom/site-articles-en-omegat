@@ -47,20 +47,20 @@
 </figcaption>
 </figure>
 
-<p>Для работы компонента Python на сервере должен быть установлен Python версии 3.4 или выше, а также все пакеты, которые планируется использовать в работе. Более подробная информация о работе компонента доступна в соответствующем разделе справки, а также всегда можно <a href="https://qa.loginom.ru" target="_blank">задать вопрос в Loginom Q&amp;A</a> или <a href="https://loginom.ru/company/feedback" target="_blank">обратиться в службу технической поддержки.</a></p>
+<p>Python 3.4 and higher and also all packages to be used in the operation process must be installed on server for the Python component operation. More detailed information on the component operation is available in the corresponding Help section, and it is always possible to <a href="https://qa.loginom.ru" target="_blank">ask a question in Loginom Q&amp;A</a> or <a href="https://loginom.ru/company/feedback" target="_blank">contact the Technical Support Service</a>.</p>
 
 <h3 data-line="47" id="javascript">JavaScript</h3>
 
-<p data-line="49">Существенно расширены возможности использования компонента JavaScript, а также исправлено несколько ошибок, которые могли возникать ранее.</p>
+<p data-line="49">Opportunities of the JavaScript component use were significantly expanded, and several errors that could previously occur were corrected.</p>
 
-<p data-line="51">It became possible to set the output data set structure from the code. Такое поведение может потребоваться, если структура данных заранее не известна и формируется в процессе выполнения узла. Например, при разборе ответа от веб-сервиса. Для формирования набора выходных столбцов могут использоваться следующие методы:</p>
+<p data-line="51">It became possible to set the output data set structure from the code. Such behaviour could be required if the data structure is not known in advance and it is generated in the node execution process. For example, when analyzing the web service response. The following methods can be used to generate a set of the output columns:</p>
 
 <ul>
-	<li data-line="52">AssignColumns — создание столбцов выходного набора из коллекции имен/описаний столбцов;</li>
-	<li data-line="53">AddColumn — добавление столбца в конец списка столбцов выходного набора;</li>
-	<li data-line="54">InsertColumn — вставка столбца по заданному индексу в выходной набор;</li>
-	<li data-line="55">DeleteColumn — удаление столбца по имени или индексу;</li>
-	<li data-line="56">ClearColumns — очистка списка столбцов.</li>
+	<li data-line="52">AssignColumns — creation of the output data set columns from the collection of columns names/descriptions.</li>
+	<li data-line="53">AddColumn — addition of a column to the list end of the output data set columns.</li>
+	<li data-line="54">InsertColumn — insertion of a column into the output data set by the set index.</li>
+	<li data-line="55">DeleteColumn — deletion of a column by name or index.</li>
+	<li data-line="56">ClearColumns — clearing a list of columns.</li>
 </ul>
 
 <figure class="lg-text-img lg-text-img_preview"><a href="/sites/default/files/blogpost-images/03-javascript-output.png"><img alt="It is possible to set the output fields structure directly from the code." data-entity-type="file" data-entity-uuid="insert-image792-d48cc328-38fb-48fa-8487-1ef9ee91e1f3" data-insert-class="" data-insert-type="image" src="/sites/default/files/styles/image792/public/blogpost-images/03-javascript-output.png" title="It is possible to set the output fields structure directly from the code."> </a>
@@ -70,11 +70,11 @@
 </figcaption>
 </figure>
 
-<p>Исправлены ошибки, связанные с некорректной индексацией строк, в результате которых при выполнении кода JavaScript могла возникать ошибка «Номер строки 0 вне диапазона [0; -1]» или некорректно отображаться набор данных в окне предварительного просмотра.</p>
+<p>The errors connected with incorrect indexation of rows that can cause the following error while JavaScript code executing: "Row number 0 is out of [0; -1] range", or incorrect displaying of a data set in the preview window were corrected.</p>
 
 <h2 data-line="62" id="%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D0%BB%D0%B8%D1%89%D0%B5-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85">Data Warehouse</h2>
 
-<p data-line="64">При импорте из Хранилища данных появилась возможность отображения данных в виде иерархической (древовидной) структуры, что существенно упрощает настройку импорта данных, если хранилище имеет сложную структуру.</p>
+<p data-line="64">When importing from Data Warehouse, it became possible to display data in the hierarchal (tree-like) structure that can considerably simplify the data import configuration if the warehouse has a complex structure.</p>
 
 <figure class="lg-text-img lg-text-img_preview"><a href="/sites/default/files/blogpost-images/dw-import.png"><img alt="Tree-Like Structure when Importing from the Data Warehouse" data-entity-type="file" data-entity-uuid="insert-image792-3e99d3b2-5b36-4536-afe2-1be491ce3628" data-insert-class="" data-insert-type="image" src="/sites/default/files/styles/image792/public/blogpost-images/dw-import.png" title="Tree-Like Structure when Importing from the Data Warehouse"> </a>
 
@@ -121,10 +121,10 @@
 </figcaption>
 </figure>
 
-<figure class="lg-text-img lg-text-img_preview"><a href="/sites/default/files/blogpost-images/09-logregression.png"><img alt="Настройка поправки на соотношение событий к не-событиям" data-entity-type="file" data-entity-uuid="insert-image792-c07b1d4f-5899-499c-bde3-65f58f9c8a3e" data-insert-class="" data-insert-type="image" src="/sites/default/files/styles/image792/public/blogpost-images/09-logregression.png" title="Настройка поправки на соотношение событий к не-событиям"> </a>
+<figure class="lg-text-img lg-text-img_preview"><a href="/sites/default/files/blogpost-images/09-logregression.png"><img alt="Configuration of events to non-events ratio correction" data-entity-type="file" data-entity-uuid="insert-image792-c07b1d4f-5899-499c-bde3-65f58f9c8a3e" data-insert-class="" data-insert-type="image" src="/sites/default/files/styles/image792/public/blogpost-images/09-logregression.png" title="Configuration of events to non-events ratio correction"> </a>
 
 <figcaption>
-<p>Настройка поправки на соотношение событий к не-событиям</p>
+<p>Configuration of events to non-events ratio correction</p>
 </figcaption>
 </figure>
 
