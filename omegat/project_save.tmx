@@ -1238,6 +1238,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Кроме того, отображаемые на графике ряды можно активировать и деактивировать.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210321T215417Z" creationid="Марианна" creationdate="20210321T215417Z">
+        <seg>Besides, the series shown in the graph can be activated and deactivated.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Крупное обновление аналитической платформы Loginom.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210315T203625Z" creationid="Марианна" creationdate="20210315T203625Z">
