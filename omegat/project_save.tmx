@@ -1000,8 +1000,8 @@
       <tuv lang="ru">
         <seg>Вдобавок к этому, иногда требовалось принудительно сбросить кэш пакетов, опубликованных через Loginom Integrator, например, при обновлении версий сразу нескольких пакетов.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210321T211515Z" creationid="Марианна" creationdate="20210321T211515Z">
-        <seg>Besides, sometimes it was required to clear cache of the packages published by means of Loginom Integrator forcedly, for example, when updating versions of several packages at once.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210321T211542Z" creationid="Марианна" creationdate="20210321T211515Z">
+        <seg>Besides, sometimes it was required to clear cache of the packages published by means of Loginom Integrator forcedly, for example, when updating the versions of several packages at once.</seg>
       </tuv>
     </tu>
     <tu>
