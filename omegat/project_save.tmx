@@ -1048,8 +1048,8 @@
       <tuv lang="ru">
         <seg>Для решения этих задач в раздел &lt;a0&gt;Администрирование&lt;/a0&gt; добавлен «Диспетчер», который может использоваться для просмотра открытых сессий и пакетов, мониторинга и управления их активностью.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210321T212208Z" creationid="Марианна" creationdate="20210321T212019Z">
-        <seg>To tackle these tasks, "Session Manager" that can be used to view the opened sessions and packages, for their monitoring and activity control was added to &lt;a0&gt;Administration&lt;/a0&gt; section.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210321T212318Z" creationid="Марианна" creationdate="20210321T212019Z">
+        <seg>To tackle these tasks, "Session Manager" that can be used to view the opened sessions and packages and for their monitoring and activity control was added to &lt;a0&gt;Administration&lt;/a0&gt; section.</seg>
       </tuv>
     </tu>
     <tu>
