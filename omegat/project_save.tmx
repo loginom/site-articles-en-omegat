@@ -1598,6 +1598,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Теперь в узел &lt;a1&gt;«Переменных сценария»&lt;/a1&gt; в порт «Переменные сессии» добавлена переменная &lt;e2&gt;RequestId&lt;/e2&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210321T205009Z" creationid="Марианна" creationdate="20210321T205009Z">
+        <seg>Now &lt;e2&gt;RequestId&lt;/e2&gt; variable was added to &lt;a1&gt;"Workflow Variables"&lt;/a1&gt; node to "Session variables" port.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Термин Противоречие</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T200919Z" creationid="Марианна" creationdate="20210314T200919Z">
