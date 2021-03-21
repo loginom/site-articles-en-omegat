@@ -1534,6 +1534,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Столбец содержит целочисленные значения с именем HttpStatusCode и меткой «Код состояния HTTP».</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210321T203213Z" creationid="Марианна" creationdate="20210321T203213Z">
+        <seg>The column contains integer values with HttpStatusCode name and "HTTP Status Code" caption.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Структуру выходных полей можно задавать непосредственно из кода</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T195659Z" creationid="Марианна" creationdate="20210314T195659Z">
