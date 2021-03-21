@@ -968,8 +968,8 @@
       <tuv lang="ru">
         <seg>В процессе коллективной работы или при выполнении сценариев со сложными зависимостями нередко возникала ситуация, что сервер предупреждал о том, что необходимый пакет уже используется.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210321T210912Z" creationid="Марианна" creationdate="20210321T210912Z">
-        <seg>In the teamwork process or when executing the workflows with complex dependences, it frequently happened that the server notified that the required package is already used.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210321T211015Z" creationid="Марианна" creationdate="20210321T210912Z">
+        <seg>In the teamwork process or when executing the workflows with complex dependences, it frequently happened that the server notified that the required package was already used.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1490,6 +1490,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210320T224225Z" creationid="Марианна" creationdate="20210320T224034Z">
         <seg>When converting data set into Pandas DataFrame structure, the whole processed data set is used that can sometimes cause considerable slow-down of the workflows operation.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При этом невозможно было понять, каким пользователем или процессом занят пакет.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210321T211232Z" creationid="Марианна" creationdate="20210321T211232Z">
+        <seg>And it was not possible to define the user or process that uses the package.</seg>
       </tuv>
     </tu>
     <tu>
