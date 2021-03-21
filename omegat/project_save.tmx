@@ -1046,6 +1046,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Добавлена поддержка методов PUT, DELETE и PATCH в мастерах настройки подключения &lt;a0&gt;REST-запроса&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210321T200903Z" creationid="Марианна" creationdate="20210321T200903Z">
+        <seg>Support of PUT, DELETE and PATCH methods in connection wizards of &lt;a0&gt;REST request&lt;/a0&gt; was added.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Доступны для импорта популярные библиотеки, используемые при анализе данных на Python: NumPy, Pandas, Scikit-learn и другие.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210320T215621Z" creationid="Марианна" creationdate="20210320T215621Z">
