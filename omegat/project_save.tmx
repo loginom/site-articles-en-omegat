@@ -950,6 +950,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В мастере настройки подключения добавлена проверка строки подключения и обязательных параметров.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210321T214600Z" creationid="Марианна" creationdate="20210321T214600Z">
+        <seg>Check of connection string and required parameters was added to the connection wizard.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В некоторых случаях внутри сценария могло потребоваться значение идентификатора запроса, полученного при выполнении узла сценария через &lt;a0&gt;Loginom Integrator&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210321T204649Z" creationid="Марианна" creationdate="20210321T204649Z">
