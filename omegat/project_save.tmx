@@ -910,6 +910,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В данном случае дублирующимися строками считаются строки с точным совпадением сравниваемых полей.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210321T185254Z" creationid="Марианна" creationdate="20210321T185254Z">
+        <seg>In this case, the doubled rows are considered to be the rows with exact match of the compared fields.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В качестве среды исполнения используется CPython, а работа с компонентом Python в сценарии идентична работе с компонентом JavaScript.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210320T214623Z" creationid="Марианна" creationdate="20210320T214623Z">
