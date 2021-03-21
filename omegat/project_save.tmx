@@ -1486,6 +1486,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Теперь в Loginom можно выполнить весь цикл ETL операций, связанных с Хранилищами данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210321T181201Z" creationid="Марианна" creationdate="20210321T181201Z">
+        <seg>Now Loginom enables to perform the whole cycle of the ETL operations connected with the Data Warehouses.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Термин Противоречие</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T200919Z" creationid="Марианна" creationdate="20210314T200919Z">
