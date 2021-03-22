@@ -1094,6 +1094,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Добавлена анимированная иконка статуса процессов при наличии активных процессов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210322T203512Z" creationid="Марианна" creationdate="20210322T203512Z">
+        <seg>The animated icon that shows the status of processes was added in the case of active processes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Добавлена возможность наследования для Импорта из Хранилища данных, что может быть полезно в случае, если в нескольких местах используются подключения к одному и тому же Хранилищу данных, но с различными параметрами настройки.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210321T180240Z" creationid="Марианна" creationdate="20210321T175740Z">
