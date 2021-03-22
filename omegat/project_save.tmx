@@ -1046,6 +1046,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В этой версии исправлено несколько ошибок, выявленных при тестировании возможностей, добавленных в версии 6.4.0.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210322T215022Z" creationid="Марианна" creationdate="20210322T215022Z">
+        <seg>Several errors detected when testing the features added in version 6.4.0 were corrected in this version.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Вдобавок к этому, иногда требовалось принудительно сбросить кэш пакетов, опубликованных через Loginom Integrator, например, при обновлении версий сразу нескольких пакетов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210321T211649Z" creationid="Марианна" creationdate="20210321T211515Z">
@@ -1298,6 +1306,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210322T165139Z" creationid="Марианна" creationdate="20210322T165139Z">
         <seg>Error of zeros removing at the beginning of string fields when exporting from the Cube to &lt;a0&gt;Excel&lt;/a0&gt; was corrected.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Исправлена работа SOAP-сервисов и подключений к базам данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210322T215233Z" creationid="Марианна" creationdate="20210322T215233Z">
+        <seg>Operation of SOAP services and connections to databases was corrected.</seg>
       </tuv>
     </tu>
     <tu>
