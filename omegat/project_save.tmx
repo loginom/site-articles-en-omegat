@@ -1798,6 +1798,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Унифицированы имена переменных, а также описания долей событий и классов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210322T171733Z" creationid="Марианна" creationdate="20210322T171733Z">
+        <seg>Variables names and descriptions of rates of events and classes were unified.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Управление пользователями Loginom</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T203149Z" creationid="Марианна" creationdate="20210314T203149Z">
