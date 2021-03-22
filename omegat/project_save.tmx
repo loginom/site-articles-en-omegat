@@ -1190,6 +1190,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Исправлена ошибка «столбец "value" имеет тип money, а выражение - double precision», возникавшая при попытке экспорта вещественных чисел в поле &lt;e3&gt;money&lt;/e3&gt; базы данных PostgreSQL.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210322T143923Z" creationid="Марианна" creationdate="20210322T143923Z">
+        <seg>The following error was corrected: "value" column relates to the money type, and expression - double precision". It occurred when trying to export real numbers to the &lt;e3&gt;money&lt;/e3&gt; field of the PostgreSQL database.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Исправление ошибок</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201122T080841Z" creationid="Марианна" creationdate="20201122T080841Z">
