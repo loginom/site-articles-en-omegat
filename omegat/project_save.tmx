@@ -230,6 +230,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Веб-приложение, Настольное приложение:&lt;/s0&gt; если один из открытых пакетов был заблокирован, например, выполнялся один из его узлов, то при попытке на соседней вкладке закрыть не связанный с ним пакет возникало сообщение об ошибке «Сценарий содержит &lt;…&gt; заблокированных узлов» (#5735, #7608, #8131).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210322T231908Z" creationid="Марианна" creationdate="20210322T231908Z">
+        <seg>&lt;s0&gt;Web application, Desktop application:&lt;/s0&gt; if one of the opened packages was locked, for example, one of its nodes was executed, while attempting to close the package that was not connected with it on the next tab, the following error message appeared: "Workflow contains &lt;…&gt; locked nodes" (#5735, #7608, #8131).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Веб-приложение, Настольное приложение:&lt;/s0&gt; если файл открытого пакета был удален или перемещен, то при попытке закрыть такой пакет возникала ошибка «Cannot open file “&lt;имя файла&gt;”.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210322T223044Z" creationid="Марианна" creationdate="20210322T223044Z">
