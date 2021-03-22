@@ -990,6 +990,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В обработчике Заполнение пропусков добавлена возможность заменять пропущенные числовые значения на &lt;e0&gt;0&lt;/e0&gt;, а также оптимизирована работа обработчика, а из списка допустимых методов для Логического типа данных убран вариант &lt;e1&gt;Не задано&lt;/e1&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210322T212244Z" creationid="Марианна" creationdate="20210322T212244Z">
+        <seg>It became possible to replace null numerical values with &lt;e0&gt;0&lt;/e0&gt; in the Imputation handler, anf the handler operation was optimised, &lt;e1&gt;Unspecified&lt;/e1&gt; option was removed from the list of the methods allowable for the Logistic data type.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В процессе коллективной работы или при выполнении сценариев со сложными зависимостями нередко возникала ситуация, что сервер предупреждал о том, что необходимый пакет уже используется.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210321T211015Z" creationid="Марианна" creationdate="20210321T210912Z">
