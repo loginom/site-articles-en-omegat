@@ -1694,6 +1694,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ранее это можно было сделать только следующим образом: в окне настройки модификатора доступа выбираем статус «Опубликованный», затем задаем имя узла, затем возвращаем прежний статус.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210322T172323Z" creationid="Марианна" creationdate="20210322T172323Z">
+        <seg>Previously, it could be done only in the following way: it was required to select the "Published" status in the access modifier configuration window. Then the node name was set and the previous status was returned.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Реализован функционал мониторинга пользователей и пакетов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210315T203901Z" creationid="Марианна" creationdate="20210315T203901Z">
