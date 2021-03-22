@@ -1694,6 +1694,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Сравнение распределения фактических долей интервалов с теми, которые были при обучении</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210322T171543Z" creationid="Марианна" creationdate="20210322T171543Z">
+        <seg>Comparison of distribution of actual bin rates with the training ones</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Столбец содержит целочисленные значения с именем HttpStatusCode и меткой «Код состояния HTTP».</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210321T203213Z" creationid="Марианна" creationdate="20210321T203213Z">
