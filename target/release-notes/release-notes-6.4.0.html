@@ -190,7 +190,7 @@
 
 <h2 data-line="139" id="%D0%BF%D0%B0%D0%BA%D0%B5%D1%82%D0%BD%D0%BE%D0%B5-%D0%B2%D1%8B%D0%BF%D0%BE%D0%BB%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5">Batch Processing</h2>
 
-<p data-line="141">Для запуска узла в режиме <a href="https://help.loginom.ru/userguide/scenario/batchlauncher.html" target="_blank">Пакетного выполнения</a> требуется задать для него имя, при этом узел не обязательно должен быть опубликован. Ранее это можно было сделать только следующим образом: в окне настройки модификатора доступа выбираем статус «Опубликованный», затем задаем имя узла, затем возвращаем прежний статус. Теперь добавлена возможность задать имя для узла модели с модификатором доступа «Открытый». Для сброса имени узла достаточно оставить поле пустым (возможно только для модификатора доступа «Открытый»).</p>
+<p data-line="141">To start the node in the <a href="https://help.loginom.ru/userguide/scenario/batchlauncher.html" target="_blank">Batch processing</a> mode, it is required to set its name, and the node must not be compulsorily published. Previously, it could be done only in the following way: it was required to select the "Published" status in the access modifier configuration window. Then the node name was set and the previous status was returned. Now it became possible to set the name for the model node with the "Public" access modifier. To reset the node name, it is sufficient to leave the field blank (it is possible only for the "Public" access modifier).</p>
 
 <p>
 <video class="lg-intro__video__container" controls="controls" style="width: 100%"><source src="/sites/default/files/blogpost-files/13-node-name-1920_0.mp4" type="video/mp4"></video>
@@ -198,35 +198,35 @@
 
 <h2 data-line="145" id="%D0%BF%D1%80%D0%BE%D1%87%D0%B8%D0%B5-%D0%B8%D0%B7%D0%BC%D0%B5%D0%BD%D0%B5%D0%BD%D0%B8%D1%8F">Other Changes</h2>
 
-<p data-line="147">Добавлена анимированная иконка статуса процессов при наличии активных процессов.</p>
+<p data-line="147">The animated icon that shows the status of processes was added in the case of active processes.</p>
 
 <p>
 <video class="lg-intro__video__container" controls="controls" style="width: 100%"><source src="/sites/default/files/blogpost-files/14-process-1920_0.mp4" type="video/mp4"></video>
 </p>
 
-<p data-line="147">В таблице добавлена возможность группового редактирования формата данных.</p>
+<p data-line="147">Group editing of the data format became possible in the table.</p>
 
 <p>
 <video class="lg-intro__video__container" controls="controls" style="width: 100%"><source src="/sites/default/files/blogpost-files/15-group-format.mp4" type="video/mp4"></video>
 </p>
 
-<p data-line="155">Добавлено автоматизированное end-to-end тестирование, что позволит существенно повысить надежность приложения. Подробнее об изменениях можно узнать из&nbsp;<a data-href="https://loginom.ru/blog/ld2020-kiselev" href="https://loginom.ru/blog/ld2020-kiselev" title="https://loginom.ru/blog/ld2020-kiselev">выступления Георгия Киселева на Loginom Days 2020</a>.</p>
+<p data-line="155">The automated end-to-end testing was added that will enable to enhance the application reliability significantly. More detailed information on changes is available&nbsp;in the <a data-href="https://loginom.ru/blog/ld2020-kiselev" href="https://loginom.ru/blog/ld2020-kiselev" title="https://loginom.ru/blog/ld2020-kiselev">speech of Georgy Kiselev during Loginom Days 2020</a>.</p>
 
-<p data-line="157">Ранее в процессе вырезания/вставки узлов могла возникнуть блокировка узлов, в результате чего могли происходить ошибки. The locking mechanism became more reliable.</p>
+<p data-line="157">Nodes locking could occur earlier while cutting/inserting the nodes that could cause errors. The locking mechanism became more reliable.</p>
 
-<p data-line="159">В обработчике <a href="https://help.loginom.ru/userguide/processors/scrutiny/correlation-analysis.html" target="_blank">Корреляционный анализ</a> при расчете экстремума взаимокорреляционной функции для пользователя добавлен вывод номера лага (величины смещения).</p>
+<p data-line="159">Functionality that enables to show lag number (offset value) was added for a user to the <a href="https://help.loginom.ru/userguide/processors/scrutiny/correlation-analysis.html" target="_blank">Correlation Analysis</a> handler when calculating extremum of cross-correlation function.</p>
 
-<p data-line="161">Исправлены названия показателей моделей в отчетах по <a href="https://help.loginom.ru/userguide/visualization/linear-regression/" target="_blank">Линейной </a>и Логистической регрессиям, добавлены недостающие показатели в Отчет по линейной регрессии, дополнены названия методов и факторов отбора моделей.</p>
+<p data-line="161">Names of models parameters were corrected in the <a href="https://help.loginom.ru/userguide/visualization/linear-regression/" target="_blank">Linear </a> and Logistic regressions reports, missing parameters were added to the Linear regression report, names of methods and factors of models selection were added.</p>
 
-<p data-line="163">В обработчике Заполнение пропусков добавлена возможность заменять пропущенные числовые значения на&nbsp;<em>0</em>, а также оптимизирована работа обработчика, а из списка допустимых методов для Логического типа данных убран вариант&nbsp;<em>Не задано</em>.</p>
+<p data-line="163">It became possible to replace null numerical values with <em>0</em> in the Imputation handler, anf the handler operation was optimised,&nbsp;<em>Unspecified</em> option was removed from the list of the methods allowable for the Logistic data type.</p>
 
-<p data-line="165">Добавлены всплывающие подсказки с полным текстом, отображаемые при наведении на поле или метку поля.</p>
+<p data-line="165">Tips with full text displayed when hovering a cursor over the field or field caption were added.</p>
 
-<p data-line="167">В окне быстрого просмотра удалена нижняя панель с единственной кнопкой «Закрыть», вместо этого окно может быть закрыто кликом по любому месту вне окна быстрого просмотра или по нажатию на «×» (кнопку закрытия окна).</p>
+<p data-line="167">The lower bar with the only "Close" button was removed in the quick view window. Instead, the window can be closed by clicking on any space outside the quick view window or by pressing «×» (window close button).</p>
 
-<p data-line="169">Добавлена группа компонентов «Программирование» (включает в себя Python и JavaScript).</p>
+<p data-line="169">"Scripting" group of components was added (includes Python and JavaScript).</p>
 
-<p data-line="171">Исправлены обнаруженные ранее ошибки, повышена стабильность работы приложения, оптимизировано потребление оперативной памяти.</p>
+<p data-line="171">Earlier detected errors were corrected, operational stability of the application was increased, memory consumption was optimised.</p>
 
 <div class="text-align-center">
 <p class="lg-text-btn lg-text-btn_border"><a href="https://loginom.ru/download">Try new version</a></p>
