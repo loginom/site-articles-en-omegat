@@ -208,8 +208,8 @@
       <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Конечные классы:&lt;/s1&gt;&lt;/a0&gt; при активации узла выполнялась лишняя сортировка начальных классов для входных &lt;e2&gt;дискретных&lt;/e2&gt; полей, в результате чего для могла изменяться модель (#7922).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210322T233518Z" creationid="Марианна" creationdate="20210322T233518Z">
-        <seg>&lt;a0&gt;&lt;s1&gt;Coarse сlasses:&lt;/s1&gt;&lt;/a0&gt; on activation of the node unnecessary sorting of initial classes for the input &lt;e2&gt;discrete&lt;/e2&gt; fields that could change the model (#7922).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210322T233547Z" creationid="Марианна" creationdate="20210322T233518Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Coarse сlasses:&lt;/s1&gt;&lt;/a0&gt; on activation of the node unnecessary sorting of initial classes for the input &lt;e2&gt;discrete&lt;/e2&gt; fields was perfomed that could change the model (#7922).</seg>
       </tuv>
     </tu>
     <tu>
