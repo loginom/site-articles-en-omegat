@@ -1078,6 +1078,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для сброса имени узла достаточно оставить поле пустым (возможно только для модификатора доступа «Открытый»).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210322T203122Z" creationid="Марианна" creationdate="20210322T203122Z">
+        <seg>To reset the node name, it is sufficient to leave the field blank (it is possible only for the "Public" access modifier).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для формирования набора выходных столбцов могут использоваться следующие методы:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210320T233417Z" creationid="Марианна" creationdate="20210320T233417Z">
