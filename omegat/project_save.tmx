@@ -1166,6 +1166,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Добавлены всплывающие подсказки с полным текстом, отображаемые при наведении на поле или метку поля.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210322T212649Z" creationid="Марианна" creationdate="20210322T212649Z">
+        <seg>Tips with full text displayed .</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Доступны для импорта популярные библиотеки, используемые при анализе данных на Python: NumPy, Pandas, Scikit-learn и другие.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210320T215621Z" creationid="Марианна" creationdate="20210320T215621Z">
