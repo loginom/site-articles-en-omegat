@@ -163,30 +163,30 @@
 
 <p data-line="118">It became possible to display several measures simultaneously in the chart graph. Besides, the series shown in the graph can be activated and deactivated.</p>
 
-<p data-line="120">При фильтрации по уникальным значениям в <a href="https://help.loginom.ru/userguide/visualization/cube/" target="_blank">Кубе</a> снято ограничение в отображении не более 10000 уникальных элементов. Аналогичное ограничение снято для<a href="https://help.loginom.ru/userguide/processors/transformation/row-filter/" target="_blank"> Фильтра строк.</a> Ранее это могло доставлять неудобство, если производилась настройка фильтров по большому количеству записей, например, SKU.</p>
+<p data-line="120">When filtering by unique values, restriction in displaying not more than 10000 unique items was removed in the <a href="https://help.loginom.ru/userguide/visualization/cube/" target="_blank">Cube</a>. The similar restriction was removed for <a href="https://help.loginom.ru/userguide/processors/transformation/row-filter/" target="_blank"> Row filter.</a> Previously, it was rather inconvenient to set filters by many records, for example, SKU.</p>
 
-<p data-line="124">Несколько менее существенных, но важных улучшений пользовательского интерфейса:</p>
+<p data-line="124">The following less significant but still important improvements was also achieved:</p>
 
 <ul>
-	<li data-line="125">добавлена возможность изменять цвет серий на графике в диаграмме;</li>
-	<li data-line="126">добавлено контекстное меню в диаграмме;</li>
-	<li data-line="127">добавлена возможность группового управления видимостью серий в диаграмме: «Показать все серии», «Скрыть все серии», «Инвертировать серии».</li>
+	<li data-line="125">it became possible to change the series color in the chart graph;</li>
+	<li data-line="126">context menu was introduced into the chart;</li>
+	<li data-line="127">group control of series visibility in the chart was added: "Show all series", "Hide all series", "Invert series".</li>
 </ul>
 
-<p>Исправлена ошибка удаления нулей в начале строковых полей при экспорте из Куба в <a href="https://help.loginom.ru/userguide/integration/export/excel.html" target="_blank">Excel</a>. Особенно часто это могло доставлять неудобства, если в экспортируемых наборах встречались поля с артикулами товаров, начинающихся с нулей.</p>
+<p>Error of zeros removing at the beginning of string fields when exporting from the Cube to <a href="https://help.loginom.ru/userguide/integration/export/excel.html" target="_blank">Excel</a> was corrected. Frequently it was particularly inconvenient if the fields with item numbers that started from zeros occurred in the exported data sets.</p>
 
 <h2 data-line="133" id="%D0%BA%D0%BE%D0%BD%D0%B5%D1%87%D0%BD%D1%8B%D0%B5-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D1%8B">Coarse Classes</h2>
 
-<p data-line="135">При подаче данных на ранее обученную модель, в визуализаторе <a href="https://help.loginom.ru/userguide/visualization/fine-classes/" target="_blank">Конечные классы</a> появилась возможность сравнить распределение фактических долей интервалов с теми, которые были при обучении. Это позволяет оценить соответствие между данными, использованными при построении и применении модели, а в случае существенного расхождения — перестроить модель.</p>
+<p data-line="135">When supplying data to previously trained model, it became possible to compare distribution of actual bin rates with the training ones in <a href="https://help.loginom.ru/userguide/visualization/fine-classes/" target="_blank">Coarse сlasses</a> visualizer. It enables to estimate compliance of the data used when model training and using. If significant inconsistency was detected, it is required to retrain the model.</p>
 
-<figure class="lg-text-img lg-text-img_preview"><a href="/sites/default/files/blogpost-images/quant.png"><img alt="Сравнение распределения фактических долей интервалов с теми, которые были при обучении" data-entity-type="file" data-entity-uuid="insert-image792-76fa2aa8-21b4-4a4c-9726-21f823be438c" data-insert-class="" data-insert-type="image" src="/sites/default/files/styles/image792/public/blogpost-images/quant.png" title="Сравнение распределения фактических долей интервалов с теми, которые были при обучении"> </a>
+<figure class="lg-text-img lg-text-img_preview"><a href="/sites/default/files/blogpost-images/quant.png"><img alt="Comparison of distribution of actual bin rates with the training ones" data-entity-type="file" data-entity-uuid="insert-image792-76fa2aa8-21b4-4a4c-9726-21f823be438c" data-insert-class="" data-insert-type="image" src="/sites/default/files/styles/image792/public/blogpost-images/quant.png" title="Comparison of distribution of actual bin rates with the training ones"> </a>
 
 <figcaption>
-<p>Сравнение распределения фактических долей интервалов с теми, которые были при обучении</p>
+<p>Comparison of distribution of actual bin rates with the training ones</p>
 </figcaption>
 </figure>
 
-<p data-line="137">Унифицированы имена переменных, а также описания долей событий и классов.</p>
+<p data-line="137">Variables names and descriptions of rates of events and classes were unified.</p>
 
 <h2 data-line="139" id="%D0%BF%D0%B0%D0%BA%D0%B5%D1%82%D0%BD%D0%BE%D0%B5-%D0%B2%D1%8B%D0%BF%D0%BE%D0%BB%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5">Batch Processing</h2>
 
