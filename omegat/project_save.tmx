@@ -1046,6 +1046,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для запуска узла в режиме &lt;a0&gt;Пакетного выполнения&lt;/a0&gt; требуется задать для него имя, при этом узел не обязательно должен быть опубликован.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210322T171942Z" creationid="Марианна" creationdate="20210322T171942Z">
+        <seg>To start the node in the &lt;a0&gt;Batch processing&lt;/a0&gt; mode, it is required to set its name, and the node must not be compulsorily published.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для работы компонента Python на сервере должен быть установлен Python версии 3.4 или выше, а также все пакеты, которые планируется использовать в работе.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210320T231755Z" creationid="Марианна" creationdate="20210320T231755Z">
