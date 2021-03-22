@@ -192,8 +192,8 @@
       <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Подключение к SQLite:&lt;/s1&gt;&lt;/a0&gt; &lt;a2&gt;в версии 6.4.0&lt;/a2&gt; не работала настройка подключения «Создавать БД, если не существует» (#8175).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210322T221832Z" creationid="Марианна" creationdate="20210322T221832Z">
-        <seg>&lt;a0&gt;&lt;s1&gt;SQLite Connection:&lt;/s1&gt;&lt;/a0&gt; &lt;a2&gt;in version 6.4.0&lt;/a2&gt; "Create DB if it doesn't exist" connection setting was not operable (#8175).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210322T222012Z" creationid="Марианна" creationdate="20210322T221832Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;SQLite Connection:&lt;/s1&gt;&lt;/a0&gt; &lt;a2&gt; in version 6.4.0&lt;/a2&gt; "Create DB if it doesn't exist" connection setting was not operable (#8175).</seg>
       </tuv>
     </tu>
     <tu>
@@ -202,6 +202,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210322T221019Z" creationid="Марианна" creationdate="20210322T221019Z">
         <seg>&lt;s0&gt;Administration:&lt;/s0&gt; when opening the Session Manager section of the administration panel, an error could occur. It prevented from using the section (#8257).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;s0&gt;Подключение к SOAP-сервисам:&lt;/s0&gt; в версии 6.4.0 при настройке на этапе проверки подключения возникала ошибка «Файл “…?wsdl” не найден» (#8216).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210322T222606Z" creationid="Марианна" creationdate="20210322T222008Z">
+        <seg>&lt;s0&gt;Connection to SOAP services:&lt;/s0&gt; the following error occurred in version 6.4.0 during the setting at the connection check stage: “…?wsdl” file not found" (#8216).</seg>
       </tuv>
     </tu>
     <tu>
