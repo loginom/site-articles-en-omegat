@@ -1638,6 +1638,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Панель процессов в Loginom</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210322T221426Z" creationid="Марианна" creationdate="20210322T221426Z">
+        <seg>Processes Bar in Loginom</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Перезапуска сервера при этом не требуется, но активация параметра вступает в силу с небольшой задержкой.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210321T213702Z" creationid="Марианна" creationdate="20210321T213702Z">
@@ -1754,6 +1762,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210322T142705Z" creationid="Марианна" creationdate="20210322T142705Z">
         <seg>When debugging occurring errors, sometimes it was required to enable detailed logging of the occuring errors. For this purpose, it was required to restart Loginom Server placing the special file for debugging information record with the executable file.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При перезапуске приложения окно также оставалось свернутым (#7467, #8078).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210322T221335Z" creationid="Марианна" creationdate="20210322T221335Z">
+        <seg>When restarting, the application window was also left collapsed (#7467, #8078).</seg>
       </tuv>
     </tu>
     <tu>
