@@ -1320,8 +1320,8 @@
       <tuv lang="ru">
         <seg>Исправлены обнаруженные ранее ошибки, повышена стабильность работы приложения, оптимизировано потребление оперативной памяти.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210322T214508Z" creationid="Марианна" creationdate="20210322T214508Z">
-        <seg>Earlier detected errors were corrected, operational application stability was increased.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210322T214817Z" creationid="Марианна" creationdate="20210322T214508Z">
+        <seg>Earlier detected errors were corrected, operational stability of the application was increased, memory consumption was optimised.</seg>
       </tuv>
     </tu>
     <tu>
