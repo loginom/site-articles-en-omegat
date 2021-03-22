@@ -1142,6 +1142,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Добавлена группа компонентов «Программирование» (включает в себя Python и JavaScript).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210322T214049Z" creationid="Марианна" creationdate="20210322T214049Z">
+        <seg>"Scripting" group of components was added (includes Python and JavaScript).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Добавлена поддержка &lt;a0&gt;PostgreSQL 12.&lt;/a0&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T202515Z" creationid="Марианна" creationdate="20210314T202515Z">
