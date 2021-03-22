@@ -256,8 +256,8 @@
       <tuv lang="ru">
         <seg>&lt;s0&gt;Импорт из Баз данных:&lt;/s0&gt; при подключении к MS SQL Server с использованием ODBC драйвера, поля типа &lt;e1&gt;TinyInt&lt;/e1&gt; ошибочно определялись, как имеющие неопределенный тип (#8183).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210322T232841Z" creationid="Марианна" creationdate="20210322T232841Z">
-        <seg>&lt;s0&gt;Import from Databases:&lt;/s0&gt; when connecting to MS SQL Server using ODBC driver, the fields of the &lt;e1&gt;TinyInt&lt;/e1&gt; type were incorrectly defined as the ones related to the undefined (#8183).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210322T233108Z" creationid="Марианна" creationdate="20210322T232841Z">
+        <seg>&lt;s0&gt;Import from Databases:&lt;/s0&gt; when connecting to MS SQL Server using ODBC driver, the fields of the &lt;e1&gt;TinyInt&lt;/e1&gt; type were incorrectly related to the undefined type (#8183).</seg>
       </tuv>
     </tu>
     <tu>
