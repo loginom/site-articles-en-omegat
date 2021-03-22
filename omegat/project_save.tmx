@@ -1718,6 +1718,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ранее в процессе вырезания/вставки узлов могла возникнуть блокировка узлов, в результате чего могли происходить ошибки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210322T204849Z" creationid="Марианна" creationdate="20210322T204849Z">
+        <seg>Locking of nodes could occur earlier while cutting/inserting the nodes that could cause errors.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ранее не было возможности получить и использовать этот идентификатор.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T204622Z" creationid="Марианна" creationdate="20210314T204622Z">
