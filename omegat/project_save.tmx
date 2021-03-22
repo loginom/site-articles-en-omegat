@@ -1790,6 +1790,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Теперь добавлена возможность задать имя для узла модели с модификатором доступа «Открытый».</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210322T172606Z" creationid="Марианна" creationdate="20210322T172606Z">
+        <seg>Now it became possible to set the name for the model node with the "Public" access modifier.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Теперь это можно сделать в настройках сервера и настольных приложений, для чего добавлен специальный параметр «Трассировка исключений».</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210321T213057Z" creationid="Марианна" creationdate="20210321T213057Z">
