@@ -1542,6 +1542,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При отладке возникающих ошибок иногда требовалось включить подробное логирование возникающих ошибок и для этого требовалось перезапустить Loginom Server, поместив рядом с исполняемым файлом специальный файл для записи отладочной информации.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210322T142705Z" creationid="Марианна" creationdate="20210322T142705Z">
+        <seg>When debugging occurring errors, sometimes it was required to enable detailed logging of the occuring errors. For this purpose, it was required to restart Loginom Server placing the special file for debugging information record with the executable file.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При этом невозможно было понять, каким пользователем или процессом занят пакет.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210321T211232Z" creationid="Марианна" creationdate="20210321T211232Z">
