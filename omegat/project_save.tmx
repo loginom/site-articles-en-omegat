@@ -1790,6 +1790,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>добавлена возможность группового управления видимостью серий в диаграмме: «Показать все серии», «Скрыть все серии», «Инвертировать серии».</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210322T164305Z" creationid="Марианна" creationdate="20210322T164305Z">
+        <seg>group control of series visibility in the chart was added: "Show all series", "Hide all series", "Invert series".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>добавлена возможность изменять цвет серий на графике в диаграмме;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210322T163459Z" creationid="Марианна" creationdate="20210322T163459Z">
