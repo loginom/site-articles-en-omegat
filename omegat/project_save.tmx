@@ -1574,6 +1574,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При фильтрации по уникальным значениям в &lt;a0&gt;Кубе&lt;/a0&gt; снято ограничение в отображении не более 10000 уникальных элементов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210322T162746Z" creationid="Марианна" creationdate="20210322T162746Z">
+        <seg>When filtering by unique values, restriction in displaying not more than 10000 unique items was removed in the &lt;a0&gt;Cube&lt;/a0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При этом невозможно было понять, каким пользователем или процессом занят пакет.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210321T211232Z" creationid="Марианна" creationdate="20210321T211232Z">
