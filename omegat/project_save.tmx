@@ -1278,6 +1278,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Исправлены названия показателей моделей в отчетах по &lt;a0&gt;Линейной &lt;/a0&gt;и Логистической регрессиям, добавлены недостающие показатели в Отчет по линейной регрессии, дополнены названия методов и факторов отбора моделей.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210322T211346Z" creationid="Марианна" creationdate="20210322T211346Z">
+        <seg>Names of models parameters were corrected in the &lt;a0&gt;Linear &lt;/a0&gt; and Logistic regressions reports, missing parameters were added to the Linear regression report, names of methods and factors of models selection were added.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Исправлены ошибки, связанные с некорректной индексацией строк, в результате которых при выполнении кода JavaScript могла возникать ошибка «Номер строки 0 вне диапазона [0; -1]» или некорректно отображаться набор данных в окне предварительного просмотра.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210320T234648Z" creationid="Марианна" creationdate="20210320T234648Z">
