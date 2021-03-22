@@ -1606,6 +1606,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При подаче данных на ранее обученную модель, в визуализаторе &lt;a0&gt;Конечные классы&lt;/a0&gt; появилась возможность сравнить распределение фактических долей интервалов с теми, которые были при обучении.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210322T171054Z" creationid="Марианна" creationdate="20210322T171054Z">
+        <seg>When supplying data to previously trained model, it became possible to compare distribution of actual bin rates with the training ones in &lt;a0&gt;Coarse сlasses&lt;/a0&gt; visualizer.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При фильтрации по уникальным значениям в &lt;a0&gt;Кубе&lt;/a0&gt; снято ограничение в отображении не более 10000 уникальных элементов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210322T162746Z" creationid="Марианна" creationdate="20210322T162746Z">
