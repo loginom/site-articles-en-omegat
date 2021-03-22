@@ -1014,6 +1014,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В таблице добавлена возможность группового редактирования формата данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210322T203654Z" creationid="Марианна" creationdate="20210322T203654Z">
+        <seg>Group editing of the data format became possible in the table.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Вдобавок к этому, иногда требовалось принудительно сбросить кэш пакетов, опубликованных через Loginom Integrator, например, при обновлении версий сразу нескольких пакетов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210321T211649Z" creationid="Марианна" creationdate="20210321T211515Z">
