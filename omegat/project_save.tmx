@@ -1454,6 +1454,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Особенно часто это могло доставлять неудобства, если в экспортируемых наборах встречались поля с артикулами товаров, начинающихся с нулей.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210322T165801Z" creationid="Марианна" creationdate="20210322T165801Z">
+        <seg>Frequently it was particularly inconvenient if the fields with item numbers that started from zeros occurred in the exported data sets.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Пакетное выполнение</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T202158Z" creationid="Марианна" creationdate="20210314T202158Z">
