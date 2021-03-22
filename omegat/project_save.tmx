@@ -1168,8 +1168,8 @@
       <tuv lang="ru">
         <seg>Добавлены всплывающие подсказки с полным текстом, отображаемые при наведении на поле или метку поля.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210322T212649Z" creationid="Марианна" creationdate="20210322T212649Z">
-        <seg>Tips with full text displayed .</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210322T213253Z" creationid="Марианна" creationdate="20210322T212649Z">
+        <seg>Tips with full text displayed when hovering a cursor over the field or field caption were added.</seg>
       </tuv>
     </tu>
     <tu>
