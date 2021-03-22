@@ -1814,6 +1814,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Это позволяет оценить соответствие между данными, использованными при построении и применении модели, а в случае существенного расхождения — перестроить модель.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210322T171343Z" creationid="Марианна" creationdate="20210322T171343Z">
+        <seg>It enables to estimate compliance of the data used when model training and using. If significant inconsistency was detected, it is required to retrain the model.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>добавлена возможность группового управления видимостью серий в диаграмме: «Показать все серии», «Скрыть все серии», «Инвертировать серии».</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210322T164305Z" creationid="Марианна" creationdate="20210322T164305Z">
