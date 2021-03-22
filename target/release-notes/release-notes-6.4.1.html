@@ -16,13 +16,13 @@
 
 <p><strong>Web application, Desktop application:</strong> if the opened package file was removed or moved, the following error occurred while attempting to close such package: "Cannot open file “&lt;file name&gt;”. Failed to find the specified file» (#7978).</p>
 
-<p><a href="https://help.loginom.ru/userguide/integration/import/" target="_blank" title="Import from Databases in Loginom"><strong>Import from Database:</strong></a> when connecting to MS SQL Server using ODBC driver, if the fields of the <em>Integer</em> or <em>SmallInt</em> type were used in the source table, the following error could occur while import configuring: "Next move forbidden. Data size must be more than or equal to zero" (#8180).</p>
+<p><a href="https://help.loginom.ru/userguide/integration/import/" target="_blank" title="Import from Databases in Loginom"><strong>Import from Databases:</strong></a> when connecting to MS SQL Server using ODBC driver, if the fields of the <em>Integer</em> or <em>SmallInt</em> type were used in the source table, the following error could occur while import configuring: "Next move forbidden. Data size must be more than or equal to zero" (#8180).</p>
 
-<p><strong>Импорт из Баз данных:</strong> при подключении к MS SQL Server с использованием ODBC драйвера, поля типа <em>TinyInt</em> ошибочно определялись, как имеющие неопределенный тип (#8183).</p>
+<p><strong>Import from Databases:</strong> when connecting to MS SQL Server using ODBC driver, the fields of the <em>TinyInt</em> type were incorrectly related to the undefined type (#8183).</p>
 
 <p><a href="https://help.loginom.ru/userguide/processors/transformation/calc/" target="_blank" title="Calculator Handler"><strong>Калькулятор:</strong></a> при вычислении кумулятивной суммы могла возникать ошибка, если параллельно из нескольких узлов происходило обращение к одному экземпляру узла Калькулятор (например, в Цикле) (#8160).</p>
 
-<p><a href="https://help.loginom.ru/userguide/processors/preprocessing/fine-classes.html" target="_blank" title="Coarse Classes Handler"><strong>Конечные классы:</strong></a> при активации узла выполнялась лишняя сортировка начальных классов для входных <em>дискретных</em> полей, в результате чего для могла изменяться модель (#7922).</p>
+<p><a href="https://help.loginom.ru/userguide/processors/preprocessing/fine-classes.html" target="_blank" title="Coarse Classes Handler"><strong>Coarse сlasses:</strong></a> on activation of the node unnecessary sorting of initial classes for the input <em>discrete</em> fields was perfomed that could change the model (#7922).</p>
 
 <p><a href="https://help.loginom.ru/userguide/visualization/cube/" target="_blank" title='"Cube" Visualizer'><strong>Куб:</strong></a> при изменении набора измерений пропадало отображение на диаграмме служебных или вычисляемых фактов, после удаления и повторного добавления таких фактов, они вновь отображались на диаграмме (#8195).</p>
 
