@@ -224,8 +224,8 @@
       <tuv lang="ru">
         <seg>&lt;s0&gt;Настольное приложение:&lt;/s0&gt; если использовалось несколько мониторов и окно приложения переносилось на дополнительный экран, то при разворачивании на весь экран окно приложения сворачивалось и было невозможно его восстановить.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210322T224658Z" creationid="Марианна" creationdate="20210322T224658Z">
-        <seg>&lt;s0&gt;Desktop application:&lt;/s0&gt; if several displays were used, and the application window was moved to the additional display, when expanding to full screen, the application window was collapsed and it was not possible to restore it.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210322T225012Z" creationid="Марианна" creationdate="20210322T224658Z">
+        <seg>&lt;s0&gt;Desktop application:&lt;/s0&gt; if several screens were used, and the application window was moved to the additional screen, when expanding to full screen, the application window was collapsed and it was not possible to restore it.</seg>
       </tuv>
     </tu>
     <tu>
