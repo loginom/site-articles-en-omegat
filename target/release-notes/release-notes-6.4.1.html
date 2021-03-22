@@ -20,7 +20,7 @@
 
 <p><strong>Import from Databases:</strong> when connecting to MS SQL Server using ODBC driver, the fields of the <em>TinyInt</em> type were incorrectly related to the undefined type (#8183).</p>
 
-<p><a href="https://help.loginom.ru/userguide/processors/transformation/calc/" target="_blank" title="Calculator Handler"><strong>Калькулятор:</strong></a> при вычислении кумулятивной суммы могла возникать ошибка, если параллельно из нескольких узлов происходило обращение к одному экземпляру узла Калькулятор (например, в Цикле) (#8160).</p>
+<p><a href="https://help.loginom.ru/userguide/processors/transformation/calc/" target="_blank" title="Calculator Handler"><strong>Calculator:</strong></a> when calculating the cumulative sum, an error could occur if one Calculator node instance was accessed from several nodes in parallel (for example, in the Loop) (#8160).</p>
 
 <p><a href="https://help.loginom.ru/userguide/processors/preprocessing/fine-classes.html" target="_blank" title="Coarse Classes Handler"><strong>Coarse сlasses:</strong></a> on activation of the node unnecessary sorting of initial classes for the input <em>discrete</em> fields was perfomed that could change the model (#7922).</p>
 
