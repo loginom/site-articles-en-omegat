@@ -1142,6 +1142,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Добавлено автоматизированное end-to-end тестирование, что позволит существенно повысить надежность приложения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210322T203921Z" creationid="Марианна" creationdate="20210322T203921Z">
+        <seg>The automated end-to-end testing was added that will enable to enhance the application reliability significantly.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Доступны для импорта популярные библиотеки, используемые при анализе данных на Python: NumPy, Pandas, Scikit-learn и другие.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210320T215621Z" creationid="Марианна" creationdate="20210320T215621Z">
@@ -1570,6 +1578,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T203857Z" creationid="Марианна" creationdate="20210314T203857Z">
         <seg>Supernode in Loginom</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Подробнее об изменениях можно узнать из &lt;a0&gt;выступления Георгия Киселева на Loginom Days 2020&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210322T204450Z" creationid="Марианна" creationdate="20210322T204450Z">
+        <seg>More detailed information on changes is available in the &lt;a0&gt;speech of Georgy Kiselev during Loginom Days 2020&lt;/a0&gt;.</seg>
       </tuv>
     </tu>
     <tu>
