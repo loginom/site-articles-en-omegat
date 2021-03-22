@@ -998,6 +998,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В окне быстрого просмотра удалена нижняя панель с единственной кнопкой «Закрыть», вместо этого окно может быть закрыто кликом по любому месту вне окна быстрого просмотра или по нажатию на «×» (кнопку закрытия окна).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210322T213808Z" creationid="Марианна" creationdate="20210322T213808Z">
+        <seg>The lower bar with the only "Close" button was removed in the quick view window. Instead, the window can be closed by clicking on any space outside the quick view window or by pressing «×» (window close button).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В процессе коллективной работы или при выполнении сценариев со сложными зависимостями нередко возникала ситуация, что сервер предупреждал о том, что необходимый пакет уже используется.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210321T211015Z" creationid="Марианна" creationdate="20210321T210912Z">
