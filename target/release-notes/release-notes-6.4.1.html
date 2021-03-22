@@ -1,22 +1,22 @@
-<p>В этой версии исправлено несколько ошибок, выявленных при тестировании возможностей, добавленных в версии 6.4.0. Исправлена работа SOAP-сервисов и подключений к базам данных.</p>
+<p>Several errors detected when testing the features added in version 6.4.0 were corrected in this version. Operation of SOAP services and connections to databases was corrected.</p>
 
 <h2>Fixes</h2>
 
-<p><a href="https://help.loginom.ru/adminguide/server/" target="_blank" title="Loginom Server"><strong>Loginom Server:</strong></a> при обновлении или перезапуске службы сервера параметры LDAP сбрасывались до параметров по умолчанию (#8207).</p>
+<p><a href="https://help.loginom.ru/adminguide/server/" target="_blank" title="Loginom Server"><strong>Loginom Server:</strong></a> when updating or restarting the server service, LDAP parameters were reset to the default parameters (#8207).</p>
 
-<p><a href="https://help.loginom.ru/userguide/scenario/ports/field-synchronization.html" target="_blank" title="Automapping of fields in Loginom"><strong>Автоматическая синхронизация полей:</strong></a> при включении и выключении автоматической синхронизации полей на портах Базового узла, Производный узел не помечался как измененный (#6087).</p>
+<p><a href="https://help.loginom.ru/userguide/scenario/ports/field-synchronization.html" target="_blank" title="Automapping of fields in Loginom"><strong>Automapping of fields:</strong></a> when enabling and disabling automapping of fields on the Base node ports, the Derived node was not marked as the changed one (#6087).</p>
 
-<p><a href="https://help.loginom.ru/userguide/admin/users.html" target="_blank" title="Loginom users administration"><strong>Администрирование:</strong></a> при единоразовом добавлении большого количества пользователей подряд (более двадцати) приложение могло «зависнуть» (#8220).</p>
+<p><a href="https://help.loginom.ru/userguide/admin/users.html" target="_blank" title="Loginom users administration"><strong>Administration:</strong></a> when many users (more than twenty) were added in succession at one point, the application could be "frozen" (#8220).</p>
 
-<p><strong>Администрирование:</strong> при открытии раздела Диспетчер панели администрирования могла возникать ошибка, в результате чего разделом нельзя было воспользоваться (#8257).</p>
+<p><strong>Administration:</strong> when opening the Session Manager section of the administration panel, an error could occur. It prevented from using the section (#8257).</p>
 
 <p><a href="https://help.loginom.ru/userguide/visualization/preview/quick-view.html" target="_blank" title="Quick View in Loginom"><strong>Быстрый просмотр:</strong></a> при копировании в буфер обмена в некоторых случаях многострочные значения копировались без экранирующих кавычек (#8138).</p>
 
 <p><strong>Веб-приложение, Настольное приложение:</strong> если один из открытых пакетов был заблокирован, например, выполнялся один из его узлов, то при попытке на соседней вкладке закрыть не связанный с ним пакет возникало сообщение об ошибке «Сценарий содержит &lt;…&gt; заблокированных узлов» (#5735, #7608, #8131).</p>
 
-<p><strong>Веб-приложение, Настольное приложение:</strong> если файл открытого пакета был удален или перемещен, то при попытке закрыть такой пакет возникала ошибка «Cannot open file “&lt;имя файла&gt;”. Failed to find the specified file» (#7978).</p>
+<p><strong>Web application, Desktop application:</strong> if the opened package file was removed or moved, the following error occurred while attempting to close such package: "Cannot open file “&lt;file name&gt;”. Failed to find the specified file» (#7978).</p>
 
-<p><a href="https://help.loginom.ru/userguide/integration/import/" target="_blank" title="Import from Databases in Loginom"><strong>Импорт из Баз данных:</strong></a> при подключении к MS SQL Server с использованием ODBC драйвера, если в исходной таблице использовались поля типа <em>Integer</em> или <em>SmallInt</em>, то в процессе настройки импорта могла возникать ошибка «Переход запрещен. Размер данных должен быть больше или равен нулю» (#8180).</p>
+<p><a href="https://help.loginom.ru/userguide/integration/import/" target="_blank" title="Import from Databases in Loginom"><strong>Импорт из Баз данных:</strong></a> при подключении к MS SQL Server с использованием ODBC драйвера, если в исходной таблице использовались поля типа <em>Integer</em> или <em>SmallInt</em>, то в процессе настройки импорта могла возникать ошибка «Переход запрещен. Data size must be more than or equal to zero" (#8180).</p>
 
 <p><strong>Импорт из Баз данных:</strong> при подключении к MS SQL Server с использованием ODBC драйвера, поля типа <em>TinyInt</em> ошибочно определялись, как имеющие неопределенный тип (#8183).</p>
 
@@ -28,17 +28,17 @@
 
 <p><strong>Куб:</strong> при работе в Microsoft Edge с версией ниже 79 во время экспорта из визуализаторов возникала ошибка «Не удалось экспортировать кросс-таблицу Куба: Function expected» (#8255).</p>
 
-<p><strong>Настольное приложение:</strong> если использовалось несколько мониторов и окно приложения переносилось на дополнительный экран, то при разворачивании на весь экран окно приложения сворачивалось и было невозможно его восстановить. При перезапуске приложения окно также оставалось свернутым (#7467, #8078).</p>
+<p><strong>Настольное приложение:</strong> если использовалось несколько мониторов и окно приложения переносилось на дополнительный экран, то при разворачивании на весь экран окно приложения сворачивалось и было невозможно его восстановить. When restarting, the application window was also left collapsed (#7467, #8078).</p>
 
 <p><a href="https://help.loginom.ru/userguide/report/" target="_blank" title="Reports Bar in Loginom"><strong>Панель отчетов:</strong></a> если свернуть в Подмодель большое количество узлов (сотни), а затем перейти на панель отчетов и открыть один из визуализаторов, настроенных на свернутый в Подмодель узел, то возникала ошибка «Значение ObjectId не закешировано» (#8124).</p>
 
 <p><strong>Панель отчетов:</strong> если визуализатор был открыт в виде Отчета, то при открытии на соседней вкладке этого же визуализатора из узла, вкладка с Отчетом не закрывалась автоматически и можно было изменять настройки визуализатора в двух вкладках одновременно, что могло приводить к ошибкам (#8089).</p>
 
-<p><a href="https://help.loginom.ru/userguide/interface/processes-panel.html" target="_blank" title="Панель процессов в Loginom"><strong>Панель процессов:</strong></a> если выполнялось большое количество итераций в Цикле, то при попытке развернуть завершенный ранее в цикле процесс, могло выдаваться неинформативное сообщение об ошибке «Клиентский прокси-объект финализирован» (#6669).</p>
+<p><a href="https://help.loginom.ru/userguide/interface/processes-panel.html" target="_blank" title="Processes Bar in Loginom"><strong>Панель процессов:</strong></a> если выполнялось большое количество итераций в Цикле, то при попытке развернуть завершенный ранее в цикле процесс, могло выдаваться неинформативное сообщение об ошибке «Клиентский прокси-объект финализирован» (#6669).</p>
 
-<p><a href="https://help.loginom.ru/userguide/integration/connections/list/sqlite.html" target="_blank" title="SQLite Connection in Loginom"><strong>Подключение к SQLite:</strong></a> <a href="https://loginom.ru/blog/release-64" target="_blank" title="Изменения в Loginom версии 6.4.0">в версии 6.4.0</a> не работала настройка подключения «Создавать БД, если не существует» (#8175).</p>
+<p><a href="https://help.loginom.ru/userguide/integration/connections/list/sqlite.html" target="_blank" title="SQLite Connection in Loginom"><strong>SQLite Connection:</strong></a> <a href="https://loginom.ru/blog/release-64" target="_blank" title="Changes in Loginom 6.4.0"> in version 6.4.0</a> "Create DB if it doesn't exist" connection setting was not operable (#8175).</p>
 
-<p><strong>Подключение к SOAP-сервисам:</strong> в версии 6.4.0 при настройке на этапе проверки подключения возникала ошибка «Файл “…?wsdl” не найден» (#8216).</p>
+<p><strong>Connection to SOAP services:</strong> the following error occurred in version 6.4.0 during the setting at the connection check stage: “…?wsdl” file not found" (#8216).</p>
 
 <p><a href="https://help.loginom.ru/userguide/processors/control/submodel.html" target="_blank" title="Supernode in Loginom"><strong>Подмодель:</strong></a> после переименования входных или выходных портов существующей Подмодели разрывалась связь с портами внутренних узлов, что могло приводить к различным ошибкам (#5963).</p>
 
