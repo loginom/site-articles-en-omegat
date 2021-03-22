@@ -1788,6 +1788,22 @@
         <seg>Data Warehouse</seg>
       </tuv>
     </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>добавлена возможность изменять цвет серий на графике в диаграмме;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210322T163459Z" creationid="Марианна" creationdate="20210322T163459Z">
+        <seg>it became possible to change the series color in the chart graph;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>добавлено контекстное меню в диаграмме;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210322T163713Z" creationid="Марианна" creationdate="20210322T163713Z">
+        <seg>context menu was introduced into the chart;</seg>
+      </tuv>
+    </tu>
 <!-- Alternative translations -->
   </body>
 </tmx>
