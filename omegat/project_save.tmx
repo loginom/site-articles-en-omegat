@@ -1182,6 +1182,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Исправлен пакетный экспорт в базу данных &lt;a0&gt;Firebird &lt;/a0&gt;строк длиной &lt;e1&gt;9&lt;/e1&gt; и более символов в поля с типом &lt;e2&gt;BLOB SUB_TYPE TEXT&lt;/e2&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210322T143626Z" creationid="Марианна" creationdate="20210322T143626Z">
+        <seg>The package export of the strings with the length of &lt;e1&gt;9&lt;/e1&gt; and more characters to the fields of &lt;e2&gt;BLOB SUB_TYPE TEXT&lt;/e2&gt; type to the &lt;a0&gt;Firebird &lt;/a0&gt; database was corrected.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Исправление ошибок</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201122T080841Z" creationid="Марианна" creationdate="20201122T080841Z">
