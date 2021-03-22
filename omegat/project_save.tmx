@@ -1214,6 +1214,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Исправлена ошибка удаления нулей в начале строковых полей при экспорте из Куба в &lt;a0&gt;Excel&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210322T165139Z" creationid="Марианна" creationdate="20210322T165139Z">
+        <seg>Error of zeros removing at the beginning of string fields when exporting from the Cube to &lt;a0&gt;Excel&lt;/a0&gt; was corrected.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Исправление ошибок</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201122T080841Z" creationid="Марианна" creationdate="20201122T080841Z">
