@@ -222,6 +222,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Настольное приложение:&lt;/s0&gt; если использовалось несколько мониторов и окно приложения переносилось на дополнительный экран, то при разворачивании на весь экран окно приложения сворачивалось и было невозможно его восстановить.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210322T224658Z" creationid="Марианна" creationdate="20210322T224658Z">
+        <seg>&lt;s0&gt;Desktop application:&lt;/s0&gt; if several displays were used, and the application window was moved to the additional display, when expanding to full screen, the application window was collapsed and it was not possible to restore it.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Подключение к SOAP-сервисам:&lt;/s0&gt; в версии 6.4.0 при настройке на этапе проверки подключения возникала ошибка «Файл “…?wsdl” не найден» (#8216).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210322T222606Z" creationid="Марианна" creationdate="20210322T222008Z">
