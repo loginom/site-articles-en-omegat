@@ -182,6 +182,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;a0&gt;&lt;s1&gt;Администрирование:&lt;/s1&gt;&lt;/a0&gt; при единоразовом добавлении большого количества пользователей подряд (более двадцати) приложение могло «зависнуть» (#8220).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210322T220802Z" creationid="Марианна" creationdate="20210322T220802Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Administration:&lt;/s1&gt;&lt;/a0&gt; when many users (more than twenty) were added in succession at one point, the application could be "frozen" (#8220).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt;JavaScript, Калькулятор (JavaScript):&lt;x3/&gt;&lt;x4/&gt; веб-приложение зависало, если в мастере настройки JavaScript использовались JSDoc-комментарии и начали вводить имя функции, содержащей такой комментарий, или же вызывался мастер подстановки (&lt;x5/&gt;Ctrl&lt;x6/&gt; + &lt;x7/&gt;Пробел&lt;x8/&gt;); проблема могла также возникнуть после написания строки импорта модуля, если в импортируемом модуле содержались JSDoc-комментарии (#7833).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201122T120310Z" creationid="Марианна" creationdate="20201122T082318Z">
