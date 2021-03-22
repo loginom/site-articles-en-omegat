@@ -878,6 +878,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Аналогичное ограничение снято для&lt;a1&gt; Фильтра строк.&lt;/a1&gt; Ранее это могло доставлять неудобство, если производилась настройка фильтров по большому количеству записей, например, SKU.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210322T162948Z" creationid="Марианна" creationdate="20210322T162948Z">
+        <seg>The similar restriction was removed for &lt;a1&gt; Row filter.&lt;/a1&gt; Previously, it was rather inconvenient to set filters by many records, for example, SKU.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Более подробная информация о работе компонента доступна в соответствующем разделе справки, а также всегда можно &lt;a0&gt;задать вопрос в Loginom Q&amp;A&lt;/a0&gt; или &lt;a1&gt;обратиться в службу технической поддержки.&lt;/a1&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210320T232448Z" creationid="Марианна" creationdate="20210320T232355Z">
@@ -1362,6 +1370,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210320T221121Z" creationid="Марианна" creationdate="20210320T221121Z">
         <seg>It is not allowed to run the commands to work with GUI (graphical user interface, graphic user interface).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Несколько менее существенных, но важных улучшений пользовательского интерфейса:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210322T163334Z" creationid="Марианна" creationdate="20210322T163334Z">
+        <seg>The following less significant but still important improvements have been also achieved:</seg>
       </tuv>
     </tu>
     <tu>
