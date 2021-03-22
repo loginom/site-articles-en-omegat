@@ -190,6 +190,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Администрирование:&lt;/s0&gt; при открытии раздела Диспетчер панели администрирования могла возникать ошибка, в результате чего разделом нельзя было воспользоваться (#8257).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210322T221019Z" creationid="Марианна" creationdate="20210322T221019Z">
+        <seg>&lt;s0&gt;Administration:&lt;/s0&gt; when opening the Session Manager section of the administration panel, an error could occur. It prevented from using the section (#8257).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt;JavaScript, Калькулятор (JavaScript):&lt;x3/&gt;&lt;x4/&gt; веб-приложение зависало, если в мастере настройки JavaScript использовались JSDoc-комментарии и начали вводить имя функции, содержащей такой комментарий, или же вызывался мастер подстановки (&lt;x5/&gt;Ctrl&lt;x6/&gt; + &lt;x7/&gt;Пробел&lt;x8/&gt;); проблема могла также возникнуть после написания строки импорта модуля, если в импортируемом модуле содержались JSDoc-комментарии (#7833).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201122T120310Z" creationid="Марианна" creationdate="20201122T082318Z">
@@ -1802,6 +1810,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T203607Z" creationid="Марианна" creationdate="20210314T202033Z">
         <seg>Databases Operation</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Размер данных должен быть больше или равен нулю» (#8180).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210322T221149Z" creationid="Марианна" creationdate="20210322T221149Z">
+        <seg>Data size must be more than or equal to zero" (#8180).</seg>
       </tuv>
     </tu>
     <tu>
