@@ -206,6 +206,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Веб-приложение, Настольное приложение:&lt;/s0&gt; если файл открытого пакета был удален или перемещен, то при попытке закрыть такой пакет возникала ошибка «Cannot open file “&lt;имя файла&gt;”.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210322T223044Z" creationid="Марианна" creationdate="20210322T223044Z">
+        <seg>&lt;s0&gt;Web application, Desktop application:&lt;/s0&gt; if the opened package file was removed or moved, the following error occurred while attempting to close such package: "Cannot open file “&lt;file name&gt;”.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Подключение к SOAP-сервисам:&lt;/s0&gt; в версии 6.4.0 при настройке на этапе проверки подключения возникала ошибка «Файл “…?wsdl” не найден» (#8216).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210322T222606Z" creationid="Марианна" creationdate="20210322T222008Z">
