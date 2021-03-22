@@ -12,11 +12,11 @@
 
 <p><a href="https://help.loginom.ru/userguide/visualization/preview/quick-view.html" target="_blank" title="Quick View in Loginom"><strong>Quick View:</strong></a> when copying to clipboard, in some cases multiline values were copied without shielding quotes (#8138).</p>
 
-<p><strong>Веб-приложение, Настольное приложение:</strong> если один из открытых пакетов был заблокирован, например, выполнялся один из его узлов, то при попытке на соседней вкладке закрыть не связанный с ним пакет возникало сообщение об ошибке «Сценарий содержит &lt;…&gt; заблокированных узлов» (#5735, #7608, #8131).</p>
+<p><strong>Web application, Desktop application:</strong> if one of the opened packages was locked, for example, one of its nodes was executed, while attempting to close the package that was not connected with it on the next tab, the following error message appeared: "Workflow contains &lt;…&gt; locked nodes" (#5735, #7608, #8131).</p>
 
 <p><strong>Web application, Desktop application:</strong> if the opened package file was removed or moved, the following error occurred while attempting to close such package: "Cannot open file “&lt;file name&gt;”. Failed to find the specified file» (#7978).</p>
 
-<p><a href="https://help.loginom.ru/userguide/integration/import/" target="_blank" title="Import from Databases in Loginom"><strong>Импорт из Баз данных:</strong></a> при подключении к MS SQL Server с использованием ODBC драйвера, если в исходной таблице использовались поля типа <em>Integer</em> или <em>SmallInt</em>, то в процессе настройки импорта могла возникать ошибка «Переход запрещен. Data size must be more than or equal to zero" (#8180).</p>
+<p><a href="https://help.loginom.ru/userguide/integration/import/" target="_blank" title="Import from Databases in Loginom"><strong>Import from Database:</strong></a> when connecting to MS SQL Server using ODBC driver, if the fields of the <em>Integer</em> or <em>SmallInt</em> type were used in the source table, the following error could occur while import configuring: "Next move forbidden. Data size must be more than or equal to zero" (#8180).</p>
 
 <p><strong>Импорт из Баз данных:</strong> при подключении к MS SQL Server с использованием ODBC драйвера, поля типа <em>TinyInt</em> ошибочно определялись, как имеющие неопределенный тип (#8183).</p>
 
@@ -42,7 +42,7 @@
 
 <p><a href="https://help.loginom.ru/userguide/processors/control/submodel.html" target="_blank" title="Supernode in Loginom"><strong>Supernode:</strong></a> after renaming of input or output ports of the existing Supernode, connection with ports of the internal nodes was broken that could cause different errors (#5963).</p>
 
-<p><a href="https://help.loginom.ru/userguide/processors/preprocessing/editing-of-emissions.html" target="_blank" title="Eliminate Outliers Handler"><strong>Редактирование выбросов:</strong></a> при обработке строковых или логических данных, если на вход подавался пустой набор или столбцы набора состояли исключительно из пропущенных значений, то при активации узла возникала ошибка (#8114).</p>
+<p><a href="https://help.loginom.ru/userguide/processors/preprocessing/editing-of-emissions.html" target="_blank" title="Eliminate Outliers Handler"><strong>Eliminate Outliers:</strong></a> when processing string or logical data, if empty data set was supplied to the input, or the data set columns consisted only of null values, on activation of the node, an error occurred (#8114).</p>
 
 <p><a href="https://help.loginom.ru/userguide/processors/control/condition.html" target="_blank" title="Обработчик «Условие»"><strong>Условие:</strong></a> при попытке выполнения узлов Объединение или Соединение, подключенных к неактивному порту Условия, возникала ошибка «Нет ни одного активного входа». Теперь явно проверяется наличие у узла хотя бы одного активного входного порта и если все входные порты узла неактивны, то узел остаётся неактивным, при этом не возникает ошибок. Пользователь увидит сообщение об ошибке только при попытке явно активировать узел, подключенный к неактивной ветви Условия (#3453).</p>
 
