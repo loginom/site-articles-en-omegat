@@ -294,6 +294,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Быстрый просмотр:&lt;/s0&gt; сочетания горячих клавиш для переключения между режимами просмотра «Таблица» и «Форма» изменены с &lt;e1&gt;«Alt + T»&lt;/e1&gt; и &lt;e2&gt;«Alt + F»&lt;/e2&gt; на &lt;e3&gt;«Alt + 1»&lt;/e3&gt; и &lt;e4&gt;«Alt + 2»&lt;/e4&gt; соответственно (#8137).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210323T092150Z" creationid="Марианна" creationdate="20210323T092150Z">
+        <seg>&lt;s0&gt;Quick view:&lt;/s0&gt; hotkey combinations to switch between "Table" and "Form" view modes were changed from &lt;e1&gt;"Alt + T"&lt;/e1&gt; and &lt;e2&gt;"Alt + F"&lt;/e2&gt; to &lt;e3&gt;"Alt + 1"&lt;/e3&gt; and &lt;e4&gt;"Alt + 2"&lt;/e4&gt; correspondingly (#8137).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Веб-приложение, Настольное приложение:&lt;/s0&gt; если один из открытых пакетов был заблокирован, например, выполнялся один из его узлов, то при попытке на соседней вкладке закрыть не связанный с ним пакет возникало сообщение об ошибке «Сценарий содержит &lt;…&gt; заблокированных узлов» (#5735, #7608, #8131).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210323T073941Z" creationid="Марианна" creationdate="20210322T231908Z">
