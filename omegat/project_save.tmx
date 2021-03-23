@@ -1862,6 +1862,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Пользователь увидит сообщение об ошибке только при попытке явно активировать узел, подключенный к неактивной ветви Условия (#3453).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210323T080820Z" creationid="Марианна" creationdate="20210323T080820Z">
+        <seg>A user will see the error message only when explicitly attempting to activate the node connected to the inactive Condition branch (#3453).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Попробовать новую версию</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T202340Z" creationid="Марианна" creationdate="20210314T202340Z">
