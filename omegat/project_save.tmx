@@ -2144,8 +2144,8 @@
       <tuv lang="ru">
         <seg>Теперь явно проверяется наличие у узла хотя бы одного активного входного порта и если все входные порты узла неактивны, то узел остаётся неактивным, при этом не возникает ошибок.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210323T080300Z" creationid="Марианна" creationdate="20210323T075710Z">
-        <seg>Now, the node is explicitly checked for, at least, one active input port and if all input ports are inactive, the node is inactive, no mistakes occur in this case.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210323T080326Z" creationid="Марианна" creationdate="20210323T075710Z">
+        <seg>Now, the node is explicitly checked for, at least, one active input port, and if all input ports are inactive, the node is inactive, no mistakes occur in this case.</seg>
       </tuv>
     </tu>
     <tu>
