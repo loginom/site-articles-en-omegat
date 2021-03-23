@@ -278,6 +278,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;a0&gt;&lt;s1&gt;Цикл:&lt;/s1&gt;&lt;/a0&gt; в мастере настройки удалена возможность выполнения следующих действий: редактирование, удаление или перемещение переменной.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210323T081828Z" creationid="Марианна" creationdate="20210323T081828Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Loop:&lt;/s1&gt;&lt;/a0&gt; functionality that enabled to perform the following actions was removed in the wizard: variable editing, deleting or moving.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Администрирование:&lt;/s0&gt; при открытии раздела Диспетчер панели администрирования могла возникать ошибка, в результате чего разделом нельзя было воспользоваться (#8257).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210322T221019Z" creationid="Марианна" creationdate="20210322T221019Z">
@@ -2042,6 +2050,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210321T202455Z" creationid="Марианна" creationdate="20210321T201715Z">
         <seg>Previously, http status of the response received from the server was not taken into account, and its value was returned in none of the output ports.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Ранее попытки выполнения этих действий могли приводить к неинформативным сообщениям (#8170).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210323T081916Z" creationid="Марианна" creationdate="20210323T081916Z">
+        <seg>Previously, attmpts to perform these actions could cause undescriptive messages (#8170).</seg>
       </tuv>
     </tu>
     <tu>
