@@ -286,6 +286,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Куб:&lt;/s0&gt; при работе в Microsoft Edge с версией ниже 79 во время экспорта из визуализаторов возникала ошибка «Не удалось экспортировать кросс-таблицу Куба: Function expected» (#8255).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210323T072035Z" creationid="Марианна" creationdate="20210323T072035Z">
+        <seg>&lt;s0&gt;Cube:&lt;/s0&gt; the following error occurred in Microsoft Edge to 79 during export from visualizers: «Failed to export the Cube crosstab: Function expected» (#8255).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Настольное приложение:&lt;/s0&gt; если использовалось несколько мониторов и окно приложения переносилось на дополнительный экран, то при разворачивании на весь экран окно приложения сворачивалось и было невозможно его восстановить.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210322T225012Z" creationid="Марианна" creationdate="20210322T224658Z">
