@@ -310,6 +310,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Панель отчетов:&lt;/s0&gt; если визуализатор был открыт в виде Отчета, то при открытии на соседней вкладке этого же визуализатора из узла, вкладка с Отчетом не закрывалась автоматически и можно было изменять настройки визуализатора в двух вкладках одновременно, что могло приводить к ошибкам (#8089).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210323T073828Z" creationid="Марианна" creationdate="20210323T073828Z">
+        <seg>&lt;s0&gt;Reports bar:&lt;/s0&gt; if the visualizer was opened in the Report form, when opening in the next tab of the same visualizer from the node, the Report tab was not closed automatically, and it was possible to change the visualizer settings in two tabs simultaneously that could cause errors (#8089).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Подключение к SOAP-сервисам:&lt;/s0&gt; в версии 6.4.0 при настройке на этапе проверки подключения возникала ошибка «Файл “…?wsdl” не найден» (#8216).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210322T222606Z" creationid="Марианна" creationdate="20210322T222008Z">
