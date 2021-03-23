@@ -1710,6 +1710,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Обработчик «Условие»</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210323T075531Z" creationid="Марианна" creationdate="20210323T075531Z">
+        <seg>Condition Handler</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Обработчик «Цикл»</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T204006Z" creationid="Марианна" creationdate="20210314T204006Z">
@@ -2130,6 +2138,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210321T213057Z" creationid="Марианна" creationdate="20210321T213057Z">
         <seg>Now it can be done in the server settings and desktop applications. Special parameter "Trace exceptions" was added for this purpose.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Теперь явно проверяется наличие у узла хотя бы одного активного входного порта и если все входные порты узла неактивны, то узел остаётся неактивным, при этом не возникает ошибок.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210323T075710Z" creationid="Марианна" creationdate="20210323T075710Z">
+        <seg>at least, one active input port and if all input ports are inactive, the node is inactive, no mistakes occur in this case.</seg>
       </tuv>
     </tu>
     <tu>
