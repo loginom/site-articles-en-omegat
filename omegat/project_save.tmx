@@ -238,6 +238,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;a0&gt;&lt;s1&gt;Панель процессов:&lt;/s1&gt;&lt;/a0&gt; если выполнялось большое количество итераций в Цикле, то при попытке развернуть завершенный ранее в цикле процесс, могло выдаваться неинформативное сообщение об ошибке «Клиентский прокси-объект финализирован» (#6669).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210323T074621Z" creationid="Марианна" creationdate="20210323T074621Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Processes Bar:&lt;/s1&gt;&lt;/a0&gt; if many iterations were performed in the Loop, when attempting to expand the process completed earlier in the loop, the following undescriptive error message could appear: "Client proxy object disconnected" (#6669).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Подключение к SQLite:&lt;/s1&gt;&lt;/a0&gt; &lt;a2&gt;в версии 6.4.0&lt;/a2&gt; не работала настройка подключения «Создавать БД, если не существует» (#8175).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210322T222012Z" creationid="Марианна" creationdate="20210322T221832Z">
