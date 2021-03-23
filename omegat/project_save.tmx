@@ -344,8 +344,8 @@
       <tuv lang="ru">
         <seg>&lt;s0&gt;Установка Loginom:&lt;/s0&gt; при установке одной из серверных редакций Loginom поверх ранее установленной другой редакции не заменялся исполняемый файл &lt;e1&gt;Server.exe&lt;/e1&gt;, в результате чего после обновления запускалась предыдущая редакция Loginom (#8132).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210323T081553Z" creationid="Марианна" creationdate="20210323T081553Z">
-        <seg>&lt;s0&gt;Loginom setup:&lt;/s0&gt; when setting one of the server Loginom editions over another previously installed edition, the executable &lt;e1&gt;Server.exe&lt;/e1&gt; file was not replaced, therefore, after update the previous Loginom edition was started (#8132).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210323T081635Z" creationid="Марианна" creationdate="20210323T081553Z">
+        <seg>&lt;s0&gt;Loginom setup:&lt;/s0&gt; when setting one of the server Loginom editions over another previously installed edition, the executable &lt;e1&gt;Server.exe&lt;/e1&gt; file was not replaced, therefore, the previous Loginom edition was started after update (#8132).</seg>
       </tuv>
     </tu>
     <tu>
