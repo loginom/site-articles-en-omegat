@@ -2240,8 +2240,8 @@
       <tuv lang="ru">
         <seg>Формирование выходного набора данных из кода в компоненте &lt;a0&gt;JavaScript.&lt;/a0&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210314T202716Z" creationid="Марианна" creationdate="20210314T202716Z">
-        <seg>Generation of the output data set from the code in &lt;a0&gt;JavaScript.&lt;/a0&gt; component.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210325T112817Z" creationid="Марианна" creationdate="20210314T202716Z">
+        <seg>Generation of the output data set from the code in the &lt;a0&gt;JavaScript.&lt;/a0&gt; component.</seg>
       </tuv>
     </tu>
     <tu>
