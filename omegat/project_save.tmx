@@ -2072,8 +2072,8 @@
       <tuv lang="ru">
         <seg>Ранее попытки выполнения этих действий могли приводить к неинформативным сообщениям (#8170).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210323T081916Z" creationid="Марианна" creationdate="20210323T081916Z">
-        <seg>Previously, attmpts to perform these actions could cause undescriptive messages (#8170).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210325T115559Z" creationid="Марианна" creationdate="20210323T081916Z">
+        <seg>Previously, attempts to perform these actions could cause undescriptive messages (#8170).</seg>
       </tuv>
     </tu>
     <tu>
