@@ -1992,8 +1992,8 @@
       <tuv lang="ru">
         <seg>При этом невозможно было понять, каким пользователем или процессом занят пакет.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210321T211232Z" creationid="Марианна" creationdate="20210321T211232Z">
-        <seg>And it was not possible to define the user or process that uses the package.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210325T113923Z" creationid="Марианна" creationdate="20210321T211232Z">
+        <seg>And it was not possible to define the user or process that used the package.</seg>
       </tuv>
     </tu>
     <tu>
