@@ -1392,8 +1392,8 @@
       <tuv lang="ru">
         <seg>Добавлено автоматизированное end-to-end тестирование, что позволит существенно повысить надежность приложения.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210322T203921Z" creationid="Марианна" creationdate="20210322T203921Z">
-        <seg>The automated end-to-end testing was added that will enable to enhance the application reliability significantly.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210325T114343Z" creationid="Марианна" creationdate="20210322T203921Z">
+        <seg>The automated end-to-end testing was added that enabled to enhance the application reliability significantly.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2280,8 +2280,8 @@
       <tuv lang="ru">
         <seg>добавлено контекстное меню в диаграмме;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210322T163713Z" creationid="Марианна" creationdate="20210322T163713Z">
-        <seg>context menu was introduced into the chart;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210325T114331Z" creationid="Марианна" creationdate="20210322T163713Z">
+        <seg>the context menu was introduced into the chart;</seg>
       </tuv>
     </tu>
 <!-- Alternative translations -->
