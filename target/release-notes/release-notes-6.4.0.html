@@ -4,8 +4,8 @@
 
 <ol>
 	<li>Python is supported.</li>
-	<li>Generation of the output data set from the code in <a href="https://help.loginom.ru/userguide/processors/transformation/java-script/" target="_blank">JavaScript.</a> component.</li>
-	<li>Export to Data Warehouse component and inheritance mechanism for <a href="https://help.loginom.ru/userguide/integration/import/warehouse.html" target="_blank">Import from Data Warehouse</a> component.</li>
+	<li>Generation of the output data set from the code in the <a href="https://help.loginom.ru/userguide/processors/transformation/java-script/" target="_blank">JavaScript.</a> component.</li>
+	<li>Export to the Data Warehouse component and inheritance mechanism for <a href="https://help.loginom.ru/userguide/integration/import/warehouse.html" target="_blank">Import from Data Warehouse</a> component.</li>
 	<li>Duplicates Detection Handler.</li>
 	<li>Setting weights and model calibration of <a href="https://help.loginom.ru/userguide/processors/datamining/logistic-regression/" target="_blank">Logistic Regression</a>.</li>
 	<li>
@@ -34,11 +34,11 @@
 	<li data-line="35">It is not allowed to run the commands to work with GUI (graphical user interface, graphic user interface).</li>
 	<li data-line="36">The code called in the Python component is executed in a single thread, and only one Python node can be simultaneously executed. The Python node activated in the process of another Python node execution will wait for completion of the first node operation even if it does not depend on it.</li>
 	<li data-line="37">Multiprocessing package modules used for parallel operation by creating several processes and also third-party packages dependent on them are not supported.</li>
-	<li data-line="38">If critical errors occur while executing the Python code, the application can be crashed. In this context, it is recommended to use previously debugged Python code.</li>
+	<li data-line="38">If critical errors occur while executing the Python code, the application can be crashed. In this context, it is recommended to use the Python code debugged in advance.</li>
 	<li data-line="39">When converting data set into Pandas DataFrame structure, the whole processed data set is used that can sometimes cause considerable slow-down of the workflows operation.</li>
 </ol>
 
-<p>There are also several safety issues. As opposed to JavaScript, the Python operation is not restricted by the runtime environment and the executed code has full access to the operational system and network protocols. In this context, the administrator must provide the definite possibility to use the Python component on server. The whole code is executed on server with rights of the operational system user under whose id <a href="https://help.loginom.ru/adminguide/server/" target="_blank">Loginom Server</a> has been started.</p>
+<p>There are also several safety issues. As opposed to JavaScript, the Python operation is not restricted by the runtime environment and the executed code has full access to the operational system and network protocols. In this context, the administrator must provide the definite possibility to use the Python component on server. The whole code is executed on server with rights of the operational system user under whose id <a href="https://help.loginom.ru/adminguide/server/" target="_blank">Loginom Server</a> is started.</p>
 
 <figure class="lg-text-img lg-text-img_preview"><a href="/sites/default/files/blogpost-images/02-python-admin.png"><img alt="Activation of the Python execution feature" data-entity-type="file" data-entity-uuid="insert-image792-0eab3e48-e7f7-4121-9683-a11766f67a74" data-insert-class="" data-insert-type="image" src="/sites/default/files/styles/image792/public/blogpost-images/02-python-admin.png" title="Activation of the Python execution feature"> </a>
 
@@ -74,7 +74,7 @@
 
 <h2 data-line="62" id="%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D0%BB%D0%B8%D1%89%D0%B5-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85">Data Warehouse</h2>
 
-<p data-line="64">When importing from Data Warehouse, it became possible to display data in the hierarchal (tree-like) structure that can considerably simplify the data import configuration if the warehouse has a complex structure.</p>
+<p data-line="64">When importing from the Data Warehouse, it became possible to display data in the hierarchal (tree-like) structure that can considerably simplify the data import configuration if the warehouse had a complex structure.</p>
 
 <figure class="lg-text-img lg-text-img_preview"><a href="/sites/default/files/blogpost-images/dw-import.png"><img alt="Tree-Like Structure when Importing from the Data Warehouse" data-entity-type="file" data-entity-uuid="insert-image792-3e99d3b2-5b36-4536-afe2-1be491ce3628" data-insert-class="" data-insert-type="image" src="/sites/default/files/styles/image792/public/blogpost-images/dw-import.png" title="Tree-Like Structure when Importing from the Data Warehouse"> </a>
 
@@ -140,7 +140,7 @@
 
 <h2 data-line="102" id="%D0%B0%D0%B4%D0%BC%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D1%80%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5">Administration</h2>
 
-<p data-line="104">In the teamwork process or when executing the workflows with complex dependences, it frequently happened that the server notified that the required package was already used. And it was not possible to define the user or process that uses the package. Besides, sometimes it was required to clear cache of the packages published by means of Loginom Integrator forcedly, for example, when updating versions of several packages at once.</p>
+<p data-line="104">In the teamwork process or when executing the workflows with complex dependences, it frequently happened that the server notified that the required package was already used. And it was not possible to define the user or process that used the package. Besides, sometimes it was required to clear cache of the packages published by means of Loginom Integrator forcedly, for example, when updating versions of several packages at once.</p>
 
 <p data-line="106">To tackle these tasks, "Session Manager" that can be used to view the opened sessions and packages and for their monitoring and activity control was added to <a href="https://help.loginom.ru/userguide/admin/" target="_blank">Administration</a> section. It is also possible to stop the workflow execution forcedly or to reset the user session in this section.</p>
 
@@ -165,11 +165,11 @@
 
 <p data-line="120">When filtering by unique values, restriction in displaying not more than 10000 unique items was removed in the <a href="https://help.loginom.ru/userguide/visualization/cube/" target="_blank">Cube</a>. The similar restriction was removed for <a href="https://help.loginom.ru/userguide/processors/transformation/row-filter/" target="_blank"> Row filter.</a> Previously, it was rather inconvenient to set filters by many records, for example, SKU.</p>
 
-<p data-line="124">The following less significant but still important improvements was also achieved:</p>
+<p data-line="124">The following less significant but still important improvements were also achieved:</p>
 
 <ul>
 	<li data-line="125">it became possible to change the series color in the chart graph;</li>
-	<li data-line="126">context menu was introduced into the chart;</li>
+	<li data-line="126">the context menu was introduced into the chart;</li>
 	<li data-line="127">group control of series visibility in the chart was added: "Show all series", "Hide all series", "Invert series".</li>
 </ul>
 
@@ -210,15 +210,15 @@
 <video class="lg-intro__video__container" controls="controls" style="width: 100%"><source src="/sites/default/files/blogpost-files/15-group-format.mp4" type="video/mp4"></video>
 </p>
 
-<p data-line="155">The automated end-to-end testing was added that will enable to enhance the application reliability significantly. More detailed information on changes is available&nbsp;in the <a data-href="https://loginom.ru/blog/ld2020-kiselev" href="https://loginom.ru/blog/ld2020-kiselev" title="https://loginom.ru/blog/ld2020-kiselev">speech of Georgy Kiselev during Loginom Days 2020</a>.</p>
+<p data-line="155">The automated end-to-end testing was added that enabled to enhance the application reliability significantly. More detailed information on changes is available&nbsp;in the <a data-href="https://loginom.ru/blog/ld2020-kiselev" href="https://loginom.ru/blog/ld2020-kiselev" title="https://loginom.ru/blog/ld2020-kiselev">speech of Georgy Kiselev during Loginom Days 2020</a>.</p>
 
 <p data-line="157">Nodes locking could occur earlier while cutting/inserting the nodes that could cause errors. The locking mechanism became more reliable.</p>
 
-<p data-line="159">Functionality that enables to show lag number (offset value) was added for a user to the <a href="https://help.loginom.ru/userguide/processors/scrutiny/correlation-analysis.html" target="_blank">Correlation Analysis</a> handler when calculating extremum of cross-correlation function.</p>
+<p data-line="159">Functionality that enabled to show lag number (offset value) was added for a user to the <a href="https://help.loginom.ru/userguide/processors/scrutiny/correlation-analysis.html" target="_blank">Correlation Analysis</a> handler when calculating extremum of cross-correlation function.</p>
 
 <p data-line="161">Names of models parameters were corrected in the <a href="https://help.loginom.ru/userguide/visualization/linear-regression/" target="_blank">Linear </a> and Logistic regressions reports, missing parameters were added to the Linear regression report, names of methods and factors of models selection were added.</p>
 
-<p data-line="163">It became possible to replace null numerical values with <em>0</em> in the Imputation handler, anf the handler operation was optimised,&nbsp;<em>Unspecified</em> option was removed from the list of the methods allowable for the Logistic data type.</p>
+<p data-line="163">It became possible to replace null numerical values with <em>0</em> in the Imputation handler, and the handler operation was optimised,&nbsp;<em>Unspecified</em> option was removed from the list of the methods allowable for the Logistic data type.</p>
 
 <p data-line="165">Tips with full text displayed when hovering a cursor over the field or field caption were added.</p>
 

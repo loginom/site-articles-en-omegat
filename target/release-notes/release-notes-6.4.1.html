@@ -10,9 +10,9 @@
 
 <p><strong>Administration:</strong> when opening the Session Manager section of the administration panel, an error could occur. It prevented from using the section (#8257).</p>
 
-<p><a href="https://help.loginom.ru/userguide/visualization/preview/quick-view.html" target="_blank" title="Quick View in Loginom"><strong>Quick View:</strong></a> when copying to clipboard, in some cases multiline values were copied without shielding quotes (#8138).</p>
+<p><a href="https://help.loginom.ru/userguide/visualization/preview/quick-view.html" target="_blank" title="Quick View in Loginom"><strong>Quick View:</strong></a> when copying to the clipboard, in some cases multiline values were copied without shielding quotes (#8138).</p>
 
-<p><strong>Web application, Desktop application:</strong> if one of the opened packages was locked, for example, one of its nodes was executed, while attempting to close the package that was not connected with it on the next tab, the following error message appeared: "Workflow contains &lt;…&gt; locked nodes" (#5735, #7608, #8131).</p>
+<p><strong>Web application, Desktop application:</strong> if one of the opened packages was locked, for example, one of its nodes was executed, while attempting to close the package that was not connected with it in the next tab, the following error message appeared: "Workflow contains &lt;…&gt; locked nodes" (#5735, #7608, #8131).</p>
 
 <p><strong>Web application, Desktop application:</strong> if the opened package file was removed or moved, the following error occurred while attempting to close such package: "Cannot open file “&lt;file name&gt;”. Failed to find the specified file» (#7978).</p>
 
@@ -24,17 +24,17 @@
 
 <p><a href="https://help.loginom.ru/userguide/processors/preprocessing/fine-classes.html" target="_blank" title="Coarse Classes Handler"><strong>Coarse сlasses:</strong></a> on activation of the node unnecessary sorting of initial classes for the input <em>discrete</em> fields was perfomed that could change the model (#7922).</p>
 
-<p><a href="https://help.loginom.ru/userguide/visualization/cube/" target="_blank" title='"Cube" Visualizer'><strong>Куб:</strong></a> при изменении набора измерений пропадало отображение на диаграмме служебных или вычисляемых фактов, после удаления и повторного добавления таких фактов, они вновь отображались на диаграмме (#8195).</p>
+<p><a href="https://help.loginom.ru/userguide/visualization/cube/" target="_blank" title='"Cube" Visualizer'><strong>Cube:</strong></a> when changing dimensions set, the chart display of service or calculated measures (#8195) was lost, when such measures were deleted and repeatedly added, they were displayed in the chart again.</p>
 
-<p><strong>Куб:</strong> при работе в Microsoft Edge с версией ниже 79 во время экспорта из визуализаторов возникала ошибка «Не удалось экспортировать кросс-таблицу Куба: Function expected» (#8255).</p>
+<p><strong>Cube:</strong> the following error occurred in Microsoft Edge to 79 during export from visualizers: «Failed to export the Cube crosstab: Function expected» (#8255).</p>
 
 <p><strong>Desktop application:</strong> if several screens were used, and the application window was moved to the additional screen, when expanding to full screen, the application window was collapsed and it was not possible to restore it. When restarting, the application window was also left collapsed (#7467, #8078).</p>
 
-<p><a href="https://help.loginom.ru/userguide/report/" target="_blank" title="Reports Bar in Loginom"><strong>Панель отчетов:</strong></a> если свернуть в Подмодель большое количество узлов (сотни), а затем перейти на панель отчетов и открыть один из визуализаторов, настроенных на свернутый в Подмодель узел, то возникала ошибка «Значение ObjectId не закешировано» (#8124).</p>
+<p><a href="https://help.loginom.ru/userguide/report/" target="_blank" title="Reports Bar in Loginom"><strong>Reports bar:</strong></a> if you collapse many nodes (hundreds) to the Supernode and then go to the reports bar and open one of the visualizers set to the node collapsed to the Supernode, the following error occurred: "ObjectId value is not cached" (#8124).</p>
 
-<p><strong>Панель отчетов:</strong> если визуализатор был открыт в виде Отчета, то при открытии на соседней вкладке этого же визуализатора из узла, вкладка с Отчетом не закрывалась автоматически и можно было изменять настройки визуализатора в двух вкладках одновременно, что могло приводить к ошибкам (#8089).</p>
+<p><strong>Reports bar:</strong> if the visualizer was opened in the Report form, when opening in the next tab of the same visualizer from the node, the Report tab was not closed automatically, and it was possible to change the visualizer settings in two tabs simultaneously that could cause errors (#8089).</p>
 
-<p><a href="https://help.loginom.ru/userguide/interface/processes-panel.html" target="_blank" title="Processes Bar in Loginom"><strong>Панель процессов:</strong></a> если выполнялось большое количество итераций в Цикле, то при попытке развернуть завершенный ранее в цикле процесс, могло выдаваться неинформативное сообщение об ошибке «Клиентский прокси-объект финализирован» (#6669).</p>
+<p><a href="https://help.loginom.ru/userguide/interface/processes-panel.html" target="_blank" title="Processes Bar in Loginom"><strong>Processes Bar:</strong></a> if many iterations were performed in the Loop, when attempting to expand the process completed earlier in the loop, the following undescriptive error message could appear: "Client proxy object disconnected" (#6669).</p>
 
 <p><a href="https://help.loginom.ru/userguide/integration/connections/list/sqlite.html" target="_blank" title="SQLite Connection in Loginom"><strong>SQLite Connection:</strong></a> <a href="https://loginom.ru/blog/release-64" target="_blank" title="Changes in Loginom 6.4.0"> in version 6.4.0</a> "Create DB if it doesn't exist" connection setting was not operable (#8175).</p>
 
@@ -44,14 +44,14 @@
 
 <p><a href="https://help.loginom.ru/userguide/processors/preprocessing/editing-of-emissions.html" target="_blank" title="Eliminate Outliers Handler"><strong>Eliminate Outliers:</strong></a> when processing string or logical data, if empty data set was supplied to the input, or the data set columns consisted only of null values, on activation of the node, an error occurred (#8114).</p>
 
-<p><a href="https://help.loginom.ru/userguide/processors/control/condition.html" target="_blank" title="Обработчик «Условие»"><strong>Условие:</strong></a> при попытке выполнения узлов Объединение или Соединение, подключенных к неактивному порту Условия, возникала ошибка «Нет ни одного активного входа». Теперь явно проверяется наличие у узла хотя бы одного активного входного порта и если все входные порты узла неактивны, то узел остаётся неактивным, при этом не возникает ошибок. Пользователь увидит сообщение об ошибке только при попытке явно активировать узел, подключенный к неактивной ветви Условия (#3453).</p>
+<p><a href="https://help.loginom.ru/userguide/processors/control/condition.html" target="_blank" title="Condition Handler"><strong>Condition:</strong></a> when attempting to execute the Union or Join nodes connected to the inactive Condition port, the following error occurred: "No active inputs". Now, the node is explicitly checked for, at least, one active input port, and if all input ports are inactive, the node is inactive, no mistakes occur in this case. A user will see the error message only when explicitly attempting to activate the node connected to the inactive Condition branch (#3453).</p>
 
-<p><strong>Установка Loginom:</strong> при установке одной из серверных редакций Loginom поверх ранее установленной другой редакции не заменялся исполняемый файл <em>Server.exe</em>, в результате чего после обновления запускалась предыдущая редакция Loginom (#8132).</p>
+<p><strong>Loginom setup:</strong> when setting one of the server Loginom editions over another previously installed edition, the executable <em>Server.exe</em> file was not replaced, therefore, the previous Loginom edition was started after update (#8132).</p>
 
-<p><a href="https://help.loginom.ru/userguide/processors/control/cycle.html" target="_blank" title="Loop Handler"><strong>Цикл:</strong></a> в мастере настройки удалена возможность выполнения следующих действий: редактирование, удаление или перемещение переменной. Ранее попытки выполнения этих действий могли приводить к неинформативным сообщениям (#8170).</p>
+<p><a href="https://help.loginom.ru/userguide/processors/control/cycle.html" target="_blank" title="Loop Handler"><strong>Loop:</strong></a> functionality that enabled to perform the following actions was removed in the wizard: variable editing, deleting or moving. Previously, attempts to perform these actions could cause undescriptive messages (#8170).</p>
 
-<p><strong>Цикл:</strong> при запуске в параллельном режиме в результате создания большого количества производных узлов могла возникать ошибка «Значение индекса … параметра “…” вне диапазона […; …]» (#8200).</p>
+<p><strong>Loop:</strong> when starting in the parallel mode, due to creation of many derived nodes the following error could occur: "Index value … of “…” parameter is out of […; …] range" (#8200).</p>
 
 <h2>Ease of Use</h2>
 
-<p><strong>Быстрый просмотр:</strong> сочетания горячих клавиш для переключения между режимами просмотра «Таблица» и «Форма» изменены с <em>«Alt + T»</em> и <em>«Alt + F»</em> на <em>«Alt + 1»</em> и <em>«Alt + 2»</em> соответственно (#8137).</p>
+<p><strong>Quick view:</strong> hotkey combinations to switch between "Table" and "Form" view modes were changed from <em>"Alt + T"</em> and <em>"Alt + F"</em> to <em>"Alt + 1"</em> and <em>"Alt + 2"</em> correspondingly (#8137).</p>
