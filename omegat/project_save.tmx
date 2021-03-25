@@ -1944,8 +1944,8 @@
       <tuv lang="ru">
         <seg>При импорте из Хранилища данных появилась возможность отображения данных в виде иерархической (древовидной) структуры, что существенно упрощает настройку импорта данных, если хранилище имеет сложную структуру.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210325T113527Z" creationid="Марианна" creationdate="20210320T235254Z">
-        <seg>When importing from Data Warehouse, it became possible to display data in the hierarchal (tree-like) structure that can considerably simplify the data import configuration if the warehouse had a complex structure.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210325T113536Z" creationid="Марианна" creationdate="20210320T235254Z">
+        <seg>When importing from the Data Warehouse, it became possible to display data in the hierarchal (tree-like) structure that can considerably simplify the data import configuration if the warehouse had a complex structure.</seg>
       </tuv>
     </tu>
     <tu>
