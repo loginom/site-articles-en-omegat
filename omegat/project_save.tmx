@@ -1192,8 +1192,8 @@
       <tuv lang="ru">
         <seg>В обработчике &lt;a0&gt;Корреляционный анализ&lt;/a0&gt; при расчете экстремума взаимокорреляционной функции для пользователя добавлен вывод номера лага (величины смещения).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210322T210444Z" creationid="Марианна" creationdate="20210322T210444Z">
-        <seg>Functionality that enables to show lag number (offset value) was added for a user to the &lt;a0&gt;Correlation Analysis&lt;/a0&gt; handler when calculating extremum of cross-correlation function.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210325T114508Z" creationid="Марианна" creationdate="20210322T210444Z">
+        <seg>Functionality that enabled to show lag number (offset value) was added for a user to the &lt;a0&gt;Correlation Analysis&lt;/a0&gt; handler when calculating extremum of cross-correlation function.</seg>
       </tuv>
     </tu>
     <tu>
