@@ -1232,8 +1232,8 @@
       <tuv lang="ru">
         <seg>В связи с этим рекомендуется использовать для выполнения ранее отлаженный код Python.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210320T223753Z" creationid="Марианна" creationdate="20210320T223753Z">
-        <seg>In this context, it is recommended to use previously debugged Python code.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210325T113245Z" creationid="Марианна" creationdate="20210320T223753Z">
+        <seg>In this context, it is recommended to use the Python code debugged in advance.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1584,8 +1584,8 @@
       <tuv lang="ru">
         <seg>Компонент Экспорт в Хранилище данных, а также механизм наследования для компонента &lt;a0&gt;Импорт из Хранилища данных.&lt;/a0&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210320T212659Z" creationid="Марианна" creationdate="20210320T212659Z">
-        <seg>Export to Data Warehouse component and inheritance mechanism for &lt;a0&gt;Import from Data Warehouse&lt;/a0&gt; component.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210325T112946Z" creationid="Марианна" creationdate="20210320T212659Z">
+        <seg>Export to the Data Warehouse component and inheritance mechanism for &lt;a0&gt;Import from Data Warehouse&lt;/a0&gt; component.</seg>
       </tuv>
     </tu>
     <tu>
