@@ -16,6 +16,10 @@
 2. Добавляем feature ветку `master` ссылающуюся на `master-translated`. Проект для перевода готов, ссылка https://github.com/loginom/site-articles-en-omegat.git
 3. **После первого комита от переводчика**, можно создавать PR для слияния ветки `master` в ветку `master-translated`
 
+### Особенности принятие PR
+
+Кнопки принятия с помощью Fast forward нет. А при нажатии на кнопку "Rebase and merge" **всегда** создается новая ветвь `master-translated` в которую перебазируются все коммиты `master` ветки. Поэтому лучше принимать PR самостоятельно с помощью fast forward.
+
 ### Установка OmegaT
 
 Дистрибутивы программы находятся в папке: *Share\Distrib\Translate\OmegaT*. Нужно использовать их.
