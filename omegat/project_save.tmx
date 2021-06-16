@@ -398,6 +398,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Импорт из базы данных MS Access, Экспорт в базу данных MS Access:&lt;/s0&gt; при импорте не работали SQL-запросы, содержащие параметры целого типа, а также нельзя было выполнить экспорт полей целого типа (#8422).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210616T200501Z" creationid="Марианна" creationdate="20210616T200501Z">
+        <seg>&lt;s0&gt;Import from MS Access Database, Export to MS Access Database:&lt;/s0&gt; при импорте не работали SQL-запросы, содержащие параметры целого типа, а также нельзя было выполнить экспорт полей целого типа (#8422).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Куб:&lt;/s0&gt; при работе в Microsoft Edge с версией ниже 79 во время экспорта из визуализаторов возникала ошибка «Не удалось экспортировать кросс-таблицу Куба: Function expected» (#8255).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210323T072035Z" creationid="Марианна" creationdate="20210323T072035Z">
