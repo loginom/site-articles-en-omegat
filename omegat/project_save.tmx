@@ -2216,8 +2216,8 @@
       <tuv lang="ru">
         <seg>Теперь в случае принудительного закрытия пакета через главное меню выполняется попытка завершить все текущие процессы, если в течение пяти секунд не удалось остановить все запущенные процессы, то пользователь получит сообщение о невозможности закрыть пакет (#5157, #7216).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210616T152757Z" creationid="Марианна" creationdate="20210616T152757Z">
-        <seg>Now, if the package is forcibly closed using the root menu, all current processes are attempted to be closed, if all running processes are failed to be closed within five seconds, a user will receive the package closure failure message (#5157, #7216).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210616T153834Z" creationid="Марианна" creationdate="20210616T152757Z">
+        <seg>Now, if the package is forcibly closed using the root menu, all current processes are attempted to be closed. If closure of all running processes is failed within five seconds, a user will receive the package closure failure message (#5157, #7216).</seg>
       </tuv>
     </tu>
     <tu>
