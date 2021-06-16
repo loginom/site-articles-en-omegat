@@ -1014,6 +1014,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/processors/preprocessing/filling-omissions.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210616T165013Z" creationid="Марианна" creationdate="20210616T165013Z">
+        <seg>https://help.loginom.ru/userguide/processors/preprocessing/filling-omissions.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>https://help.loginom.ru/userguide/processors/preprocessing/fine-classes.html</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T203628Z" creationid="Марианна" creationdate="20210314T203628Z">
