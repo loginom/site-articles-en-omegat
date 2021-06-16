@@ -230,6 +230,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;a0&gt;&lt;s1&gt;Импорт из Deductor Warehouse:&lt;/s1&gt;&lt;/a0&gt; если при формировании списка параметров фильтрации использовались поля с одинаковыми именами, то импорт выполнялся некорректно.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210616T195036Z" creationid="Марианна" creationdate="20210616T195036Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Import from Deductor Warehouse:&lt;/s1&gt;&lt;/a0&gt; if fields with the same names were used while compiling the filtration parameters list, the import process was executed incorrectly.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Импорт из Баз данных:&lt;/s1&gt;&lt;/a0&gt; при подключении к MS SQL Server с использованием ODBC драйвера, если в исходной таблице использовались поля типа &lt;e2&gt;Integer&lt;/e2&gt; или &lt;e3&gt;SmallInt&lt;/e3&gt;, то в процессе настройки импорта могла возникать ошибка «Переход запрещен.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210322T232628Z" creationid="Марианна" creationdate="20210322T232250Z">
