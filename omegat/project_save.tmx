@@ -310,6 +310,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;a0&gt;&lt;s1&gt;Куб:&lt;/s1&gt;&lt;/a0&gt; если в измерении переменного типа находились данные разних типов (одновременно строки и числа), то не сохранялись настроенные в диаграмме Куба цвета серий (графиков) (#8123).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210616T203733Z" creationid="Марианна" creationdate="20210616T203733Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Cube:&lt;/s1&gt;&lt;/a0&gt; if different data types (both strings and numbers) were in the variable dimension, the series (images) colours set in the Cube chart were not saved (#8123).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Панель отчетов:&lt;/s1&gt;&lt;/a0&gt; если свернуть в Подмодель большое количество узлов (сотни), а затем перейти на панель отчетов и открыть один из визуализаторов, настроенных на свернутый в Подмодель узел, то возникала ошибка «Значение ObjectId не закешировано» (#8124).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210323T072738Z" creationid="Марианна" creationdate="20210323T072738Z">
