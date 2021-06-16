@@ -894,6 +894,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/processors/integration/rest-request.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210616T150809Z" creationid="Марианна" creationdate="20210616T150809Z">
+        <seg>https://help.loginom.ru/userguide/processors/integration/rest-request.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>https://help.loginom.ru/userguide/processors/preprocessing/editing-of-emissions.html</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T203900Z" creationid="Марианна" creationdate="20210314T203900Z">
