@@ -1862,6 +1862,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Например, если сценарий, содержащий большое количество импортов из LGD-файлов, выполнялся в пакетном режиме, то при возникновении подобной ошибки сценарий не выполнялся, а служба LoginomServer останавливалась (#8363, #8367).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210616T200332Z" creationid="Марианна" creationdate="20210616T200332Z">
+        <seg>For example, if the workflow with many cases of import from LGD files was executed in the package mode, the workflow was not executed if such error occurred, and LoginomServer service was stopped (#8363, #8367).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Например, могли отсутствовать ожидаемые на выходе данные, соответствующие выбранным условиям (#8440).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210616T195310Z" creationid="Марианна" creationdate="20210616T195310Z">
