@@ -422,6 +422,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Инспектор свойств:&lt;/s0&gt; если был открыт Инспектор свойств и в нем отображались параметры Подмодели, то после разворачивания этой Подмодели в Инспекторе свойств продолжали отображаться параметры уже не существующего узла (#8313).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210616T202823Z" creationid="Марианна" creationdate="20210616T202823Z">
+        <seg>&lt;s0&gt;Property Inspector:&lt;/s0&gt; if Property Inspector was opened and the Supernode parameters were selected in it, parameters of nonexistent node were still selected after expansion of this Supernode in the Property Inspector (#8313).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Куб:&lt;/s0&gt; при работе в Microsoft Edge с версией ниже 79 во время экспорта из визуализаторов возникала ошибка «Не удалось экспортировать кросс-таблицу Куба: Function expected» (#8255).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210323T072035Z" creationid="Марианна" creationdate="20210323T072035Z">
