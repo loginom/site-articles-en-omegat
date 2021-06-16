@@ -1854,6 +1854,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Например, могли отсутствовать ожидаемые на выходе данные, соответствующие выбранным условиям (#8440).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210616T195310Z" creationid="Марианна" creationdate="20210616T195310Z">
+        <seg>For example, there could be no filtered data expected at the output (#8440).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Например, при разборе ответа от веб-сервиса.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210320T233251Z" creationid="Марианна" creationdate="20210320T233251Z">
