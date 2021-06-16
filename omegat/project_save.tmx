@@ -1606,6 +1606,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если в течение таймаута не удалось завершить активные процессы, то выдаётся сообщение об ошибке.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210616T164654Z" creationid="Марианна" creationdate="20210616T164654Z">
+        <seg>If all active processes are not finished during the timeout, the error message appears.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Задание весов для записей при настройке Логистической регрессии</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T201231Z" creationid="Марианна" creationdate="20210314T201231Z">
@@ -2336,8 +2344,8 @@
       <tuv lang="ru">
         <seg>Теперь в случае принудительного закрытия пакета через главное меню выполняется попытка завершить все текущие процессы, если в течение пяти секунд не удалось остановить все запущенные процессы, то пользователь получит сообщение о невозможности закрыть пакет (#5157, #7216).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210616T153834Z" creationid="Марианна" creationdate="20210616T152757Z">
-        <seg>Now, if the package is forcibly closed using the root menu, all current processes are attempted to be closed. If closure of all running processes is failed within five seconds, a user will receive the package closure failure message (#5157, #7216).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210616T164752Z" creationid="Марианна" creationdate="20210616T152757Z">
+        <seg>Now, if the package is forcibly closed using the root menu, all current processes are attempted to be finished. If closure of all running processes is failed within five seconds, a user will receive the package closure failure message (#5157, #7216).</seg>
       </tuv>
     </tu>
     <tu>
