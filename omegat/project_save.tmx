@@ -238,6 +238,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;a0&gt;&lt;s1&gt;Импорт из LGD-файла:&lt;/s1&gt;&lt;/a0&gt; если при импорте выбрать только часть полей исходного файла, то при определенном сочетании исходных типов данных таких полей, могла возникнуть ошибка, приводящая к непредвиденному завершению приложения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210616T195850Z" creationid="Марианна" creationdate="20210616T195850Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Import from LGD-файла:&lt;/s1&gt;&lt;/a0&gt; if only a part of the source file fileds is selected while importing, the error that causes unexpected application exit could occur on condition of the particular combination of the source data types of such fields.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Импорт из Баз данных:&lt;/s1&gt;&lt;/a0&gt; при подключении к MS SQL Server с использованием ODBC драйвера, если в исходной таблице использовались поля типа &lt;e2&gt;Integer&lt;/e2&gt; или &lt;e3&gt;SmallInt&lt;/e3&gt;, то в процессе настройки импорта могла возникать ошибка «Переход запрещен.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210322T232628Z" creationid="Марианна" creationdate="20210322T232250Z">
