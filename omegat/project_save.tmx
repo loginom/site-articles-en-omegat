@@ -2158,6 +2158,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Сценарий содержит ... заблокированных узлов», а запущенные процессы продолжали выполняться и не освобождалась оперативная память.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210616T150749Z" creationid="Марианна" creationdate="20210616T150749Z">
+        <seg>Workflow contains ... locked nodes", and the running processes were still being executed, and the memory was not unallocated.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Также в этом разделе можно принудительно остановить выполнение сценария или сбросить сессию пользователя.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210321T212642Z" creationid="Марианна" creationdate="20210321T212606Z">
