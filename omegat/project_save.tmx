@@ -318,6 +318,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;&lt;a1&gt;Заполнение пропусков, &lt;/a1&gt;&lt;a2&gt;Редактирование выбросов:&lt;/a2&gt;&lt;/s0&gt; если Цикл с параметром «Параллельная обработка» был настроенный на узел Заполнение пропусков или Редактирование выбросов, то в процессе выполнения Цикла могла возникать ошибка «Порт "Качество данных" имеет неподдерживаемый тип» (#8331).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210616T194614Z" creationid="Марианна" creationdate="20210616T194614Z">
+        <seg>&lt;s0&gt;&lt;a1&gt;Imputation, &lt;/a1&gt;&lt;a2&gt;Eliminate Outliers:&lt;/a2&gt;&lt;/s0&gt; if the Loop with "Parallel processing" parameter was set to the Imputation or Eliminate Outliers node, the following error could occur during the Loop execution: "Unsupported type of the "Data quality" port" (#8331).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Loginom Desktop, &lt;a1&gt;Loginom Server:&lt;/a1&gt;&lt;/s0&gt; если пакет содержал запущенный процесс, то сразу возникало сообщение об ошибке «В процессе работы программы возникла ошибка.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210616T145922Z" creationid="Марианна" creationdate="20210616T145922Z">
