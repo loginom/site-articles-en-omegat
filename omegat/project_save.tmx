@@ -2206,6 +2206,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ранее Диспетчер зависал, если пакет или сессия пользователя содержали зависшие процессы (#8338).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210616T164958Z" creationid="Марианна" creationdate="20210616T164958Z">
+        <seg>Previously, the Session Manager was frozen, if the package or user session contained frozen processes (#8338).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ранее были доступны только методы POST и GET.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T201637Z" creationid="Марианна" creationdate="20210314T201637Z">
