@@ -400,8 +400,8 @@
       <tuv lang="ru">
         <seg>&lt;s0&gt;Импорт из базы данных MS Access, Экспорт в базу данных MS Access:&lt;/s0&gt; при импорте не работали SQL-запросы, содержащие параметры целого типа, а также нельзя было выполнить экспорт полей целого типа (#8422).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210616T200628Z" creationid="Марианна" creationdate="20210616T200501Z">
-        <seg>&lt;s0&gt;Import from MS Access Database, Export to MS Access Database:&lt;/s0&gt; SQL requests that contained integer parameters were not operable while importing, а также нельзя было выполнить экспорт полей целого типа (#8422).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210616T200730Z" creationid="Марианна" creationdate="20210616T200501Z">
+        <seg>&lt;s0&gt;Import from MS Access Database, Export to MS Access Database:&lt;/s0&gt; SQL requests that contained integer parameters were not operable while importing, ans it was also not possible to export the integer fields (#8422).</seg>
       </tuv>
     </tu>
     <tu>
