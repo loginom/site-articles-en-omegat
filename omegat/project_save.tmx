@@ -294,6 +294,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Loginom Desktop, &lt;a1&gt;Loginom Server:&lt;/a1&gt;&lt;/s0&gt; если пакет содержал запущенный процесс, то сразу возникало сообщение об ошибке «В процессе работы программы возникла ошибка.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210616T145922Z" creationid="Марианна" creationdate="20210616T145922Z">
+        <seg>&lt;s0&gt;Loginom Desktop, &lt;a1&gt;Loginom Server:&lt;/a1&gt;&lt;/s0&gt; if the package contained the running process, the following error message appeared at once: "Error occurred while the program was running.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Администрирование:&lt;/s0&gt; при открытии раздела Диспетчер панели администрирования могла возникать ошибка, в результате чего разделом нельзя было воспользоваться (#8257).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210322T221019Z" creationid="Марианна" creationdate="20210322T221019Z">
