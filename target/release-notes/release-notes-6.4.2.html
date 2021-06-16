@@ -1,16 +1,16 @@
-<p>В очередном обновлении уделили внимание удобству использования платформы, оптимизировали работу со сложными сценариями, а также исправили найденные ошибки.</p>
+<p>In this update, special attention was paid to the platform ease of use, performance improvements related to operation of complex workflows were made, and some fixes were performed.</p>
 
-<h2 id="исправление-ошибок">Исправление ошибок</h2>
+<h2 id="исправление-ошибок">Fixes</h2>
 
-<p><a href="https://help.loginom.ru/adminguide/desktop/" target="_blank"><strong>Loginom Desktop:</strong></a>&nbsp;если в локальной сети был настроен&nbsp;<em>Web Proxy Auto-Discovery (WPAD) Protocol</em>, то приложение автоматически закрывалось через несколько секунд после запуска (#8303).</p>
+<p><a href="https://help.loginom.ru/adminguide/desktop/" target="_blank"><strong>Loginom Desktop:</strong></a>&nbsp;if&nbsp;<em>Web Proxy Auto-Discovery (WPAD) Protocol</em> was set in the local network, the application was automatically closed a few seconds after its start (#8303).</p>
 
-<p><strong>Loginom Desktop, <a href="https://help.loginom.ru/adminguide/server/" target="_blank">Loginom Server:</a></strong>&nbsp;если пакет содержал запущенный процесс, то сразу возникало сообщение об ошибке «В процессе работы программы возникла ошибка. Сценарий содержит ... заблокированных узлов», а запущенные процессы продолжали выполняться и не освобождалась оперативная память. Теперь в случае принудительного закрытия пакета через главное меню выполняется попытка завершить все текущие процессы, если в течение пяти секунд не удалось остановить все запущенные процессы, то пользователь получит сообщение о невозможности закрыть пакет (#5157, #7216).</p>
+<p><strong>Loginom Desktop, <a href="https://help.loginom.ru/adminguide/server/" target="_blank">Loginom Server:</a></strong>&nbsp;if the package contained the running process, the following error message appeared at once: "Error occurred while the program was running. Workflow contains ... locked nodes", and the running processes were still being executed, and the memory was not unallocated. Now, if the package is forcibly closed using the root menu, all current processes are attempted to be finished. If closure of all running processes is failed within five seconds, a user will receive the package closure failure message (#5157, #7216).</p>
 
-<p><a href="https://help.loginom.ru/userguide/processors/integration/rest-request.html" target="_blank"><strong>REST-запрос:</strong></a>&nbsp;если ответ на запрос содержал 4-байтные символы в кодировке UTF-8, то выходной порт с ответом содержал пустое значение, а второй выходной порт содержал код завершения&nbsp;<em>8</em>&nbsp;и сообщение об ошибке «Ошибка при обработке ответа сервера: Необработанная ошибка: СООБЩЕНИЕ: Кодовая единица ... не является началом UTF8 символа из не более чем 3 кодовых единиц» (#8373).</p>
+<p><a href="https://help.loginom.ru/userguide/processors/integration/rest-request.html" target="_blank"><strong>REST Request:</strong></a> if the request response contained 4-byte UTF-8 encoded characters, the output port with the response contained the null value, and the second output port contained&nbsp;<em>8</em>&nbsp;error code and the following error message: "Error processing server response: Unhandled error: MESSAGE: Code unit ... is not the start of UTF8 character that consists of not more than 3 code units" (#8373).</p>
 
-<p><a href="https://help.loginom.ru/userguide/admin/" target="_blank"><strong>Администрирование:</strong>&nbsp;</a>если принудительно закрывался пакет, содержащий активные процессы, а затем пользователь с ролью «Администратор» открывал панель Диспетчер, то этот пользователь получал ошибку «При переходе на "Администрирование.Диспетчер" возникла ошибка» (#8326).</p>
+<p><a href="https://help.loginom.ru/userguide/admin/" target="_blank"><strong>Administration:</strong>&nbsp;</a>if the package that contained active processes was forcibly closed, and then the Administrator user opened the Session Manager bar, this user came across the following error : "When switching to "Administration.Session Manager", error occurred" (#8326).</p>
 
-<p><strong>Администрирование:</strong>&nbsp;при закрытии пакета или сессии пользователя через Диспетчер в панели Администрирования добавлен таймаут в 5 секунд. Если в течение таймаута не удалось завершить активные процессы, то выдаётся сообщение об ошибке. Ранее Диспетчер зависал, если пакет или сессия пользователя содержали зависшие процессы (#8338).</p>
+<p><strong>Administration:</strong>&nbsp;when closing the package or user session using the Session Manager on the Administration bar, 5 s timeout was added. If all active processes are not finished during the timeout, the error message will appear. Previously, the Session Manager was frozen, if the package or user session contained frozen processes (#8338).</p>
 
 <p><strong><a href="https://help.loginom.ru/userguide/processors/preprocessing/filling-omissions.html" target="_blank">Заполнение пропусков, </a><a href="https://help.loginom.ru/userguide/processors/preprocessing/editing-of-emissions.html" target="_blank">Редактирование выбросов:</a></strong>&nbsp;если Цикл с параметром «Параллельная обработка» был настроенный на узел Заполнение пропусков или Редактирование выбросов, то в процессе выполнения Цикла могла возникать ошибка «Порт "Качество данных" имеет неподдерживаемый тип» (#8331).</p>
 
@@ -76,6 +76,6 @@
 
 <p><strong>Профили кластеров:</strong>&nbsp;иконка фильтрации и текст кнопки теперь меняют цвет, если фильтр активен (#8174, #8463).</p>
 
-<h2 id="оптимизация-работы">Оптимизация работы</h2>
+<h2 id="оптимизация-работы">Performance Improvements</h2>
 
 <p><strong>Ядро платформы:</strong>&nbsp;оптимизирована скорость сохранения больших пакетов — изменен способ проверки наличия несохранённых изменений в пакете (#8345).</p>
