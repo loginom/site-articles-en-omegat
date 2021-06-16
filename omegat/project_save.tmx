@@ -902,6 +902,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/integration/import/ldf.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210616T165026Z" creationid="Марианна" creationdate="20210616T165026Z">
+        <seg>https://help.loginom.ru/userguide/integration/import/ldf.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>https://help.loginom.ru/userguide/integration/import/txt-csv.html</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210616T153847Z" creationid="Марианна" creationdate="20210616T153847Z">
