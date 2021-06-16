@@ -1608,8 +1608,8 @@
       <tuv lang="ru">
         <seg>Если в течение таймаута не удалось завершить активные процессы, то выдаётся сообщение об ошибке.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210616T164654Z" creationid="Марианна" creationdate="20210616T164654Z">
-        <seg>If all active processes are not finished during the timeout, the error message appears.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210616T164828Z" creationid="Марианна" creationdate="20210616T164654Z">
+        <seg>If all active processes are not finished during the timeout, the error message will appear.</seg>
       </tuv>
     </tu>
     <tu>
