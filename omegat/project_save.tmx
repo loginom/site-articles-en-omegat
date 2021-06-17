@@ -582,6 +582,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Панель Навигация:&lt;/s0&gt; при вызове пункта контекстного меню «Настроить узел» открывается мастер настройки для выбранного узла (ранее узел выделялся и становился активным в поле Сценария).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210617T104546Z" creationid="Марианна" creationdate="20210617T104546Z">
+        <seg>&lt;s0&gt;Navigation Bar:&lt;/s0&gt; when calling "Configure node" context menu item, the wizard for the selected node is opened (previously, the node was selected and became active in the Workflow field).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Панель отчетов:&lt;/s0&gt; если визуализатор был открыт в виде Отчета, то при открытии на соседней вкладке этого же визуализатора из узла, вкладка с Отчетом не закрывалась автоматически и можно было изменять настройки визуализатора в двух вкладках одновременно, что могло приводить к ошибкам (#8089).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210323T073828Z" creationid="Марианна" creationdate="20210323T073828Z">
