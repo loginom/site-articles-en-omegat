@@ -2062,6 +2062,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Например, соответствие между столбцами могло формироваться на основе частичного, а не полного совпадения имен столбцов (#8456).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210617T091932Z" creationid="Марианна" creationdate="20210617T091932Z">
+        <seg>For example, columns mapping could be established on the basis of the partial but not full mapping of the columns names (#8456).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Например, такой подход может использоваться при построении модели оценки &lt;a0&gt;рисков&lt;/a0&gt; в кредитовании, когда в качестве веса может быть задана сумма кредита.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210321T194608Z" creationid="Марианна" creationdate="20210321T194417Z">
