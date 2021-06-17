@@ -624,8 +624,8 @@
       <tuv lang="ru">
         <seg>&lt;s0&gt;Разворачивание &lt;a1&gt;Подмодели:&lt;/a1&gt;&lt;/s0&gt; если подмодель содержала большое количество узлов, а также была расположена близко к левому или верхнему краю рабочего пространства Сценария, то при её разворачивании часть узлов могла оказаться за пределами рабочего пространства Сценария (#6949).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210617T085522Z" creationid="Марианна" creationdate="20210617T085522Z">
-        <seg>&lt;s0&gt;Expand &lt;a1&gt;Supernode:&lt;/a1&gt;&lt;/s0&gt; if the supernode contained many nodes and it was located close to the left or right edge of the Workflow working space, when it was collapsed, some nodes could be outside the Workflow working space (#6949).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210617T113739Z" creationid="Марианна" creationdate="20210617T085522Z">
+        <seg>&lt;s0&gt;Expand &lt;a1&gt;Supernode:&lt;/a1&gt;&lt;/s0&gt; if the supernode contained many nodes and it was located close to the left or upper edge of the Workflow working space, when it was collapsed, some nodes could be outside the Workflow working space (#6949).</seg>
       </tuv>
     </tu>
     <tu>
