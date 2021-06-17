@@ -2054,6 +2054,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Модуля узла Подмодель скрыт пункт меню «Настройка модификатора доступа» и «Свойства» (#6127, #7291.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210617T103949Z" creationid="Марианна" creationdate="20210617T103949Z">
+        <seg>"Configure visibility" and "Properties" menu item is hidden for the Supernode node module(#6127, #7291.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Мониторинг активных пользователей и занятых пакетов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T194928Z" creationid="Марианна" creationdate="20210314T194928Z">
