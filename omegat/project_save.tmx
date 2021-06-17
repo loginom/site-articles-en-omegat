@@ -1526,6 +1526,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В списке оставались несуществующие входные столбцы, а попытка создать на их основе выходные столбцы приводила к ошибке (#8457).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210617T080839Z" creationid="Марианна" creationdate="20210617T080839Z">
+        <seg>Nonexistent input columns were left in the list, and attempt to create the output columns based on them caused an error (#8457).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В таблице добавлена возможность группового редактирования формата данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210322T203654Z" creationid="Марианна" creationdate="20210322T203654Z">
