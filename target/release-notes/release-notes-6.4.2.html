@@ -1,4 +1,4 @@
-<p>In this update, special attention was paid to the platform ease of use, performance improvements related to operation of complex workflows were made, and some fixes were performed.</p>
+<p>In this update, special attention was paid to the platform usability, performance improvements related to complex workflows operation were made, and some fixes were performed.</p>
 
 <h2 id="исправление-ошибок">Fixes</h2>
 
@@ -8,7 +8,7 @@
 
 <p><a href="https://help.loginom.ru/userguide/processors/integration/rest-request.html" target="_blank"><strong>REST Request:</strong></a> if the request response contained 4-byte UTF-8 encoded characters, the output port with the response contained the null value, and the second output port contained&nbsp;<em>8</em>&nbsp;error code and the following error message: "Error processing server response: Unhandled error: MESSAGE: Code unit ... is not the start of UTF8 character that consists of not more than 3 code units" (#8373).</p>
 
-<p><a href="https://help.loginom.ru/userguide/admin/" target="_blank"><strong>Administration:</strong>&nbsp;</a>if the package that contained active processes was forcibly closed, and then the Administrator user opened the Session Manager bar, this user came across the following error : "When switching to "Administration.Session Manager", error occurred" (#8326).</p>
+<p><a href="https://help.loginom.ru/userguide/admin/" target="_blank"><strong>Administration:</strong>&nbsp;</a>if the package that contained active processes was forcibly closed, and then the Administrator user opened the Session Manager bar, this user came across the following error: "When switching to "Administration.Session Manager", error occurred" (#8326).</p>
 
 <p><strong>Administration:</strong>&nbsp;when closing the package or user session using the Session Manager on the Administration bar, 5 s timeout was added. If all active processes are not finished during the timeout, the error message will appear. Previously, the Session Manager was frozen, if the package or user session contained frozen processes (#8338).</p>
 
@@ -18,7 +18,7 @@
 
 <p><a href="https://help.loginom.ru/userguide/integration/import/ldf.html" target="_blank"><strong>Import from LGD-файла:</strong></a>&nbsp;if only a part of the source file fileds is selected while importing, the error that causes unexpected application exit could occur on condition of the particular combination of the source data types of such fields. For example, if the workflow with many cases of import from LGD files was executed in the package mode, the workflow was not executed if such error occurred, and LoginomServer service was stopped (#8363, #8367).</p>
 
-<p><strong>Import from MS Access Database, Export to MS Access Database:</strong> SQL requests that contained integer parameters were not operable while importing, ans it was also not possible to export the integer fields (#8422).</p>
+<p><strong>Import from MS Access Database, Export to MS Access Database:</strong> SQL requests that contained integer parameters were not operable while importing, and it was also not possible to export the integer fields (#8422).</p>
 
 <p><a href="https://help.loginom.ru/userguide/integration/import/txt-csv.html" target="_blank"><strong>Import from Text File:</strong></a>&nbsp;if a cell of the column the caption of which contained a comma&nbsp;<em>&lt;,&gt;</em> was selected on "Import Parameters with Separators" page, the following error occurred when changing the settings in the wizard: "Invalid ComponentQuery selector: ..." (#7456).</p>
 
@@ -30,7 +30,7 @@
 
 <p><a href="https://help.loginom.ru/userguide/processors/preprocessing/fine-classes.html" target="_blank"><strong>Coarse Classes:</strong></a>&nbsp;if the continuous input field contained no values, the node was retrained but it was not possible to activate it later (#8298).</p>
 
-<p><a href="https://help.loginom.ru/userguide/visualization/cube/" target="_blank"><strong>Cube:</strong></a>&nbsp;if different data types (both strings and numbers) were in the variable dimension, the series (images) colours set in the Cube chart were not saved (#8123).</p>
+<p><a href="https://help.loginom.ru/userguide/visualization/cube/" target="_blank"><strong>Cube:</strong></a>&nbsp;if different data types (both strings and numbers) were in the variable dimension, the series (images) colors set in the Cube chart were not saved (#8123).</p>
 
 <p><a href="https://help.loginom.ru/userguide/processors/datamining/linear-regression/" target="_blank"><strong>Linear Regression:</strong></a>&nbsp;when retraining was started several times in a row, the server was frozen with definite data sets, and its operation was crashed (#7182).</p>
 
@@ -44,7 +44,7 @@
 
 <p><a href="https://help.loginom.ru/userguide/interface/processes-panel.html" target="_blank"><strong>Processes Bar:</strong></a>&nbsp;when "Show completed processes" parameter was enabled, different errors could occur. For example, in the case of active processes, it was not possible to disable this parameter, and while attempting to call "Remove from list" context menu item, the Processes Bar could be frozen (#8339, #8446 #8447).</p>
 
-<p><a href="https://help.loginom.ru/userguide/integration/connections/list/odbc.html" target="_blank"><strong>ODBC connection:</strong></a>&nbsp;when exporting to table&nbsp;<em>1, 1001, 2001, ..</em>&nbsp;strings with&nbsp;<em>CHARACTER SET utf8</em>,&nbsp;different errors could occur, including the errors that caused frozen operation or application crush (#8287).</p>
+<p><a href="https://help.loginom.ru/userguide/integration/connections/list/odbc.html" target="_blank"><strong>ODBC connection:</strong></a>&nbsp;when exporting strings with&nbsp;<em>CHARACTER SET utf8</em> to table&nbsp;<em>1, 1001, 2001, ..</em>,&nbsp;different errors could occur, including the errors that caused frozen operation or application crush (#8287).</p>
 
 <p><a href="https://help.loginom.ru/userguide/integration/connections/list/schemes.html" target="_blank"><strong>XSD schema connection:</strong></a>&nbsp;if a relative path to the schema file was used in the connection settings, and the used schema contained a relative path to another used schema, in its turn, an error occurred (#8289).</p>
 
