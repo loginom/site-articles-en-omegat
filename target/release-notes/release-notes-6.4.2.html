@@ -64,18 +64,18 @@
 
 <p><strong>Экспорт в базу данных MySQL:</strong>&nbsp;при экспорте в таблицу&nbsp;<em>1, 1001, 2001, ..</em>&nbsp;строк с&nbsp;<em>CHARACTER SET utf8</em>&nbsp;последняя экспортированная строка содержала ошибочное значение (#8230).</p>
 
-<p><strong>Ядро платформы:</strong>&nbsp;если пользователь с ролью «Проектирование сценариев» пытался открыть пакет, находящийся в папке, у которой на уровне файловой системы был предоставлен доступ только на чтение, то пакет не открывался, а пользователь получал сообщение, что пакет не удалось открыть. Теперь в этом случае пакет открывается на чтение, а пользователь получает об этом уведомление (#8431).</p>
+<p><strong>Ядро платформы:</strong>&nbsp;если пользователь с ролью «Проектирование сценариев» пытался открыть пакет, находящийся в папке, у которой на уровне файловой системы был предоставлен доступ только на чтение, то пакет не открывался, а пользователь получал сообщение, что пакет не удалось открыть. Now, in this case, it is a read-only package, and a user will receive corresponding message(#8431).</p>
 
-<h2 id="повышение-информативности-и-удобства">Повышение информативности и удобства</h2>
+<h2 id="повышение-информативности-и-удобства">UI/UX and Usability Improvements</h2>
 
 <p><strong>Импорт из Deductor Warehouse, Экспорт в Deductor Warehouse:</strong>&nbsp;на странице мастера выбора объектов хранилища данных для ячеек добавлены подсказки, отображающие полное название объекта; добавлена возможность изменить ширину столбца, содержащего названия объектов (#8461).</p>
 
-<p><strong>Панель Навигация:</strong>&nbsp;при вызове пункта контекстного меню «Настроить узел» открывается мастер настройки для выбранного узла (ранее узел выделялся и становился активным в поле Сценария). Для узлов «Переменные сценария» и «Входной/Выходной узел Подмодели» скрыты пункты меню «Настройка модификатора доступа» и «Удалить узел». Модуля узла Подмодель скрыт пункт меню «Настройка модификатора доступа» и «Свойства» (#6127, #7291. #8327).</p>
+<p><strong>Navigation Bar:</strong>&nbsp;when calling "Configure node" context menu item, the wizard for the selected node is opened (previously, the node was selected and became active in the Workflow field). "Configure visibility" and "Delete node" menu items are hidden for "Workflow Variables" and "Input/Output node of the Supernode" nodes. "Configure visibility" and "Properties" menu item is hidden for the Supernode node module(#6127, #7291. #8327).</p>
 
-<p><a href="https://help.loginom.ru/userguide/visualization/cluster-profiles/" target="_blank"><strong>Профили кластеров:</strong></a>&nbsp;в качестве разделителя десятичных знаков могли одновременно встречаться и точка&nbsp;<em>&lt;.&gt;</em>&nbsp;и запятая&nbsp;<em>&lt;,&gt;</em>, теперь разделитель выбирается на основании локали (#8285).</p>
+<p><a href="https://help.loginom.ru/userguide/visualization/cluster-profiles/" target="_blank"><strong>Cluster profiles:</strong></a> both point&nbsp;<em>&lt;.&gt;</em>&nbsp;and comma&nbsp;<em>&lt;,&gt;</em> were used as decimal separators, now the separator is selected according to locale (#8285).</p>
 
-<p><strong>Профили кластеров:</strong>&nbsp;иконка фильтрации и текст кнопки теперь меняют цвет, если фильтр активен (#8174, #8463).</p>
+<p><strong>Cluster profiles:</strong>&nbsp;filtration icon and button text now change their colors if the filter is active (#8174, #8463).</p>
 
 <h2 id="оптимизация-работы">Performance Improvements</h2>
 
-<p><strong>Ядро платформы:</strong>&nbsp;оптимизирована скорость сохранения больших пакетов — изменен способ проверки наличия несохранённых изменений в пакете (#8345).</p>
+<p><strong>Platform core:</strong>&nbsp;the rate of large packages saving was optimised. The method used to check occurrence of unsaved changes in the package was changed (#8345).</p>
