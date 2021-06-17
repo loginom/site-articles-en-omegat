@@ -440,8 +440,8 @@
       <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Экспорт в Deductor Warehouse:&lt;/s1&gt; &lt;/a0&gt;при настройке парметров экспорта некорректно работала настройка соответствия столбцов.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210617T091651Z" creationid="Марианна" creationdate="20210617T091651Z">
-        <seg>&lt;a0&gt;&lt;s1&gt;Export to Deductor Warehouse:&lt;/s1&gt; &lt;/a0&gt;при настройке парметров экспорта некорректно работала настройка соответствия столбцов.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210617T091812Z" creationid="Марианна" creationdate="20210617T091651Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Export to Deductor Warehouse:&lt;/s1&gt; &lt;/a0&gt; when configuring the export parameters, columns mapping setting functioned incorrectly.</seg>
       </tuv>
     </tu>
     <tu>
