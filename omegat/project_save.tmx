@@ -1640,8 +1640,8 @@
       <tuv lang="ru">
         <seg>В очередном обновлении уделили внимание удобству использования платформы, оптимизировали работу со сложными сценариями, а также исправили найденные ошибки.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210617T111926Z" creationid="Марианна" creationdate="20210616T143220Z">
-        <seg>In this update, special attention was paid to the platform usability, performance improvements related to operation of complex workflows were made, and some fixes were performed.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210617T112013Z" creationid="Марианна" creationdate="20210616T143220Z">
+        <seg>In this update, special attention was paid to the platform usability, performance improvements related to complex workflows operation were made, and some fixes were performed.</seg>
       </tuv>
     </tu>
     <tu>
