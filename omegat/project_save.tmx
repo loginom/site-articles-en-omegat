@@ -2278,6 +2278,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При вызове контекстного меню у этого элемента можно было выбрать ошибочно отображаемый пункт «Показать визуализаторы», при этом возникала ошибка «Cannot read property 'NodeIndex' of undefined».</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210617T081946Z" creationid="Марианна" creationdate="20210617T081946Z">
+        <seg>When calling the context menu of this element, incorrect selection of shown "Show visualizers" item was possible. In this case, the following error occurred: "Cannot read property 'NodeIndex' of undefined".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При импорте из Хранилища данных появилась возможность отображения данных в виде иерархической (древовидной) структуры, что существенно упрощает настройку импорта данных, если хранилище имеет сложную структуру.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210325T113536Z" creationid="Марианна" creationdate="20210320T235254Z">
