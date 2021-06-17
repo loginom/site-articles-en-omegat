@@ -630,6 +630,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Ядро платформы:&lt;/s0&gt; оптимизирована скорость сохранения больших пакетов — изменен способ проверки наличия несохранённых изменений в пакете (#8345).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210617T103521Z" creationid="Марианна" creationdate="20210617T103521Z">
+        <seg>&lt;s0&gt;Platform core:&lt;/s0&gt; the rate of large packages saving was optimised. The method used to check occurrence of unsaved changes in the package was changed (#8345).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt;JavaScript, Калькулятор (JavaScript):&lt;x3/&gt;&lt;x4/&gt; веб-приложение зависало, если в мастере настройки JavaScript использовались JSDoc-комментарии и начали вводить имя функции, содержащей такой комментарий, или же вызывался мастер подстановки (&lt;x5/&gt;Ctrl&lt;x6/&gt; + &lt;x7/&gt;Пробел&lt;x8/&gt;); проблема могла также возникнуть после написания строки импорта модуля, если в импортируемом модуле содержались JSDoc-комментарии (#7833).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201122T120310Z" creationid="Марианна" creationdate="20201122T082318Z">
