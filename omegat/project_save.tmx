@@ -646,6 +646,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Экспорт в базу данных MySQL:&lt;/s0&gt; при экспорте в таблицу &lt;e1&gt;1, 1001, 2001, ..&lt;/e1&gt; строк с &lt;e2&gt;CHARACTER SET utf8&lt;/e2&gt; последняя экспортированная строка содержала ошибочное значение (#8230).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210617T105806Z" creationid="Марианна" creationdate="20210617T105806Z">
+        <seg>&lt;s0&gt;Export to MySQL database:&lt;/s0&gt; when exporting to table &lt;e1&gt;1, 1001, 2001, ..&lt;/e1&gt; strings with &lt;e2&gt;CHARACTER SET utf8&lt;/e2&gt;, the last exported string contained the invalid value (#8230).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Ядро платформы:&lt;/s0&gt; если пользователь с ролью «Проектирование сценариев» пытался открыть пакет, находящийся в папке, у которой на уровне файловой системы был предоставлен доступ только на чтение, то пакет не открывался, а пользователь получал сообщение, что пакет не удалось открыть.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210617T105529Z" creationid="Марианна" creationdate="20210617T105331Z">
