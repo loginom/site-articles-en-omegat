@@ -558,6 +558,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Разворачивание &lt;a1&gt;Подмодели:&lt;/a1&gt;&lt;/s0&gt; если подмодель содержала большое количество узлов, а также была расположена близко к левому или верхнему краю рабочего пространства Сценария, то при её разворачивании часть узлов могла оказаться за пределами рабочего пространства Сценария (#6949).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210617T085522Z" creationid="Марианна" creationdate="20210617T085522Z">
+        <seg>&lt;s0&gt;Expand &lt;a1&gt;Supernode:&lt;/a1&gt;&lt;/s0&gt; if the supernode contained many nodes and it was located close to the left or right edge of the Workflow working space, when it was collapsed, some nodes could be outside the Workflow working space (#6949).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Установка Loginom:&lt;/s0&gt; при установке одной из серверных редакций Loginom поверх ранее установленной другой редакции не заменялся исполняемый файл &lt;e1&gt;Server.exe&lt;/e1&gt;, в результате чего после обновления запускалась предыдущая редакция Loginom (#8132).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210323T081635Z" creationid="Марианна" creationdate="20210323T081553Z">
