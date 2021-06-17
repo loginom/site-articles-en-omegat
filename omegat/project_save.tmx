@@ -384,8 +384,8 @@
       <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Просмотр отчетов:&lt;/s1&gt;&lt;/a0&gt; если пользователь с ролью «Просмотр отчетов» сразу после открытия пакета открывал отчет, содержащий визуализатор Таблица, то отчет не открывался, а пользователь получал сообщение об ошибке «При переходе на "..." возникла ошибка.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210617T084614Z" creationid="Марианна" creationdate="20210617T084455Z">
-        <seg>&lt;a0&gt;&lt;s1&gt;View reports:&lt;/s1&gt;&lt;/a0&gt; if a user with "View reports" role opened the report containing the Table vizualizer just after opeining the package, it was not possible to opent the report, this user came across the following error: "When switching to "..." error occurred".</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210617T084717Z" creationid="Марианна" creationdate="20210617T084455Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;View reports:&lt;/s1&gt;&lt;/a0&gt; if a user with "View reports" role opened the report containing the Table vizualizer just after package opening, it was not possible to open the report, and this user came across the following error: "When switching to "..." error occurred".</seg>
       </tuv>
     </tu>
     <tu>
