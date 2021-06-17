@@ -2294,6 +2294,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Повышение информативности и удобства</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210617T103619Z" creationid="Марианна" creationdate="20210617T103619Z">
+        <seg>UI/UX and Usability Improvements</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Поддерживается преобразование данных в структуру Pandas DataFrame и обратно.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210320T214755Z" creationid="Марианна" creationdate="20210320T214755Z">
@@ -2650,6 +2658,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210321T205009Z" creationid="Марианна" creationdate="20210321T205009Z">
         <seg>Now &lt;e2&gt;RequestId&lt;/e2&gt; variable was added to &lt;a1&gt;"Workflow Variables"&lt;/a1&gt; node to "Session variables" port.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Теперь в этом случае пакет открывается на чтение, а пользователь получает об этом уведомление (#8431).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210617T103752Z" creationid="Марианна" creationdate="20210617T103752Z">
+        <seg>Now, in this case, it is a read-only package, and a user will receive corresponding message(#8431).</seg>
       </tuv>
     </tu>
     <tu>
