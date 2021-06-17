@@ -488,8 +488,8 @@
       <tuv lang="ru">
         <seg>&lt;s0&gt;Настройка соответствия между столбцами:&lt;/s0&gt; если у узла с ранее настроенными входными полями отключали автоматическую синхронизацию полей и подключали на вход узел, содержащий другой набор полей, то некорректно работали вызовы «Удаление всех связей» и «Очистить/удалить потерянные связи».</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210617T080558Z" creationid="Марианна" creationdate="20210617T080558Z">
-        <seg>&lt;s0&gt;Adjustment of Columns Mapping:&lt;/s0&gt; if automapping of fields was disabled for the node with preset input fields and connected the node that contained another set of fields to the input, "Delete all links" and "Clear/delete lost links" calls functioned incorrectly.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210617T080659Z" creationid="Марианна" creationdate="20210617T080558Z">
+        <seg>&lt;s0&gt;Adjustment of Columns Mapping:&lt;/s0&gt; if automapping of fields was disabled for the node with preset input fields, and the node that contained another set of fields was connected to the input, "Delete all links" and "Clear/delete lost links" calls functioned incorrectly.</seg>
       </tuv>
     </tu>
     <tu>
