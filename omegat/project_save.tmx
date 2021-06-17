@@ -2550,6 +2550,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Теперь пункт меню «Показать визуализаторы» отображается только для узлов (#5088).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210617T082026Z" creationid="Марианна" creationdate="20210617T082026Z">
+        <seg>Now, "Show visualizers" menu item is shown only for the nodes (#5088).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Теперь это можно сделать в настройках сервера и настольных приложений, для чего добавлен специальный параметр «Трассировка исключений».</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210321T213057Z" creationid="Марианна" creationdate="20210321T213057Z">
