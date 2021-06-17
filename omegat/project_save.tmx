@@ -672,8 +672,8 @@
       <tuv lang="ru">
         <seg>&lt;s0&gt;Ядро платформы:&lt;/s0&gt; оптимизирована скорость сохранения больших пакетов — изменен способ проверки наличия несохранённых изменений в пакете (#8345).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210617T103521Z" creationid="Марианна" creationdate="20210617T103521Z">
-        <seg>&lt;s0&gt;Platform core:&lt;/s0&gt; the rate of large packages saving was optimised. The method used to check occurrence of unsaved changes in the package was changed (#8345).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210617T114206Z" creationid="Марианна" creationdate="20210617T103521Z">
+        <seg>&lt;s0&gt;Platform core:&lt;/s0&gt; the speed of large packages saving was optimised. The method used to check occurrence of unsaved changes in the package was changed (#8345).</seg>
       </tuv>
     </tu>
     <tu>
