@@ -646,6 +646,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Экспорт в базу данных MySQL:&lt;/s0&gt; если в Таблицу с &lt;e1&gt;CHARACTER SET utf8&lt;/e1&gt; в поле типа TEXT экспортировалась одна строка, состоящая из трехбайтных Unicode символов (например, иероглифов китайского языка), то это значение могло экспортироваться с ошибкой (#8229).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210617T110140Z" creationid="Марианна" creationdate="20210617T110140Z">
+        <seg>&lt;s0&gt;Export to MySQL database:&lt;/s0&gt; if one string that consisted of 3-byte Unicode characters (for example, the Chinese characters) was exported to the Table with &lt;e1&gt;CHARACTER SET utf8&lt;/e1&gt; in the TEXT field, this value could be exported with an error (#8229).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Экспорт в базу данных MySQL:&lt;/s0&gt; при экспорте в таблицу &lt;e1&gt;1, 1001, 2001, ..&lt;/e1&gt; строк с &lt;e2&gt;CHARACTER SET utf8&lt;/e2&gt; последняя экспортированная строка содержала ошибочное значение (#8230).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210617T105838Z" creationid="Марианна" creationdate="20210617T105806Z">
