@@ -510,6 +510,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Импорт из Deductor Warehouse, Экспорт в Deductor Warehouse:&lt;/s0&gt; на странице мастера выбора объектов хранилища данных для ячеек добавлены подсказки, отображающие полное название объекта; добавлена возможность изменить ширину столбца, содержащего названия объектов (#8461).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210617T105043Z" creationid="Марианна" creationdate="20210617T105043Z">
+        <seg>&lt;s0&gt;Import from Deductor Warehouse, Export to Deductor Warehouse:&lt;/s0&gt; the tips displaying full object name were added for the cells on the data warehouse objects selection wizard page. It also became possible to change the width of the column that contains the objects names (#8461).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Импорт из Баз данных:&lt;/s0&gt; при подключении к MS SQL Server с использованием ODBC драйвера, поля типа &lt;e1&gt;TinyInt&lt;/e1&gt; ошибочно определялись, как имеющие неопределенный тип (#8183).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210322T233108Z" creationid="Марианна" creationdate="20210322T232841Z">
