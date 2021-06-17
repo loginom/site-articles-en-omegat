@@ -470,6 +470,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Локализация:&lt;/s0&gt; если англоязычная версия программы была запущенна на русской версии Windows, то при вводе вещественных чисел в качестве разделителя необходимо было указывать точку &lt;e1&gt;&lt;.&gt;&lt;/e1&gt;, при этом редактор подсвечивал такой разделитель, как ошибочный (#8141).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210617T075939Z" creationid="Марианна" creationdate="20210617T075939Z">
+        <seg>&lt;s0&gt;Localization:&lt;/s0&gt; if the English program version was started with the Russian Windows version, when entering real numbers as separators, it was required to put a point &lt;e1&gt;&lt;.&gt;&lt;/e1&gt;, in this case, the editor highlighted such separator as the invalid one (#8141).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Настольное приложение:&lt;/s0&gt; если использовалось несколько мониторов и окно приложения переносилось на дополнительный экран, то при разворачивании на весь экран окно приложения сворачивалось и было невозможно его восстановить.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210322T225012Z" creationid="Марианна" creationdate="20210322T224658Z">
