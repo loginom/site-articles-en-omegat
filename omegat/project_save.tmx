@@ -502,6 +502,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Панель Навигация:&lt;/s0&gt; если у узла был настроен визуализатор, то в панели Навигация у этого узла появлялся дочерний элемент Визуализаторы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210617T081604Z" creationid="Марианна" creationdate="20210617T081604Z">
+        <seg>&lt;s0&gt;Navigation Bar:&lt;/s0&gt; if visualizer was configured for the node, Visualizers child element appeared for such node on the Navigation bar.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Панель отчетов:&lt;/s0&gt; если визуализатор был открыт в виде Отчета, то при открытии на соседней вкладке этого же визуализатора из узла, вкладка с Отчетом не закрывалась автоматически и можно было изменять настройки визуализатора в двух вкладках одновременно, что могло приводить к ошибкам (#8089).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210323T073828Z" creationid="Марианна" creationdate="20210323T073828Z">
@@ -2114,6 +2122,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210322T165801Z" creationid="Марианна" creationdate="20210322T165801Z">
         <seg>Frequently it was particularly inconvenient if the fields with item numbers that started from zeros occurred in the exported data sets.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Ошибка могла встречаться и при настроке других узлов, но значительно реже (#8477).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210617T081319Z" creationid="Марианна" creationdate="20210617T081319Z">
+        <seg>This error could occur when configuring other nodes but much less frequently (#8477).</seg>
       </tuv>
     </tu>
     <tu>
