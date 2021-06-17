@@ -64,11 +64,11 @@
 
 <p><strong>Экспорт в базу данных MySQL:</strong>&nbsp;при экспорте в таблицу&nbsp;<em>1, 1001, 2001, ..</em>&nbsp;строк с&nbsp;<em>CHARACTER SET utf8</em>&nbsp;последняя экспортированная строка содержала ошибочное значение (#8230).</p>
 
-<p><strong>Ядро платформы:</strong>&nbsp;если пользователь с ролью «Проектирование сценариев» пытался открыть пакет, находящийся в папке, у которой на уровне файловой системы был предоставлен доступ только на чтение, то пакет не открывался, а пользователь получал сообщение, что пакет не удалось открыть. Now, in this case, it is a read-only package, and a user will receive corresponding message(#8431).</p>
+<p><strong>Platform core:</strong>&nbsp;if the user with "Workflows design" role tried to open the package in the read-only folder according to the file system level, it was not possible to open the package, and the user received the message informing about package opening failure. Now, in this case, it is a read-only package, and a user will receive corresponding message(#8431).</p>
 
 <h2 id="повышение-информативности-и-удобства">UI/UX and Usability Improvements</h2>
 
-<p><strong>Импорт из Deductor Warehouse, Экспорт в Deductor Warehouse:</strong>&nbsp;на странице мастера выбора объектов хранилища данных для ячеек добавлены подсказки, отображающие полное название объекта; добавлена возможность изменить ширину столбца, содержащего названия объектов (#8461).</p>
+<p><strong>Import from Deductor Warehouse, Export to Deductor Warehouse:</strong>&nbsp;the tips displaying full object name were added for the cells on the data warehouse objects selection wizard page. It also became possible to change the width of the column that contains the objects names (#8461).</p>
 
 <p><strong>Navigation Bar:</strong>&nbsp;when calling "Configure node" context menu item, the wizard for the selected node is opened (previously, the node was selected and became active in the Workflow field). "Configure visibility" and "Delete node" menu items are hidden for "Workflow Variables" and "Input/Output node of the Supernode" nodes. "Configure visibility" and "Properties" menu item is hidden for the Supernode node module(#6127, #7291. #8327).</p>
 
