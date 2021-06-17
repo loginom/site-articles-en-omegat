@@ -1736,8 +1736,8 @@
       <tuv lang="ru">
         <seg>Для узлов «Переменные сценария» и «Входной/Выходной узел Подмодели» скрыты пункты меню «Настройка модификатора доступа» и «Удалить узел».</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210617T104146Z" creationid="Марианна" creationdate="20210617T104146Z">
-        <seg>"Configure visibility" and "Delete node" menu items are hidden for "Workflow Variable" and "Input/Output node of the Supernode" nodes.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210617T104310Z" creationid="Марианна" creationdate="20210617T104146Z">
+        <seg>"Configure visibility" and "Delete node" menu items are hidden for "Workflow Variables" and "Input/Output node of the Supernode" nodes.</seg>
       </tuv>
     </tu>
     <tu>
