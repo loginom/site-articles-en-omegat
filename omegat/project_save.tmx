@@ -648,8 +648,8 @@
       <tuv lang="ru">
         <seg>&lt;s0&gt;Ядро платформы:&lt;/s0&gt; если пользователь с ролью «Проектирование сценариев» пытался открыть пакет, находящийся в папке, у которой на уровне файловой системы был предоставлен доступ только на чтение, то пакет не открывался, а пользователь получал сообщение, что пакет не удалось открыть.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210617T105331Z" creationid="Марианна" creationdate="20210617T105331Z">
-        <seg>&lt;s0&gt;Platform core:&lt;/s0&gt; if the user with "Workflows design" role tried to open the package in the read-only folder according to the file system level, it was not possible to close the package, and a user received the message informing about package opening failure.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210617T105400Z" creationid="Марианна" creationdate="20210617T105331Z">
+        <seg>&lt;s0&gt;Platform core:&lt;/s0&gt; if the user with "Workflows design" role tried to open the package in the read-only folder according to the file system level, it was not possible to open the package, and a user received the message informing about package opening failure.</seg>
       </tuv>
     </tu>
     <tu>
