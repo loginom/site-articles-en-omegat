@@ -16,7 +16,7 @@
 
 <p><a href="https://help.loginom.ru/userguide/integration/import/warehouse.html" target="_blank"><strong>Import from Deductor Warehouse:</strong></a>&nbsp;if fields with the same names were used while compiling the filtration parameters list, the import process was executed incorrectly. For example, there could be no filtered data expected at the output (#8440).</p>
 
-<p><a href="https://help.loginom.ru/userguide/integration/import/ldf.html" target="_blank"><strong>Import from LGD-файла:</strong></a>&nbsp;if only a part of the source file fileds is selected while importing, the error that causes unexpected application exit could occur on condition of the particular combination of the source data types of such fields. For example, if the workflow with many cases of import from LGD files was executed in the package mode, the workflow was not executed if such error occurred, and LoginomServer service was stopped (#8363, #8367).</p>
+<p><a href="https://help.loginom.ru/userguide/integration/import/ldf.html" target="_blank"><strong>Import from LGD file:</strong></a>&nbsp;if only a part of the source file fileds is selected while importing, the error that causes unexpected application exit could occur on condition of the particular combination of the source data types of such fields. For example, if the workflow with many cases of import from LGD files was executed in the package mode, the workflow was not executed if such error occurred, and LoginomServer service was stopped (#8363, #8367).</p>
 
 <p><strong>Import from MS Access Database, Export to MS Access Database:</strong> SQL requests that contained integer parameters were not operable while importing, and it was also not possible to export the integer fields (#8422).</p>
 
@@ -44,7 +44,7 @@
 
 <p><a href="https://help.loginom.ru/userguide/interface/processes-panel.html" target="_blank"><strong>Processes Bar:</strong></a>&nbsp;when "Show completed processes" parameter was enabled, different errors could occur. For example, in the case of active processes, it was not possible to disable this parameter, and while attempting to call "Remove from list" context menu item, the Processes Bar could be frozen (#8339, #8446 #8447).</p>
 
-<p><a href="https://help.loginom.ru/userguide/integration/connections/list/odbc.html" target="_blank"><strong>ODBC connection:</strong></a>&nbsp;when exporting strings with&nbsp;<em>CHARACTER SET utf8</em> to table&nbsp;<em>1, 1001, 2001, ..</em>,&nbsp;different errors could occur, including the errors that caused frozen operation or application crush (#8287).</p>
+<p><a href="https://help.loginom.ru/userguide/integration/connections/list/odbc.html" target="_blank"><strong>ODBC connection:</strong></a>&nbsp;when exporting <em>1, 1001, 2001, ..</em>&nbsp;strings with&nbsp;<em>CHARACTER SET utf8</em> to table,&nbsp;different errors could occur, including the errors that caused frozen operation or application crush (#8287).</p>
 
 <p><a href="https://help.loginom.ru/userguide/integration/connections/list/schemes.html" target="_blank"><strong>XSD schema connection:</strong></a>&nbsp;if a relative path to the schema file was used in the connection settings, and the used schema contained a relative path to another used schema, in its turn, an error occurred (#8289).</p>
 
