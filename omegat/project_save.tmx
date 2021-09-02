@@ -254,6 +254,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;a0&gt;&lt;s1&gt;Выполнение узла:&lt;/s1&gt;&lt;/a0&gt; если в настройках «Выполнения узла» в качестве выполняемого выбирался узел, для которого ранее порядок выполнения ранее был задан таким образом, что узел «Выполнения узла» должен выполниться раньше выбираемого узла, то возникала ошибка «Переход запрещен.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210902T121955Z" creationid="Марианна" creationdate="20210902T121955Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Node Execution:&lt;/s1&gt;&lt;/a0&gt; if in "Node Execution" settings the node for which the execution order had been earlier set as the selected one in such a way that "Node Execution" node was to be performed earlier than the selected node, the following error occurred: "Next move forbidden".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Дата и Время:&lt;/s1&gt;&lt;/a0&gt; при преобразовании дат в стоковый формат отсутствовали ведущие нули для недели года, недели квартала, дня года и дня квартала.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210902T073856Z" creationid="Марианна" creationdate="20210902T073727Z">
