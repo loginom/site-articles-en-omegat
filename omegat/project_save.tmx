@@ -1390,6 +1390,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/processors/programming/python/</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210902T074117Z" creationid="Марианна" creationdate="20210902T074117Z">
+        <seg>https://help.loginom.ru/userguide/processors/programming/python/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>https://help.loginom.ru/userguide/processors/scrutiny/correlation-analysis.html</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T202238Z" creationid="Марианна" creationdate="20210314T202238Z">
