@@ -2934,6 +2934,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Также это могло приводить к возникновении ошибок «Переход запрещен Невозможно использовать начальные классы в качестве разбиения для столбца ... Слишком много уникальных значений» или «Значение 0 параметра "Index" вне диапазона [-1; -1]» при переходе между страницами мастера настройки (#8282, #8582, #8584, #8668, #8700).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210902T132117Z" creationid="Марианна" creationdate="20210902T132117Z">
+        <seg>It could also cause the following errors: "Next move forbidden Failed to apply fine classes for binning for %s column. There are too many unique values" or "Value 0 of "Index" parameter is out of [-1; -1] range" when switching the wizard pages (#8282, #8582, #8584, #8668, #8700).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Такие методы могли требоваться для работы с некоторыми веб-сервисами.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T201726Z" creationid="Марианна" creationdate="20210314T201726Z">
