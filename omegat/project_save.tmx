@@ -2102,6 +2102,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если Подмодель выполнялась в Цикле, то это повышало вероятность возникновения ошибки (#8514).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210902T134033Z" creationid="Марианна" creationdate="20210902T134033Z">
+        <seg>If the Supernode was executed in the Loop, it increased the risk of error occurrence(#8514).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если в процессе выполнения кода Python возникнут критические ошибки, то приложение может аварийно завершится.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210320T223505Z" creationid="Марианна" creationdate="20210320T223505Z">
