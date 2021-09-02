@@ -734,10 +734,26 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Файловое хранилище:&lt;/s0&gt; из дерева каталогов не удалялась удаленная через «Вырезать–Вставить» папка.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210902T133037Z" creationid="Марианна" creationdate="20210902T133037Z">
+        <seg>&lt;s0&gt;File storage:&lt;/s0&gt; the folder deleted by means of "Cut-Paste" option was not deleted from the directory tree.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Цикл:&lt;/s0&gt; при запуске в параллельном режиме в результате создания большого количества производных узлов могла возникать ошибка «Значение индекса … параметра “…” вне диапазона […; …]» (#8200).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210323T091013Z" creationid="Марианна" creationdate="20210323T091013Z">
         <seg>&lt;s0&gt;Loop:&lt;/s0&gt; when starting in the parallel mode, due to creation of many derived nodes the following error could occur: "Index value … of “…” parameter is out of […; …] range" (#8200).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;s0&gt;Экспорт в PostgreSQL:&lt;/s0&gt; при попытке экспорта строк в поля &lt;e1&gt;xml&lt;/e1&gt; или &lt;e2&gt;json&lt;/e2&gt; возникала ошибка «колонка "..." имеет тип ..., а выражение - character varying».</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210902T133745Z" creationid="Марианна" creationdate="20210902T133745Z">
+        <seg>&lt;s0&gt;Export to PostgreSQL:&lt;/s0&gt; while attempting to export strings to &lt;e1&gt;xml&lt;/e1&gt; or &lt;e2&gt;json&lt;/e2&gt; fields, the following error occurred: "column "..." has type ..., and expression - character varying".</seg>
       </tuv>
     </tu>
     <tu>
