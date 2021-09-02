@@ -2966,6 +2966,22 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Формат по умолчанию для Даты и Времени сделан Фиксированный (&lt;e2&gt;"2021-01-30"&lt;/e2&gt;, &lt;e3&gt;"23:59:59"&lt;/e3&gt;, &lt;e4&gt;"01:01:01"&lt;/e4&gt;) (#8595).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210902T073606Z" creationid="Марианна" creationdate="20210902T073606Z">
+        <seg>The default Date and Time format was Fixed (&lt;e2&gt;"2021-01-30"&lt;/e2&gt;, &lt;e3&gt;"23:59:59"&lt;/e3&gt;, &lt;e4&gt;"01:01:01"&lt;/e4&gt;) (#8595).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Формат по умолчанию для Дня месяца сделан с ведущим нулем.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210902T073446Z" creationid="Марианна" creationdate="20210902T073446Z">
+        <seg>The default month day format was with leading zero.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Формирование выходного набора данных из кода в компоненте &lt;a0&gt;JavaScript.&lt;/a0&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210325T112817Z" creationid="Марианна" creationdate="20210314T202716Z">
