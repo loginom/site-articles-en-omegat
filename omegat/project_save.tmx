@@ -2872,8 +2872,8 @@
       <tuv lang="ru">
         <seg>Такая ситуация не является циклической зависимостью, так как при «Выполнении узла», в отличии от «Узла-ссылки», используется только конфигурация узла, а данные на вход могут подаваться отличные от тех, которые используются в базовом узле (#8614).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210902T122910Z" creationid="Марианна" creationdate="20210902T122709Z">
-        <seg>Such situation does not represent a circular reference as only node configuration is used for "Node Execution" as opposed to "Reference Node", and data that differ from the data that is used in the base node can be supplied to input (#8614).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210902T123011Z" creationid="Марианна" creationdate="20210902T122709Z">
+        <seg>Such situation does not represent a circular reference as only node configuration is used for "Node Execution" as opposed to "Reference Node", and data that differ from the data that is used in the base node can be supplied to the input (#8614).</seg>
       </tuv>
     </tu>
     <tu>
