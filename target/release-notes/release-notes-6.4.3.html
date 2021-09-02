@@ -1,20 +1,20 @@
-<h1>Loginom 6.4.3 — описание изменений</h1>
+<h1>Loginom 6.4.3 — Release Notes</h1>
 
-<p>В этом обновлении доработали файловое хранилище, оптимизировали использование процессора и оперативной памяти в многопоточном режиме, а также исправили обнаруженные ошибки.</p>
+<p>In this update, file storage was finalized, performance improvements related to operation of processor and memory in the multithreading mode were made, and some fixes were performed.</p>
 
-<h2 id="исправление-ошибок">Исправление ошибок</h2>
+<h2 id="исправление-ошибок">Fixes</h2>
 
-<p><a href="https://help.loginom.ru/adminguide/server" target="_blank"><strong>Loginom Server:</strong></a>&nbsp;при одновременном завершении нескольких сессий с взаимосвязанными пакетами могла возникать ошибка «Значение индекса параметра Items вне диапазона», которая записывалась в лог сервера (#8470).</p>
+<p><a href="https://help.loginom.ru/adminguide/server" target="_blank"><strong>Loginom Server:</strong></a>&nbsp;when several sessions with interconnected packages were completed simultaneously, the following error could occur: "Index value of Items parameter is out of range" that was recorded in the server log (#8470).</p>
 
-<p><strong>Loginom Server:</strong>&nbsp;при использовании веб-сервера Apache с конфигурацией, создаваемой по умолчанию, не работало подключение через Web Socket Proxy. Ошибка была связана с тем, что в создаваемом файле&nbsp;<em>env.conf</em>&nbsp;параметр&nbsp;<em>WS_PROXY_URI</em>&nbsp;был задан как&nbsp;<em>ws/</em>. Корректное значение параметра –&nbsp;<em>app/ws/</em>&nbsp;(#8544).</p>
+<p><strong>Loginom Server:</strong>&nbsp;when using Apache web server with the configuration created by default, connection via Web Socket Proxy failed. The error was caused by the fact that&nbsp;<em>WS_PROXY_URI</em>&nbsp;parameter in the created &nbsp;<em>env.conf</em> file was set as&nbsp;<em>ws/</em>. The correct paramater value is&nbsp;<em>app/ws/</em>&nbsp;(#8544).</p>
 
-<p><a href="https://help.loginom.ru/userguide/processors/integration/soap-request.html" target="_blank"><strong>SOAP-запрос:</strong></a>&nbsp;если WSDL-схема содержала два элемента с одинаковым именем, один из которых являлся корневым, то при отправке запроса возникала ошибка «XSD-схема на входе не соответствует настройкам обработчика!» (#6179).</p>
+<p><a href="https://help.loginom.ru/userguide/processors/integration/soap-request.html" target="_blank"><strong>SOAP request:</strong></a>&nbsp;if WSDL schema contained two items with the same names one of which was the root one, the following error occurred while request sending: "Input XSD schema does not comply with the node settings!" (#6179).</p>
 
-<p><a href="https://help.loginom.ru/userguide/visualization/preview/quick-view.html" target="_blank"><strong>Быстрый просмотр:</strong></a>&nbsp;в детализации Быстрого просмотра значения элементов с типом «Переменный» отображались как&nbsp;(#8630).</p>
+<p><a href="https://help.loginom.ru/userguide/visualization/preview/quick-view.html" target="_blank"><strong>Quick view:</strong></a>&nbsp;in the Quick view detailing, values of the items with "Variable" type were displayed as&nbsp;(#8630).</p>
 
-<p><a href="https://help.loginom.ru/userguide/processors/control/execute-node.html" target="_blank"><strong>Выполнение узла:</strong></a>&nbsp;если в настройках «Выполнения узла» в качестве выполняемого выбирался узел, для которого ранее порядок выполнения ранее был задан таким образом, что узел «Выполнения узла» должен выполниться раньше выбираемого узла, то возникала ошибка «Переход запрещен. Циклические связи между узлами запрещены». Эта же ошибка могла возникать при открытии пакета, содержащего подобную конфигурацию узлов. Такая ситуация не является циклической зависимостью, так как при «Выполнении узла», в отличии от «Узла-ссылки», используется только конфигурация узла, а данные на вход могут подаваться отличные от тех, которые используются в базовом узле (#8614).</p>
+<p><a href="https://help.loginom.ru/userguide/processors/control/execute-node.html" target="_blank"><strong>Выполнение узла:</strong></a>&nbsp;если в настройках «Выполнения узла» в качестве выполняемого выбирался узел, для которого ранее порядок выполнения ранее был задан таким образом, что узел «Выполнения узла» должен выполниться раньше выбираемого узла, то возникала ошибка «Переход запрещен. Circular links between nodes are not allowed". The same error could occur while opening the package containing the same node configuration. Такая ситуация не является циклической зависимостью, так как при «Выполнении узла», в отличии от «Узла-ссылки», используется только конфигурация узла, а данные на вход могут подаваться отличные от тех, которые используются в базовом узле (#8614).</p>
 
-<p><a href="https://help.loginom.ru/userguide/processors/transformation/trans-datatime/" target="_blank"><strong>Дата и Время:</strong></a>&nbsp;при преобразовании дат в стоковый формат отсутствовали ведущие нули для недели года, недели квартала, дня года и дня квартала. Формат по умолчанию для Дня месяца сделан с ведущим нулем. Формат по умолчанию для Даты и Времени сделан Фиксированный (<em>"2021-01-30"</em>,&nbsp;<em>"23:59:59"</em>,&nbsp;<em>"01:01:01"</em>) (#8595).</p>
+<p><a href="https://help.loginom.ru/userguide/processors/transformation/trans-datatime/" target="_blank"><strong>Date and Time:</strong></a>&nbsp;when transforming dates to the string format, there were no leading zeros for year week, quarter week, year day and quarter day. The default month day format was with leading zero. The default Date and Time format was Fixed (<em>"2021-01-30"</em>,&nbsp;<em>"23:59:59"</em>,&nbsp;<em>"01:01:01"</em>) (#8595).</p>
 
 <p><a href="https://help.loginom.ru/userguide/integration/import/warehouse.html" target="_blank"><strong>Импорт из Deductor Warehouse:</strong></a>&nbsp;если пакет с настроенным импортом из Deductor Warehouse сохранить и повторно открыть, то при попытке выполнить узел импорта возникала ошибка «Deductor Warehouse: Не указан объект Хранилища данных» (#8523).</p>
 
@@ -46,7 +46,7 @@
 
 <p><strong>Подмодель:</strong>&nbsp;если был активирован узел, подключенный к выходному порту Подмодели, а сама Подмодель не была активирована, а после после этого пакет, содержащий Подмодель, был сохранен и закрыт, то при повторном открытии пакета и попытки активировать Подмодель, возникала ошибка «Порт не настроен» (#8538).</p>
 
-<p><strong>Подмодель:</strong>&nbsp;если после создания производного компонента и создания производного узла, изменялась базовая Подмодель (например, внутрь подмодели был добавлен еще один узел), то при попытке активировать производный узел возникала ошибка «Внутренние узлы Подмодели заблокированы». Ошибка возникала в версии 6.4.2 (#8629).</p>
+<p><strong>Подмодель:</strong>&nbsp;если после создания производного компонента и создания производного узла, изменялась базовая Подмодель (например, внутрь подмодели был добавлен еще один узел), то при попытке активировать производный узел возникала ошибка «Внутренние узлы Подмодели заблокированы». The error occurred in version 6.4.2 (#8629).</p>
 
 <p><a href="https://help.loginom.ru/userguide/visualization/table/" target="_blank"><strong>Таблица:</strong></a>&nbsp;в окне настройки фильтра в визуализаторе Таблица для полей типа&nbsp;<em>Дата/Время</em>&nbsp;при выборе условий&nbsp;<em>первый / не первый</em>&nbsp;или&nbsp;<em>последний / не последний</em>&nbsp;не определялось и не сохранялось значение параметра&nbsp;<em>Базовая дата интервала</em>&nbsp;(#8648).</p>
 
@@ -56,17 +56,17 @@
 
 <p><a href="https://help.loginom.ru/userguide/location_user_files.html" target="_blank"><strong>Файловое хранилище:</strong></a>&nbsp;если новые каталоги стали доступны пользователю во время его текущей сессии, то при попытки перейти в такой каталог, пользователь получал ошибку "Cannot read property 'expandAsync' of undefined". Такая ситуация могла, например, возникнуть, если пользователю предоставлял доступ другой пользователь, были изменены права доступа к каталогам через панель Администрирование, или новый каталог был создан через диалог сохранения файла (#5347, #6032, #6423, #8022).</p>
 
-<p><strong>Файловое хранилище:</strong>&nbsp;если из каталога на уровень вверх или уровень вниз перемещался внутренний каталог, то при попытке открыть первый каталог возникала ошибка «System Error. Code: 3. Системе не удается найти указанный путь» (#6674).</p>
+<p><strong>Файловое хранилище:</strong>&nbsp;если из каталога на уровень вверх или уровень вниз перемещался внутренний каталог, то при попытке открыть первый каталог возникала ошибка «System Error. Code: 3. System failed to find the specified path" (#6674).</p>
 
-<p><strong>Файловое хранилище:</strong>&nbsp;если после копирования каталога переименовать один из каталогов, содержащих копируемый каталог, то при вставке возникала ошибка «System Error. Code: 3. Системе не удается найти указанный путь» (#7082).</p>
+<p><strong>Файловое хранилище:</strong>&nbsp;если после копирования каталога переименовать один из каталогов, содержащих копируемый каталог, то при вставке возникала ошибка «System Error. Code: 3. System failed to find the specified path" (#7082).</p>
 
-<p><strong>Файловое хранилище:</strong>&nbsp;если загрузить, а затем удалить файл, то невозможно было повторно загрузить с таким же именем до завершения сессии приложения. Ошибка наблюдалась в браузерах на базе Chromium, в Internet Explorer и в Safari (#7108, #8058, #8499).</p>
+<p><strong>Файловое хранилище:</strong>&nbsp;если загрузить, а затем удалить файл, то невозможно было повторно загрузить с таким же именем до завершения сессии приложения. The error occurred in the browsers based on Chromium, in Internet Explorer and Safari (#7108, #8058, #8499).</p>
 
 <p><strong>Файловое хранилище:</strong>&nbsp;при переходе из текущего каталога в родительский, выделение устанавливалось на&nbsp;<em>".."</em>, а не на каталог, из которого вышли. Из-за неправильной установки фокуса мог некорректно работать функционал копирования–вставки через горячие клавиши (#8023, #8516).</p>
 
 <p><strong>Файловое хранилище:</strong>&nbsp;при попытке открыть пакет через символическую ссылку на файл, физически расположенный в сетевой папке, из-за невозможности определить дату модификации файла, возникала ошибка «Системе не удается найти указанный путь» (#8452).</p>
 
-<p><strong>Файловое хранилище:</strong>&nbsp;из дерева каталогов не удалялась удаленная через «Вырезать–Вставить» папка. При попытке перейти на нее в дереве каталогов возникала ошибка «System Error. Code: 3. Системе не удается найти указанный путь» (#8518).</p>
+<p><strong>Файловое хранилище:</strong>&nbsp;из дерева каталогов не удалялась удаленная через «Вырезать–Вставить» папка. При попытке перейти на нее в дереве каталогов возникала ошибка «System Error. Code: 3. System failed to find the specified path" (#8518).</p>
 
 <p><strong>Файловое хранилище:</strong>&nbsp;если&nbsp;перейти в папку файлового хранилища, ранее открытую в другой вкладке, а затем попытаться закрыть вкладку с ранее открытой папкой нажатием на&nbsp;<em>X</em>&nbsp;(крестик), то возникала ошибка "Cannot read property 'ActiveLoadersCount' of undefined" или "this.FFileSenderManager is undefined" (#8529).</p>
 
@@ -80,13 +80,13 @@
 
 <p><strong>Ядро платформы:</strong>&nbsp;в случае, если Подмодель содержала Узел-ссылку, ссылающийся на другой узел внутри этой подмодели, а порядок выполнения для Узла-ссылки был связан со входным и выходным портом содержащей его Подмодели, то процесс активации Подмодели мог зависнуть и его невозможно было отменить. Если Подмодель выполнялась в Цикле, то это повышало вероятность возникновения ошибки (#8514).</p>
 
-<h2 id="повышение-информативности">Повышение информативности</h2>
+<h2 id="повышение-информативности">UI/UX Improvements</h2>
 
 <p><strong>Импорт из Deductor Warehouse:</strong>&nbsp;при попытке выполнить ненастроенный узел импорта возникала неинформативная ошибка. Теперь появляется предупреждение, что не выбран объект хранилища данных (#8515).</p>
 
 <p><a href="https://help.loginom.ru/userguide/scenario/ports/" target="_blank"><strong>Настройка портов:</strong></a>&nbsp;сообщения об ошибках «Сокет не настроен» и «Не задана ссылка на сокет» заменены на более информативные сообщения «...: Порт ... не настроен» и «...: К обязательному порту ... не подключена связь» с указанием метки порта, в котором возникла ошибка (#6000).</p>
 
-<h2 id="удобство-использования">Удобство использования</h2>
+<h2 id="удобство-использования">Ease of Use</h2>
 
 <p><a href="https://help.loginom.ru/userguide/processors/programming/python/" target="_blank"><strong>Python:</strong></a>&nbsp;функция&nbsp;<em>builtin_pandas_utils.to_data_frame</em>&nbsp;доработана таким образом, чтобы была возможность создания&nbsp;<em>pandas.DataFrame</em>&nbsp;по целочисленным и логическим столбцам, содержащим пропуски. Если при заполнении массивов&nbsp;<em>numpy</em>&nbsp;возникает необходимость обработки пропущенных значений целочисленного и логического типов, то используется вещественный тип, а пропущенные значения преобразуются в&nbsp;<em>NaN</em>&nbsp;(<em>np.nan</em>). Ранее при попытке передать в функцию&nbsp;<em>builtin_pandas_utils.to_data_frame</em>&nbsp;таблицу, содержащую целочисленный или логический столбец с пропущенными значениями, возникала ошибка "...int() argument must be a string, a bytes-like object or a number, not 'NoneType' " (#8522).</p>
 

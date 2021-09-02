@@ -62,9 +62,9 @@
 
 <p><strong>Export to MySQL database:</strong>&nbsp;if one string that consisted of 3-byte Unicode characters (for example, the Chinese characters) was exported to the Table with&nbsp;<em>CHARACTER SET utf8</em>&nbsp;in the TEXT field, this value could be exported with an error (#8229).</p>
 
-<p><strong>Export to MySQL database:</strong>&nbsp;when exporting strings with&nbsp;<em>CHARACTER SET utf8</em> to table&nbsp;<em>1, 1001, 2001, ..</em>,&nbsp;the last exported string contained the invalid value (#8230).</p>
+<p><strong>Export to MySQL database:</strong>&nbsp;when exporting <em>1, 1001, 2001, ..</em>&nbsp;strings with&nbsp;<em>CHARACTER SET utf8</em> to table,&nbsp;the last exported string contained the invalid value (#8230).</p>
 
-<p><strong>Platform core:</strong>&nbsp;if the user with "Workflows design" role tried to open the package in the read-only folder according to the file system level, it was not possible to open the package, and the user received the message informing about package opening failure. Now, in this case, it is a read-only package, and a user will receive corresponding message(#8431).</p>
+<p><strong>Platform core:</strong>&nbsp;if the user with "Workflows design" role tried to open the package in the read-only folder of the file system level, it was not possible to open the package, and the user received the message informing about package opening failure. Now, in this case, it is a read-only package, and a user will receive corresponding message(#8431).</p>
 
 <h2 id="повышение-информативности-и-удобства">UI/UX and Usability Improvements</h2>
 
