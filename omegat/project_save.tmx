@@ -2398,6 +2398,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ошибка была связана с тем, что в создаваемом файле &lt;e1&gt;env.conf&lt;/e1&gt; параметр &lt;e2&gt;WS_PROXY_URI&lt;/e2&gt; был задан как &lt;e3&gt;ws/&lt;/e3&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210902T071908Z" creationid="Марианна" creationdate="20210902T071908Z">
+        <seg>Ошибка была связана с тем, что в создаваемом файле &lt;e1&gt;env.conf&lt;/e1&gt; параметр &lt;e2&gt;WS_PROXY_URI&lt;/e2&gt; was set as &lt;e3&gt;ws/&lt;/e3&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ошибка могла встречаться и при настроке других узлов, но значительно реже (#8477).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210617T081319Z" creationid="Марианна" creationdate="20210617T081319Z">
