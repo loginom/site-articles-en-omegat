@@ -574,6 +574,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Импорт из Deductor Warehouse:&lt;/s0&gt; если при проектировании в Процесс включили несколько раз одно и то же Измерение и изменили метку, то в мастера импорта в дереве параметров эти Измерения имели одинаковые названия, при этом после переноса таких Измерений в область Полей, их подписи отображалась корректно (#8556).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210902T125426Z" creationid="Марианна" creationdate="20210902T125426Z">
+        <seg>&lt;s0&gt;Import from Deductor Warehouse:&lt;/s0&gt; if one and the same Dimension was included into the Process several times, and the caption was changed while designing, these Dimensions had the same names in the import wizard in the parameters tree, when transferring such Dimensions to the Fields area, their caption texts were incorrectly displayed (#8556).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Импорт из Баз данных:&lt;/s0&gt; при подключении к MS SQL Server с использованием ODBC драйвера, поля типа &lt;e1&gt;TinyInt&lt;/e1&gt; ошибочно определялись, как имеющие неопределенный тип (#8183).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210322T233108Z" creationid="Марианна" creationdate="20210322T232841Z">
