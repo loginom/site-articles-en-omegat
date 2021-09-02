@@ -1198,6 +1198,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/integration/connections/list/interbase.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210902T132550Z" creationid="Марианна" creationdate="20210902T132550Z">
+        <seg>https://help.loginom.ru/userguide/integration/connections/list/interbase.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>https://help.loginom.ru/userguide/integration/connections/list/mssql.html</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T195942Z" creationid="Марианна" creationdate="20210314T195942Z">
@@ -2730,6 +2738,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210322T171054Z" creationid="Марианна" creationdate="20210322T171054Z">
         <seg>When supplying data to previously trained model, it became possible to compare distribution of actual bin rates with the training ones in &lt;a0&gt;Coarse сlasses&lt;/a0&gt; visualizer.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При попытке перейти на нее в дереве каталогов возникала ошибка «System Error.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210902T132923Z" creationid="Марианна" creationdate="20210902T132923Z">
+        <seg>While attempting to move to it in the directory tree, the following error occurred: "System Error".</seg>
       </tuv>
     </tu>
     <tu>
