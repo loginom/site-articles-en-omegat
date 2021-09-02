@@ -2974,6 +2974,22 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Циклические связи между узлами запрещены».</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210902T072651Z" creationid="Марианна" creationdate="20210902T072651Z">
+        <seg>Circular links between nodes are not allowed".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Эта же ошибка могла возникать при открытии пакета, содержащего подобную конфигурацию узлов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210902T072856Z" creationid="Марианна" creationdate="20210902T072856Z">
+        <seg>The same error could occur while opening the package containing the same node configuration.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Это позволяет оценить соответствие между данными, использованными при построении и применении модели, а в случае существенного расхождения — перестроить модель.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210322T171343Z" creationid="Марианна" creationdate="20210322T171343Z">
