@@ -2166,6 +2166,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Корректное значение параметра – &lt;e4&gt;app/ws/&lt;/e4&gt; (#8544).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210902T072150Z" creationid="Марианна" creationdate="20210902T072150Z">
+        <seg>The correct paramater value is &lt;e4&gt;app/ws/&lt;/e4&gt; (#8544).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Кроме того, отображаемые на графике ряды можно активировать и деактивировать.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210321T215417Z" creationid="Марианна" creationdate="20210321T215417Z">
