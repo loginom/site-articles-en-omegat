@@ -368,8 +368,8 @@
       <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Конечные классы:&lt;/s1&gt;&lt;/a0&gt; при переходе в мастере настройки назад со страницы настройки разбиения, а затем обратно, если изменялись настройки, влияющие на количество классов, то на страницах мастера продолжало отображаться предыдущее количество классов.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210902T131153Z" creationid="Марианна" creationdate="20210902T131153Z">
-        <seg>&lt;a0&gt;&lt;s1&gt;Coarse сlasses:&lt;/s1&gt;&lt;/a0&gt; when moving back in the wizard from the binning configuration page and then backwards, if the settings that had influence on classe count had been changed, the previous class count was displayed on the wizard pages.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210902T131548Z" creationid="Марианна" creationdate="20210902T131153Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Coarse сlasses:&lt;/s1&gt;&lt;/a0&gt; when moving in the wizard back from the binning configuration page and then backwards, if the settings that had influence on class count had been changed, the previous class count was displayed on the wizard pages.</seg>
       </tuv>
     </tu>
     <tu>
