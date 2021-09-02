@@ -254,6 +254,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;a0&gt;&lt;s1&gt;Дата и Время:&lt;/s1&gt;&lt;/a0&gt; при преобразовании дат в стоковый формат отсутствовали ведущие нули для недели года, недели квартала, дня года и дня квартала.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210902T073856Z" creationid="Марианна" creationdate="20210902T073727Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Date and Time:&lt;/s1&gt;&lt;/a0&gt; when transforming dates to the string format, there were no leading zeros for year week, quarter week, year day and quarter day.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Импорт из Deductor Warehouse:&lt;/s1&gt;&lt;/a0&gt; если при формировании списка параметров фильтрации использовались поля с одинаковыми именами, то импорт выполнялся некорректно.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210616T195036Z" creationid="Марианна" creationdate="20210616T195036Z">
