@@ -1406,6 +1406,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/scenario/ports/</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210902T070510Z" creationid="Марианна" creationdate="20210902T070510Z">
+        <seg>https://help.loginom.ru/userguide/scenario/ports/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>https://help.loginom.ru/userguide/scenario/ports/field-synchronization.html</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T203044Z" creationid="Марианна" creationdate="20210314T203044Z">
