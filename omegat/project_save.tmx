@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="4.3.1_0_99222d65" segtype="sentence" srclang="ru"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="4.3.2_0_6a661c5e" segtype="sentence" srclang="ru"/>
   <body>
 <!-- Default translations -->
     <tu>
@@ -1006,6 +1006,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Loginom 6.4.3 — описание изменений</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210902T063828Z" creationid="Марианна" creationdate="20210902T063828Z">
+        <seg>Loginom 6.4.3 — Release Notes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Loginom Server</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T201728Z" creationid="Марианна" creationdate="20210314T201728Z">
@@ -1042,6 +1050,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T201732Z" creationid="Марианна" creationdate="20210314T201732Z">
         <seg>https://help.loginom.ru/adminguide/integrator/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>https://help.loginom.ru/adminguide/server</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210902T063849Z" creationid="Марианна" creationdate="20210902T063849Z">
+        <seg>https://help.loginom.ru/adminguide/server</seg>
       </tuv>
     </tu>
     <tu>
@@ -1698,6 +1714,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210322T215022Z" creationid="Марианна" creationdate="20210322T215022Z">
         <seg>Several errors detected when testing the features added in version 6.4.0 were corrected in this version.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В этом обновлении доработали файловое хранилище, оптимизировали использование процессора и оперативной памяти в многопоточном режиме, а также исправили обнаруженные ошибки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210902T070150Z" creationid="Марианна" creationdate="20210902T070150Z">
+        <seg>In this update, file storage was finalized, performance improvements related to operation of processor and memory in the multithreading mode were made, and some fixes were performed.</seg>
       </tuv>
     </tu>
     <tu>
