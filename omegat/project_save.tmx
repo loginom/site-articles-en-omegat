@@ -952,8 +952,8 @@
       <tuv lang="ru">
         <seg>&lt;s0&gt;Файловое хранилище:&lt;/s0&gt; из дерева каталогов не удалялась удаленная через «Вырезать–Вставить» папка.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210902T133037Z" creationid="Марианна" creationdate="20210902T133037Z">
-        <seg>&lt;s0&gt;File storage:&lt;/s0&gt; the folder deleted by means of "Cut-Paste" option was not deleted from the directory tree.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210903T141925Z" creationid="Марианна" creationdate="20210902T133037Z">
+        <seg>&lt;s0&gt;File storage:&lt;/s0&gt; the folder deleted by means of "Cut-Paste" functionality was not deleted from the directory tree.</seg>
       </tuv>
     </tu>
     <tu>
