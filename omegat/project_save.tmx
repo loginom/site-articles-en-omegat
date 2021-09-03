@@ -2310,6 +2310,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Из-за неправильной установки фокуса мог некорректно работать функционал копирования–вставки через горячие клавиши (#8023, #8516).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210903T101121Z" creationid="Марианна" creationdate="20210903T101121Z">
+        <seg>Incorrect focusing could cause incorrect hotkey operation of copy-paste functionality (#8023, #8516).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Изменения в Loginom версии 6.4.0</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210322T221445Z" creationid="Марианна" creationdate="20210322T221445Z">
