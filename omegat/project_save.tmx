@@ -888,8 +888,8 @@
       <tuv lang="ru">
         <seg>&lt;s0&gt;Файловое хранилище:&lt;/s0&gt; при переходе из текущего каталога в родительский, выделение устанавливалось на &lt;e1&gt;".."&lt;/e1&gt;, а не на каталог, из которого вышли.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210903T085722Z" creationid="Марианна" creationdate="20210903T085722Z">
-        <seg>&lt;s0&gt;Файловое хранилище:&lt;/s0&gt; when moving from the current directory to the parent one, &lt;e1&gt;".."&lt;/e1&gt; was selected but not the directory from which .</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210903T085830Z" creationid="Марианна" creationdate="20210903T085722Z">
+        <seg>&lt;s0&gt;File storage:&lt;/s0&gt; when moving from the current directory to the parent one, &lt;e1&gt;".."&lt;/e1&gt; was selected but not the quitted directory.</seg>
       </tuv>
     </tu>
     <tu>
