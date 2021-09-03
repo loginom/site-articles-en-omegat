@@ -878,6 +878,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Файловое хранилище:&lt;/s0&gt; если перейти в папку файлового хранилища, ранее открытую в другой вкладке, а затем попытаться закрыть вкладку с ранее открытой папкой нажатием на &lt;e1&gt;X&lt;/e1&gt; (крестик), то возникала ошибка "Cannot read property 'ActiveLoadersCount' of undefined" или "this.FFileSenderManager is undefined" (#8529).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210903T102159Z" creationid="Марианна" creationdate="20210903T102159Z">
+        <seg>&lt;s0&gt;File storage:&lt;/s0&gt; if it was required to go to the file storage folder that had been previously opened in another tab, and then to try to close the tab with the previously opened folder by pressing &lt;e1&gt;X&lt;/e1&gt; (cross button icon), the following error occurred: "Cannot read property 'ActiveLoadersCount' of undefined" or "this.FFileSenderManager is undefined" (#8529).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Файловое хранилище:&lt;/s0&gt; из дерева каталогов не удалялась удаленная через «Вырезать–Вставить» папка.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210902T133037Z" creationid="Марианна" creationdate="20210902T133037Z">
