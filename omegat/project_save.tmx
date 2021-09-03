@@ -2432,8 +2432,8 @@
       <tuv lang="ru">
         <seg>Если ранее возникала ошибка, то после обновления необходимо повторно пройти мастер настройки экспорта (#8585).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210903T104325Z" creationid="Марианна" creationdate="20210903T104325Z">
-        <seg>If the error has been identified before, it is required to go to the export configurtion wizard once again after update (#8585).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210903T142305Z" creationid="Марианна" creationdate="20210903T104325Z">
+        <seg>If the error has been identified before, it is required to go to the export configuration wizard once again after update (#8585).</seg>
       </tuv>
     </tu>
     <tu>
