@@ -968,8 +968,8 @@
       <tuv lang="ru">
         <seg>&lt;s0&gt;Ядро платформы:&lt;/s0&gt; в случае, если Подмодель содержала Узел-ссылку, ссылающийся на другой узел внутри этой подмодели, а порядок выполнения для Узла-ссылки был связан со входным и выходным портом содержащей его Подмодели, то процесс активации Подмодели мог зависнуть и его невозможно было отменить.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210903T104541Z" creationid="Марианна" creationdate="20210903T104340Z">
-        <seg>&lt;s0&gt;Platform core:&lt;/s0&gt; if the Supernode contained the Reference Node referring to another noe inside this supernode, and the execution order of this Reference Node was connected with the input and output port of the Supernode that contained it, the Supernode actiovation process could be frozen and it was impossible to cancel it.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210903T104640Z" creationid="Марианна" creationdate="20210903T104340Z">
+        <seg>&lt;s0&gt;Platform core:&lt;/s0&gt; if the Supernode contained the Reference Node referring to another node inside this supernode, and the execution order of the Reference Node was connected with the input and output port of the Supernode that contained it, the Supernode activation process could be frozen, and it was impossible to cancel it.</seg>
       </tuv>
     </tu>
     <tu>
