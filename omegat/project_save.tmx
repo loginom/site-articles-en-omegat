@@ -574,6 +574,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;a0&gt;&lt;s1&gt;Цикл:&lt;/s1&gt;&lt;/a0&gt; при активации параллельного Цикла, содержащего вложенную Подмодель и Узел-ссылку, ссылающийся на узел, находящийся внутри Подмодели, могла возникать ошибка «Узел "Цикл" заблокирован».</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210903T103412Z" creationid="Марианна" creationdate="20210903T103412Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Loop:&lt;/s1&gt;&lt;/a0&gt; on activation of the parallel Loop containing the nested Supernode and Reference Node referring to the node located in the Supernode, the following error could occur: "Loop" node is locked".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Экспорт в Deductor Warehouse:&lt;/s1&gt; &lt;/a0&gt;при настройке парметров экспорта некорректно работала настройка соответствия столбцов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210617T091812Z" creationid="Марианна" creationdate="20210617T091651Z">
@@ -914,6 +922,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210903T101456Z" creationid="Марианна" creationdate="20210903T101456Z">
         <seg>&lt;s0&gt;File storage:&lt;/s0&gt; while attempting to open the package using the symbolic link to the file physically located in the network folder, the following error occurred: "System failed to find the specified path". It was connected with failure to define the file modification date (#8452).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;s0&gt;Фильтр строк:&lt;/s0&gt; было невозможно настроить два и более условий по временному промежутку (&lt;e1&gt;первый/не первый или последний/не последний&lt;/e1&gt;) (#8634).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210903T103055Z" creationid="Марианна" creationdate="20210903T103055Z">
+        <seg>&lt;s0&gt;Row filter:&lt;/s0&gt; it was impossible to set two and more conditions by the time lapse (&lt;e1&gt;first/not first or last/not last&lt;/e1&gt;) (#8634).</seg>
       </tuv>
     </tu>
     <tu>
@@ -2538,6 +2554,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T194928Z" creationid="Марианна" creationdate="20210314T194928Z">
         <seg>Monitoring of active users and busy packages.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Например, если было выбрано условие «первый день от текущей даты» (#8633).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210903T102944Z" creationid="Марианна" creationdate="20210903T102944Z">
+        <seg>For example, if "the first day from the current date" was selected (#8633).</seg>
       </tuv>
     </tu>
     <tu>
