@@ -3199,6 +3199,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ранее при попытке передать в функцию &lt;e7&gt;builtin_pandas_utils.to_data_frame&lt;/e7&gt; таблицу, содержащую целочисленный или логический столбец с пропущенными значениями, возникала ошибка "...int() argument must be a string, a bytes-like object or a number, not 'NoneType' " (#8522).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210903T115115Z" creationid="Марианна" creationdate="20210903T115115Z">
+        <seg>Previously, while attempting to transfer the table containing the integer-value or logical column with null values to &lt;e7&gt;builtin_pandas_utils.to_data_frame&lt;/e7&gt; function , the following error occurred: "...int() argument must be a string, a bytes-like object or a number, not 'NoneType' " (#8522).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ранее при ручном редактировании границ, их значение отображалось с округлением до двух знаков после запятой (#8635).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210903T113928Z" creationid="Марианна" creationdate="20210903T113928Z">
