@@ -3094,6 +3094,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Такая ситуация могла, например, возникнуть, если пользователю предоставлял доступ другой пользователь, были изменены права доступа к каталогам через панель Администрирование, или новый каталог был создан через диалог сохранения файла (#5347, #6032, #6423, #8022).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210903T084603Z" creationid="Марианна" creationdate="20210903T084603Z">
+        <seg>For example, such situation could arise if another user gave access to the user, the rights of access to the directories via the Administration bar were changed, or the new directory was created via the file saving dialog (#5347, #6032, #6423, #8022).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Такая ситуация не является циклической зависимостью, так как при «Выполнении узла», в отличии от «Узла-ссылки», используется только конфигурация узла, а данные на вход могут подаваться отличные от тех, которые используются в базовом узле (#8614).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210902T123011Z" creationid="Марианна" creationdate="20210902T122709Z">
