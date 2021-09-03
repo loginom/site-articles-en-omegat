@@ -504,8 +504,8 @@
       <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Таблица в дерево:&lt;/s1&gt;&lt;/a0&gt; если не получилось автоматически сопоставить входные и выходные поля, то после настройки узла возникала ошибка «Таблица в дерево: Выходному узлу ... не сопоставлен входной узел» и для исправления ошибки требовалось зайти в настройку выходного порта.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210903T083100Z" creationid="Марианна" creationdate="20210903T083100Z">
-        <seg>&lt;a0&gt;&lt;s1&gt;Table to tree:&lt;/s1&gt;&lt;/a0&gt; if automatic mapping of the input and output fields failed, the following error occurred upon the node configuration: "Table to tree: The output node ... has not been mapped to the input node". It was required to go to the output port settings to perform the fixes.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210903T083138Z" creationid="Марианна" creationdate="20210903T083100Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Table to tree:&lt;/s1&gt;&lt;/a0&gt; if the automatic mapping of the input and output fields failed, the following error occurred upon the node configuration: "Table to tree: The output node ... has not been mapped to the input node". It was required to go to the output port settings to perform the fixes.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3194,6 +3194,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210323T080326Z" creationid="Марианна" creationdate="20210323T075710Z">
         <seg>Now, the node is explicitly checked for, at least, one active input port, and if all input ports are inactive, the node is inactive, no mistakes occur in this case.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Теперь, если при настройке узла возникает такая ситуация, открывается страница «Настройка соответствия между деревьями данных» (#8659).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210903T083244Z" creationid="Марианна" creationdate="20210903T083244Z">
+        <seg>Now, if such situation arises during the node configuration process, the following page is opened: "Adjustment of Data Trees Mapping" (#8659).</seg>
       </tuv>
     </tu>
     <tu>
