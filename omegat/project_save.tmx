@@ -2998,6 +2998,15 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Прежнее поведение могло, в том числе, приводить к ошибкам в визуализаторе Куб &lt;e5&gt;#5803&lt;/e5&gt; (#8506).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210903T111150Z" creationid="Марианна" creationdate="20210903T111150Z">
+        <seg>The previous behaviour could cause the errors also in the Cube visualizer
+&lt;e5&gt;#5803&lt;/e5&gt; (#8506).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При вызове контекстного меню у этого элемента можно было выбрать ошибочно отображаемый пункт «Показать визуализаторы», при этом возникала ошибка «Cannot read property 'NodeIndex' of undefined».</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210617T081946Z" creationid="Марианна" creationdate="20210617T081946Z">
@@ -3394,6 +3403,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T200919Z" creationid="Марианна" creationdate="20210314T200919Z">
         <seg>The Contradiction Notion</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>У Пользователя есть возможность самостоятельно установить для выходных столбцов «Назначения по умолчанию».</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210903T111015Z" creationid="Марианна" creationdate="20210903T111015Z">
+        <seg>The User can set "Default usage types" for the output columns at his discretion.</seg>
       </tuv>
     </tu>
     <tu>
