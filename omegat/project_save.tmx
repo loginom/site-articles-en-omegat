@@ -958,6 +958,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Файловое хранилище:&lt;/s0&gt; оптимизирована скорость создания каталогов для случая, когда в текущем каталоге уже содержится большое количество каталогов (несколько десятков или сотни вложенных каталогов) (#8196).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210903T123935Z" creationid="Марианна" creationdate="20210903T123935Z">
+        <seg>&lt;s0&gt;File storage:&lt;/s0&gt; the speed of directories creation is optimised for the case when there are many directories in the current directory (several dozens or hundreds of nested directories) (#8196).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Файловое хранилище:&lt;/s0&gt; при выполнении функционала «Вырезать-Вставить» вместо копирования и удаления исходной папки теперь используется операция перемещения.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210903T110801Z" creationid="Марианна" creationdate="20210903T110801Z">
