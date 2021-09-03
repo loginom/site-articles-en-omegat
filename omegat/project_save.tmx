@@ -3070,6 +3070,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Теперь при включении редактирования явно отображается выделенный класс, а кнопки «Объединить с предыдущим» и «Объединить со следующим» становятся неактивными, если действие невозможно выполнить (#8578).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210903T061821Z" creationid="Марианна" creationdate="20210903T061821Z">
+        <seg>Now, when enabling the editing mode, the selected class is clearly displayed, and "Merge with previous" and "Merge with next" buttons become inactive if the action cannot be performed (#8578).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Теперь пункт меню «Показать визуализаторы» отображается только для узлов (#5088).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210617T082026Z" creationid="Марианна" creationdate="20210617T082026Z">
