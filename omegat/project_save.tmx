@@ -664,8 +664,16 @@
       <tuv lang="ru">
         <seg>&lt;s0&gt;Куб, &lt;a1&gt;Подмодель:&lt;/a1&gt;&lt;/s0&gt; если внутри базовой Подмодели у одного из узлов был настроен визуализатор Куб с настроенной сортировкой по одному из столбцов, то при попытке настроить производную Подмодель возникала ошибка "Атрибут __baseName не существует" (#8536).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210903T072745Z" creationid="Марианна" creationdate="20210903T072745Z">
-        <seg>&lt;s0&gt;Cube, &lt;a1&gt;Supernode:&lt;/a1&gt;&lt;/s0&gt; if Cube visualizer with the sorting configured by one of the columns was configured inside the base Supernode, while attempting to configure the derived Supernode, the following error occurred: "__baseName attribute does not exist" (#8536).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210903T072840Z" creationid="Марианна" creationdate="20210903T072745Z">
+        <seg>&lt;s0&gt;Cube, &lt;a1&gt;Supernode:&lt;/a1&gt;&lt;/s0&gt; if Cube visualizer with the sorting configured by one of the columns was configured in the base Supernode, while attempting to configure the derived Supernode, the following error occurred: "__baseName attribute does not exist" (#8536).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;s0&gt;Куб, Подмодель:&lt;/s0&gt; если внутри производной Подмодели у узла, содержащего настроенный визуализатор Куб настроить сортировку, а затем у узла базовой Подмодели добавить измерения в Кубе, то после обновления конфигурации узла настроенный визуализатор помечался ошибочным (#8528).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210903T073429Z" creationid="Марианна" creationdate="20210903T072830Z">
+        <seg>&lt;s0&gt;Cube, Supernode:&lt;/s0&gt; if sorting was configured for the node containing the configured Cube visualizer in the derived Supernode, and then dimensions in the Cube were added for the base Supernode node, the configured visualizer was marked as the invalid one upon the node configuration update (#8528).</seg>
       </tuv>
     </tu>
     <tu>
