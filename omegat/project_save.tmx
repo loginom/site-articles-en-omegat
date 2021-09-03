@@ -886,6 +886,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Файловое хранилище:&lt;/s0&gt; при переходе из текущего каталога в родительский, выделение устанавливалось на &lt;e1&gt;".."&lt;/e1&gt;, а не на каталог, из которого вышли.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210903T085722Z" creationid="Марианна" creationdate="20210903T085722Z">
+        <seg>&lt;s0&gt;Файловое хранилище:&lt;/s0&gt; when moving from the current directory to the parent one, &lt;e1&gt;".."&lt;/e1&gt; was selected but not the directory from which .</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Цикл:&lt;/s0&gt; при запуске в параллельном режиме в результате создания большого количества производных узлов могла возникать ошибка «Значение индекса … параметра “…” вне диапазона […; …]» (#8200).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210323T091013Z" creationid="Марианна" creationdate="20210323T091013Z">
