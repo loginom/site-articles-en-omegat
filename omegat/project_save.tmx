@@ -3175,6 +3175,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ранее при ручном редактировании границ, их значение отображалось с округлением до двух знаков после запятой (#8635).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210903T113928Z" creationid="Марианна" creationdate="20210903T113928Z">
+        <seg>Previously, their value was displayed with rounding up to two decimal places in case of the manual editing of bounds (#8635).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ранее это можно было сделать только следующим образом: в окне настройки модификатора доступа выбираем статус «Опубликованный», затем задаем имя узла, затем возвращаем прежний статус.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210322T172323Z" creationid="Марианна" creationdate="20210322T172323Z">
