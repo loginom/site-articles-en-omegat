@@ -934,6 +934,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Файловое хранилище:&lt;/s0&gt; при выполнении функционала «Вырезать-Вставить» вместо копирования и удаления исходной папки теперь используется операция перемещения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210903T110801Z" creationid="Марианна" creationdate="20210903T110801Z">
+        <seg>&lt;s0&gt;File storage:&lt;/s0&gt; when executing "Copy-Paste" functionality, move operation is now used instead of the source folder copying and pasting.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Файловое хранилище:&lt;/s0&gt; при переходе из текущего каталога в родительский, выделение устанавливалось на &lt;e1&gt;".."&lt;/e1&gt;, а не на каталог, из которого вышли.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210903T085830Z" creationid="Марианна" creationdate="20210903T085722Z">
