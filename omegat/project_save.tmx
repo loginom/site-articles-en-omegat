@@ -518,6 +518,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;a0&gt;&lt;s1&gt;Узел-ссылка:&lt;/s1&gt;&lt;/a0&gt; при сохранении пакета, содержащего Узел-ссылку, могла возникать ошибка «Узел "..." заблокирован», если в параллельной сессии выполнялся узел, использующий данные выходного порта исходного узла, на который был настроен Узел-ссылка (#8680).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210903T083548Z" creationid="Марианна" creationdate="20210903T083548Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Reference node:&lt;/s1&gt;&lt;/a0&gt; when saving the package containing the reference node, the following error could occur: "..." node is locked" if the node that used the data of the source node of the output port to which the Reference node was configured (#8680).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Условие:&lt;/s1&gt;&lt;/a0&gt; при попытке выполнения узлов Объединение или Соединение, подключенных к неактивному порту Условия, возникала ошибка «Нет ни одного активного входа».</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210903T060608Z" creationid="Марианна" creationdate="20210323T075430Z">
