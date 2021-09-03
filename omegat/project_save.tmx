@@ -368,8 +368,8 @@
       <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Конечные классы:&lt;/s1&gt;&lt;/a0&gt; если непрерывное входное поле не содержало ни одного значения, то узел переобучался, но потом его нельзя было активировать (#8298).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210616T203234Z" creationid="Марианна" creationdate="20210616T203234Z">
-        <seg>&lt;a0&gt;&lt;s1&gt;Coarse Classes:&lt;/s1&gt;&lt;/a0&gt; if the continuous input field contained no values, the node was retrained but it was not possible to activate it later (#8298).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210903T113340Z" creationid="Марианна" creationdate="20210616T203234Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Coarse classes:&lt;/s1&gt;&lt;/a0&gt; if the continuous input field contained no values, the node was retrained but it was not possible to activate it later (#8298).</seg>
       </tuv>
     </tu>
     <tu>
@@ -730,6 +730,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210903T061039Z" creationid="Марианна" creationdate="20210903T061039Z">
         <seg>&lt;s0&gt;Coarse сlasses:&lt;/s0&gt; "Merge with previous" and "Merge with next" buttons were always active in the binning editing mode.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;s0&gt;Конечные классы:&lt;/s0&gt; отключено отображение с округлением значений границ конечного класса в мастере настройки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210903T113658Z" creationid="Марианна" creationdate="20210903T113658Z">
+        <seg>&lt;s0&gt;Coarse сlasses:&lt;/s0&gt; view with rounding of values of the coarse class bounds is disabled in the wizard.</seg>
       </tuv>
     </tu>
     <tu>
