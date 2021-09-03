@@ -2416,8 +2416,8 @@
       <tuv lang="ru">
         <seg>Если при заполнении массивов &lt;e4&gt;numpy&lt;/e4&gt; возникает необходимость обработки пропущенных значений целочисленного и логического типов, то используется вещественный тип, а пропущенные значения преобразуются в &lt;e5&gt;NaN&lt;/e5&gt; (&lt;e6&gt;np.nan&lt;/e6&gt;).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210903T142550Z" creationid="Марианна" creationdate="20210903T114621Z">
-        <seg>If it is required to process the null values related to the integer-value and logical types when filling  &lt;e4&gt;numpy&lt;/e4&gt; arrays, the real type is used, and null values are transformed to &lt;e5&gt;NaN&lt;/e5&gt; (&lt;e6&gt;np.nan&lt;/e6&gt;).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210903T142656Z" creationid="Марианна" creationdate="20210903T114621Z">
+        <seg>If it is required to process the null values related to the integer and logical types when filling  &lt;e4&gt;numpy&lt;/e4&gt; arrays, the real type is used, and null values are transformed to &lt;e5&gt;NaN&lt;/e5&gt; (&lt;e6&gt;np.nan&lt;/e6&gt;).</seg>
       </tuv>
     </tu>
     <tu>
