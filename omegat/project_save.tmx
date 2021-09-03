@@ -606,6 +606,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Импорт из Deductor Warehouse:&lt;/s0&gt; при попытке выполнить ненастроенный узел импорта возникала неинформативная ошибка.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210903T060508Z" creationid="Марианна" creationdate="20210903T060508Z">
+        <seg>&lt;s0&gt;Import from Deductor Warehouse:&lt;/s0&gt; while attempting to execute unconfigured import node, uninformative error occurred.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Импорт из Баз данных:&lt;/s0&gt; при подключении к MS SQL Server с использованием ODBC драйвера, поля типа &lt;e1&gt;TinyInt&lt;/e1&gt; ошибочно определялись, как имеющие неопределенный тип (#8183).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210322T233108Z" creationid="Марианна" creationdate="20210322T232841Z">
