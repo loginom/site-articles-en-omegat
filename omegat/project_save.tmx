@@ -550,6 +550,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;&lt;a1&gt;Подключения к БД FireBird,&lt;/a1&gt; &lt;a2&gt;Interbase:&lt;/a2&gt;&lt;/s0&gt; после разрыва соединения с сервером базы данных не восстанавливалось соединение при повторной активации подключения (#8615).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210903T081027Z" creationid="Марианна" creationdate="20210903T081027Z">
+        <seg>&lt;s0&gt;&lt;a1&gt;Connections to FireBird DB,&lt;/a1&gt; &lt;a2&gt;Interbase:&lt;/a2&gt;&lt;/s0&gt; upon database server connection loss, connection was not restored on repeated connection activation (#8615).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Loginom Desktop, &lt;a1&gt;Loginom Server:&lt;/a1&gt;&lt;/s0&gt; если пакет содержал запущенный процесс, то сразу возникало сообщение об ошибке «В процессе работы программы возникла ошибка.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210616T145922Z" creationid="Марианна" creationdate="20210616T145922Z">
