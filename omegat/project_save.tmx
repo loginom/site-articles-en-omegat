@@ -662,6 +662,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Куб, &lt;a1&gt;Подмодель:&lt;/a1&gt;&lt;/s0&gt; если внутри базовой Подмодели у одного из узлов был настроен визуализатор Куб с настроенной сортировкой по одному из столбцов, то при попытке настроить производную Подмодель возникала ошибка "Атрибут __baseName не существует" (#8536).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210903T072745Z" creationid="Марианна" creationdate="20210903T072745Z">
+        <seg>&lt;s0&gt;Cube, &lt;a1&gt;Supernode:&lt;/a1&gt;&lt;/s0&gt; if Cube visualizer with the sorting configured by one of the columns was configured inside the base Supernode, while attempting to configure the derived Supernode, the following error occurred: "__baseName attribute does not exist" (#8536).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Куб:&lt;/s0&gt; при работе в Microsoft Edge с версией ниже 79 во время экспорта из визуализаторов возникала ошибка «Не удалось экспортировать кросс-таблицу Куба: Function expected» (#8255).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210323T072035Z" creationid="Марианна" creationdate="20210323T072035Z">
