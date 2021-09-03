@@ -3294,6 +3294,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Теперь появляется предупреждение, что не выбран объект хранилища данных (#8515).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210903T104823Z" creationid="Марианна" creationdate="20210903T104823Z">
+        <seg>Now, the warning that there is no selected data warehouse object is displayed (#8515).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Теперь при включении редактирования явно отображается выделенный класс, а кнопки «Объединить с предыдущим» и «Объединить со следующим» становятся неактивными, если действие невозможно выполнить (#8578).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210903T061821Z" creationid="Марианна" creationdate="20210903T061821Z">
