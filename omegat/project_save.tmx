@@ -3207,6 +3207,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ранее операция «Вырезать-Вставить» могла занимать продолжительное время, а также при копировании каталогов с объемом больше 2 Гб можно было в процессе копирования на соседней вкладке вырезать подкаталог копируемого каталога (#6031, #6366).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210903T124500Z" creationid="Марианна" creationdate="20210903T124500Z">
+        <seg>Previously, "Cut-Paste" operation could take much time, and when copying 2 GB directories, it was possible to cut the subdirectory of the copied directory in the next tab while copying (#6031, #6366).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ранее попытки выполнения этих действий могли приводить к неинформативным сообщениям (#8170).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210325T115559Z" creationid="Марианна" creationdate="20210323T081916Z">
