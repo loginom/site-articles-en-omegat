@@ -3151,6 +3151,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ранее для &lt;e1&gt;Фактов&lt;/e1&gt; устанавливались «Назначения по умолчанию» равное &lt;e2&gt;Показатель&lt;/e2&gt;, а для &lt;e3&gt;Измерений&lt;/e3&gt; - &lt;e4&gt;Группа&lt;/e4&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210903T114125Z" creationid="Марианна" creationdate="20210903T114125Z">
+        <seg>Previously, "Default usage types" equal to &lt;e2&gt;Value&lt;/e2&gt;, and for &lt;e3&gt;Dimensions&lt;/e3&gt; - &lt;e4&gt;Group&lt;/e4&gt; were set for &lt;e1&gt;Measures &lt;/e1&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ранее не было возможности получить и использовать этот идентификатор.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T204622Z" creationid="Марианна" creationdate="20210314T204622Z">
