@@ -782,6 +782,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Логирование:&lt;/s0&gt; в сообщения лога для событий начала и окончания выполнения узла добавлен GUID (уникальный идентификатор) узла (#8667).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210903T110439Z" creationid="Марианна" creationdate="20210903T110439Z">
+        <seg>&lt;s0&gt;Logging:&lt;/s0&gt; node GUID (unique identifier) was added to the log messages for the events relating to the node execution start and end (#8667).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Локализация:&lt;/s0&gt; если англоязычная версия программы была запущенна на русской версии Windows, то при вводе вещественных чисел в качестве разделителя необходимо было указывать точку &lt;e1&gt;&lt;.&gt;&lt;/e1&gt;, при этом редактор подсвечивал такой разделитель, как ошибочный (#8141).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210617T075939Z" creationid="Марианна" creationdate="20210617T075939Z">
@@ -994,6 +1002,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210626T065343Z" creationid="Марианна" creationdate="20210617T105331Z">
         <seg>&lt;s0&gt;Platform core:&lt;/s0&gt; if the user with "Workflows design" role tried to open the package in the read-only folder of the file system level, it was not possible to open the package, and the user received the message informing about package opening failure.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;s0&gt;Ядро платформы:&lt;/s0&gt; количество рабочих потоков сделано динамическим.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210903T110042Z" creationid="Марианна" creationdate="20210903T110042Z">
+        <seg>&lt;s0&gt;Platform core:&lt;/s0&gt; worker thread count became dynamic.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2338,6 +2354,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210616T164828Z" creationid="Марианна" creationdate="20210616T164654Z">
         <seg>If all active processes are not finished during the timeout, the error message will appear.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Если дополнительные потоки простаивают, то они постепенно удаляются, чтобы снизить потребление оперативной памяти.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210903T110150Z" creationid="Марианна" creationdate="20210903T110150Z">
+        <seg>If additional threads are not used, they are gradually deleted to decrease the memory consumption.</seg>
       </tuv>
     </tu>
     <tu>
