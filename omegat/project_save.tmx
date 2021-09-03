@@ -854,6 +854,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Файловое хранилище:&lt;/s0&gt; если из каталога на уровень вверх или уровень вниз перемещался внутренний каталог, то при попытке открыть первый каталог возникала ошибка «System Error.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210903T084902Z" creationid="Марианна" creationdate="20210903T084902Z">
+        <seg>&lt;s0&gt;File storage:&lt;/s0&gt; if the internal directory was moved one level up or down from the directory, while attempting to open the first directory, the following error occurred: "System Error.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Файловое хранилище:&lt;/s0&gt; из дерева каталогов не удалялась удаленная через «Вырезать–Вставить» папка.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210902T133037Z" creationid="Марианна" creationdate="20210902T133037Z">
