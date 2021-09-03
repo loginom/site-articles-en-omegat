@@ -864,8 +864,8 @@
       <tuv lang="ru">
         <seg>&lt;s0&gt;Файловое хранилище:&lt;/s0&gt; если после копирования каталога переименовать один из каталогов, содержащих копируемый каталог, то при вставке возникала ошибка «System Error.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210903T084915Z" creationid="Марианна" creationdate="20210903T084915Z">
-        <seg>&lt;s0&gt;File storage:&lt;/s0&gt; если после копирования каталога переименовать один из каталогов, содержащих копируемый каталог, то при вставке возникала ошибка «System Error.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210903T085223Z" creationid="Марианна" creationdate="20210903T084915Z">
+        <seg>&lt;s0&gt;File storage:&lt;/s0&gt; if one of the directores containing the copied directory was renamed after directory copying, when pasting, the following error occurred: "System Error.</seg>
       </tuv>
     </tu>
     <tu>
