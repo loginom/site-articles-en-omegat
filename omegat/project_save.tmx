@@ -910,6 +910,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Файловое хранилище:&lt;/s0&gt; в корне файлового хранилища сделаны неактивными действия, которые невозможно было выполнить: &lt;e1&gt;Загрузить, Создать каталог, Скачать, Переименовать, Копировать, Вставить, Вырезать, Удалить&lt;/e1&gt; (#8542).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210903T123558Z" creationid="Марианна" creationdate="20210903T123558Z">
+        <seg>&lt;s0&gt;File storage:&lt;/s0&gt; the actions that could not be performed became inactive in the file storage root: &lt;e1&gt;Load, New Folder, Download, Rename, Copy, Paste, Cut, Delete&lt;/e1&gt; (#8542).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Файловое хранилище:&lt;/s0&gt; если загрузить, а затем удалить файл, то невозможно было повторно загрузить с таким же именем до завершения сессии приложения.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210903T085446Z" creationid="Марианна" creationdate="20210903T085446Z">
