@@ -894,6 +894,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Файловое хранилище:&lt;/s0&gt; при попытке открыть пакет через символическую ссылку на файл, физически расположенный в сетевой папке, из-за невозможности определить дату модификации файла, возникала ошибка «Системе не удается найти указанный путь» (#8452).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210903T101456Z" creationid="Марианна" creationdate="20210903T101456Z">
+        <seg>&lt;s0&gt;File storage:&lt;/s0&gt; while attempting to open the package using the symbolic link to the file physically located in the network folder, the following error occurred: "System failed to find the specified path". It was connected with failure to define the file modification date (#8452).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Цикл:&lt;/s0&gt; при запуске в параллельном режиме в результате создания большого количества производных узлов могла возникать ошибка «Значение индекса … параметра “…” вне диапазона […; …]» (#8200).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210323T091013Z" creationid="Марианна" creationdate="20210323T091013Z">
