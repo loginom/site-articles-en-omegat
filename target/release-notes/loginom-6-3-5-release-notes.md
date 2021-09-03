@@ -36,17 +36,17 @@ _Several issues detected while operation of web-services and databases were fixe
 
 [**Logistic regression:**](https://help.loginom.ru/userguide/processors/datamining/logistic-regression/) the following error occurred in the Internet Explorer browser when selecting the validation method: "Failed to get "setWidth" property of the reference the value of which is not defined or is NULL" (#7659).
 
-**Adjustment of Variables Mapping:** if one of the selected records was removed using the recycle bin icon, the following error occurred when attempting to delete all selected records calling the context menu item or pressing *Delete*: "No extension for {...-..-..-..-...} base identifier found" (#7843).
+**Adjustment of Variables Mapping:** if one of the selected records was removed using the recycle bin icon, the following error occurred while attempting to delete all selected records calling the context menu item or pressing *Delete*: "No extension for {...-..-..-..-...} base identifier found" (#7843).
 
 **Adjustment of Columns Mapping:** in the case of multiple deleting of used output fields, the application processed the request for a long period of time and separately requested a confirmation of deletion of each field (#7921).
 
 [**Connections:**](https://help.loginom.ru/userguide/integration/connections/) if the URL service value was set by means of a variable, the following error occurred during the initial setting at the stage of connection testing or verification: "Service URL not specified" (#7982).
 
-[**Supernode:**](https://help.loginom.ru/userguide/processors/control/submodel.html) if the node receiving data from the Node execution node referring to the Supernode was activated, an error occurred when attempting to move the source Supernode into another Supernode (#7901).
+[**Supernode:**](https://help.loginom.ru/userguide/processors/control/submodel.html) if the node receiving data from the Node execution node referring to the Supernode was activated, an error occurred while attempting to move the source Supernode into another Supernode (#7901).
 
-**Supernode:** when attempting to move several nodes of complexly connected nodes, the following error could occur: "Workflow contains 1 locked node". For example, such error could occur when moving the nodes connected by means of the Reference Node that is inside the Supernode (#7977).
+**Supernode:** while attempting to move several nodes of complexly connected nodes, the following error could occur: "Workflow contains 1 locked node". For example, such error could occur when moving the nodes connected by means of the Reference Node that is inside the Supernode (#7977).
 
-[**Derived component:**](https://help.loginom.ru/userguide/scenario/derived-component.html) if Derived Component (№1) was deleted, Derived Node (№1) of which was the Base one for other Derived Component (№2), when attempting to create Derived Node (№2), uninformative error occurred (#7993).
+[**Derived component:**](https://help.loginom.ru/userguide/scenario/derived-component.html) if Derived Component (№1) was deleted, Derived Node (№1) of which was the Base one for other Derived Component (№2), while attempting to create Derived Node (№2), uninformative error occurred (#7993).
 
 **Expand/Collapse Supernode:** if the derived component was created inside the Supernode, and then all nodes were deleted inside the Supernode, when expanding such Supernode, the earlier created Derived Component was deleted. Now, when expanding the Supernode, the Derived Component is moved one level up from the Supernode (#7923).
 

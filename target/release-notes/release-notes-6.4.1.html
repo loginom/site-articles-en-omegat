@@ -34,7 +34,7 @@
 
 <p><strong>Reports bar:</strong> if the visualizer was opened in the Report form, when opening in the next tab of the same visualizer from the node, the Report tab was not closed automatically, and it was possible to change the visualizer settings in two tabs simultaneously that could cause errors (#8089).</p>
 
-<p><a href="https://help.loginom.ru/userguide/interface/processes-panel.html" target="_blank" title="Processes Bar in Loginom"><strong>Processes Bar:</strong></a> if many iterations were performed in the Loop, when attempting to expand the process completed earlier in the loop, the following undescriptive error message could appear: "Client proxy object disconnected" (#6669).</p>
+<p><a href="https://help.loginom.ru/userguide/interface/processes-panel.html" target="_blank" title="Processes Bar in Loginom"><strong>Processes Bar:</strong></a> if many iterations were performed in the Loop, while attempting to expand the process completed earlier in the loop, the following undescriptive error message could appear: "Client proxy object disconnected" (#6669).</p>
 
 <p><a href="https://help.loginom.ru/userguide/integration/connections/list/sqlite.html" target="_blank" title="SQLite Connection in Loginom"><strong>SQLite Connection:</strong></a> <a href="https://loginom.ru/blog/release-64" target="_blank" title="Changes in Loginom 6.4.0"> in version 6.4.0</a> "Create DB if it doesn't exist" connection setting was not operable (#8175).</p>
 
@@ -44,7 +44,7 @@
 
 <p><a href="https://help.loginom.ru/userguide/processors/preprocessing/editing-of-emissions.html" target="_blank" title="Eliminate Outliers Handler"><strong>Eliminate Outliers:</strong></a> when processing string or logical data, if empty data set was supplied to the input, or the data set columns consisted only of null values, on activation of the node, an error occurred (#8114).</p>
 
-<p><a href="https://help.loginom.ru/userguide/processors/control/condition.html" target="_blank" title="Condition Handler"><strong>Condition:</strong></a> when attempting to execute the Union or Join nodes connected to the inactive Condition port, the following error occurred: "No active inputs". Now, the node is explicitly checked for, at least, one active input port, and if all input ports are inactive, the node is inactive, no mistakes occur in this case. A user will see the error message only when explicitly attempting to activate the node connected to the inactive Condition branch (#3453).</p>
+<p><a href="https://help.loginom.ru/userguide/processors/control/condition.html" target="_blank" title="Condition Handler"><strong>Condition:</strong></a> while attempting to execute the Union or Join nodes connected to the inactive Condition port, the following error occurred: "No active inputs". Now, the node is explicitly checked for, at least, one active input port, and if all input ports are inactive, the node is inactive, no mistakes occur in this case. A user will see the error message only when explicitly attempting to activate the node connected to the inactive Condition branch (#3453).</p>
 
 <p><strong>Loginom setup:</strong> when setting one of the server Loginom editions over another previously installed edition, the executable <em>Server.exe</em> file was not replaced, therefore, the previous Loginom edition was started after update (#8132).</p>
 
