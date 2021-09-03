@@ -638,6 +638,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Конечные классы:&lt;/s0&gt; в режиме редактирования разбиения всегда были активны кнопки «Объединить с предыдущим» и «Объединить со следующим».</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210903T061039Z" creationid="Марианна" creationdate="20210903T061039Z">
+        <seg>&lt;s0&gt;Coarse сlasses:&lt;/s0&gt; "Merge with previous" and "Merge with next" buttons were always active in the binning editing mode.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Конечные классы:&lt;/s0&gt; при объединении классов с непрерывным типом данных некорректно определялись верхние и нижние границы обновленных классов (#8577).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210902T132532Z" creationid="Марианна" creationdate="20210902T132532Z">
