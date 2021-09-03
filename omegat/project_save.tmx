@@ -790,6 +790,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Подмодель:&lt;/s0&gt; если после создания производного компонента и создания производного узла, изменялась базовая Подмодель (например, внутрь подмодели был добавлен еще один узел), то при попытке активировать производный узел возникала ошибка «Внутренние узлы Подмодели заблокированы».</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210903T081717Z" creationid="Марианна" creationdate="20210903T081717Z">
+        <seg>&lt;s0&gt;Supernode:&lt;/s0&gt; if the base Supernode was changed upon creation of the derived component and derived node (for example, one more node was added to the supernode), while attempting to activate the derived node, the following error occurred: "Internal Supernode nodes locked".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Профили кластеров:&lt;/s0&gt; иконка фильтрации и текст кнопки теперь меняют цвет, если фильтр активен (#8174, #8463).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210617T103011Z" creationid="Марианна" creationdate="20210617T103011Z">
