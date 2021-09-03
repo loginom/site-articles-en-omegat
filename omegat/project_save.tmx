@@ -3400,8 +3400,8 @@
       <tuv lang="ru">
         <seg>Чем больше итераций было выбрано в настройках Цикла, тем выше была вероятность возникновения ошибки (#8531).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210903T103432Z" creationid="Марианна" creationdate="20210903T103432Z">
-        <seg>Чем больше итераций было выбрано в настройках Цикла, тем выше была the risk of error occurrence (#8531).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20210903T104042Z" creationid="Марианна" creationdate="20210903T103432Z">
+        <seg>The higher number of iterations was selected in the Loop settings, the higher risk of error occurrence was identified (#8531).</seg>
       </tuv>
     </tu>
     <tu>
