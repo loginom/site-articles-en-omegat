@@ -22,7 +22,7 @@
 
 <p><a href="https://help.loginom.ru/userguide/integration/connections/list/postgresql.html" target="_blank"><strong>Import from PostgreSQL:</strong></a>&nbsp;when one and the same parameter was used more than once in the request, the following error occurred: "Invalid parameters specified" (#8587).</p>
 
-<p><a href="https://help.loginom.ru/userguide/visualization/binary-classification/" target="_blank"><strong>Binary classification assessment:</strong></a>&nbsp;when copying data from error matrix to the clipboard to the values in&nbsp;<em>Predicted</em> column&nbsp;odd&nbsp;<em>%</em> symbols were added (#8638).</p>
+<p><a href="https://help.loginom.ru/userguide/visualization/binary-classification/" target="_blank"><strong>Binary classification assessment:</strong></a>&nbsp;when copying data from error matrix to the clipboard to the values in&nbsp;<em>Predicted</em> column,&nbsp;odd&nbsp;<em>%</em> symbols were added (#8638).</p>
 
 <p><a href="https://help.loginom.ru/userguide/processors/preprocessing/fine-classes.html" target="_blank"><strong>Coarse сlasses:</strong></a>&nbsp;when moving in the wizard back from the binning configuration page and then backwards, if the settings that had influence on class count had been changed, the previous class count was displayed on the wizard pages. It could also cause the following errors: "Next move forbidden Failed to apply fine classes for binning for %s column. There are too many unique values" or "Value 0 of "Index" parameter is out of [-1; -1] range" when switching the wizard pages (#8282, #8582, #8584, #8668, #8700).</p>
 
@@ -40,7 +40,7 @@
 
 <p><strong>Cube, Supernode:</strong>&nbsp;if sorting was configured for the node containing the configured Cube visualizer in the derived Supernode, and then dimensions in the Cube were added for the base Supernode node, the configured visualizer was marked as the invalid one upon the node configuration update (#8528).</p>
 
-<p><a href="https://help.loginom.ru/userguide/scenario/batchlauncher.html" target="_blank"><strong>Batch processing:</strong></a>&nbsp;if the package file to which the processed package referred was deleted or renamed during the package batch processing, upon the main package processing, the following message was recorded to the server log: "Error accessing file: ...lgp", and the processed package remained in the server memory, whereas the deleted or renamed package was still displayed in the list of common packages in the Session Manager  (#8572).</p>
+<p><a href="https://help.loginom.ru/userguide/scenario/batchlauncher.html" target="_blank"><strong>Batch processing:</strong></a>&nbsp;if the package file to which the processed package referred was deleted or renamed during the package batch processing, upon the main package processing, the following message was recorded to the server log: "Error accessing file: ...lgp", and the processed package remained in the server memory, whereas the deleted or renamed package was still displayed in the list of common packages in the Session Manager (#8572).</p>
 
 <p><strong><a href="https://help.loginom.ru/userguide/integration/connections/list/firebird.html" target="_blank">Connections to FireBird DB,</a> <a href="https://help.loginom.ru/userguide/integration/connections/list/interbase.html" target="_blank">Interbase:</a></strong>&nbsp;upon database server connection loss, connection was not restored on repeated connection activation (#8615).</p>
 
@@ -48,7 +48,7 @@
 
 <p><strong>Supernode:</strong>&nbsp;if the base Supernode was changed upon creation of the derived component and derived node (for example, one more node was added to the supernode), while attempting to activate the derived node, the following error occurred: "Internal Supernode nodes locked". The error occurred in version 6.4.2 (#8629).</p>
 
-<p><a href="https://help.loginom.ru/userguide/visualization/table/" target="_blank"><strong>Table:</strong></a>&nbsp;the value of <em>Base interval date</em> parameter was not defined and saved in the filter configuration window in the Table visualizer for the fields of&nbsp;the <em>Date/Time</em> type,&nbsp;when selecting&nbsp;<em>first / not first</em>&nbsp;or&nbsp;<em>last / not last</em>&nbsp;conditions, &nbsp;(#8648).</p>
+<p><a href="https://help.loginom.ru/userguide/visualization/table/" target="_blank"><strong>Table:</strong></a>&nbsp;the value of <em>Base interval date</em> parameter was not defined and saved in the filter configuration window in the Table visualizer for the fields of&nbsp;the <em>Date/Time</em> type,&nbsp;when selecting&nbsp;<em>first / not first</em>&nbsp;or&nbsp;<em>last / not last</em>&nbsp;conditions (#8648).</p>
 
 <p><a href="https://help.loginom.ru/userguide/processors/data-trees/table-to-tree.html" target="_blank"><strong>Table to tree:</strong></a>&nbsp;if the automatic mapping of the input and output fields failed, the following error occurred upon the node configuration: "Table to tree: The output node ... has not been mapped to the input node". It was required to go to the output port settings to perform the fixes. Now, if such situation arises during the node configuration process, the following page is opened: "Adjustment of Data Trees Mapping" (#8659).</p>
 
