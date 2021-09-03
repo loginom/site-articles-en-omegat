@@ -2422,6 +2422,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если процессор загружен меньше, чем на 80% и есть очередь процессов на выполнение, то количество рабочих потоков увеличивается, пока загрузка процессора не превысит 80%.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210903T134851Z" creationid="Марианна" creationdate="20210903T134851Z">
+        <seg>If the processor is loaded less than by 80%, and there is a queue of processes to be executed, the count of worker theads is increased until the processor load exceeds 80%.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если ранее возникала ошибка, то после обновления необходимо повторно пройти мастер настройки экспорта (#8585).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210903T104325Z" creationid="Марианна" creationdate="20210903T104325Z">
