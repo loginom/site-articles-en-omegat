@@ -702,6 +702,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Импорт из Deductor Warehouse:&lt;/s0&gt; у выходных столбцов отключена автоматическая инициализация «Назначения по умолчанию» на основе типов объектов хранилища данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20210903T114354Z" creationid="Марианна" creationdate="20210903T114354Z">
+        <seg>&lt;s0&gt;Import from Deductor Warehouse:&lt;/s0&gt; automatic initialization "Default usage types" based on the data warehouse objects types is disabled for the output columns.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Импорт из Баз данных:&lt;/s0&gt; при подключении к MS SQL Server с использованием ODBC драйвера, поля типа &lt;e1&gt;TinyInt&lt;/e1&gt; ошибочно определялись, как имеющие неопределенный тип (#8183).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210322T233108Z" creationid="Марианна" creationdate="20210322T232841Z">
