@@ -1,6 +1,6 @@
 <h1>Loginom 6.4.3 — Release Notes</h1>
 
-<p>In this update, file storage was finalized, performance improvements related to operation of processor and memory in the multithreading mode were made, and some fixes were performed.</p>
+<p>In this update, file storage was modified, performance improvements related to operation of processor and memory in the multithreading mode were made, and some fixes were performed.</p>
 
 <h2 id="исправление-ошибок">Fixes</h2>
 
@@ -18,11 +18,11 @@
 
 <p><a href="https://help.loginom.ru/userguide/integration/import/warehouse.html" target="_blank"><strong>Import from Deductor Warehouse:</strong></a>&nbsp;if the package with configured import from Deductor Warehouse is saved and repeatedly opened, while attempting to execute the import node, the following error occurred: "Deductor Warehouse: Data Warehouse object not specified" (#8523).</p>
 
-<p><strong>Import from Deductor Warehouse:</strong>&nbsp;if one and the same Dimension was included into the Process several times, and the caption was changed while designing, these Dimensions had the same names in the import wizard in the parameters tree, when transferring such Dimensions to the Fields area, their caption texts were incorrectly displayed (#8556).</p>
+<p><strong>Import from Deductor Warehouse:</strong>&nbsp;if one and the same Dimension was included into the Process several times, and the caption was changed while designing, these Dimensions had the same names in the import wizard in the parameters tree, when transferring such Dimensions to the Fields area, their caption texts were correctly displayed (#8556).</p>
 
 <p><a href="https://help.loginom.ru/userguide/integration/connections/list/postgresql.html" target="_blank"><strong>Import from PostgreSQL:</strong></a>&nbsp;when one and the same parameter was used more than once in the request, the following error occurred: "Invalid parameters specified" (#8587).</p>
 
-<p><a href="https://help.loginom.ru/userguide/visualization/binary-classification/" target="_blank"><strong>Binary classification assessment:</strong></a>&nbsp;when copying data from error matrix to the clipboard to the values in&nbsp;<em>Predicted</em> column,&nbsp;odd&nbsp;<em>%</em> symbols were added (#8638).</p>
+<p><a href="https://help.loginom.ru/userguide/visualization/binary-classification/" target="_blank"><strong>Binary classification assessment:</strong></a>&nbsp;when copying data from error matrix to the clipboard to the values in&nbsp;<em>Predicted</em> column,&nbsp;extra&nbsp;<em>%</em> symbols were added (#8638).</p>
 
 <p><a href="https://help.loginom.ru/userguide/processors/preprocessing/fine-classes.html" target="_blank"><strong>Coarse сlasses:</strong></a>&nbsp;when moving in the wizard back from the binning configuration page and then backwards, if the settings that had influence on class count had been changed, the previous class count was displayed on the wizard pages. It could also cause the following errors: "Next move forbidden Failed to apply fine classes for binning for %s column. There are too many unique values" or "Value 0 of "Index" parameter is out of [-1; -1] range" when switching the wizard pages (#8282, #8582, #8584, #8668, #8700).</p>
 
