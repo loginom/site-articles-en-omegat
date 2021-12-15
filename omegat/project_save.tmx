@@ -2184,8 +2184,8 @@
       <tuv lang="ru">
         <seg>В этом обновлении доработали файловое хранилище, оптимизировали использование процессора и оперативной памяти в многопоточном режиме, а также исправили обнаруженные ошибки.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210902T070150Z" creationid="Марианна" creationdate="20210902T070150Z">
-        <seg>In this update, file storage was finalized, performance improvements related to operation of processor and memory in the multithreading mode were made, and some fixes were performed.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211215T123230Z" creationid="Марианна" creationdate="20210902T070150Z">
+        <seg>In this update, file storage was modified, performance improvements related to operation of processor and memory in the multithreading mode were made, and some fixes were performed.</seg>
       </tuv>
     </tu>
     <tu>
