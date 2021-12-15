@@ -920,8 +920,8 @@
       <tuv lang="ru">
         <seg>&lt;s0&gt;Файловое хранилище:&lt;/s0&gt; если загрузить, а затем удалить файл, то невозможно было повторно загрузить с таким же именем до завершения сессии приложения.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210903T085446Z" creationid="Марианна" creationdate="20210903T085446Z">
-        <seg>&lt;s0&gt;File storage:&lt;/s0&gt; if the file was downloaded and then deleted, it was impossible to download it again with the same name before the application session termination.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211215T125106Z" creationid="Марианна" creationdate="20210903T085446Z">
+        <seg>&lt;s0&gt;File storage:&lt;/s0&gt; if the file was uploaded and then deleted, it was impossible to upload it again with the same name before the application session termination.</seg>
       </tuv>
     </tu>
     <tu>
