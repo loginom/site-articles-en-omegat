@@ -688,8 +688,8 @@
       <tuv lang="ru">
         <seg>&lt;s0&gt;Импорт из Deductor Warehouse:&lt;/s0&gt; если при проектировании в Процесс включили несколько раз одно и то же Измерение и изменили метку, то в мастера импорта в дереве параметров эти Измерения имели одинаковые названия, при этом после переноса таких Измерений в область Полей, их подписи отображалась корректно (#8556).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210902T125426Z" creationid="Марианна" creationdate="20210902T125426Z">
-        <seg>&lt;s0&gt;Import from Deductor Warehouse:&lt;/s0&gt; if one and the same Dimension was included into the Process several times, and the caption was changed while designing, these Dimensions had the same names in the import wizard in the parameters tree, when transferring such Dimensions to the Fields area, their caption texts were incorrectly displayed (#8556).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211215T124258Z" creationid="Марианна" creationdate="20210902T125426Z">
+        <seg>&lt;s0&gt;Import from Deductor Warehouse:&lt;/s0&gt; if one and the same Dimension was included into the Process several times, and the caption was changed while designing, these Dimensions had the same names in the import wizard in the parameters tree, when transferring such Dimensions to the Fields area, their caption texts were correctly displayed (#8556).</seg>
       </tuv>
     </tu>
     <tu>
