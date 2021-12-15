@@ -1590,6 +1590,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/integration/import/database.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211215T125801Z" creationid="Марианна" creationdate="20211215T125801Z">
+        <seg>https://help.loginom.ru/userguide/integration/import/database.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>https://help.loginom.ru/userguide/integration/import/ldf.html</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210616T165026Z" creationid="Марианна" creationdate="20210616T165026Z">
@@ -1774,6 +1782,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/processors/preprocessing/quantization.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211215T125806Z" creationid="Марианна" creationdate="20211215T125806Z">
+        <seg>https://help.loginom.ru/userguide/processors/preprocessing/quantization.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>https://help.loginom.ru/userguide/processors/programming/java-script/</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211215T125727Z" creationid="Марианна" creationdate="20211215T125727Z">
@@ -1834,6 +1850,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210902T070305Z" creationid="Марианна" creationdate="20210902T070305Z">
         <seg>https://help.loginom.ru/userguide/processors/transformation/trans-datatime/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/quick-start/database.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211215T125812Z" creationid="Марианна" creationdate="20211215T125812Z">
+        <seg>https://help.loginom.ru/userguide/quick-start/database.html</seg>
       </tuv>
     </tu>
     <tu>
