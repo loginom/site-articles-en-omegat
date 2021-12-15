@@ -1478,6 +1478,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/integration/connections/</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211215T125701Z" creationid="Марианна" creationdate="20211215T125701Z">
+        <seg>https://help.loginom.ru/userguide/integration/connections/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>https://help.loginom.ru/userguide/integration/connections/list/firebird.html</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T202035Z" creationid="Марианна" creationdate="20210314T202035Z">
@@ -1550,6 +1558,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/integration/export/database.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211215T125711Z" creationid="Марианна" creationdate="20211215T125711Z">
+        <seg>https://help.loginom.ru/userguide/integration/export/database.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>https://help.loginom.ru/userguide/integration/export/excel.html</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T202358Z" creationid="Марианна" creationdate="20210314T202358Z">
@@ -1594,6 +1610,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T173402Z" creationid="Марианна" creationdate="20210314T173402Z">
         <seg>https://help.loginom.ru/userguide/integration/import/warehouse.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/interface/</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211215T125716Z" creationid="Марианна" creationdate="20211215T125716Z">
+        <seg>https://help.loginom.ru/userguide/interface/</seg>
       </tuv>
     </tu>
     <tu>
@@ -1678,6 +1702,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/processors/datamining/clustering.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211215T125653Z" creationid="Марианна" creationdate="20211215T125653Z">
+        <seg>https://help.loginom.ru/userguide/processors/datamining/clustering.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>https://help.loginom.ru/userguide/processors/datamining/linear-regression/</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210616T153858Z" creationid="Марианна" creationdate="20210616T153858Z">
@@ -1742,6 +1774,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/processors/programming/java-script/</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211215T125727Z" creationid="Марианна" creationdate="20211215T125727Z">
+        <seg>https://help.loginom.ru/userguide/processors/programming/java-script/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>https://help.loginom.ru/userguide/processors/programming/python/</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210902T074117Z" creationid="Марианна" creationdate="20210902T074117Z">
@@ -1778,6 +1818,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T202056Z" creationid="Марианна" creationdate="20210314T202056Z">
         <seg>https://help.loginom.ru/userguide/processors/transformation/row-filter/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/processors/transformation/row-filter/index.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211215T125706Z" creationid="Марианна" creationdate="20211215T125706Z">
+        <seg>https://help.loginom.ru/userguide/processors/transformation/row-filter/index.html</seg>
       </tuv>
     </tu>
     <tu>
