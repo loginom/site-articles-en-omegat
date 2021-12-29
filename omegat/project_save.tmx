@@ -982,6 +982,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Подмодель:&lt;/s0&gt; если по узлу, содержащемуся внутри Подмодели был создан Производный компонент, а затем по такой Подмодели создавался Производный узел, в котором удалялся содержащийся внутри узел, то при попытке клонировать такую Подмодель возникала ошибка «Базовый узел не найден» (#8798).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211229T112652Z" creationid="Марианна" creationdate="20211229T112652Z">
+        <seg>&lt;s0&gt;Supernode:&lt;/s0&gt; if the Derived Component was created by the node that was included into the Supernode and then the Derived Node in which the node included into it was deleted was created by the same Supernode, the following error occurred while attempting to clone such Supernode: "Base node not found" (#8798).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Подмодель:&lt;/s0&gt; если после создания производного компонента и создания производного узла, изменялась базовая Подмодель (например, внутрь подмодели был добавлен еще один узел), то при попытке активировать производный узел возникала ошибка «Внутренние узлы Подмодели заблокированы».</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210903T081717Z" creationid="Марианна" creationdate="20210903T081717Z">
