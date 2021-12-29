@@ -440,8 +440,8 @@
       <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Куб:&lt;/s1&gt;&lt;/a0&gt; если в строках Куба имелись вложенные поля, а в столбцах вложенности не было, то, если в таком Кубе развернуть все строки, а после этого сохранить и закрыть пакет, через некоторое время возникала ошибка «Не удалось закрыть пакет.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211229T104328Z" creationid="Марианна" creationdate="20211229T104139Z">
-        <seg>&lt;a0&gt;&lt;s1&gt;Cube:&lt;/s1&gt;&lt;/a0&gt; if there were nested fields in the Cube rows, and there was no nesting in the columns, if all rows were expanded in such Cube and then the package was saved and closed, "Failed to close package" error occurred after a while.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211229T104415Z" creationid="Марианна" creationdate="20211229T104139Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Cube:&lt;/s1&gt;&lt;/a0&gt; if there were nested fields in the Cube rows, and there was no nesting in the columns, if all rows were expanded in such Cube and then the package was saved and closed, the following error occurred: "Failed to close package.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3018,6 +3018,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210902T074100Z" creationid="Марианна" creationdate="20210902T074100Z">
         <seg>The error occurred in the browsers based on Chromium, in Internet Explorer and Safari (#7108, #8058, #8499).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Пакет содержит активные процессы, которые не завершились в течение таймаута.», а при попытке повторно открыть такой пакет, он открывался с доступом только на чтение (#8670).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211229T104641Z" creationid="Марианна" creationdate="20211229T104641Z">
+        <seg>The package contains active processes not finished during timeout", and while attempting to open such package repeatedly, it was read-only opened (#8670).</seg>
       </tuv>
     </tu>
     <tu>
