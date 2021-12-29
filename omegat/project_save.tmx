@@ -1200,8 +1200,8 @@
       <tuv lang="ru">
         <seg>&lt;s0&gt;Элементы &lt;a1&gt;пользовательского интерфейса:&lt;/a1&gt;&lt;/s0&gt; при скроле (прокрутке) таблиц, содержащих список полей, а также в визуализаторе Статистика, если отображалось большое количество значений, то могло наблюдаться «дергание» или «сопротивление прокрутке» (#6288, #6700).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211229T121723Z" creationid="Марианна" creationdate="20211229T121723Z">
-        <seg>&lt;s0&gt;Elements of &lt;a1&gt;user interface:&lt;/a1&gt;&lt;/s0&gt; if many values were displayed when scrolling the tables containing list of fields and in the Statistics visualizer, "stumbling" or "resistance to scrolling" was observed (#6288, #6700).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211229T121840Z" creationid="Марианна" creationdate="20211229T121723Z">
+        <seg>&lt;s0&gt;Elements of &lt;a1&gt;user interface:&lt;/a1&gt;&lt;/s0&gt; if many values were displayed when scrolling the tables containing the list of fields and in the Statistics visualizer, "stumbling" or "resistance to scrolling" was observed (#6288, #6700).</seg>
       </tuv>
     </tu>
     <tu>
