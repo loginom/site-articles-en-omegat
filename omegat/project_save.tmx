@@ -838,6 +838,22 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Куб:&lt;/s0&gt; после изменения размеров вкладок полей и диаграммы Куба в течение одной секунды кнопки на Панели инструментов Куба не реагировали на нажатие (#8831).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211229T104855Z" creationid="Марианна" creationdate="20211229T104855Z">
+        <seg>&lt;s0&gt;Cube:&lt;/s0&gt; после изменения размеров вкладок полей и диаграммы Куба в течение одной секунды кнопки на Панели инструментов Куба не реагировали на нажатие (#8831).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;s0&gt;Куб:&lt;/s0&gt; при открытии окна настройки ограничений иногда могли не отобразиться значения параметров по умолчанию (#8827).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211229T104848Z" creationid="Марианна" creationdate="20211229T104848Z">
+        <seg>&lt;s0&gt;Cube:&lt;/s0&gt; when opening the restriction wizard window, sometimes the default parameters values were not displayed (#8827).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Куб:&lt;/s0&gt; при сохранении пакета не сохранялся порядок полей, перенесенных в область фильтрации Куба (#8490).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210903T070830Z" creationid="Марианна" creationdate="20210903T070830Z">
