@@ -536,8 +536,8 @@
       <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Подключения:&lt;/s1&gt;&lt;/a0&gt; при нажатии на кнопку «Тестировать» на странице Подключения, тестирование подключения выполнялось даже в том случае, если в момент тестирования выбранное подключение было активно, что могло приводить к ошибкам, например «REST-запрос: Не выбрана конечная точка сервиса WSDL для осуществления запроса».</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211229T111005Z" creationid="Марианна" creationdate="20211229T111005Z">
-        <seg>&lt;a0&gt;&lt;s1&gt;Connections:&lt;/s1&gt;&lt;/a0&gt; при нажатии на кнопку «Тестировать» на странице Подключения, тестирование подключения выполнялось даже в том случае, если в момент тестирования выбранное подключение было активно, что могло приводить к ошибкам, например «REST-запрос: Не выбрана конечная точка сервиса WSDL для осуществления запроса».</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211229T111617Z" creationid="Марианна" creationdate="20211229T111005Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Connections:&lt;/s1&gt;&lt;/a0&gt; when pressing on "Test" button on the Connections page, the connections were tested even if the selected connection was active at the moment of testing that could cause errors, for example, "REST request: no WSDL service endpoint selected to execute the request".</seg>
       </tuv>
     </tu>
     <tu>
