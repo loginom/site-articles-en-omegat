@@ -1136,8 +1136,8 @@
       <tuv lang="ru">
         <seg>&lt;s0&gt;Фильтр строк:&lt;/s0&gt; если для фильтрации было выбрано условие «В списке / Вне списка» и использовались значения вещественного типа, происходило ошибочное округление фильтруемых значений до второго знака после запятой.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211229T115405Z" creationid="Марианна" creationdate="20211229T115405Z">
-        <seg>&lt;s0&gt;Row filter:&lt;/s0&gt; if "Listed / Not listed" criterion was selected for filtration and the real type values were used, erroneous rounding to two decimal placesof filtered values occurred.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211229T120312Z" creationid="Марианна" creationdate="20211229T115405Z">
+        <seg>&lt;s0&gt;Row filter:&lt;/s0&gt; if "Listed / Not listed" criterion was selected for filtration and the real type values were used, erroneous rounding to two decimal places of filtered values occurred.</seg>
       </tuv>
     </tu>
     <tu>
