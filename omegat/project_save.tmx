@@ -1198,6 +1198,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Элементы &lt;a1&gt;пользовательского интерфейса:&lt;/a1&gt;&lt;/s0&gt; при скроле (прокрутке) таблиц, содержащих список полей, а также в визуализаторе Статистика, если отображалось большое количество значений, то могло наблюдаться «дергание» или «сопротивление прокрутке» (#6288, #6700).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211229T121723Z" creationid="Марианна" creationdate="20211229T121723Z">
+        <seg>&lt;s0&gt;Elements of &lt;a1&gt;user interface:&lt;/a1&gt;&lt;/s0&gt; if many values were displayed when scrolling the tables containing list of fields and in the Statistics visualizer, "stumbling" or "resistance to scrolling" was observed (#6288, #6700).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Ядро платформы:&lt;/s0&gt; в случае, если Подмодель содержала Узел-ссылку, ссылающийся на другой узел внутри этой подмодели, а порядок выполнения для Узла-ссылки был связан со входным и выходным портом содержащей его Подмодели, то процесс активации Подмодели мог зависнуть и его невозможно было отменить.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210903T104640Z" creationid="Марианна" creationdate="20210903T104340Z">
@@ -3152,8 +3160,8 @@
       <tuv lang="ru">
         <seg>Ошибка возникала из-за отсутствия многострочного экспорта в &lt;e3&gt;MSSQL 2005&lt;/e3&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211229T121123Z" creationid="Марианна" creationdate="20211229T121123Z">
-        <seg>The error was caused by unavailability of the multiline export to &lt;e3&gt;MSSQL 2005&lt;/e3&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211229T121453Z" creationid="Марианна" creationdate="20211229T121123Z">
+        <seg>The error was caused by unavailability of the multirow export to &lt;e3&gt;MSSQL 2005&lt;/e3&gt;.</seg>
       </tuv>
     </tu>
     <tu>
