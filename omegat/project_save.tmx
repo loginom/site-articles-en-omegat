@@ -2214,6 +2214,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В результате доработки стороннего модуля ошибку удалось устранить (#7178, #8877, #8897).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211229T100822Z" creationid="Марианна" creationdate="20211229T100822Z">
+        <seg>The error was corrected after improvement of the third-party module (#7178, #8877, #8897).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В связи с тем, что компонент выполняет код Python на сервере, на его использование накладывается ряд ограничений:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210320T220758Z" creationid="Марианна" creationdate="20210320T220758Z">
