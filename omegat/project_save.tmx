@@ -416,8 +416,8 @@
       <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Конечные классы:&lt;/s1&gt;&lt;/a0&gt; при ручном разбиении по границе в мастере настройки для непрерывных полей, если был отключен параметр «Включить верхние границы интервала» и в контекстом меню на области класса выбирался вариант «Разбить по границе», то границы определялись некорректно и у предыдущего класса совпадали верхние и нижние границы (#8695).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211229T103328Z" creationid="Марианна" creationdate="20211229T103051Z">
-        <seg>&lt;a0&gt;&lt;s1&gt;Coarse сlasses:&lt;/s1&gt;&lt;/a0&gt; in case of manual binning , если был отключен параметр "Include upper bin bounds" parameter и в контекстом меню на области класса выбирался вариант «Разбить по границе», то границы определялись некорректно и у предыдущего класса совпадали верхние и нижние границы (#8695).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211229T103753Z" creationid="Марианна" creationdate="20211229T103051Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Coarse сlasses:&lt;/s1&gt;&lt;/a0&gt; in case of the manual bound binning in the continuous fields wizard, if "Include upper bin bounds" parameter was disabled and "Bound split" option was selected in the context menu in the class area, the bounds were incorrectly defined and upper and lower bounds of the previous class coincided (#8695).</seg>
       </tuv>
     </tu>
     <tu>
