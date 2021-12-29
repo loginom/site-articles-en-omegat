@@ -3775,6 +3775,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Теперь экспорт в эту базу данных выполняется построчно (#8783).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211229T121333Z" creationid="Марианна" creationdate="20211229T121333Z">
+        <seg>Now, export to this database is performed in a row-by-row manner (#8783).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Теперь это можно сделать в настройках сервера и настольных приложений, для чего добавлен специальный параметр «Трассировка исключений».</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210321T213057Z" creationid="Марианна" creationdate="20210321T213057Z">
