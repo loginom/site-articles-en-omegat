@@ -656,8 +656,8 @@
       <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Фильтр:&lt;/s1&gt;&lt;/a0&gt; если был выбран тип условия «в списке» или «вне списка», то при наборе значения для фильтрации некорректно предлагались возможные значения: учитывался только последний символ введенной строки (#8454).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210617T091637Z" creationid="Марианна" creationdate="20210617T091637Z">
-        <seg>&lt;a0&gt;&lt;s1&gt;Filter:&lt;/s1&gt;&lt;/a0&gt; if "listed" or "not listed" condition type was selected, possible values were incorrectly offerred when selecting the filtering value: only the last character of the entered string was taken into account (#8454).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211229T114912Z" creationid="Марианна" creationdate="20210617T091637Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Filter:&lt;/s1&gt;&lt;/a0&gt; if "listed" or "not listed" criterion type was selected, possible values were incorrectly offerred when selecting the filtering value: only the last character of the entered string was taken into account (#8454).</seg>
       </tuv>
     </tu>
     <tu>
@@ -1114,6 +1114,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210903T103055Z" creationid="Марианна" creationdate="20210903T103055Z">
         <seg>&lt;s0&gt;Row filter:&lt;/s0&gt; it was impossible to set two and more conditions by the time lapse (&lt;e1&gt;first/not first or last/not last&lt;/e1&gt;) (#8634).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;s0&gt;Фильтр строк:&lt;/s0&gt; если было выбрано условие фильтрации «В списке / Вне списка», а при нажатии «Получить список» возникала ошибка (например, если не было подключено поле), то после возникновения ошибки было невозможно редактировать поле ввода (#8716).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211229T114901Z" creationid="Марианна" creationdate="20211229T114901Z">
+        <seg>&lt;s0&gt;Row filter:&lt;/s0&gt; if "Listed / Not listed" filtration criterion was selected and an error occurred when pressing on "Get list" (for example, if no field was connected), it was impossible to edit the entry field upon occurrence of the error (#8716).</seg>
       </tuv>
     </tu>
     <tu>
