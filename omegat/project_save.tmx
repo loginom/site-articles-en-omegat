@@ -1118,6 +1118,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Фильтр строк:&lt;/s0&gt; если для полей целого, вещественного типов или типа дата/время выбрать условие «В списке / Вне списка», а в поле ввода «Список» ввести текст, то возникала ошибка "Cannot read property 'text' of undefined" (#8444).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211229T114557Z" creationid="Марианна" creationdate="20211229T114557Z">
+        <seg>&lt;s0&gt;Row filter:&lt;/s0&gt; if "Listed / Not listed" condition was selected for the fields related to the integer, real types or date/time type and text was inserted into the "List" entry field, the following error occurred: "Cannot read property 'text' of undefined" (#8444).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Фильтр строк:&lt;/s0&gt; если для фильтрации было выбрано условие «В списке / Вне списка» и использовались значения типа &lt;e1&gt;Дата/Время&lt;/e1&gt;, происходило ошибочное округление и отбрасывались значения секунд.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211229T113857Z" creationid="Марианна" creationdate="20211229T113551Z">
