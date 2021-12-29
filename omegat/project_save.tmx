@@ -326,6 +326,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;a0&gt;&lt;s1&gt;Импорт из Базы данных:&lt;/s1&gt;&lt;/a0&gt; если при запуске предварительного просмотра в мастере настройки импорта из базы данных возникала ошибка, то оставался запущенным процесс выполнения узла, который невозможно было отменить через панель процессов (#8378).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211229T102313Z" creationid="Марианна" creationdate="20211229T102313Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Import from Database: if an error occurred when starting preview in Import from Database wizard, the node execution process was still running, and it could not be cancelled using the processes bar&lt;/s1&gt;&lt;/a0&gt;  (#8378).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Импорт из текстового файла:&lt;/s1&gt;&lt;/a0&gt; если на странице «Параметры импорта с разделителями» была выделена ячейка в столбце, метка которого содержит запятую &lt;e2&gt;&lt;,&gt;&lt;/e2&gt;, то при изменении настроек в мастере возникала ошибка «Invalid ComponentQuery selector: ...» (#7456).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210616T201317Z" creationid="Марианна" creationdate="20210616T201317Z">
