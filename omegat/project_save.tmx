@@ -440,8 +440,8 @@
       <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Куб:&lt;/s1&gt;&lt;/a0&gt; если в строках Куба имелись вложенные поля, а в столбцах вложенности не было, то, если в таком Кубе развернуть все строки, а после этого сохранить и закрыть пакет, через некоторое время возникала ошибка «Не удалось закрыть пакет.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211229T104139Z" creationid="Марианна" creationdate="20211229T104139Z">
-        <seg>&lt;a0&gt;&lt;s1&gt;Куб:&lt;/s1&gt;&lt;/a0&gt; if there were nested fields in the Cube strings, and there was no nesting in the columns, if all strings were expanded in such Cube and then the package was saved and closed, "Failed to close package" error occurred after a while.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211229T104153Z" creationid="Марианна" creationdate="20211229T104139Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Cube:&lt;/s1&gt;&lt;/a0&gt; if there were nested fields in the Cube strings, and there was no nesting in the columns, if all strings were expanded in such Cube and then the package was saved and closed, "Failed to close package" error occurred after a while.</seg>
       </tuv>
     </tu>
     <tu>
