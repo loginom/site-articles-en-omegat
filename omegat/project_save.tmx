@@ -838,6 +838,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Куб:&lt;/s0&gt; если многократно быстро нажималась кнопка «Детализация», то панель детализации могла начать беспрерывно разворачиваться и сворачиваться, даже после прекращения нажатий (#8842).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211229T105428Z" creationid="Марианна" creationdate="20211229T105428Z">
+        <seg>&lt;s0&gt;Cube:&lt;/s0&gt; if "Detailing" button was quickly pressed many times, the detailing bar could start to expand and collapse continuously even without pressing (#8842).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Куб:&lt;/s0&gt; после изменения размеров вкладок полей и диаграммы Куба в течение одной секунды кнопки на Панели инструментов Куба не реагировали на нажатие (#8831).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211229T105146Z" creationid="Марианна" creationdate="20211229T104855Z">
