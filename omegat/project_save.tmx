@@ -910,6 +910,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Настройка соответствия полей:&lt;/s0&gt; если по нажатию на кнопку «Назад» вернуться на страницу мастера настройки, которая ранее была пропущена нажатием на кнопку «Все равно далее», то по-прежнему отображалась кнопка «Все равно далее», хотя должна была измениться (#8781).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211229T110409Z" creationid="Марианна" creationdate="20211229T110409Z">
+        <seg>&lt;s0&gt;Fields mapping settings:&lt;/s0&gt; if "Back" button was pressed to return to the wizard page that was earlier missed by pressing on "Next anyway" button, "Next anyway" button was still displayed although it was to be changed (#8781).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Панель Навигация:&lt;/s0&gt; если у узла был настроен визуализатор, то в панели Навигация у этого узла появлялся дочерний элемент Визуализаторы.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210617T081604Z" creationid="Марианна" creationdate="20210617T081604Z">
