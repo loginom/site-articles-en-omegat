@@ -3278,6 +3278,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Помимо ошибок фильтрации, это могло приводить к зависанию веб-приложения, а в результате округления могли возникать дублирующиеся значения (#8748).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211229T120530Z" creationid="Марианна" creationdate="20211229T120530Z">
+        <seg>Apart from the filtration errors, it could freeze web applications and duplicate values could occur (#8748).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Попробовать новую версию</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T202340Z" creationid="Марианна" creationdate="20210314T202340Z">
