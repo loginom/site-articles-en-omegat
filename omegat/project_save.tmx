@@ -2262,6 +2262,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В этом обновлении исправлено потребление оперативной памяти на сервере при использовании узла JavaScript в цикле, ускорен повторный запуск сценария при работе через Loginom Integrator или при Пакетном выполнении, а также исправлен ряд ошибок, возникавших при работе с базами данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20211229T095826Z" creationid="Марианна" creationdate="20211229T095826Z">
+        <seg>In this update, the memory consumption on server when using JavaScript node in the loop was corrected, the repeated workflow start when using Loginom Integrator or Batch Processing became faster and some errors occurring when using databases were corrected.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Вдобавок к этому, иногда требовалось принудительно сбросить кэш пакетов, опубликованных через Loginom Integrator, например, при обновлении версий сразу нескольких пакетов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210321T211649Z" creationid="Марианна" creationdate="20210321T211515Z">
