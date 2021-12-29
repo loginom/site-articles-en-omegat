@@ -840,8 +840,8 @@
       <tuv lang="ru">
         <seg>&lt;s0&gt;Куб:&lt;/s0&gt; после изменения размеров вкладок полей и диаграммы Куба в течение одной секунды кнопки на Панели инструментов Куба не реагировали на нажатие (#8831).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211229T104855Z" creationid="Марианна" creationdate="20211229T104855Z">
-        <seg>&lt;s0&gt;Cube:&lt;/s0&gt; после изменения размеров вкладок полей и диаграммы Куба в течение одной секунды кнопки на Панели инструментов Куба не реагировали на нажатие (#8831).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211229T105146Z" creationid="Марианна" creationdate="20211229T104855Z">
+        <seg>&lt;s0&gt;Cube:&lt;/s0&gt; when sizes of fields tabs and Cube chart were changed, the Cube Toolbar buttons did not respond to pressure for a second (#8831).</seg>
       </tuv>
     </tu>
     <tu>
