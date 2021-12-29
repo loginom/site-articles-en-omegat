@@ -704,8 +704,8 @@
       <tuv lang="ru">
         <seg>&lt;s0&gt;&lt;a1&gt;Loginom Integrator,&lt;/a1&gt; Пакетное выполнение:&lt;/s0&gt; ускорен повторный запуск узла сценария при работе через Loginom Integrator или при Пакетном выполнении (#5295).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211229T122029Z" creationid="Марианна" creationdate="20211229T122029Z">
-        <seg>&lt;s0&gt;&lt;a1&gt;Loginom Integrator,&lt;/a1&gt; Batch processing:&lt;/s0&gt; the repeated workflow start when using Loginom Integrator or Batch Processing became faster (#5295).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211229T122102Z" creationid="Марианна" creationdate="20211229T122029Z">
+        <seg>&lt;s0&gt;&lt;a1&gt;Loginom Integrator,&lt;/a1&gt; Batch processing:&lt;/s0&gt; the repeated workflow node start when using Loginom Integrator or Batch Processing became faster (#5295).</seg>
       </tuv>
     </tu>
     <tu>
