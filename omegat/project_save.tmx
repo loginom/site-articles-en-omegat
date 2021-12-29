@@ -1120,8 +1120,8 @@
       <tuv lang="ru">
         <seg>&lt;s0&gt;Фильтр строк:&lt;/s0&gt; если для фильтрации было выбрано условие «В списке / Вне списка» и использовались значения типа &lt;e1&gt;Дата/Время&lt;/e1&gt;, происходило ошибочное округление и отбрасывались значения секунд.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211229T113551Z" creationid="Марианна" creationdate="20211229T113551Z">
-        <seg>&lt;s0&gt;Row filter:&lt;/s0&gt; if "Listed / Not listed" condition was selected for filtration and &lt;e1&gt;Date/Time&lt;/e1&gt; values, erroneous rounding occurred and second values were reset.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20211229T113857Z" creationid="Марианна" creationdate="20211229T113551Z">
+        <seg>&lt;s0&gt;Row filter:&lt;/s0&gt; if "Listed / Not listed" condition was selected for filtration and the values related to &lt;e1&gt;Date/Time&lt;/e1&gt; type were used, erroneous rounding occurred and second values were ignored.</seg>
       </tuv>
     </tu>
     <tu>
