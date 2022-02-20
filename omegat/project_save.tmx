@@ -118,6 +118,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>/sites/default/files/blogpost-images/data_release-notes_img_series.png</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220220T163244Z" creationid="Марианна" creationdate="20220220T163244Z">
+        <seg>/sites/default/files/blogpost-images/data_release-notes_img_series.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>/sites/default/files/blogpost-images/data_release-notes_img_view.png</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220220T162416Z" creationid="Марианна" creationdate="20220220T162416Z">
@@ -230,10 +238,26 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>/sites/default/files/styles/image792/public/blogpost-images/data_release-notes_img_levels.png</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220220T163309Z" creationid="Марианна" creationdate="20220220T163309Z">
+        <seg>/sites/default/files/styles/image792/public/blogpost-images/data_release-notes_img_levels.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>/sites/default/files/styles/image792/public/blogpost-images/data_release-notes_img_publishing.png</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220220T162707Z" creationid="Марианна" creationdate="20220220T162707Z">
         <seg>/sites/default/files/styles/image792/public/blogpost-images/data_release-notes_img_publishing.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>/sites/default/files/styles/image792/public/blogpost-images/data_release-notes_img_series.png</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220220T163304Z" creationid="Марианна" creationdate="20220220T163304Z">
+        <seg>/sites/default/files/styles/image792/public/blogpost-images/data_release-notes_img_series.png</seg>
       </tuv>
     </tu>
     <tu>
@@ -1702,6 +1726,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Loginom Integrator</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220220T163507Z" creationid="Марианна" creationdate="20220220T163507Z">
+        <seg>Loginom Integrator</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Loginom Server</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T201728Z" creationid="Марианна" creationdate="20210314T201728Z">
@@ -1778,6 +1810,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T201803Z" creationid="Марианна" creationdate="20210314T201803Z">
         <seg>https://help.loginom.ru/userguide/admin/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/admin/ldap.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220220T163426Z" creationid="Марианна" creationdate="20220220T163426Z">
+        <seg>https://help.loginom.ru/userguide/admin/ldap.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -1902,6 +1942,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/integration/export/ldf.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220220T163417Z" creationid="Марианна" creationdate="20220220T163417Z">
+        <seg>https://help.loginom.ru/userguide/integration/export/ldf.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>https://help.loginom.ru/userguide/integration/export/warehouse.html</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210616T153950Z" creationid="Марианна" creationdate="20210616T153950Z">
@@ -1918,10 +1966,26 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/integration/import/1c-db.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220220T163449Z" creationid="Марианна" creationdate="20220220T163449Z">
+        <seg>https://help.loginom.ru/userguide/integration/import/1c-db.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>https://help.loginom.ru/userguide/integration/import/database.html</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211215T125801Z" creationid="Марианна" creationdate="20211215T125801Z">
         <seg>https://help.loginom.ru/userguide/integration/import/database.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/integration/import/excel.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220220T163436Z" creationid="Марианна" creationdate="20220220T163436Z">
+        <seg>https://help.loginom.ru/userguide/integration/import/excel.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -1946,6 +2010,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T173402Z" creationid="Марианна" creationdate="20210314T173402Z">
         <seg>https://help.loginom.ru/userguide/integration/import/warehouse.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/integration/import/xml.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220220T163446Z" creationid="Марианна" creationdate="20220220T163446Z">
+        <seg>https://help.loginom.ru/userguide/integration/import/xml.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -2078,6 +2150,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/processors/integration/extracting-xml.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220220T163500Z" creationid="Марианна" creationdate="20220220T163500Z">
+        <seg>https://help.loginom.ru/userguide/processors/integration/extracting-xml.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>https://help.loginom.ru/userguide/processors/integration/rest-request.html</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210616T150809Z" creationid="Марианна" creationdate="20210616T150809Z">
@@ -2134,10 +2214,26 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/processors/programming/java-script/index.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220220T163452Z" creationid="Марианна" creationdate="20220220T163452Z">
+        <seg>https://help.loginom.ru/userguide/processors/programming/java-script/index.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>https://help.loginom.ru/userguide/processors/programming/python/</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210902T074117Z" creationid="Марианна" creationdate="20210902T074117Z">
         <seg>https://help.loginom.ru/userguide/processors/programming/python/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/processors/programming/python/index.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220220T163456Z" creationid="Марианна" creationdate="20220220T163456Z">
+        <seg>https://help.loginom.ru/userguide/processors/programming/python/index.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -2162,6 +2258,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220220T162424Z" creationid="Марианна" creationdate="20220220T162424Z">
         <seg>https://help.loginom.ru/userguide/processors/transformation/calc/index.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/processors/transformation/cross-table.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220220T163503Z" creationid="Марианна" creationdate="20220220T163503Z">
+        <seg>https://help.loginom.ru/userguide/processors/transformation/cross-table.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -2282,6 +2386,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T202053Z" creationid="Марианна" creationdate="20210314T202053Z">
         <seg>https://help.loginom.ru/userguide/visualization/cube/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/visualization/cube/index.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220220T163234Z" creationid="Марианна" creationdate="20220220T163234Z">
+        <seg>https://help.loginom.ru/userguide/visualization/cube/index.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -2410,6 +2522,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T200209Z" creationid="Марианна" creationdate="20210314T200209Z">
         <seg>https://wiki.loginom.ru/articles/dublicate.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>https://wiki.loginom.ru/articles/odbc</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220220T163353Z" creationid="Марианна" creationdate="20220220T163353Z">
+        <seg>https://wiki.loginom.ru/articles/odbc</seg>
       </tuv>
     </tu>
     <tu>
@@ -2998,6 +3118,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Импорт из текстового файла</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220220T163415Z" creationid="Марианна" creationdate="20220220T163415Z">
+        <seg>Import from the Text File</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Использование скриптов на языке Python</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T174717Z" creationid="Марианна" creationdate="20210314T174717Z">
@@ -3378,6 +3506,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210322T165801Z" creationid="Марианна" creationdate="20210322T165801Z">
         <seg>Frequently it was particularly inconvenient if the fields with item numbers that started from zeros occurred in the exported data sets.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Отображаемые серии</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220220T163302Z" creationid="Марианна" creationdate="20220220T163302Z">
+        <seg>Displayed Series</seg>
       </tuv>
     </tu>
     <tu>
@@ -4103,6 +4239,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Улучшения в OLAP-кубе</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220220T163232Z" creationid="Марианна" creationdate="20220220T163232Z">
+        <seg>OLAP Cube Improvements</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Унифицированы имена переменных, а также описания долей событий и классов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210322T171733Z" creationid="Марианна" creationdate="20210322T171733Z">
@@ -4115,6 +4259,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T203149Z" creationid="Марианна" creationdate="20210314T203149Z">
         <seg>Loginom users administration</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Уровни заголовков</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220220T163351Z" creationid="Марианна" creationdate="20220220T163351Z">
+        <seg>Headers Levels</seg>
       </tuv>
     </tu>
     <tu>
