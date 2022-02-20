@@ -126,6 +126,22 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>/sites/default/files/blogpost-images/data_release-notes_img_visualiser-detailing.png</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220220T163105Z" creationid="Марианна" creationdate="20220220T163105Z">
+        <seg>/sites/default/files/blogpost-images/data_release-notes_img_visualiser-detailing.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>/sites/default/files/blogpost-images/data_release-notes_img_visualiser-summary.png</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220220T163007Z" creationid="Марианна" creationdate="20220220T163007Z">
+        <seg>/sites/default/files/blogpost-images/data_release-notes_img_visualiser-summary.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>/sites/default/files/blogpost-images/dw-export.png</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T200158Z" creationid="Марианна" creationdate="20210314T200158Z">
@@ -226,6 +242,22 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220220T162420Z" creationid="Марианна" creationdate="20220220T162420Z">
         <seg>/sites/default/files/styles/image792/public/blogpost-images/data_release-notes_img_view.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>/sites/default/files/styles/image792/public/blogpost-images/data_release-notes_img_visualiser-detailing.png</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220220T163109Z" creationid="Марианна" creationdate="20220220T163109Z">
+        <seg>/sites/default/files/styles/image792/public/blogpost-images/data_release-notes_img_visualiser-detailing.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>/sites/default/files/styles/image792/public/blogpost-images/data_release-notes_img_visualiser-summary.png</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220220T163012Z" creationid="Марианна" creationdate="20220220T163012Z">
+        <seg>/sites/default/files/styles/image792/public/blogpost-images/data_release-notes_img_visualiser-summary.png</seg>
       </tuv>
     </tu>
     <tu>
@@ -1838,6 +1870,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/integration/connections/list/soap-service.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220220T162915Z" creationid="Марианна" creationdate="20220220T162915Z">
+        <seg>https://help.loginom.ru/userguide/integration/connections/list/soap-service.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>https://help.loginom.ru/userguide/integration/connections/list/sqlite.html</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T203806Z" creationid="Марианна" creationdate="20210314T203806Z">
@@ -2206,6 +2246,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/scenario/variables/control-variables.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220220T162921Z" creationid="Марианна" creationdate="20220220T162921Z">
+        <seg>https://help.loginom.ru/userguide/scenario/variables/control-variables.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>https://help.loginom.ru/userguide/scenario/variables/scenario-variables.html</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T201735Z" creationid="Марианна" creationdate="20210314T201735Z">
@@ -2326,6 +2374,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>https://wiki.loginom.ru/articles/continuous-data</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220220T163057Z" creationid="Марианна" creationdate="20220220T163057Z">
+        <seg>https://wiki.loginom.ru/articles/continuous-data</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>https://wiki.loginom.ru/articles/contradiction.html</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T200214Z" creationid="Марианна" creationdate="20210314T200214Z">
@@ -2338,6 +2394,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T200206Z" creationid="Марианна" creationdate="20210314T200206Z">
         <seg>https://wiki.loginom.ru/articles/data-quality.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>https://wiki.loginom.ru/articles/discrete-data</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220220T163100Z" creationid="Марианна" creationdate="20220220T163100Z">
+        <seg>https://wiki.loginom.ru/articles/discrete-data</seg>
       </tuv>
     </tu>
     <tu>
@@ -2634,6 +2698,22 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T203743Z" creationid="Марианна" creationdate="20210314T203743Z">
         <seg>"Cube" Visualizer</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Визуализаторы</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220220T162931Z" creationid="Марианна" creationdate="20220220T162931Z">
+        <seg>Visualizers</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Детализация визуализатора Качество данных</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220220T163202Z" creationid="Марианна" creationdate="20220220T163202Z">
+        <seg>Detailing of the Data Quality Visualizer</seg>
       </tuv>
     </tu>
     <tu>
@@ -3210,6 +3290,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220220T162812Z" creationid="Марианна" creationdate="20220220T162812Z">
         <seg>New "Web Services" Page</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Новый визуализатор — Качество данных</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220220T163005Z" creationid="Марианна" creationdate="20220220T163005Z">
+        <seg>New Visualizer — Data Quality</seg>
       </tuv>
     </tu>
     <tu>
