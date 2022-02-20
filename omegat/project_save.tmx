@@ -14,6 +14,38 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>#admin</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220220T162402Z" creationid="Марианна" creationdate="20220220T162402Z">
+        <seg>#admin</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>#autoname</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220220T162358Z" creationid="Марианна" creationdate="20220220T162358Z">
+        <seg>#autoname</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>#converter</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220220T162354Z" creationid="Марианна" creationdate="20220220T162354Z">
+        <seg>#converter</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>#logging</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220220T162405Z" creationid="Марианна" creationdate="20220220T162405Z">
+        <seg>#logging</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>/sites/default/files/blogpost-images/01-python.png</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T174412Z" creationid="Марианна" creationdate="20210314T174412Z">
@@ -66,6 +98,22 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T201809Z" creationid="Марианна" creationdate="20210314T201809Z">
         <seg>/sites/default/files/blogpost-images/admin.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>/sites/default/files/blogpost-images/data_release-notes_img_%D1%81alculation.png</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220220T162430Z" creationid="Марианна" creationdate="20220220T162430Z">
+        <seg>/sites/default/files/blogpost-images/data_release-notes_img_%D1%81alculation.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>/sites/default/files/blogpost-images/data_release-notes_img_view.png</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220220T162416Z" creationid="Марианна" creationdate="20220220T162416Z">
+        <seg>/sites/default/files/blogpost-images/data_release-notes_img_view.png</seg>
       </tuv>
     </tu>
     <tu>
@@ -146,6 +194,22 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T201915Z" creationid="Марианна" creationdate="20210314T201915Z">
         <seg>/sites/default/files/styles/image792/public/blogpost-images/admin.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>/sites/default/files/styles/image792/public/blogpost-images/data_release-notes_img_%D1%81alculation.png</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220220T162433Z" creationid="Марианна" creationdate="20220220T162433Z">
+        <seg>/sites/default/files/styles/image792/public/blogpost-images/data_release-notes_img_%D1%81alculation.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>/sites/default/files/styles/image792/public/blogpost-images/data_release-notes_img_view.png</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220220T162420Z" creationid="Марианна" creationdate="20220220T162420Z">
+        <seg>/sites/default/files/styles/image792/public/blogpost-images/data_release-notes_img_view.png</seg>
       </tuv>
     </tu>
     <tu>
@@ -1806,6 +1870,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/integration/web-services/publishing-web-service.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220220T162332Z" creationid="Марианна" creationdate="20220220T162332Z">
+        <seg>https://help.loginom.ru/userguide/integration/web-services/publishing-web-service.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>https://help.loginom.ru/userguide/interface/</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211215T125716Z" creationid="Марианна" creationdate="20211215T125716Z">
@@ -2006,6 +2078,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/processors/transformation/calc/index.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220220T162424Z" creationid="Марианна" creationdate="20220220T162424Z">
+        <seg>https://help.loginom.ru/userguide/processors/transformation/calc/index.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>https://help.loginom.ru/userguide/processors/transformation/java-script/</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T173428Z" creationid="Марианна" creationdate="20210314T173428Z">
@@ -2050,6 +2130,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T203745Z" creationid="Марианна" creationdate="20210314T203745Z">
         <seg>https://help.loginom.ru/userguide/report/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/scenario/access-modifier.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220220T162348Z" creationid="Марианна" creationdate="20220220T162348Z">
+        <seg>https://help.loginom.ru/userguide/scenario/access-modifier.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -2114,6 +2202,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T202111Z" creationid="Марианна" creationdate="20210314T202111Z">
         <seg>https://help.loginom.ru/userguide/visualization/fine-classes/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/visualization/index.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220220T162339Z" creationid="Марианна" creationdate="20220220T162339Z">
+        <seg>https://help.loginom.ru/userguide/visualization/index.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -3362,6 +3458,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T205118Z" creationid="Марианна" creationdate="20210314T205118Z">
         <seg>New handler and visualizer appeared, whereas the existing ones were upgraded.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Предпросмотр расчетов Калькулятора</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220220T162622Z" creationid="Марианна" creationdate="20220220T162622Z">
+        <seg>Calculator Calculations Preview</seg>
       </tuv>
     </tu>
     <tu>
