@@ -1646,6 +1646,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>ARIMAX</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220220T163534Z" creationid="Марианна" creationdate="20220220T163534Z">
+        <seg>ARIMAX</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>AddColumn — добавление столбца в конец списка столбцов выходного набора;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210320T233742Z" creationid="Марианна" creationdate="20210320T233742Z">
@@ -2118,6 +2126,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/processors/datamining/arimax.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220220T163531Z" creationid="Марианна" creationdate="20220220T163531Z">
+        <seg>https://help.loginom.ru/userguide/processors/datamining/arimax.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>https://help.loginom.ru/userguide/processors/datamining/clustering.html</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211215T125653Z" creationid="Марианна" creationdate="20211215T125653Z">
@@ -2134,10 +2150,26 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/processors/datamining/linear-regression/index.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220220T163639Z" creationid="Марианна" creationdate="20220220T163639Z">
+        <seg>https://help.loginom.ru/userguide/processors/datamining/linear-regression/index.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>https://help.loginom.ru/userguide/processors/datamining/logistic-regression/</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T174206Z" creationid="Марианна" creationdate="20210314T174206Z">
         <seg>https://help.loginom.ru/userguide/processors/datamining/logistic-regression/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/processors/datamining/logistic-regression/index.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220220T163701Z" creationid="Марианна" creationdate="20220220T163701Z">
+        <seg>https://help.loginom.ru/userguide/processors/datamining/logistic-regression/index.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -2266,6 +2298,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220220T163503Z" creationid="Марианна" creationdate="20220220T163503Z">
         <seg>https://help.loginom.ru/userguide/processors/transformation/cross-table.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/processors/transformation/fields-parameters.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220220T163712Z" creationid="Марианна" creationdate="20220220T163712Z">
+        <seg>https://help.loginom.ru/userguide/processors/transformation/fields-parameters.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -2430,6 +2470,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/visualization/statistics/index.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220220T163723Z" creationid="Марианна" creationdate="20220220T163723Z">
+        <seg>https://help.loginom.ru/userguide/visualization/statistics/index.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>https://help.loginom.ru/userguide/visualization/table/</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210902T070320Z" creationid="Марианна" creationdate="20210902T070320Z">
@@ -2486,6 +2534,22 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>https://wiki.loginom.ru/articles/chi-square-test</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220220T163654Z" creationid="Марианна" creationdate="20220220T163654Z">
+        <seg>https://wiki.loginom.ru/articles/chi-square-test</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>https://wiki.loginom.ru/articles/coefficient-of-determination</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220220T163650Z" creationid="Марианна" creationdate="20220220T163650Z">
+        <seg>https://wiki.loginom.ru/articles/coefficient-of-determination</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>https://wiki.loginom.ru/articles/continuous-data</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220220T163057Z" creationid="Марианна" creationdate="20220220T163057Z">
@@ -2510,6 +2574,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>https://wiki.loginom.ru/articles/degrees-of-freedom</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220220T163706Z" creationid="Марианна" creationdate="20220220T163706Z">
+        <seg>https://wiki.loginom.ru/articles/degrees-of-freedom</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>https://wiki.loginom.ru/articles/discrete-data</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220220T163100Z" creationid="Марианна" creationdate="20220220T163100Z">
@@ -2526,6 +2598,30 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>https://wiki.loginom.ru/articles/f-test</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220220T163647Z" creationid="Марианна" creationdate="20220220T163647Z">
+        <seg>https://wiki.loginom.ru/articles/f-test</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>https://wiki.loginom.ru/articles/mean-square-deviation</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220220T163644Z" creationid="Марианна" creationdate="20220220T163644Z">
+        <seg>https://wiki.loginom.ru/articles/mean-square-deviation</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>https://wiki.loginom.ru/articles/mode</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220220T163552Z" creationid="Марианна" creationdate="20220220T163552Z">
+        <seg>https://wiki.loginom.ru/articles/mode</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>https://wiki.loginom.ru/articles/odbc</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220220T163353Z" creationid="Марианна" creationdate="20220220T163353Z">
@@ -2534,10 +2630,26 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>https://wiki.loginom.ru/articles/plausibility-function</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220220T163642Z" creationid="Марианна" creationdate="20220220T163642Z">
+        <seg>https://wiki.loginom.ru/articles/plausibility-function</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>https://wiki.loginom.ru/articles/risk.html</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T201345Z" creationid="Марианна" creationdate="20210314T201345Z">
         <seg>https://wiki.loginom.ru/articles/risk.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>https://wiki.loginom.ru/articles/wald-test</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220220T163657Z" creationid="Марианна" creationdate="20220220T163657Z">
+        <seg>https://wiki.loginom.ru/articles/wald-test</seg>
       </tuv>
     </tu>
     <tu>
@@ -3110,6 +3222,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Изменения в логировании</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220220T163529Z" creationid="Марианна" creationdate="20220220T163529Z">
+        <seg>Changes in Logging</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Импорт из Баз данных в Loginom</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T203547Z" creationid="Марианна" creationdate="20210314T203547Z">
@@ -3262,6 +3382,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Кросс-таблица</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220220T163605Z" creationid="Марианна" creationdate="20220220T163605Z">
+        <seg>Cross Table</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Крупное обновление аналитической платформы Loginom.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210315T203625Z" creationid="Марианна" creationdate="20210315T203625Z">
@@ -3274,6 +3402,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T202050Z" creationid="Марианна" creationdate="20210314T202050Z">
         <seg>Cube</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Линейная и логистическая регрессии</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220220T163637Z" creationid="Марианна" creationdate="20220220T163628Z">
+        <seg>Linear and Logistic Regressions</seg>
       </tuv>
     </tu>
     <tu>
