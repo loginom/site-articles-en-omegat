@@ -110,6 +110,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>/sites/default/files/blogpost-images/data_release-notes_img_publishing.png</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220220T162655Z" creationid="Марианна" creationdate="20220220T162655Z">
+        <seg>/sites/default/files/blogpost-images/data_release-notes_img_publishing.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>/sites/default/files/blogpost-images/data_release-notes_img_view.png</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220220T162416Z" creationid="Марианна" creationdate="20220220T162416Z">
@@ -202,6 +210,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220220T162433Z" creationid="Марианна" creationdate="20220220T162433Z">
         <seg>/sites/default/files/styles/image792/public/blogpost-images/data_release-notes_img_%D1%81alculation.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>/sites/default/files/styles/image792/public/blogpost-images/data_release-notes_img_publishing.png</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220220T162707Z" creationid="Марианна" creationdate="20220220T162707Z">
+        <seg>/sites/default/files/styles/image792/public/blogpost-images/data_release-notes_img_publishing.png</seg>
       </tuv>
     </tu>
     <tu>
@@ -1694,6 +1710,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>https://help.loginom.ru/adminguide/integrator/index.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220220T162638Z" creationid="Марианна" creationdate="20220220T162638Z">
+        <seg>https://help.loginom.ru/adminguide/integrator/index.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>https://help.loginom.ru/adminguide/server</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210902T063849Z" creationid="Марианна" creationdate="20210902T063849Z">
@@ -1710,10 +1734,26 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>https://help.loginom.ru/adminguide/server/index.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220220T162642Z" creationid="Марианна" creationdate="20220220T162642Z">
+        <seg>https://help.loginom.ru/adminguide/server/index.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>https://help.loginom.ru/userguide/admin/</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T201803Z" creationid="Марианна" creationdate="20210314T201803Z">
         <seg>https://help.loginom.ru/userguide/admin/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/admin/roles.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220220T162820Z" creationid="Марианна" creationdate="20220220T162820Z">
+        <seg>https://help.loginom.ru/userguide/admin/roles.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -3166,6 +3206,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Новая страница «Веб-сервисы»</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220220T162812Z" creationid="Марианна" creationdate="20220220T162812Z">
+        <seg>New "Web Services" Page</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Обработчик «Калькулятор»</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T204103Z" creationid="Марианна" creationdate="20210314T204103Z">
@@ -3787,6 +3835,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210321T212642Z" creationid="Марианна" creationdate="20210321T212606Z">
         <seg>It is also possible to stop the workflow execution forcedly or to reset the user session in this section.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Также добавлены команды контекстного меню:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220220T162914Z" creationid="Марианна" creationdate="20220220T162914Z">
+        <seg>The context menu commands were also added:</seg>
       </tuv>
     </tu>
     <tu>
