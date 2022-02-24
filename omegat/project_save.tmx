@@ -2734,6 +2734,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Быстрый просмотр при выделении активизированного узла</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220224T062322Z" creationid="Марианна" creationdate="20220224T062322Z">
+        <seg>Quick view when selecting the activated node</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Быстрый просмотр результатов вычислений при выделении узла.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220224T055922Z" creationid="Марианна" creationdate="20220224T055922Z">
