@@ -2894,6 +2894,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В открывшемся окне доступны две опции на выбор: «Выполнение узла и Цикл» и «Производные узлы».</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220224T064637Z" creationid="Марианна" creationdate="20220224T064637Z">
+        <seg>It is possible to select two available options in the opened window: "Node execution and Loop" and "Derived nodes".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В очередном обновлении уделили внимание удобству использования платформы, оптимизировали работу со сложными сценариями, а также исправили найденные ошибки.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210617T112013Z" creationid="Марианна" creationdate="20210616T143220Z">
@@ -3038,6 +3046,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Возможность переиспользования компонентов и простота данной операции — одна из самых важных вещей при работе с Loginom.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220224T064255Z" creationid="Марианна" creationdate="20220224T064255Z">
+        <seg>Opportuniity to reuse components and ease of this operation is one of the most important features of the Loginom operation.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Возможность публикация веб-сервисов для редакции Team</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220224T063006Z" creationid="Марианна" creationdate="20220224T063006Z">
@@ -3074,6 +3090,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220224T063759Z" creationid="Марианна" creationdate="20220224T063759Z">
         <seg>List of all published nodes is displayed for each package.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для переиспользования компонентов достаточно в контекстном меню узла выбрать подменю «Создать производный компонент».</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220224T064501Z" creationid="Марианна" creationdate="20220224T064501Z">
+        <seg>It is sufficient to select "Create derived component" submenu in the context menu of the node to reuse the components.</seg>
       </tuv>
     </tu>
     <tu>
