@@ -4031,6 +4031,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Публикация веб-сервисов стала доступна в редакции Team.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220224T061246Z" creationid="Марианна" creationdate="20220224T061246Z">
+        <seg>Publication of web services became available in the Team edition.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Работа Python, в отличие от JavaScript, не ограничивается средой исполнения, а выполняемый код имеет полный доступ к операционной системе и сетевым протоколам.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210320T224653Z" creationid="Марианна" creationdate="20210320T224653Z">
@@ -4147,6 +4155,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210903T140123Z" creationid="Марианна" creationdate="20210903T140123Z">
         <seg>Previously, if many workflows containing the nodes that were waiting for responses from the external programs or services (Program execution, Rest request, import from Databases, etc.) were simultaneously started, it could happen that the processor load was much less than 100% but the new processes were not executed (#7255).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Реализован удобный функционал в переиспользовании компонентов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220224T061216Z" creationid="Марианна" creationdate="20220224T061216Z">
+        <seg>Convenient functionality of components reuse was implemented.</seg>
       </tuv>
     </tu>
     <tu>
