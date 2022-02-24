@@ -1854,6 +1854,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/data-format/lgd-file.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220224T061646Z" creationid="Марианна" creationdate="20220224T061646Z">
+        <seg>https://help.loginom.ru/userguide/data-format/lgd-file.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>https://help.loginom.ru/userguide/integration/connections/</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211215T125701Z" creationid="Марианна" creationdate="20211215T125701Z">
@@ -2674,6 +2682,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T203118Z" creationid="Марианна" creationdate="20210314T203118Z">
         <seg>Automapping of fields in Loginom</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Автоматическое сохранение резервных копий пакетов в серверных редакциях.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220224T061758Z" creationid="Марианна" creationdate="20220224T061758Z">
+        <seg>Auto save of the packages backup copies in the server editions.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3702,6 +3718,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Отмена выполнения запроса в процессе &lt;a0&gt;импорта из БД.&lt;/a0&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220224T061936Z" creationid="Марианна" creationdate="20220224T061936Z">
+        <seg>Cancelation of the request execution while &lt;a0&gt;importing from the DB.&lt;/a0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Отображаемые серии</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220220T163302Z" creationid="Марианна" creationdate="20220220T163302Z">
@@ -3938,6 +3962,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T205118Z" creationid="Марианна" creationdate="20210314T205118Z">
         <seg>New handler and visualizer appeared, whereas the existing ones were upgraded.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Предпросмотр расчета в мастере &lt;a0&gt;Калькулятора.&lt;/a0&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220224T061839Z" creationid="Марианна" creationdate="20220224T061839Z">
+        <seg>Calculation preview in the &lt;a0&gt;Calculator&lt;/a0&gt; wizard.</seg>
       </tuv>
     </tu>
     <tu>
