@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html>
 
-<div>Major Update of Loginom Analytical Platform Реализован функционал быстрого просмотра результатов вычислений при выделении активизированного узла. Появилась возможность отмены выполнения запроса в процессе импорта из БД. Реализован удобный функционал в переиспользовании компонентов. Публикация веб-сервисов стала доступна в редакции Team. Появился новый визуализатор – Качество данных, а также реализован ряд улучшений в OLAP-кубе.</div>
+<div>Major Update of Loginom Analytical Platform Functionality of the calculation results quick view was implemented for selection of the activated node. It became possible to cancel the request execution while importing from the DB. Convenient functionality of components reuse was implemented. Publication of web services became available in the Team edition. New visualizer (Data Quality) appeared, and some improvements were introduced into the OLAP cube.</div>
 
-<p>В обновление вошло большое количество улучшений и новых возможностей, направленных на удобство использования платформы. Ниже приведен список наиболее важных изменений:</p>
+<p>Many improvements and new options aimed at the platform use convenience were introduced. The most important changes are listed below:</p>
 
 <ol>
-	<li>Быстрый просмотр результатов вычислений при выделении узла.</li>
-	<li><a href="https://help.loginom.ru/userguide/integration/web-services/publishing-web-service.html" target="_blank">Публикация веб-сервисов</a> для редакции Team и новая страница настройки публикации <a href="https://help.loginom.ru/userguide/interface/packages.html" target="_blank">пакетов.</a></li>
-	<li>Удобный функционал переиспользования компонентов.</li>
-	<li>Настройка локали для пакета и сервера.</li>
-	<li>Новый <a href="https://help.loginom.ru/userguide/visualization/index.html" target="_blank">визуализатор </a>— Качество данных.</li>
-	<li>Автоматическое сохранение резервных копий пакетов в серверных редакциях.</li>
-	<li>Предпросмотр расчета в мастере <a href="https://help.loginom.ru/userguide/processors/transformation/calc/" target="_blank">Калькулятора.</a></li>
-	<li>Отмена выполнения запроса в процессе <a href="https://help.loginom.ru/userguide/integration/import/database.html" target="_blank">импорта из БД.</a></li>
-	<li>Увеличение скорости чтения данных в <a href="https://help.loginom.ru/userguide/data-format/lgd-file.html" target="_blank">Loginom Data файл.</a></li>
+	<li>Quick view of the calculation results when selecting the node.</li>
+	<li><a href="https://help.loginom.ru/userguide/integration/web-services/publishing-web-service.html" target="_blank">Publication of web services</a> for the Team edition and new page of the <a href="https://help.loginom.ru/userguide/interface/packages.html" target="_blank">packages</a> publication configuration.</li>
+	<li>Convenient functionality of components reuse.</li>
+	<li>Locale configuration for package and server.</li>
+	<li>New <a href="https://help.loginom.ru/userguide/visualization/index.html" target="_blank">visualizer </a>— Data Quality.</li>
+	<li>Auto save of the packages backup copies in the server editions.</li>
+	<li>Calculation preview in the <a href="https://help.loginom.ru/userguide/processors/transformation/calc/" target="_blank">Calculator</a> wizard.</li>
+	<li>Cancelation of the request execution while <a href="https://help.loginom.ru/userguide/integration/import/database.html" target="_blank">importing from the DB.</a></li>
+	<li>Increase of the data reading speed in the <a href="https://help.loginom.ru/userguide/data-format/lgd-file.html" target="_blank">Loginom Data file.</a></li>
 </ol>
 
 <div class="lg-em lg-em_green">
-<p><strong>Обратите внимание!</strong></p>
+<p><strong>Please note!</strong></p>
 </div>
 
 <p>Так как в новой версии серьезно переработан механизм переиспользования компонентов, то пакеты, в которых содержатся узлы с <a href="https://help.loginom.ru/userguide/scenario/access-modifier.html" target="_blank">о</a><a href="https://help.loginom.ru/userguide/scenario/access-modifier.html">бластью видимости</a> «открытый» или «опубликованный», потребуют дополнительной конвертации.</p>
@@ -37,14 +37,14 @@
 
 <p>Для повышения удобства работы аналитиков, в Loginom 6.5 реализован <a href="https://help.loginom.ru/userguide/visualization/preview/quick-view.html" target="_blank">быстрый просмотр</a> при выделении активизированного узла, без открытия дополнительных окон. Эта возможность позволяет визуально контролировать корректность расчетов в каждом узле сценария, оперативно обнаруживать ошибки. Опция запускается при активации режима «Быстрый просмотр» в правом углу панели инструментов, по двойному клику по выходному порту узла или через пункт «Увеличенный быстрый просмотр» контекстного меню порта.</p>
 
-<figure class="lg-text-img lg-text-img_preview"><a href="/sites/default/files/blogpost-images/data_release-notes_img_view.png"><img alt="Быстрый просмотр при выделении активизированного узла" data-entity-type="file" data-entity-uuid="insert-image792-bf6747fb-e219-4d2c-8723-8675be40b883" data-insert-class="" data-insert-type="image" src="/sites/default/files/styles/image792/public/blogpost-images/data_release-notes_img_view.png" title="Быстрый просмотр при выделении активизированного узла" /> </a>
+<figure class="lg-text-img lg-text-img_preview"><a href="/sites/default/files/blogpost-images/data_release-notes_img_view.png"><img alt="Quick view when selecting the activated node" data-entity-type="file" data-entity-uuid="insert-image792-bf6747fb-e219-4d2c-8723-8675be40b883" data-insert-class="" data-insert-type="image" src="/sites/default/files/styles/image792/public/blogpost-images/data_release-notes_img_view.png" title="Quick view when selecting the activated node" /> </a>
 
 <figcaption>
-<p>Быстрый просмотр при выделении активизированного узла</p>
+<p>Quick view when selecting the activated node</p>
 </figcaption>
 </figure>
 
-<p>Реализована возможность предварительного просмотра результатов расчетов <a href="https://help.loginom.ru/userguide/processors/transformation/calc/index.html" target="_blank">Калькулятора</a>. Теперь при написании формулы сразу же появляется возможность посмотреть, какие получаются результаты на примере первых 100 записей, причем отображаются как поля, которые используются в формулах, так и результаты вычислений, что удобно для визуального сравнения корректности расчетов. Опция активируется при нажатии иконки «Предпросмотр» на панели инструментов в мастере Калькулятора. Данный функционал особенно актуален при работе со сложными формулами.</p>
+<p>Option of the <a href="https://help.loginom.ru/userguide/processors/transformation/calc/index.html" target="_blank">Calculator</a> calculation results preview was implemented. Теперь при написании формулы сразу же появляется возможность посмотреть, какие получаются результаты на примере первых 100 записей, причем отображаются как поля, которые используются в формулах, так и результаты вычислений, что удобно для визуального сравнения корректности расчетов. The option is activated when pressing the "Preview" toolbar icon in the Calculator wizard. This functionality is particular relevant when working with complex formulae.</p>
 
 <figure class="lg-text-img lg-text-img_preview"><a href="/sites/default/files/blogpost-images/data_release-notes_img_%D1%81alculation.png"><img alt="Calculator Calculations Preview" data-entity-type="file" data-entity-uuid="insert-image792-1baf9007-c321-4855-932a-4dbb0b471f1f" data-insert-class="" data-insert-type="image" src="/sites/default/files/styles/image792/public/blogpost-images/data_release-notes_img_%D1%81alculation.png" title="Calculator Calculations Preview" /> </a>
 
@@ -57,23 +57,23 @@
 
 <p>Добавлен запрос подтверждения от пользователя на деактивацию узла перед началом настройки узла или его портов.</p>
 
-<h2>Улучшения работы с веб-сервисами</h2>
+<h2>Web Services Operation Improvements</h2>
 
-<p><a href="https://help.loginom.ru/userguide/integration/web-services/publishing-web-service.html" target="_blank">Публикация веб-сервисов</a> — одна из самых популярных функций платформы. Например, когда речь идет о создании систем принятия решений практически весь функционал базируется на обращении к веб-сервисам. Рассмотрим подробнее некоторые изменения.</p>
+<p><a href="https://help.loginom.ru/userguide/integration/web-services/publishing-web-service.html" target="_blank">Publication of web services</a> is one of the most popular platform functions. Например, когда речь идет о создании систем принятия решений практически весь функционал базируется на обращении к веб-сервисам. Let's consider some changes in detail.</p>
 
-<h3>Возможность публикация веб-сервисов для редакции Team</h3>
+<h3>Option of web services publication for the Team edition</h3>
 
 <p>В новой версии платформы появилась возможность публикации веб-сервисов в редакции Team с помощью <a href="https://help.loginom.ru/adminguide/integrator/index.html" target="_blank">Loginom Integrator.</a> Он несколько отличается от интегратора для редакций Standard и Enterprise:</p>
 
 <ol>
-	<li>Loginom Integrator для версии Team работает на том же сервере, что и <a href="https://help.loginom.ru/adminguide/server/index.html" target="_blank">Loginom Server.</a></li>
-	<li>В интеграторе отсутствует возможность построения отказоустойчивого кластера.</li>
-	<li>В Loginom Integrator для версии Team поддерживаются публикация только в формате <a href="https://help.loginom.ru/userguide/integration/connections/list/rest-service.html" target="_blank">REST-сервисов.</a></li>
+	<li>Loginom Integrator for the Team version is used on the same server as <a href="https://help.loginom.ru/adminguide/server/index.html" target="_blank">Loginom Server.</a></li>
+	<li>It is not possible to build the fail-safe cluster in the integrator.</li>
+	<li>Publications in Loginom Integrator for the Team version are supported only in the <a href="https://help.loginom.ru/userguide/integration/connections/list/rest-service.html" target="_blank">REST services</a> format.</li>
 </ol>
 
-<h3>Узел «Веб-сервисы» в панели навигации</h3>
+<h3>"Web services" navigation panel node</h3>
 
-<p>В панели навигации добавлен новый узел «Веб-сервисы», при активации которого открывается страница настройки публикации пакетов.</p>
+<p>The new node ("Web services") was added on the navigation panel. Its activation enables to open the packages publication configuration page.</p>
 
 <figure class="lg-text-img lg-text-img_preview"><a href="/sites/default/files/blogpost-images/data_release-notes_img_publishing.png"><img alt='New "Web Services" Page' data-entity-type="file" data-entity-uuid="insert-image792-4a9e9628-0dae-462c-914b-972d1b70c667" data-insert-class="" data-insert-type="image" src="/sites/default/files/styles/image792/public/blogpost-images/data_release-notes_img_publishing.png" title='New "Web Services" Page' /> </a>
 
@@ -82,17 +82,17 @@
 </figcaption>
 </figure>
 
-<p>На этой странице отображается список опубликованных пакетов, имя и путь к файлу пакета, дата публикации, версия и статус автообновления. Для каждого пакета отображается список всех опубликованных узлов. Также цветом отображается статус опубликованных веб-сервисов: зеленым, если веб-сервис соответствует сохраненному пакету; оранжевым, если веб-сервис не соответствует сохраненному пакету; и серым, если нет доступа к опубликованному пакету.</p>
+<p>List of all published packages, name and path to the package file, publication date, versions and auto update status are displayed on this page. List of all published nodes is displayed for each package. Также цветом отображается статус опубликованных веб-сервисов: зеленым, если веб-сервис соответствует сохраненному пакету; оранжевым, если веб-сервис не соответствует сохраненному пакету; и серым, если нет доступа к опубликованному пакету.</p>
 
 <p>На этой же странице можно добавить или обновить публикацию веб-сервиса, отредактировать опубликованный пакет или отменить публикацию. Если в настройках публикации пакета установлен параметр «Обновлять публикацию при сохранении пакета», то при любом редактировании веб-сервиса и сохранении пакета он будет автоматически переопубликован с учетом самых последних изменений.</p>
 
 <p>Дополнительно в администрировании Loginom 6.5 появилась отдельная <a href="https://help.loginom.ru/userguide/admin/roles.html" target="_blank">роль </a>и возможность управлять правами на публикацию веб-сервисов.</p>
 
-<h2>Новшества в переиспользовании компонентов</h2>
+<h2>Components Reuse Novelties</h2>
 
-<p>Возможность переиспользования компонентов и простота данной операции — одна из самых важных вещей при работе с Loginom. За счет переиспользования ранее спроектированных и проверенных компонентов повышается качество итоговых сценариев, а возможность делиться такими компонентами — многократно повышает производительность работы аналитика.</p>
+<p>Opportuniity to reuse components and ease of this operation is one of the most important features of the Loginom operation. За счет переиспользования ранее спроектированных и проверенных компонентов повышается качество итоговых сценариев, а возможность делиться такими компонентами — многократно повышает производительность работы аналитика.</p>
 
-<p>Для переиспользования компонентов достаточно в контекстном меню узла выбрать подменю «Создать производный компонент». В открывшемся окне доступны две опции на выбор: «Выполнение узла и Цикл» и «Производные узлы». Если выбрать опцию «Выполнение узла и Цикл», то будет доступно выполнение компонента или выполнение в цикле. Если выбрать опцию «Производные узлы», то можно модифицировать компонент перед его переиспользованием.</p>
+<p>It is sufficient to select "Create derived component" submenu in the context menu of the node to reuse the components. It is possible to select two available options in the opened window: "Node execution and Loop" and "Derived nodes". Если выбрать опцию «Выполнение узла и Цикл», то будет доступно выполнение компонента или выполнение в цикле. Если выбрать опцию «Производные узлы», то можно модифицировать компонент перед его переиспользованием.</p>
 
 <p>В новой версии платформы при подключении любого пакета в меню «производные компоненты» отображаются все компоненты, доступные для переиспользования, причем как для обычного выполнения, так и для редактирования. При перетаскивании производного компонента в область сценария по умолчанию создаётся узел <a href="https://help.loginom.ru/userguide/processors/control/execute-node.html" target="_blank">Выполнение</a>; если нажат Shift, то создаётся <a href="https://help.loginom.ru/userguide/processors/control/cycle.html" target="_blank">Цикл</a>, а если нажат Ctrl, — то производный узел. Если же в настройках компонента запрещено создание узлов Выполнение/Цикл, то всегда создаётся производный узел.</p>
 
