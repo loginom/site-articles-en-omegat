@@ -846,6 +846,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;a0&gt;Публикация веб-сервисов&lt;/a0&gt; — одна из самых популярных функций платформы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220224T062859Z" creationid="Марианна" creationdate="20220224T062859Z">
+        <seg>&lt;a0&gt;Publication of web services&lt;/a0&gt; is one of the most popular platform functions.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;&lt;a1&gt;Loginom Integrator,&lt;/a1&gt; Пакетное выполнение:&lt;/s0&gt; ускорен повторный запуск узла сценария при работе через Loginom Integrator или при Пакетном выполнении (#5295).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211229T122102Z" creationid="Марианна" creationdate="20211229T122029Z">
