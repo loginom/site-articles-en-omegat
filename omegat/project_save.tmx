@@ -3382,6 +3382,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Изменен порядок автоматического формирования имен полей.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220224T070103Z" creationid="Марианна" creationdate="20220224T070103Z">
+        <seg>The order of the automatic fields names generation was changed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Изменения в Loginom версии 6.4.0</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210322T221445Z" creationid="Марианна" creationdate="20210322T221445Z">
@@ -4098,6 +4106,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220224T070008Z" creationid="Марианна" creationdate="20220224T070008Z">
         <seg>More detailed information on the changes and special features of packages conversion is available in the following section: &lt;a0&gt;Conversion of the earlier version packages to 6.5 format.&lt;/a0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Подробнее в разделе &lt;a0&gt;Изменение в автоматическом формирование имен полей.&lt;/a0&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220224T070202Z" creationid="Марианна" creationdate="20220224T070202Z">
+        <seg>More detailed information is available in the following section: &lt;a0&gt;Change in the automatic fields names generation.&lt;/a0&gt;</seg>
       </tuv>
     </tu>
     <tu>
