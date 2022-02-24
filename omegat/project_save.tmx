@@ -3070,6 +3070,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для каждого пакета отображается список всех опубликованных узлов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220224T063759Z" creationid="Марианна" creationdate="20220224T063759Z">
+        <seg>List of all published nodes is displayed for each package.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для работы компонента Python на сервере должен быть установлен Python версии 3.4 или выше, а также все пакеты, которые планируется использовать в работе.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210320T231755Z" creationid="Марианна" creationdate="20210320T231755Z">
