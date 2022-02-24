@@ -2702,6 +2702,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Быстрый просмотр результатов вычислений при выделении узла.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220224T055922Z" creationid="Марианна" creationdate="20220224T055922Z">
+        <seg>Quick view of the calculation results when selecting the node.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В Loginom 6.4 внесено два существенных изменения, позволяющих расширить возможности использования Логистической регрессии, а в ряде случаев повысить качество получаемых моделей.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210321T185949Z" creationid="Марианна" creationdate="20210321T185949Z">
@@ -3546,6 +3554,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210325T114139Z" creationid="Марианна" creationdate="20210322T163334Z">
         <seg>The following less significant but still important improvements were also achieved:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Ниже приведен список наиболее важных изменений:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220224T055752Z" creationid="Марианна" creationdate="20220224T055752Z">
+        <seg>The most important changes are listed below:</seg>
       </tuv>
     </tu>
     <tu>
