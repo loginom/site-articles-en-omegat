@@ -3390,6 +3390,22 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Изменения в разделе Администрирование</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220224T064926Z" creationid="Марианна" creationdate="20220224T064926Z">
+        <seg>Changes in the Administration Section</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Импорт из LGD-файлов, Экспорт в LGD-файлы</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220224T064901Z" creationid="Марианна" creationdate="20220224T064901Z">
+        <seg>Import from the LGD Files, Export to the LGD Files</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Импорт из Баз данных в Loginom</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T203547Z" creationid="Марианна" creationdate="20210314T203547Z">
@@ -3570,6 +3586,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220220T163637Z" creationid="Марианна" creationdate="20220220T163628Z">
         <seg>Linear and Logistic Regressions</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Логика формирования имен полей:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220224T064955Z" creationid="Марианна" creationdate="20220224T064955Z">
+        <seg>Logics of fields names generation:</seg>
       </tuv>
     </tu>
     <tu>
