@@ -2702,6 +2702,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Автоматическое сохранение резервных копий пакетов</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220224T064737Z" creationid="Марианна" creationdate="20220224T064737Z">
+        <seg>Auto Save of the Packages Backup Copies </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Автоматическое сохранение резервных копий пакетов в серверных редакциях.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220224T061758Z" creationid="Марианна" creationdate="20220224T061758Z">
@@ -4078,6 +4086,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Появилась возможность отмены выполнения запроса в процессе импорта из базы данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220224T064822Z" creationid="Марианна" creationdate="20220224T064822Z">
+        <seg>It became possible to cancel the request execution while importing from the database.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Появилась возможность экспорта в Хранилище данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T200155Z" creationid="Марианна" creationdate="20210314T200155Z">
@@ -4683,6 +4699,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220220T163232Z" creationid="Марианна" creationdate="20220220T163232Z">
         <seg>OLAP Cube Improvements</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Улучшения в импорте данных</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220224T064754Z" creationid="Марианна" creationdate="20220224T064754Z">
+        <seg>Data Import Improvements</seg>
       </tuv>
     </tu>
     <tu>
