@@ -4247,6 +4247,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Реализована возможность предварительного просмотра результатов расчетов &lt;a0&gt;Калькулятора&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220224T062508Z" creationid="Марианна" creationdate="20220224T062508Z">
+        <seg>Option of the &lt;a0&gt;Calculator&lt;/a0&gt; calculation results preview was implemented.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Системе не удается найти указанный путь» (#6674).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210902T070410Z" creationid="Марианна" creationdate="20210902T070410Z">
