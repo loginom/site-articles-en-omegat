@@ -3686,6 +3686,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Обратите внимание!</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220224T062210Z" creationid="Марианна" creationdate="20220224T062210Z">
+        <seg>Please note!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Оптимизация работы</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201123T103954Z" creationid="Марианна" creationdate="20201123T103954Z">
@@ -4483,6 +4491,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210903T111015Z" creationid="Марианна" creationdate="20210903T111015Z">
         <seg>The User can set "Default usage types" for the output columns at his discretion.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Увеличение скорости чтения данных в &lt;a0&gt;Loginom Data файл.&lt;/a0&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220224T062133Z" creationid="Марианна" creationdate="20220224T062133Z">
+        <seg>Increase of the data reading speed in the &lt;a0&gt;Loginom Data file.&lt;/a0&gt;</seg>
       </tuv>
     </tu>
     <tu>
