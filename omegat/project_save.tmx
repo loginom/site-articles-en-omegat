@@ -4014,6 +4014,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Перед открытием новой версии рекомендуем отдельно сохранить копии обновляемых пакетов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220224T065423Z" creationid="Марианна" creationdate="20220224T065423Z">
+        <seg>It is recommended to save copies of the updated packages separately before new version opening.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Перезапуска сервера при этом не требуется, но активация параметра вступает в силу с небольшой задержкой.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210321T213702Z" creationid="Марианна" creationdate="20210321T213702Z">
