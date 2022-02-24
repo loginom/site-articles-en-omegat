@@ -3526,6 +3526,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Настройка локали для пакета и сервера.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220224T060631Z" creationid="Марианна" creationdate="20220224T060631Z">
+        <seg>Locale configuration for package and server.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Настройка поправки на соотношение событий к не-событиям</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210320T235930Z" creationid="Марианна" creationdate="20210320T235930Z">
@@ -3586,6 +3594,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220220T162812Z" creationid="Марианна" creationdate="20220220T162812Z">
         <seg>New "Web Services" Page</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Новый &lt;a0&gt;визуализатор &lt;/a0&gt;— Качество данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220224T060706Z" creationid="Марианна" creationdate="20220224T060706Z">
+        <seg>New &lt;a0&gt;visualizer &lt;/a0&gt;— Data Quality.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4123,6 +4139,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210903T140123Z" creationid="Марианна" creationdate="20210903T140123Z">
         <seg>Previously, if many workflows containing the nodes that were waiting for responses from the external programs or services (Program execution, Rest request, import from Databases, etc.) were simultaneously started, it could happen that the processor load was much less than 100% but the new processes were not executed (#7255).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Реализован функционал быстрого просмотра результатов вычислений при выделении активизированного узла.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220224T061044Z" creationid="Марианна" creationdate="20220224T061044Z">
+        <seg>Functionality of the calculation results quick view was implemented for selection of the activated node.</seg>
       </tuv>
     </tu>
     <tu>
