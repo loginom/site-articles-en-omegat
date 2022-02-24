@@ -3702,6 +3702,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Новшества в переиспользовании компонентов</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220224T064051Z" creationid="Марианна" creationdate="20220224T064051Z">
+        <seg>Components Reuse Novelties</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Новый &lt;a0&gt;визуализатор &lt;/a0&gt;— Качество данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220224T060706Z" creationid="Марианна" creationdate="20220224T060706Z">
