@@ -838,6 +838,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;a0&gt;Публикация веб-сервисов&lt;/a0&gt; для редакции Team и новая страница настройки публикации &lt;a1&gt;пакетов.&lt;/a1&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220224T060426Z" creationid="Марианна" creationdate="20220224T060426Z">
+        <seg>&lt;a0&gt;Publication of web services&lt;/a0&gt; for the Team edition and new page of the &lt;a1&gt;packages&lt;/a1&gt; publication configuration.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;&lt;a1&gt;Loginom Integrator,&lt;/a1&gt; Пакетное выполнение:&lt;/s0&gt; ускорен повторный запуск узла сценария при работе через Loginom Integrator или при Пакетном выполнении (#5295).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211229T122102Z" creationid="Марианна" creationdate="20211229T122029Z">
@@ -2042,6 +2050,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211215T125716Z" creationid="Марианна" creationdate="20211215T125716Z">
         <seg>https://help.loginom.ru/userguide/interface/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/interface/packages.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220224T055924Z" creationid="Марианна" creationdate="20220224T055924Z">
+        <seg>https://help.loginom.ru/userguide/interface/packages.html</seg>
       </tuv>
     </tu>
     <tu>
