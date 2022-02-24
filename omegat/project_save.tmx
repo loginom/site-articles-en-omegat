@@ -2806,6 +2806,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В обновление вошло большое количество улучшений и новых возможностей, направленных на удобство использования платформы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220224T061622Z" creationid="Марианна" creationdate="20220224T061622Z">
+        <seg>Many improvements and new options aimed at the platform use convenience were introduced.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В обработчике &lt;a0&gt;Корреляционный анализ&lt;/a0&gt; при расчете экстремума взаимокорреляционной функции для пользователя добавлен вывод номера лага (величины смещения).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210325T114508Z" creationid="Марианна" creationdate="20210322T210444Z">
@@ -3914,6 +3922,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T200155Z" creationid="Марианна" creationdate="20210314T200155Z">
         <seg>It also became possible to export to the Data Warehouse.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Появился новый визуализатор – Качество данных, а также реализован ряд улучшений в OLAP-кубе.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220224T061445Z" creationid="Марианна" creationdate="20220224T061445Z">
+        <seg>New visualizer (Data Quality) appeared, and some improvements were introduced into the OLAP cube.</seg>
       </tuv>
     </tu>
     <tu>
