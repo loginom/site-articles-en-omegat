@@ -3206,6 +3206,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Добавлена поддержка TLS 1.3.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220224T065155Z" creationid="Марианна" creationdate="20220224T065155Z">
+        <seg>TLS 1.3 support was added.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Добавлена поддержка методов PUT, DELETE и PATCH в мастерах настройки подключения &lt;a0&gt;REST-запроса&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210321T201130Z" creationid="Марианна" creationdate="20210321T200903Z">
@@ -3510,6 +3518,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Калькулятор</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220224T065140Z" creationid="Марианна" creationdate="20220224T065140Z">
+        <seg>Calculator</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Код, вызываемый в компоненте Python выполняется в один поток, а одновременно может выполняться только один узел Python.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210320T221607Z" creationid="Марианна" creationdate="20210320T221309Z">
@@ -3546,6 +3562,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210902T072150Z" creationid="Марианна" creationdate="20210902T072150Z">
         <seg>The correct paramater value is &lt;e4&gt;app/ws/&lt;/e4&gt; (#8544).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Корреляция</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220224T065044Z" creationid="Марианна" creationdate="20220224T065044Z">
+        <seg>Correlation</seg>
       </tuv>
     </tu>
     <tu>
@@ -4763,6 +4787,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220220T163351Z" creationid="Марианна" creationdate="20220220T163351Z">
         <seg>Headers Levels</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Фильтрация</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220224T065111Z" creationid="Марианна" creationdate="20220224T065111Z">
+        <seg>Filtering</seg>
       </tuv>
     </tu>
     <tu>
