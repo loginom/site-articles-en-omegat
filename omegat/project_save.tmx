@@ -2998,6 +2998,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Данный функционал особенно актуален при работе со сложными формулами.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220224T062724Z" creationid="Марианна" creationdate="20220224T062724Z">
+        <seg>This functionality is particular relevant when working with complex formulae.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Детализация визуализатора Качество данных</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220220T163202Z" creationid="Марианна" creationdate="20220220T163202Z">
