@@ -3902,6 +3902,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Появилась возможность отмены выполнения запроса в процессе импорта из БД.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220224T061143Z" creationid="Марианна" creationdate="20220224T061143Z">
+        <seg>It became possible to cancel the request execution while importing from the DB.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Появилась возможность экспорта в Хранилище данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T200155Z" creationid="Марианна" creationdate="20210314T200155Z">
