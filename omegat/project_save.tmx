@@ -1758,6 +1758,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Loginom Integrator для версии Team работает на том же сервере, что и &lt;a0&gt;Loginom Server.&lt;/a0&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220224T063127Z" creationid="Марианна" creationdate="20220224T063127Z">
+        <seg>Loginom Integrator for the Team version is used on the same server as &lt;a0&gt;Loginom Server.&lt;/a0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Loginom Server</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T201728Z" creationid="Марианна" creationdate="20210314T201728Z">
@@ -2774,6 +2782,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В Loginom Integrator для версии Team поддерживаются публикация только в формате &lt;a0&gt;REST-сервисов.&lt;/a0&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220224T063350Z" creationid="Марианна" creationdate="20220224T063350Z">
+        <seg>Publications in Loginom Integrator for the Team version are supported only in the &lt;a0&gt;REST services&lt;/a0&gt; format.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В Loginom не содержится инструментов разработки, аналогичных PyCharm и другим специализированным продуктам.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210320T220000Z" creationid="Марианна" creationdate="20210320T220000Z">
@@ -2794,6 +2810,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210321T185254Z" creationid="Марианна" creationdate="20210321T185254Z">
         <seg>In this case, the doubled rows are considered to be the rows with exact match of the compared fields.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В интеграторе отсутствует возможность построения отказоустойчивого кластера.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220224T063218Z" creationid="Марианна" creationdate="20220224T063218Z">
+        <seg>It is not possible to build the fail-safe cluster in the integrator.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2874,6 +2898,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210617T112013Z" creationid="Марианна" creationdate="20210616T143220Z">
         <seg>In this update, special attention was paid to the platform usability, performance improvements related to complex workflows operation were made, and some fixes were performed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В панели навигации добавлен новый узел «Веб-сервисы», при активации которого открывается страница настройки публикации пакетов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220224T063704Z" creationid="Марианна" creationdate="20220224T063704Z">
+        <seg>The new node ("Web services") was added on the navigation panel. Its activation enables to open the packages publication configuration page.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4579,6 +4611,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210320T221912Z" creationid="Марианна" creationdate="20210320T221912Z">
         <seg>The Python node activated in the process of another Python node execution will wait for completion of the first node operation even if it does not depend on it.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Узел «Веб-сервисы» в панели навигации</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220224T063428Z" creationid="Марианна" creationdate="20220224T063428Z">
+        <seg>"Web services" navigation panel node</seg>
       </tuv>
     </tu>
     <tu>
