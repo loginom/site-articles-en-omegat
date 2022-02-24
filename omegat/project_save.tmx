@@ -3718,6 +3718,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Опция активируется при нажатии иконки «Предпросмотр» на панели инструментов в мастере Калькулятора.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220224T062612Z" creationid="Марианна" creationdate="20220224T062612Z">
+        <seg>The option is activated when pressing the "Preview" toolbar icon in the Calculator wizard.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Основной кейс использования Python — встраивание расчетов, реализованных на Python в существующий сценарий анализа данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210320T220524Z" creationid="Марианна" creationdate="20210320T220524Z">
