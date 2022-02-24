@@ -3550,6 +3550,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Конвертация будет выполнена автоматически при открытии таких пакетов, а после обновления их нужно будет пересохранить.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220224T065714Z" creationid="Марианна" creationdate="20220224T065714Z">
+        <seg>Conversion will be automatically performed when opening such packages. It is required to save them after update once again.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Конечные классы</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T202109Z" creationid="Марианна" creationdate="20210314T202109Z">
@@ -4082,6 +4090,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T203857Z" creationid="Марианна" creationdate="20210314T203857Z">
         <seg>Supernode in Loginom</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Подробная информация об изменениях и особенностях конвертации пакетов описана в разделе &lt;a0&gt;Конвертация пакетов более ранних версий в формат 6.5.&lt;/a0&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220224T070008Z" creationid="Марианна" creationdate="20220224T070008Z">
+        <seg>More detailed information on the changes and special features of packages conversion is available in the following section: &lt;a0&gt;Conversion of the earlier version packages to 6.5 format.&lt;/a0&gt;</seg>
       </tuv>
     </tu>
     <tu>
