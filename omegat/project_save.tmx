@@ -3566,6 +3566,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>На этой странице отображается список опубликованных пакетов, имя и путь к файлу пакета, дата публикации, версия и статус автообновления.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220224T063940Z" creationid="Марианна" creationdate="20220224T063940Z">
+        <seg>List of all published packages, name and path to the package file, publication date, versions and auto update status are displayed on this page.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Например, если было выбрано условие «первый день от текущей даты» (#8633).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210903T102944Z" creationid="Марианна" creationdate="20210903T102944Z">
