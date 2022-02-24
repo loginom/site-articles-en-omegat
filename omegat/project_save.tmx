@@ -3006,6 +3006,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Возможность публикация веб-сервисов для редакции Team</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220224T063006Z" creationid="Марианна" creationdate="20220224T063006Z">
+        <seg>Option of web services publication for the Team edition</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Данный функционал особенно актуален при работе со сложными формулами.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220224T062724Z" creationid="Марианна" creationdate="20220224T062724Z">
@@ -4243,6 +4251,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210903T140123Z" creationid="Марианна" creationdate="20210903T140123Z">
         <seg>Previously, if many workflows containing the nodes that were waiting for responses from the external programs or services (Program execution, Rest request, import from Databases, etc.) were simultaneously started, it could happen that the processor load was much less than 100% but the new processes were not executed (#7255).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Рассмотрим подробнее некоторые изменения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220224T062922Z" creationid="Марианна" creationdate="20220224T062922Z">
+        <seg>Let's consider some changes in detail.</seg>
       </tuv>
     </tu>
     <tu>
