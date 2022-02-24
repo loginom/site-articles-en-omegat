@@ -4391,6 +4391,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Удобный функционал переиспользования компонентов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220224T060546Z" creationid="Марианна" creationdate="20220224T060546Z">
+        <seg>Convenient functionality of components reuse.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Удобство использования</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210322T234252Z" creationid="Марианна" creationdate="20210322T234252Z">
