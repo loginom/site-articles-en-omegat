@@ -3230,6 +3230,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Добавлен запрос подтверждения от пользователя на деактивацию узла перед началом настройки узла или его портов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220227T115359Z" creationid="Марианна" creationdate="20220227T115359Z">
+        <seg>User confirmation request to deactivate the node before configuration of the node or its ports was added.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Добавлена анимированная иконка статуса процессов при наличии активных процессов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210322T203512Z" creationid="Марианна" creationdate="20210322T203512Z">
