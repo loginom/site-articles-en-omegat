@@ -4527,6 +4527,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При открытии пакетов, содержащих узлы с модификатором доступа «Опубликованный», пользователю будет выдано предупреждение о том, что будет выполнена конвертация пакета и будут созданы дополнительные производные компоненты.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220227T155803Z" creationid="Марианна" creationdate="20220227T155803Z">
+        <seg>When publishing the packages containing the nodes with the "Published" visibility, a user will be warned that the package will be converted and additional derived components will be created.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При открытии таких пакетов в Loginom версии 6.5.0 и старше, автоматически создаются производные компоненты по всем узлам, на которые ссылаются узлы Выполнение узла и Цикл в текущем пакете.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220227T122338Z" creationid="Марианна" creationdate="20220227T122246Z">
