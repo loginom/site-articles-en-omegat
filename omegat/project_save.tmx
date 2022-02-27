@@ -3054,6 +3054,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В том числе, сообщение будет получено, если в самом пакете нет таких узлов, но они есть в одном из подключенных пакетов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220227T155922Z" creationid="Марианна" creationdate="20220227T155922Z">
+        <seg>This message will be also received if there are no such nodes in the package but they are available in one of the connected packages.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В этой версии исправлено несколько ошибок, выявленных при тестировании возможностей, добавленных в версии 6.4.0.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210322T215022Z" creationid="Марианна" creationdate="20210322T215022Z">
