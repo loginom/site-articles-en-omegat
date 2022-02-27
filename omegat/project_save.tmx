@@ -4246,6 +4246,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Перед тем, как открывать в новой версии Loginom пакеты, разработанные в предыдущих версиях платформы, рекомендуется сделать резервные копии исходных пакетов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220227T122141Z" creationid="Марианна" creationdate="20220227T122141Z">
+        <seg>Before opening the packages designed in the previous platform versions in the new platform version, it is recommended to make backup copies of the source packages.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Перезапуска сервера при этом не требуется, но активация параметра вступает в силу с небольшой задержкой.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210321T213702Z" creationid="Марианна" creationdate="20210321T213702Z">
