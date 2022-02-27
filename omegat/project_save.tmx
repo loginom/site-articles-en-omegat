@@ -3320,8 +3320,8 @@
       <tuv lang="ru">
         <seg>Дополнительно в администрировании Loginom 6.5 появилась отдельная &lt;a0&gt;роль &lt;/a0&gt;и возможность управлять правами на публикацию веб-сервисов.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220227T120931Z" creationid="Марианна" creationdate="20220227T120822Z">
-        <seg>Besides, a separate &lt;a0&gt;role &lt;/a0&gt; appeared in Loginom 6.5 administration. And it became possible to manage the web services publication rights.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20220227T121004Z" creationid="Марианна" creationdate="20220227T120822Z">
+        <seg>Besides, a separate &lt;a0&gt;role &lt;/a0&gt; appeared in Loginom 6.5 administration. And it became possible to control the web services publication rights.</seg>
       </tuv>
     </tu>
     <tu>
