@@ -4038,6 +4038,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Опция запускается при активации режима «Быстрый просмотр» в правом углу панели инструментов, по двойному клику по выходному порту узла или через пункт «Увеличенный быстрый просмотр» контекстного меню порта.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220227T112535Z" creationid="Марианна" creationdate="20220227T112535Z">
+        <seg>The option is started when activating the "Quick view" mode in the right toolbar corner by double clicking on the output node port or using "Advanced quick view" option of the context port menu.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Основной кейс использования Python — встраивание расчетов, реализованных на Python в существующий сценарий анализа данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210320T220524Z" creationid="Марианна" creationdate="20210320T220524Z">
