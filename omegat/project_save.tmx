@@ -3422,6 +3422,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Задачу анализа данных так или иначе можно решить в различных инструментах.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220227T091648Z" creationid="Марианна" creationdate="20220227T091648Z">
+        <seg>Data analysis task can be somehow completed using different tools.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Затронутые параметры: «Кодовая страница» для баз данных &lt;e2&gt;Interbase/Firebird&lt;/e2&gt; или &lt;e3&gt;MS SQL&lt;/e3&gt;, а также «Зашифрованная БД» для &lt;e4&gt;SQLite&lt;/e4&gt; (#8759).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211229T110905Z" creationid="Марианна" creationdate="20211229T110905Z">
