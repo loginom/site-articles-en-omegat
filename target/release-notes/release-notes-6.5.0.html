@@ -21,17 +21,17 @@
 <p><strong>Please note!</strong></p>
 </div>
 
-<p>Так как в новой версии серьезно переработан механизм переиспользования компонентов, то пакеты, в которых содержатся узлы с <a href="https://help.loginom.ru/userguide/scenario/access-modifier.html" target="_blank">о</a><a href="https://help.loginom.ru/userguide/scenario/access-modifier.html">бластью видимости</a> «открытый» или «опубликованный», потребуют дополнительной конвертации.</p>
+<p>As the components reuse mechanism has been significantly modified in the new version, additional conversion will be required for the packages that included the nodes with the "public" or "published" <a href="https://help.loginom.ru/userguide/scenario/access-modifier.html" target="_blank"></a><a href="https://help.loginom.ru/userguide/scenario/access-modifier.html">visibility</a>.</p>
 
-<p>Перед открытием новой версии рекомендуем отдельно сохранить копии обновляемых пакетов. Конвертация будет выполнена автоматически при открытии таких пакетов, а после обновления их нужно будет пересохранить. Подробная информация об изменениях и особенностях конвертации пакетов описана в разделе <a href="#converter">Конвертация пакетов более ранних версий в формат 6.5.</a></p>
+<p>It is recommended to save copies of the updated packages separately before new version opening. Conversion will be automatically performed when opening such packages. It is required to save them after update once again. More detailed information on the changes and special features of packages conversion is available in the following section: <a href="#converter">Conversion of the earlier version packages to 6.5 format.</a></p>
 
-<p>Изменен порядок автоматического формирования имен полей. Подробнее в разделе <a href="#autoname">Изменение в автоматическом формирование имен полей.</a></p>
+<p>The order of the automatic fields names generation was changed. More detailed information is available in the following section: <a href="#autoname">Change in the automatic fields names generation.</a></p>
 
-<p>В настройках администрирования добавлена стандартная группа пользователей «Все». Подробнее в разделе <a href="#admin">Изменения в разделе Администрирование.</a></p>
+<p>The standard "All" user group was added to the administration settings. More detailed information is available in the following section: <a href="#admin">Changes in the Administration Section.</a></p>
 
-<p>Кодировка лог-файлов заменена на UTF8. Это изменение может быть значимым, если была настроена автоматическая обработка лог-файлов при помощи скриптов. Подробнее в разделе <a href="#logging">Изменения в логировании.</a></p>
+<p>Log files coding was replaced with UTF8. This change will be very important if the automatic processing of log files is set using scripts. More detailed information is available in the following section: <a href="#logging">Changes in Logging.</a></p>
 
-<h2>Изменения в проектировании и отладке сценариев</h2>
+<h2>Changes in the Workflow Design and Debugging</h2>
 
 <p>Задачу анализа данных так или иначе можно решить в различных инструментах. Поэтому, особенно важно обеспечить удобство работы пользователя с конкретным продуктом. Проектирование и отладка логики анализа данных занимает у аналитиков — основных пользователей Loginom — большое количество времени. Важно, чтобы этот процесс был максимально комфортным для специалиста, отвечал всем его запросам.</p>
 
@@ -96,16 +96,16 @@
 
 <p>В новой версии платформы при подключении любого пакета в меню «производные компоненты» отображаются все компоненты, доступные для переиспользования, причем как для обычного выполнения, так и для редактирования. При перетаскивании производного компонента в область сценария по умолчанию создаётся узел <a href="https://help.loginom.ru/userguide/processors/control/execute-node.html" target="_blank">Выполнение</a>; если нажат Shift, то создаётся <a href="https://help.loginom.ru/userguide/processors/control/cycle.html" target="_blank">Цикл</a>, а если нажат Ctrl, — то производный узел. Если же в настройках компонента запрещено создание узлов Выполнение/Цикл, то всегда создаётся производный узел.</p>
 
-<p>Компоненты на панели Производные компоненты теперь группируются по пакетам, внутри которых они содержатся. В рамках каждого пакета компоненты сортируются в алфавитном порядке. The context menu commands were also added:</p>
+<p>The components of the Derived Components panel are currently grouped by the packages into which they are included. The components are sorted in alphabetic order in each package. The context menu commands were also added:</p>
 
 <ul>
-	<li>на панели Производные компоненты для текущего модуля добавлено контекстное меню с пунктом «Перейти к производным компонентам»;</li>
-	<li>у производных компонентов добавлен пункт «Перейти к производному компоненту».</li>
+	<li>the context menu with "Go to derived component" option was added on the Derived Components panel for the current module;</li>
+	<li>"Go to derived component" option was added for the derived components.</li>
 </ul>
 
 <div class="anchor" id="converter">&nbsp;</div>
 
-<h3>Конвертация пакетов более ранних версий в формат 6.5</h3>
+<h3>Conversion of the earlier version packages to 6.5 format</h3>
 
 <p>Начиная с версии 6.5.0, узлы Выполнение узла и Цикл ссылаются не на узел, а на компонент. Для того, чтобы обеспечить обратную совместимость с пакетами, разработанными в предыдущих версиях платформы, реализован механизм конвертации сценариев.</p>
 
@@ -113,7 +113,7 @@
 <p>Перед тем, как открывать в новой версии Loginom пакеты, разработанные в предыдущих версиях платформы, рекомендуется сделать резервные копии исходных пакетов.</p>
 </div>
 
-<p>При открытии таких пакетов в Loginom версии 6.5.0 и старше, автоматически создаются производные компоненты по всем узлам, на которые ссылаются узлы Выполнение узла и Цикл в текущем пакете. Эти компоненты получают такую же метку и модификатор доступа, как и исходный узел.</p>
+<p>При открытии таких пакетов в Loginom версии 6.5.0 и старше, автоматически создаются производные компоненты по всем узлам, на которые ссылаются узлы Выполнение узла и Цикл в текущем пакете. These components receive the same caption and visibility as the source node.</p>
 
 <p>Также автоматически создаются производные компоненты по всем узлам с <a href="https://help.loginom.ru/userguide/scenario/access-modifier.html" target="_blank">модификатором доступа</a> «Открытый» или «Опубликованный», так как на эти узлы могут быть ссылки в других пакетах. Эти компоненты получают метки вида «Метка_узла (открытый узел)» или «Метка_узла (опубликованный узел)» в зависимости от модификатора доступа узлов, по которым они созданы. Некоторые из этих компонентов могут оказаться лишними, если в других пакетах нет и не планируется создавать узлы Выполнение узла или Цикл, которые на них ссылаются. Такая ситуация наиболее вероятна для производных компонентов, созданных по опубликованным узлам, так как чаще всего такие узлы используются для работы через Loginom Integrator или для Пакетного выполнения. Все лишние производные компоненты можно удалить вручную, после чего сохранить пакет.</p>
 
@@ -125,7 +125,7 @@
 
 <p>В новой версии платформы появилась возможность указать нужную локаль для сохраняемого пакета. Эта функция актуальна, когда речь идет об обработке многоязычных текстовых данных или данных типа дата-время. При разработке сценария в настройках сервера может быть настроена одна локаль, а на сервере, где будет выполняться разработанный сценарий — другая. Из-за этого при запуске сценария могли возникать конфликты локалей. Для устранения этой проблемы в новой версии Loginom 6.5 реализован функционал фиксации локали пакетов. Настроенные таким образом сценарии будут независимы от языковых настроек Windows и Loginom.</p>
 
-<p>У разных версий и редакций Loginom разные возможности. Иногда возникают ситуации, когда различия в функционалах нужно учитывать при проектировании сценариев. Например, на серверной редакции Standard есть возможность выполнять<a href="https://help.loginom.ru/userguide/integration/connections/list/soap-service.html" target="_blank"> SOAP-запросы</a>, а в настольной редакции Personal такой опции нет.</p>
+<p>Different Loginom versions and editions provide different options. Sometimes there are situations when it is required to take into account the functionality differences when designing workflows. For example, it is possible to execute the <a href="https://help.loginom.ru/userguide/integration/connections/list/soap-service.html" target="_blank"> SOAP requests</a> in the server Standard edition, whereas there is no such option in the desktop Personal edition.</p>
 
 <p>С целью унификации сценариев разных версий и редакций платформы в Loginom 6.5 добавлены <a href="https://help.loginom.ru/userguide/scenario/variables/control-variables.html" target="_blank">глобальные переменные</a> ProductVersion и ProductEdition, которые можно использовать при проектировании сценариев.</p>
 
@@ -135,10 +135,10 @@
 
 <p>Любой, кто занимался анализом данных знает, что работа по улучшению качества данных — одна из самых важных задач. С этой целью в Loginom появился специализированный визуализатор — Качество данных, который реализован в виде сводки по всем типам проблем.</p>
 
-<figure class="lg-text-img lg-text-img_preview"><a href="/sites/default/files/blogpost-images/data_release-notes_img_visualiser-summary.png"><img alt="Сводка визуализатора Качество данных" data-entity-type="file" data-entity-uuid="insert-image792-e9a8de79-31bd-4304-9636-2698197ef7cb" data-insert-class="" data-insert-type="image" src="/sites/default/files/styles/image792/public/blogpost-images/data_release-notes_img_visualiser-summary.png" title="Сводка визуализатора Качество данных" /> </a>
+<figure class="lg-text-img lg-text-img_preview"><a href="/sites/default/files/blogpost-images/data_release-notes_img_visualiser-summary.png"><img alt="Summary of the Data Quality Visualizer" data-entity-type="file" data-entity-uuid="insert-image792-e9a8de79-31bd-4304-9636-2698197ef7cb" data-insert-class="" data-insert-type="image" src="/sites/default/files/styles/image792/public/blogpost-images/data_release-notes_img_visualiser-summary.png" title="Summary of the Data Quality Visualizer" /> </a>
 
 <figcaption>
-<p>Сводка визуализатора Качество данных</p>
+<p>Summary of the Data Quality Visualizer</p>
 </figcaption>
 </figure>
 
@@ -155,7 +155,7 @@
 
 <h3>OLAP Cube Improvements</h3>
 
-<p><a href="https://help.loginom.ru/userguide/visualization/cube/index.html" target="_blank">OLAP-куб</a> — один из самых популярных визуализаторов. В новой версии платформы его функционал был значительно улучшен:</p>
+<p><a href="https://help.loginom.ru/userguide/visualization/cube/index.html" target="_blank">OLAP cube</a> is one of the most popular visualizers. Its functionality was significantly improved in the new platform version:</p>
 
 <ul>
 	<li>до 2-х раз повысилась отзывчивость интерфейса при работе с большими наборами данных;</li>
@@ -187,17 +187,17 @@
 	<li>в окне настройки фактов добавлена иконка калькулятора у вычисляемых фактов.</li>
 </ul>
 
-<h3>Быстрый просмотр</h3>
+<h3>Quick View</h3>
 
 <p>По нажатию на Ctrl+C, выделенные в окне быстрого просмотра данные теперь копируются в совместимом с Excel формате, то есть при вставке в табличный редактор, вставляемые значения будут иметь корректный формат данных. Данная возможность работает в окне быстрого просмотра на панели сценария, при быстром просмотре содержимого выходных портов, при быстром просмотре результатов в калькуляторе, а также в инспекторе свойств.</p>
 
-<h2>Автоматическое сохранение резервных копий пакетов</h2>
+<h2>Auto Save of the Packages Backup Copies </h2>
 
 <p>В серверных редакциях на странице настройки пакетов добавлена возможность настроить периодическое автоматическое резервное копирование всех открытых пакетов. При нажатии на кнопку «Автосохранение», можно включить этот параметр, а также задать «Период сохранения» в минутах. Пакеты сохраняются с заданным интервалом в файлы с расширением .autosave рядом с .lgp файлами. Сами .lgp файлы при этом не перезаписываются.</p>
 
-<h2>Улучшения в импорте данных</h2>
+<h2>Data Import Improvements</h2>
 
-<p>Появилась возможность отмены выполнения запроса в процессе импорта из базы данных. Эта опция удобна в случае неправильного написания сложных запросов к базам данных, на подготовку которых СУБД могла тратить продолжительное время, иногда сопоставимое со временем, требуемым на получение результирующих данных. Ранее приходилось дожидаться окончания выполнения операции, сейчас реализована возможность ее быстрой отмены и последующей коррекции.</p>
+<p>It became possible to cancel the request execution while importing from the database. Эта опция удобна в случае неправильного написания сложных запросов к базам данных, на подготовку которых СУБД могла тратить продолжительное время, иногда сопоставимое со временем, требуемым на получение результирующих данных. Ранее приходилось дожидаться окончания выполнения операции, сейчас реализована возможность ее быстрой отмены и последующей коррекции.</p>
 
 <p>Еще одно новшество — это гибкая настройка импорта данных из хранилища при помощи переменных.</p>
 
@@ -209,13 +209,13 @@
 
 <p>Добавлена возможность выполнить автоматическое определение структуры импортируемого файла. По нажатию на кнопку «Предположить структуру» на странице «Настройка форматов импорта» будут автоматически определены и установлены следующие параметры: разделитель столбцов, ограничитель строк, десятичный разделитель, разделитель даты, разделитель времени, формат даты.</p>
 
-<h3>Импорт из LGD-файлов, Экспорт в LGD-файлы</h3>
+<h3>Import from the LGD Files, Export to the LGD Files</h3>
 
 <p>При <a href="https://help.loginom.ru/userguide/integration/export/ldf.html" target="_blank">экспорте в Loginom Data файл</a> оптимизировано сжатие строковых данных — скорость чтения больших наборов данных увеличилась до 2-х раз. Достаточно экспортировать любые данные в формат lgd и работа с ними будет в несколько раз быстрее, также они будут занимать гораздо меньший объем памяти в хранилище. Скорость чтения lgd-файлов увеличилась до 10 раз по сравнению с текстовыми файлами и до двух раз по сравнению с lgd-файлами версии 6.4.</p>
 
 <div class="anchor" id="admin">&nbsp;</div>
 
-<h2>Изменения в разделе Администрирование</h2>
+<h2>Changes in the Administration Section</h2>
 
 <p>Для того, чтобы на сервере можно было создать общую папку, доступ к которой имели бы все пользователи, в том числе вновь добавляемые, создана стандартная группа пользователей «Все», которая отображается при настройке прав на общие папки.</p>
 
@@ -233,7 +233,7 @@
 
 <h2>Изменение в автоматическом формирование имен полей</h2>
 
-<p>При формировании набора полей, в исходном наименовании все невалидные символы заменяются и формируется корректное имя поля или же значение по умолчанию, если не получилось сформировать корректный идентификатор. Логика формирования имен полей:</p>
+<p>При формировании набора полей, в исходном наименовании все невалидные символы заменяются и формируется корректное имя поля или же значение по умолчанию, если не получилось сформировать корректный идентификатор. Logics of fields names generation:</p>
 
 <ul>
 	<li>валидные символы переносятся без изменений;</li>
@@ -266,10 +266,10 @@
 
 <ol>
 	<li><a href="https://help.loginom.ru/userguide/processors/datamining/arimax.html" target="_blank">ARIMAX</a></li>
-	<li><a href="https://help.loginom.ru/userguide/processors/scrutiny/correlation-analysis.html" target="_blank">Корреляция</a></li>
+	<li><a href="https://help.loginom.ru/userguide/processors/scrutiny/correlation-analysis.html" target="_blank">Correlation</a></li>
 	<li><a href="https://help.loginom.ru/userguide/processors/preprocessing/fine-classes.html" target="_blank">Coarse Classes</a></li>
-	<li><a href="https://help.loginom.ru/userguide/visualization/table/filter.html" target="_blank">Фильтрация</a></li>
-	<li>Калькулятор</li>
+	<li><a href="https://help.loginom.ru/userguide/visualization/table/filter.html" target="_blank">Filtering</a></li>
+	<li>Calculator</li>
 	<li>JavaScript</li>
 </ol>
 
@@ -319,7 +319,7 @@
 
 <p>На домашней странице добавлена возможность открыть в новом окне пакет из списка «Последние открытые пакеты». Для этого при клике на имя пакета необходимо удерживать клавишу «Ctrl» («Cmd» для MacOS). Также можно открыть в новой вкладке пакет при нажатии с «Ctrl» («Cmd» для MacOS) на кнопки «Создать пакет», «Создать черновик», «Открыть пакет».</p>
 
-<p>Добавлена поддержка TLS 1.3. Для защищенных соединений используется OpenSSL версии 1.1. При работе через HTTPS и WebSocket не может быть использована версия TLS ниже 1.2.</p>
+<p>TLS 1.3 support was added. Для защищенных соединений используется OpenSSL версии 1.1. При работе через HTTPS и WebSocket не может быть использована версия TLS ниже 1.2.</p>
 
 <p>Сортировка дискретных начальных классов узла Конечные классы заменена на устойчивую. Ранее при выполнении могла изменяться модель начальных классов, а результат выполнения мог отличаться от ожидаемого.</p>
 
