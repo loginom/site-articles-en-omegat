@@ -3942,6 +3942,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Начиная с версии 6.5.0, узлы Выполнение узла и Цикл ссылаются не на узел, а на компонент.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220227T121658Z" creationid="Марианна" creationdate="20220227T121658Z">
+        <seg>Starting from 6.5.0 version Node Execution and Loop nodes refer not to the node but to the component.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Не поддерживаются модули пакета multiprocessing, используемые для реализации параллельной работы через создание нескольких процессов, а также зависимые от них сторонние пакеты.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210320T222545Z" creationid="Марианна" creationdate="20210320T222457Z">
