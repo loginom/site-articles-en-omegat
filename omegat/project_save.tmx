@@ -3374,6 +3374,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если в настройках публикации пакета установлен параметр «Обновлять публикацию при сохранении пакета», то при любом редактировании веб-сервиса и сохранении пакета он будет автоматически переопубликован с учетом самых последних изменений.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220227T153725Z" creationid="Марианна" creationdate="20220227T153725Z">
+        <seg>If "Update publication on package saving" parameter is set in the package publication settings, it will be automatically republished taking into account the recent changes after each web service editing and package saving.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если в процессе выполнения кода Python возникнут критические ошибки, то приложение может аварийно завершится.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210320T223505Z" creationid="Марианна" creationdate="20210320T223505Z">
