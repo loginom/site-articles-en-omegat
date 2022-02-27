@@ -4951,6 +4951,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Также автоматически создаются производные компоненты по всем узлам с &lt;a0&gt;модификатором доступа&lt;/a0&gt; «Открытый» или «Опубликованный», так как на эти узлы могут быть ссылки в других пакетах.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220227T161505Z" creationid="Марианна" creationdate="20220227T161505Z">
+        <seg>The derived components for all nodes with the "Public" or "Published" &lt;a0&gt;visibility&lt;/a0&gt; are automatically creted in the same way as references to these nodes can be available in other packages.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Также в этом разделе можно принудительно остановить выполнение сценария или сбросить сессию пользователя.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210321T212642Z" creationid="Марианна" creationdate="20210321T212606Z">
