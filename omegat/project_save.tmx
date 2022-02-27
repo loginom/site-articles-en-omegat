@@ -2912,8 +2912,8 @@
       <tuv lang="ru">
         <seg>В новой версии платформы при подключении любого пакета в меню «производные компоненты» отображаются все компоненты, доступные для переиспользования, причем как для обычного выполнения, так и для редактирования.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220227T154436Z" creationid="Марианна" creationdate="20220227T154436Z">
-        <seg>All components available for the repeated use both for the common execution, and for editing are displayed in the "derived components" menu in the new platform version when connecting any package.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20220227T155145Z" creationid="Марианна" creationdate="20220227T154436Z">
+        <seg>All components available for the reuse both for the common execution, and for editing are displayed in the "derived components" menu in the new platform version when connecting any package.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3480,8 +3480,8 @@
       <tuv lang="ru">
         <seg>За счет переиспользования ранее спроектированных и проверенных компонентов повышается качество итоговых сценариев, а возможность делиться такими компонентами — многократно повышает производительность работы аналитика.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220227T154137Z" creationid="Марианна" creationdate="20220227T154049Z">
-        <seg>Due to the repeated use of the earlier designed and checked components, the quality of the final workflows is improved, and possibility to share such components increases many times the analyst's performance.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20220227T155138Z" creationid="Марианна" creationdate="20220227T154049Z">
+        <seg>Due to the reuse of the earlier designed and checked components, the quality of the final workflows is improved, and possibility to share such components increases many times the analyst's performance.</seg>
       </tuv>
     </tu>
     <tu>
