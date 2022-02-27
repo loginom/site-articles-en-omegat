@@ -4553,8 +4553,8 @@
       <tuv lang="ru">
         <seg>Так как в новой версии серьезно переработан механизм переиспользования компонентов, то пакеты, в которых содержатся узлы с &lt;a0&gt;о&lt;/a0&gt;&lt;a1&gt;бластью видимости&lt;/a1&gt; «открытый» или «опубликованный», потребуют дополнительной конвертации.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220227T084122Z" creationid="Марианна" creationdate="20220227T083931Z">
-        <seg>As the components reuse mechanism has been significantly modified in the new version, additional conversion will be required for the packages that included the nodes with the "public" or "published" &lt;a0&gt;&lt;/a0&gt;&lt;a1&gt;visibility area&lt;/a1&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20220227T084517Z" creationid="Марианна" creationdate="20220227T083931Z">
+        <seg>As the components reuse mechanism has been significantly modified in the new version, additional conversion will be required for the packages that included the nodes with the "public" or "published" &lt;a0&gt;&lt;/a0&gt;&lt;a1&gt;visibility&lt;/a1&gt;.</seg>
       </tuv>
     </tu>
     <tu>
