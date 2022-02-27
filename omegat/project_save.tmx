@@ -2944,8 +2944,8 @@
       <tuv lang="ru">
         <seg>В открывшемся окне доступны две опции на выбор: «Выполнение узла и Цикл» и «Производные узлы».</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220224T064637Z" creationid="Марианна" creationdate="20220224T064637Z">
-        <seg>It is possible to select two available options in the opened window: "Node execution and Loop" and "Derived nodes".</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20220227T091339Z" creationid="Марианна" creationdate="20220224T064637Z">
+        <seg>It is possible to select two available options in the opened window: "Node Execution and Loop" and "Derived nodes".</seg>
       </tuv>
     </tu>
     <tu>
@@ -3330,6 +3330,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210616T164828Z" creationid="Марианна" creationdate="20210616T164654Z">
         <seg>If all active processes are not finished during the timeout, the error message will appear.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Если выбрать опцию «Выполнение узла и Цикл», то будет доступно выполнение компонента или выполнение в цикле.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220227T091347Z" creationid="Марианна" creationdate="20220227T091325Z">
+        <seg>If "Node Execution and Loop" option is selected, the component execution or loop execution will be available.</seg>
       </tuv>
     </tu>
     <tu>
