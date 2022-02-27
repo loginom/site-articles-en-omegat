@@ -3478,6 +3478,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Иногда возникают ситуации, когда различия в функционалах нужно учитывать при проектировании сценариев.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220227T085914Z" creationid="Марианна" creationdate="20220227T085914Z">
+        <seg>Sometimes there are situations when it is required to take into account the functionality differences when designing workflows.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Использование скриптов на языке Python</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T174717Z" creationid="Марианна" creationdate="20210314T174717Z">
