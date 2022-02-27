@@ -3550,6 +3550,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Кодировка лог-файлов заменена на UTF8.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220227T084903Z" creationid="Марианна" creationdate="20220227T084903Z">
+        <seg>Log files coding was replaced with UTF8.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Компонент Экспорт в Хранилище данных, а также механизм наследования для компонента &lt;a0&gt;Импорт из Хранилища данных.&lt;/a0&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210325T112946Z" creationid="Марианна" creationdate="20210320T212659Z">
@@ -4122,6 +4130,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220224T070202Z" creationid="Марианна" creationdate="20220224T070202Z">
         <seg>More detailed information is available in the following section: &lt;a0&gt;Change in the automatic fields names generation.&lt;/a0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Подробнее в разделе &lt;a0&gt;Изменения в логировании.&lt;/a0&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220227T084930Z" creationid="Марианна" creationdate="20220227T084930Z">
+        <seg>More detailed information is available in the following section: &lt;a0&gt;Changes in Logging.&lt;/a0&gt;</seg>
       </tuv>
     </tu>
     <tu>
