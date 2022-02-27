@@ -4871,6 +4871,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Теперь при написании формулы сразу же появляется возможность посмотреть, какие получаются результаты на примере первых 100 записей, причем отображаются как поля, которые используются в формулах, так и результаты вычислений, что удобно для визуального сравнения корректности расчетов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220227T113658Z" creationid="Марианна" creationdate="20220227T113658Z">
+        <seg>Now, when writing a formula, it became possible to view the results by the example of the first 100 records at once. And both the fields used in the formulae and calculation results are displayed that facilitates visual comparison of the calculation correctness.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Теперь пункт меню «Показать визуализаторы» отображается только для узлов (#5088).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210617T082026Z" creationid="Марианна" creationdate="20210617T082026Z">
