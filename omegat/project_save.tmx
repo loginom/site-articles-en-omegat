@@ -4038,6 +4038,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Некоторые из этих компонентов могут оказаться лишними, если в других пакетах нет и не планируется создавать узлы Выполнение узла или Цикл, которые на них ссылаются.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220227T161911Z" creationid="Марианна" creationdate="20220227T161911Z">
+        <seg>Some of these components can be excessive if there are no Node Execution and Loop nodes that refer to them in other packages, and it is not planned to create them.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Нельзя выполнять команды для работы с GUI (graphical user interface, графическим пользовательским интерфейсом).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210320T221121Z" creationid="Марианна" creationdate="20210320T221121Z">
@@ -5315,6 +5323,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220227T160215Z" creationid="Марианна" creationdate="20220227T160215Z">
         <seg>This option is relevant when it is required to process the multilingual text files or date-time data.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Эти компоненты получают метки вида «Метка_узла (открытый узел)» или «Метка_узла (опубликованный узел)» в зависимости от модификатора доступа узлов, по которым они созданы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220227T161713Z" creationid="Марианна" creationdate="20220227T161713Z">
+        <seg>These components receive "Node_caption (public node)" or "Node_caption (published node)" captions according to the visibility of the nodes by which they have been created.</seg>
       </tuv>
     </tu>
     <tu>
