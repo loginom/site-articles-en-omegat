@@ -838,6 +838,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;a0&gt;OLAP-куб&lt;/a0&gt; — один из самых популярных визуализаторов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220227T085434Z" creationid="Марианна" creationdate="20220227T085434Z">
+        <seg>&lt;a0&gt;OLAP cube&lt;/a0&gt; is one of the most popular visualizers.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;a0&gt;Публикация веб-сервисов&lt;/a0&gt; для редакции Team и новая страница настройки публикации &lt;a1&gt;пакетов.&lt;/a1&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220224T060426Z" creationid="Марианна" creationdate="20220224T060426Z">
