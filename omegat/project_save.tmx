@@ -2974,6 +2974,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В рамках каждого пакета компоненты сортируются в алфавитном порядке.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220227T090912Z" creationid="Марианна" creationdate="20220227T090912Z">
+        <seg>The components are sorted in alphabetic order in each package.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В результате доработки стороннего модуля ошибку удалось устранить (#7178, #8877, #8897).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211229T100822Z" creationid="Марианна" creationdate="20211229T100822Z">
