@@ -2904,8 +2904,8 @@
       <tuv lang="ru">
         <seg>В новой версии платформы появилась возможность публикации веб-сервисов в редакции Team с помощью &lt;a0&gt;Loginom Integrator.&lt;/a0&gt; Он несколько отличается от интегратора для редакций Standard и Enterprise:</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220227T120452Z" creationid="Марианна" creationdate="20220227T120452Z">
-        <seg>It became possible to publish web services in the Team edition using &lt;a0&gt;Loginom Integrator in the new platform version.&lt;/a0&gt; It somewhat differs from the integrator of the Standard and Enterprise editions:</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20220227T120604Z" creationid="Марианна" creationdate="20220227T120452Z">
+        <seg>It became possible to publish web services in the Team edition using &lt;a0&gt;Loginom Integrator&lt;/a0&gt; in the new platform version. It somewhat differs from the integrator for the Standard and Enterprise editions:</seg>
       </tuv>
     </tu>
     <tu>
