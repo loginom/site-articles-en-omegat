@@ -3830,6 +3830,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Например, когда речь идет о создании систем принятия решений практически весь функционал базируется на обращении к веб-сервисам.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220227T120307Z" creationid="Марианна" creationdate="20220227T120307Z">
+        <seg>For example, when creation of decision-making system is meant, almost the whole functionality is based on the web services access.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Например, могли отсутствовать ожидаемые на выходе данные, соответствующие выбранным условиям (#8440).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210616T195310Z" creationid="Марианна" creationdate="20210616T195310Z">
