@@ -3168,8 +3168,8 @@
       <tuv lang="ru">
         <seg>Для повышения удобства работы аналитиков, в Loginom 6.5 реализован &lt;a0&gt;быстрый просмотр&lt;/a0&gt; при выделении активизированного узла, без открытия дополнительных окон.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220227T092635Z" creationid="Марианна" creationdate="20220227T092635Z">
-        <seg>To provide usability improvements of the analyst work, &lt;a0&gt;quick view&lt;/a0&gt; when selecting the activated node not opening the additional windows was implemented in Loginom 6.5.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20220227T092735Z" creationid="Марианна" creationdate="20220227T092635Z">
+        <seg>To provide usability improvements of the analyst work, &lt;a0&gt;quick view&lt;/a0&gt; when selecting the activated node without additional windows opening was implemented in Loginom 6.5.</seg>
       </tuv>
     </tu>
     <tu>
