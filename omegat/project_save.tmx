@@ -4999,6 +4999,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Эти компоненты получают такую же метку и модификатор доступа, как и исходный узел.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220227T090300Z" creationid="Марианна" creationdate="20220227T090300Z">
+        <seg>These components receive the same caption and visibility as the source node.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Это изменение может быть значимым, если была настроена автоматическая обработка лог-файлов при помощи скриптов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220227T085200Z" creationid="Марианна" creationdate="20220227T085200Z">
