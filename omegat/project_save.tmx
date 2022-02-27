@@ -110,6 +110,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>/sites/default/files/blogpost-images/data_release-notes_img_levels.png</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220227T085630Z" creationid="Марианна" creationdate="20220227T085630Z">
+        <seg>/sites/default/files/blogpost-images/data_release-notes_img_levels.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>/sites/default/files/blogpost-images/data_release-notes_img_publishing.png</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220220T162655Z" creationid="Марианна" creationdate="20220220T162655Z">
@@ -4811,6 +4819,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210903T111015Z" creationid="Марианна" creationdate="20210903T111015Z">
         <seg>The User can set "Default usage types" for the output columns at his discretion.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>У разных версий и редакций Loginom разные возможности.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220227T085727Z" creationid="Марианна" creationdate="20220227T085727Z">
+        <seg>Different Loginom versions and editions provide different options.</seg>
       </tuv>
     </tu>
     <tu>
