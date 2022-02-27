@@ -4879,6 +4879,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Такая ситуация наиболее вероятна для производных компонентов, созданных по опубликованным узлам, так как чаще всего такие узлы используются для работы через Loginom Integrator или для Пакетного выполнения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220227T155451Z" creationid="Марианна" creationdate="20220227T155451Z">
+        <seg>Such situation is most probable for the derived components created by the published nodes as these nodes are most frequently used for the work based on Loginom Integrator or for the Batch processing.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Такая ситуация не является циклической зависимостью, так как при «Выполнении узла», в отличии от «Узла-ссылки», используется только конфигурация узла, а данные на вход могут подаваться отличные от тех, которые используются в базовом узле (#8614).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210902T123011Z" creationid="Марианна" creationdate="20210902T122709Z">
