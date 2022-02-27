@@ -3624,8 +3624,8 @@
       <tuv lang="ru">
         <seg>Компоненты на панели Производные компоненты теперь группируются по пакетам, внутри которых они содержатся.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220227T090715Z" creationid="Марианна" creationdate="20220227T090715Z">
-        <seg>The components of the Derived components panel are currently grouped by the packages into which they are included.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20220227T091049Z" creationid="Марианна" creationdate="20220227T090715Z">
+        <seg>The components of the Derived Components panel are currently grouped by the packages into which they are included.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5067,6 +5067,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210325T114331Z" creationid="Марианна" creationdate="20210322T163713Z">
         <seg>the context menu was introduced into the chart;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>на панели Производные компоненты для текущего модуля добавлено контекстное меню с пунктом «Перейти к производным компонентам»;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220227T091031Z" creationid="Марианна" creationdate="20220227T091031Z">
+        <seg>the context menu with "Go to derived component" option was added on the Derived Components panel for the current module;</seg>
       </tuv>
     </tu>
     <tu>
