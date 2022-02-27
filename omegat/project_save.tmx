@@ -3414,6 +3414,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Изменения в проектировании и отладке сценариев</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220227T085301Z" creationid="Марианна" creationdate="20220227T085301Z">
+        <seg>Changes in the Workflow Design and Debugging</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Изменения в разделе Администрирование</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220224T064926Z" creationid="Марианна" creationdate="20220224T064926Z">
@@ -4931,6 +4939,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210902T072856Z" creationid="Марианна" creationdate="20210902T072856Z">
         <seg>The same error could occur while opening the package containing the same node configuration.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Это изменение может быть значимым, если была настроена автоматическая обработка лог-файлов при помощи скриптов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220227T085200Z" creationid="Марианна" creationdate="20220227T085200Z">
+        <seg>This change will be very important if the automatic processing of log files is set using scripts.</seg>
       </tuv>
     </tu>
     <tu>
