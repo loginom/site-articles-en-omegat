@@ -4903,6 +4903,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Так как конвертация может занимать продолжительное время, рекомендуется последовательно сконвертировать все используемые пакты и сохранить их после выполненной конвертации, предварительно удалив производные компоненты, которые не планируется использовать, если это необходимо.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220227T160446Z" creationid="Марианна" creationdate="20220227T160446Z">
+        <seg>As the conversion process can take much time, it is recommended to conver all used packages and save them after the executed conversion. Beforehand it is required to delete the derived components that are not to be used where relevant.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Такая ситуация могла возникнуть, если было отключено отображение итогов в колонках (#8639).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210903T071512Z" creationid="Марианна" creationdate="20210903T071512Z">
