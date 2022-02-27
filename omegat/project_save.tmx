@@ -3760,8 +3760,8 @@
       <tuv lang="ru">
         <seg>Например, на серверной редакции Standard есть возможность выполнять&lt;a0&gt; SOAP-запросы&lt;/a0&gt;, а в настольной редакции Personal такой опции нет.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220227T090059Z" creationid="Марианна" creationdate="20220227T090059Z">
-        <seg>For example, it is possible to execute the &lt;a0&gt; SOAP requests&lt;/a0&gt; in the Standard server edition, whereas there is no such option in the desktop Personal edition.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20220227T090137Z" creationid="Марианна" creationdate="20220227T090059Z">
+        <seg>For example, it is possible to execute the &lt;a0&gt; SOAP requests&lt;/a0&gt; in the server Standard edition, whereas there is no such option in the desktop Personal edition.</seg>
       </tuv>
     </tu>
     <tu>
