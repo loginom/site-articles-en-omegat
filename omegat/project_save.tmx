@@ -5279,6 +5279,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Это же касается разработанных прикладных решений.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220227T160005Z" creationid="Марианна" creationdate="20220227T160005Z">
+        <seg>The same goes for the designed application solutions.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Это изменение может быть значимым, если была настроена автоматическая обработка лог-файлов при помощи скриптов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220227T085200Z" creationid="Марианна" creationdate="20220227T085200Z">
