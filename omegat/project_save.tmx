@@ -4879,6 +4879,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Также цветом отображается статус опубликованных веб-сервисов: зеленым, если веб-сервис соответствует сохраненному пакету; оранжевым, если веб-сервис не соответствует сохраненному пакету; и серым, если нет доступа к опубликованному пакету.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220227T151913Z" creationid="Марианна" creationdate="20220227T151913Z">
+        <seg>Status of the published web services is also highlighted: the green color means that the web service complies with the saved package; the orange color means that the web service does not comply with the saved package; the grey color means thet there is no access to the published package.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Также это могло приводить к возникновении ошибок «Переход запрещен Невозможно использовать начальные классы в качестве разбиения для столбца ... Слишком много уникальных значений» или «Значение 0 параметра "Index" вне диапазона [-1; -1]» при переходе между страницами мастера настройки (#8282, #8582, #8584, #8668, #8700).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210902T132117Z" creationid="Марианна" creationdate="20210902T132117Z">
