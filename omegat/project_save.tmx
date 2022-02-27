@@ -4278,6 +4278,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Поэтому, особенно важно обеспечить удобство работы пользователя с конкретным продуктом.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220227T092005Z" creationid="Марианна" creationdate="20220227T092005Z">
+        <seg>That is why it is particularly important to provide the specific product operation convenience for a user.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Появилась возможность задавать из кода структуру выходного набора данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T202915Z" creationid="Марианна" creationdate="20210314T202915Z">
