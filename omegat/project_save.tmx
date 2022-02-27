@@ -3470,6 +3470,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>За счет переиспользования ранее спроектированных и проверенных компонентов повышается качество итоговых сценариев, а возможность делиться такими компонентами — многократно повышает производительность работы аналитика.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220227T154049Z" creationid="Марианна" creationdate="20220227T154049Z">
+        <seg>Due to the repeated use of the earlier designed and checked components, the quality of the final workflows is increased, and possibility to share such components increases many times the analyst's performance.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Задание весов для записей при настройке Логистической регрессии</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T201231Z" creationid="Марианна" creationdate="20210314T201231Z">
