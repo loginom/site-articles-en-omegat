@@ -4040,8 +4040,8 @@
       <tuv lang="ru">
         <seg>Некоторые из этих компонентов могут оказаться лишними, если в других пакетах нет и не планируется создавать узлы Выполнение узла или Цикл, которые на них ссылаются.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220227T161911Z" creationid="Марианна" creationdate="20220227T161911Z">
-        <seg>Some of these components can be excessive if there are no Node Execution and Loop nodes that refer to them in other packages, and it is not planned to create them.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20220227T161945Z" creationid="Марианна" creationdate="20220227T161911Z">
+        <seg>Some of these components can become excessive if there are no Node Execution or Loop nodes that refer to them in other packages, and it is not planned to create them.</seg>
       </tuv>
     </tu>
     <tu>
