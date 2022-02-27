@@ -2910,6 +2910,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В новой версии платформы появилась возможность указать нужную локаль для сохраняемого пакета.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220227T160108Z" creationid="Марианна" creationdate="20220227T160108Z">
+        <seg>It became possible to show the required locale for the saved package in the new platform version.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В новой версии платформы при подключении любого пакета в меню «производные компоненты» отображаются все компоненты, доступные для переиспользования, причем как для обычного выполнения, так и для редактирования.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220227T155145Z" creationid="Марианна" creationdate="20220227T154436Z">
@@ -3570,6 +3578,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220220T163529Z" creationid="Марианна" creationdate="20220220T163529Z">
         <seg>Changes in Logging</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Изменения в переносимости сценариев</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220227T160034Z" creationid="Марианна" creationdate="20220227T160034Z">
+        <seg>Changes in the Workflow Transferability</seg>
       </tuv>
     </tu>
     <tu>
@@ -5267,6 +5283,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210902T072856Z" creationid="Марианна" creationdate="20210902T072856Z">
         <seg>The same error could occur while opening the package containing the same node configuration.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Эта функция актуальна, когда речь идет об обработке многоязычных текстовых данных или данных типа дата-время.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220227T160215Z" creationid="Марианна" creationdate="20220227T160215Z">
+        <seg>This option is relevant when it is required to process the multilingual text files or date-time data.</seg>
       </tuv>
     </tu>
     <tu>
