@@ -3318,6 +3318,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Дополнительно в администрировании Loginom 6.5 появилась отдельная &lt;a0&gt;роль &lt;/a0&gt;и возможность управлять правами на публикацию веб-сервисов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220227T120822Z" creationid="Марианна" creationdate="20220227T120822Z">
+        <seg>In Loginom 6.5 administration a separate &lt;a0&gt;role &lt;/a0&gt; appeared. And it became possible to manage the web serviceses publication rights.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Доступны для импорта популярные библиотеки, используемые при анализе данных на Python: NumPy, Pandas, Scikit-learn и другие.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210320T215621Z" creationid="Марианна" creationdate="20210320T215621Z">
@@ -3810,6 +3818,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T194928Z" creationid="Марианна" creationdate="20210314T194928Z">
         <seg>Monitoring of active users and busy packages.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>На этой же странице можно добавить или обновить публикацию веб-сервиса, отредактировать опубликованный пакет или отменить публикацию.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220227T120711Z" creationid="Марианна" creationdate="20220227T120711Z">
+        <seg>It is possible to add or update the web service publication, edit the published package or cancel the publication on this page.</seg>
       </tuv>
     </tu>
     <tu>
