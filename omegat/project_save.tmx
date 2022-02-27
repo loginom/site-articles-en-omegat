@@ -3622,6 +3622,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Конвертация пакетов более ранних версий в формат 6.5</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220227T090338Z" creationid="Марианна" creationdate="20220227T090338Z">
+        <seg>Conversion of the earlier version packages to 6.5 format</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Конечные классы</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T202109Z" creationid="Марианна" creationdate="20210314T202109Z">
