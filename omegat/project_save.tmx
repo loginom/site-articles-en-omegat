@@ -3342,6 +3342,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если выбрать опцию «Производные узлы», то можно модифицировать компонент перед его переиспользованием.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220227T091441Z" creationid="Марианна" creationdate="20220227T091441Z">
+        <seg>If "Derived Nodes" option is selected, it will be possible to modify the component before its reuse.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если дополнительные потоки простаивают, то они постепенно удаляются, чтобы снизить потребление оперативной памяти.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210903T110150Z" creationid="Марианна" creationdate="20210903T110150Z">
