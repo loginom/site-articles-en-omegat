@@ -3214,6 +3214,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для того, чтобы обеспечить обратную совместимость с пакетами, разработанными в предыдущих версиях платформы, реализован механизм конвертации сценариев.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220227T121824Z" creationid="Марианна" creationdate="20220227T121824Z">
+        <seg>To provide the backward compatibility with the packages designed in the previous platform version, the workflow conversion mechanism was implemented.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для узлов «Переменные сценария» и «Входной/Выходной узел Подмодели» скрыты пункты меню «Настройка модификатора доступа» и «Удалить узел».</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210617T104310Z" creationid="Марианна" creationdate="20210617T104146Z">
