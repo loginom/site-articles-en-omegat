@@ -2886,6 +2886,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В новой версии платформы его функционал был значительно улучшен:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220227T085621Z" creationid="Марианна" creationdate="20220227T085621Z">
+        <seg>Its functionality was significantly improved in the new platform version:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В обновление вошло большое количество изменений и новых возможностей. Ниже приведен список наиболее важных, на наш взгляд, изменений:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210320T212430Z" creationid="Марианна" creationdate="20210320T212430Z">
