@@ -4126,6 +4126,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Подробнее в разделе &lt;a0&gt;Изменения в разделе Администрирование.&lt;/a0&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220227T084819Z" creationid="Марианна" creationdate="20220227T084819Z">
+        <seg>More detailed information is available in the following section: &lt;a0&gt;Changes in the Administration Section.&lt;/a0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Подробнее об изменениях можно узнать из &lt;a0&gt;выступления Георгия Киселева на Loginom Days 2020&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210322T204450Z" creationid="Марианна" creationdate="20210322T204450Z">
