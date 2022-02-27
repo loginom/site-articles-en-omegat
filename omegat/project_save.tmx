@@ -3470,6 +3470,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если к пакету подключаются библиотеки компонентов, к которым нет доступа на редактирование, то необходимо запросить новые версии библиотек у их разработчика.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220227T161209Z" creationid="Марианна" creationdate="20220227T161209Z">
+        <seg>If the component libraries with no edit access are connected to the package, it is necessary to request their developer to provide the new libraries versions.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если после объединения классов, нажать на одну из кнопок, то происходило объединение классов, несмотря на то, что ни один из классов не был выделен.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210903T061313Z" creationid="Марианна" creationdate="20210903T061313Z">
@@ -4905,8 +4913,8 @@
       <tuv lang="ru">
         <seg>Так как конвертация может занимать продолжительное время, рекомендуется последовательно сконвертировать все используемые пакты и сохранить их после выполненной конвертации, предварительно удалив производные компоненты, которые не планируется использовать, если это необходимо.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220227T160648Z" creationid="Марианна" creationdate="20220227T160446Z">
-        <seg>As the conversion process can take much time, it is recommended to perform successive conversion of all used packages and save them after the executed conversion. Beforehand it is required to delete the derived components that are not to be used where relevant.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20220227T160835Z" creationid="Марианна" creationdate="20220227T160446Z">
+        <seg>As the conversion process can take much time, it is recommended to perform the successive conversion of all used packages and save them after the executed conversion. Beforehand it is required to delete the derived components that are not planned to be used where relevant.</seg>
       </tuv>
     </tu>
     <tu>
