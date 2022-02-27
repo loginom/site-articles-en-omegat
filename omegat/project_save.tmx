@@ -2862,6 +2862,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В настройках администрирования добавлена стандартная группа пользователей «Все».</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220227T084721Z" creationid="Марианна" creationdate="20220227T084721Z">
+        <seg>The standard "All" user group was added to the administration settings.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В некоторых случаях внутри сценария могло потребоваться значение идентификатора запроса, полученного при выполнении узла сценария через &lt;a0&gt;Loginom Integrator&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210321T204649Z" creationid="Марианна" creationdate="20210321T204649Z">
