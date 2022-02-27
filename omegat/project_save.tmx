@@ -4495,6 +4495,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При открытии таких пакетов в Loginom версии 6.5.0 и старше, автоматически создаются производные компоненты по всем узлам, на которые ссылаются узлы Выполнение узла и Цикл в текущем пакете.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220227T122246Z" creationid="Марианна" creationdate="20220227T122246Z">
+        <seg>When opening such packages in Loginom 6.5.0 and higher, the derived components are automatically created for all nodes to which Node execution and Loop nodes refer in the current package.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При отладке возникающих ошибок иногда требовалось включить подробное логирование возникающих ошибок и для этого требовалось перезапустить Loginom Server, поместив рядом с исполняемым файлом специальный файл для записи отладочной информации.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210322T142705Z" creationid="Марианна" creationdate="20210322T142705Z">
