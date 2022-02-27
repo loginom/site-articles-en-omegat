@@ -3222,6 +3222,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для этого реализован перенос такого пакета в сессию пользователя, если он используется только в текущей сессии.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220227T115021Z" creationid="Марианна" creationdate="20220227T115021Z">
+        <seg>For this purpose, it became possible to move such package to the user session if it is used only in the current session.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Добавлена анимированная иконка статуса процессов при наличии активных процессов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210322T203512Z" creationid="Марианна" creationdate="20210322T203512Z">
@@ -5131,6 +5139,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210322T171343Z" creationid="Марианна" creationdate="20210322T171343Z">
         <seg>It enables to estimate compliance of the data used when model training and using. If significant inconsistency was detected, it is required to retrain the model.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Это позволяет редактировать подключенный пакет, если кроме текущей сессии пользователя он никем не используется.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220227T115202Z" creationid="Марианна" creationdate="20220227T115202Z">
+        <seg>It enables to edit the connected package if nobody uses it with exception of the current user session.</seg>
       </tuv>
     </tu>
     <tu>
