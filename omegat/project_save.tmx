@@ -4695,6 +4695,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Стала удобнее разработка и отладка пакетов, подключаемых на странице Ссылки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220227T114740Z" creationid="Марианна" creationdate="20220227T114740Z">
+        <seg>It became more convenient to design and debug the packages connected on the Reference page.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Столбец содержит целочисленные значения с именем HttpStatusCode и меткой «Код состояния HTTP».</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210321T203213Z" creationid="Марианна" creationdate="20210321T203213Z">
