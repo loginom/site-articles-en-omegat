@@ -4543,6 +4543,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При перетаскивании производного компонента в область сценария по умолчанию создаётся узел &lt;a0&gt;Выполнение&lt;/a0&gt;; если нажат Shift, то создаётся &lt;a1&gt;Цикл&lt;/a1&gt;, а если нажат Ctrl, — то производный узел.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220227T155001Z" creationid="Марианна" creationdate="20220227T155001Z">
+        <seg>When dragging the derived component to the workflow area, &lt;a0&gt;Execution&lt;/a0&gt; node is created by default; if Shift is pressed, &lt;a1&gt;Loop&lt;/a1&gt; is created, and if Ctrl is pressed, the derived node is created.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При подаче данных на ранее обученную модель, в визуализаторе &lt;a0&gt;Конечные классы&lt;/a0&gt; появилась возможность сравнить распределение фактических долей интервалов с теми, которые были при обучении.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210322T171054Z" creationid="Марианна" creationdate="20210322T171054Z">
