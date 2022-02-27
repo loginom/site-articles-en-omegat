@@ -59,11 +59,11 @@
 
 <h2>Web Services Operation Improvements</h2>
 
-<p><a href="https://help.loginom.ru/userguide/integration/web-services/publishing-web-service.html" target="_blank">Publication of web services</a> is one of the most popular platform functions. Например, когда речь идет о создании систем принятия решений практически весь функционал базируется на обращении к веб-сервисам. Let's consider some changes in detail.</p>
+<p><a href="https://help.loginom.ru/userguide/integration/web-services/publishing-web-service.html" target="_blank">Publication of web services</a> is one of the most popular platform functions. For example, when creation of decision-making system is meant, almost the whole functionality is based on the web services access. Let's consider some changes in detail.</p>
 
 <h3>Option of web services publication for the Team edition</h3>
 
-<p>В новой версии платформы появилась возможность публикации веб-сервисов в редакции Team с помощью <a href="https://help.loginom.ru/adminguide/integrator/index.html" target="_blank">Loginom Integrator.</a> Он несколько отличается от интегратора для редакций Standard и Enterprise:</p>
+<p>It became possible to publish web services in the Team edition using <a href="https://help.loginom.ru/adminguide/integrator/index.html" target="_blank">Loginom Integrator</a> in the new platform version. It somewhat differs from the integrator for the Standard and Enterprise editions:</p>
 
 <ol>
 	<li>Loginom Integrator for the Team version is used on the same server as <a href="https://help.loginom.ru/adminguide/server/index.html" target="_blank">Loginom Server.</a></li>
@@ -82,19 +82,19 @@
 </figcaption>
 </figure>
 
-<p>List of all published packages, name and path to the package file, publication date, versions and auto update status are displayed on this page. List of all published nodes is displayed for each package. Также цветом отображается статус опубликованных веб-сервисов: зеленым, если веб-сервис соответствует сохраненному пакету; оранжевым, если веб-сервис не соответствует сохраненному пакету; и серым, если нет доступа к опубликованному пакету.</p>
+<p>List of all published packages, name and path to the package file, publication date, versions and auto update status are displayed on this page. List of all published nodes is displayed for each package. Status of the published web services is also highlighted: the green color means that the web service complies with the saved package; the orange color means that the web service does not comply with the saved package; the grey color means thet there is no access to the published package.</p>
 
-<p>На этой же странице можно добавить или обновить публикацию веб-сервиса, отредактировать опубликованный пакет или отменить публикацию. Если в настройках публикации пакета установлен параметр «Обновлять публикацию при сохранении пакета», то при любом редактировании веб-сервиса и сохранении пакета он будет автоматически переопубликован с учетом самых последних изменений.</p>
+<p>It is possible to add or update the web service publication, edit the published package or cancel the publication on this page. If "Update publication on package saving" parameter is set in the package publication settings, it will be automatically republished taking into account the recent changes after each web service editing and package saving.</p>
 
-<p>Дополнительно в администрировании Loginom 6.5 появилась отдельная <a href="https://help.loginom.ru/userguide/admin/roles.html" target="_blank">роль </a>и возможность управлять правами на публикацию веб-сервисов.</p>
+<p>Besides, a separate <a href="https://help.loginom.ru/userguide/admin/roles.html" target="_blank">role </a> appeared in Loginom 6.5 administration. And it became possible to control the web services publication rights.</p>
 
 <h2>Components Reuse Novelties</h2>
 
-<p>Opportuniity to reuse components and ease of this operation is one of the most important features of the Loginom operation. За счет переиспользования ранее спроектированных и проверенных компонентов повышается качество итоговых сценариев, а возможность делиться такими компонентами — многократно повышает производительность работы аналитика.</p>
+<p>Opportuniity to reuse components and ease of this operation is one of the most important features of the Loginom operation. Due to the reuse of the earlier designed and checked components, the quality of the final workflows is improved, and possibility to share such components increases many times the analyst's performance.</p>
 
 <p>It is sufficient to select "Create derived component" submenu in the context menu of the node to reuse the components. It is possible to select two available options in the opened window: "Node Execution and Loop" and "Derived nodes". If "Node Execution and Loop" option is selected, the component execution or loop execution will be available. If "Derived Nodes" option is selected, it will be possible to modify the component before its reuse.</p>
 
-<p>В новой версии платформы при подключении любого пакета в меню «производные компоненты» отображаются все компоненты, доступные для переиспользования, причем как для обычного выполнения, так и для редактирования. При перетаскивании производного компонента в область сценария по умолчанию создаётся узел <a href="https://help.loginom.ru/userguide/processors/control/execute-node.html" target="_blank">Выполнение</a>; если нажат Shift, то создаётся <a href="https://help.loginom.ru/userguide/processors/control/cycle.html" target="_blank">Цикл</a>, а если нажат Ctrl, — то производный узел. Если же в настройках компонента запрещено создание узлов Выполнение/Цикл, то всегда создаётся производный узел.</p>
+<p>All components available for the reuse both for the common execution, and for editing are displayed in the "derived components" menu in the new platform version when connecting any package. When dragging the derived component to the workflow area, <a href="https://help.loginom.ru/userguide/processors/control/execute-node.html" target="_blank">Execution</a> node is created by default; if Shift is pressed, <a href="https://help.loginom.ru/userguide/processors/control/cycle.html" target="_blank">Loop</a> is created, and if Ctrl is pressed, the derived node is created. If it is not allowed to create Execution/Loop nodes in the component settings, the derived node is always created.</p>
 
 <p>The components of the Derived Components panel are currently grouped by the packages into which they are included. The components are sorted in alphabetic order in each package. The context menu commands were also added:</p>
 
@@ -107,23 +107,23 @@
 
 <h3>Conversion of the earlier version packages to 6.5 format</h3>
 
-<p>Начиная с версии 6.5.0, узлы Выполнение узла и Цикл ссылаются не на узел, а на компонент. Для того, чтобы обеспечить обратную совместимость с пакетами, разработанными в предыдущих версиях платформы, реализован механизм конвертации сценариев.</p>
+<p>Starting from 6.5.0 version Node Execution and Loop nodes refer not to the node but to the component. To provide the backward compatibility with the packages designed in the previous platform version, the workflow conversion mechanism was implemented.</p>
 
 <div class="lg-em lg-em_green">
-<p>Перед тем, как открывать в новой версии Loginom пакеты, разработанные в предыдущих версиях платформы, рекомендуется сделать резервные копии исходных пакетов.</p>
+<p>Before opening the packages designed in the previous platform versions in the new platform version, it is recommended to make backup copies of the source packages.</p>
 </div>
 
-<p>При открытии таких пакетов в Loginom версии 6.5.0 и старше, автоматически создаются производные компоненты по всем узлам, на которые ссылаются узлы Выполнение узла и Цикл в текущем пакете. These components receive the same caption and visibility as the source node.</p>
+<p>When opening such packages in Loginom 6.5.0 and higher, the derived components are automatically created for all nodes to which Node Execution and Loop nodes refer in the current package. These components receive the same caption and visibility as the source node.</p>
 
-<p>Также автоматически создаются производные компоненты по всем узлам с <a href="https://help.loginom.ru/userguide/scenario/access-modifier.html" target="_blank">модификатором доступа</a> «Открытый» или «Опубликованный», так как на эти узлы могут быть ссылки в других пакетах. Эти компоненты получают метки вида «Метка_узла (открытый узел)» или «Метка_узла (опубликованный узел)» в зависимости от модификатора доступа узлов, по которым они созданы. Некоторые из этих компонентов могут оказаться лишними, если в других пакетах нет и не планируется создавать узлы Выполнение узла или Цикл, которые на них ссылаются. Такая ситуация наиболее вероятна для производных компонентов, созданных по опубликованным узлам, так как чаще всего такие узлы используются для работы через Loginom Integrator или для Пакетного выполнения. Все лишние производные компоненты можно удалить вручную, после чего сохранить пакет.</p>
+<p>The derived components for all nodes with the "Public" or "Published" <a href="https://help.loginom.ru/userguide/scenario/access-modifier.html" target="_blank">visibility</a> are automatically creted in the same way as references to these nodes can be available in other packages. These components receive "Node_caption (public node)" or "Node_caption (published node)" captions according to the visibility of the nodes by which they have been created. Some of these components can become excessive if there are no Node Execution or Loop nodes that refer to them in other packages, and it is not planned to create them. Such situation is most probable for the derived components created by the published nodes as these nodes are most frequently used for the work based on Loginom Integrator or for the Batch processing. All excessive derived components can be manually deleted. The a package can be saved.</p>
 
-<p>При открытии пакетов, содержащих узлы с модификатором доступа «Опубликованный», пользователю будет выдано предупреждение о том, что будет выполнена конвертация пакета и будут созданы дополнительные производные компоненты. В том числе, сообщение будет получено, если в самом пакете нет таких узлов, но они есть в одном из подключенных пакетов.</p>
+<p>When publishing the packages containing the nodes with the "Published" visibility, a user will be warned that the package will be converted and additional derived components will be created. This message will be also received if there are no such nodes in the package but they are available in one of the connected packages.</p>
 
-<p>Так как конвертация может занимать продолжительное время, рекомендуется последовательно сконвертировать все используемые пакты и сохранить их после выполненной конвертации, предварительно удалив производные компоненты, которые не планируется использовать, если это необходимо. Если к пакету подключаются библиотеки компонентов, к которым нет доступа на редактирование, то необходимо запросить новые версии библиотек у их разработчика. Это же касается разработанных прикладных решений.</p>
+<p>As the conversion process can take much time, it is recommended to perform the successive conversion of all used packages and save them after the executed conversion. Beforehand it is required to delete the derived components that are not planned to be used where relevant. If the component libraries with no edit access are connected to the package, it is necessary to request their developer to provide the new libraries versions. The same goes for the designed application solutions.</p>
 
-<h2>Изменения в переносимости сценариев</h2>
+<h2>Changes in the Workflow Transferability</h2>
 
-<p>В новой версии платформы появилась возможность указать нужную локаль для сохраняемого пакета. Эта функция актуальна, когда речь идет об обработке многоязычных текстовых данных или данных типа дата-время. При разработке сценария в настройках сервера может быть настроена одна локаль, а на сервере, где будет выполняться разработанный сценарий — другая. Из-за этого при запуске сценария могли возникать конфликты локалей. Для устранения этой проблемы в новой версии Loginom 6.5 реализован функционал фиксации локали пакетов. Настроенные таким образом сценарии будут независимы от языковых настроек Windows и Loginom.</p>
+<p>It became possible to show the required locale for the saved package in the new platform version. This option is relevant when it is required to process the multilingual text files or date-time data. При разработке сценария в настройках сервера может быть настроена одна локаль, а на сервере, где будет выполняться разработанный сценарий — другая. Из-за этого при запуске сценария могли возникать конфликты локалей. Для устранения этой проблемы в новой версии Loginom 6.5 реализован функционал фиксации локали пакетов. Настроенные таким образом сценарии будут независимы от языковых настроек Windows и Loginom.</p>
 
 <p>Different Loginom versions and editions provide different options. Sometimes there are situations when it is required to take into account the functionality differences when designing workflows. For example, it is possible to execute the <a href="https://help.loginom.ru/userguide/integration/connections/list/soap-service.html" target="_blank"> SOAP requests</a> in the server Standard edition, whereas there is no such option in the desktop Personal edition.</p>
 
