@@ -5071,6 +5071,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Эта возможность позволяет визуально контролировать корректность расчетов в каждом узле сценария, оперативно обнаруживать ошибки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220227T112112Z" creationid="Марианна" creationdate="20220227T112112Z">
+        <seg>This option provides visual control of the calculation correctness in each workflow node and detection of errors in a timely manner.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Эта же ошибка могла возникать при открытии пакета, содержащего подобную конфигурацию узлов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210902T072856Z" creationid="Марианна" creationdate="20210902T072856Z">
