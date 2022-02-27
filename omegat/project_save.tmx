@@ -3062,6 +3062,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Важно, чтобы этот процесс был максимально комфортным для специалиста, отвечал всем его запросам.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220227T092437Z" creationid="Марианна" creationdate="20220227T092437Z">
+        <seg>It is necessary to make this process comfortable for a specialist to the greatest possible extent. It must meet all his requirements.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Вдобавок к этому, иногда требовалось принудительно сбросить кэш пакетов, опубликованных через Loginom Integrator, например, при обновлении версий сразу нескольких пакетов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210321T211649Z" creationid="Марианна" creationdate="20210321T211515Z">
@@ -4435,6 +4443,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210325T113923Z" creationid="Марианна" creationdate="20210321T211232Z">
         <seg>And it was not possible to define the user or process that used the package.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Проектирование и отладка логики анализа данных занимает у аналитиков — основных пользователей Loginom — большое количество времени.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220227T092237Z" creationid="Марианна" creationdate="20220227T092237Z">
+        <seg>Data analysis logics debugging and design take much time of the analysts who are the main Loginom users.</seg>
       </tuv>
     </tu>
     <tu>
