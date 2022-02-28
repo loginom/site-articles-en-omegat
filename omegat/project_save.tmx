@@ -3134,6 +3134,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Визуализатор позволяет проанализировать набор данных и оценить качество этих данных с выводом возможных проблем по каждому полю.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220228T103619Z" creationid="Марианна" creationdate="20220228T103619Z">
+        <seg>The visualizer enables to analyse data set and access quality of this data specifying possible problems for each field.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Визуализаторы</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220220T162931Z" creationid="Марианна" creationdate="20220220T162931Z">
@@ -3370,6 +3378,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220227T121004Z" creationid="Марианна" creationdate="20220227T120822Z">
         <seg>Besides, a separate &lt;a0&gt;role &lt;/a0&gt; appeared in Loginom 6.5 administration. And it became possible to control the web services publication rights.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Доступна общая сводка по набору данных, а также детализированные сводки по &lt;a0&gt;непрерывным &lt;/a0&gt;и по&lt;a1&gt; дискретным данным.&lt;/a1&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220228T103701Z" creationid="Марианна" creationdate="20220228T103701Z">
+        <seg>Доступна общая сводка по набору данных, а также детализированные сводки по &lt;a0&gt;continuous &lt;/a0&gt;and&lt;a1&gt; discrete data.&lt;/a1&gt;</seg>
       </tuv>
     </tu>
     <tu>
