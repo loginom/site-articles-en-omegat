@@ -3384,8 +3384,8 @@
       <tuv lang="ru">
         <seg>Доступна общая сводка по набору данных, а также детализированные сводки по &lt;a0&gt;непрерывным &lt;/a0&gt;и по&lt;a1&gt; дискретным данным.&lt;/a1&gt;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220228T103701Z" creationid="Марианна" creationdate="20220228T103701Z">
-        <seg>Доступна общая сводка по набору данных, а также детализированные сводки по &lt;a0&gt;continuous &lt;/a0&gt;and&lt;a1&gt; discrete data.&lt;/a1&gt;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20220228T103757Z" creationid="Марианна" creationdate="20220228T103701Z">
+        <seg>The general data set summary and detaild summaries for the &lt;a0&gt;continuous &lt;/a0&gt;and&lt;a1&gt; discrete data&lt;/a1&gt; are available.</seg>
       </tuv>
     </tu>
     <tu>
