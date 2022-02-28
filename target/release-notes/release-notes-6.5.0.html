@@ -123,17 +123,17 @@
 
 <h2>Changes in the Workflow Transferability</h2>
 
-<p>It became possible to show the required locale for the saved package in the new platform version. This option is relevant when it is required to process the multilingual text files or date-time data. При разработке сценария в настройках сервера может быть настроена одна локаль, а на сервере, где будет выполняться разработанный сценарий — другая. Из-за этого при запуске сценария могли возникать конфликты локалей. Для устранения этой проблемы в новой версии Loginom 6.5 реализован функционал фиксации локали пакетов. Настроенные таким образом сценарии будут независимы от языковых настроек Windows и Loginom.</p>
+<p>It became possible to show the required locale for the saved package in the new platform version. This option is relevant when it is required to process the multilingual text files or date-time data. When designing the workflow, one locale can be configured in the server settings, and the other one will be configured on the server where the designed workflow will be executed. It can cause locale conflict when starting the workflow. To solve this problem, the package locale fixation functionality was implemented in the new Loginom 6.5 version. The workflows configured in such a way won't be dependent on the language Windows and Loginom settings.</p>
 
 <p>Different Loginom versions and editions provide different options. Sometimes there are situations when it is required to take into account the functionality differences when designing workflows. For example, it is possible to execute the <a href="https://help.loginom.ru/userguide/integration/connections/list/soap-service.html" target="_blank"> SOAP requests</a> in the server Standard edition, whereas there is no such option in the desktop Personal edition.</p>
 
-<p>С целью унификации сценариев разных версий и редакций платформы в Loginom 6.5 добавлены <a href="https://help.loginom.ru/userguide/scenario/variables/control-variables.html" target="_blank">глобальные переменные</a> ProductVersion и ProductEdition, которые можно использовать при проектировании сценариев.</p>
+<p>To provide unification of the workflows related to different platform versions and editions, <a href="https://help.loginom.ru/userguide/scenario/variables/control-variables.html" target="_blank">global variables</a> ProductVersion and ProductEdition that could be used for workflows design were added in Loginom 6.5.</p>
 
 <h2>Visualizers</h2>
 
 <h3>New Visualizer — Data Quality</h3>
 
-<p>Любой, кто занимался анализом данных знает, что работа по улучшению качества данных — одна из самых важных задач. С этой целью в Loginom появился специализированный визуализатор — Качество данных, который реализован в виде сводки по всем типам проблем.</p>
+<p>Everyone who deals with data analysis is aware of the fact that data quality improvement is one the most important tasks. For this purpose, the special visualizer (Data Quality) was introduced into Loginom. It was implemented in the summary form by all types of problems.</p>
 
 <figure class="lg-text-img lg-text-img_preview"><a href="/sites/default/files/blogpost-images/data_release-notes_img_visualiser-summary.png"><img alt="Summary of the Data Quality Visualizer" data-entity-type="file" data-entity-uuid="insert-image792-e9a8de79-31bd-4304-9636-2698197ef7cb" data-insert-class="" data-insert-type="image" src="/sites/default/files/styles/image792/public/blogpost-images/data_release-notes_img_visualiser-summary.png" title="Summary of the Data Quality Visualizer" /> </a>
 
