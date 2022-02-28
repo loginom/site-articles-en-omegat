@@ -4623,6 +4623,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При разработке сценария в настройках сервера может быть настроена одна локаль, а на сервере, где будет выполняться разработанный сценарий — другая.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220228T102354Z" creationid="Марианна" creationdate="20220228T102354Z">
+        <seg>When designing the workflow, one locale can be configured in the server settings, and the other one will be configured on the server where the designed workflow will be executed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При фильтрации по уникальным значениям в &lt;a0&gt;Кубе&lt;/a0&gt; снято ограничение в отображении не более 10000 уникальных элементов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210322T162746Z" creationid="Марианна" creationdate="20210322T162746Z">
