@@ -3894,6 +3894,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Любой, кто занимался анализом данных знает, что работа по улучшению качества данных — одна из самых важных задач.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220228T103227Z" creationid="Марианна" creationdate="20220228T103227Z">
+        <seg>Everyone who deals with data analysis is aware of the fact that data quality improvement is one the most important tasks.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Механизм блокировки был сделан более надежным.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T204853Z" creationid="Марианна" creationdate="20210314T204853Z">
@@ -4865,8 +4873,16 @@
       <tuv lang="ru">
         <seg>С целью унификации сценариев разных версий и редакций платформы в Loginom 6.5 добавлены &lt;a0&gt;глобальные переменные&lt;/a0&gt; ProductVersion и ProductEdition, которые можно использовать при проектировании сценариев.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220228T103031Z" creationid="Марианна" creationdate="20220228T103031Z">
-        <seg>To provide unification of the workflows related to different platform versions and editions &lt;a0&gt;global variables&lt;/a0&gt; ProductVersion and ProductEdition that could be used for workflows design were added in Loginom 6.5.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20220228T103100Z" creationid="Марианна" creationdate="20220228T103031Z">
+        <seg>To provide unification of the workflows related to different platform versions and editions, &lt;a0&gt;global variables&lt;/a0&gt; ProductVersion and ProductEdition that could be used for workflows design were added in Loginom 6.5.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>С этой целью в Loginom появился специализированный визуализатор — Качество данных, который реализован в виде сводки по всем типам проблем.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220228T103428Z" creationid="Марианна" creationdate="20220228T103428Z">
+        <seg>For this purpose, the special visualizer (Data Quality) was introduced into Loginom. It was implemented in the summary form by all types of problems.</seg>
       </tuv>
     </tu>
     <tu>
