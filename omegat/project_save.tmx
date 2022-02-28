@@ -3262,6 +3262,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для устранения этой проблемы в новой версии Loginom 6.5 реализован функционал фиксации локали пакетов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220228T102636Z" creationid="Марианна" creationdate="20220228T102636Z">
+        <seg>To solve this problem, the package locale fixation functionality was implemented in the new Loginom 6.5 version.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для формирования набора выходных столбцов могут использоваться следующие методы:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210320T233417Z" creationid="Марианна" creationdate="20210320T233417Z">
@@ -3562,6 +3570,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210903T101121Z" creationid="Марианна" creationdate="20210903T101121Z">
         <seg>Incorrect focusing could cause incorrect hotkey operation of copy-paste functionality (#8023, #8516).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Из-за этого при запуске сценария могли возникать конфликты локалей.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220228T102447Z" creationid="Марианна" creationdate="20220228T102447Z">
+        <seg>It can cause locale conflict when starting the workflow.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3986,6 +4002,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210617T082507Z" creationid="Марианна" creationdate="20210617T082507Z">
         <seg>For example, in the case of active processes, it was not possible to disable this parameter, and while attempting to call "Remove from list" context menu item, the Processes Bar could be frozen (#8339, #8446 #8447).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Настроенные таким образом сценарии будут независимы от языковых настроек Windows и Loginom.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220228T102801Z" creationid="Марианна" creationdate="20220228T102801Z">
+        <seg>The workflows configured in such a way won't be dependent on the language Windows and Loginom settings.</seg>
       </tuv>
     </tu>
     <tu>
