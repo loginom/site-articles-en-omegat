@@ -4863,6 +4863,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>С целью унификации сценариев разных версий и редакций платформы в Loginom 6.5 добавлены &lt;a0&gt;глобальные переменные&lt;/a0&gt; ProductVersion и ProductEdition, которые можно использовать при проектировании сценариев.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220228T103031Z" creationid="Марианна" creationdate="20220228T103031Z">
+        <seg>To provide unification of the workflows related to different platform versions and editions &lt;a0&gt;global variables&lt;/a0&gt; ProductVersion and ProductEdition that could be used for workflows design were added in Loginom 6.5.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Сводка визуализатора Качество данных</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220227T085351Z" creationid="Марианна" creationdate="20220227T085351Z">
