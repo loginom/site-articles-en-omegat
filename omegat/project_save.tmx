@@ -4911,6 +4911,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Резюме качества основывается на индексе качества и числе пропусков по заданному в настройке параметру «Максимально допустимый процент пропусков», в результате чего выдается одно из значений по каждому полю: «Непригодный», «Пригодный», «Предобработка».</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220302T114652Z" creationid="Марианна" creationdate="20220302T114652Z">
+        <seg>The quality summary is based on the quality indicator and null count according to the indicator set in the settings ("Maximum allowable percentage of nulls"). Then one of the values is specified for each field: "Unsuitable", "Suitable", "Preprocessing".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>С целью унификации сценариев разных версий и редакций платформы в Loginom 6.5 добавлены &lt;a0&gt;глобальные переменные&lt;/a0&gt; ProductVersion и ProductEdition, которые можно использовать при проектировании сценариев.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220228T103100Z" creationid="Марианна" creationdate="20220228T103031Z">
