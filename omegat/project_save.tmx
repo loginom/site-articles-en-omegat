@@ -4615,6 +4615,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При начальной активации визуализатора рассчитываются только стандартные показатели, такие как: Минимум, Максимум, Среднее, Пропуски.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220302T113055Z" creationid="Марианна" creationdate="20220302T113055Z">
+        <seg>Only such standard parameters as Minimum, Maximum, Average, Null count are calculated when the visualizer is initially activated.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При открытии пакетов, содержащих узлы с модификатором доступа «Опубликованный», пользователю будет выдано предупреждение о том, что будет выполнена конвертация пакета и будут созданы дополнительные производные компоненты.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220227T155803Z" creationid="Марианна" creationdate="20220227T155803Z">
