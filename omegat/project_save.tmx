@@ -3198,6 +3198,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для их расчета необходимо выполнить действие «Посчитать показатели качества».</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220302T113251Z" creationid="Марианна" creationdate="20220302T113251Z">
+        <seg>To calculate them, it is required to perform the following action: "Calculate quality indicators".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для каждого пакета отображается список всех опубликованных узлов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220224T063759Z" creationid="Марианна" creationdate="20220224T063759Z">
@@ -4254,6 +4262,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Остальные показатели при этом отображаются как &lt;e0&gt;Не вычислено&lt;/e0&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220302T113300Z" creationid="Марианна" creationdate="20220302T113133Z">
+        <seg>Other indicators are displayed as follows: &lt;e0&gt;Not calculated&lt;/e0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Отмена выполнения запроса в процессе &lt;a0&gt;импорта из БД.&lt;/a0&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220224T061936Z" creationid="Марианна" creationdate="20220224T061936Z">
@@ -4617,8 +4633,8 @@
       <tuv lang="ru">
         <seg>При начальной активации визуализатора рассчитываются только стандартные показатели, такие как: Минимум, Максимум, Среднее, Пропуски.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220302T113055Z" creationid="Марианна" creationdate="20220302T113055Z">
-        <seg>Only such standard parameters as Minimum, Maximum, Average, Null count are calculated when the visualizer is initially activated.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20220302T113309Z" creationid="Марианна" creationdate="20220302T113055Z">
+        <seg>Only such standard indicators as Minimum, Maximum, Average, Null count are calculated when the visualizer is initially activated.</seg>
       </tuv>
     </tu>
     <tu>
