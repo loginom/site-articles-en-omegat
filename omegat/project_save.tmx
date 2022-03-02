@@ -4913,8 +4913,8 @@
       <tuv lang="ru">
         <seg>Резюме качества основывается на индексе качества и числе пропусков по заданному в настройке параметру «Максимально допустимый процент пропусков», в результате чего выдается одно из значений по каждому полю: «Непригодный», «Пригодный», «Предобработка».</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220302T114652Z" creationid="Марианна" creationdate="20220302T114652Z">
-        <seg>The quality summary is based on the quality indicator and null count according to the indicator set in the settings ("Maximum allowable percentage of nulls"). Then one of the values is specified for each field: "Unsuitable", "Suitable", "Preprocessing".</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20220302T114736Z" creationid="Марианна" creationdate="20220302T114652Z">
+        <seg>The quality summary is based on the quality indicator and null count according to the indicator set in the settings - "Maximum allowable percentage of nulls". Then one of the values is specified for each field: "Unsuitable", "Suitable", "Preprocessing".</seg>
       </tuv>
     </tu>
     <tu>
