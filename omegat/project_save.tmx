@@ -2710,6 +2710,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>А также добавлены функции setTimeout и clearTimeout, реализована поддержка кодирования/декодирования данных в формате Base64.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220304T163452Z" creationid="Марианна" creationdate="20220304T163452Z">
+        <seg>setTimeout and clearTimeout functions were also added. Data coding/decoding support in Base64 format was implemented.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Автоматическая синхронизация полей в Loginom</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T203118Z" creationid="Марианна" creationdate="20210314T203118Z">
@@ -3434,6 +3442,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220224T065155Z" creationid="Марианна" creationdate="20220224T065155Z">
         <seg>TLS 1.3 support was added.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Добавлена поддержка глобального свойства globalThis, которое может быть использовано сторонними модулями.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220304T163340Z" creationid="Марианна" creationdate="20220304T163340Z">
+        <seg>Support of the global property globalThis was added. It can be used by the third-party modules.</seg>
       </tuv>
     </tu>
     <tu>
