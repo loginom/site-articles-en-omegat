@@ -3334,6 +3334,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Добавлена возможность выполнить автоматическое определение структуры импортируемого файла.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220304T151251Z" creationid="Марианна" creationdate="20220304T151251Z">
+        <seg>The automatic definition of the imported file structure became possible.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Добавлена возможность наследования для Импорта из Хранилища данных, что может быть полезно в случае, если в нескольких местах используются подключения к одному и тому же Хранилищу данных, но с различными параметрами настройки.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210321T180240Z" creationid="Марианна" creationdate="20210321T175740Z">
@@ -4651,6 +4659,14 @@
       <tuv lang="en" changeid="Марианна" changedate="20210903T111150Z" creationid="Марианна" creationdate="20210903T111150Z">
         <seg>The previous behaviour could cause the errors also in the Cube visualizer
 &lt;e5&gt;#5803&lt;/e5&gt; (#8506).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При &lt;a0&gt;экспорте в Loginom Data файл&lt;/a0&gt; оптимизировано сжатие строковых данных — скорость чтения больших наборов данных увеличилась до 2-х раз.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220304T151538Z" creationid="Марианна" creationdate="20220304T151538Z">
+        <seg>When &lt;a0&gt;exporting to the Loginom Data file&lt;/a0&gt;, the string data compression was optimised. The large data sets read speed was increased by 2 times.</seg>
       </tuv>
     </tu>
     <tu>
