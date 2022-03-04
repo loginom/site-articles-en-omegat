@@ -3198,6 +3198,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Данное изменение затрагивает следующие обработчики:&lt;a0&gt; Импорт из тестового файла&lt;/a0&gt;, &lt;a1&gt;Импорт из файла Excel&lt;/a1&gt;, &lt;a2&gt;Импорт из Базы данных&lt;/a2&gt;, &lt;a3&gt;Импорт из 1С Запрос&lt;/a3&gt;, &lt;a4&gt;Импорт из XML файла&lt;/a4&gt;, &lt;a5&gt;JavaScript&lt;/a5&gt;, &lt;a6&gt;Python&lt;/a6&gt;, &lt;a7&gt;Извлечение XML&lt;/a7&gt;, &lt;a8&gt;SOAP-запрос&lt;/a8&gt;, &lt;a9&gt;Кросс-таблица&lt;/a9&gt;, &lt;a10&gt;Таблица в дерево&lt;/a10&gt;, а также порт типа «Дерево данных».</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220304T161842Z" creationid="Марианна" creationdate="20220304T161842Z">
+        <seg>This change applies to the following handlers:&lt;a0&gt; Import from text file&lt;/a0&gt;, &lt;a1&gt;Import from Excel file&lt;/a1&gt;, &lt;a2&gt;Import from Database&lt;/a2&gt;, &lt;a3&gt;Import from 1С Request&lt;/a3&gt;, &lt;a4&gt;Import from XML file&lt;/a4&gt;, &lt;a5&gt;JavaScript&lt;/a5&gt;, &lt;a6&gt;Python&lt;/a6&gt;, &lt;a7&gt;XML Extraction&lt;/a7&gt;, &lt;a8&gt;SOAP request&lt;/a8&gt;, &lt;a9&gt;Cross chart&lt;/a9&gt;, &lt;a10&gt;Table to tree&lt;/a10&gt;, and also "Data tree" type tree.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Данный функционал особенно актуален при работе со сложными формулами.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220224T062724Z" creationid="Марианна" creationdate="20220224T062724Z">
@@ -3432,8 +3440,8 @@
       <tuv lang="ru">
         <seg>Достаточно экспортировать любые данные в формат lgd и работа с ними будет в несколько раз быстрее, также они будут занимать гораздо меньший объем памяти в хранилище.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220304T161242Z" creationid="Марианна" creationdate="20220304T161242Z">
-        <seg>It is sufficient to export any data to the lgd format, and it will be possible to work with it several times faster and it will take much less memory size in the warehouse.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20220304T161428Z" creationid="Марианна" creationdate="20220304T161242Z">
+        <seg>It is sufficient to export any data to the lgd format, and it will be possible to work with it several times faster, and it will take much less memory size in the warehouse.</seg>
       </tuv>
     </tu>
     <tu>
