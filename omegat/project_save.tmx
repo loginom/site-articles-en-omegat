@@ -5535,6 +5535,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>появилась возможность показа всех заголовков или только заголовков 1-го уровня в кросс-диаграммах;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220304T134717Z" creationid="Марианна" creationdate="20220304T134717Z">
+        <seg>It became possible to display all headers or only the 1st level headers in the cross charts.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>у производных компонентов добавлен пункт «Перейти к производному компоненту».</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220227T090524Z" creationid="Марианна" creationdate="20220227T090524Z">
