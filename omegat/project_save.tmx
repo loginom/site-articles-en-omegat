@@ -2798,6 +2798,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В JavaScript появилась поддержка Fetch API, особенно важного для работы с REST и JSON-запросами и для обращения к внешним веб-сервисам.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220304T163040Z" creationid="Марианна" creationdate="20220304T163040Z">
+        <seg>Fetch API support was introduced into JavaScript that is especially important for REST and JSON requests operation and access the external web services.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В Loginom 6.4 внесено два существенных изменения, позволяющих расширить возможности использования Логистической регрессии, а в ряде случаев повысить качество получаемых моделей.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210321T185949Z" creationid="Марианна" creationdate="20210321T185949Z">
@@ -2842,6 +2850,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210320T220000Z" creationid="Марианна" creationdate="20210320T220000Z">
         <seg>There are no development tools in Loginom that are similar to PyCharm and other specialized products.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В Калькуляторе в функции Stat появился еще один показатель для вычислений — &lt;a0&gt;мода&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220304T162855Z" creationid="Марианна" creationdate="20220304T162855Z">
+        <seg>One more calculation parameter was introduced into the Calculator in Stat function — &lt;a0&gt;mode&lt;/a0&gt;.</seg>
       </tuv>
     </tu>
     <tu>
