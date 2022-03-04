@@ -5495,6 +5495,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>в окне настройки фактов добавлена иконка калькулятора у вычисляемых фактов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220304T135856Z" creationid="Марианна" creationdate="20220304T135856Z">
+        <seg>The calculator icon for the calculated measures was added in the measure configuration window.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>до 2-х раз повысилась отзывчивость интерфейса при работе с большими наборами данных;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220304T134153Z" creationid="Марианна" creationdate="20220304T134153Z">
@@ -5569,8 +5577,8 @@
       <tuv lang="ru">
         <seg>уменьшен размер шрифта заголовков фактов и измерений, а также высота ячеек Куба;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220304T135302Z" creationid="Марианна" creationdate="20220304T135302Z">
-        <seg>The font size of the measures and dimensions was decreased as well as the Cube cells height.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20220304T135418Z" creationid="Марианна" creationdate="20220304T135302Z">
+        <seg>The font size of the measures and dimensions headers was decreased as well as the Cube cells height.</seg>
       </tuv>
     </tu>
 <!-- Alternative translations -->
