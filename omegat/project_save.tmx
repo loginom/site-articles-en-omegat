@@ -5432,6 +5432,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Также можно открыть в новой вкладке пакет при нажатии с «Ctrl» («Cmd» для MacOS) на кнопки «Создать пакет», «Создать черновик», «Открыть пакет».</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220304T194653Z" creationid="Марианна" creationdate="20220304T194653Z">
+        <seg>It is also possible to open the package in the new tab when pressing on "Create package", "Create draft", "Open package" buttons with "Ctrl" ("Cmd" for MacOS).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Также цветом отображается статус опубликованных веб-сервисов: зеленым, если веб-сервис соответствует сохраненному пакету; оранжевым, если веб-сервис не соответствует сохраненному пакету; и серым, если нет доступа к опубликованному пакету.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220227T151913Z" creationid="Марианна" creationdate="20220227T151913Z">
