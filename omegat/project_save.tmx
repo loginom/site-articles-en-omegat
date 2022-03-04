@@ -4134,6 +4134,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>На домашней странице добавлена возможность открыть в новом окне пакет из списка «Последние открытые пакеты».</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220304T193824Z" creationid="Марианна" creationdate="20220304T193824Z">
+        <seg>It became possible to open the package from the "Recent opened packages" list on the homepage.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>На этой же странице можно добавить или обновить публикацию веб-сервиса, отредактировать опубликованный пакет или отменить публикацию.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220227T120711Z" creationid="Марианна" creationdate="20220227T120711Z">
