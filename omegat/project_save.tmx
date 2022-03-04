@@ -2806,6 +2806,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В &lt;a0&gt;линейной регрессии&lt;/a0&gt; исправлен расчет показателей модели, в частности: Логарифм &lt;a1&gt;функции правдоподобия&lt;/a1&gt;, &lt;a2&gt;Стандартное отклонение&lt;/a2&gt;, &lt;a3&gt;F-статистика&lt;/a3&gt;, P-значение модели, &lt;a4&gt;Коэффициент детерминации.&lt;/a4&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220304T163918Z" creationid="Марианна" creationdate="20220304T163918Z">
+        <seg>Calculation of the model parameters was corrected in the &lt;a0&gt;linear regression&lt;/a0&gt; as follows: Log&lt;a1&gt;-likelihood&lt;/a1&gt;, &lt;a2&gt;Standard deviation&lt;/a2&gt;, &lt;a3&gt;F-statistic&lt;/a3&gt;, Model P-value, &lt;a4&gt;Coefficient of determination.&lt;/a4&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В JavaScript появилась поддержка Fetch API, особенно важного для работы с REST и JSON-запросами и для обращения к внешним веб-сервисам.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220304T163143Z" creationid="Марианна" creationdate="20220304T163040Z">
