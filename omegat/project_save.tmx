@@ -4398,6 +4398,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>По нажатию на Ctrl+C, выделенные в окне быстрого просмотра данные теперь копируются в совместимом с Excel формате, то есть при вставке в табличный редактор, вставляемые значения будут иметь корректный формат данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220304T140318Z" creationid="Марианна" creationdate="20220304T140318Z">
+        <seg>When pressing on Ctrl+C, the data selected in the quick view window is currently copied in the Excel compatible format. Namely, when inseting to the table editor, the inserted values will have the correct data format.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Повышение информативности</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210902T070508Z" creationid="Марианна" creationdate="20210902T070508Z">
