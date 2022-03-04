@@ -290,7 +290,7 @@
 
 <p>Calculation of the model parameters was corrected in the <a href="https://help.loginom.ru/userguide/processors/datamining/linear-regression/index.html" target="_blank">linear regression</a> as follows: Log<a href="https://wiki.loginom.ru/articles/plausibility-function" target="_blank">-likelihood</a>, <a href="https://wiki.loginom.ru/articles/mean-square-deviation" target="_blank">Standard deviation</a>, <a href="https://wiki.loginom.ru/articles/f-test" target="_blank">F-statistic</a>, Model P-value, <a href="https://wiki.loginom.ru/articles/coefficient-of-determination" target="_blank">Coefficient of determination.</a></p>
 
-<p>Calculation of the model parameters was corrected in the logistic regression: <a href="https://wiki.loginom.ru/articles/chi-square-test" target="_blank">Chi-square</a>, -2 Log-likelihood, McFadden pseudo-R^2 and McFadden pseudo-R^2 (adj.), -2 Log-likelihood of null model. Параметры <a href="https://wiki.loginom.ru/articles/wald-test" target="_blank">«Коэффициент Вальда»</a> и «Критерий Вальда» переименованы в параметр «Статистика Вальда», а «Коэффициент детерминации» переименован в «Псевдо-R² Макфаддена»</p>
+<p>Calculation of the model parameters was corrected in the logistic regression: <a href="https://wiki.loginom.ru/articles/chi-square-test" target="_blank">Chi-square</a>, -2 Log-likelihood, McFadden pseudo-R^2 and McFadden pseudo-R^2 (adj.), -2 Log-likelihood of null model. Such parameters as <a href="https://wiki.loginom.ru/articles/wald-test" target="_blank">"Wald Coefficient"</a> and "Wald criterion" were renamed into "Wald statistic" parameter, and "R^2" was renamed into "McFadden pseudo-R²".</p>
 
 <p>В визуализаторе «Отчет по регрессии» для линейной и <a href="https://help.loginom.ru/userguide/processors/datamining/logistic-regression/index.html" target="_blank">логистической регрессий</a> добавлен вывод числа степеней свободы модели, а для логистической регрессии — вывод Deviance нулевой модели.</p>
 
@@ -300,15 +300,15 @@
 
 <h2>Other Changes</h2>
 
-<p>При работе с 1С.Предприятие в случае возникновения ошибок было сложно определить, возникли проблемы на стороне 1С или непосредственно в сценариях Loginom. Теперь все сообщения, передаваемые 1С, дополнены описанием. К таким ошибкам относятся: «Ошибка подключения к 1С ...», «Ошибка подготовки запроса 1С ...», «Ошибка выполнения запроса 1С ...», «Ошибка подготовки полей запроса 1С ...», «Ошибка выгрузки результатов запроса 1С ...».</p>
+<p>При работе с 1С.Предприятие в случае возникновения ошибок было сложно определить, возникли проблемы на стороне 1С или непосредственно в сценариях Loginom. Now description is provided for all messages sent to 1C. К таким ошибкам относятся: «Ошибка подключения к 1С ...», «Ошибка подготовки запроса 1С ...», «Ошибка выполнения запроса 1С ...», «Ошибка подготовки полей запроса 1С ...», «Ошибка выгрузки результатов запроса 1С ...».</p>
 
-<p>В обработчике <a href="https://help.loginom.ru/userguide/processors/transformation/fields-parameters.html" target="_blank">Параметры полей</a> добавлена возможность исключать столбцы из дальнейшей обработки. Для этого в мастере настройки полей добавлен параметр «Исключить». Если для поля установлено свойство «Исключить», то это поле не будет добавлено в выходной набор данных.</p>
+<p>Now it is possible to exclude the columns from the further processing in <a href="https://help.loginom.ru/userguide/processors/transformation/fields-parameters.html" target="_blank">Field features</a> handler. For this purpose, such parameter as "Exclude" was added to the fields wizard. If "Exclude" property is set for the field, this field will not be added to the output data set.</p>
 
-<p>В мастерах настройки соответствия полей и переменных добавлена возможность создавать поля или переменные на основе уже существующих. При клонировании копируются все атрибуты поля или переменной, кроме значения связанного поля или переменной из исходного набора данных.</p>
+<p>It became possible to create fields or variables based on the existing ones in the fields and variables mapping wizards. All field or variable attributes are copied while cloning with the exception of the value of the connected field or variable from the source data set.</p>
 
-<p>В компоненте <a href="https://help.loginom.ru/userguide/processors/transformation/row-filter/index.html" target="_blank">Фильтр строк </a>при выборе условия фильтрации «В списке / Вне списка» добавлена возможность копирования и вставки данных через буфер обмена. Это можно выполнить при помощи контекстного меню или с помощью стандартных горячих клавиш (Ctrl+x, Ctrl+c, Ctrl+v для ОС Windows).</p>
+<p>В компоненте <a href="https://help.loginom.ru/userguide/processors/transformation/row-filter/index.html" target="_blank">Фильтр строк </a>при выборе условия фильтрации «В списке / Вне списка» добавлена возможность копирования и вставки данных через буфер обмена. It can be done using the context menu or the standard hotkeys (Ctrl+x, Ctrl+c, Ctrl+v for Windows OS).</p>
 
-<p>В мастере Импорта из ХД добавлена возможность указать некоторые параметры фильтрации с помощью управляющих переменных. С помощью переменных можно указать:</p>
+<p>It became possible to specify some filtration parameters using control variables in the Import from Data Warehouse Wizard. The following values can be specified using variables:</p>
 
 <ul>
 	<li>значение для сравнения для фильтров: =, &lt;&gt;, &lt;, &lt;=, &gt;, &gt;= , содержит, не содержит, начинается, не начинается, заканчивается, не заканчивается;</li>
