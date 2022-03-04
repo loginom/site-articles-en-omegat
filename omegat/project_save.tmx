@@ -4720,6 +4720,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При включенном уровне логирования «Информация», в момент начала выполнения запроса сохраняется URL запроса и имя узла.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220304T162436Z" creationid="Марианна" creationdate="20220304T162436Z">
+        <seg>When the "Info" logging level is enabled, request URL and node name are saved at the time the request execution begins.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При вызове контекстного меню у этого элемента можно было выбрать ошибочно отображаемый пункт «Показать визуализаторы», при этом возникала ошибка «Cannot read property 'NodeIndex' of undefined».</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210617T081946Z" creationid="Марианна" creationdate="20210617T081946Z">
