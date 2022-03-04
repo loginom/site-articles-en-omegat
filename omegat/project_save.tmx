@@ -5776,6 +5776,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Это можно выполнить при помощи контекстного меню или с помощью стандартных горячих клавиш (Ctrl+x, Ctrl+c, Ctrl+v для ОС Windows).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220304T192220Z" creationid="Марианна" creationdate="20220304T192220Z">
+        <seg>It can be done using the context menu or the standard hotkeys (Ctrl+x, Ctrl+c, Ctrl+v for Windows OS).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Это позволяет оценить соответствие между данными, использованными при построении и применении модели, а в случае существенного расхождения — перестроить модель.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210322T171343Z" creationid="Марианна" creationdate="20210322T171343Z">
