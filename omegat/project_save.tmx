@@ -3422,6 +3422,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для этого при клике на имя пакета необходимо удерживать клавишу «Ctrl» («Cmd» для MacOS).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220304T193927Z" creationid="Марианна" creationdate="20220304T193927Z">
+        <seg>For this purpose, it is required to click on the package name and hold "Ctrl" key ("Cmd" for MacOS).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для этого реализован перенос такого пакета в сессию пользователя, если он используется только в текущей сессии.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220227T115021Z" creationid="Марианна" creationdate="20220227T115021Z">
