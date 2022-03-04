@@ -5039,6 +5039,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Список разрешенных для использования ODBC-драйверов: Simba Hive ODBC Driver, Microsoft Hive ODBC Driver, Cloudera ODBC Driver for Apache Hive, MapR Hive ODBC Connector.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220304T151142Z" creationid="Марианна" creationdate="20220304T151142Z">
+        <seg>The following ODBC drivers are allowed for use: Simba Hive ODBC Driver, Microsoft Hive ODBC Driver, Cloudera ODBC Driver for Apache Hive, MapR Hive ODBC Connector.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Список рассчитываемых при этом показателей: Экстремальные значения, Нижний уровень экстремальных значений, Верхний уровень экстремальных значений, Выбросы, Нижний уровень выбросов, Верхний уровень выбросов, Медиана, Мода, Гистограмма, Уникальные, Индекс качества и Резюме качества.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220302T114120Z" creationid="Марианна" creationdate="20220302T114120Z">
