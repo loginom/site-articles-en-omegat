@@ -3048,8 +3048,8 @@
       <tuv lang="ru">
         <seg>В обработчике Фильтр строк добавлены варианты фильтрации по диапазону дат «первый», «последний» с использованием даты из набора данных.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220304T193407Z" creationid="Марианна" creationdate="20220304T193407Z">
-        <seg>Filtration options by the date range "first", "last" using the dates from the data set were added to the Row Filter handler.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20220304T193723Z" creationid="Марианна" creationdate="20220304T193407Z">
+        <seg>Filtration options by the "first", "last" date ranges using the dates from the data set were added to the Row Filter handler.</seg>
       </tuv>
     </tu>
     <tu>
