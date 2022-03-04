@@ -3390,6 +3390,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для этого в мастере настройки полей добавлен параметр «Исключить».</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220304T191553Z" creationid="Марианна" creationdate="20220304T191553Z">
+        <seg>For this purpose, such parameter as "Exclude" was added to the fields wizard.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для этого реализован перенос такого пакета в сессию пользователя, если он используется только в текущей сессии.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220227T115021Z" creationid="Марианна" creationdate="20220227T115021Z">
@@ -3602,6 +3610,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220227T091441Z" creationid="Марианна" creationdate="20220227T091441Z">
         <seg>If "Derived Nodes" option is selected, it will be possible to modify the component before its reuse.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Если для поля установлено свойство «Исключить», то это поле не будет добавлено в выходной набор данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220304T191656Z" creationid="Марианна" creationdate="20220304T191656Z">
+        <seg>If "Exclude" property is set for the field, this field will not be added to the output data set.</seg>
       </tuv>
     </tu>
     <tu>
