@@ -4470,6 +4470,15 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>По нажатию на кнопку «Предположить структуру» на странице «Настройка форматов импорта» будут автоматически определены и установлены следующие параметры: разделитель столбцов, ограничитель строк, десятичный разделитель, разделитель даты, разделитель времени, формат даты.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220304T160002Z" creationid="Марианна" creationdate="20220304T160002Z">
+        <seg>When pressing on "Assume structure" button on "Configure Import Formats" page, the following parameters will be automatically defined and set: column delimiter, text qualifier, decimal separator, date separator, time separator, date format. 
+.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Повышение информативности</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210902T070508Z" creationid="Марианна" creationdate="20210902T070508Z">
