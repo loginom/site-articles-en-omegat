@@ -5864,6 +5864,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>значение для сравнения для фильтров: =, &lt;&gt;, &lt;, &lt;=, &gt;, &gt;= , содержит, не содержит, начинается, не начинается, заканчивается, не заканчивается;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220304T192724Z" creationid="Марианна" creationdate="20220304T192724Z">
+        <seg>the value for comparison for the following filters: =, &lt;&gt;, &lt;, &lt;=, &gt;, &gt;= , contains, does not contain, starting, not starting, ending, not ending;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>на панели Производные компоненты для текущего модуля добавлено контекстное меню с пунктом «Перейти к производным компонентам»;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220227T091031Z" creationid="Марианна" creationdate="20220227T091031Z">
