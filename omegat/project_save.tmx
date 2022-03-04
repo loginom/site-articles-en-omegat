@@ -5543,6 +5543,22 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>появилась возможность сохранять максимально полный развернутый уровень измерений Куба;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220304T135043Z" creationid="Марианна" creationdate="20220304T135043Z">
+        <seg>It became possible to save maximumally full detailed level of the Cube dimensions.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>реализована вставка значений в фильтр измерений из буфера обмена;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220304T134928Z" creationid="Марианна" creationdate="20220304T134928Z">
+        <seg>Insertion of values to the dimension filter from the clipboard was implemented.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>у производных компонентов добавлен пункт «Перейти к производному компоненту».</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220227T090524Z" creationid="Марианна" creationdate="20220227T090524Z">
