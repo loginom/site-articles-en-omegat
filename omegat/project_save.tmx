@@ -2944,8 +2944,8 @@
       <tuv lang="ru">
         <seg>В мастере Импорта из ХД добавлена возможность указать некоторые параметры фильтрации с помощью управляющих переменных.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220304T192409Z" creationid="Марианна" creationdate="20220304T192409Z">
-        <seg>It became possible to specify some filtration parameters using control variables in the Import from Data Storage Wizard.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20220304T192516Z" creationid="Марианна" creationdate="20220304T192409Z">
+        <seg>It became possible to specify some filtration parameters using control variables in the Import from Data Warehouse Wizard.</seg>
       </tuv>
     </tu>
     <tu>
