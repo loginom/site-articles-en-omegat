@@ -4358,6 +4358,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Пакеты сохраняются с заданным интервалом в файлы с расширением .autosave рядом с .lgp файлами.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220304T142308Z" creationid="Марианна" creationdate="20220304T142308Z">
+        <seg>The packages are saved with the set intervals in the files with .autosave extension near .lgp files.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Панель «Отчеты» в Loginom</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T204237Z" creationid="Марианна" creationdate="20210314T204237Z">
