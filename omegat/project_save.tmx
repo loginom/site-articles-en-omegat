@@ -2942,6 +2942,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В мастере Импорта из ХД добавлена возможность указать некоторые параметры фильтрации с помощью управляющих переменных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220304T192409Z" creationid="Марианна" creationdate="20220304T192409Z">
+        <seg>It became possible to specify some filtration parameters using control variables in the Import from Data Storage Wizard.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В мастере настройки подключения добавлена проверка строки подключения и обязательных параметров.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210321T214600Z" creationid="Марианна" creationdate="20210321T214600Z">
@@ -5172,6 +5180,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220302T114736Z" creationid="Марианна" creationdate="20220302T114652Z">
         <seg>The quality summary is based on the quality indicator and null count according to the indicator set in the settings - "Maximum allowable percentage of nulls". Then one of the values is specified for each field: "Unsuitable", "Suitable", "Preprocessing".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>С помощью переменных можно указать:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220304T192312Z" creationid="Марианна" creationdate="20220304T192312Z">
+        <seg>The following values can be specified using variables:</seg>
       </tuv>
     </tu>
     <tu>
