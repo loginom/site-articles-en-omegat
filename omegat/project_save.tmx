@@ -3174,6 +3174,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Данная возможность работает в окне быстрого просмотра на панели сценария, при быстром просмотре содержимого выходных портов, при быстром просмотре результатов в калькуляторе, а также в инспекторе свойств.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220304T141522Z" creationid="Марианна" creationdate="20220304T141522Z">
+        <seg>This option is available in the quick view window on the workflow panel for the quick view of the output ports content, quick view of results in the calculator and property inspector.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Данный функционал особенно актуален при работе со сложными формулами.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220224T062724Z" creationid="Марианна" creationdate="20220224T062724Z">
