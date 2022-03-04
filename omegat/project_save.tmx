@@ -3318,6 +3318,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для защищенных соединений используется OpenSSL версии 1.1.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220304T194406Z" creationid="Марианна" creationdate="20220304T194406Z">
+        <seg>OpenSSL 1.1 is used for the secure connections.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для их расчета необходимо выполнить действие «Посчитать показатели качества».</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220302T113251Z" creationid="Марианна" creationdate="20220302T113251Z">
@@ -3424,8 +3432,8 @@
       <tuv lang="ru">
         <seg>Для этого при клике на имя пакета необходимо удерживать клавишу «Ctrl» («Cmd» для MacOS).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220304T193927Z" creationid="Марианна" creationdate="20220304T193927Z">
-        <seg>For this purpose, it is required to click on the package name and hold "Ctrl" key ("Cmd" for MacOS).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20220304T194140Z" creationid="Марианна" creationdate="20220304T193927Z">
+        <seg>For this purpose, it is required to hold down "Ctrl" key while clicking on the package name ("Cmd" for MacOS).</seg>
       </tuv>
     </tu>
     <tu>
