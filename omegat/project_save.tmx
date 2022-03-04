@@ -2814,6 +2814,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В Loginom 6.5 существенно были улучшены следующие компоненты обработки:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220304T162736Z" creationid="Марианна" creationdate="20220304T162736Z">
+        <seg>The following processing components were significantly improved in Loginom 6.5:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В Loginom Integrator для версии Team поддерживаются публикация только в формате &lt;a0&gt;REST-сервисов.&lt;/a0&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220224T063350Z" creationid="Марианна" creationdate="20220224T063350Z">
@@ -4944,6 +4952,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ранее логирование имени узла было предусмотрено только при логировании в базу данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220304T162554Z" creationid="Марианна" creationdate="20220304T162554Z">
+        <seg>Previously, the node name logging was provided only for logging to the database.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ранее не было возможности получить и использовать этот идентификатор.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T204622Z" creationid="Марианна" creationdate="20210314T204622Z">
@@ -5492,6 +5508,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220224T064754Z" creationid="Марианна" creationdate="20220224T064754Z">
         <seg>Data Import Improvements</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Улучшения в компонентах обработки</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220304T162701Z" creationid="Марианна" creationdate="20220304T162701Z">
+        <seg>Processing Components Improvements</seg>
       </tuv>
     </tu>
     <tu>
