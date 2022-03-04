@@ -5487,6 +5487,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>в 10 раз (со 100 до 1000) увеличилось количество максимально отображаемых серий в &lt;a0&gt;кросс-диаграмме&lt;/a0&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220304T134544Z" creationid="Марианна" creationdate="20220304T134544Z">
+        <seg>the number of maximally displayed series in the &lt;a0&gt;cross chart&lt;/a0&gt; was increased by 10 times (from 100 to 1000);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>до 2-х раз повысилась отзывчивость интерфейса при работе с большими наборами данных;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220304T134153Z" creationid="Марианна" creationdate="20220304T134153Z">
