@@ -5864,6 +5864,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>значение для определения периода — базовая дата, тип временного промежутка и значение временного промежутка для фильтров: первый, не первый, последний не последний.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220304T193231Z" creationid="Марианна" creationdate="20220304T193231Z">
+        <seg>the value for the period definition — base date, time span unit and value of the time span for filters: first, not first, last, not last.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>значение для сравнения для фильтров: =, &lt;&gt;, &lt;, &lt;=, &gt;, &gt;= , содержит, не содержит, начинается, не начинается, заканчивается, не заканчивается;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220304T192754Z" creationid="Марианна" creationdate="20220304T192724Z">
@@ -5874,8 +5882,8 @@
       <tuv lang="ru">
         <seg>значения границ интервала для фильтров: в интервале и вне интервала;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220304T192859Z" creationid="Марианна" creationdate="20220304T192859Z">
-        <seg>Interval boundaries for filters: within the range and out of the range;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20220304T192951Z" creationid="Марианна" creationdate="20220304T192859Z">
+        <seg>the interval boundaries for filters: within the range and out of the range;</seg>
       </tuv>
     </tu>
     <tu>
