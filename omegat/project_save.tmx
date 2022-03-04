@@ -5565,6 +5565,14 @@
         <seg>"Go to derived component" option was added for the derived components.</seg>
       </tuv>
     </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>уменьшен размер шрифта заголовков фактов и измерений, а также высота ячеек Куба;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220304T135302Z" creationid="Марианна" creationdate="20220304T135302Z">
+        <seg>The font size of the measures and dimensions was decreased as well as the Cube cells height.</seg>
+      </tuv>
+    </tu>
 <!-- Alternative translations -->
   </body>
 </tmx>
