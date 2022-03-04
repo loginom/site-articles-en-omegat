@@ -4518,6 +4518,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Параметры &lt;a1&gt;«Коэффициент Вальда»&lt;/a1&gt; и «Критерий Вальда» переименованы в параметр «Статистика Вальда», а «Коэффициент детерминации» переименован в «Псевдо-R² Макфаддена»</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220304T191227Z" creationid="Марианна" creationdate="20220304T191227Z">
+        <seg>Such parameters as &lt;a1&gt;"Wald Coefficient"&lt;/a1&gt; and "Wald criterion" were renamed into "Wald statistic" parameter, and "R^2" was renamed into "McFadden pseudo-R²".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Перед открытием новой версии рекомендуем отдельно сохранить копии обновляемых пакетов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220224T065423Z" creationid="Марианна" creationdate="20220224T065423Z">
