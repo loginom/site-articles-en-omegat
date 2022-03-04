@@ -5866,8 +5866,16 @@
       <tuv lang="ru">
         <seg>значение для сравнения для фильтров: =, &lt;&gt;, &lt;, &lt;=, &gt;, &gt;= , содержит, не содержит, начинается, не начинается, заканчивается, не заканчивается;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220304T192724Z" creationid="Марианна" creationdate="20220304T192724Z">
-        <seg>the value for comparison for the following filters: =, &lt;&gt;, &lt;, &lt;=, &gt;, &gt;= , contains, does not contain, starting, not starting, ending, not ending;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20220304T192754Z" creationid="Марианна" creationdate="20220304T192724Z">
+        <seg>the value for comparison for filters: =, &lt;&gt;, &lt;, &lt;=, &gt;, &gt;= , contains, does not contain, starting, not starting, ending, not ending;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>значения границ интервала для фильтров: в интервале и вне интервала;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220304T192859Z" creationid="Марианна" creationdate="20220304T192859Z">
+        <seg>Interval boundaries for filters: within the range and out of the range;</seg>
       </tuv>
     </tu>
     <tu>
