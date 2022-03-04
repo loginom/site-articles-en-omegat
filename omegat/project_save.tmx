@@ -5479,6 +5479,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Эта опция удобна в случае неправильного написания сложных запросов к базам данных, на подготовку которых СУБД могла тратить продолжительное время, иногда сопоставимое со временем, требуемым на получение результирующих данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220304T150118Z" creationid="Марианна" creationdate="20220304T150118Z">
+        <seg>This option is convenient in the case of incorrect writing of the complex requests to the databases for preparation of which DBMS could spend the long time that is sometimes comparable with the time that is required for receipt of the resulting data.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Эта функция актуальна, когда речь идет об обработке многоязычных текстовых данных или данных типа дата-время.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220227T160215Z" creationid="Марианна" creationdate="20220227T160215Z">
