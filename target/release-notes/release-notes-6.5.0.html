@@ -311,16 +311,16 @@
 <p>It became possible to specify some filtration parameters using control variables in the Import from Data Warehouse Wizard. The following values can be specified using variables:</p>
 
 <ul>
-	<li>значение для сравнения для фильтров: =, &lt;&gt;, &lt;, &lt;=, &gt;, &gt;= , содержит, не содержит, начинается, не начинается, заканчивается, не заканчивается;</li>
-	<li>значения границ интервала для фильтров: в интервале и вне интервала;</li>
-	<li>значение для определения периода — базовая дата, тип временного промежутка и значение временного промежутка для фильтров: первый, не первый, последний не последний.</li>
+	<li>the value for comparison for filters: =, &lt;&gt;, &lt;, &lt;=, &gt;, &gt;= , contains, does not contain, starting, not starting, ending, not ending;</li>
+	<li>the interval boundaries for filters: within the range and out of the range;</li>
+	<li>the value for the period definition — base date, time span unit and value of the time span for filters: first, not first, last, not last.</li>
 </ul>
 
-<p>В обработчике Фильтр строк добавлены варианты фильтрации по диапазону дат «первый», «последний» с использованием даты из набора данных.</p>
+<p>Filtration options by the "first", "last" date ranges using the dates from the data set were added to the Row Filter handler.</p>
 
-<p>На домашней странице добавлена возможность открыть в новом окне пакет из списка «Последние открытые пакеты». Для этого при клике на имя пакета необходимо удерживать клавишу «Ctrl» («Cmd» для MacOS). Также можно открыть в новой вкладке пакет при нажатии с «Ctrl» («Cmd» для MacOS) на кнопки «Создать пакет», «Создать черновик», «Открыть пакет».</p>
+<p>It became possible to open the package from the "Recent opened packages" list on the homepage. For this purpose, it is required to hold down "Ctrl" key while clicking on the package name ("Cmd" for MacOS). It is also possible to open the package in the new tab when pressing on "Create package", "Create draft", "Open package" buttons with "Ctrl" ("Cmd" for MacOS).</p>
 
-<p>TLS 1.3 support was added. Для защищенных соединений используется OpenSSL версии 1.1. При работе через HTTPS и WebSocket не может быть использована версия TLS ниже 1.2.</p>
+<p>TLS 1.3 support was added. OpenSSL 1.1 is used for the secure connections. При работе через HTTPS и WebSocket не может быть использована версия TLS ниже 1.2.</p>
 
 <p>Сортировка дискретных начальных классов узла Конечные классы заменена на устойчивую. Ранее при выполнении могла изменяться модель начальных классов, а результат выполнения мог отличаться от ожидаемого.</p>
 
