@@ -3046,6 +3046,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В обработчике Фильтр строк добавлены варианты фильтрации по диапазону дат «первый», «последний» с использованием даты из набора данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220304T193407Z" creationid="Марианна" creationdate="20220304T193407Z">
+        <seg>Filtration options by the date range "first", "last" using the dates from the data set were added to the Row Filter handler.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В окне быстрого просмотра удалена нижняя панель с единственной кнопкой «Закрыть», вместо этого окно может быть закрыто кликом по любому месту вне окна быстрого просмотра или по нажатию на «×» (кнопку закрытия окна).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210322T213808Z" creationid="Марианна" creationdate="20210322T213808Z">
