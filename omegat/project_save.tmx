@@ -5487,6 +5487,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>до 2-х раз повысилась отзывчивость интерфейса при работе с большими наборами данных;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220304T134153Z" creationid="Марианна" creationdate="20220304T134153Z">
+        <seg>the interface responsiveness was increased by 2 times when working with large data sets;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>добавлена возможность группового управления видимостью серий в диаграмме: «Показать все серии», «Скрыть все серии», «Инвертировать серии».</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210322T164305Z" creationid="Марианна" creationdate="20210322T164305Z">
