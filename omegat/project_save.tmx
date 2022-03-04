@@ -4848,6 +4848,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При клонировании копируются все атрибуты поля или переменной, кроме значения связанного поля или переменной из исходного набора данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220304T192050Z" creationid="Марианна" creationdate="20220304T192050Z">
+        <seg>All field or variable attributes are copied while cloning with the exception of the value of the connected field or variable from the source data set.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При конвертации набора данных в структуру Pandas DataFrame используется весь обрабатываемый набор данных, что в некоторых случаях может приводить к существенному замедлению работы сценариев.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210320T224225Z" creationid="Марианна" creationdate="20210320T224034Z">
