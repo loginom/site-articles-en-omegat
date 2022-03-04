@@ -3046,6 +3046,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В серверных редакциях на странице настройки пакетов добавлена возможность настроить периодическое автоматическое резервное копирование всех открытых пакетов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220304T141747Z" creationid="Марианна" creationdate="20220304T141747Z">
+        <seg>It became possible to set the periodic auto backing up of all opened packages in the server editions on the package configuration page.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В списке оставались несуществующие входные столбцы, а попытка создать на их основе выходные столбцы приводила к ошибке (#8457).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210617T080839Z" creationid="Марианна" creationdate="20210617T080839Z">
@@ -4643,6 +4651,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210320T224225Z" creationid="Марианна" creationdate="20210320T224034Z">
         <seg>When converting data set into Pandas DataFrame structure, the whole processed data set is used that can sometimes cause considerable slow-down of the workflows operation.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При нажатии на кнопку «Автосохранение», можно включить этот параметр, а также задать «Период сохранения» в минутах.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220304T141936Z" creationid="Марианна" creationdate="20220304T141936Z">
+        <seg>When pressing on "Auto save", it is possible to enable this parameter and also set "Auto save period" in minutes.</seg>
       </tuv>
     </tu>
     <tu>
