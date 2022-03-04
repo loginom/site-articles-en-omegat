@@ -2830,6 +2830,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В большинстве случаев это позволяет более точно определить типы данных, используемые в импортируемом наборе.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220304T155326Z" creationid="Марианна" creationdate="20220304T155326Z">
+        <seg>Generally, it enables to specify the data types used in the imported set more precisely.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В выходном наборе «Дополнительные данные» добавлен столбец, содержащий код ответа веб-сервера.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210321T203017Z" creationid="Марианна" creationdate="20210321T203017Z">
