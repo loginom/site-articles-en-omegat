@@ -5055,6 +5055,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Скорость чтения lgd-файлов увеличилась до 10 раз по сравнению с текстовыми файлами и до двух раз по сравнению с lgd-файлами версии 6.4.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220304T151806Z" creationid="Марианна" creationdate="20220304T151806Z">
+        <seg>The lgd files read speed was increased by 10 times as compared with the text files and by two times as compared with lgd files 6.4.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Список разрешенных для использования ODBC-драйверов: Simba Hive ODBC Driver, Microsoft Hive ODBC Driver, Cloudera ODBC Driver for Apache Hive, MapR Hive ODBC Connector.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220304T151142Z" creationid="Марианна" creationdate="20220304T151142Z">
