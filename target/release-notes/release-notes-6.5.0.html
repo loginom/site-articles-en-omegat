@@ -158,8 +158,8 @@
 <p><a href="https://help.loginom.ru/userguide/visualization/cube/index.html" target="_blank">OLAP cube</a> is one of the most popular visualizers. Its functionality was significantly improved in the new platform version:</p>
 
 <ul>
-	<li>до 2-х раз повысилась отзывчивость интерфейса при работе с большими наборами данных;</li>
-	<li>в 10 раз (со 100 до 1000) увеличилось количество максимально отображаемых серий в <a href="https://help.loginom.ru/userguide/processors/transformation/cross-table.html" target="_blank">кросс-диаграмме</a>;</li>
+	<li>the interface responsiveness was increased by 2 times when working with large data sets;</li>
+	<li>the number of maximally displayed series in the <a href="https://help.loginom.ru/userguide/processors/transformation/cross-table.html" target="_blank">cross chart</a> was increased by 10 times (from 100 to 1000);</li>
 </ul>
 
 <figure class="lg-text-img lg-text-img_preview"><a href="/sites/default/files/blogpost-images/data_release-notes_img_series.png"><img alt="Displayed Series" data-entity-type="file" data-entity-uuid="insert-image792-d1f9c667-9418-45a3-836f-50b0715aab55" data-insert-class="" data-insert-type="image" src="/sites/default/files/styles/image792/public/blogpost-images/data_release-notes_img_series.png" title="Displayed Series" /> </a>
@@ -170,7 +170,7 @@
 </figure>
 
 <ul>
-	<li>появилась возможность показа всех заголовков или только заголовков 1-го уровня в кросс-диаграммах;</li>
+	<li>It became possible to display all headers or only the 1st level headers in the cross charts.</li>
 </ul>
 
 <figure class="lg-text-img lg-text-img_preview"><a href="/sites/default/files/blogpost-images/data_release-notes_img_levels.png"><img alt="Headers Levels" data-entity-type="file" data-entity-uuid="insert-image792-cf0fdd4c-e184-4940-bc92-51193d9bd43d" data-insert-class="" data-insert-type="image" src="/sites/default/files/styles/image792/public/blogpost-images/data_release-notes_img_levels.png" title="Headers Levels" /> </a>
@@ -181,37 +181,38 @@
 </figure>
 
 <ul>
-	<li>реализована вставка значений в фильтр измерений из буфера обмена;</li>
-	<li>появилась возможность сохранять максимально полный развернутый уровень измерений Куба;</li>
-	<li>уменьшен размер шрифта заголовков фактов и измерений, а также высота ячеек Куба;</li>
-	<li>в окне настройки фактов добавлена иконка калькулятора у вычисляемых фактов.</li>
+	<li>Insertion of values to the dimension filter from the clipboard was implemented.</li>
+	<li>It became possible to save maximumally full detailed level of the Cube dimensions.</li>
+	<li>The font size of the measures and dimensions headers was decreased as well as the Cube cells height.</li>
+	<li>The calculator icon for the calculated measures was added in the measure configuration window.</li>
 </ul>
 
 <h3>Quick View</h3>
 
-<p>По нажатию на Ctrl+C, выделенные в окне быстрого просмотра данные теперь копируются в совместимом с Excel формате, то есть при вставке в табличный редактор, вставляемые значения будут иметь корректный формат данных. Данная возможность работает в окне быстрого просмотра на панели сценария, при быстром просмотре содержимого выходных портов, при быстром просмотре результатов в калькуляторе, а также в инспекторе свойств.</p>
+<p>When pressing on Ctrl+C, the data selected in the quick view window is currently copied in the Excel compatible format. Namely, when inserting to the table editor, the inserted values will have the correct data format. This option is available in the quick view window on the workflow panel for the quick view of the output ports content, quick view of results in the calculator and property inspector.</p>
 
 <h2>Auto Save of the Packages Backup Copies </h2>
 
-<p>В серверных редакциях на странице настройки пакетов добавлена возможность настроить периодическое автоматическое резервное копирование всех открытых пакетов. При нажатии на кнопку «Автосохранение», можно включить этот параметр, а также задать «Период сохранения» в минутах. Пакеты сохраняются с заданным интервалом в файлы с расширением .autosave рядом с .lgp файлами. Сами .lgp файлы при этом не перезаписываются.</p>
+<p>It became possible to set the periodic auto backing up of all opened packages in the server editions on the package configuration page. When pressing on "Auto save", it is possible to enable this parameter and also set "Auto save period" in minutes. The packages are saved with the set intervals in the files with .autosave extension near .lgp files. .lgp files are not rewritten in this case.</p>
 
 <h2>Data Import Improvements</h2>
 
-<p>It became possible to cancel the request execution while importing from the database. Эта опция удобна в случае неправильного написания сложных запросов к базам данных, на подготовку которых СУБД могла тратить продолжительное время, иногда сопоставимое со временем, требуемым на получение результирующих данных. Ранее приходилось дожидаться окончания выполнения операции, сейчас реализована возможность ее быстрой отмены и последующей коррекции.</p>
+<p>It became possible to cancel the request execution while importing from the database. This option is convenient in the case of incorrect writing of the complex requests to the databases for preparation of which DBMS could spend the long time that is sometimes comparable with the time that is required for receipt of the resulting data. Previously, it was required to wait when the operation execution was finished. Now it is possible to cancel it quickly and correct afterwards.</p>
 
-<p>Еще одно новшество — это гибкая настройка импорта данных из хранилища при помощи переменных.</p>
+<p>One more novelty is represented by the flexible configuration of the data import from the storage using variables.</p>
 
-<p>Добавлена возможность подключения через <a href="https://wiki.loginom.ru/articles/odbc" target="_blank">ODBC-драйверы</a> для СУБД Apache Hive с использованием строки подключения. Список разрешенных для использования ODBC-драйверов: Simba Hive ODBC Driver, Microsoft Hive ODBC Driver, Cloudera ODBC Driver for Apache Hive, MapR Hive ODBC Connector.</p>
+<p>Connection via <a href="https://wiki.loginom.ru/articles/odbc" target="_blank">ODBC drivers</a> for Apache Hive DBMS using connection strings was added. The following ODBC drivers are allowed for use: Simba Hive ODBC Driver, Microsoft Hive ODBC Driver, Cloudera ODBC Driver for Apache Hive, MapR Hive ODBC Connector.</p>
 
 <h3>Import from the Text File</h3>
 
-<p>При импорте из текстового файла для автоматического предположения об используемых типах данных учитываются параметры установленные на странице «Настройка форматов импорта», а также параметр «Кол-во строк для анализа» на странице «Параметры импорта с разделителями». В большинстве случаев это позволяет более точно определить типы данных, используемые в импортируемом наборе.</p>
+<p>When importing from the text file for the automatic assumption concerning the used data types, the parameters set on "Configure Import Formats" page are taken into account as well as "Row count for analysis" parameter on "Import parameters with separators" page. Generally, it enables to specify the data types used in the imported set more precisely.</p>
 
-<p>Добавлена возможность выполнить автоматическое определение структуры импортируемого файла. По нажатию на кнопку «Предположить структуру» на странице «Настройка форматов импорта» будут автоматически определены и установлены следующие параметры: разделитель столбцов, ограничитель строк, десятичный разделитель, разделитель даты, разделитель времени, формат даты.</p>
+<p>The automatic definition of the imported file structure became possible. When pressing on "Assume structure" button on "Configure Import Formats" page, the following parameters will be automatically defined and set: column delimiter, text qualifier, decimal separator, date separator, time separator, date format. 
+.</p>
 
 <h3>Import from the LGD Files, Export to the LGD Files</h3>
 
-<p>При <a href="https://help.loginom.ru/userguide/integration/export/ldf.html" target="_blank">экспорте в Loginom Data файл</a> оптимизировано сжатие строковых данных — скорость чтения больших наборов данных увеличилась до 2-х раз. Достаточно экспортировать любые данные в формат lgd и работа с ними будет в несколько раз быстрее, также они будут занимать гораздо меньший объем памяти в хранилище. Скорость чтения lgd-файлов увеличилась до 10 раз по сравнению с текстовыми файлами и до двух раз по сравнению с lgd-файлами версии 6.4.</p>
+<p>When <a href="https://help.loginom.ru/userguide/integration/export/ldf.html" target="_blank">exporting to the Loginom Data file</a>, the string data compression was optimised. The large data sets read speed was increased by 2 times. It is sufficient to export any data to the lgd format, and it will be possible to work with it several times faster, and it will take much less memory size in the warehouse. The lgd files read speed was increased by 10 times as compared with the text files and by two times as compared with lgd files 6.4.</p>
 
 <div class="anchor" id="admin">&nbsp;</div>
 
@@ -231,7 +232,7 @@
 
 <div class="anchor" id="autoname">&nbsp;</div>
 
-<h2>Изменение в автоматическом формирование имен полей</h2>
+<h2>Change in the Automatic Fields Names Generation</h2>
 
 <p>При формировании набора полей, в исходном наименовании все невалидные символы заменяются и формируется корректное имя поля или же значение по умолчанию, если не получилось сформировать корректный идентификатор. Logics of fields names generation:</p>
 
@@ -244,11 +245,11 @@
 	<li>если после преобразований получается пустая строка или строка, состоящая только из символов подчеркивания, то считаем это непригодным идентификатором и возвращаем значение по умолчанию.</li>
 </ul>
 
-<p>Данное изменение затрагивает следующие обработчики:<a href="https://help.loginom.ru/userguide/integration/import/txt-csv.html" target="_blank"> Импорт из тестового файла</a>, <a href="https://help.loginom.ru/userguide/integration/import/excel.html" target="_blank">Импорт из файла Excel</a>, <a href="https://help.loginom.ru/userguide/integration/import/database.html" target="_blank">Импорт из Базы данных</a>, <a href="https://help.loginom.ru/userguide/integration/import/1c-db.html" target="_blank">Импорт из 1С Запрос</a>, <a href="https://help.loginom.ru/userguide/integration/import/xml.html" target="_blank">Импорт из XML файла</a>, <a href="https://help.loginom.ru/userguide/processors/programming/java-script/index.html" target="_blank">JavaScript</a>, <a href="https://help.loginom.ru/userguide/processors/programming/python/index.html" target="_blank">Python</a>, <a href="https://help.loginom.ru/userguide/processors/integration/extracting-xml.html" target="_blank">Извлечение XML</a>, <a href="https://help.loginom.ru/userguide/processors/integration/soap-request.html" target="_blank">SOAP-запрос</a>, <a href="https://help.loginom.ru/userguide/processors/transformation/cross-table.html" target="_blank">Кросс-таблица</a>, <a href="https://help.loginom.ru/userguide/processors/data-trees/table-to-tree.html" target="_blank">Таблица в дерево</a>, а также порт типа «Дерево данных».</p>
+<p>This change applies to the following handlers:<a href="https://help.loginom.ru/userguide/integration/import/txt-csv.html" target="_blank"> Import from text file</a>, <a href="https://help.loginom.ru/userguide/integration/import/excel.html" target="_blank">Import from Excel file</a>, <a href="https://help.loginom.ru/userguide/integration/import/database.html" target="_blank">Import from Database</a>, <a href="https://help.loginom.ru/userguide/integration/import/1c-db.html" target="_blank">Import from 1С Request</a>, <a href="https://help.loginom.ru/userguide/integration/import/xml.html" target="_blank">Import from XML file</a>, <a href="https://help.loginom.ru/userguide/processors/programming/java-script/index.html" target="_blank">JavaScript</a>, <a href="https://help.loginom.ru/userguide/processors/programming/python/index.html" target="_blank">Python</a>, <a href="https://help.loginom.ru/userguide/processors/integration/extracting-xml.html" target="_blank">XML Extraction</a>, <a href="https://help.loginom.ru/userguide/processors/integration/soap-request.html" target="_blank">SOAP request</a>, <a href="https://help.loginom.ru/userguide/processors/transformation/cross-table.html" target="_blank">Cross chart</a>, <a href="https://help.loginom.ru/userguide/processors/data-trees/table-to-tree.html" target="_blank">Table to tree</a>, and also "Data tree" type port.</p>
 
 <h2>Loginom Integrator</h2>
 
-<p>В Loginom Integrator дополнена логируемая информация. При включенном уровне логирования «Информация», в момент начала выполнения запроса сохраняется URL запроса и имя узла. Ранее логирование имени узла было предусмотрено только при логировании в базу данных.</p>
+<p>The logged information was complemented in Loginom Integrator. When the "Info" logging level is enabled, request URL and node name are saved at the time the request execution begins. Previously, the node name logging was provided only for logging to the database.</p>
 
 <p>Ранее, если переданный через Loginom Integrator REST-запрос не содержал тело запроса или валидный json-объект, то появлялось неинформативное сообщение об ошибке «Не задано свойство WebBodyFormatMessageProperty». Теперь в таком случае пользователю показывается одно из сообщений «Тело запроса не должно быть пустым» или «Запрос должен содержать объект json».</p>
 
@@ -260,9 +261,9 @@
 
 <p>Для того, чтобы у прежде установленного сервера задействовать кодировку UTF8, нужно сделать резервную копию лог-файла app.log, а затем удалить его. Если ранее была настроена автоматическая обработка лог-файлов при помощи скриптов, в которых делалось предположение о кодировке лог файлов, то в этом случае нужно обратить внимание на это изменение.</p>
 
-<h2>Улучшения в компонентах обработки</h2>
+<h2>Processing Components Improvements</h2>
 
-<p>В Loginom 6.5 существенно были улучшены следующие компоненты обработки:</p>
+<p>The following processing components were significantly improved in Loginom 6.5:</p>
 
 <ol>
 	<li><a href="https://help.loginom.ru/userguide/processors/datamining/arimax.html" target="_blank">ARIMAX</a></li>
@@ -273,9 +274,9 @@
 	<li>JavaScript</li>
 </ol>
 
-<p>В Калькуляторе в функции Stat появился еще один показатель для вычислений — <a href="https://wiki.loginom.ru/articles/mode" target="_blank">мода</a>.</p>
+<p>One more calculation parameter was introduced into the Calculator in Stat function — <a href="https://wiki.loginom.ru/articles/mode" target="_blank">mode</a>.</p>
 
-<p>В JavaScript появилась поддержка Fetch API, особенно важного для работы с REST и JSON-запросами и для обращения к внешним веб-сервисам. Добавлена поддержка глобального свойства globalThis, которое может быть использовано сторонними модулями. А также добавлены функции setTimeout и clearTimeout, реализована поддержка кодирования/декодирования данных в формате Base64.</p>
+<p>Fetch API support was introduced into JavaScript. It is especially important for the REST and JSON requests operation and access to the external web services. Support of the global property globalThis was added. It can be used by the third-party modules. setTimeout and clearTimeout functions were also added. Data coding/decoding support in Base64 format was implemented.</p>
 
 <h3>Cross Table</h3>
 
