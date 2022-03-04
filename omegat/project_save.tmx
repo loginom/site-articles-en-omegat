@@ -3342,6 +3342,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Добавлена возможность подключения через &lt;a0&gt;ODBC-драйверы&lt;/a0&gt; для СУБД Apache Hive с использованием строки подключения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220304T150951Z" creationid="Марианна" creationdate="20220304T150951Z">
+        <seg>Connection via &lt;a0&gt;ODBC drivers&lt;/a0&gt; for Apache Hive DBMS using connection strings was added.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Добавлена группа компонентов «Программирование» (включает в себя Python и JavaScript).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210322T214049Z" creationid="Марианна" creationdate="20210322T214049Z">
@@ -3554,6 +3562,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210903T142305Z" creationid="Марианна" creationdate="20210903T104325Z">
         <seg>If the error has been identified before, it is required to go to the export configuration wizard once again after update (#8585).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Еще одно новшество — это гибкая настройка импорта данных из хранилища при помощи переменных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220304T150744Z" creationid="Марианна" creationdate="20220304T150719Z">
+        <seg>One more novelty is represented by the flexible configuration of the data import from the storage using variables.</seg>
       </tuv>
     </tu>
     <tu>
