@@ -2926,6 +2926,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В мастерах настройки соответствия полей и переменных добавлена возможность создавать поля или переменные на основе уже существующих.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220304T191815Z" creationid="Марианна" creationdate="20220304T191815Z">
+        <seg>It became possible to create fields or variables based on the existing ones in the fields and variables mapping wizards.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В мастерах подключения к Хранилищу данных на СУБД &lt;a0&gt;MS SQL&lt;/a0&gt; и &lt;a1&gt;Oracle &lt;/a1&gt;добавлена возможность указать имя схемы, в которой находятся метаданные и данные ХД.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210321T180551Z" creationid="Марианна" creationdate="20210321T180229Z">
