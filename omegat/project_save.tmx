@@ -4695,6 +4695,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При импорте из текстового файла для автоматического предположения об используемых типах данных учитываются параметры установленные на странице «Настройка форматов импорта», а также параметр «Кол-во строк для анализа» на странице «Параметры импорта с разделителями».</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220304T155222Z" creationid="Марианна" creationdate="20220304T155222Z">
+        <seg>When importing from the text file for the automatic assumption concerning the used data types, the parameters set on "Configure Import Formats" page are taken into account as well as "Row count for analysis" parameter on "Import parameters with separators" page.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При конвертации набора данных в структуру Pandas DataFrame используется весь обрабатываемый набор данных, что в некоторых случаях может приводить к существенному замедлению работы сценариев.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210320T224225Z" creationid="Марианна" creationdate="20210320T224034Z">
