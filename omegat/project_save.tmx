@@ -4895,6 +4895,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ранее приходилось дожидаться окончания выполнения операции, сейчас реализована возможность ее быстрой отмены и последующей коррекции.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220304T150539Z" creationid="Марианна" creationdate="20220304T150539Z">
+        <seg>Previously, it was required to wait when the operation execution was finished. Now it is possible to cancel it quickly and correct afterwards.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ранее это можно было сделать только следующим образом: в окне настройки модификатора доступа выбираем статус «Опубликованный», затем задаем имя узла, затем возвращаем прежний статус.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210322T172323Z" creationid="Марианна" creationdate="20210322T172323Z">
