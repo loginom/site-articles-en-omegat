@@ -5416,6 +5416,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Теперь все сообщения, передаваемые 1С, дополнены описанием.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220304T191344Z" creationid="Марианна" creationdate="20220304T191344Z">
+        <seg>Now description is provided for all messages sent to 1C.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Теперь добавлена возможность задать имя для узла модели с модификатором доступа «Открытый».</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210322T172606Z" creationid="Марианна" creationdate="20210322T172606Z">
