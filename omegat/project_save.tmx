@@ -3654,6 +3654,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Изменение в автоматическом формирование имен полей</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220304T151941Z" creationid="Марианна" creationdate="20220304T151941Z">
+        <seg>Change in the Automatic Fields Names Generation</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Изменения в Loginom версии 6.4.0</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210322T221445Z" creationid="Марианна" creationdate="20210322T221445Z">
