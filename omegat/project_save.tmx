@@ -4975,6 +4975,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Сами .lgp файлы при этом не перезаписываются.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220304T142425Z" creationid="Марианна" creationdate="20220304T142425Z">
+        <seg>.lgp files are not rewritten in this case.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Сводка визуализатора Качество данных</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220227T085351Z" creationid="Марианна" creationdate="20220227T085351Z">
