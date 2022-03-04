@@ -2800,8 +2800,8 @@
       <tuv lang="ru">
         <seg>В JavaScript появилась поддержка Fetch API, особенно важного для работы с REST и JSON-запросами и для обращения к внешним веб-сервисам.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220304T163040Z" creationid="Марианна" creationdate="20220304T163040Z">
-        <seg>Fetch API support was introduced into JavaScript that is especially important for REST and JSON requests operation and access the external web services.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20220304T163143Z" creationid="Марианна" creationdate="20220304T163040Z">
+        <seg>Fetch API support was introduced into JavaScript. It is especially important for the REST and JSON requests operation and access to the external web services.</seg>
       </tuv>
     </tu>
     <tu>
