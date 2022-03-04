@@ -2920,8 +2920,8 @@
       <tuv lang="ru">
         <seg>В логистической регрессии исправлен расчет показателей модели, в частности: &lt;a0&gt;Хи-квадрат&lt;/a0&gt;, -2 Логарифма функции правдоподобия, Псевдо-R^2 Макфаддена и Псевдо-R^2 Макфаддена (скорр.), -2 Логарифма функции правдоподобия нулевой модели.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220304T164156Z" creationid="Марианна" creationdate="20220304T164156Z">
-        <seg>Calculation of the model parameters was corrected in the logistic regression: &lt;a0&gt;Хи-квадрат&lt;/a0&gt;, -2 Логарифма функции правдоподобия, Псевдо-R^2 Макфаддена и Псевдо-R^2 Макфаддена (скорр.), -2 Логарифма функции правдоподобия нулевой модели.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20220304T164307Z" creationid="Марианна" creationdate="20220304T164156Z">
+        <seg>Calculation of the model parameters was corrected in the logistic regression: &lt;a0&gt;Chi-square&lt;/a0&gt;, -2 Log-likelihood, McFadden pseudo-R^2 and McFadden pseudo-R^2 (adj.), -2 Log-likelihood of null model.</seg>
       </tuv>
     </tu>
     <tu>
