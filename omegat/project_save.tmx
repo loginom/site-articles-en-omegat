@@ -5704,6 +5704,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Уникальные значения выделены оранжевым цветом, порядковые статистики — красным.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220306T154030Z" creationid="Марианна" creationdate="20220306T154030Z">
+        <seg>The unique values are highlighted in orange, the order statistics are highlighted in red.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Унифицированы имена переменных, а также описания долей событий и классов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210322T171733Z" creationid="Марианна" creationdate="20210322T171733Z">
