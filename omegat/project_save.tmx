@@ -4558,6 +4558,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Пакеты из предыдущих версий будут работать по-старому, до тех пор, пока не будет выключена настройка «Уникальные значения как имена полей».</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220306T154608Z" creationid="Марианна" creationdate="20220306T154608Z">
+        <seg>The previous version packages will be used in the same way until "Unique values as field names" setting is enabled.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Пакеты сохраняются с заданным интервалом в файлы с расширением .autosave рядом с .lgp файлами.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220304T142308Z" creationid="Марианна" creationdate="20220304T142308Z">
