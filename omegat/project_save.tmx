@@ -4872,6 +4872,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При запуске настольных редакций Loginom в качестве рабочего каталога устанавливается рабочий каталог, указанный в параметрах ярлыка.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220306T153934Z" creationid="Марианна" creationdate="20220306T153934Z">
+        <seg>When starting the desktop Loginom editions, the working directory specified in the shortcut parameters is installed as the working directory.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При импорте из Хранилища данных появилась возможность отображения данных в виде иерархической (древовидной) структуры, что существенно упрощает настройку импорта данных, если хранилище имеет сложную структуру.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210325T113536Z" creationid="Марианна" creationdate="20210320T235254Z">
