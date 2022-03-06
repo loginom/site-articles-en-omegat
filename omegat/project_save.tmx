@@ -2950,6 +2950,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В мастере настройки больше недоступна настройка «Разрешить невалидные имена», но осталась настройка «Уникальные значения как имена полей».</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220306T154446Z" creationid="Марианна" creationdate="20220306T154446Z">
+        <seg>"Allow invalid names" setting is not available in the wizard, whereas "Unique values as field names" setting is preserved.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В мастере настройки подключения добавлена проверка строки подключения и обязательных параметров.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210321T214600Z" creationid="Марианна" creationdate="20210321T214600Z">
