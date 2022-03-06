@@ -4984,6 +4984,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При установке платформы в качестве рабочего каталога используется папка «Мои документы» текущего пользователя.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220306T153658Z" creationid="Марианна" creationdate="20220306T153658Z">
+        <seg>When installing the platform, "My documents" folder of the current user is used as the working directory.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При фильтрации по уникальным значениям в &lt;a0&gt;Кубе&lt;/a0&gt; снято ограничение в отображении не более 10000 уникальных элементов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210322T162746Z" creationid="Марианна" creationdate="20210322T162746Z">
