@@ -5000,6 +5000,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При работе через HTTPS и WebSocket не может быть использована версия TLS ниже 1.2.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220306T154756Z" creationid="Марианна" creationdate="20220306T154756Z">
+        <seg>When working via HTTPS and WebSocket, TLS version below 1.2 cannot be used.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При разработке сценария в настройках сервера может быть настроена одна локаль, а на сервере, где будет выполняться разработанный сценарий — другая.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220228T102354Z" creationid="Марианна" creationdate="20220228T102354Z">
