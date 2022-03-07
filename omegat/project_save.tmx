@@ -3990,6 +3990,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Кнопка свернуть в подмодель теперь активна даже если выбран один узел и этот узел не подмодель.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220307T095842Z" creationid="Марианна" creationdate="20220307T095842Z">
+        <seg>Collapse to supernode button is active now even if one node is selected and this node is not supernode.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Код, вызываемый в компоненте Python выполняется в один поток, а одновременно может выполняться только один узел Python.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210320T221607Z" creationid="Марианна" creationdate="20210320T221309Z">
@@ -5164,6 +5172,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210325T115559Z" creationid="Марианна" creationdate="20210323T081916Z">
         <seg>Previously, attempts to perform these actions could cause undescriptive messages (#8170).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Ранее при выполнении могла изменяться модель начальных классов, а результат выполнения мог отличаться от ожидаемого.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220307T095709Z" creationid="Марианна" creationdate="20220307T095709Z">
+        <seg>Previously, the fine classes model could be changed while execution, and the execution result could differ from the expected one.</seg>
       </tuv>
     </tu>
     <tu>
