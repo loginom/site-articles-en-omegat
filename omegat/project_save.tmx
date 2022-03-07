@@ -5120,6 +5120,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ранее в подмодель можно было свернуть только несколько выделенных узлов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220307T095920Z" creationid="Марианна" creationdate="20220307T095920Z">
+        <seg>Previously, it was possible to collapse only several selected nodes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ранее в процессе вырезания/вставки узлов могла возникнуть блокировка узлов, в результате чего могли происходить ошибки.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210322T204912Z" creationid="Марианна" creationdate="20210322T204849Z">
