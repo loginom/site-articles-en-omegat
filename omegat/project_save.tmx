@@ -5328,6 +5328,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Сортировка дискретных начальных классов узла Конечные классы заменена на устойчивую.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220307T095535Z" creationid="Марианна" creationdate="20220307T095535Z">
+        <seg>Sorting of the discrete fine classes of the Coarse Classes node was replaced with the stable one.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Список разрешенных для использования ODBC-драйверов: Simba Hive ODBC Driver, Microsoft Hive ODBC Driver, Cloudera ODBC Driver for Apache Hive, MapR Hive ODBC Connector.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220304T151142Z" creationid="Марианна" creationdate="20220304T151142Z">
