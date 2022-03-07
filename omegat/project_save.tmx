@@ -2886,6 +2886,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В визуализаторе &lt;a0&gt;Статистика &lt;/a0&gt;явно обозначены ячейки с нерассчитанными показателями и кнопки запуска расчетов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220307T100832Z" creationid="Марианна" creationdate="20220307T100832Z">
+        <seg>The cells with uncalculated parameters and calculation start buttons are explicitly specified in &lt;a0&gt;Statistics &lt;/a0&gt; visualizer.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В выходном наборе «Дополнительные данные» добавлен столбец, содержащий код ответа веб-сервера.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210321T203017Z" creationid="Марианна" creationdate="20210321T203017Z">
