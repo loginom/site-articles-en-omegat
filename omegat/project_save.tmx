@@ -5122,8 +5122,8 @@
       <tuv lang="ru">
         <seg>Ранее в подмодель можно было свернуть только несколько выделенных узлов.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220307T095920Z" creationid="Марианна" creationdate="20220307T095920Z">
-        <seg>Previously, it was possible to collapse only several selected nodes.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20220307T100031Z" creationid="Марианна" creationdate="20220307T095920Z">
+        <seg>Previously, it was possible to collapse only several selected nodes to supernode.</seg>
       </tuv>
     </tu>
     <tu>
