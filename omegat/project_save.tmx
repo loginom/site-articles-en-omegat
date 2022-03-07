@@ -5050,8 +5050,8 @@
       <tuv lang="ru">
         <seg>При экспорте в базы данных, если выбран тип экспорта «Обновить существующие записи в таблице» и ключевое поле содержит значения &lt;e0&gt;NULL&lt;/e0&gt;, то происходит корректное сравнение значений с использованием конструкции &lt;e1&gt;IS NULL&lt;/e1&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220307T100938Z" creationid="Марианна" creationdate="20220307T100938Z">
-        <seg>При экспорте в базы данных, если выбран тип экспорта "Update existing table records" and the key field contains the &lt;e0&gt;NULL&lt;/e0&gt; values, то происходит корректное сравнение значений с использованием конструкции &lt;e1&gt;IS NULL&lt;/e1&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20220307T142822Z" creationid="Марианна" creationdate="20220307T100938Z">
+        <seg>When exporting to the databases, if "Update existing table records" export type is selected, and the key field contains &lt;e0&gt;NULL&lt;/e0&gt; values, the correct comparison of values is performed with the use of &lt;e1&gt;IS NULL&lt;/e1&gt; construction.</seg>
       </tuv>
     </tu>
     <tu>
