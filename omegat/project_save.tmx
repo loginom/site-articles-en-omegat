@@ -3758,6 +3758,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если ранее имелся пользователь с именем «everyone», то при запуске сервера возникнет ошибка «Ошибка загрузки файла конфигурации: Users.cfg» (сообщение сохранится в журнал Windows и в файл лога), а Loginom Server не запустится.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220308T143303Z" creationid="Марианна" creationdate="20220308T143303Z">
+        <seg>When it was referred to a user with "everyone" name, when starting the server, the following error occurred: "Configuration file loading error: Users.cfg" (the message will be kept in the Windows log and log file) and the Loginom Server did not start.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Еще одно новшество — это гибкая настройка импорта данных из хранилища при помощи переменных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220304T150744Z" creationid="Марианна" creationdate="20220304T150719Z">
