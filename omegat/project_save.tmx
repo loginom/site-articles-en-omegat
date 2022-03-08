@@ -3702,6 +3702,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если же Loginom Server уже обновлен, то можно вручную отредактировать xml-файл Users.cfg и удалить из него пользователя с именем «everyone».</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220308T143740Z" creationid="Марианна" creationdate="20220308T143740Z">
+        <seg>If the Loginom Server has already been updated, it is possible to edit the xml file Users.cfg manually and delete the user with "everyone" name from it.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если же в настройках компонента запрещено создание узлов Выполнение/Цикл, то всегда создаётся производный узел.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220227T121137Z" creationid="Марианна" creationdate="20220227T121137Z">
