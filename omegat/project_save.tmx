@@ -2928,8 +2928,8 @@
       <tuv lang="ru">
         <seg>В компоненте &lt;a0&gt;Фильтр строк &lt;/a0&gt;при выборе условия фильтрации «В списке / Вне списка» добавлена возможность копирования и вставки данных через буфер обмена.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220307T142923Z" creationid="Марианна" creationdate="20220307T142923Z">
-        <seg>В компоненте &lt;a0&gt;Row filter &lt;/a0&gt;при выборе условия фильтрации "listed / not listed" добавлена возможность копирования и вставки данных через буфер обмена.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20220308T140622Z" creationid="Марианна" creationdate="20220307T142923Z">
+        <seg>It became possible to copy and paste data via clipboard in &lt;a0&gt;Row filter &lt;/a0&gt; component when selecting "listed / not listed" filtering criterion.</seg>
       </tuv>
     </tu>
     <tu>
