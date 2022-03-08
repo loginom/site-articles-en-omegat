@@ -3326,6 +3326,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Данное ограничение соответствует ограничению на имена папок в Windows.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220308T144450Z" creationid="Марианна" creationdate="20220308T144450Z">
+        <seg>This restriction complies with the restriction of the folder names in Windows.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Данный функционал особенно актуален при работе со сложными формулами.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220224T062724Z" creationid="Марианна" creationdate="20220224T062724Z">
