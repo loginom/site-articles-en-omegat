@@ -3414,6 +3414,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для того, чтобы на сервере можно было создать общую папку, доступ к которой имели бы все пользователи, в том числе вновь добавляемые, создана стандартная группа пользователей «Все», которая отображается при настройке прав на общие папки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220308T141957Z" creationid="Марианна" creationdate="20220308T141957Z">
+        <seg>To create the shared folder with access rights provided for all users, including the newly added ones, on server, the standard user group "All" that is displayed when configuring the shared folders rights.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для того, чтобы обеспечить обратную совместимость с пакетами, разработанными в предыдущих версиях платформы, реализован механизм конвертации сценариев.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220227T121824Z" creationid="Марианна" creationdate="20220227T121824Z">
