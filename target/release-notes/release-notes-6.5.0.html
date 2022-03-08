@@ -218,15 +218,15 @@
 
 <h2>Changes in the Administration Section</h2>
 
-<p>Для того, чтобы на сервере можно было создать общую папку, доступ к которой имели бы все пользователи, в том числе вновь добавляемые, создана стандартная группа пользователей «Все», которая отображается при настройке прав на общие папки.</p>
+<p>To create the shared folder with the access rights provided for all users, including the newly added ones, on server, the standard user group "All" displayed when configuring the shared folders rights was created.</p>
 
-<p>Если ранее имелся пользователь с именем «everyone», то при запуске сервера возникнет ошибка «Ошибка загрузки файла конфигурации: Users.cfg» (сообщение сохранится в журнал Windows и в файл лога), а Loginom Server не запустится. Чтобы эта ошибка не возникала, необходимо на предыдущей версии Loginom удалить пользователя с именем «everyone», после чего выполнить обновление на новую версию Loginom. Если же Loginom Server уже обновлен, то можно вручную отредактировать xml-файл Users.cfg и удалить из него пользователя с именем «everyone».</p>
+<p>When it was referred to a user with "everyone" name, when starting the server, the following error occurred: "Configuration file loading error: Users.cfg" (the message will be kept in the Windows log and log file) and the Loginom Server did not start. To avoid this error, it is required to delete the user with "everyone" name in the previous Loginom version, and then update is required to provide the new Loginom version. If the Loginom Server has already been updated, it is possible to edit the xml file Users.cfg manually and delete the user with "everyone" name from it.</p>
 
-<p>В имени пользователей и общих папок разрешено использовать символы точка, минус и пробел, также имена могут начинаться с цифры. При этом, имена, заканчивающиеся точкой или пробелом, запрещены. Данное ограничение соответствует ограничению на имена папок в Windows. При вводе имени нового пользователя в разделе Администрирование автоматически убираются ведущие и завершающие пробелы.</p>
+<p>It is allowed to use such characters as point, minus and space in the user name and shared folders, such names can also start from a digit. And the names ending with a point or space are forbidden. This restriction complies with the restriction concerning the folder names in Windows. When entering the new user name, the leading and trailing spaces are automatically deleted in the Administration section.</p>
 
-<p>При аутентификации пользователя через <a href="https://help.loginom.ru/userguide/admin/ldap.html" target="_blank">LDAP </a>сервер разрешено использовать символы русской раскладки. Ранее, пользователь, пароль которого в Active Directory содержал русские буквы, не мог авторизоваться в Loginom через LDAP.</p>
+<p>When authenticating a user via the <a href="https://help.loginom.ru/userguide/admin/ldap.html" target="_blank">LDAP </a> server, it is allowed to use the Russain layout characters. Previously, if the user whose password in Active Directory contained the Russian letters, could not log in Loginom via LDAP.</p>
 
-<p>В панели <a href="https://help.loginom.ru/userguide/admin/" target="_blank">Администрирование </a>добавлена возможность настройки прав на публикацию пакетов у каждого пользователя. Разрешение на публикацию пакетов можно установить только для пользователей, у которых есть роль «Проектирование сценариев». При автоматическом добавлении нового пользователя с аутентификацией через LDAP, пользователю выдаются права на публикацию пакетов, если у него есть роль «Проектирование сценариев». При запуске сервера после обновления до Loginom 6.5, всем пользователям с правами на проектирование сценариев будут также предоставлены права на публикацию пакетов.</p>
+<p>It became possible to configure packages publishing rights of each user on the  <a href="https://help.loginom.ru/userguide/admin/" target="_blank">Administration </a> panel. Only the users with the "Workflows design" role are allowed to get permission to publish the packages. При автоматическом добавлении нового пользователя с аутентификацией через LDAP, пользователю выдаются права на публикацию пакетов, если у него есть роль «Проектирование сценариев». При запуске сервера после обновления до Loginom 6.5, всем пользователям с правами на проектирование сценариев будут также предоставлены права на публикацию пакетов.</p>
 
 <p>Реализована установка роли для нового пользователя, автоматически добавляемого через LDAP, на основе параметра «Роль нового пользователя», который можно настроить в разделе Администрирование в секции LDAP.</p>
 
@@ -280,7 +280,7 @@
 
 <h3>Cross Table</h3>
 
-<p>В мастере настройки больше недоступна настройка «Разрешить невалидные имена», но осталась настройка «Уникальные значения как имена полей». Пакеты из предыдущих версий будут работать по-старому, до тех пор, пока не будет выключена настройка «Уникальные значения как имена полей». Для всех вновь создаваемых узлов будет действовать следующая логика: если настройка «Уникальные значения как имена полей» активна, то валидные уникальные значения будут без изменений использоваться как имена столбцов, а невалидные уникальные значения будут формироваться с помощью транслитерации.</p>
+<p>"Allow invalid names" setting is not available in the wizard, whereas "Unique values as field names" setting is preserved. The previous version packages will be used in the same way until "Unique values as field names" setting is enabled. Для всех вновь создаваемых узлов будет действовать следующая логика: если настройка «Уникальные значения как имена полей» активна, то валидные уникальные значения будут без изменений использоваться как имена столбцов, а невалидные уникальные значения будут формироваться с помощью транслитерации.</p>
 
 <div class="lg-em lg-em_green">
 <p>После деактивации и повторной активации настройки «Уникальные значения как имена полей», имена столбцов будут формироваться уже по-новому с транслитерацией.</p>
@@ -300,13 +300,13 @@
 
 <h2>Other Changes</h2>
 
-<p>При работе с 1С.Предприятие в случае возникновения ошибок было сложно определить, возникли проблемы на стороне 1С или непосредственно в сценариях Loginom. Now description is provided for all messages sent to 1C. К таким ошибкам относятся: «Ошибка подключения к 1С ...», «Ошибка подготовки запроса 1С ...», «Ошибка выполнения запроса 1С ...», «Ошибка подготовки полей запроса 1С ...», «Ошибка выгрузки результатов запроса 1С ...».</p>
+<p>If errors occur when working with 1C.Enterprise, it was complicated to define whether the problems connected with 1C or directly with the Loginom workflows occur. Now description is provided for all messages sent to 1C. Such typical errors are as follows: "1C connection error ...", "Error preparing 1C request ...", "Error executing 1C request ...", "Error preparing 1C request fields ...", "Error of 1C request results loading ...".</p>
 
 <p>Now it is possible to exclude the columns from the further processing in <a href="https://help.loginom.ru/userguide/processors/transformation/fields-parameters.html" target="_blank">Field features</a> handler. For this purpose, such parameter as "Exclude" was added to the fields wizard. If "Exclude" property is set for the field, this field will not be added to the output data set.</p>
 
 <p>It became possible to create fields or variables based on the existing ones in the fields and variables mapping wizards. All field or variable attributes are copied while cloning with the exception of the value of the connected field or variable from the source data set.</p>
 
-<p>В компоненте <a href="https://help.loginom.ru/userguide/processors/transformation/row-filter/index.html" target="_blank">Фильтр строк </a>при выборе условия фильтрации «В списке / Вне списка» добавлена возможность копирования и вставки данных через буфер обмена. It can be done using the context menu or the standard hotkeys (Ctrl+x, Ctrl+c, Ctrl+v for Windows OS).</p>
+<p>It became possible to copy and paste data via clipboard in <a href="https://help.loginom.ru/userguide/processors/transformation/row-filter/index.html" target="_blank">Row filter </a> component when selecting "listed / not listed" filtering criterion. It can be done using the context menu or the standard hotkeys (Ctrl+x, Ctrl+c, Ctrl+v for Windows OS).</p>
 
 <p>It became possible to specify some filtration parameters using control variables in the Import from Data Warehouse Wizard. The following values can be specified using variables:</p>
 
@@ -320,17 +320,17 @@
 
 <p>It became possible to open the package from the "Recent opened packages" list on the homepage. For this purpose, it is required to hold down "Ctrl" key while clicking on the package name ("Cmd" for MacOS). It is also possible to open the package in the new tab when pressing on "Create package", "Create draft", "Open package" buttons with "Ctrl" ("Cmd" for MacOS).</p>
 
-<p>TLS 1.3 support was added. OpenSSL 1.1 is used for the secure connections. При работе через HTTPS и WebSocket не может быть использована версия TLS ниже 1.2.</p>
+<p>TLS 1.3 support was added. OpenSSL 1.1 is used for the secure connections. When working via HTTPS and WebSocket, TLS version below 1.2 cannot be used.</p>
 
-<p>Сортировка дискретных начальных классов узла Конечные классы заменена на устойчивую. Ранее при выполнении могла изменяться модель начальных классов, а результат выполнения мог отличаться от ожидаемого.</p>
+<p>Sorting of the discrete fine classes of the Coarse Classes node was replaced with the stable one. Previously, the fine classes model could be changed while execution, and the execution result could differ from the expected one.</p>
 
-<p>Кнопка свернуть в подмодель теперь активна даже если выбран один узел и этот узел не подмодель. Ранее в подмодель можно было свернуть только несколько выделенных узлов.</p>
+<p>Collapse to supernode button is active now even if one node is selected and this node is not supernode. Previously, it was possible to collapse only several selected nodes to supernode.</p>
 
-<p>В визуализаторе <a href="https://help.loginom.ru/userguide/visualization/statistics/index.html" target="_blank">Статистика </a>явно обозначены ячейки с нерассчитанными показателями и кнопки запуска расчетов. Уникальные значения выделены оранжевым цветом, порядковые статистики — красным.</p>
+<p>The cells with uncalculated parameters and calculation start buttons are explicitly specified in <a href="https://help.loginom.ru/userguide/visualization/statistics/index.html" target="_blank">Statistics </a> visualizer. The unique values are highlighted in orange, the order statistics are highlighted in red.</p>
 
-<p>При экспорте в базы данных, если выбран тип экспорта «Обновить существующие записи в таблице» и ключевое поле содержит значения <em>NULL</em>, то происходит корректное сравнение значений с использованием конструкции <em>IS NULL</em>.</p>
+<p>When exporting to the databases, if "Update existing table records" export type is selected, and the key field contains <em>NULL</em> values, the correct comparison of values is performed with the use of <em>IS NULL</em> construction.</p>
 
-<p>При запуске настольных редакций Loginom в качестве рабочего каталога устанавливается рабочий каталог, указанный в параметрах ярлыка. При установке платформы в качестве рабочего каталога используется папка «Мои документы» текущего пользователя.</p>
+<p>When starting the desktop Loginom editions, the working directory specified in the shortcut parameters is installed as the working directory. When installing the platform, "My documents" folder of the current user is used as the working directory.</p>
 
 <div class="text-align-center">
 <p class="lg-text-btn lg-text-btn_border"><a href="https://loginom.ru/download">Try new version</a></p>
