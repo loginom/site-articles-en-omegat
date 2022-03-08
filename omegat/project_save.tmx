@@ -2910,6 +2910,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В имени пользователей и общих папок разрешено использовать символы точка, минус и пробел, также имена могут начинаться с цифры.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220308T144136Z" creationid="Марианна" creationdate="20220308T144136Z">
+        <seg>It is allowed to use such characters as point, minus and space in the user name and shared folders, such names can also start from a digit.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В интеграторе отсутствует возможность построения отказоустойчивого кластера.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220224T063218Z" creationid="Марианна" creationdate="20220224T063218Z">
