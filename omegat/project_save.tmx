@@ -3328,8 +3328,8 @@
       <tuv lang="ru">
         <seg>Данное ограничение соответствует ограничению на имена папок в Windows.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220308T144450Z" creationid="Марианна" creationdate="20220308T144450Z">
-        <seg>This restriction complies with the restriction of the folder names in Windows.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20220308T144531Z" creationid="Марианна" creationdate="20220308T144450Z">
+        <seg>This restriction complies with the restriction concerning the folder names in Windows.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4940,6 +4940,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220304T151538Z" creationid="Марианна" creationdate="20220304T151538Z">
         <seg>When &lt;a0&gt;exporting to the Loginom Data file&lt;/a0&gt;, the string data compression was optimised. The large data sets read speed was increased by 2 times.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При вводе имени нового пользователя в разделе Администрирование автоматически убираются ведущие и завершающие пробелы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220308T144836Z" creationid="Марианна" creationdate="20220308T144836Z">
+        <seg>When entering the new user name, the leading and trailing spaces are automatically deleted in the Administration section.</seg>
       </tuv>
     </tu>
     <tu>
