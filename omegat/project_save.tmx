@@ -3990,6 +3990,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>К таким ошибкам относятся: «Ошибка подключения к 1С ...», «Ошибка подготовки запроса 1С ...», «Ошибка выполнения запроса 1С ...», «Ошибка подготовки полей запроса 1С ...», «Ошибка выгрузки результатов запроса 1С ...».</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220308T141124Z" creationid="Марианна" creationdate="20220308T141124Z">
+        <seg>Such typical errors are as follows: "1C connection error ...", "Error preparing 1C request ...", "Error executing 1C request ...", "Error preparing 1C request fields ...", "Error of 1C request results loading ...".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Калибровка модели при помощи поправки на априорную вероятность позволяет скорректировать искажения, которые могут вноситься на этапе построения модели при балансировке классов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210321T194939Z" creationid="Марианна" creationdate="20210321T194557Z">
