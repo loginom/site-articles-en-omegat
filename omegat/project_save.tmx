@@ -3110,6 +3110,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В панели &lt;a0&gt;Администрирование &lt;/a0&gt;добавлена возможность настройки прав на публикацию пакетов у каждого пользователя.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220308T145935Z" creationid="Марианна" creationdate="20220308T145935Z">
+        <seg>It became possible to configure packages publishing rights of each user on the  &lt;a0&gt;Administration &lt;/a0&gt; panel.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В панели навигации добавлен новый узел «Веб-сервисы», при активации которого открывается страница настройки публикации пакетов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220224T063704Z" creationid="Марианна" creationdate="20220224T063704Z">
