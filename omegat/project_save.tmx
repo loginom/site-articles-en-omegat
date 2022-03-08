@@ -5216,6 +5216,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Разрешение на публикацию пакетов можно установить только для пользователей, у которых есть роль «Проектирование сценариев».</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220308T150204Z" creationid="Марианна" creationdate="20220308T150204Z">
+        <seg>Only the users with the "Workflows design" role are allowed to get permission to publish the packages.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ранее Диспетчер зависал, если пакет или сессия пользователя содержали зависшие процессы (#8338).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210616T164958Z" creationid="Марианна" creationdate="20210616T164958Z">
