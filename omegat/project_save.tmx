@@ -5032,6 +5032,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При работе с 1С.Предприятие в случае возникновения ошибок было сложно определить, возникли проблемы на стороне 1С или непосредственно в сценариях Loginom.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220308T141416Z" creationid="Марианна" creationdate="20220308T141416Z">
+        <seg>If errors occur when working with 1C.Enterprise, it was complicated to define whether problems connected with 1C or Loginom workflows occur.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При работе через HTTPS и WebSocket не может быть использована версия TLS ниже 1.2.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220306T154756Z" creationid="Марианна" creationdate="20220306T154756Z">
