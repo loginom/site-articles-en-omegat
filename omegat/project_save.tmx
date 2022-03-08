@@ -5034,8 +5034,8 @@
       <tuv lang="ru">
         <seg>При работе с 1С.Предприятие в случае возникновения ошибок было сложно определить, возникли проблемы на стороне 1С или непосредственно в сценариях Loginom.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220308T141416Z" creationid="Марианна" creationdate="20220308T141416Z">
-        <seg>If errors occur when working with 1C.Enterprise, it was complicated to define whether problems connected with 1C or Loginom workflows occur.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20220308T141530Z" creationid="Марианна" creationdate="20220308T141416Z">
+        <seg>If errors occur when working with 1C.Enterprise, it was complicated to define whether the problems connected with 1C or directly with the Loginom workflows occur.</seg>
       </tuv>
     </tu>
     <tu>
