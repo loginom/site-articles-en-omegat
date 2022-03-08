@@ -5122,8 +5122,8 @@
       <tuv lang="ru">
         <seg>При этом, имена, заканчивающиеся точкой или пробелом, запрещены.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220308T144326Z" creationid="Марианна" creationdate="20220308T144326Z">
-        <seg>And the names endin with a point or space are forbidden.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20220308T144343Z" creationid="Марианна" creationdate="20220308T144326Z">
+        <seg>And the names ending with a point or space are forbidden.</seg>
       </tuv>
     </tu>
     <tu>
