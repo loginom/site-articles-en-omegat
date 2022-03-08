@@ -5120,6 +5120,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При этом, имена, заканчивающиеся точкой или пробелом, запрещены.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220308T144326Z" creationid="Марианна" creationdate="20220308T144326Z">
+        <seg>And the names endin with a point or space are forbidden.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Проектирование и отладка логики анализа данных занимает у аналитиков — основных пользователей Loginom — большое количество времени.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220227T092237Z" creationid="Марианна" creationdate="20220227T092237Z">
