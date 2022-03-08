@@ -5904,6 +5904,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Чтобы эта ошибка не возникала, необходимо на предыдущей версии Loginom удалить пользователя с именем «everyone», после чего выполнить обновление на новую версию Loginom.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220308T143437Z" creationid="Марианна" creationdate="20220308T143437Z">
+        <seg>To avoid this error, it is required to delete the user with "everyone" name in the previous Loginom version, and then update is required to provide the new Loginom version.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Эта возможность позволяет визуально контролировать корректность расчетов в каждом узле сценария, оперативно обнаруживать ошибки.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220227T112112Z" creationid="Марианна" creationdate="20220227T112112Z">
