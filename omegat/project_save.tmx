@@ -4944,6 +4944,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При аутентификации пользователя через &lt;a0&gt;LDAP &lt;/a0&gt;сервер разрешено использовать символы русской раскладки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220308T145059Z" creationid="Марианна" creationdate="20220308T145059Z">
+        <seg>When authenticating a user via the &lt;a0&gt;LDAP &lt;/a0&gt; server, it is allowed to use the Russain layout characters.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При вводе имени нового пользователя в разделе Администрирование автоматически убираются ведущие и завершающие пробелы.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220308T144836Z" creationid="Марианна" creationdate="20220308T144836Z">
@@ -5324,6 +5332,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210903T140123Z" creationid="Марианна" creationdate="20210903T140123Z">
         <seg>Previously, if many workflows containing the nodes that were waiting for responses from the external programs or services (Program execution, Rest request, import from Databases, etc.) were simultaneously started, it could happen that the processor load was much less than 100% but the new processes were not executed (#7255).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Ранее, пользователь, пароль которого в Active Directory содержал русские буквы, не мог авторизоваться в Loginom через LDAP.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220308T145559Z" creationid="Марианна" creationdate="20220308T145559Z">
+        <seg>Previously, if the user whose password in Active Directory contained the Russian letters, could not log in Loginom via LDAP.</seg>
       </tuv>
     </tu>
     <tu>
