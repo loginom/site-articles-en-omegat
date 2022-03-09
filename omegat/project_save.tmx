@@ -4954,8 +4954,8 @@
       <tuv lang="ru">
         <seg>При автоматическом добавлении нового пользователя с аутентификацией через LDAP, пользователю выдаются права на публикацию пакетов, если у него есть роль «Проектирование сценариев».</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220309T061850Z" creationid="Марианна" creationdate="20220309T061850Z">
-        <seg>When the new user is automatically added with authentication via LDAP, the user becomes entitled to publish the packages if he has "Workflows design" role.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20220309T062015Z" creationid="Марианна" creationdate="20220309T061850Z">
+        <seg>When the new user with authentication via LDAP is automatically added, the user becomes entitled to publish the packages if he has "Workflows design" role.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5226,8 +5226,8 @@
       <tuv lang="ru">
         <seg>Разрешение на публикацию пакетов можно установить только для пользователей, у которых есть роль «Проектирование сценариев».</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220308T150204Z" creationid="Марианна" creationdate="20220308T150204Z">
-        <seg>Only the users with the "Workflows design" role are allowed to get permission to publish the packages.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20220309T061904Z" creationid="Марианна" creationdate="20220308T150204Z">
+        <seg>Only the users with "Workflows design" role are allowed to get permission to publish the packages.</seg>
       </tuv>
     </tu>
     <tu>
