@@ -5376,6 +5376,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ранее, если переданный через Loginom Integrator REST-запрос не содержал тело запроса или валидный json-объект, то появлялось неинформативное сообщение об ошибке «Не задано свойство WebBodyFormatMessageProperty».</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220309T072018Z" creationid="Марианна" creationdate="20220309T072018Z">
+        <seg>Previously, if the REST request transferred via Loginom Integrator did not contain the request body or valid json object, the following uninformative error message appeared: "No property specified WebBodyFormatMessageProperty" .</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ранее, пользователь, пароль которого в Active Directory содержал русские буквы, не мог авторизоваться в Loginom через LDAP.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220308T145559Z" creationid="Марианна" creationdate="20220308T145559Z">
