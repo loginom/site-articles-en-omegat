@@ -2712,8 +2712,8 @@
       <tuv lang="ru">
         <seg>А также добавлены функции setTimeout и clearTimeout, реализована поддержка кодирования/декодирования данных в формате Base64.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220304T163452Z" creationid="Марианна" creationdate="20220304T163452Z">
-        <seg>setTimeout and clearTimeout functions were also added. Data coding/decoding support in Base64 format was implemented.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20220309T074308Z" creationid="Марианна" creationdate="20220304T163452Z">
+        <seg>setTimeout and clearTimeout functions were also added. Data encoding/decoding support in Base64 format was implemented.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3358,6 +3358,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для всех вновь создаваемых узлов будет действовать следующая логика: если настройка «Уникальные значения как имена полей» активна, то валидные уникальные значения будут без изменений использоваться как имена столбцов, а невалидные уникальные значения будут формироваться с помощью транслитерации.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220309T074626Z" creationid="Марианна" creationdate="20220309T074626Z">
+        <seg>The following logics will be used for all newly created nodes: if "Unique values as field names" setting is active, the valid unique values will be used without changes as the column names, and the invalid unique values will и egenerated using transliteration.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для запуска узла в режиме &lt;a0&gt;Пакетного выполнения&lt;/a0&gt; требуется задать для него имя, при этом узел не обязательно должен быть опубликован.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210322T171942Z" creationid="Марианна" creationdate="20210322T171942Z">
@@ -3456,8 +3464,8 @@
       <tuv lang="ru">
         <seg>Для того, чтобы у прежде установленного сервера задействовать кодировку UTF8, нужно сделать резервную копию лог-файла app.log, а затем удалить его.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220309T073608Z" creationid="Марианна" creationdate="20220309T073608Z">
-        <seg>To use UTF8 coding of the earlier installed server, it is required to make a backup copy of app.log log file and then delete it.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20220309T074242Z" creationid="Марианна" creationdate="20220309T073608Z">
+        <seg>To use UTF8 encoding of the earlier installed server, it is required to make a backup copy of app.log log file and then delete it.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3480,8 +3488,8 @@
       <tuv lang="ru">
         <seg>Для файлов логов Loginom Server по умолчанию используется кодировка UTF8 (ранее использовалась кодировка ANSI).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220309T072407Z" creationid="Марианна" creationdate="20220309T072407Z">
-        <seg>UTF8 (ANSI coding was used earlier) is used for the Loginom Server logs files by default.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20220309T074205Z" creationid="Марианна" creationdate="20220309T072407Z">
+        <seg>UTF8 (ANSI encoding was used earlier) is used for the Loginom Server logs files by default.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4104,8 +4112,8 @@
       <tuv lang="ru">
         <seg>Кодировка лог-файлов заменена на UTF8.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220227T084903Z" creationid="Марианна" creationdate="20220227T084903Z">
-        <seg>Log files coding was replaced with UTF8.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20220309T074159Z" creationid="Марианна" creationdate="20220227T084903Z">
+        <seg>Log files encoding was replaced with UTF8.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5082,8 +5090,8 @@
       <tuv lang="ru">
         <seg>При обновлении до новой версии, если уже существует файл логов, то будет использована кодировка ANSI, соответствующая локали пользователя, из под которого запущен Loginom Server.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220309T073212Z" creationid="Марианна" creationdate="20220309T073103Z">
-        <seg>When updating up to the new version, if the log file already exists, ANSI coding will be used. It complies with the user locale used for Loginom Server start.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20220309T074234Z" creationid="Марианна" creationdate="20220309T073103Z">
+        <seg>When updating up to the new version, if the log file already exists, ANSI encoding will be used. It complies with the user locale used for Loginom Server start.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5890,8 +5898,8 @@
       <tuv lang="ru">
         <seg>У вновь установленного сервера лог-файлы будут в кодировке UTF8.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220309T072509Z" creationid="Марианна" creationdate="20220309T072509Z">
-        <seg>The log files of the newly installed server will be in UTF8 coding.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20220309T074227Z" creationid="Марианна" creationdate="20220309T072509Z">
+        <seg>The log files of the newly installed server will be in UTF8 encoding.</seg>
       </tuv>
     </tu>
     <tu>
