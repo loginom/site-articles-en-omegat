@@ -226,23 +226,23 @@
 
 <p>When authenticating a user via the <a href="https://help.loginom.ru/userguide/admin/ldap.html" target="_blank">LDAP </a> server, it is allowed to use the Russain layout characters. Previously, if the user whose password in Active Directory contained the Russian letters, could not log in Loginom via LDAP.</p>
 
-<p>It became possible to configure packages publishing rights of each user on the  <a href="https://help.loginom.ru/userguide/admin/" target="_blank">Administration </a> panel. Only the users with the "Workflows design" role are allowed to get permission to publish the packages. При автоматическом добавлении нового пользователя с аутентификацией через LDAP, пользователю выдаются права на публикацию пакетов, если у него есть роль «Проектирование сценариев». При запуске сервера после обновления до Loginom 6.5, всем пользователям с правами на проектирование сценариев будут также предоставлены права на публикацию пакетов.</p>
+<p>It became possible to configure packages publishing rights of each user on the  <a href="https://help.loginom.ru/userguide/admin/" target="_blank">Administration </a> panel. Only the users with "Workflows design" role are allowed to get permission to publish the packages. When the new user with authentication via LDAP is automatically added, the user becomes entitled to publish the packages if he has "Workflows design" role. When starting the server after update up to Loginom 6.5, all users with workflows design rights will be also entitled to publish packages.</p>
 
-<p>Реализована установка роли для нового пользователя, автоматически добавляемого через LDAP, на основе параметра «Роль нового пользователя», который можно настроить в разделе Администрирование в секции LDAP.</p>
+<p>Now it is possible to set the role for a new user that is automatically added via LDAP using "New user role" parameter that can be configured in the Administration section of the LDAP section.</p>
 
 <div class="anchor" id="autoname">&nbsp;</div>
 
 <h2>Change in the Automatic Fields Names Generation</h2>
 
-<p>При формировании набора полей, в исходном наименовании все невалидные символы заменяются и формируется корректное имя поля или же значение по умолчанию, если не получилось сформировать корректный идентификатор. Logics of fields names generation:</p>
+<p>When fields set is generated, all invalid characters are replaced in the source name and the correct field name or the default value is generated if it is not possible to generate the correct identifier. Logics of fields names generation:</p>
 
 <ul>
-	<li>валидные символы переносятся без изменений;</li>
-	<li>если имя начинается с цифры, то в начало имени добавляется символ подчеркивания «_»;</li>
-	<li>символы русского алфавита заменяются по таблице замен на латинские символы или их комбинацию;</li>
-	<li>все остальные невалидные символы заменяются символом подчеркивания «_»;</li>
-	<li>если исходное имя состоит только из знаков подчеркивания, то оно же будет использовано на выходе;</li>
-	<li>если после преобразований получается пустая строка или строка, состоящая только из символов подчеркивания, то считаем это непригодным идентификатором и возвращаем значение по умолчанию.</li>
+	<li>valid characters are transferred without changes;</li>
+	<li>if a name starts from a digit, «_» underscore character is added at the start of the name;</li>
+	<li>the Russian alphabet characters are replaced with the Latin characters or their combination according to the replacement table;</li>
+	<li>all other invalid characters are replaced with «_» underscore character;</li>
+	<li>if the source name consists of the underscore characters only, it will be used at the output;</li>
+	<li>if an empty string or the string that consists of the underscore characters only is generated after such transformations, such identifier is considered to be unsuitable, and the default value is returned by default.</li>
 </ul>
 
 <p>This change applies to the following handlers:<a href="https://help.loginom.ru/userguide/integration/import/txt-csv.html" target="_blank"> Import from text file</a>, <a href="https://help.loginom.ru/userguide/integration/import/excel.html" target="_blank">Import from Excel file</a>, <a href="https://help.loginom.ru/userguide/integration/import/database.html" target="_blank">Import from Database</a>, <a href="https://help.loginom.ru/userguide/integration/import/1c-db.html" target="_blank">Import from 1С Request</a>, <a href="https://help.loginom.ru/userguide/integration/import/xml.html" target="_blank">Import from XML file</a>, <a href="https://help.loginom.ru/userguide/processors/programming/java-script/index.html" target="_blank">JavaScript</a>, <a href="https://help.loginom.ru/userguide/processors/programming/python/index.html" target="_blank">Python</a>, <a href="https://help.loginom.ru/userguide/processors/integration/extracting-xml.html" target="_blank">XML Extraction</a>, <a href="https://help.loginom.ru/userguide/processors/integration/soap-request.html" target="_blank">SOAP request</a>, <a href="https://help.loginom.ru/userguide/processors/transformation/cross-table.html" target="_blank">Cross chart</a>, <a href="https://help.loginom.ru/userguide/processors/data-trees/table-to-tree.html" target="_blank">Table to tree</a>, and also "Data tree" type port.</p>
