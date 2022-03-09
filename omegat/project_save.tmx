@@ -5152,6 +5152,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При формировании набора полей, в исходном наименовании все невалидные символы заменяются и формируется корректное имя поля или же значение по умолчанию, если не получилось сформировать корректный идентификатор.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220309T064848Z" creationid="Марианна" creationdate="20220309T064848Z">
+        <seg>When fields set is generated, all invalid characters are replaced in the source name and the correct field name or the default value is generated if it is not possible to generate the correct identifier.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При экспорте в базы данных, если выбран тип экспорта «Обновить существующие записи в таблице» и ключевое поле содержит значения &lt;e0&gt;NULL&lt;/e0&gt;, то происходит корректное сравнение значений с использованием конструкции &lt;e1&gt;IS NULL&lt;/e1&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220307T142822Z" creationid="Марианна" creationdate="20220307T100938Z">
