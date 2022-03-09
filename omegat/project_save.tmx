@@ -5416,6 +5416,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Реализована установка роли для нового пользователя, автоматически добавляемого через LDAP, на основе параметра «Роль нового пользователя», который можно настроить в разделе Администрирование в секции LDAP.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220309T064429Z" creationid="Марианна" creationdate="20220309T064429Z">
+        <seg>Now it is possible to set the role for a new user that is automatically added via LDAP using "New user role" parameter that can be configured in the Administration section of the LDAP section.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Резюме качества основывается на индексе качества и числе пропусков по заданному в настройке параметру «Максимально допустимый процент пропусков», в результате чего выдается одно из значений по каждому полю: «Непригодный», «Пригодный», «Предобработка».</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220302T114736Z" creationid="Марианна" creationdate="20220302T114652Z">
