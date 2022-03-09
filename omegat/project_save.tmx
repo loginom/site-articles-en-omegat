@@ -6186,8 +6186,8 @@
       <tuv lang="ru">
         <seg>если после преобразований получается пустая строка или строка, состоящая только из символов подчеркивания, то считаем это непригодным идентификатором и возвращаем значение по умолчанию.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220309T070504Z" creationid="Марианна" creationdate="20220309T070504Z">
-        <seg>if an empty string of the string that consists of the underscore characters only is generated after such transformation, it is considered to be unsuitable identifier and the default value is returned by default.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20220309T070606Z" creationid="Марианна" creationdate="20220309T070504Z">
+        <seg>if an empty string or the string that consists of the underscore characters only is generated after such transformation, such identifier is considered to be unsuitable, and the default value is returned by default.</seg>
       </tuv>
     </tu>
     <tu>
