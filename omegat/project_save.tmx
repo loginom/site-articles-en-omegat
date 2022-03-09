@@ -5064,6 +5064,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При обновлении до новой версии, если уже существует файл логов, то будет использована кодировка ANSI, соответствующая локали пользователя, из под которого запущен Loginom Server.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220309T073103Z" creationid="Марианна" creationdate="20220309T073103Z">
+        <seg>When updating up to the new version, if the log file already exists, ANSI coding is used. It complies with the user locale used for Loginom Server start.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При открытии пакетов, содержащих узлы с модификатором доступа «Опубликованный», пользователю будет выдано предупреждение о том, что будет выполнена конвертация пакета и будут созданы дополнительные производные компоненты.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220227T155803Z" creationid="Марианна" creationdate="20220227T155803Z">
