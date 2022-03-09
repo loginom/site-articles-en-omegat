@@ -3454,6 +3454,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для того, чтобы у прежде установленного сервера задействовать кодировку UTF8, нужно сделать резервную копию лог-файла app.log, а затем удалить его.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220309T073608Z" creationid="Марианна" creationdate="20220309T073608Z">
+        <seg>To use UTF8 coding of the earlier installed server, it is required to make a backup copy of app.log log file and then delete it.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для узлов «Переменные сценария» и «Входной/Выходной узел Подмодели» скрыты пункты меню «Настройка модификатора доступа» и «Удалить узел».</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210617T104310Z" creationid="Марианна" creationdate="20210617T104146Z">
@@ -5066,8 +5074,8 @@
       <tuv lang="ru">
         <seg>При обновлении до новой версии, если уже существует файл логов, то будет использована кодировка ANSI, соответствующая локали пользователя, из под которого запущен Loginom Server.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220309T073103Z" creationid="Марианна" creationdate="20220309T073103Z">
-        <seg>When updating up to the new version, if the log file already exists, ANSI coding is used. It complies with the user locale used for Loginom Server start.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20220309T073212Z" creationid="Марианна" creationdate="20220309T073103Z">
+        <seg>When updating up to the new version, if the log file already exists, ANSI coding will be used. It complies with the user locale used for Loginom Server start.</seg>
       </tuv>
     </tu>
     <tu>
