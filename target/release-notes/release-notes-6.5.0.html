@@ -29,7 +29,7 @@
 
 <p>The standard "All" user group was added to the administration settings. More detailed information is available in the following section: <a href="#admin">Changes in the Administration Section.</a></p>
 
-<p>Log files coding was replaced with UTF8. This change will be very important if the automatic processing of log files is set using scripts. More detailed information is available in the following section: <a href="#logging">Changes in Logging.</a></p>
+<p>Log files encoding was replaced with UTF8. This change will be very important if the automatic processing of log files is set using scripts. More detailed information is available in the following section: <a href="#logging">Changes in Logging.</a></p>
 
 <h2>Changes in the Workflow Design and Debugging</h2>
 
@@ -251,15 +251,15 @@
 
 <p>The logged information was complemented in Loginom Integrator. When the "Info" logging level is enabled, request URL and node name are saved at the time the request execution begins. Previously, the node name logging was provided only for logging to the database.</p>
 
-<p>Ранее, если переданный через Loginom Integrator REST-запрос не содержал тело запроса или валидный json-объект, то появлялось неинформативное сообщение об ошибке «Не задано свойство WebBodyFormatMessageProperty». Теперь в таком случае пользователю показывается одно из сообщений «Тело запроса не должно быть пустым» или «Запрос должен содержать объект json».</p>
+<p>Previously, if the REST request transferred via Loginom Integrator did not contain the request body or valid json object, the following uninformative error message appeared: "No property specified WebBodyFormatMessageProperty" . Now, one of the following messages is shown to the user in this case: "The request body must not be empty" or "Request must contain json object".</p>
 
 <div class="anchor" id="logging">&nbsp;</div>
 
 <h2>Changes in Logging</h2>
 
-<p>Для файлов логов Loginom Server по умолчанию используется кодировка UTF8 (ранее использовалась кодировка ANSI). У вновь установленного сервера лог-файлы будут в кодировке UTF8. При обновлении до новой версии, если уже существует файл логов, то будет использована кодировка ANSI, соответствующая локали пользователя, из под которого запущен Loginom Server.</p>
+<p>UTF8 (ANSI encoding was used earlier) is used for the Loginom Server logs files by default. The log files of the newly installed server will be in UTF8 encoding. When updating up to the new version, if the log file already exists, ANSI encoding will be used. It complies with the user locale used for Loginom Server start.</p>
 
-<p>Для того, чтобы у прежде установленного сервера задействовать кодировку UTF8, нужно сделать резервную копию лог-файла app.log, а затем удалить его. Если ранее была настроена автоматическая обработка лог-файлов при помощи скриптов, в которых делалось предположение о кодировке лог файлов, то в этом случае нужно обратить внимание на это изменение.</p>
+<p>To use UTF8 encoding of the earlier installed server, it is required to make a backup copy of app.log log file and then delete it. If the automatic processing of log files was previously configured using the scripts in which it was assumed on the log files encoding, in this case it is required to pay attention to this change.</p>
 
 <h2>Processing Components Improvements</h2>
 
@@ -276,14 +276,14 @@
 
 <p>One more calculation parameter was introduced into the Calculator in Stat function — <a href="https://wiki.loginom.ru/articles/mode" target="_blank">mode</a>.</p>
 
-<p>Fetch API support was introduced into JavaScript. It is especially important for the REST and JSON requests operation and access to the external web services. Support of the global property globalThis was added. It can be used by the third-party modules. setTimeout and clearTimeout functions were also added. Data coding/decoding support in Base64 format was implemented.</p>
+<p>Fetch API support was introduced into JavaScript. It is especially important for the REST and JSON requests operation and access to the external web services. Support of the global property globalThis was added. It can be used by the third-party modules. setTimeout and clearTimeout functions were also added. Data encoding/decoding support in Base64 format was implemented.</p>
 
 <h3>Cross Table</h3>
 
-<p>"Allow invalid names" setting is not available in the wizard, whereas "Unique values as field names" setting is preserved. The previous version packages will be used in the same way until "Unique values as field names" setting is enabled. Для всех вновь создаваемых узлов будет действовать следующая логика: если настройка «Уникальные значения как имена полей» активна, то валидные уникальные значения будут без изменений использоваться как имена столбцов, а невалидные уникальные значения будут формироваться с помощью транслитерации.</p>
+<p>"Allow invalid names" setting is not available in the wizard, whereas "Unique values as field names" setting is preserved. The previous version packages will be used in the same way until "Unique values as field names" setting is enabled. The following logics will be used for all newly created nodes: if "Unique values as field names" setting is active, the valid unique values will be used without changes as the column names, and the invalid unique values will be generated using transliteration.</p>
 
 <div class="lg-em lg-em_green">
-<p>После деактивации и повторной активации настройки «Уникальные значения как имена полей», имена столбцов будут формироваться уже по-новому с транслитерацией.</p>
+<p>After deactivation and repeated activation of "Unique values as field names" setting, the column names will be generated in a new way with transliteration.</p>
 </div>
 
 <h3>Linear and Logistic Regressions</h3>
@@ -292,11 +292,11 @@
 
 <p>Calculation of the model parameters was corrected in the logistic regression: <a href="https://wiki.loginom.ru/articles/chi-square-test" target="_blank">Chi-square</a>, -2 Log-likelihood, McFadden pseudo-R^2 and McFadden pseudo-R^2 (adj.), -2 Log-likelihood of null model. Such parameters as <a href="https://wiki.loginom.ru/articles/wald-test" target="_blank">"Wald Coefficient"</a> and "Wald criterion" were renamed into "Wald statistic" parameter, and "R^2" was renamed into "McFadden pseudo-R²".</p>
 
-<p>В визуализаторе «Отчет по регрессии» для линейной и <a href="https://help.loginom.ru/userguide/processors/datamining/logistic-regression/index.html" target="_blank">логистической регрессий</a> добавлен вывод числа степеней свободы модели, а для логистической регрессии — вывод Deviance нулевой модели.</p>
+<p>Degrees of freedom for model are now shown in the "Regression Report" visualizer for the linear and <a href="https://help.loginom.ru/userguide/processors/datamining/logistic-regression/index.html" target="_blank">logistic regressions</a>, and Deviance of the null model is shown for the logistic regression.</p>
 
-<p>Выходной порт переменных «Сводка» дополнен показателями: для линейной регрессии — Логарифм функции правдоподобия, Стандартное отклонение, <a href="https://wiki.loginom.ru/articles/degrees-of-freedom" target="_blank">Число степеней свободы</a> ошибки, F-статистика; для логистической регрессии — Число степеней свободы ошибки, -2 Логарифма функции правдоподобия нулевой модели.</p>
+<p>The following parameters are added for the "Summary" output port of variables: for the linear regression — Log-likelihood, Standard deviation, <a href="https://wiki.loginom.ru/articles/degrees-of-freedom" target="_blank">Degrees of freedom</a> for error, F-statistic; for the logistic regression — Degrees of freedom for error, -2 Log-likelihood of null model.</p>
 
-<p>Название показателя «Максимум функции правдоподобия» в отчёте по линейной регрессии заменено на «Логарифм функции правдоподобия», а название показателя «P-значение (модель)» заменено на «P-значение модели».</p>
+<p>"Likelihood maximum" parameter name in the linear regression report was replaced with "Log-likelihood", and "P-value (model)" parameter name was replaced with "Model P-value".</p>
 
 <h2>Other Changes</h2>
 
