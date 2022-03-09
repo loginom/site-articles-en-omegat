@@ -3326,6 +3326,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Выходной порт переменных «Сводка» дополнен показателями: для линейной регрессии — Логарифм функции правдоподобия, Стандартное отклонение, &lt;a0&gt;Число степеней свободы&lt;/a0&gt; ошибки, F-статистика; для логистической регрессии — Число степеней свободы ошибки, -2 Логарифма функции правдоподобия нулевой модели.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220309T083639Z" creationid="Марианна" creationdate="20220309T083639Z">
+        <seg>The following parameters are added for the "Summary" output port of variables: for the linear regression — Log-likelihood, Standard deviation, &lt;a0&gt;Degrees of freedom&lt;/a0&gt; for error, F-statistic; for the logistic regression — Degrees of freedom for error, -2 Log-likelihood of null model.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Данная возможность работает в окне быстрого просмотра на панели сценария, при быстром просмотре содержимого выходных портов, при быстром просмотре результатов в калькуляторе, а также в инспекторе свойств.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220304T141522Z" creationid="Марианна" creationdate="20220304T141522Z">
