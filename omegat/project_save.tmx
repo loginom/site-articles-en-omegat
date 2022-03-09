@@ -5864,6 +5864,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>У вновь установленного сервера лог-файлы будут в кодировке UTF8.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220309T072509Z" creationid="Марианна" creationdate="20220309T072509Z">
+        <seg>The log files of the newly installed server will be in UTF8 coding.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>У разных версий и редакций Loginom разные возможности.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220227T085727Z" creationid="Марианна" creationdate="20220227T085727Z">
