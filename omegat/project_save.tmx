@@ -3470,6 +3470,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для файлов логов Loginom Server по умолчанию используется кодировка UTF8 (ранее использовалась кодировка ANSI).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220309T072407Z" creationid="Марианна" creationdate="20220309T072407Z">
+        <seg>UTF8 (ANSI coding was used earlier) is used for the Loginom Server logs files by default.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для формирования набора выходных столбцов могут использоваться следующие методы:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210320T233417Z" creationid="Марианна" creationdate="20210320T233417Z">
@@ -5732,6 +5740,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211229T111741Z" creationid="Марианна" creationdate="20211229T111741Z">
         <seg>Now, if only active connections are selected on the connections page, "Test" button will be inactive.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Теперь в таком случае пользователю показывается одно из сообщений «Тело запроса не должно быть пустым» или «Запрос должен содержать объект json».</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220309T072141Z" creationid="Марианна" creationdate="20220309T072141Z">
+        <seg>Now, one of the following messages is shown to the user in this case: "The request body must not be empty" or "Request must contain json object".</seg>
       </tuv>
     </tu>
     <tu>
