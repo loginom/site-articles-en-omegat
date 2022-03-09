@@ -6128,6 +6128,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>все остальные невалидные символы заменяются символом подчеркивания «_»;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220309T065956Z" creationid="Марианна" creationdate="20220309T065956Z">
+        <seg>all other invalid characters are replaced with «_» underscore character;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>до 2-х раз повысилась отзывчивость интерфейса при работе с большими наборами данных;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220304T134153Z" creationid="Марианна" creationdate="20220304T134153Z">
@@ -6164,6 +6172,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220309T065652Z" creationid="Марианна" creationdate="20220309T065652Z">
         <seg>if a name starts from a digit, «_» underscore character is added at the start of the name;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>если исходное имя состоит только из знаков подчеркивания, то оно же будет использовано на выходе;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220309T070203Z" creationid="Марианна" creationdate="20220309T070203Z">
+        <seg>if the source name consists of the underscore characters only, it will be used at the output;</seg>
       </tuv>
     </tu>
     <tu>
