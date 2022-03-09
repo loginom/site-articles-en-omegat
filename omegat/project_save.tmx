@@ -5000,6 +5000,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При запуске сервера после обновления до Loginom 6.5, всем пользователям с правами на проектирование сценариев будут также предоставлены права на публикацию пакетов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220309T062122Z" creationid="Марианна" creationdate="20220309T062122Z">
+        <seg>When starting the server after update up to Loginom 6.5, all users with workflows design rights will be also entitled to publish packages.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При импорте из Хранилища данных появилась возможность отображения данных в виде иерархической (древовидной) структуры, что существенно упрощает настройку импорта данных, если хранилище имеет сложную структуру.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210325T113536Z" creationid="Марианна" creationdate="20210320T235254Z">
