@@ -3798,6 +3798,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если ранее была настроена автоматическая обработка лог-файлов при помощи скриптов, в которых делалось предположение о кодировке лог файлов, то в этом случае нужно обратить внимание на это изменение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220309T073836Z" creationid="Марианна" creationdate="20220309T073836Z">
+        <seg>If the automatic processing of log files was previously configured using the scripts in which it was assumed on the log files coding, in this case it is required to pay attention on this change.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если ранее возникала ошибка, то после обновления необходимо повторно пройти мастер настройки экспорта (#8585).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210903T142305Z" creationid="Марианна" creationdate="20210903T104325Z">
