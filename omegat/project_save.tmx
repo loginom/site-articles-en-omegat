@@ -6224,6 +6224,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>символы русского алфавита заменяются по таблице замен на латинские символы или их комбинацию;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220309T065920Z" creationid="Марианна" creationdate="20220309T065920Z">
+        <seg>the Russian alphabet characters are replaced with the Latin characters or their combination according to the replacement table;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>у производных компонентов добавлен пункт «Перейти к производному компоненту».</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220227T090524Z" creationid="Марианна" creationdate="20220227T090524Z">
