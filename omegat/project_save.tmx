@@ -3360,8 +3360,8 @@
       <tuv lang="ru">
         <seg>Для всех вновь создаваемых узлов будет действовать следующая логика: если настройка «Уникальные значения как имена полей» активна, то валидные уникальные значения будут без изменений использоваться как имена столбцов, а невалидные уникальные значения будут формироваться с помощью транслитерации.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220309T074626Z" creationid="Марианна" creationdate="20220309T074626Z">
-        <seg>The following logics will be used for all newly created nodes: if "Unique values as field names" setting is active, the valid unique values will be used without changes as the column names, and the invalid unique values will и egenerated using transliteration.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20220309T074722Z" creationid="Марианна" creationdate="20220309T074626Z">
+        <seg>The following logics will be used for all newly created nodes: if "Unique values as field names" setting is active, the valid unique values will be used without changes as the column names, and the invalid unique values will be generated using transliteration.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4883,6 +4883,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T202340Z" creationid="Марианна" creationdate="20210314T202340Z">
         <seg>Try new version</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>После деактивации и повторной активации настройки «Уникальные значения как имена полей», имена столбцов будут формироваться уже по-новому с транслитерацией.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220309T074847Z" creationid="Марианна" creationdate="20220309T074847Z">
+        <seg>After deactivation and repeated activation of "Unique values as field names" setting, the column names will be generated in a new way with transliteration.</seg>
       </tuv>
     </tu>
     <tu>
