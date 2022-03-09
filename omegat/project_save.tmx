@@ -4310,6 +4310,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Название показателя «Максимум функции правдоподобия» в отчёте по линейной регрессии заменено на «Логарифм функции правдоподобия», а название показателя «P-значение (модель)» заменено на «P-значение модели».</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220309T084006Z" creationid="Марианна" creationdate="20220309T084006Z">
+        <seg>"Likelihood maximum" parameter name in the linear regression report was replaced with "Log-likelihood", and "P-value (model)" parameter name was replaced with "Model P-value".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Например, если было выбрано условие «первый день от текущей даты» (#8633).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210903T102944Z" creationid="Марианна" creationdate="20210903T102944Z">
