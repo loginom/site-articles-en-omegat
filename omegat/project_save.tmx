@@ -6170,8 +6170,8 @@
       <tuv lang="ru">
         <seg>Это изменение может быть значимым, если была настроена автоматическая обработка лог-файлов при помощи скриптов.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220227T085200Z" creationid="Марианна" creationdate="20220227T085200Z">
-        <seg>This change will be very important if the automatic processing of log files is set using scripts.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20220310T113228Z" creationid="Марианна" creationdate="20220227T085200Z">
+        <seg>This change will be very important if the automatic processing of log files is set when using scripts.</seg>
       </tuv>
     </tu>
     <tu>
