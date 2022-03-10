@@ -2896,8 +2896,8 @@
       <tuv lang="ru">
         <seg>В визуализаторе «Отчет по регрессии» для линейной и &lt;a0&gt;логистической регрессий&lt;/a0&gt; добавлен вывод числа степеней свободы модели, а для логистической регрессии — вывод Deviance нулевой модели.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220309T083403Z" creationid="Марианна" creationdate="20220309T083403Z">
-        <seg>Degrees of freedom for model are now shown in the "Regression Report" visualizer for the linear and &lt;a0&gt;logistic regressions&lt;/a0&gt;, and Deviance of the null model is shown for the logistic regression.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20220310T112649Z" creationid="Марианна" creationdate="20220309T083403Z">
+        <seg>Output of degrees of freedom for model was added in the "Regression Report" visualizer for the linear and &lt;a0&gt;logistic regressions&lt;/a0&gt;, and output of the null model Deviance was added in the the logistic regression.</seg>
       </tuv>
     </tu>
     <tu>
