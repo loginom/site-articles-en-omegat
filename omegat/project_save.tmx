@@ -5482,8 +5482,8 @@
       <tuv lang="ru">
         <seg>Реализован функционал быстрого просмотра результатов вычислений при выделении активизированного узла.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220224T061044Z" creationid="Марианна" creationdate="20220224T061044Z">
-        <seg>Functionality of the calculation results quick view was implemented for selection of the activated node.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20220310T112913Z" creationid="Марианна" creationdate="20220224T061044Z">
+        <seg>Quick view of the calculation results functionality was implemented for selection of the activated node.</seg>
       </tuv>
     </tu>
     <tu>
