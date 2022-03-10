@@ -3320,8 +3320,8 @@
       <tuv lang="ru">
         <seg>Все лишние производные компоненты можно удалить вручную, после чего сохранить пакет.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220227T155552Z" creationid="Марианна" creationdate="20220227T155552Z">
-        <seg>All excessive derived components can be manually deleted. The a package can be saved.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20220310T114008Z" creationid="Марианна" creationdate="20220227T155552Z">
+        <seg>All excessive derived components can be manually deleted. Then a package can be saved.</seg>
       </tuv>
     </tu>
     <tu>
