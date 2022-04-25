@@ -320,8 +320,8 @@
       <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Firebird:&lt;/s1&gt;&lt;/a0&gt; не полностью откатывались транзакции в непустую таблицу в режиме «Очистить таблицу и заполнить данными» при выполнении экспорта в базу данных.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220425T151813Z" creationid="Марианна" creationdate="20220425T151627Z">
-        <seg>&lt;a0&gt;&lt;s1&gt;Firebird:&lt;/s1&gt;&lt;/a0&gt; full roll back of transactions to the nonblank table in "Clear table and append data" mode was not possible when exporting to the database.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20220425T152115Z" creationid="Марианна" creationdate="20220425T151627Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Firebird:&lt;/s1&gt;&lt;/a0&gt; full roll back of transactions to the nonempty table in "Clear table and append data" mode was not possible when exporting to the database.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4094,6 +4094,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Исправлен откат транзакций (#8103).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220425T152138Z" creationid="Марианна" creationdate="20220425T152138Z">
+        <seg>Transactions roll back was corrected (#8103).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Исправлен пакетный экспорт в базу данных &lt;a0&gt;Firebird &lt;/a0&gt;строк длиной &lt;e1&gt;9&lt;/e1&gt; и более символов в поля с типом &lt;e2&gt;BLOB SUB_TYPE TEXT&lt;/e2&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210322T143626Z" creationid="Марианна" creationdate="20210322T143626Z">
@@ -5003,6 +5011,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220309T074847Z" creationid="Марианна" creationdate="20220309T074847Z">
         <seg>After deactivation and repeated activation of "Unique values as field names" setting, the column names will be generated in a new way with transliteration.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>После ошибки таблица оставалась очищенной, экспорт не производился.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220425T152056Z" creationid="Марианна" creationdate="20220425T152056Z">
+        <seg>The table stayed cleared after the error, and export was not executed.</seg>
       </tuv>
     </tu>
     <tu>
