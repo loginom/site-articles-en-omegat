@@ -4822,6 +4822,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Нажатие на кнопку «Применить» не срабатывало, значения переменных не изменялись (#8987).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220425T203537Z" creationid="Марианна" creationdate="20220425T203537Z">
+        <seg>Pressing on "Apply" button was inefffective, variables values were not changed (#8987).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Название показателя «Максимум функции правдоподобия» в отчёте по линейной регрессии заменено на «Логарифм функции правдоподобия», а название показателя «P-значение (модель)» заменено на «P-значение модели».</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220309T084006Z" creationid="Марианна" creationdate="20220309T084006Z">
