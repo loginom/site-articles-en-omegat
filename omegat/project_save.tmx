@@ -1870,6 +1870,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/admin/index.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220425T150127Z" creationid="Марианна" creationdate="20220425T150127Z">
+        <seg>https://help.loginom.ru/userguide/admin/index.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>https://help.loginom.ru/userguide/admin/ldap.html</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220220T163426Z" creationid="Марианна" creationdate="20220220T163426Z">
@@ -2398,10 +2406,26 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/processors/transformation/substitution/</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220425T150055Z" creationid="Марианна" creationdate="20220425T150055Z">
+        <seg>https://help.loginom.ru/userguide/processors/transformation/substitution/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>https://help.loginom.ru/userguide/processors/transformation/trans-datatime/</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210902T070305Z" creationid="Марианна" creationdate="20210902T070305Z">
         <seg>https://help.loginom.ru/userguide/processors/transformation/trans-datatime/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/processors/variables/variables-from-table.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220425T150032Z" creationid="Марианна" creationdate="20220425T150032Z">
+        <seg>https://help.loginom.ru/userguide/processors/variables/variables-from-table.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -2454,6 +2478,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/scenario/variables/</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220425T150045Z" creationid="Марианна" creationdate="20220425T150045Z">
+        <seg>https://help.loginom.ru/userguide/scenario/variables/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>https://help.loginom.ru/userguide/scenario/variables/control-variables.html</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220220T162921Z" creationid="Марианна" creationdate="20220220T162921Z">
@@ -2478,6 +2510,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/visualization/chart/</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220425T150122Z" creationid="Марианна" creationdate="20220425T150122Z">
+        <seg>https://help.loginom.ru/userguide/visualization/chart/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>https://help.loginom.ru/userguide/visualization/cluster-profiles/</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210616T153958Z" creationid="Марианна" creationdate="20210616T153958Z">
@@ -2498,6 +2538,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220220T163234Z" creationid="Марианна" creationdate="20220220T163234Z">
         <seg>https://help.loginom.ru/userguide/visualization/cube/index.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/visualization/data-quality/</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220425T150116Z" creationid="Марианна" creationdate="20220425T150116Z">
+        <seg>https://help.loginom.ru/userguide/visualization/data-quality/</seg>
       </tuv>
     </tu>
     <tu>
