@@ -1398,6 +1398,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Производные компоненты:&lt;/s0&gt; исправлена ошибка «Перемещённый производный компонент недоступен для узла» при сворачивании в Подмодель (#8931).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220425T203912Z" creationid="Марианна" creationdate="20220425T203912Z">
+        <seg>&lt;s0&gt;Derived components:&lt;/s0&gt; The following error was corrected: "Transferred derived component is not available for the node" when collapsing to the Supernode (#8931).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Производные компоненты:&lt;/s0&gt; исправлена ошибка при загрузке пакета, содержащего Подмодель с узлом, созданным по неисправному компоненту.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220425T201629Z" creationid="Марианна" creationdate="20220425T201606Z">
