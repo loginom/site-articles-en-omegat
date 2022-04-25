@@ -3742,6 +3742,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Добавлена установка действующей локали приложения при создании настроек приложения по умолчанию (#9073).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220425T154435Z" creationid="Марианна" creationdate="20220425T154435Z">
+        <seg>The active application locale setup was added when creating the default application settings (#9073).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Добавлено автоматизированное end-to-end тестирование, что позволит существенно повысить надежность приложения.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210325T114343Z" creationid="Марианна" creationdate="20210322T203921Z">
