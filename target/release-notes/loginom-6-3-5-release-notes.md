@@ -32,7 +32,7 @@ _Several issues detected while operation of web-services and databases were fixe
 
 [**Coarse сlasses:**](https://help.loginom.ru/userguide/visualization/fine-classes/) the following error occurred when joining the fine classes in the wizard by dragging the class bound: "Cannot read property 'element' of undefined" (#7504).
 
-**Coarse сlasses:** an error occurred if sorting by means of three-time pressing the header was cancelled in the fields tables and coarse classes (#7889).
+**Coarse сlasses:** an error occurred if sorting by means of three-time pressing on the header was cancelled in the fields tables and coarse classes (#7889).
 
 [**Logistic regression:**](https://help.loginom.ru/userguide/processors/datamining/logistic-regression/) the following error occurred in the Internet Explorer browser when selecting the validation method: "Failed to get "setWidth" property of the reference the value of which is not defined or is NULL" (#7659).
 

@@ -10,40 +10,40 @@
 
 <p><a href="https://help.loginom.ru/userguide/admin/index.html" target="_blank"><strong>Administration:</strong></a> During the first "Loginom Desktop" start and transfer to the application parameters settings it was incorrectly displayed that the locale had been chaged. This error was corrected. The active application locale setup was added when creating the default application settings (#9073).</p>
 
-<p><a href="https://help.loginom.ru/userguide/visualization/chart/" target="_blank"><strong>Визуализатор «Диаграмма»:</strong></a> исправлена ошибка с сохранением параметров, которая иногда могла возникать, если сразу после их изменения в любом модальном окне диаграммы быстро нажать кнопку «Применить».</p>
+<p><a href="https://help.loginom.ru/userguide/visualization/chart/" target="_blank"><strong>"Chart" visualizer:</strong></a> The error connected with parameters saving was corrected. It could sometimes occur when "Apply" button was quickly pressed right after parameters change in any modal chart window.</p>
 
-<p><strong>Визуализатор «Диаграмма»:</strong> в Loginom 6.5.0 не работал экспорт диаграммы в формате «svg». Corrected (#9123).</p>
+<p><strong>"Chart" visualizer:</strong> In Loginom 6.5.0 the chart export in "svg" format was not operable. Corrected (#9123).</p>
 
-<p><strong>Визуализатор «Диаграмма»:</strong> редакторы ссылок на поля всегда подсвечиваются красным, как ошибочные, если указана ссылка. Corrected (#9053).</p>
+<p><strong>"Chart" visualizer:</strong> Field references editors were always highlighted in red as the incorrect ones if the reference was specified. Corrected (#9053).</p>
 
-<p><strong>Визуализатор «Диаграмма»:</strong> восстановлена возможность горизонтального отображения диаграммы при нажатии кнопки «Горизонтальная ориентация» (#9001, #9097).</p>
+<p><strong>"Chart" visualizer:</strong> Horizontal chart display became possible when pressing on "Horizontal orientation" button (#9001, #9097).</p>
 
-<p><a href="https://help.loginom.ru/userguide/visualization/data-quality/" target="_blank"><strong>Визуализатор «Качество данных»:</strong></a> исправлена ошибка в визуализаторе, которая возникала после добавления поля с логическим типом к имеющимся и повторным расчетом (#9095, #9085).</p>
+<p><a href="https://help.loginom.ru/userguide/visualization/data-quality/" target="_blank"><strong>"Data Quality" visualizer:</strong></a> the visualizer error was corrected. It occurred when the field with the logical type was added to the existing and repeated calculation(#9095, #9085).</p>
 
-<p><strong>Визуализатор «Качество данных»:</strong> если в показателях выбрать все отключенные по умолчанию показатели (Минимум, Среднее, Уникально, Максимум, Медиана), нажать «Рассчитать статистики» и перейти на вкладку «Дискретные», то в отображаемой таблице отсутствовали ячейки с добавленными показателями, тогда как заголовки для них были. Исправлено (#9082).</p>
+<p><strong>"Data Quality" visualizer:</strong> If all indicators disabled by default are selected in the indicators (Minimum, Average, Unique, Maximum, Median), "Calculate statistics" is pressed and transfer to "Discrete" tab is made, the cells with the added indicators were absent in the displayed table, whereas headers for them were available. Corrected (#9082).</p>
 
-<p><strong>Визуализатор «Качество данных»:</strong> при нажатии на кнопку сплиттера панели детализации, которая в свернутом состоянии находится в нижней части окна, не загружалась панель. Исправлено (#9078).</p>
+<p><strong>"Data Quality" visualizer:</strong> When pressing on the splitter button of the detailing bar that was located in the lower part of the window in the collapsed state, the bar was not loaded. Corrected (#9078).</p>
 
-<p><a href="https://help.loginom.ru/userguide/visualization/cube/" target="_blank"><strong>Визуализатор «Куб»:</strong></a> копирование и вставка были доступны только во множественном режиме «Куба», при этом режим «включенных/исключенных значений» никак не влиял на операцию. Доработано копирование и вставка в различных режимах фильтра измерения «Куба», а именно:</p>
-
-<ul>
-	<li>множественный; режимы включенных и исключенных значений — копируются все включенные/исключенные значения, успешно распознанные значения добавляются во включенные/исключенные значения при вставке;</li>
-	<li>одиночный и комбинированный режимы — копируется текущее выбранное значение, при вставке обрабатывается только первое строковое значение, остальные игнорируются, успешно распознанное значение становится выделенным, на него прокручивается таблица (#9107).</li>
-</ul>
-
-<p>Исправлены ошибки:</p>
+<p><a href="https://help.loginom.ru/userguide/visualization/cube/" target="_blank"><strong>"Cube" visualizer:</strong></a> Copy and paste operations were available only in the multiple "Cube" mode. In this case, the "included/excluded values" mode had no effect on the operation. Copy and paste operations were improved in the different "Cube" dimension filter modes as follows:</p>
 
 <ul>
-	<li>потеря точности при копировании и вставке дат и чисел в фильтре измерения «Куба» (#9106);</li>
-	<li>панель фильтра измерения «Куба» сворачивалась при возникновении ошибки во время копирования или вставки (#9108);</li>
-	<li>когда фокус находился в поле поиска в панели фильтра измерения «Куба», то вместо копирования содержимого текстового поля происходило копирование состояния фильтра (#9105).</li>
+	<li>multiple; modes of included and excluded values — all included/excluded values are copied, successfully captured values are added to the included/excluded values while pasting;</li>
+	<li>single and combined modes - the current selected value is copied, only the first string value is processed while pasting, the other ones are ignored, the successfully captured value becomes the selected one, the table is scrolled to reach it (#9107).</li>
 </ul>
 
-<p><strong>Визуализатор «Куб»:</strong> всем модальным окнам заданы минимальные размеры (#9098).</p>
+<p>The following errors were corrected:</p>
 
-<p><strong>Визуализатор «Куб»:</strong> при нажатии на кнопку сплиттера панели детализации, которая в свернутом состоянии находится в нижней части окна, не загружалась панель. Исправлено (#8963).</p>
+<ul>
+	<li>precision loss while copying and pasting dates and figures in the "Cube" dimension filter(#9106);</li>
+	<li>the "Cube" dimension filter bar was collapsed when an error occurred during copying or pasting (#9108);</li>
+	<li>when the focus was in the search field in the "Cube" dimension filter bar, the filter state was copied instead of the text field content (#9105).</li>
+</ul>
 
-<p><a href="https://help.loginom.ru/userguide/processors/control/execute-node.html" target="_blank"><strong>Выполнение узла:</strong></a> исправлена ошибка которая возникала, когда «Выполнение узла» ссылался на производный узел, у которого не найден исходный компонент. Ранее выводилось оповещение об ошибке, загрузка пакета прерывалась (такой пакет не открывался). После исправления у пакета, который прежде не открывался, можно будет отредактировать ссылку и восстановить его работу (#9096).</p>
+<p><strong>"Cube" visualizer:</strong> the minimum sizes are set for all modal windows (#9098).</p>
+
+<p><strong>"Cube" visualizer:</strong> When pressing on the splitter button of the detailing bar that was located in the lower part of the window in the collapsed state, the bar was not loaded. Corrected (#8963).</p>
+
+<p><a href="https://help.loginom.ru/userguide/processors/control/execute-node.html" target="_blank"><strong>Node Execution:</strong></a> The error that occurred when "Node Execution" referred to the derived node for which the source component was not found was corrected. Previously, it was informed about an error, the package loading was terminated (such package was not opened). После исправления у пакета, который прежде не открывался, можно будет отредактировать ссылку и восстановить его работу (#9096).</p>
 
 <p><a href="https://help.loginom.ru/userguide/processors/transformation/substitution/" target="_blank"><strong>Замена:</strong></a> отключена возможность на входном порту «Таблица замен» выставлять «Назначение». Ранее существовала возможность выставить несколько «Назначений» равных «Входное» и «Выходное», что приводило к ошибке в работе узла «Замена» (#8574).</p>
 
@@ -51,13 +51,13 @@
 
 <p><strong>Импорт из текстового файла:</strong> исключен тип данных «Неопределенный» из мастера настройки полей при импорте из текстового файла и «Excel». В некоторых случаях были проблемы при дальнейшей обработке данных (#5903).</p>
 
-<p><strong>Конечные классы:</strong> ошибка, возникавшая при обработке волатильного поля, например, полученного после «Калькулятора» при использовании функции «Random». Проблема приводила к некорректной работе компонента если при обучении в дискретных данных появились новые значения (которых не было при расчёте статистики). Обработка не запускалась (#8885).</p>
+<p><strong>Конечные классы:</strong> ошибка, возникавшая при обработке волатильного поля, например, полученного после «Калькулятора» при использовании функции «Random». Проблема приводила к некорректной работе компонента если при обучении в дискретных данных появились новые значения (которых не было при расчёте статистики). Processing was not started (#8885).</p>
 
 <p><a href="https://help.loginom.ru/userguide/processors/datamining/logistic-regression/" target="_blank"><strong>Логистическая регрессия:</strong></a> на некоторых наборах данных возникала ошибка доступа к памяти при использовании автоматической настройки и указания максимального приоритета точности. Исправлена работа разбиения на обучающие и тестовые множества обработчиков и кросс-валидации в регрессиях, что исключает данную ошибку (#9080).</p>
 
 <p><strong>Отображение ошибок:</strong> во всплывающем окне с ошибкой обрезались длинные имена файлов, если они не помещались по ширине. Включен перенос строк сообщения в модальных окнах, что исключает некорректное отображение (#7081).</p>
 
-<p><a href="https://help.loginom.ru/userguide/report/" target="_blank"><strong>Отчёты:</strong></a> иногда возникала ошибка в дереве навигации при раскрытии папки файлового хранилища или открытии файлового хранилища в соседней вкладке. Ошибка устранена (#9035).</p>
+<p><a href="https://help.loginom.ru/userguide/report/" target="_blank"><strong>Отчёты:</strong></a> иногда возникала ошибка в дереве навигации при раскрытии папки файлового хранилища или открытии файлового хранилища в соседней вкладке. The error was corrected (#9035).</p>
 
 <p><a href="https://help.loginom.ru/userguide/scenario/variables/" target="_blank"><strong>Переменные:</strong></a> исправлено применение значений переменных пакета для случая группового редактирования переменных различных типов. Нажатие на кнопку «Применить» не срабатывало, значения переменных не изменялись (#8987).</p>
 
@@ -67,7 +67,7 @@
 
 <p><strong>Производные компоненты:</strong> исправлена ошибка, ранее возникавшая при клонировании Подмодели, содержащей базовую и производную Подмодель с настроенными визуализаторами (#9116).</p>
 
-<p><strong>Производные компоненты:</strong> исправлена ошибка при загрузке пакета, содержащего Подмодель с узлом, созданным по неисправному компоненту. Ранее при попытке открытия такого пакета он не открывался и выводилась ошибка. Теперь такой пакет откроется (#9099).</p>
+<p><strong>Производные компоненты:</strong> исправлена ошибка при загрузке пакета, содержащего Подмодель с узлом, созданным по неисправному компоненту. Ранее при попытке открытия такого пакета он не открывался и выводилась ошибка. Now, such package will be opened (#9099).</p>
 
 <p><strong>Ссылки на пакеты:</strong> при пересохранении пакета возникало повреждение ссылки, в результате чего используемые из подключаемого файла узлы не находились. Исправлена логика восстановления ссылки на пакет. Удалена автоматическая корректировка ссылок на пакеты, если при загрузке ссылки не удалось найти пакет, но пакет с соответствующим именем файла найден в текущей папке (рядом с пакетом, содержащим ссылку). Поиск пакета в текущей папке всё равно происходит, и если он найден, то соответствующая информация добавляется в сообщение об ошибке восстановления ссылки. В окне «Свойства ссылки на пакет» добавлена также возможность менять путь к пакету, если ссылка разорвана. При восстановлении разорванной ссылки на пакет в текущем пакете вызывается восстановление «сломанных» производных узлов, узлов «Выполнение», «Цикл» и «Узлов-ссылок» (#8981).</p>
 
@@ -75,7 +75,7 @@
 
 <p><a href="https://help.loginom.ru/userguide/processors/variables/variables-from-table.html" target="_blank"><strong>Таблица в переменные:</strong></a> если зайти в мастер обработчика «Таблица в переменные» и произвести настройки, но не использовать поле, которому в порту было выставлено «Назначение», то значение «Используемое» у поля скидывалась в «Не задано». Для устранения проблемы на входном порту обработчика убрана возможность выставлять «Назначение» (#8570).</p>
 
-<p><strong>Таблица в переменные:</strong> при открытии быстрого просмотра узла «Таблица в переменные» не выделялась первая ячейка, что иногда могло приводить к ошибке. Исправлено (#8904).</p>
+<p><strong>Таблица в переменные:</strong> при открытии быстрого просмотра узла «Таблица в переменные» не выделялась первая ячейка, что иногда могло приводить к ошибке. Corrected (#8904).</p>
 
 <p><a href="https://help.loginom.ru/userguide/processors/transformation/row-filter/" target="_blank"><strong>Фильтр:</strong></a> скорректирован отображаемый текст подсказок при выставлении условий фильтрации для фильтра по временному промежутку. Ранее отображался текст «последнее период до ...», теперь «последний период до ...», т.е. учтены особенности русского языка (#8848).</p>
 
@@ -83,7 +83,7 @@
 
 <h2 id="улучшения">Improvements</h2>
 
-<p><strong>Python:</strong> добавлена поддержка Python 3.10. О всех изменениях в новой версии можно узнать на <a href="https://docs.python.org/3/whatsnew/changelog.html#changelog" target="_blank">официальном сайте</a>. Поддержка Python 3.10 позволяет полноценно использовать последние версии популярных библиотек (#9047).</p>
+<p><strong>Python:</strong> Python 3.10 support was added. О всех изменениях в новой версии можно узнать на <a href="https://docs.python.org/3/whatsnew/changelog.html#changelog" target="_blank">официальном сайте</a>. Поддержка Python 3.10 позволяет полноценно использовать последние версии популярных библиотек (#9047).</p>
 
 <p><strong>Импорт из текстового файла:</strong> улучшен алгоритм автоматического определения структуры таблицы в текстовом файле. Для csv-файлов в качестве разделителя столбцов по умолчанию теперь выставляется не запятая, а берётся из локали параметр «Разделитель элемента списка» (по умолчанию это «;»). Для автоматического определения параметров просматриваются все строки, указанные пользователем для анализа (по умолчанию установлено 25 строк). При определении разделителя столбцов учитывается также, что запятая между 2 цифрами может быть разделителем целой и дробной части. Алгоритм определения формата и разделителей дат стал более «строгим» с учетом наличия в строке даты и времени. Стал учитываться и частичный формат, т.е. в строке может быть только дата или только время (#9110, #3836).</p>
 
