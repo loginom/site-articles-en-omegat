@@ -1400,8 +1400,8 @@
       <tuv lang="ru">
         <seg>&lt;s0&gt;Производные компоненты:&lt;/s0&gt; исправлена ошибка при загрузке пакета, содержащего Подмодель с узлом, созданным по неисправному компоненту.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220425T201606Z" creationid="Марианна" creationdate="20220425T201606Z">
-        <seg>&lt;s0&gt;Derived components:&lt;/s0&gt; The error when loading the package that contained the Supernode with the node created on the basis of the faulty component was corrected.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20220425T201629Z" creationid="Марианна" creationdate="20220425T201606Z">
+        <seg>&lt;s0&gt;Derived components:&lt;/s0&gt; The error occurred while loading the package that contained the Supernode with the node created on the basis of the faulty component was corrected.</seg>
       </tuv>
     </tu>
     <tu>
