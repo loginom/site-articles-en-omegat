@@ -3990,6 +3990,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Доступны 3 варианта отображения, между которыми можно переключаться:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220425T202642Z" creationid="Марианна" creationdate="20220425T202642Z">
+        <seg>3 display options that can be switched are available:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Доступны для импорта популярные библиотеки, используемые при анализе данных на Python: NumPy, Pandas, Scikit-learn и другие.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210320T215621Z" creationid="Марианна" creationdate="20210320T215621Z">
@@ -4674,6 +4682,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T204853Z" creationid="Марианна" creationdate="20210314T204853Z">
         <seg>The locking mechanism became more reliable.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Модальное окно закрывается по щелчку за его пределами.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220425T202936Z" creationid="Марианна" creationdate="20220425T202936Z">
+        <seg>The modal window is closed on click beyond its limits.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6840,6 +6856,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>закрепленная снизу панель.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220425T202821Z" creationid="Марианна" creationdate="20220425T202821Z">
+        <seg>bar is fixed on the bottom.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>значение для определения периода — базовая дата, тип временного промежутка и значение временного промежутка для фильтров: первый, не первый, последний не последний.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220304T193231Z" creationid="Марианна" creationdate="20220304T193231Z">
@@ -6872,10 +6896,26 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>максимизированное модальное окно;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220425T202724Z" creationid="Марианна" creationdate="20220425T202724Z">
+        <seg>modal window is maximized;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>множественный; режимы включенных и исключенных значений — копируются все включенные/исключенные значения, успешно распознанные значения добавляются во включенные/исключенные значения при вставке;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220425T174442Z" creationid="Марианна" creationdate="20220425T174442Z">
         <seg>multiple; modes of included and excluded values — all included/excluded values are copied, successfully captured values are added to the included/excluded values while pasting;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>модальное окно (значение по умолчанию);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220425T202702Z" creationid="Марианна" creationdate="20220425T202702Z">
+        <seg>modal window (default value);</seg>
       </tuv>
     </tu>
     <tu>
