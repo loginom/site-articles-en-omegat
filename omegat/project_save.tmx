@@ -1406,6 +1406,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Производные компоненты:&lt;/s0&gt; исправлена ошибка, ранее возникавшая при клонировании Подмодели, содержащей базовую и производную Подмодель с настроенными визуализаторами (#9116).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220425T202108Z" creationid="Марианна" creationdate="20220425T202108Z">
+        <seg>&lt;s0&gt;Derived components:&lt;/s0&gt; The error that previously occurred while cloning the Supernode that contained the base and derived Supernode with the configured visualizers was corrected (#9116).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Профили кластеров:&lt;/s0&gt; иконка фильтрации и текст кнопки теперь меняют цвет, если фильтр активен (#8174, #8463).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210617T103011Z" creationid="Марианна" creationdate="20210617T103011Z">
