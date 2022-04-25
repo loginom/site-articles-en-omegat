@@ -43,33 +43,33 @@
 
 <p><strong>"Cube" visualizer:</strong> When pressing on the splitter button of the detailing bar that was located in the lower part of the window in the collapsed state, the bar was not loaded. Corrected (#8963).</p>
 
-<p><a href="https://help.loginom.ru/userguide/processors/control/execute-node.html" target="_blank"><strong>Node Execution:</strong></a> The error that occurred when "Node Execution" referred to the derived node for which the source component was not found was corrected. Previously, it was informed about an error, the package loading was terminated (such package was not opened). После исправления у пакета, который прежде не открывался, можно будет отредактировать ссылку и восстановить его работу (#9096).</p>
+<p><a href="https://help.loginom.ru/userguide/processors/control/execute-node.html" target="_blank"><strong>Node Execution:</strong></a> The error that occurred when "Node Execution" referred to the derived node for which the source component was not found was corrected. Previously, it was informed about an error, the package loading was terminated (such package was not opened). Upon correction it will be possible to edit the reference of the package that could not be previously opened and restore its operation (#9096).</p>
 
-<p><a href="https://help.loginom.ru/userguide/processors/transformation/substitution/" target="_blank"><strong>Замена:</strong></a> отключена возможность на входном порту «Таблица замен» выставлять «Назначение». Ранее существовала возможность выставить несколько «Назначений» равных «Входное» и «Выходное», что приводило к ошибке в работе узла «Замена» (#8574).</p>
+<p><a href="https://help.loginom.ru/userguide/processors/transformation/substitution/" target="_blank"><strong>Replace:</strong></a> possibility to set "Usage type" is disabled at the input port "Replacement table". Previously, it was possible to set several "Usage types" equal to "Input" and "Output" that resulted in an error in the "Replace" node operation (#8574).</p>
 
-<p><a href="https://help.loginom.ru/userguide/integration/import/txt-csv.html" target="_blank"><strong>Импорт из текстового файла:</strong></a> при определении списка колонок не добавлялся последний столбец, если последний символ в первой строке — разделитель (#9071).</p>
+<p><a href="https://help.loginom.ru/userguide/integration/import/txt-csv.html" target="_blank"><strong>Import from text file:</strong></a> The last column was not added when defining the column list if a separator was the last character in the first string (#9071).</p>
 
-<p><strong>Импорт из текстового файла:</strong> исключен тип данных «Неопределенный» из мастера настройки полей при импорте из текстового файла и «Excel». В некоторых случаях были проблемы при дальнейшей обработке данных (#5903).</p>
+<p><strong>Import from text file:</strong> The "Undefined" data type was excluded from the field wizard when importing from the text and "Excel" file. In some cases there were problems during the further data processing (#5903).</p>
 
-<p><strong>Конечные классы:</strong> ошибка, возникавшая при обработке волатильного поля, например, полученного после «Калькулятора» при использовании функции «Random». Проблема приводила к некорректной работе компонента если при обучении в дискретных данных появились новые значения (которых не было при расчёте статистики). Processing was not started (#8885).</p>
+<p><strong>Coarse сlasses:</strong> The error that occurred while processing the volatile filed, for example, the one received after "Calculator" when using "Random" function. The problem caused the incorrect component operation if new values (that were absent while statistics calculation) appeared in the discrete data while training. Processing was not started (#8885).</p>
 
-<p><a href="https://help.loginom.ru/userguide/processors/datamining/logistic-regression/" target="_blank"><strong>Логистическая регрессия:</strong></a> на некоторых наборах данных возникала ошибка доступа к памяти при использовании автоматической настройки и указания максимального приоритета точности. Исправлена работа разбиения на обучающие и тестовые множества обработчиков и кросс-валидации в регрессиях, что исключает данную ошибку (#9080).</p>
+<p><a href="https://help.loginom.ru/userguide/processors/datamining/logistic-regression/" target="_blank"><strong> Logistic regression:</strong></a> Memory access error occurred for the new data sets when using the automatic setting and specifying the maximum precision priority. The operation of partitioning to the training and test sets of handllers and cross validation in regressions was corrected. It excludes this error (#9080).</p>
 
-<p><strong>Отображение ошибок:</strong> во всплывающем окне с ошибкой обрезались длинные имена файлов, если они не помещались по ширине. Включен перенос строк сообщения в модальных окнах, что исключает некорректное отображение (#7081).</p>
+<p><strong>Errors display:</strong> The long file names were cut with an error in the pop-up window if there was no enough space for them across the width. Break of the message lines was enabled in the modal windows. It excludes the incorrect display (#7081).</p>
 
-<p><a href="https://help.loginom.ru/userguide/report/" target="_blank"><strong>Отчёты:</strong></a> иногда возникала ошибка в дереве навигации при раскрытии папки файлового хранилища или открытии файлового хранилища в соседней вкладке. The error was corrected (#9035).</p>
+<p><a href="https://help.loginom.ru/userguide/report/" target="_blank"><strong>Reports:</strong></a> Sometimes an error occurred in the navigation tree when opening the file storage folder or file storage in the next tab. The error was corrected (#9035).</p>
 
-<p><a href="https://help.loginom.ru/userguide/scenario/variables/" target="_blank"><strong>Переменные:</strong></a> исправлено применение значений переменных пакета для случая группового редактирования переменных различных типов. Нажатие на кнопку «Применить» не срабатывало, значения переменных не изменялись (#8987).</p>
+<p><a href="https://help.loginom.ru/userguide/scenario/variables/" target="_blank"><strong>Variables:</strong></a> Application of the package variables values was corrected for the group editing of the variables related to different types. Нажатие на кнопку «Применить» не срабатывало, значения переменных не изменялись (#8987).</p>
 
-<p><strong>Производные компоненты:</strong> учтена ситуация, когда в текущем пакете есть ссылка на пакет с производными компонентами, но в программе ещё не созданы узлы, соответствующие этим производным компонентам. В результате ошибки в окне «Выбор базового компонента» иногда отображалось, что список компонентов пуст. Исправления исключают эту ошибку (#9042, #9044).</p>
+<p><strong>Производные компоненты:</strong> учтена ситуация, когда в текущем пакете есть ссылка на пакет с производными компонентами, но в программе ещё не созданы узлы, соответствующие этим производным компонентам. В результате ошибки в окне «Выбор базового компонента» иногда отображалось, что список компонентов пуст. Corrections exclude this error (#9042, #9044).</p>
 
 <p><strong>Производные компоненты:</strong> исправлена ошибка «Перемещённый производный компонент недоступен для узла» при сворачивании в Подмодель (#8931).</p>
 
-<p><strong>Производные компоненты:</strong> исправлена ошибка, ранее возникавшая при клонировании Подмодели, содержащей базовую и производную Подмодель с настроенными визуализаторами (#9116).</p>
+<p><strong>Derived components:</strong> The error that previously occurred while cloning the Supernode that contained the base and derived Supernode with the configured visualizers was corrected (#9116).</p>
 
-<p><strong>Производные компоненты:</strong> исправлена ошибка при загрузке пакета, содержащего Подмодель с узлом, созданным по неисправному компоненту. Ранее при попытке открытия такого пакета он не открывался и выводилась ошибка. Now, such package will be opened (#9099).</p>
+<p><strong>Derived components:</strong> The error occurred while loading the package that contained the Supernode with the node created on the basis of the faulty component was corrected. Previously, when trying to open such package, it was not opened, and an error was shown. Now, such package will be opened (#9099).</p>
 
-<p><strong>Ссылки на пакеты:</strong> при пересохранении пакета возникало повреждение ссылки, в результате чего используемые из подключаемого файла узлы не находились. Исправлена логика восстановления ссылки на пакет. Удалена автоматическая корректировка ссылок на пакеты, если при загрузке ссылки не удалось найти пакет, но пакет с соответствующим именем файла найден в текущей папке (рядом с пакетом, содержащим ссылку). Поиск пакета в текущей папке всё равно происходит, и если он найден, то соответствующая информация добавляется в сообщение об ошибке восстановления ссылки. В окне «Свойства ссылки на пакет» добавлена также возможность менять путь к пакету, если ссылка разорвана. При восстановлении разорванной ссылки на пакет в текущем пакете вызывается восстановление «сломанных» производных узлов, узлов «Выполнение», «Цикл» и «Узлов-ссылок» (#8981).</p>
+<p><strong>Ссылки на пакеты:</strong> при пересохранении пакета возникало повреждение ссылки, в результате чего используемые из подключаемого файла узлы не находились. The logics of restoring reference to the package was corrected. Удалена автоматическая корректировка ссылок на пакеты, если при загрузке ссылки не удалось найти пакет, но пакет с соответствующим именем файла найден в текущей папке (рядом с пакетом, содержащим ссылку). Поиск пакета в текущей папке всё равно происходит, и если он найден, то соответствующая информация добавляется в сообщение об ошибке восстановления ссылки. В окне «Свойства ссылки на пакет» добавлена также возможность менять путь к пакету, если ссылка разорвана. При восстановлении разорванной ссылки на пакет в текущем пакете вызывается восстановление «сломанных» производных узлов, узлов «Выполнение», «Цикл» и «Узлов-ссылок» (#8981).</p>
 
 <p><a href="https://help.loginom.ru/userguide/processors/data-trees/table-to-tree.html" target="_blank"><strong>Таблица в дерево:</strong></a> если зайти в мастер обработчика и произвести настройки, но не использовать поле, которому в порту было выставлено «Назначение», то значение «Используемое» у поля скидывалась в «Не задано». Для устранения проблемы на входном порту обработчика «Таблица в дерево» убрана возможность выставлять «Назначение» (#8571).</p>
 
@@ -97,29 +97,29 @@
 
 <p><strong>Производные компоненты:</strong> сообщение при попытке удалить производный компонент сделано более информативным. Теперь в сообщении указано количество узлов в открытых пакетах, которые ссылаются на данный компонент (считаются узлы Выполнение и Цикл, а также производные узлы, созданные по данному компоненту и производным от него компонентам). Если ни одного зависимого узла не найдено, но производный компонент имеет модификатор доступа «Открытый», то об этом также сообщается (#9004).</p>
 
-<p><a href="https://help.loginom.ru/userguide/processors/datamining/linear-regression/" target="_blank"><strong>Линейная регрессия:</strong></a> добавлен вывод ошибки при обучении «Линейной регрессии», когда количество входов превышает количество строк. Для методов, которые изначально требуют наличие всех коэффициентов (Enter, Backward, Ridge, LASSO и ElasticNet), будет выдана ошибка до момента обучения модели, если число строк меньше числа коэффициентов (включая константу). Это предотвратит возникновение более серьёзных ошибок на следующих этапах. Для шаговых методов с прямым проходом (Forward или Stepwise) будет произведено включение максимально возможного числа коэффициентов, после чего алгоритм остановится или пойдет обратно в зависимости от его разновидности. По достижению максимального числа коэффициентов об этом будет записано сообщение в лог (#7968).</p>
+<p><a href="https://help.loginom.ru/userguide/processors/datamining/linear-regression/" target="_blank"><strong>Линейная регрессия:</strong></a> добавлен вывод ошибки при обучении «Линейной регрессии», когда количество входов превышает количество строк. Для методов, которые изначально требуют наличие всех коэффициентов (Enter, Backward, Ridge, LASSO и ElasticNet), будет выдана ошибка до момента обучения модели, если число строк меньше числа коэффициентов (включая константу). It will prevent occurrence of more serious errors at the next stages. Для шаговых методов с прямым проходом (Forward или Stepwise) будет произведено включение максимально возможного числа коэффициентов, после чего алгоритм остановится или пойдет обратно в зависимости от его разновидности. По достижению максимального числа коэффициентов об этом будет записано сообщение в лог (#7968).</p>
 
-<p><strong>Фильтр:</strong> при настройке фильтра по временному промежутку, запрещено вводить значение количества периодов меньше 1. Улучшение исключает логическую ошибку (#9052).</p>
+<p><strong>Фильтр:</strong> при настройке фильтра по временному промежутку, запрещено вводить значение количества периодов меньше 1. Improvement excludes the logical error (#9052).</p>
 
 <h3 id="быстрый-просмотр">Quick View</h3>
 
-<p>Переработан интерфейс <a href="https://help.loginom.ru/userguide/visualization/preview/quick-view.html" target="_blank">быстрого просмотра</a> (#9065).</p>
+<p><a href="https://help.loginom.ru/userguide/visualization/preview/quick-view.html" target="_blank">Quick view</a> interface was improved (#9065).</p>
 
 <p>
 <video class="lg-intro__video__container" controls="controls" style="width: 100%"><source src="/sites/default/files/blogpost-files/quick_prewie-video.mp4" type="video/mp4" /></video>
 </p>
 
-<p>Убрана кнопка «Просмотр» с панели инструментов сценария. Доступны 3 варианта отображения, между которыми можно переключаться:</p>
+<p>"View" button was removed from the workflow toolbar. 3 display options that can be switched are available:</p>
 
 <ul>
-	<li>модальное окно (значение по умолчанию);</li>
-	<li>максимизированное модальное окно;</li>
-	<li>закрепленная снизу панель.</li>
+	<li>modal window (default value);</li>
+	<li>modal window is maximized;</li>
+	<li>bar is fixed on the bottom.</li>
 </ul>
 
-<p>Модальное окно закрывается по щелчку за его пределами.</p>
+<p>The modal window is closed on click beyond its limits.</p>
 
-<p>Исключается возможность закрепления панели в правой области.</p>
+<p>Possibility of bar locking in the right area is excluded.</p>
 
 <div class="text-align-center">
 <p class="lg-text-btn lg-text-btn_border"><a href="https://loginom.ru/downloads-all-versions">Try version</a></p>
