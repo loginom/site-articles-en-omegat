@@ -1166,6 +1166,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Конечные классы:&lt;/s0&gt; ошибка, возникавшая при обработке волатильного поля, например, полученного после «Калькулятора» при использовании функции «Random».</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220425T195012Z" creationid="Марианна" creationdate="20220425T195012Z">
+        <seg>&lt;s0&gt;Coarse сlasses:&lt;/s0&gt; The error that occurred while processing the volatile filed, for example, the one received after "Calculator" when using "Random" function.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Конечные классы:&lt;/s0&gt; в режиме редактирования разбиения всегда были активны кнопки «Объединить с предыдущим» и «Объединить со следующим».</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210903T061039Z" creationid="Марианна" creationdate="20210903T061039Z">
