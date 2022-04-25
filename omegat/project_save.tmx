@@ -3552,8 +3552,8 @@
       <tuv lang="ru">
         <seg>Включен перенос строк сообщения в модальных окнах, что исключает некорректное отображение (#7081).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220425T200218Z" creationid="Марианна" creationdate="20220425T200141Z">
-        <seg>Break of the message lines in the modal windows was enabled. It excludes the incorrect display (#7081).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20220425T200237Z" creationid="Марианна" creationdate="20220425T200141Z">
+        <seg>Break of the message lines was enabled in the modal windows. It excludes the incorrect display (#7081).</seg>
       </tuv>
     </tu>
     <tu>
