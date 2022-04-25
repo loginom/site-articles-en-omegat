@@ -1806,6 +1806,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>https://docs.python.org/3/whatsnew/changelog.html#changelog</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220425T150006Z" creationid="Марианна" creationdate="20220425T150006Z">
+        <seg>https://docs.python.org/3/whatsnew/changelog.html#changelog</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>https://help.loginom.ru/adminguide/desktop/</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210616T135925Z" creationid="Марианна" creationdate="20210616T135925Z">
@@ -2578,6 +2586,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T202254Z" creationid="Марианна" creationdate="20210314T202254Z">
         <seg>https://loginom.ru/download</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>https://loginom.ru/downloads-all-versions</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220425T145930Z" creationid="Марианна" creationdate="20220425T145930Z">
+        <seg>https://loginom.ru/downloads-all-versions</seg>
       </tuv>
     </tu>
     <tu>
@@ -5584,6 +5600,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Скачать версию</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220425T150004Z" creationid="Марианна" creationdate="20220425T150004Z">
+        <seg>Try version</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Скорость чтения lgd-файлов увеличилась до 10 раз по сравнению с текстовыми файлами и до двух раз по сравнению с lgd-файлами версии 6.4.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220304T151806Z" creationid="Марианна" creationdate="20220304T151806Z">
@@ -5980,6 +6004,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220224T063428Z" creationid="Марианна" creationdate="20220224T063428Z">
         <seg>"Web services" navigation panel node</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Улучшения</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220425T150020Z" creationid="Марианна" creationdate="20220425T150020Z">
+        <seg>Improvements</seg>
       </tuv>
     </tu>
     <tu>
