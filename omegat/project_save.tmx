@@ -734,6 +734,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;a0&gt;&lt;s1&gt;Переменные:&lt;/s1&gt;&lt;/a0&gt; исправлено применение значений переменных пакета для случая группового редактирования переменных различных типов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220425T201116Z" creationid="Марианна" creationdate="20220425T201116Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Variables:&lt;/s1&gt;&lt;/a0&gt; Application of the package variables values was corrected for the case of the group editing of the variables related to different types.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Подключение ODBC:&lt;/s1&gt;&lt;/a0&gt; при экспорте в таблицу &lt;e2&gt;1, 1001, 2001, ..&lt;/e2&gt; строк с &lt;e3&gt;CHARACTER SET utf8&lt;/e3&gt; могли возникать различные ошибки, в том числе приводящие к зависаниям или аварийному завершению приложения (#8287).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210626T064210Z" creationid="Марианна" creationdate="20210617T083648Z">
