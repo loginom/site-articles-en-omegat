@@ -4824,8 +4824,8 @@
       <tuv lang="ru">
         <seg>Нажатие на кнопку «Применить» не срабатывало, значения переменных не изменялись (#8987).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220425T203537Z" creationid="Марианна" creationdate="20220425T203537Z">
-        <seg>Pressing on "Apply" button was inefffective, variables values were not changed (#8987).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20220425T203607Z" creationid="Марианна" creationdate="20220425T203537Z">
+        <seg>Pressing on "Apply" button was ineffective, variables values were not changed (#8987).</seg>
       </tuv>
     </tu>
     <tu>
