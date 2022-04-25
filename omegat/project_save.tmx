@@ -1048,8 +1048,8 @@
       <tuv lang="ru">
         <seg>&lt;s0&gt;Визуализатор «Качество данных»:&lt;/s0&gt; при нажатии на кнопку сплиттера панели детализации, которая в свернутом состоянии находится в нижней части окна, не загружалась панель.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220425T173423Z" creationid="Марианна" creationdate="20220425T173423Z">
-        <seg>&lt;s0&gt;"Data Quality" visualizer:&lt;/s0&gt; When pressing the splitter button of the detailing bar that is located in the lower part of the window in the collapsed state, the bar was nnot downloaded.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20220425T173700Z" creationid="Марианна" creationdate="20220425T173423Z">
+        <seg>&lt;s0&gt;"Data Quality" visualizer:&lt;/s0&gt; When pressing on the splitter button of the detailing bar that was located in the lower part of the window in the collapsed state, the bar was not loaded.</seg>
       </tuv>
     </tu>
     <tu>
