@@ -4334,6 +4334,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Исправлена работа разбиения на обучающие и тестовые множества обработчиков и кросс-валидации в регрессиях, что исключает данную ошибку (#9080).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220425T195838Z" creationid="Марианна" creationdate="20220425T195838Z">
+        <seg>The operation of partitioning to the training and test sets of handllers and cross validation in regressions was corrected that excluded this error (#9080).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Исправление ошибок</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201122T080841Z" creationid="Марианна" creationdate="20201122T080841Z">
