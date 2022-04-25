@@ -4190,6 +4190,22 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Исправлено (#9053).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220425T154518Z" creationid="Марианна" creationdate="20220425T154518Z">
+        <seg>Corrected (#9053).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Исправлено (#9123).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220425T154508Z" creationid="Марианна" creationdate="20220425T154508Z">
+        <seg>Corrected (#9123).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Исправлены названия показателей моделей в отчетах по &lt;a0&gt;Линейной &lt;/a0&gt;и Логистической регрессиям, добавлены недостающие показатели в Отчет по линейной регрессии, дополнены названия методов и факторов отбора моделей.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210322T211346Z" creationid="Марианна" creationdate="20210322T211346Z">
