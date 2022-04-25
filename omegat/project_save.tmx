@@ -4222,10 +4222,42 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Исправлено (#8904).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220425T161407Z" creationid="Марианна" creationdate="20220425T161407Z">
+        <seg>Corrected (#8904).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Исправлено (#8963).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220425T161254Z" creationid="Марианна" creationdate="20220425T161254Z">
+        <seg>Corrected (#8963).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Исправлено (#9053).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220425T154518Z" creationid="Марианна" creationdate="20220425T154518Z">
         <seg>Corrected (#9053).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Исправлено (#9078).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220425T161221Z" creationid="Марианна" creationdate="20220425T161221Z">
+        <seg>Corrected (#9078).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Исправлено (#9082).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220425T161137Z" creationid="Марианна" creationdate="20220425T161137Z">
+        <seg>Corrected (#9082).</seg>
       </tuv>
     </tu>
     <tu>
@@ -4258,6 +4290,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210320T234648Z" creationid="Марианна" creationdate="20210320T234648Z">
         <seg>The errors connected with incorrect indexation of rows that can cause the following error while JavaScript code executing: "Row number 0 is out of [0; -1] range", or incorrect displaying of a data set in the preview window were corrected.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Исправлены ошибки:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220425T161247Z" creationid="Марианна" creationdate="20220425T161247Z">
+        <seg>The following errors were corrected:</seg>
       </tuv>
     </tu>
     <tu>
@@ -4686,6 +4726,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Обработка не запускалась (#8885).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220425T161309Z" creationid="Марианна" creationdate="20220425T161309Z">
+        <seg>Processing was not started (#8885).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Обработчик «Калькулятор»</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T204103Z" creationid="Марианна" creationdate="20210314T204103Z">
@@ -4858,6 +4906,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210902T074100Z" creationid="Марианна" creationdate="20210902T074100Z">
         <seg>The error occurred in the browsers based on Chromium, in Internet Explorer and Safari (#7108, #8058, #8499).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Ошибка устранена (#9035).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220425T161326Z" creationid="Марианна" creationdate="20220425T161326Z">
+        <seg>The error was corrected (#9035).</seg>
       </tuv>
     </tu>
     <tu>
@@ -6092,6 +6148,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210617T082026Z" creationid="Марианна" creationdate="20210617T082026Z">
         <seg>Now, "Show visualizers" menu item is shown only for the nodes (#5088).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Теперь такой пакет откроется (#9099).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220425T161352Z" creationid="Марианна" creationdate="20220425T161352Z">
+        <seg>Now, such package will be opened (#9099).</seg>
       </tuv>
     </tu>
     <tu>
