@@ -3550,6 +3550,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Включен перенос строк сообщения в модальных окнах, что исключает некорректное отображение (#7081).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220425T200141Z" creationid="Марианна" creationdate="20220425T200141Z">
+        <seg>Transfer of the message strings in the modal windows was enabled. It excludes the incorrect display (#7081).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Внесенные исправления предотвращают данный конфликт, обеспечивая надежное автосохранение пакетов (#9025, #9021, #9038).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220425T153559Z" creationid="Марианна" creationdate="20220425T153559Z">
