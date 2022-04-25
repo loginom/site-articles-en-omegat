@@ -6496,6 +6496,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Улучшение исключает логическую ошибку (#9052).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220425T202413Z" creationid="Марианна" creationdate="20220425T202413Z">
+        <seg>Improvement excludes the logical error (#9052).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Улучшения</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220425T150020Z" creationid="Марианна" creationdate="20220425T150020Z">
@@ -6716,6 +6724,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220227T115202Z" creationid="Марианна" creationdate="20220227T115202Z">
         <seg>It enables to edit the connected package if nobody uses it with exception of the current user session.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Это предотвратит возникновение более серьёзных ошибок на следующих этапах.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220425T202344Z" creationid="Марианна" creationdate="20220425T202344Z">
+        <seg>It will prevent occurrence of more serious errors at the next stages.</seg>
       </tuv>
     </tu>
     <tu>
