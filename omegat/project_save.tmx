@@ -6664,6 +6664,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>одиночный и комбинированный режимы — копируется текущее выбранное значение, при вставке обрабатывается только первое строковое значение, остальные игнорируются, успешно распознанное значение становится выделенным, на него прокручивается таблица (#9107).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220425T174729Z" creationid="Марианна" creationdate="20220425T174729Z">
+        <seg>single and combined modes - the current selected value is copied, only the first string value is processed while pasting, the other ones are ignored, the successfully captured value becomes the selected one, the table is scrolled to reach it (#9107).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>появилась возможность показа всех заголовков или только заголовков 1-го уровня в кросс-диаграммах;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220304T134717Z" creationid="Марианна" creationdate="20220304T134717Z">
