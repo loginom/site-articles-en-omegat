@@ -5231,6 +5231,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>После исправления у пакета, который прежде не открывался, можно будет отредактировать ссылку и восстановить его работу (#9096).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220425T190754Z" creationid="Марианна" creationdate="20220425T190754Z">
+        <seg>Upon correction it will be possible to edit the reference of the package that could not be previously opened and restore its operation (#9096).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>После ошибки таблица оставалась очищенной, экспорт не производился.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220425T152056Z" creationid="Марианна" creationdate="20220425T152056Z">
