@@ -926,6 +926,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Автосохранение пакетов:&lt;/s0&gt; ранее мог возникать конфликт, иногда приводящий к невозможности надежного сохранения при одновременном автосохранении пакета и его закрытии через «Диспетчер».</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220425T153427Z" creationid="Марианна" creationdate="20220425T153427Z">
+        <seg>&lt;s0&gt;Auto save packages:&lt;/s0&gt; Previously, the conflict that sometimes made impossible to provide reliable saving while simultaneous package auto saving and closing via "Session Manager" could occur.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Администрирование:&lt;/s0&gt; при открытии раздела Диспетчер панели администрирования могла возникать ошибка, в результате чего разделом нельзя было воспользоваться (#8257).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210322T221019Z" creationid="Марианна" creationdate="20210322T221019Z">
