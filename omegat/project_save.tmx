@@ -4350,6 +4350,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Исправлена логика восстановления ссылки на пакет.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220425T202219Z" creationid="Марианна" creationdate="20220425T202219Z">
+        <seg>The logics of restoring reference to the package was corrected.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Исправлена ошибка «столбец "value" имеет тип money, а выражение - double precision», возникавшая при попытке экспорта вещественных чисел в поле &lt;e3&gt;money&lt;/e3&gt; базы данных PostgreSQL.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210322T144016Z" creationid="Марианна" creationdate="20210322T143923Z">
