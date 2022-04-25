@@ -6464,6 +6464,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Убрана кнопка «Просмотр» с панели инструментов сценария.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220425T202603Z" creationid="Марианна" creationdate="20220425T202603Z">
+        <seg>"View" button was removed from the workflow toolbar.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Увеличение скорости чтения данных в &lt;a0&gt;Loginom Data файл.&lt;/a0&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220224T062133Z" creationid="Марианна" creationdate="20220224T062133Z">
