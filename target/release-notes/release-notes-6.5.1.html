@@ -1,12 +1,12 @@
 <h2 id="исправление-ошибок">Fixes</h2>
 
-<p><a href="https://help.loginom.ru/userguide/processors/programming/python/" target="_blank"><strong>Python:</strong></a> исправлена ошибка утечки памяти при использовании Python. Реализован способ обходить проблему, являющуюся особенностью реализации интерпретатора Python при его подключении в виде динамической библиотеки. Оптимизирован расход памяти (#9054).</p>
+<p><a href="https://help.loginom.ru/userguide/processors/programming/python/" target="_blank"><strong>Python:</strong></a> The memory leak error while Python using was corrected. It became possible to sidestep the problem that is typical of the Python interpreter implementation when it is connected in the dynamic library form. Memory consumption was optimized (#9054).</p>
 
-<p><a href="https://help.loginom.ru/userguide/integration/connections/list/firebird.html" target="_blank"><strong>Firebird:</strong></a> не полностью откатывались транзакции в непустую таблицу в режиме «Очистить таблицу и заполнить данными» при выполнении экспорта в базу данных. После ошибки таблица оставалась очищенной, экспорт не производился. Исправлен откат транзакций (#8103).</p>
+<p><a href="https://help.loginom.ru/userguide/integration/connections/list/firebird.html" target="_blank"><strong>Firebird:</strong></a> Full roll back of transactions to the nonempty table in "Clear table and append data" mode was not possible when exporting to the database. The table stayed cleared after the error, and export was not executed. Transactions roll back was corrected (#8103).</p>
 
-<p><strong>Автосохранение пакетов:</strong> ранее мог возникать конфликт, иногда приводящий к невозможности надежного сохранения при одновременном автосохранении пакета и его закрытии через «Диспетчер». Внесенные исправления предотвращают данный конфликт, обеспечивая надежное автосохранение пакетов (#9025, #9021, #9038).</p>
+<p><strong>Auto save packages:</strong> Previously, the conflict that sometimes made impossible to provide reliable saving while simultaneous package auto saving and closing via "Session Manager" could occur. The introduced fixes enable to prevent such conflict providing safe auto saving of packages (#9025, #9021, #9038).</p>
 
-<p><strong>Автосохранение пакетов:</strong> пользователям, не имеющих права на редактирование пакетов, была доступна настройка автосохранения пакетов. Теперь отключено отображение кнопки «Автосохранение» для таких пользователей (#9043).</p>
+<p><strong>Auto save packages:</strong> The users that did not have rights to edit packages were allowed to configure packages auto saving. Now, "Auto save" button is not displayed for such users (#9043).</p>
 
 <p><a href="https://help.loginom.ru/userguide/admin/index.html" target="_blank"><strong>Администрирование:</strong></a> исправлена ситуация, когда при первом запуске «Loginom Desktop» и переходе в настройки параметров приложения отображалось, что локаль изменена. Добавлена установка действующей локали приложения при создании настроек приложения по умолчанию (#9073).</p>
 
@@ -81,7 +81,7 @@
 
 <p><a href="https://help.loginom.ru/userguide/processors/control/cycle.html" target="_blank"><strong>Цикл</strong></a> неправильно определялся базовый пакет внутри параллельного Цикла, что приводило к некорректным расчётам. Исправление ошибки делает порядок полей на выходе узла одинаковым на всех итерациях Цикла, что исключает ошибки при обработке данных (#9103).</p>
 
-<h2 id="улучшения">Улучшения</h2>
+<h2 id="улучшения">Improvements</h2>
 
 <p><strong>Python:</strong> добавлена поддержка Python 3.10. О всех изменениях в новой версии можно узнать на <a href="https://docs.python.org/3/whatsnew/changelog.html#changelog" target="_blank">официальном сайте</a>. Поддержка Python 3.10 позволяет полноценно использовать последние версии популярных библиотек (#9047).</p>
 
@@ -122,5 +122,5 @@
 <p>Исключается возможность закрепления панели в правой области.</p>
 
 <div class="text-align-center">
-<p class="lg-text-btn lg-text-btn_border"><a href="https://loginom.ru/downloads-all-versions">Скачать версию</a></p>
+<p class="lg-text-btn lg-text-btn_border"><a href="https://loginom.ru/downloads-all-versions">Try version</a></p>
 </div>
