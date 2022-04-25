@@ -5776,6 +5776,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ранее существовала возможность выставить несколько «Назначений» равных «Входное» и «Выходное», что приводило к ошибке в работе узла «Замена» (#8574).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220425T191250Z" creationid="Марианна" creationdate="20220425T191250Z">
+        <seg>Previously, it was possible to set several "Usage types" equal to "Input" and "Output" that resulted in an error in the "Replace" node operation (#8574).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ранее это можно было сделать только следующим образом: в окне настройки модификатора доступа выбираем статус «Опубликованный», затем задаем имя узла, затем возвращаем прежний статус.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210322T172323Z" creationid="Марианна" creationdate="20210322T172323Z">
