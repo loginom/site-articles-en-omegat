@@ -5624,6 +5624,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Проблема приводила к некорректной работе компонента если при обучении в дискретных данных появились новые значения (которых не было при расчёте статистики).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220425T195242Z" creationid="Марианна" creationdate="20220425T195242Z">
+        <seg>The problem caused the incorrect component operation if new values (that were absent while statistics calculation) appeared in the discrete data while training.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Проектирование и отладка логики анализа данных занимает у аналитиков — основных пользователей Loginom — большое количество времени.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220227T092237Z" creationid="Марианна" creationdate="20220227T092237Z">
