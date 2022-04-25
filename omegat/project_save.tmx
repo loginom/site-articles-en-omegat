@@ -1328,8 +1328,8 @@
       <tuv lang="ru">
         <seg>&lt;s0&gt;Отображение ошибок:&lt;/s0&gt; во всплывающем окне с ошибкой обрезались длинные имена файлов, если они не помещались по ширине.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220425T200747Z" creationid="Марианна" creationdate="20220425T200747Z">
-        <seg>&lt;s0&gt;Errors display:&lt;/s0&gt; The long file names were cut in the pop-up window with an error if there was no enough space for them across the width.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20220425T200931Z" creationid="Марианна" creationdate="20220425T200747Z">
+        <seg>&lt;s0&gt;Errors display:&lt;/s0&gt; The long file names were cut with an error in the pop-up window if there was no enough space for them across the width.</seg>
       </tuv>
     </tu>
     <tu>
