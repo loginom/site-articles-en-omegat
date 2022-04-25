@@ -1006,6 +1006,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Визуализатор «Диаграмма»:&lt;/s0&gt; редакторы ссылок на поля всегда подсвечиваются красным, как ошибочные, если указана ссылка.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220425T160610Z" creationid="Марианна" creationdate="20220425T160610Z">
+        <seg>&lt;s0&gt;"Chart" visualizer:&lt;/s0&gt; Field references editors were always highlighted in red as the incorrect ones if the reference was specified.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Импорт из Deductor Warehouse, Экспорт в Deductor Warehouse:&lt;/s0&gt; на странице мастера выбора объектов хранилища данных для ячеек добавлены подсказки, отображающие полное название объекта; добавлена возможность изменить ширину столбца, содержащего названия объектов (#8461).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210617T105043Z" creationid="Марианна" creationdate="20210617T105043Z">
