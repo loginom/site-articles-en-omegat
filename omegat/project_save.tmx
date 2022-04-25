@@ -3230,6 +3230,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В некоторых случаях были проблемы при дальнейшей обработке данных (#5903).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220425T191756Z" creationid="Марианна" creationdate="20220425T191756Z">
+        <seg>In some cases there were problems during the further data processing (#5903).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В некоторых случаях внутри сценария могло потребоваться значение идентификатора запроса, полученного при выполнении узла сценария через &lt;a0&gt;Loginom Integrator&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210321T204649Z" creationid="Марианна" creationdate="20210321T204649Z">
