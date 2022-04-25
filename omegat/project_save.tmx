@@ -1008,8 +1008,8 @@
       <tuv lang="ru">
         <seg>&lt;s0&gt;Визуализатор «Диаграмма»:&lt;/s0&gt; восстановлена возможность горизонтального отображения диаграммы при нажатии кнопки «Горизонтальная ориентация» (#9001, #9097).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220425T160738Z" creationid="Марианна" creationdate="20220425T160738Z">
-        <seg>&lt;s0&gt;"Chart" visualizer:&lt;/s0&gt; Horyzonttal chart display became possible when pressing " (#9001, #9097).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20220425T161053Z" creationid="Марианна" creationdate="20220425T160738Z">
+        <seg>&lt;s0&gt;"Chart" visualizer:&lt;/s0&gt; Horizontal chart display became possible when pressing "Horizontal orientation" button (#9001, #9097).</seg>
       </tuv>
     </tu>
     <tu>
