@@ -4334,6 +4334,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Исключается возможность закрепления панели в правой области.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220425T203042Z" creationid="Марианна" creationdate="20220425T203042Z">
+        <seg>Possibility of bar locking in the right area is excluded.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Использование скриптов на языке Python</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T174717Z" creationid="Марианна" creationdate="20210314T174717Z">
