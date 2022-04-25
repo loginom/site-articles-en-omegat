@@ -6648,6 +6648,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>множественный; режимы включенных и исключенных значений — копируются все включенные/исключенные значения, успешно распознанные значения добавляются во включенные/исключенные значения при вставке;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220425T174442Z" creationid="Марианна" creationdate="20220425T174442Z">
+        <seg>multiple; modes of included and excluded values — all included/excluded values are copied, successfully captured values are added to the included/excluded values while pasting;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>на панели Производные компоненты для текущего модуля добавлено контекстное меню с пунктом «Перейти к производным компонентам»;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220227T091031Z" creationid="Марианна" creationdate="20220227T091031Z">
