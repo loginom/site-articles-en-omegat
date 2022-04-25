@@ -6672,6 +6672,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>панель фильтра измерения «Куба» сворачивалась при возникновении ошибки во время копирования или вставки (#9108);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220425T174954Z" creationid="Марианна" creationdate="20220425T174954Z">
+        <seg>the "Cube" dimension filter bar was collapsed when an error occurred during copying or pasting (#9108);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>потеря точности при копировании и вставке дат и чисел в фильтре измерения «Куба» (#9106);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220425T174841Z" creationid="Марианна" creationdate="20220425T174841Z">
