@@ -5552,6 +5552,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Реализован способ обходить проблему, являющуюся особенностью реализации интерпретатора Python при его подключении в виде динамической библиотеки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220425T151015Z" creationid="Марианна" creationdate="20220425T151015Z">
+        <seg>It became possible to sidestep the problem that is typical of the Python interpreter implementation when it is connected in the dynamic library form.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Реализован удобный функционал в переиспользовании компонентов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220224T061216Z" creationid="Марианна" creationdate="20220224T061216Z">
