@@ -1398,6 +1398,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Производные компоненты:&lt;/s0&gt; исправлена ошибка при загрузке пакета, содержащего Подмодель с узлом, созданным по неисправному компоненту.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220425T201606Z" creationid="Марианна" creationdate="20220425T201606Z">
+        <seg>&lt;s0&gt;Derived components:&lt;/s0&gt; The error when loading the package that contained the Supernode with the node created on the basis of the faulty component was corrected.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Профили кластеров:&lt;/s0&gt; иконка фильтрации и текст кнопки теперь меняют цвет, если фильтр активен (#8174, #8463).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210617T103011Z" creationid="Марианна" creationdate="20210617T103011Z">
@@ -5850,8 +5858,8 @@
       <tuv lang="ru">
         <seg>Ранее при попытке открытия такого пакета он не открывался и выводилась ошибка.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220425T201408Z" creationid="Марианна" creationdate="20220425T201408Z">
-        <seg>Previously, when trying to open such package, it was not opened and an error was shown.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20220425T201437Z" creationid="Марианна" creationdate="20220425T201408Z">
+        <seg>Previously, when trying to open such package, it was not opened, and an error was shown.</seg>
       </tuv>
     </tu>
     <tu>
