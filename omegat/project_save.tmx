@@ -318,6 +318,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;a0&gt;&lt;s1&gt;Firebird:&lt;/s1&gt;&lt;/a0&gt; не полностью откатывались транзакции в непустую таблицу в режиме «Очистить таблицу и заполнить данными» при выполнении экспорта в базу данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220425T151627Z" creationid="Марианна" creationdate="20220425T151627Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Firebird:&lt;/s1&gt;&lt;/a0&gt; full roll back of transactions to the nonblank table in "Clear table and fill in data" mode was not possible when exporting to the database.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;JavaScript:&lt;/s1&gt;&lt;/a0&gt; при использовании в цикле с большим количеством вызовов обработчика, потребляемая на сервере оперативная память могла не освобождаться своевременно, а также могли возникать ошибки в стороннем модуле &lt;e2&gt;ChakraCore.dll&lt;/e2&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211229T100526Z" creationid="Марианна" creationdate="20211229T100526Z">
