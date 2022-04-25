@@ -1038,6 +1038,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Визуализатор «Качество данных»:&lt;/s0&gt; если в показателях выбрать все отключенные по умолчанию показатели (Минимум, Среднее, Уникально, Максимум, Медиана), нажать «Рассчитать статистики» и перейти на вкладку «Дискретные», то в отображаемой таблице отсутствовали ячейки с добавленными показателями, тогда как заголовки для них были.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220425T173228Z" creationid="Марианна" creationdate="20220425T173228Z">
+        <seg>&lt;s0&gt;"Data Quality" visualizer:&lt;/s0&gt; If all indicators disabled by default are selected in the indicators (Minimum, Average, Unique, Maximum, Median), "Calculate statistics" is pressed and transfer to "Discrete" tab is made, the cells with the added indicators were absent in the displayed table, whereas headers for them were available.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Импорт из Deductor Warehouse, Экспорт в Deductor Warehouse:&lt;/s0&gt; на странице мастера выбора объектов хранилища данных для ячеек добавлены подсказки, отображающие полное название объекта; добавлена возможность изменить ширину столбца, содержащего названия объектов (#8461).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210617T105043Z" creationid="Марианна" creationdate="20210617T105043Z">
