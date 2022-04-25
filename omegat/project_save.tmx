@@ -3846,6 +3846,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Доработано копирование и вставка в различных режимах фильтра измерения «Куба», а именно:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220425T174222Z" creationid="Марианна" creationdate="20220425T174222Z">
+        <seg>Copy and paste operations were improved in the different "Cube" dimension filter modes as follows:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Достаточно экспортировать любые данные в формат lgd и работа с ними будет в несколько раз быстрее, также они будут занимать гораздо меньший объем памяти в хранилище.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220304T161428Z" creationid="Марианна" creationdate="20220304T161242Z">
