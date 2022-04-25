@@ -5206,6 +5206,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Переработан интерфейс &lt;a0&gt;быстрого просмотра&lt;/a0&gt; (#9065).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220425T202450Z" creationid="Марианна" creationdate="20220425T202450Z">
+        <seg>&lt;a0&gt;Quick view&lt;/a0&gt; interface was improved (#9065).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>По нажатию на Ctrl+C, выделенные в окне быстрого просмотра данные теперь копируются в совместимом с Excel формате, то есть при вставке в табличный редактор, вставляемые значения будут иметь корректный формат данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220304T140351Z" creationid="Марианна" creationdate="20220304T140318Z">
