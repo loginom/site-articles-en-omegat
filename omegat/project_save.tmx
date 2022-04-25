@@ -5672,6 +5672,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ранее выводилось оповещение об ошибке, загрузка пакета прерывалась (такой пакет не открывался).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220425T175631Z" creationid="Марианна" creationdate="20220425T175631Z">
+        <seg>Previously, it was informed about an error, the package loading was terminated (such package was not opened).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ранее для &lt;e1&gt;Фактов&lt;/e1&gt; устанавливались «Назначения по умолчанию» равное &lt;e2&gt;Показатель&lt;/e2&gt;, а для &lt;e3&gt;Измерений&lt;/e3&gt; - &lt;e4&gt;Группа&lt;/e4&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210903T114125Z" creationid="Марианна" creationdate="20210903T114125Z">
