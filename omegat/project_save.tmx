@@ -6672,6 +6672,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>потеря точности при копировании и вставке дат и чисел в фильтре измерения «Куба» (#9106);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220425T174841Z" creationid="Марианна" creationdate="20220425T174841Z">
+        <seg>precision loss while copying and pasting dates and figures in the "Cube" dimension filter(#9106);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>появилась возможность показа всех заголовков или только заголовков 1-го уровня в кросс-диаграммах;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220304T134717Z" creationid="Марианна" creationdate="20220304T134717Z">
