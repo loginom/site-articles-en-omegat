@@ -942,6 +942,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Python:&lt;/s0&gt; добавлена поддержка Python 3.10.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220425T161431Z" creationid="Марианна" creationdate="20220425T161431Z">
+        <seg>&lt;s0&gt;Python:&lt;/s0&gt; Python 3.10 support was added.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Автосохранение пакетов:&lt;/s0&gt; пользователям, не имеющих права на редактирование пакетов, была доступна настройка автосохранения пакетов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220425T153709Z" creationid="Марианна" creationdate="20220425T153709Z">
