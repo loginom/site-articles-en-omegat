@@ -678,6 +678,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;a0&gt;&lt;s1&gt;Логистическая регрессия:&lt;/s1&gt;&lt;/a0&gt; на некоторых наборах данных возникала ошибка доступа к памяти при использовании автоматической настройки и указания максимального приоритета точности.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220425T195520Z" creationid="Марианна" creationdate="20220425T195520Z">
+        <seg>&lt;a0&gt;&lt;s1&gt; Logistic regression:&lt;/s1&gt;&lt;/a0&gt; Memory access error occurred for the new data sets when using the automatic setting and specification of the maximum precision priority.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Настройка портов:&lt;/s1&gt;&lt;/a0&gt; сообщения об ошибках «Сокет не настроен» и «Не задана ссылка на сокет» заменены на более информативные сообщения «...: Порт ... не настроен» и «...: К обязательному порту ... не подключена связь» с указанием метки порта, в котором возникла ошибка (#6000).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210903T105510Z" creationid="Марианна" creationdate="20210903T105510Z">
