@@ -320,8 +320,8 @@
       <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Firebird:&lt;/s1&gt;&lt;/a0&gt; не полностью откатывались транзакции в непустую таблицу в режиме «Очистить таблицу и заполнить данными» при выполнении экспорта в базу данных.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220425T151627Z" creationid="Марианна" creationdate="20220425T151627Z">
-        <seg>&lt;a0&gt;&lt;s1&gt;Firebird:&lt;/s1&gt;&lt;/a0&gt; full roll back of transactions to the nonblank table in "Clear table and fill in data" mode was not possible when exporting to the database.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20220425T151813Z" creationid="Марианна" creationdate="20220425T151627Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Firebird:&lt;/s1&gt;&lt;/a0&gt; full roll back of transactions to the nonblank table in "Clear table and append data" mode was not possible when exporting to the database.</seg>
       </tuv>
     </tu>
     <tu>
