@@ -2150,6 +2150,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/integration/connections/list/msaccess.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220425T203236Z" creationid="Марианна" creationdate="20220425T203236Z">
+        <seg>https://help.loginom.ru/userguide/integration/connections/list/msaccess.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>https://help.loginom.ru/userguide/integration/connections/list/mssql.html</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T195942Z" creationid="Марианна" creationdate="20210314T195942Z">
@@ -2390,6 +2398,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/processors/control/loop.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220425T203343Z" creationid="Марианна" creationdate="20220425T203343Z">
+        <seg>https://help.loginom.ru/userguide/processors/control/loop.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>https://help.loginom.ru/userguide/processors/control/submodel.html</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T203837Z" creationid="Марианна" creationdate="20210314T203837Z">
@@ -2494,6 +2510,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/processors/preprocessing/coarse-classes.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220425T203307Z" creationid="Марианна" creationdate="20220425T203307Z">
+        <seg>https://help.loginom.ru/userguide/processors/preprocessing/coarse-classes.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>https://help.loginom.ru/userguide/processors/preprocessing/editing-of-emissions.html</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T203900Z" creationid="Марианна" creationdate="20210314T203900Z">
@@ -2522,6 +2546,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211215T125806Z" creationid="Марианна" creationdate="20211215T125806Z">
         <seg>https://help.loginom.ru/userguide/processors/preprocessing/quantization.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/processors/preprocessing/sampling.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220425T203329Z" creationid="Марианна" creationdate="20220425T203329Z">
+        <seg>https://help.loginom.ru/userguide/processors/preprocessing/sampling.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -2818,6 +2850,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210616T153946Z" creationid="Марианна" creationdate="20210616T153946Z">
         <seg>https://help.loginom.ru/userguide/visualization/table/filter.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/workflow/derived-component.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220425T203351Z" creationid="Марианна" creationdate="20220425T203351Z">
+        <seg>https://help.loginom.ru/userguide/workflow/derived-component.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -4478,6 +4518,46 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Исправлено (#9132).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220425T203341Z" creationid="Марианна" creationdate="20220425T203341Z">
+        <seg>Corrected (#9132).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Исправлено (#9140).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220425T203421Z" creationid="Марианна" creationdate="20220425T203421Z">
+        <seg>Corrected (#9140).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Исправлено (#9153).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220425T203254Z" creationid="Марианна" creationdate="20220425T203254Z">
+        <seg>Corrected (#9153).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Исправлено (#9171).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220425T203304Z" creationid="Марианна" creationdate="20220425T203304Z">
+        <seg>Corrected (#9171).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Исправлено (#9197).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220425T203327Z" creationid="Марианна" creationdate="20220425T203327Z">
+        <seg>Corrected (#9197).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Исправлены названия показателей моделей в отчетах по &lt;a0&gt;Линейной &lt;/a0&gt;и Логистической регрессиям, добавлены недостающие показатели в Отчет по линейной регрессии, дополнены названия методов и факторов отбора моделей.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210322T211346Z" creationid="Марианна" creationdate="20210322T211346Z">
@@ -5106,6 +5186,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211229T121453Z" creationid="Марианна" creationdate="20211229T121123Z">
         <seg>The error was caused by unavailability of the multirow export to &lt;e3&gt;MSSQL 2005&lt;/e3&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Ошибка исправлена (#9101).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220425T203320Z" creationid="Марианна" creationdate="20220425T203320Z">
+        <seg>Error was corrected (#9101).</seg>
       </tuv>
     </tu>
     <tu>
