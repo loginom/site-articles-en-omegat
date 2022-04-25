@@ -1062,6 +1062,22 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Визуализатор «Куб»:&lt;/s0&gt; всем модальным окнам заданы минимальные размеры (#9098).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220425T175255Z" creationid="Марианна" creationdate="20220425T175255Z">
+        <seg>&lt;s0&gt;"Cube" visualizer:&lt;/s0&gt; the minimum sizes are set for all modal windows (#9098).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;s0&gt;Визуализатор «Куб»:&lt;/s0&gt; при нажатии на кнопку сплиттера панели детализации, которая в свернутом состоянии находится в нижней части окна, не загружалась панель.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220425T175301Z" creationid="Марианна" creationdate="20220425T175301Z">
+        <seg>&lt;s0&gt;"Cube" visualizer:&lt;/s0&gt; при нажатии на кнопку сплиттера панели детализации, которая в свернутом состоянии находится в нижней части окна, не загружалась панель.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Импорт из Deductor Warehouse, Экспорт в Deductor Warehouse:&lt;/s0&gt; на странице мастера выбора объектов хранилища данных для ячеек добавлены подсказки, отображающие полное название объекта; добавлена возможность изменить ширину столбца, содержащего названия объектов (#8461).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210617T105043Z" creationid="Марианна" creationdate="20210617T105043Z">
@@ -6644,6 +6660,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220304T192951Z" creationid="Марианна" creationdate="20220304T192859Z">
         <seg>the interval boundaries for filters: within the range and out of the range;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>когда фокус находился в поле поиска в панели фильтра измерения «Куба», то вместо копирования содержимого текстового поля происходило копирование состояния фильтра (#9105).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220425T175155Z" creationid="Марианна" creationdate="20220425T175155Z">
+        <seg>when the focus was in the search field in the "Cube" dimension filter bar, the filter state was copied instead of the text field content (#9105).</seg>
       </tuv>
     </tu>
     <tu>
