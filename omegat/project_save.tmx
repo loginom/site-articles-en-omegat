@@ -406,6 +406,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;a0&gt;&lt;s1&gt;SOAP-запрос:&lt;/s1&gt;&lt;/a0&gt; при одновременной активации нескольких подключений в разных потоках (например, при использовании «Цикла») иногда возникала ошибка, которая приводила к зависанию узла (его блокировке).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220426T103407Z" creationid="Марианна" creationdate="20220426T103407Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;SOAP request:&lt;/s1&gt;&lt;/a0&gt; When several connections were simultaneously activated in different threads (for example, when "Loop" was used), sometimes an error occurred, and it made the node frozen (it was blocked).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Автоматическая синхронизация полей:&lt;/s1&gt;&lt;/a0&gt; при включении и выключении автоматической синхронизации полей на портах Базового узла, Производный узел не помечался как измененный (#6087).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210322T220149Z" creationid="Марианна" creationdate="20210322T215923Z">
