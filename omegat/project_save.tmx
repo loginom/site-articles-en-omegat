@@ -1206,6 +1206,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Импорт из текстового файла:&lt;/s0&gt; значение «По умолчанию» параметра «Ограничителя строк» переименовано в «Нет», что упростило восприятие.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220426T094836Z" creationid="Марианна" creationdate="20220426T094836Z">
+        <seg>&lt;s0&gt;Import from text file:&lt;/s0&gt; "By default" value of "Text qualifier" parameter was renamed to "No" to simplify the perception.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Импорт из текстового файла:&lt;/s0&gt; исключен тип данных «Неопределенный» из мастера настройки полей при импорте из текстового файла и «Excel».</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220425T191701Z" creationid="Марианна" creationdate="20220425T191701Z">
