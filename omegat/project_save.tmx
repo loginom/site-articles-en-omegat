@@ -3344,8 +3344,8 @@
       <tuv lang="ru">
         <seg>Алгоритм определения формата и разделителей дат стал более «строгим» с учетом наличия в строке даты и времени.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220426T094143Z" creationid="Марианна" creationdate="20220426T094143Z">
-        <seg>The date format and separator definition algorithm became "stricter". Date and time specification in the string is taken into account.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20220426T114400Z" creationid="Марианна" creationdate="20220426T094143Z">
+        <seg>The date format and separator definition algorithm became "stricter". Date and time specification in the row is taken into account.</seg>
       </tuv>
     </tu>
     <tu>
