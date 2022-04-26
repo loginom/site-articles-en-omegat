@@ -6096,6 +6096,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ранее отображался текст «последнее период до ...», теперь «последний период до ...», т.е. учтены особенности русского языка (#8848).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220426T091626Z" creationid="Марианна" creationdate="20220426T091626Z">
+        <seg>Previously, th following text was displayed: "last period to...". Now the following text is displayed: "last perfiod before...". Thus, peculiarities of the Russian language were taken into account (#8848).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ранее попытки выполнения этих действий могли приводить к неинформативным сообщениям (#8170).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210325T115559Z" creationid="Марианна" creationdate="20210323T081916Z">
