@@ -4334,6 +4334,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Добавлена проверка на нулевой размер группы при получении размера выборки, чтобы не получалась ситуация выборки 1 элемента из 0, а также исправлено некорректное получение номера строки для записи в выборку, что исключает ошибку (#8728).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220426T112024Z" creationid="Марианна" creationdate="20220426T112024Z">
+        <seg>The zero group size check when receiving the sample size was added to exclude the situation of sample 1 of item from 0, and also incorrect receipt of the row number to be recorded to the sample was corrected to exclude the error (#8728).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Добавлена установка действующей локали приложения при создании настроек приложения по умолчанию (#9073).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220425T154435Z" creationid="Марианна" creationdate="20220425T154435Z">
