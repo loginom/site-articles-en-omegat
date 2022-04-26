@@ -366,6 +366,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;a0&gt;&lt;s1&gt;Python:&lt;/s1&gt;&lt;/a0&gt; исправлена ошибка «"" не является допустимым номером версии.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220426T101026Z" creationid="Марианна" creationdate="20220426T101026Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Python:&lt;/s1&gt;&lt;/a0&gt; The following error was corrected: """ is not allowable version number.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Python:&lt;/s1&gt;&lt;/a0&gt; функция &lt;e2&gt;builtin_pandas_utils.to_data_frame&lt;/e2&gt; доработана таким образом, чтобы была возможность создания &lt;e3&gt;pandas.DataFrame&lt;/e3&gt; по целочисленным и логическим столбцам, содержащим пропуски.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210903T142556Z" creationid="Марианна" creationdate="20210903T105904Z">
@@ -3738,6 +3746,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210321T211649Z" creationid="Марианна" creationdate="20210321T211515Z">
         <seg>Besides, sometimes it was required to clear cache of the packages published by means of Loginom Integrator forcedly, for example, when updating versions of several packages at once.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Версия должна иметь формат: Мажорная.Минорная.Патч[-ПредрелизнаяВерсия][+СборочныеМетаданные]».</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220426T101145Z" creationid="Марианна" creationdate="20220426T101145Z">
+        <seg>The version must have the following format: Major.Minor.Patch[-GM version][+Assembly Metadata]».</seg>
       </tuv>
     </tu>
     <tu>
