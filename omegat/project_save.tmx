@@ -1142,6 +1142,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Oracle:&lt;/s0&gt; исправлена ошибка при вызове процедуры, принимающей строковый параметр больше 4000 символов в качестве аргумента функции.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220426T111237Z" creationid="Марианна" creationdate="20220426T111237Z">
+        <seg>&lt;s0&gt;Oracle:&lt;/s0&gt; The error occurred when calling the procedure that accepts the row parameter exceeding 4,000 characters as the function argument was corrected.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Python:&lt;/s0&gt; добавлена поддержка Python 3.10.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220425T161431Z" creationid="Марианна" creationdate="20220425T161431Z">
@@ -6988,6 +6996,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210322T172606Z" creationid="Марианна" creationdate="20210322T172606Z">
         <seg>Now it became possible to set the name for the model node with the "Public" access modifier.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Теперь максимально допустимая длина строкового параметра для Oracle версии 12.1 и выше - 32767 символов, в ранних версиях - 4000 символа.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220426T111132Z" creationid="Марианна" creationdate="20220426T111132Z">
+        <seg>Now, the maximum allowable length of the row parameter for Oracle 12.1 and higher is 32,767 characters, for the earlier versions - 4,000 characters.</seg>
       </tuv>
     </tu>
     <tu>
