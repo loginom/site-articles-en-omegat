@@ -3166,6 +3166,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Алгоритм определения формата и разделителей дат стал более «строгим» с учетом наличия в строке даты и времени.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220426T094143Z" creationid="Марианна" creationdate="20220426T094143Z">
+        <seg>The date format and separator definition algorithm became "stricter". Date and time specification in the string is taken into account.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Аналогичное ограничение снято для&lt;a1&gt; Фильтра строк.&lt;/a1&gt; Ранее это могло доставлять неудобство, если производилась настройка фильтров по большому количеству записей, например, SKU.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210322T162948Z" creationid="Марианна" creationdate="20210322T162948Z">
