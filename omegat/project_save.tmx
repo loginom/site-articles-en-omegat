@@ -6706,8 +6706,8 @@
       <tuv lang="ru">
         <seg>Теперь в сообщении указано количество узлов в открытых пакетах, которые ссылаются на данный компонент (считаются узлы Выполнение и Цикл, а также производные узлы, созданные по данному компоненту и производным от него компонентам).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220426T095609Z" creationid="Марианна" creationdate="20220426T095609Z">
-        <seg>.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20220426T095958Z" creationid="Марианна" creationdate="20220426T095609Z">
+        <seg>The number of nodes in the opened packages that refer to this component (Execution and Loop nodes, the derived nodes created by this component and the components derived from it are taken into account) is currently specified in the message.</seg>
       </tuv>
     </tu>
     <tu>
