@@ -334,6 +334,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;a0&gt;&lt;s1&gt;JavaScript:&lt;/s1&gt;&lt;/a0&gt; исправлено появление имени несуществующего модуля в автодополнении кода, подсказки по типам аргументов функций и их возвращаемых значений для модуля «builtIn/Fetch».</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220426T111406Z" creationid="Марианна" creationdate="20220426T111406Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;JavaScript:&lt;/s1&gt;&lt;/a0&gt; The error related to occurrence of the name of nonexisting module in the code autodefinintion, tip by types of function arguments and their returned values for "builtIn/Fetch" module.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;JavaScript:&lt;/s1&gt;&lt;/a0&gt; при использовании в цикле с большим количеством вызовов обработчика, потребляемая на сервере оперативная память могла не освобождаться своевременно, а также могли возникать ошибки в стороннем модуле &lt;e2&gt;ChakraCore.dll&lt;/e2&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211229T100526Z" creationid="Марианна" creationdate="20211229T100526Z">
