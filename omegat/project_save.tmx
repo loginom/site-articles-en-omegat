@@ -5142,6 +5142,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>О всех изменениях в новой версии можно узнать на &lt;a1&gt;официальном сайте&lt;/a1&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220426T092519Z" creationid="Марианна" creationdate="20220426T092519Z">
+        <seg>More detailed information on all changes of the new version is available on the &lt;a1&gt;official site&lt;/a1&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Обработка не запускалась (#8885).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220425T161309Z" creationid="Марианна" creationdate="20220425T161309Z">
