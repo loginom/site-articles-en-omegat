@@ -4032,8 +4032,8 @@
       <tuv lang="ru">
         <seg>Для автоматического определения параметров просматриваются все строки, указанные пользователем для анализа (по умолчанию установлено 25 строк).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220426T094429Z" creationid="Марианна" creationdate="20220426T094429Z">
-        <seg>To provide the automatic definition of parameters, all strings selected by a user for analysis are viewed (25 strings are set by default).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20220426T113445Z" creationid="Марианна" creationdate="20220426T094429Z">
+        <seg>To provide the automatic definition of parameters, all rows selected by a user for analysis are viewed (25 rows are set by default).</seg>
       </tuv>
     </tu>
     <tu>
