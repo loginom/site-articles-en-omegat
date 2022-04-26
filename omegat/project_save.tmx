@@ -1350,6 +1350,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Конечные классы:&lt;/s0&gt; ранее не учитывалась локаль при сравнении значений событий, в результате чего могли возникать проблемы в редких и очень специфичных случаях.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220426T105312Z" creationid="Марианна" creationdate="20220426T105312Z">
+        <seg>&lt;s0&gt;Coarse сlasses:&lt;/s0&gt; Previously, locale was not taken into account when comparing event values that could cause serious problems in rare and very specific cases.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Куб, &lt;a1&gt;Подмодель:&lt;/a1&gt;&lt;/s0&gt; если внутри базовой Подмодели у одного из узлов был настроен визуализатор Куб с настроенной сортировкой по одному из столбцов, то при попытке настроить производную Подмодель возникала ошибка "Атрибут __baseName не существует" (#8536).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210903T074157Z" creationid="Марианна" creationdate="20210903T072745Z">
