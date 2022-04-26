@@ -1462,6 +1462,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Логирование:&lt;/s0&gt; в log-файл не писалось имя пользователя при использовании большого количества параллельных потоков, которые не нагружают процессор, в «Цикле».</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220426T111833Z" creationid="Марианна" creationdate="20220426T111833Z">
+        <seg>&lt;s0&gt;Logging:&lt;/s0&gt; It was not possible to write the user name in the log file when using many parallel threads that do not load the processor in "Loop".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Логирование:&lt;/s0&gt; в сообщения лога для событий начала и окончания выполнения узла добавлен GUID (уникальный идентификатор) узла (#8667).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210903T110439Z" creationid="Марианна" creationdate="20210903T110439Z">
