@@ -864,8 +864,8 @@
       <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Производные компоненты:&lt;/s1&gt;&lt;/a0&gt; при параллельной работе сразу нескольких пакетов, по логам иногда сложно было понять в каком из них произошла ошибка при выполнении узла.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220426T105440Z" creationid="Марианна" creationdate="20220426T105440Z">
-        <seg>&lt;a0&gt;&lt;s1&gt;Derived components:&lt;/s1&gt;&lt;/a0&gt; When the parallel operation of several pacages at once was used, sometimes it was difficalt to define in which of them an error occurred during the node execution.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20220426T105544Z" creationid="Марианна" creationdate="20220426T105440Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Derived components:&lt;/s1&gt;&lt;/a0&gt; When several packages were used at once in parallel, sometimes it was difficalt to define by logs in which of them an error occurred during the node execution.</seg>
       </tuv>
     </tu>
     <tu>
