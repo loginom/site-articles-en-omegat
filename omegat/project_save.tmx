@@ -3894,6 +3894,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для устранения проблемы на входном порту обработчика «Таблица в дерево» убрана возможность выставлять «Назначение» (#8571).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220426T090914Z" creationid="Марианна" creationdate="20220426T090914Z">
+        <seg>To solve this problem, possibility to set "Usage type" in the input port of "Table to tree" handler was removed (#8571).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для устранения этой проблемы в новой версии Loginom 6.5 реализован функционал фиксации локали пакетов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220228T102636Z" creationid="Марианна" creationdate="20220228T102636Z">
