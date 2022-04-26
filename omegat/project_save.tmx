@@ -4622,6 +4622,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Иконка узла подмодели на панели подключений заменена на индивидуальную иконку папки, что исключает путаницу (#8049).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220426T104521Z" creationid="Марианна" creationdate="20220426T104521Z">
+        <seg>The supernode node icon of the connection bar was replaced with the individual folder icon that excludes the confusion (#8049).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Импорт из LGD-файлов, Экспорт в LGD-файлы</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220224T064901Z" creationid="Марианна" creationdate="20220224T064901Z">
