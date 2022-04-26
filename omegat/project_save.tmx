@@ -566,6 +566,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;a0&gt;&lt;s1&gt;Импорт из XML:&lt;/s1&gt;&lt;/a0&gt; добавлена проверка существования файла в файловом хранилище, что исключает ошибки при попытке его дальнейшей загрузки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220426T110820Z" creationid="Марианна" creationdate="20220426T110820Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Import from XML:&lt;/s1&gt;&lt;/a0&gt; Check of the file availability in the file storage was added. It excludes errors while attempting to load it later on.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Импорт из Баз данных:&lt;/s1&gt;&lt;/a0&gt; при подключении к MS SQL Server с использованием ODBC драйвера, если в исходной таблице использовались поля типа &lt;e2&gt;Integer&lt;/e2&gt; или &lt;e3&gt;SmallInt&lt;/e3&gt;, то в процессе настройки импорта могла возникать ошибка «Переход запрещен.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210322T232628Z" creationid="Марианна" creationdate="20210322T232250Z">
@@ -6300,6 +6308,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220425T195242Z" creationid="Марианна" creationdate="20220425T195242Z">
         <seg>The problem caused the incorrect component operation if new values (that were absent while statistics calculation) appeared in the discrete data while training.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Проверка производится на раннем этапе, чтобы отображалось более правильное сообщение о проблеме (#9181).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220426T110929Z" creationid="Марианна" creationdate="20220426T110929Z">
+        <seg>The check was performed at the earlier stage to provide display of the correct error message (#9181).</seg>
       </tuv>
     </tu>
     <tu>
