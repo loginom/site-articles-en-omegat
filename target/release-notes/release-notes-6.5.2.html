@@ -6,9 +6,9 @@
 
 <p><strong>Oracle:</strong>&nbsp;The error occurred when calling the procedure that accepts the row parameter exceeding 4,000 characters as the function argument was corrected. Now, the maximum allowable length of the row parameter for Oracle 12.1 and higher is 32,767 characters, for the earlier versions - 4,000 characters. Correction of this error enabled to write complicated procedural requests without restrictions (#8731).</p>
 
-<p><a href="https://help.loginom.ru/userguide/processors/programming/python/" target="_blank"><strong>Python:</strong></a>&nbsp;The following error was corrected: """ is not allowable version number. The version must have the following format: Major.Minor.Patch[-GM version][+Assembly Metadata]». The error was shown when executing "Python" node in the loop with the group processing. It was not possible to open packages after this error. It was required to reboot the server (#9156).</p>
+<p><a href="https://help.loginom.ru/userguide/processors/programming/python/" target="_blank"><strong>Python:</strong></a>&nbsp;The following error was corrected: """ is not allowable version number. The version must have the following format: Major.Minor.Patch[-GM version][+Assembly Metadata]". The error was shown when executing "Python" node in the loop with the group processing. It was not possible to open packages after this error. It was required to reboot the server (#9156).</p>
 
-<p><a href="https://help.loginom.ru/userguide/processors/integration/soap-request.html" target="_blank"><strong>SOAP request:</strong></a>&nbsp;When several connections were simultaneously activated in different threads (for example, when "Loop" was used), sometimes an error occurred, and it made the node frozen (it was blocked). Corrected (#9153).</p>
+<p><a href="https://help.loginom.ru/userguide/processors/integration/soap-request.html" target="_blank"><strong>SOAP request:</strong></a>&nbsp;When several connections were simultaneously activated in different threads (for example, when "Loop" was used), sometimes an error occurred, and it froze the node (it was blocked). Corrected (#9153).</p>
 
 <p><a href="https://help.loginom.ru/userguide/visualization/data-quality/" target="_blank"><strong>"Data Quality" visualizer:</strong></a> The conversion error while displaying the integer values was corrected. Display of the decimal part of the "Average" indicator for the Integer fields was added (#9196).</p>
 
@@ -36,7 +36,7 @@
 
 <p><strong>Coarse сlasses:</strong>&nbsp;Previously, locale was not taken into account when comparing event values that could cause serious problems in rare and very specific cases. Locale consideration was added.</p>
 
-<p><a href="https://help.loginom.ru/userguide/workflow/derived-component.html" target="_blank"><strong>Derived components:</strong></a>&nbsp;When several packages were used at once in parallel, sometimes it was difficalt to define by logs in which of them an error occurred during the node execution. Apart from the node name with GUID, the package name is also currently shown when logging an error message (#9176).</p>
+<p><a href="https://help.loginom.ru/userguide/workflow/derived-component.html" target="_blank"><strong>Derived components:</strong></a>&nbsp;When several packages were used at once in parallel, sometimes it was difficult to define by logs in which of them an error occurred during the node execution. Apart from the node name with GUID, the package name is also currently shown when logging an error message (#9176).</p>
 
 <div class="text-align-center">
 <p class="lg-text-btn lg-text-btn_border"><a href="https://loginom.ru/download">Try new version</a></p>
