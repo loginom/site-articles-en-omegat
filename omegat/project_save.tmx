@@ -5446,6 +5446,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ошибка воспроизводилась при выполнении узла «Python» в цикле с групповой обработкой.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220426T101231Z" creationid="Марианна" creationdate="20220426T101231Z">
+        <seg>The error was shown when executing "Python" node in the loop with the group processing.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ошибка исправлена (#9101).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220425T203320Z" creationid="Марианна" creationdate="20220425T203320Z">
