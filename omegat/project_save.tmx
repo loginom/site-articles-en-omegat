@@ -1478,6 +1478,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Производные компоненты:&lt;/s0&gt; реализован вывод, кроме названия узла, ещё и GUID с именем пакета в случаях, когда его не удалось найти в исходных или открытых пакетах.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220426T095549Z" creationid="Марианна" creationdate="20220426T095549Z">
+        <seg>&lt;s0&gt;Derived components:&lt;/s0&gt; Apart form the node name, GUID with the package name is also displayed in the cases when it is not possible to find it in the source or opened packages.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Производные компоненты:&lt;/s0&gt; сообщение при попытке удалить производный компонент сделано более информативным.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220426T093503Z" creationid="Марианна" creationdate="20220426T093503Z">
