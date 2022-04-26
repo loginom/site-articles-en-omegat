@@ -4054,6 +4054,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для шаговых методов с прямым проходом (Forward или Stepwise) будет произведено включение максимально возможного числа коэффициентов, после чего алгоритм остановится или пойдет обратно в зависимости от его разновидности.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220426T100741Z" creationid="Марианна" creationdate="20220426T100741Z">
+        <seg>Maximum possible count of coefficients will be included for the step-by-step methods with forward pass (Forward or Stepwise). Then the algorithm will stop or return according to its type.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для этого в мастере настройки полей добавлен параметр «Исключить».</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220304T191553Z" creationid="Марианна" creationdate="20220304T191553Z">
