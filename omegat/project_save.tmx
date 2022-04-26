@@ -3846,6 +3846,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для автоматического определения параметров просматриваются все строки, указанные пользователем для анализа (по умолчанию установлено 25 строк).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220426T094429Z" creationid="Марианна" creationdate="20220426T094429Z">
+        <seg>To provide the automatic definition of parameters, all strings selected by a user for analysis are viewed (25 strings are set by default).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для всех вновь создаваемых узлов будет действовать следующая логика: если настройка «Уникальные значения как имена полей» активна, то валидные уникальные значения будут без изменений использоваться как имена столбцов, а невалидные уникальные значения будут формироваться с помощью транслитерации.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220309T074722Z" creationid="Марианна" creationdate="20220309T074626Z">
@@ -5900,6 +5908,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220309T074234Z" creationid="Марианна" creationdate="20220309T073103Z">
         <seg>When updating up to the new version, if the log file already exists, ANSI encoding will be used. It complies with the user locale used for Loginom Server start.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При определении разделителя столбцов учитывается также, что запятая между 2 цифрами может быть разделителем целой и дробной части.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220426T094558Z" creationid="Марианна" creationdate="20220426T094558Z">
+        <seg>When the column delimiter is defined, it is also important to take into account that a comma between 2 digits can be a delimiter of the integer and decimal part.</seg>
       </tuv>
     </tu>
     <tu>
