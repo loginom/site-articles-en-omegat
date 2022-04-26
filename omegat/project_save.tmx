@@ -3926,6 +3926,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для методов, которые изначально требуют наличие всех коэффициентов (Enter, Backward, Ridge, LASSO и ElasticNet), будет выдана ошибка до момента обучения модели, если число строк меньше числа коэффициентов (включая константу).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220426T100509Z" creationid="Марианна" creationdate="20220426T100509Z">
+        <seg>The error will be shown for the methods that initially require availability of all coefficients (Enter, Backward, Ridge, LASSO и ElasticNet) up to the moment of model training if the row count is less than the count of coefficients (including the intercept).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для переиспользования компонентов достаточно в контекстном меню узла выбрать подменю «Создать производный компонент».</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220224T064501Z" creationid="Марианна" creationdate="20220224T064501Z">
