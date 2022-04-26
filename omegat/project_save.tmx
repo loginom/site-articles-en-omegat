@@ -846,6 +846,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;a0&gt;&lt;s1&gt;Таблица в переменные:&lt;/s1&gt;&lt;/a0&gt; если зайти в мастер обработчика «Таблица в переменные» и произвести настройки, но не использовать поле, которому в порту было выставлено «Назначение», то значение «Используемое» у поля скидывалась в «Не задано».</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220426T091048Z" creationid="Марианна" creationdate="20220426T091048Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Table to variables:&lt;/s1&gt;&lt;/a0&gt; When the "Table to variables" handler wizard was used for the configuration purposes but the field marked as "Usage type" in the port was not used, "Used" field value was reset to "Unspecified".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Таблица:&lt;/s1&gt;&lt;/a0&gt; в окне настройки фильтра в визуализаторе Таблица для полей типа &lt;e2&gt;Дата/Время&lt;/e2&gt; при выборе условий &lt;e3&gt;первый / не первый&lt;/e3&gt; или &lt;e4&gt;последний / не последний&lt;/e4&gt; не определялось и не сохранялось значение параметра &lt;e5&gt;Базовая дата интервала&lt;/e5&gt; (#8648).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210903T141507Z" creationid="Марианна" creationdate="20210903T082405Z">
@@ -3898,6 +3906,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220426T090914Z" creationid="Марианна" creationdate="20220426T090914Z">
         <seg>To solve this problem, possibility to set "Usage type" in the input port of "Table to tree" handler was removed (#8571).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для устранения проблемы на входном порту обработчика убрана возможность выставлять «Назначение» (#8570).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220426T091125Z" creationid="Марианна" creationdate="20220426T091125Z">
+        <seg>To solve this problem, possibility to set "Usage type" in the input port of the handler was removed (#8570).</seg>
       </tuv>
     </tu>
     <tu>
