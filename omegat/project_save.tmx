@@ -1462,6 +1462,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Производные компоненты:&lt;/s0&gt; сообщение при попытке удалить производный компонент сделано более информативным.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220426T093503Z" creationid="Марианна" creationdate="20220426T093503Z">
+        <seg>&lt;s0&gt;Derived components:&lt;/s0&gt; The message shown while attempting to delete the derived component became more informative.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Производные компоненты:&lt;/s0&gt; учтена ситуация, когда в текущем пакете есть ссылка на пакет с производными компонентами, но в программе ещё не созданы узлы, соответствующие этим производным компонентам.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220426T084522Z" creationid="Марианна" creationdate="20220426T084522Z">
