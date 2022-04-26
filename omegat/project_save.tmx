@@ -1638,6 +1638,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Фильтр:&lt;/s0&gt; при настройке фильтра по временному промежутку, запрещено вводить значение количества периодов меньше 1.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220426T093632Z" creationid="Марианна" creationdate="20220426T093632Z">
+        <seg>&lt;s0&gt;Filter:&lt;/s0&gt; When the filter is set by the time span, it is forbidden to set the period number value less than 1.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Цикл:&lt;/s0&gt; при запуске в параллельном режиме в результате создания большого количества производных узлов могла возникать ошибка «Значение индекса … параметра “…” вне диапазона […; …]» (#8200).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210323T091013Z" creationid="Марианна" creationdate="20210323T091013Z">
@@ -4294,6 +4302,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если ни одного зависимого узла не найдено, но производный компонент имеет модификатор доступа «Открытый», то об этом также сообщается (#9004).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220426T093926Z" creationid="Марианна" creationdate="20220426T093926Z">
+        <seg>If no dependent nodes are found but the derived component has "Public" visibility, this information is also provided (#9004).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если после объединения классов, нажать на одну из кнопок, то происходило объединение классов, несмотря на то, что ни один из классов не был выделен.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210903T061313Z" creationid="Марианна" creationdate="20210903T061313Z">
@@ -5474,6 +5490,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220425T202450Z" creationid="Марианна" creationdate="20220425T202450Z">
         <seg>&lt;a0&gt;Quick view&lt;/a0&gt; interface was improved (#9065).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>По достижению максимального числа коэффициентов об этом будет записано сообщение в лог (#7968).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220426T093756Z" creationid="Марианна" creationdate="20220426T093756Z">
+        <seg>When the maximum number of coefficients is reached, it will be recorded in the log message (#7968).</seg>
       </tuv>
     </tu>
     <tu>
