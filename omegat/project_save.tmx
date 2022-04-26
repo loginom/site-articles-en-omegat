@@ -5070,6 +5070,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Кроме названия узла с GUID реализован вывод ещё и имени пакета при логировании сообщения об ошибке (#9176).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220426T105634Z" creationid="Марианна" creationdate="20220426T105634Z">
+        <seg>Apart from the node name with GUID, the package name is currently also shown when logging an error message (#9176).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Кроме того, отображаемые на графике ряды можно активировать и деактивировать.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210321T215417Z" creationid="Марианна" creationdate="20210321T215417Z">
