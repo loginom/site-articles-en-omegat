@@ -950,6 +950,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;a0&gt;&lt;s1&gt;Цикл&lt;/s1&gt;&lt;/a0&gt; неправильно определялся базовый пакет внутри параллельного Цикла, что приводило к некорректным расчётам.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220426T092054Z" creationid="Марианна" creationdate="20220426T092054Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Loop&lt;/s1&gt;&lt;/a0&gt; The base package inside the parallel Loop was incorrectly defined that caused incorrect calculations.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Экспорт в Deductor Warehouse:&lt;/s1&gt; &lt;/a0&gt;при настройке парметров экспорта некорректно работала настройка соответствия столбцов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210617T091812Z" creationid="Марианна" creationdate="20210617T091651Z">
@@ -4546,6 +4554,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220425T195917Z" creationid="Марианна" creationdate="20220425T195838Z">
         <seg>The operation of partitioning to the training and test sets of handllers and cross validation in regressions was corrected. It excludes this error (#9080).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Исправление ошибки делает порядок полей на выходе узла одинаковым на всех итерациях Цикла, что исключает ошибки при обработке данных (#9103).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220426T092234Z" creationid="Марианна" creationdate="20220426T092234Z">
+        <seg>Correction of this error provides the same field order at the node output for all Loop iterations that excludes errors while data processing (#9103).</seg>
       </tuv>
     </tu>
     <tu>
