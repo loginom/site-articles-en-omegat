@@ -1470,6 +1470,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Панель компонентов:&lt;/s0&gt; иногда возникала путаница в панели «Подключений» с отображением «открытых» узлов из подключенного по ссылке пакета.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220426T104422Z" creationid="Марианна" creationdate="20220426T104422Z">
+        <seg>&lt;s0&gt;Component bar:&lt;/s0&gt; Sometimes there was confusion related to the "Connection" bar with the displayed "public" nodes from the package connected by reference.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Панель отчетов:&lt;/s0&gt; если визуализатор был открыт в виде Отчета, то при открытии на соседней вкладке этого же визуализатора из узла, вкладка с Отчетом не закрывалась автоматически и можно было изменять настройки визуализатора в двух вкладках одновременно, что могло приводить к ошибкам (#8089).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210323T073828Z" creationid="Марианна" creationdate="20210323T073828Z">
