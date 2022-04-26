@@ -318,6 +318,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;a0&gt;&lt;s1&gt;Access:&lt;/s1&gt;&lt;/a0&gt; при многопоточной работе подключений, использующих «Microsoft Access Database Engine»: «MS Access», «MS Excel», а также подключений через ODBC, возникали ошибки со стороны данного компонента СУБД.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220426T103027Z" creationid="Марианна" creationdate="20220426T103027Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Access:&lt;/s1&gt;&lt;/a0&gt; In the case of the multithread operation of the connections that use "Microsoft Access Database Engine": "MS Access", "MS Excel", and also connections via ODBC, there were errors connected with this DBMS component.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Firebird:&lt;/s1&gt;&lt;/a0&gt; не полностью откатывались транзакции в непустую таблицу в режиме «Очистить таблицу и заполнить данными» при выполнении экспорта в базу данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220425T153726Z" creationid="Марианна" creationdate="20220425T151627Z">
