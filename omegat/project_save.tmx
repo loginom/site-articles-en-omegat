@@ -5487,6 +5487,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Поиск пакета в текущей папке всё равно происходит, и если он найден, то соответствующая информация добавляется в сообщение об ошибке восстановления ссылки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220426T085641Z" creationid="Марианна" creationdate="20220426T085641Z">
+        <seg>It is still not possible to find the package in the current folder, and if it is found, the corresponding information is added to the reference restore error message.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Пользователь увидит сообщение об ошибке только при попытке явно активировать узел, подключенный к неактивной ветви Условия (#3453).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210323T080820Z" creationid="Марианна" creationdate="20210323T080820Z">
@@ -6636,6 +6644,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220224T062133Z" creationid="Марианна" creationdate="20220224T062133Z">
         <seg>Increase of the data reading speed in the &lt;a0&gt;Loginom Data file.&lt;/a0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Удалена автоматическая корректировка ссылок на пакеты, если при загрузке ссылки не удалось найти пакет, но пакет с соответствующим именем файла найден в текущей папке (рядом с пакетом, содержащим ссылку).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220426T085151Z" creationid="Марианна" creationdate="20220426T085151Z">
+        <seg>The autocorrect of references to packages was deleted if it was not possible to find the package while reference loading but the package with corresponding file name was found in the current folder (near the package that included the reference).</seg>
       </tuv>
     </tu>
     <tu>
