@@ -3816,8 +3816,8 @@
       <tuv lang="ru">
         <seg>Для csv-файлов в качестве разделителя столбцов по умолчанию теперь выставляется не запятая, а берётся из локали параметр «Разделитель элемента списка» (по умолчанию это «;»).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220426T092935Z" creationid="Марианна" creationdate="20220426T092935Z">
-        <seg>Now, .</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20220426T093328Z" creationid="Марианна" creationdate="20220426T092935Z">
+        <seg>Now, not comma is used as the default column delimiter for csv files. "List item delimiter" parameter is taken from locale (it is ";" by default).</seg>
       </tuv>
     </tu>
     <tu>
