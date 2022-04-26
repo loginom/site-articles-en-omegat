@@ -5914,8 +5914,8 @@
       <tuv lang="ru">
         <seg>При определении разделителя столбцов учитывается также, что запятая между 2 цифрами может быть разделителем целой и дробной части.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220426T094558Z" creationid="Марианна" creationdate="20220426T094558Z">
-        <seg>When the column delimiter is defined, it is also important to take into account that a comma between 2 digits can be a delimiter of the integer and decimal part.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20220426T094621Z" creationid="Марианна" creationdate="20220426T094558Z">
+        <seg>When the column delimiter is defined, it is also important to take into account that a comma between 2 digits can be a delimiter of the integer and decimal parts.</seg>
       </tuv>
     </tu>
     <tu>
