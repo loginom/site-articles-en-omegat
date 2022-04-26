@@ -1422,6 +1422,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Производные компоненты:&lt;/s0&gt; учтена ситуация, когда в текущем пакете есть ссылка на пакет с производными компонентами, но в программе ещё не созданы узлы, соответствующие этим производным компонентам.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220426T084522Z" creationid="Марианна" creationdate="20220426T084522Z">
+        <seg>&lt;s0&gt;Derived components:&lt;/s0&gt; The situation when there was a reference to the package with derived components in the current package but the nodes matching these derived components had not been created in the program yet was taken into account.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Профили кластеров:&lt;/s0&gt; иконка фильтрации и текст кнопки теперь меняют цвет, если фильтр активен (#8174, #8463).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210617T103011Z" creationid="Марианна" creationdate="20210617T103011Z">
@@ -3490,6 +3498,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211229T100822Z" creationid="Марианна" creationdate="20211229T100822Z">
         <seg>The error was corrected after improvement of the third-party module (#7178, #8877, #8897).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В результате ошибки в окне «Выбор базового компонента» иногда отображалось, что список компонентов пуст.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220426T084736Z" creationid="Марианна" creationdate="20220426T084736Z">
+        <seg>In the result of the error in "Base component selection" window it was sometimes displayed that the list was empty.</seg>
       </tuv>
     </tu>
     <tu>
