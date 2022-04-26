@@ -6144,6 +6144,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При обращении к отфильтрованному полю при перемещении плашки измерения в область фактов или в список полей происходила ошибка, т.к. отфильтрованное поле нельзя было найти в хранилище.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220426T110629Z" creationid="Марианна" creationdate="20220426T110629Z">
+        <seg>On access to the filtered field when moving the dimension plate to the measures area or list of fields, an error occurred as it was not possible to find the filtered field in the storage.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При определении разделителя столбцов учитывается также, что запятая между 2 цифрами может быть разделителем целой и дробной части.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220426T094621Z" creationid="Марианна" creationdate="20220426T094558Z">
