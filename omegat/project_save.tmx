@@ -1446,6 +1446,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Ссылки на пакеты:&lt;/s0&gt; при пересохранении пакета возникало повреждение ссылки, в результате чего используемые из подключаемого файла узлы не находились.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220426T084903Z" creationid="Марианна" creationdate="20220426T084903Z">
+        <seg>&lt;s0&gt;References to packages:&lt;/s0&gt; The reference was damaged when the package was resaved. That why it was not possible to find the nodes used from the connected file.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Установка Loginom:&lt;/s0&gt; при установке одной из серверных редакций Loginom поверх ранее установленной другой редакции не заменялся исполняемый файл &lt;e1&gt;Server.exe&lt;/e1&gt;, в результате чего после обновления запускалась предыдущая редакция Loginom (#8132).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210323T081635Z" creationid="Марианна" creationdate="20210323T081553Z">
