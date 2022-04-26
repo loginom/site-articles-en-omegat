@@ -18,9 +18,9 @@
 
 <p><a href="https://help.loginom.ru/userguide/processors/preprocessing/coarse-classes.html" target="_blank"><strong>Coarse сlasses:</strong></a>&nbsp;Sometimes "Assertion failure" error occurred when deleting the field of the earlier activated node in the wizard. Error was corrected (#9101).</p>
 
-<p><strong>Логирование:</strong>&nbsp;в log-файл не писалось имя пользователя при использовании большого количества параллельных потоков, которые не нагружают процессор, в «Цикле». Corrected (#9197).</p>
+<p><strong>Logging:</strong>&nbsp;It was not possible to write the user name in the log file when using many parallel threads that do not load the processor in "Loop". Corrected (#9197).</p>
 
-<p><a href="https://help.loginom.ru/userguide/processors/preprocessing/sampling.html" target="_blank"><strong>Neural network (classification):</strong></a>&nbsp;"Access violation" error occurred when training the node with the enabled "Use subset of the training set" option for structure auto selection. Добавлена проверка на нулевой размер группы при получении размера выборки, чтобы не получалась ситуация выборки 1 элемента из 0, а также исправлено некорректное получение номера строки для записи в выборку, что исключает ошибку (#8728).</p>
+<p><a href="https://help.loginom.ru/userguide/processors/preprocessing/sampling.html" target="_blank"><strong>Neural network (classification):</strong></a>&nbsp;"Access violation" error occurred when training the node with the enabled "Use subset of the training set" option for structure auto selection. The zero group size check was added when receiving the sample size to exclude the situation when 1 item from 0 was selected, and also incorrect obtaining of the row number to be recorded to the sample was corrected to exclude the error (#8728).</p>
 
 <p><strong>Component bar:</strong>&nbsp;Sometimes there was confusion related to the "Connection" bar with the displayed "public" nodes from the package connected by reference. The supernode node icon of the connection bar was replaced with the individual folder icon that excludes the confusion (#8049).</p>
 

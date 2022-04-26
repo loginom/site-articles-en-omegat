@@ -1,10 +1,10 @@
 <h2 id="исправление-ошибок">Fixes</h2>
 
-<p><a href="https://help.loginom.ru/userguide/processors/programming/python/" target="_blank"><strong>Python:</strong></a> The memory leak error while Python using was corrected. It became possible to sidestep the problem that is typical of the Python interpreter implementation when it is connected in the dynamic library form. Memory consumption was optimized (#9054).</p>
+<p><a href="https://help.loginom.ru/userguide/processors/programming/python/" target="_blank"><strong>Python:</strong></a> The memory leak error while Python using was corrected. It became possible to sidestep the problem that is typical of the Python interpreter implementation when it was connected in the dynamic library form. Memory consumption was optimized (#9054).</p>
 
 <p><a href="https://help.loginom.ru/userguide/integration/connections/list/firebird.html" target="_blank"><strong>Firebird:</strong></a> Full roll back of transactions to the nonempty table in "Clear table and append data" mode was not possible when exporting to the database. The table stayed cleared after the error, and export was not executed. Transactions roll back was corrected (#8103).</p>
 
-<p><strong>Auto save packages:</strong> Previously, the conflict that sometimes made impossible to provide reliable saving while simultaneous package auto saving and closing via "Session Manager" could occur. The introduced fixes enable to prevent such conflict providing safe auto saving of packages (#9025, #9021, #9038).</p>
+<p><strong>Auto save packages:</strong> Previously, the conflict that sometimes made impossible to provide reliable saving while simultaneous package auto saving and closing via "Session Manager" could occur. The introduced fixes enable to prevent such conflict providing reliable auto saving of packages (#9025, #9021, #9038).</p>
 
 <p><strong>Auto save packages:</strong> The users that did not have rights to edit packages were allowed to configure packages auto saving. Now, "Auto save" button is not displayed for such users (#9043).</p>
 
@@ -18,9 +18,9 @@
 
 <p><strong>"Chart" visualizer:</strong> Horizontal chart display became possible when pressing on "Horizontal orientation" button (#9001, #9097).</p>
 
-<p><a href="https://help.loginom.ru/userguide/visualization/data-quality/" target="_blank"><strong>"Data Quality" visualizer:</strong></a> the visualizer error was corrected. It occurred when the field with the logical type was added to the existing and repeated calculation(#9095, #9085).</p>
+<p><a href="https://help.loginom.ru/userguide/visualization/data-quality/" target="_blank"><strong>"Data Quality" visualizer:</strong></a> the visualizer error was corrected. It occurred when the field with the logical type was added to the existing and repeated calculation (#9095, #9085).</p>
 
-<p><strong>"Data Quality" visualizer:</strong> If all indicators disabled by default are selected in the indicators (Minimum, Average, Unique, Maximum, Median), "Calculate statistics" is pressed and transfer to "Discrete" tab is made, the cells with the added indicators were absent in the displayed table, whereas headers for them were available. Corrected (#9082).</p>
+<p><strong>"Data Quality" visualizer:</strong> If all indicators disabled by default were selected in the indicators (Minimum, Average, Unique, Maximum, Median), "Calculate statistics" was pressed and transfer to "Discrete" tab was performed, the cells with the added indicators were absent in the displayed table, whereas headers for them were available. Corrected (#9082).</p>
 
 <p><strong>"Data Quality" visualizer:</strong> When pressing on the splitter button of the detailing bar that was located in the lower part of the window in the collapsed state, the bar was not loaded. Corrected (#9078).</p>
 
@@ -28,7 +28,7 @@
 
 <ul>
 	<li>multiple; modes of included and excluded values — all included/excluded values are copied, successfully captured values are added to the included/excluded values while pasting;</li>
-	<li>single and combined modes - the current selected value is copied, only the first string value is processed while pasting, the other ones are ignored, the successfully captured value becomes the selected one, the table is scrolled to reach it (#9107).</li>
+	<li>single and combined modes - the current selected value is copied, only the first row value is processed while pasting, the other ones are ignored, the successfully captured value becomes the selected one, the table is scrolled to reach it (#9107).</li>
 </ul>
 
 <p>The following errors were corrected:</p>
@@ -47,7 +47,7 @@
 
 <p><a href="https://help.loginom.ru/userguide/processors/transformation/substitution/" target="_blank"><strong>Replace:</strong></a> possibility to set "Usage type" is disabled at the input port "Replacement table". Previously, it was possible to set several "Usage types" equal to "Input" and "Output" that resulted in an error in the "Replace" node operation (#8574).</p>
 
-<p><a href="https://help.loginom.ru/userguide/integration/import/txt-csv.html" target="_blank"><strong>Import from text file:</strong></a> The last column was not added when defining the column list if a separator was the last character in the first string (#9071).</p>
+<p><a href="https://help.loginom.ru/userguide/integration/import/txt-csv.html" target="_blank"><strong>Import from text file:</strong></a> The last column was not added when defining the column list if a separator was the last character in the first row (#9071).</p>
 
 <p><strong>Import from text file:</strong> The "Undefined" data type was excluded from the field wizard when importing from the text and "Excel" file. In some cases there were problems during the further data processing (#5903).</p>
 
@@ -69,7 +69,7 @@
 
 <p><strong>Derived components:</strong> The error occurred while loading the package that contained the Supernode with the node created on the basis of the faulty component was corrected. Previously, when trying to open such package, it was not opened, and an error was shown. Now, such package will be opened (#9099).</p>
 
-<p><strong>References to packages:</strong> The reference was damaged when the package was resaved. That why it was not possible to find the nodes used from the connected file. The logics of restoring reference to the package was corrected. The autocorrect of references to packages was deleted if it was not possible to find the package while reference loading but the package with corresponding file name was found in the current folder (near the package that included the reference). It is still not possible to find the package in the current folder, and if it is found, the corresponding information is added to the reference restore error message. It also became possible to change the path to the package in "Properties of reference to package" window if the reference had been broken. When the broken reference to package was restored, restoration of the "destroyed" derived nodes, "Execution", "Loop" and Reference nodes" nodes was called in the current package (#8981).</p>
+<p><strong>References to packages:</strong> The reference was damaged when the package was resaved. That's why it was not possible to find the nodes used from the connected file. The logics of restoring reference to the package was corrected. The autocorrect of references to packages was deleted if it was not possible to find the package while reference loading but the package with corresponding file name was found in the current folder (near the package that included the reference). It is still not possible to find the package in the current folder, and if it is found, the corresponding information is added to the reference restore error message. It also became possible to change the path to the package in "Properties of reference to package" window if the reference had been broken. When the broken reference to package was restored, restoration of the "destroyed" derived nodes, "Execution", "Loop" and Reference nodes" nodes was called in the current package (#8981).</p>
 
 <p><a href="https://help.loginom.ru/userguide/processors/data-trees/table-to-tree.html" target="_blank"><strong>Table to tree:</strong></a> When the handler wizard was used for the configuration purposes but the field marked as "Usage type" in the port was not used, "Used" field value was reset to "Unspecified". To solve this problem, possibility to set "Usage type" in the input port of "Table to tree" handler was removed (#8571).</p>
 
@@ -77,7 +77,7 @@
 
 <p><strong>Table to variables:</strong> When quick view of "Table to variables" node was opened, the first cell was not selected that could sometimes cause an error. Corrected (#8904).</p>
 
-<p><a href="https://help.loginom.ru/userguide/processors/transformation/row-filter/" target="_blank"><strong>Filter:</strong></a> The displayed tip text was corrected when the filtering criteria were set for the filter by the time span. Previously, th following text was displayed: "last period to...". Now the following text is displayed: "last perfiod before...". Thus, peculiarities of the Russian language were taken into account (#8848).</p>
+<p><a href="https://help.loginom.ru/userguide/processors/transformation/row-filter/" target="_blank"><strong>Filter:</strong></a> The displayed tip text was corrected when the filtering criteria were set for the filter by the time span. Previously, the following text was displayed: "last period to...". Now the following text is displayed: "last perfiod before...". Thus, peculiarities of the Russian language were taken into account (#8848).</p>
 
 <p><a href="https://help.loginom.ru/userguide/processors/control/cycle.html" target="_blank"><strong>Loop</strong></a> The base package inside the parallel Loop was incorrectly defined that caused incorrect calculations. Correction of this error provides the same field order at the node output for all Loop iterations that excludes errors while data processing (#9103).</p>
 
@@ -85,7 +85,7 @@
 
 <p><strong>Python:</strong> Python 3.10 support was added. More detailed information on all changes of the new version is available on the <a href="https://docs.python.org/3/whatsnew/changelog.html#changelog" target="_blank">official site</a>. Python 3.10 support enables to use the recent versions of the popular libraries in the most efficient way (#9047).</p>
 
-<p><strong>Import from text file:</strong> Algorithm of the automatic definition of the table structure in the text file was improved. Now, not comma is used as the default column delimiter for csv files. "List item delimiter" parameter is taken from locale (it is ";" by default). To provide the automatic definition of parameters, all strings selected by a user for analysis are viewed (25 strings are set by default). When the column delimiter is defined, it is also important to take into account that a comma between 2 digits can be a delimiter of the integer and decimal parts. The date format and separator definition algorithm became "stricter". Date and time specification in the string is taken into account. The partial format is also taken into account. Namely, only date or only time must be displayed in the string (#9110, #3836).</p>
+<p><strong>Import from text file:</strong> Algorithm of the automatic definition of the table structure in the text file was improved. Now, not comma is used as the default column delimiter for csv files. "List item delimiter" parameter is taken from locale (it is ";" by default). To provide the automatic definition of parameters, all rows selected by a user for analysis are viewed (25 rows are set by default). When the column delimiter is defined, it is also important to take into account that a comma between 2 digits can be a delimiter of the integer and decimal parts. The date format and separator definition algorithm became "stricter". Date and time specification in the string is taken into account. The partial format is also taken into account. Namely, only date or only time must be displayed in the row (#9110, #3836).</p>
 
 <p><strong>Import from text file:</strong> "By default" value of "Text qualifier" parameter was renamed to "No" to simplify the perception. Previously, users often confused "By default" value for "Text qualifier" with the same value for other parameters (#5351).</p>
 
@@ -93,7 +93,7 @@
 
 <p><a href="https://help.loginom.ru/userguide/integration/connections/" target="_blank"><strong>Connection to Databases:</strong></a>  ODBC connection was restored after break down while preparing and executing request during import from database, opening transaction during export (#8619).</p>
 
-<p><strong>Derived components:</strong> Apart form the node name, GUID with the package name is also displayed in the cases when it is not possible to find it in the source or opened packages. In the result, it becomes easier to search for the problem nodes.  (#8952).</p>
+<p><strong>Derived components:</strong> Apart from the node name, GUID with the package name is also displayed in the cases when it is not possible to find it in the source or opened packages. In the result, it becomes easier to search for the problem nodes.  (#8952).</p>
 
 <p><strong>Derived components:</strong> The message shown while attempting to delete the derived component became more informative. The number of nodes in the opened packages that refer to this component (Execution and Loop nodes, the derived nodes created by this component and the components derived from it are taken into account) is currently specified in the message. If no dependent nodes are found but the derived component has "Public" visibility, this information is also provided (#9004).</p>
 
