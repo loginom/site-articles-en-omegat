@@ -3888,8 +3888,8 @@
       <tuv lang="ru">
         <seg>Версия должна иметь формат: Мажорная.Минорная.Патч[-ПредрелизнаяВерсия][+СборочныеМетаданные]».</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220426T101145Z" creationid="Марианна" creationdate="20220426T101145Z">
-        <seg>The version must have the following format: Major.Minor.Patch[-GM version][+Assembly Metadata]».</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20220426T113848Z" creationid="Марианна" creationdate="20220426T101145Z">
+        <seg>The version must have the following format: Major.Minor.Patch[-GM version][+Assembly Metadata]".</seg>
       </tuv>
     </tu>
     <tu>
