@@ -5783,6 +5783,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>После этой ошибки нельзя было открыть ни один пакет, требовалась перезагрузка сервера (#9156).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220426T103129Z" creationid="Марианна" creationdate="20220426T103129Z">
+        <seg>It was not possible to open packages after this error. It was required to reboot the server (#9156).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Поэтому, особенно важно обеспечить удобство работы пользователя с конкретным продуктом.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220227T092005Z" creationid="Марианна" creationdate="20220227T092005Z">
