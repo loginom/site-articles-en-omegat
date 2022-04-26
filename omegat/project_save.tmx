@@ -5680,6 +5680,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При восстановлении разорванной ссылки на пакет в текущем пакете вызывается восстановление «сломанных» производных узлов, узлов «Выполнение», «Цикл» и «Узлов-ссылок» (#8981).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220426T090341Z" creationid="Марианна" creationdate="20220426T090341Z">
+        <seg>When the broken reference to package was restored, restoration of the "destroyed" derived nodes, "Execution", "Loop" and Reference nodes" nodes was called in the current package (#8981).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При вызове контекстного меню у этого элемента можно было выбрать ошибочно отображаемый пункт «Показать визуализаторы», при этом возникала ошибка «Cannot read property 'NodeIndex' of undefined».</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210617T081946Z" creationid="Марианна" creationdate="20210617T081946Z">
