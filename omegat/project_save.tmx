@@ -1214,6 +1214,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Импорт из текстового файла:&lt;/s0&gt; улучшен алгоритм автоматического определения структуры таблицы в текстовом файле.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220426T092849Z" creationid="Марианна" creationdate="20220426T092849Z">
+        <seg>&lt;s0&gt;Import from text file:&lt;/s0&gt; Algorithm of the automatic definition of the table structure in the text file was improved.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Инспектор свойств:&lt;/s0&gt; если был открыт Инспектор свойств и в нем отображались параметры Подмодели, то после разворачивания этой Подмодели в Инспекторе свойств продолжали отображаться параметры уже не существующего узла (#8313).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210616T202823Z" creationid="Марианна" creationdate="20210616T202823Z">
@@ -5491,6 +5499,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210320T214755Z" creationid="Марианна" creationdate="20210320T214755Z">
         <seg>Data transformation to Pandas DataFrame structure and vice versa is supported.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Поддержка Python 3.10 позволяет полноценно использовать последние версии популярных библиотек (#9047).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220426T092738Z" creationid="Марианна" creationdate="20220426T092738Z">
+        <seg>Python 3.10 support enables to use the recent versions of the popular libraries in the most efficient way (#9047).</seg>
       </tuv>
     </tu>
     <tu>
