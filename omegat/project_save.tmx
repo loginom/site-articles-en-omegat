@@ -1656,8 +1656,8 @@
       <tuv lang="ru">
         <seg>&lt;s0&gt;Ссылки на пакеты:&lt;/s0&gt; при пересохранении пакета возникало повреждение ссылки, в результате чего используемые из подключаемого файла узлы не находились.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220426T084903Z" creationid="Марианна" creationdate="20220426T084903Z">
-        <seg>&lt;s0&gt;References to packages:&lt;/s0&gt; The reference was damaged when the package was resaved. That why it was not possible to find the nodes used from the connected file.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20220426T113140Z" creationid="Марианна" creationdate="20220426T084903Z">
+        <seg>&lt;s0&gt;References to packages:&lt;/s0&gt; The reference was damaged when the package was resaved. That's why it was not possible to find the nodes used from the connected file.</seg>
       </tuv>
     </tu>
     <tu>
