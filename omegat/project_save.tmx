@@ -3446,6 +3446,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В окне «Свойства ссылки на пакет» добавлена также возможность менять путь к пакету, если ссылка разорвана.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220426T090117Z" creationid="Марианна" creationdate="20220426T090117Z">
+        <seg>It also became possible to change the path to the package in "Properties of reference to package" window if the reference had been broken.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В окне быстрого просмотра удалена нижняя панель с единственной кнопкой «Закрыть», вместо этого окно может быть закрыто кликом по любому месту вне окна быстрого просмотра или по нажатию на «×» (кнопку закрытия окна).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210322T213808Z" creationid="Марианна" creationdate="20210322T213808Z">
