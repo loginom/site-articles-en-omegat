@@ -6056,6 +6056,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Проблема была в том, что данном контексте «По умолчанию» для «Ограничитель строк» использовать не логично, и это путается с «По умолчанию» для других параметров.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220426T095136Z" creationid="Марианна" creationdate="20220426T095136Z">
+        <seg>The problem was that "By default" for "Text qaulifier" was not logically used in that context. It was confused with "By default" for other parameters.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Проблема приводила к некорректной работе компонента если при обучении в дискретных данных появились новые значения (которых не было при расчёте статистики).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220425T195242Z" creationid="Марианна" creationdate="20220425T195242Z">
