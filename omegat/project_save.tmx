@@ -4670,6 +4670,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Исправление ошибки позволяет писать сложные процедурные запросы без ограничений (#8731).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220426T100932Z" creationid="Марианна" creationdate="20220426T100932Z">
+        <seg>Correction of this error enabled to write complicated procedural requests without restrictions (#8731).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Исправление ошибок</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201122T080841Z" creationid="Марианна" creationdate="20201122T080841Z">
@@ -6364,6 +6372,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220224T062922Z" creationid="Марианна" creationdate="20220224T062922Z">
         <seg>Let's consider some changes in detail.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Реализован способ исправления ошибок (#9189).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220426T100843Z" creationid="Марианна" creationdate="20220426T100843Z">
+        <seg>Error correction method was implemented (#9189).</seg>
       </tuv>
     </tu>
     <tu>
