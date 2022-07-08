@@ -7280,6 +7280,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Теперь, если опубликованный узел отработал успешно, а при закрытии пакета возникла ошибка, то запрос в Loginom Integrator завершится успешно.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220708T165846Z" creationid="Марианна" creationdate="20220708T165846Z">
+        <seg>Now, if the published node successfully finished its operation, and an error occurred when closing the package, request to Loginom Integrator was successfully finished.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Теперь, если при настройке узла возникает такая ситуация, открывается страница «Настройка соответствия между деревьями данных» (#8659).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210903T083244Z" creationid="Марианна" creationdate="20210903T083244Z">
