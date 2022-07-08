@@ -1174,6 +1174,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;PostgreSQL:&lt;/s0&gt; при подключении к &lt;e1&gt;PostgreSQL&lt;/e1&gt; 14 через ODBC-драйвер выполнение запроса приводило к ошибке "Ошибка открытия SQL:...".</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220708T163848Z" creationid="Марианна" creationdate="20220708T163848Z">
+        <seg>&lt;s0&gt;PostgreSQL:&lt;/s0&gt; when connecting to &lt;e1&gt;PostgreSQL&lt;/e1&gt; 14 via ODBC driver request execution caused the following errors: "Error when opening SQL:...".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Python:&lt;/s0&gt; добавлена поддержка Python 3.10.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220425T161431Z" creationid="Марианна" creationdate="20220425T161431Z">
