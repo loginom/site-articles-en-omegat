@@ -4822,6 +4822,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Исправили ошибки, возникавшие при работе с базами данных, визуализаторами, компонентами Калькулятор, JavaScript и Python.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220708T163134Z" creationid="Марианна" creationdate="20220708T163134Z">
+        <seg>The errors occurring when working with databases, visualizers, Calculator, JavaScript and Python components.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Исправлен откат транзакций (#8103).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220425T152138Z" creationid="Марианна" creationdate="20220425T152138Z">
