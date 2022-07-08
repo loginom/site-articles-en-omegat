@@ -1158,6 +1158,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Oracle, ODBC:&lt;/s0&gt; исправлено чтение полей таблиц с именами, содержащими буквы в нижнем регистре.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220708T163558Z" creationid="Марианна" creationdate="20220708T163558Z">
+        <seg>&lt;s0&gt;Oracle, ODBC:&lt;/s0&gt; read of table fields with names containing lowercase letters.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Oracle:&lt;/s0&gt; исправлена ошибка при вызове процедуры, принимающей строковый параметр больше 4000 символов в качестве аргумента функции.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220426T111237Z" creationid="Марианна" creationdate="20220426T111237Z">
