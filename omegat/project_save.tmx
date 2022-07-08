@@ -1176,8 +1176,8 @@
       <tuv lang="ru">
         <seg>&lt;s0&gt;PostgreSQL:&lt;/s0&gt; при подключении к &lt;e1&gt;PostgreSQL&lt;/e1&gt; 14 через ODBC-драйвер выполнение запроса приводило к ошибке "Ошибка открытия SQL:...".</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220708T163848Z" creationid="Марианна" creationdate="20220708T163848Z">
-        <seg>&lt;s0&gt;PostgreSQL:&lt;/s0&gt; when connecting to &lt;e1&gt;PostgreSQL&lt;/e1&gt; 14 via ODBC driver request execution caused the following errors: "Error when opening SQL:...".</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20220708T163927Z" creationid="Марианна" creationdate="20220708T163848Z">
+        <seg>&lt;s0&gt;PostgreSQL:&lt;/s0&gt; when connecting to &lt;e1&gt;PostgreSQL&lt;/e1&gt; 14 via ODBC driver request execution caused the following error: "Error when opening SQL:...".</seg>
       </tuv>
     </tu>
     <tu>
@@ -4014,6 +4014,22 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Внесены необходимые правки (#9260).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220708T163953Z" creationid="Марианна" creationdate="20220708T163953Z">
+        <seg>Required corrections were made (#9260).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Внесли необходимые исправления (#7377).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220708T164102Z" creationid="Марианна" creationdate="20220708T164102Z">
+        <seg>The required corrections were introduced (#7377).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Возможность переиспользования компонентов и простота данной операции — одна из самых важных вещей при работе с Loginom.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220224T064255Z" creationid="Марианна" creationdate="20220224T064255Z">
@@ -6804,6 +6820,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210902T070438Z" creationid="Марианна" creationdate="20210902T070438Z">
         <seg>System failed to find the specified path" (#8518).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Ситуацию исправили (#9226).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220708T164036Z" creationid="Марианна" creationdate="20220708T164036Z">
+        <seg>The situation was rectified (#9226).</seg>
       </tuv>
     </tu>
     <tu>
