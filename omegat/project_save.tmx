@@ -2950,6 +2950,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/processors/transformation/fields-features.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220708T164257Z" creationid="Марианна" creationdate="20220708T164257Z">
+        <seg>https://help.loginom.ru/userguide/processors/transformation/fields-features.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>https://help.loginom.ru/userguide/processors/transformation/fields-parameters.html</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220220T163712Z" creationid="Марианна" creationdate="20220220T163712Z">
@@ -2962,6 +2970,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T173428Z" creationid="Марианна" creationdate="20210314T173428Z">
         <seg>https://help.loginom.ru/userguide/processors/transformation/java-script/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/processors/transformation/join/</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220708T164300Z" creationid="Марианна" creationdate="20220708T164300Z">
+        <seg>https://help.loginom.ru/userguide/processors/transformation/join/</seg>
       </tuv>
     </tu>
     <tu>
@@ -3002,6 +3018,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220425T150032Z" creationid="Марианна" creationdate="20220425T150032Z">
         <seg>https://help.loginom.ru/userguide/processors/variables/variables-from-table.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/processors/variables/variables-to-table.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220708T164305Z" creationid="Марианна" creationdate="20220708T164305Z">
+        <seg>https://help.loginom.ru/userguide/processors/variables/variables-to-table.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -4018,6 +4042,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220426T112444Z" creationid="Марианна" creationdate="20220425T153559Z">
         <seg>The introduced fixes enable to prevent such conflict providing reliable auto saving of packages (#9025, #9021, #9038).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Внесены исправления в соответствующую функцию проверки (#9228).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220708T164408Z" creationid="Марианна" creationdate="20220708T164408Z">
+        <seg>Corresponding check function was corrected (#9228).</seg>
       </tuv>
     </tu>
     <tu>
