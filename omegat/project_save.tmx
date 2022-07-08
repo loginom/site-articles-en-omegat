@@ -2278,6 +2278,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Loginom Server мог зависнуть (#9316).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220708T162134Z" creationid="Марианна" creationdate="20220708T162134Z">
+        <seg>Loginom Server could be frozen (#9316).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Python</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T174407Z" creationid="Марианна" creationdate="20210314T174407Z">
@@ -2674,6 +2682,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220425T203343Z" creationid="Марианна" creationdate="20220425T203343Z">
         <seg>https://help.loginom.ru/userguide/processors/control/loop.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/processors/control/reference-node.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220708T162138Z" creationid="Марианна" creationdate="20220708T162138Z">
+        <seg>https://help.loginom.ru/userguide/processors/control/reference-node.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -3858,6 +3874,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220227T155922Z" creationid="Марианна" creationdate="20220227T155922Z">
         <seg>This message will be also received if there are no such nodes in the package but they are available in one of the connected packages.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В этой версии добавили поддержку временных таблиц в импорте из 1С, улучшили работу Loginom Integrator, повысили информативность сообщений об ошибках в узлах Выполнение узла и Узел-ссылка.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220708T162718Z" creationid="Марианна" creationdate="20220708T162718Z">
+        <seg>Support of time tables in import from 1C was added in this version, Loginom Integrator operation was improved, error messages comprehension was improved in Execution Node and Reference Node nodes.</seg>
       </tuv>
     </tu>
     <tu>
