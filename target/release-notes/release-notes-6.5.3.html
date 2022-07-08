@@ -5,17 +5,17 @@
 
 <p><a href="https://help.loginom.ru/userguide/processors/programming/java-script/" target="_blank"><strong>JavaScript</strong>:</a>&nbsp;Access violation error when executing&nbsp;<code>atob("")</code>&nbsp;code in&nbsp;<em>JavaScript</em> node was corrected&nbsp;(#9295).</p>
 
-<p><strong>Oracle, ODBC:</strong>&nbsp;исправлено чтение полей таблиц с именами, содержащими буквы в нижнем регистре. Ранее в мастерах импорта и экспорта в БД для&nbsp;<em>Oracle</em>&nbsp;(а также для некоторых БД при подключении через ODBC) можно было получить пустой список полей для таблицы с именем, записанном в нижнем регистре (#9203).</p>
+<p><strong>Oracle, ODBC:</strong>&nbsp;reading of table fields with names containing lowercase letters was corrected. Ранее в мастерах импорта и экспорта в БД для&nbsp;<em>Oracle</em>&nbsp;(а также для некоторых БД при подключении через ODBC) можно было получить пустой список полей для таблицы с именем, записанном в нижнем регистре (#9203).</p>
 
-<p><strong>PostgreSQL:</strong>&nbsp;при подключении к&nbsp;<em>PostgreSQL</em>&nbsp;14 через ODBC-драйвер выполнение запроса приводило к ошибке "Ошибка открытия SQL:...". Было обнаружено, что драйвер ODBC для&nbsp;<em>PostgreSQL</em>&nbsp;не может вернуть количество столбцов для подготовленного, но невыполненного запроса. Внесены необходимые правки (#9260).</p>
+<p><strong>PostgreSQL:</strong>&nbsp;when connecting to&nbsp;<em>PostgreSQL</em>&nbsp;14 via ODBC driver request execution caused the following error: "Error when opening SQL:...". Было обнаружено, что драйвер ODBC для&nbsp;<em>PostgreSQL</em>&nbsp;не может вернуть количество столбцов для подготовленного, но невыполненного запроса. Required corrections were made (#9260).</p>
 
 <p><a href="https://help.loginom.ru/userguide/processors/programming/python/" target="_blank"><strong>Python</strong>:</a>&nbsp;при использовании Python 3.6 и ниже, если путь к библиотеке python.dll содержал символы кириллицы, активация узла&nbsp;<em>Python</em>&nbsp;завершалась с ошибкой: "SyntaxError: (unicode error) 'utf-8' codec can't decode byte... invalid start byte...". Добавлена поддержка Python 3.6 и ниже, установленного по не-ASCII пути (#8429).</p>
 
 <p><a href="https://help.loginom.ru/userguide/visualization/preview/quick-view.html" target="_blank"><strong>Быстрый просмотр</strong>:</a>&nbsp;исправлена ошибка "Cannot read properties of null (reading 'each')", которая возникала, если во время открытия&nbsp;<em>Быстрого просмотра</em>&nbsp;быстро закрыть вкладку&nbsp;<em>Сценарий</em>&nbsp;(#9019).</p>
 
-<p><strong>Быстрый просмотр:</strong>&nbsp;при изменении данных, подаваемых на вход подмодели, данные в&nbsp;<em>Быстром просмотре</em>&nbsp;узла, находящегося внутри подмодели, могли не обновиться. Ситуацию исправили (#9226).</p>
+<p><strong>Быстрый просмотр:</strong>&nbsp;при изменении данных, подаваемых на вход подмодели, данные в&nbsp;<em>Быстром просмотре</em>&nbsp;узла, находящегося внутри подмодели, могли не обновиться. The situation was rectified (#9226).</p>
 
-<p><strong>Веб-приложение, Настольное приложение:</strong>&nbsp;после копирования узла сценария кнопка панели инструментов&nbsp;<em>Вставить</em>&nbsp;и аналогичный пункт контекстного меню в некоторых случаях оставались неактивными. Внесли необходимые исправления (#7377).</p>
+<p><strong>Веб-приложение, Настольное приложение:</strong>&nbsp;после копирования узла сценария кнопка панели инструментов&nbsp;<em>Вставить</em>&nbsp;и аналогичный пункт контекстного меню в некоторых случаях оставались неактивными. The required corrections were introduced (#7377).</p>
 
 <p><a href="https://help.loginom.ru/userguide/visualization/chart/" target="_blank"><strong>Визуализатор «Диаграмма»</strong>:&nbsp;</a>исправлен порядок отрисовки столбцов в столбчатой диаграмме в режиме накопления. Ранее, при отрытии пакетов, созданных в предыдущих версиях Loginom, пользователь мог столкнутся с ситуацией, когда порядок столбцов в диаграмме с накоплением идет в обратном порядке относительно легенды (#9244).</p>
 
@@ -25,7 +25,7 @@
 
 <p><a href="https://help.loginom.ru/userguide/visualization/cube/" target="_blank"><strong>Визуализатор Куб</strong>:</a>&nbsp;исправлена ошибка "Значение индекса 0 параметра "Items" вне диапазона [0; -1]", которая в редких случаях возникала при нажатии на иконку выбора значений фильтра в&nbsp;<em>Кубе</em>&nbsp;(#8093).</p>
 
-<p><a href="https://help.loginom.ru/userguide/integration/import/database.html" target="_blank"><strong>Импорт из базы данных:</strong></a>&nbsp;добавлена проверка настроек в мастере импорта из баз данных. Теперь пользователь получит предупреждение до перехода на следующий шаг мастера, в случае, если в мастере настройки не выбрана таблица базы данных или не задан SQL-запрос (#6525).</p>
+<p><a href="https://help.loginom.ru/userguide/integration/import/database.html" target="_blank"><strong>Import from Database:</strong></a>&nbsp;settings check in import from database wizard was added. Теперь пользователь получит предупреждение до перехода на следующий шаг мастера, в случае, если в мастере настройки не выбрана таблица базы данных или не задан SQL-запрос (#6525).</p>
 
 <p><a href="https://help.loginom.ru/userguide/processors/transformation/calc/index.html" target="_blank"><strong>Калькулятор</strong>:</a>&nbsp;исправлена ошибка Access violation, которая возникала в режиме JavaScript в случае, если пользователь допустил синтаксические ошибки в выражении, проигнорировал сообщение о наличии синтаксической ошибки и запустил узел Калькулятор (#9224).</p>
 
@@ -35,7 +35,7 @@
 
 <p><a href="https://help.loginom.ru/userguide/processors/transformation/fields-features.html" target="_blank"><strong>Параметры полей</strong></a>,&nbsp;<a href="https://help.loginom.ru/userguide/processors/transformation/join/" target="_blank"><strong>Слияние:</strong></a>&nbsp;в мастерах настройки обработчиков&nbsp;<em>Параметры полей</em>&nbsp;и&nbsp;<em>Слияние</em>&nbsp;отключен функционал клонирования полей, который не предусмотрен в них (#9211).</p>
 
-<p><a href="https://help.loginom.ru/userguide/processors/variables/variables-to-table.html" target="_blank"><strong>Переменные в таблицу</strong>:&nbsp;</a>в режиме преобразования переменных в строки в подключенном к узлу визуализаторе&nbsp;<em>Качество данных</em>&nbsp;могли ошибочно определиться пропуски в колонках Имя и Метка. Внесены исправления в соответствующую функцию проверки (#9228).</p>
+<p><a href="https://help.loginom.ru/userguide/processors/variables/variables-to-table.html" target="_blank"><strong>Переменные в таблицу</strong>:&nbsp;</a>в режиме преобразования переменных в строки в подключенном к узлу визуализаторе&nbsp;<em>Качество данных</em>&nbsp;могли ошибочно определиться пропуски в колонках Имя и Метка. Corresponding check function was corrected (#9228).</p>
 
 <p><strong>Connection to Databases:</strong>&nbsp;CSS layout was corrected. Ранее в мастере настройки подключения к базам данных некорректно отображался редактора настроек SSL при изменении масштаба браузера (#9252).</p>
 
@@ -49,17 +49,17 @@
 
 <h2 id="повышение-информативности">UI/UX Improvements</h2>
 
-<p><a href="https://help.loginom.ru/userguide/processors/control/execute-node.html" target="_blank"><strong>Выполнение узла</strong></a>,&nbsp;<a href="https://help.loginom.ru/userguide/processors/control/reference-node.html" target="_blank"><strong>Узел-ссылка:</strong></a>&nbsp;сообщения об ошибках в указанных узлах сделаны более информативными. В тексте сообщения содержится GUID исходного узла, а в некоторых случаях также выводится метка узла (#9259, #9315).</p>
+<p><a href="https://help.loginom.ru/userguide/processors/control/execute-node.html" target="_blank"><strong>Node execution</strong></a>,&nbsp;<a href="https://help.loginom.ru/userguide/processors/control/reference-node.html" target="_blank"><strong>Reference node:</strong></a>&nbsp;error messages in the specified nodes became more informative. Message text contains GUID of source node and in some cases node caption is displayed (#9259, #9315).</p>
 
 <h2 id="улучшения">Improvements</h2>
 
-<p><a href="https://help.loginom.ru/adminguide/integrator/" target="_blank"><strong>Loginom Integrator:</strong></a>&nbsp;добавлена периодическая проверка соединения с сервером. Integrator каждый час отправляет запросы Loginom Server для отслеживания изменений опубликованных пакетов, чтобы исключить ситуацию, при которой через какое-то время после запуска Loginom Integrator может перестать реагировать на изменение опубликованных пакетов (#9314).</p>
+<p><a href="https://help.loginom.ru/adminguide/integrator/" target="_blank"><strong>Loginom Integrator:</strong></a>&nbsp;periodic check of server connection was added. Integrator каждый час отправляет запросы Loginom Server для отслеживания изменений опубликованных пакетов, чтобы исключить ситуацию, при которой через какое-то время после запуска Loginom Integrator может перестать реагировать на изменение опубликованных пакетов (#9314).</p>
 
-<p><a href="https://help.loginom.ru/adminguide/server/" target="_blank"><strong>Loginom Server:</strong>&nbsp;</a>добавлен перехват и логирование исключения при закрытии пакета, выполняемого через Loginom Integrator. Теперь, если опубликованный узел отработал успешно, а при закрытии пакета возникла ошибка, то запрос в Loginom Integrator завершится успешно. Если опубликованный узел отработал с ошибкой, и при закрытии пакета возникла ошибка, то информация о первой ошибке не потеряется (#9290).</p>
+<p><a href="https://help.loginom.ru/adminguide/server/" target="_blank"><strong>Loginom Server:</strong>&nbsp;</a>добавлен перехват и логирование исключения при закрытии пакета, выполняемого через Loginom Integrator. Now, if the published node successfully finished its operation, and an error occurred when closing the package, request to Loginom Integrator was successfully finished. Если опубликованный узел отработал с ошибкой, и при закрытии пакета возникла ошибка, то информация о первой ошибке не потеряется (#9290).</p>
 
 <p><strong>Веб-приложение, Настольное приложение:</strong>&nbsp;актуализированы иконки социальных сетей, удалены ссылки на Instagram и Facebook (организации, деятельность которых запрещена на территории России) (#9253).</p>
 
-<p><a href="https://help.loginom.ru/userguide/integration/import/1c-db.html" target="_blank"><strong>Импорт из 1С:</strong></a>&nbsp;добавлена поддержка временных таблиц в запросах импорта из 1С (#9225).</p>
+<p><a href="https://help.loginom.ru/userguide/integration/import/1c-db.html" target="_blank"><strong>Import from 1С:</strong></a>&nbsp;support of time tables was added in requests of import from 1C (#9225).</p>
 
 <div class="text-align-center">
 <p class="lg-text-btn lg-text-btn_border"><a href="https://loginom.ru/download">Try new version</a></p>
