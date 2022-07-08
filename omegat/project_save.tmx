@@ -7336,6 +7336,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Устранен ряд проблем с производными компонентами.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220708T163238Z" creationid="Марианна" creationdate="20220708T163238Z">
+        <seg>Some problems with derived components were eliminated.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Фильтрация</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220224T065111Z" creationid="Марианна" creationdate="20220224T065111Z">
