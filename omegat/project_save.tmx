@@ -1160,8 +1160,8 @@
       <tuv lang="ru">
         <seg>&lt;s0&gt;Oracle, ODBC:&lt;/s0&gt; исправлено чтение полей таблиц с именами, содержащими буквы в нижнем регистре.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220708T163558Z" creationid="Марианна" creationdate="20220708T163558Z">
-        <seg>&lt;s0&gt;Oracle, ODBC:&lt;/s0&gt; read of table fields with names containing lowercase letters.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20220708T163645Z" creationid="Марианна" creationdate="20220708T163558Z">
+        <seg>&lt;s0&gt;Oracle, ODBC:&lt;/s0&gt; reading of table fields with names containing lowercase letters was corrected.</seg>
       </tuv>
     </tu>
     <tu>
