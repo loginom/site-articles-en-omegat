@@ -1776,8 +1776,8 @@
       <tuv lang="ru">
         <seg>&lt;s0&gt;Подмодель:&lt;/s0&gt; отключено отложенное обновление конфигурации производного компонента, если он нигде не используется.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220711T103741Z" creationid="Марианна" creationdate="20220711T103741Z">
-        <seg>&lt;s0&gt;Supernode:&lt;/s0&gt; delayed configuration update of the derived component if it used nowhere else.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20220711T103820Z" creationid="Марианна" creationdate="20220711T103741Z">
+        <seg>&lt;s0&gt;Supernode:&lt;/s0&gt; delayed configuration update of the derived component was disabled if it was used nowhere else.</seg>
       </tuv>
     </tu>
     <tu>
