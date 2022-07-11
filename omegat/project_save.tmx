@@ -1278,6 +1278,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Быстрый просмотр:&lt;/s0&gt; при изменении данных, подаваемых на вход подмодели, данные в &lt;e1&gt;Быстром просмотре&lt;/e1&gt; узла, находящегося внутри подмодели, могли не обновиться.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220711T083921Z" creationid="Марианна" creationdate="20220711T083921Z">
+        <seg>&lt;s0&gt;Quick view:&lt;/s0&gt; when changing the data supplied to the supernode input, the data in &lt;e1&gt;Quick view&lt;/e1&gt; node in the supernode could not be updated.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Веб-приложение, Настольное приложение:&lt;/s0&gt; если один из открытых пакетов был заблокирован, например, выполнялся один из его узлов, то при попытке на соседней вкладке закрыть не связанный с ним пакет возникало сообщение об ошибке «Сценарий содержит &lt;…&gt; заблокированных узлов» (#5735, #7608, #8131).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210323T073941Z" creationid="Марианна" creationdate="20210322T231908Z">
