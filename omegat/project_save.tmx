@@ -1846,6 +1846,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Редактор ввода дата/время:&lt;/s0&gt; доработан редактор ввода данных типа Дата/Время.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220711T103927Z" creationid="Марианна" creationdate="20220711T103927Z">
+        <seg>&lt;s0&gt;Time/date entry editor:&lt;/s0&gt; Date/Time data type editor was improved.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Ссылки на пакеты:&lt;/s0&gt; при пересохранении пакета возникало повреждение ссылки, в результате чего используемые из подключаемого файла узлы не находились.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220426T113140Z" creationid="Марианна" creationdate="20220426T084903Z">
