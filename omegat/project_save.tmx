@@ -992,8 +992,8 @@
       <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Подмодель&lt;/s1&gt;:&lt;/a0&gt; исправлено определение базового пакета внутри вложенных производных &lt;e2&gt;Подмоделей&lt;/e2&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220711T103258Z" creationid="Марианна" creationdate="20220711T103258Z">
-        <seg>&lt;a0&gt;&lt;s1&gt;Supernode&lt;/s1&gt;:&lt;/a0&gt; definition of the base package was corrected inside the nested derivatives of  &lt;e2&gt;Supernodes&lt;/e2&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20220711T103319Z" creationid="Марианна" creationdate="20220711T103258Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Supernode&lt;/s1&gt;:&lt;/a0&gt; definition of the base package was corrected inside the nested derivatives of &lt;e2&gt;Supernodes&lt;/e2&gt;.</seg>
       </tuv>
     </tu>
     <tu>
