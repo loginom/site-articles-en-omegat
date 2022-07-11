@@ -390,6 +390,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;a0&gt;&lt;s1&gt;Loginom Server:&lt;/s1&gt; &lt;/a0&gt;добавлен перехват и логирование исключения при закрытии пакета, выполняемого через Loginom Integrator.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220711T104705Z" creationid="Марианна" creationdate="20220711T104705Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Loginom Server:&lt;/s1&gt; &lt;/a0&gt;intercepting and logging of exclusion when closing the package executed via Loginom Integrator.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Python:&lt;/s1&gt;&lt;/a0&gt; исправлена ошибка утечки памяти при использовании Python.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220425T153716Z" creationid="Марианна" creationdate="20220425T150432Z">
