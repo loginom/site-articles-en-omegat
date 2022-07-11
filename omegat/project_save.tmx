@@ -5144,8 +5144,8 @@
       <tuv lang="ru">
         <seg>Исправили ошибки, возникавшие при работе с базами данных, визуализаторами, компонентами Калькулятор, JavaScript и Python.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220708T163134Z" creationid="Марианна" creationdate="20220708T163134Z">
-        <seg>The errors occurring when working with databases, visualizers, Calculator, JavaScript and Python components.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20220711T111751Z" creationid="Марианна" creationdate="20220708T163134Z">
+        <seg>The errors occurring when working with databases, visualizers, Calculator, JavaScript and Python components were corrected.</seg>
       </tuv>
     </tu>
     <tu>
