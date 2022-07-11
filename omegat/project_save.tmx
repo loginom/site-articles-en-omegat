@@ -3894,6 +3894,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В некоторых случаях после конвертации пакетов, созданных в более ранних версиях Loginom (добавления производных компонентов по опубликованным узлам при конвертации), а также в системах с высокой нагрузкой могли возникать множественные ошибки при логировании во время отложенного обновления конфигурации производных компонентов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220711T105331Z" creationid="Марианна" creationdate="20220711T105331Z">
+        <seg>In some cases after conversion of packges created in the eralier Loginom versions (addition of the derived component for published nodes during conversio), and many errors could occur when logging during the delayed updating of configuration of derived components.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В новой версии платформы его функционал был значительно улучшен:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220227T085621Z" creationid="Марианна" creationdate="20220227T085621Z">
