@@ -1622,6 +1622,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Маппинг полей:&lt;/s0&gt; в некоторых случаях в мастере &lt;e1&gt;Маппинга полей&lt;/e1&gt; связь между входным и выходным полем не совпадала с центром записи.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220711T093851Z" creationid="Марианна" creationdate="20220711T093851Z">
+        <seg>&lt;s0&gt;Fields mapping:&lt;/s0&gt; in some cases in &lt;e1&gt;Fields mapping&lt;/e1&gt; wizard connection of the input and output fields did not map the record center.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Настольное приложение:&lt;/s0&gt; если использовалось несколько мониторов и окно приложения переносилось на дополнительный экран, то при разворачивании на весь экран окно приложения сворачивалось и было невозможно его восстановить.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210322T225012Z" creationid="Марианна" creationdate="20210322T224658Z">
