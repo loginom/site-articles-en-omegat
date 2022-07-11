@@ -1424,8 +1424,8 @@
       <tuv lang="ru">
         <seg>&lt;s0&gt;Визуализатор «Качество данных»:&lt;/s0&gt; исправлена ошибка в функции конвертирования целочисленных данных, из-за которой в некоторых случаях (например, если в наборе данных присутствовало 64-битное целое число) при расчете статистики пользователь мог получить сообщение "Overflow while converting variant of type..." (#9275).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220711T090535Z" creationid="Марианна" creationdate="20220711T090535Z">
-        <seg>&lt;s0&gt;"Data Quality" visualizer:&lt;/s0&gt; the error in the function of integer data conversion was corrected. Thus, in some cases (for example, if 64-bit integer was in the data set) when calculating statistics, a user could receive the following message: "Overflow while converting variant of type..." (#9275).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20220711T112123Z" creationid="Марианна" creationdate="20220711T090535Z">
+        <seg>&lt;s0&gt;"Data Quality" visualizer:&lt;/s0&gt; the error in the integer data conversion function was corrected. Thus, in some cases (for example, if 64-bit integer was in the data set) when calculating statistics, a user could receive the following message: "Overflow while converting variant of type..." (#9275).</seg>
       </tuv>
     </tu>
     <tu>
