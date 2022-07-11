@@ -7474,8 +7474,8 @@
       <tuv lang="ru">
         <seg>Теперь пользователь получит предупреждение до перехода на следующий шаг мастера, в случае, если в мастере настройки не выбрана таблица базы данных или не задан SQL-запрос (#6525).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220711T091747Z" creationid="Марианна" creationdate="20220711T091736Z">
-        <seg>Now, a user will receive a warning before the next wizard step if database table was not selected in the wizard, or SQL request was not set (#6525).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20220711T112246Z" creationid="Марианна" creationdate="20220711T091736Z">
+        <seg>Now, a user will receive a warning before the next wizard step if database table is not selected in the wizard, or SQL request is not set (#6525).</seg>
       </tuv>
     </tu>
     <tu>
