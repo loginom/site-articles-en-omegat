@@ -6952,6 +6952,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Реализовано более точное определение координат, с учетом того, что записи в таблице с полями могут быть сгруппированы и иметь заголовок и/или итоговую строку для группы (#9283).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220711T094225Z" creationid="Марианна" creationdate="20220711T094225Z">
+        <seg>More precise position determination was implemented taking into account that the records in the table with fields cauld be grouped and headed and/or final row for the group (#9283).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Резюме качества основывается на индексе качества и числе пропусков по заданному в настройке параметру «Максимально допустимый процент пропусков», в результате чего выдается одно из значений по каждому полю: «Непригодный», «Пригодный», «Предобработка».</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220302T114736Z" creationid="Марианна" creationdate="20220302T114652Z">
