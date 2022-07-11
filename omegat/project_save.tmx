@@ -680,8 +680,8 @@
       <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Импорт из базы данных:&lt;/s1&gt;&lt;/a0&gt; добавлена проверка настроек в мастере импорта из баз данных.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220708T164228Z" creationid="Марианна" creationdate="20220708T164228Z">
-        <seg>&lt;a0&gt;&lt;s1&gt;Import from Database:&lt;/s1&gt;&lt;/a0&gt; settings check in import from database wizard was added.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20220711T112221Z" creationid="Марианна" creationdate="20220708T164228Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Import from Database:&lt;/s1&gt;&lt;/a0&gt; settings check was added in import from database wizard.</seg>
       </tuv>
     </tu>
     <tu>
