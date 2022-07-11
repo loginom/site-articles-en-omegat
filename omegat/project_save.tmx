@@ -6730,8 +6730,8 @@
       <tuv lang="ru">
         <seg>Ранее в мастере настройки подключения к базам данных некорректно отображался редактора настроек SSL при изменении масштаба браузера (#9252).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220711T103113Z" creationid="Марианна" creationdate="20220711T103113Z">
-        <seg>Previously, SSL settings editor was incorrectly displayed in the wizard of dtdbase connection when changing the browser scale (#9252).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20220711T103149Z" creationid="Марианна" creationdate="20220711T103113Z">
+        <seg>Previously, SSL settings editor was incorrectly displayed in the wizard of database connection when changing the browser scale (#9252).</seg>
       </tuv>
     </tu>
     <tu>
