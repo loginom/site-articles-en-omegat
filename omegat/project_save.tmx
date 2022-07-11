@@ -4952,8 +4952,8 @@
       <tuv lang="ru">
         <seg>Если у производного компонента запрашивается конфигурация (например, при загрузке пакета, содержащего производный узел) и при этом в компоненте закэширована устаревшая конфигурация, а базовый узел заблокирован (например, если пакет, в котором находится базовый узел, открыт как общий и активируется в рамках другой сессии пользователя), то не выводится сообщение об ошибке, а используется эта устаревшая конфигурация, и пишется сообщение в лог (#9251).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220711T111610Z" creationid="Марианна" creationdate="20220711T111434Z">
-        <seg>If configuration is requested for the derived component (for example, when loading the package that contained the derived node), and in this case, the outdated configuration was cached in the component, and the base node was locked (for example, if the package in which the base node was located, was opened as the public one and it was activated within another user session), an error message was not displayed, this updated configuration was used, and message was recorded in the log (#9251).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20220711T111653Z" creationid="Марианна" creationdate="20220711T111434Z">
+        <seg>If configuration is requested for the derived component (for example, when loading the package that contained the derived node), and in this case, the outdated configuration was cached in the component, and the base node was locked (for example, if the package in which the base node was located, was opened as the public one and it was activated within another user session), an error message was not displayed, this outdated configuration was used, and message was recorded to the log (#9251).</seg>
       </tuv>
     </tu>
     <tu>
