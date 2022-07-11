@@ -1302,6 +1302,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Веб-приложение, Настольное приложение:&lt;/s0&gt; после копирования узла сценария кнопка панели инструментов &lt;e1&gt;Вставить&lt;/e1&gt; и аналогичный пункт контекстного меню в некоторых случаях оставались неактивными.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220711T084702Z" creationid="Марианна" creationdate="20220711T084702Z">
+        <seg>&lt;s0&gt;Web application, Desktop application:&lt;/s0&gt; after copying the workflow node,&lt;e1&gt;Paste&lt;/e1&gt; toolbar button and the similar context menu item were inactive in some cases.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Визуализатор «Диаграмма»:&lt;/s0&gt; в Loginom 6.5.0 не работал экспорт диаграммы в формате «svg».</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220425T160329Z" creationid="Марианна" creationdate="20220425T160329Z">
