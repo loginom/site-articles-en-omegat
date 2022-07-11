@@ -7002,8 +7002,8 @@
       <tuv lang="ru">
         <seg>Ранее, при отрытии пакетов, созданных в предыдущих версиях Loginom, пользователь мог столкнутся с ситуацией, когда порядок столбцов в диаграмме с накоплением идет в обратном порядке относительно легенды (#9244).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220711T085410Z" creationid="Марианна" creationdate="20220711T085410Z">
-        <seg>Previously, when opening the packages created in the previous Loginom versions, a user could face the situation when the order of columns in the chart with accumulation is in reverse order relative to legend (#9244).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20220711T112033Z" creationid="Марианна" creationdate="20220711T085410Z">
+        <seg>Previously, when opening the packages created in the previous Loginom versions, a user could face the situation when the order of columns in the chart with accumulation was in reverse order relative to legend (#9244).</seg>
       </tuv>
     </tu>
     <tu>
