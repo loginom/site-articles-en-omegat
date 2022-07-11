@@ -6594,8 +6594,8 @@
       <tuv lang="ru">
         <seg>Ранее в мастерах импорта и экспорта в БД для &lt;e1&gt;Oracle&lt;/e1&gt; (а также для некоторых БД при подключении через ODBC) можно было получить пустой список полей для таблицы с именем, записанном в нижнем регистре (#9203).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220711T081835Z" creationid="Марианна" creationdate="20220711T081835Z">
-        <seg>Previously, it was possible to receive an empty list of fields for the table with the lowercase recorded name for &lt;e1&gt;Oracle&lt;/e1&gt; (and also for some DB when connecting via ODBC) in the import and export wizards for DB (#9203).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20220711T081957Z" creationid="Марианна" creationdate="20220711T081835Z">
+        <seg>Previously, it was possible to receive an empty list of fields for the table with the lowercase recorded name in the import and export wizards for DB for &lt;e1&gt;Oracle&lt;/e1&gt; (and also for some DB when connecting via ODBC) (#9203).</seg>
       </tuv>
     </tu>
     <tu>
