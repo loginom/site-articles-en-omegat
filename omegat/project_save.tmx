@@ -4862,6 +4862,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если опубликованный узел отработал с ошибкой, и при закрытии пакета возникла ошибка, то информация о первой ошибке не потеряется (#9290).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220711T104258Z" creationid="Марианна" creationdate="20220711T104258Z">
+        <seg>If the published node was used with a error, and when closing the package, an eror occurred, the information on the first error was not lost (#9290).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если после объединения классов, нажать на одну из кнопок, то происходило объединение классов, несмотря на то, что ни один из классов не был выделен.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210903T061313Z" creationid="Марианна" creationdate="20210903T061313Z">
