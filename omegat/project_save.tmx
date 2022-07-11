@@ -6888,6 +6888,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ранее, в некоторых случаях, переменная пакета PackageFileName содержала пустую строку, вместо имени пакета (#9221).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220711T103423Z" creationid="Марианна" creationdate="20220711T103423Z">
+        <seg>Previously, in some cases, PackageFileName  package variable contained an empty row inside the package name (#9221).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ранее, если на сервере было одновременно запущено большое количество сценариев, содержащих узлы, которые ожидают ответы от внешних приложений или сервисов (Выполнение программы, REST-запрос, импорт из Баз данных и тому подобные), то могла наблюдаться ситуация, когда процессор загружен значительно меньше 100%, но новые процессы не выполняются (#7255).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210903T140123Z" creationid="Марианна" creationdate="20210903T140123Z">
