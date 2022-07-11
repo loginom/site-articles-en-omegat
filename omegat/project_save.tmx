@@ -1488,8 +1488,8 @@
       <tuv lang="ru">
         <seg>&lt;s0&gt;Калькулятор:&lt;/s0&gt; внесены исправления в работу функции &lt;e1&gt;RegExMatchedExp&lt;/e1&gt;, которая в некоторых случаях могла выдать неверный результат (поиск регулярного выражения не начинался заново, если успешно найденная на предыдущем шаге строка была пустой) (#9310).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220711T093600Z" creationid="Марианна" creationdate="20220711T093600Z">
-        <seg>&lt;s0&gt;Calculator:&lt;/s0&gt; operation of &lt;e1&gt;RegExMatchedExp&lt;/e1&gt; function was corrected. In some cases misleading results could be obtained (search for the regular expression was not again started if the row successfully found at the previous step was empty (#9310).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20220711T093713Z" creationid="Марианна" creationdate="20220711T093600Z">
+        <seg>&lt;s0&gt;Calculator:&lt;/s0&gt; operation of &lt;e1&gt;RegExMatchedExp&lt;/e1&gt; function was corrected. In some cases misleading results could be obtained (search for the regular expression was not again started if the row successfully found at the previous step was empty) (#9310).</seg>
       </tuv>
     </tu>
     <tu>
