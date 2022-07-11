@@ -3478,6 +3478,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Было обнаружено, что драйвер ODBC для &lt;e2&gt;PostgreSQL&lt;/e2&gt; не может вернуть количество столбцов для подготовленного, но невыполненного запроса.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220711T082527Z" creationid="Марианна" creationdate="20220711T082049Z">
+        <seg>It was detected that ODBC driver for &lt;e2&gt;PostgreSQL&lt;/e2&gt; cannot return the number of columns for the prepared but not executed request.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Быстрый просмор данных в Loginom</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T203237Z" creationid="Марианна" creationdate="20210314T203237Z">
