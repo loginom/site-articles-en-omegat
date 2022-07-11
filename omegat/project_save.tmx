@@ -1358,6 +1358,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Веб-приложение, Настольное приложение:&lt;/s0&gt; актуализированы иконки социальных сетей, удалены ссылки на Instagram и Facebook (организации, деятельность которых запрещена на территории России) (#9253).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220711T104541Z" creationid="Марианна" creationdate="20220711T104541Z">
+        <seg>&lt;s0&gt;Web application, Desktop application:&lt;/s0&gt; the social networks icons were  actualized, links to Instagram and Facebook (the organizations activity of which is prohibited in the territory of the Russian Federation) were deleted (#9253).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Веб-приложение, Настольное приложение:&lt;/s0&gt; после копирования узла сценария кнопка панели инструментов &lt;e1&gt;Вставить&lt;/e1&gt; и аналогичный пункт контекстного меню в некоторых случаях оставались неактивными.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220711T084702Z" creationid="Марианна" creationdate="20220711T084702Z">
@@ -4864,8 +4872,8 @@
       <tuv lang="ru">
         <seg>Если опубликованный узел отработал с ошибкой, и при закрытии пакета возникла ошибка, то информация о первой ошибке не потеряется (#9290).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220711T104258Z" creationid="Марианна" creationdate="20220711T104258Z">
-        <seg>If the published node was used with a error, and when closing the package, an eror occurred, the information on the first error was not lost (#9290).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20220711T104322Z" creationid="Марианна" creationdate="20220711T104258Z">
+        <seg>If the published node was used with an error, and when closing the package, an error occurred, the information on the first error was not lost (#9290).</seg>
       </tuv>
     </tu>
     <tu>
