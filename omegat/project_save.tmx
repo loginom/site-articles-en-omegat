@@ -1766,6 +1766,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Подмодель:&lt;/s0&gt; исправлена ошибка "Компонент неисправен" при создании производного узла, если базовый узел изменён и заблокирован.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220711T103618Z" creationid="Марианна" creationdate="20220711T103618Z">
+        <seg>&lt;s0&gt;Supernode:&lt;/s0&gt; The following error was corrected: "Component is malfunctioned". It occurred when creating the derived node if the base node was changed and locked.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Производные компоненты:&lt;/s0&gt; исправлена ошибка «Перемещённый производный компонент недоступен для узла» при сворачивании в Подмодель (#8931).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220425T203912Z" creationid="Марианна" creationdate="20220425T203912Z">
