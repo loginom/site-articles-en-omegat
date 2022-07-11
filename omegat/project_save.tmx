@@ -910,6 +910,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;a0&gt;&lt;s1&gt;Переменные в таблицу&lt;/s1&gt;: &lt;/a0&gt;в режиме преобразования переменных в строки в подключенном к узлу визуализаторе &lt;e2&gt;Качество данных&lt;/e2&gt; могли ошибочно определиться пропуски в колонках Имя и Метка.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220711T102911Z" creationid="Марианна" creationdate="20220711T102911Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Variables to table&lt;/s1&gt;: &lt;/a0&gt;in the variables to rows conversion mode in the &lt;e2&gt;Data quality&lt;/e2&gt; visualizer connected to the node, null data could be incorrectly defined in Name and Caption columns.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Переменные:&lt;/s1&gt;&lt;/a0&gt; исправлено применение значений переменных пакета для случая группового редактирования переменных различных типов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220425T201229Z" creationid="Марианна" creationdate="20220425T201116Z">
