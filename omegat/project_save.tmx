@@ -4670,6 +4670,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если в наборе данных у дискретного поля имелись выбросы, но не было экстремальных значений, то при выделении ячейки с информацией о выбросах пользователь видел пустую таблицу &lt;e3&gt;Детализация&lt;/e3&gt;, а не строки, в которых найдены выбросы (#9209).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220711T085824Z" creationid="Марианна" creationdate="20220711T085824Z">
+        <seg>If there were outliers in the data set of the discrete field but there were no extreme values, when selecting the cell with information on outliers, a user could see the empty &lt;e3&gt;Detailing&lt;/e3&gt; table but not the rows in which outliers were detected (#9209).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если в настройках публикации пакета установлен параметр «Обновлять публикацию при сохранении пакета», то при любом редактировании веб-сервиса и сохранении пакета он будет автоматически переопубликован с учетом самых последних изменений.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220227T153725Z" creationid="Марианна" creationdate="20220227T153725Z">
