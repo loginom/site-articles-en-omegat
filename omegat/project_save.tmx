@@ -1848,8 +1848,8 @@
       <tuv lang="ru">
         <seg>&lt;s0&gt;Редактор ввода дата/время:&lt;/s0&gt; доработан редактор ввода данных типа Дата/Время.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220711T103927Z" creationid="Марианна" creationdate="20220711T103927Z">
-        <seg>&lt;s0&gt;Time/date entry editor:&lt;/s0&gt; Date/Time data type editor was improved.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20220711T104010Z" creationid="Марианна" creationdate="20220711T103927Z">
+        <seg>&lt;s0&gt;Date/time entry editor:&lt;/s0&gt; Date/Time data entry editor was improved.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6812,6 +6812,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T204622Z" creationid="Марианна" creationdate="20210314T204622Z">
         <seg>Previously, it was not possible to get and use this identifier.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Ранее нельзя было задать вручную дату с точностью до секунды (например, при задании переменной типа Дата/Время) (#9204).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220711T104143Z" creationid="Марианна" creationdate="20220711T104143Z">
+        <seg>Previously, it was not possible to set the date manually within the accuracy of a second (for example, when setting the Date/Time type variable) (#9204).</seg>
       </tuv>
     </tu>
     <tu>
