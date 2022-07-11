@@ -2440,8 +2440,8 @@
       <tuv lang="ru">
         <seg>Integrator каждый час отправляет запросы Loginom Server для отслеживания изменений опубликованных пакетов, чтобы исключить ситуацию, при которой через какое-то время после запуска Loginom Integrator может перестать реагировать на изменение опубликованных пакетов (#9314).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220711T105056Z" creationid="Марианна" creationdate="20220711T105056Z">
-        <seg>Every hour Integrator sends requests to Loginom Server to track changes of the published packages to exclude the situation when Loginom Integrator could stop react to change of published packages after a while after start of Loginom Integrator (#9314).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20220711T105143Z" creationid="Марианна" creationdate="20220711T105056Z">
+        <seg>Every hour Integrator sends requests to Loginom Server to track changes of published packages to exclude the situation when Loginom Integrator could stop react to change of published packages after a while after start of Loginom Integrator (#9314).</seg>
       </tuv>
     </tu>
     <tu>
