@@ -4950,6 +4950,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если у производного компонента запрашивается конфигурация (например, при загрузке пакета, содержащего производный узел) и при этом в компоненте закэширована устаревшая конфигурация, а базовый узел заблокирован (например, если пакет, в котором находится базовый узел, открыт как общий и активируется в рамках другой сессии пользователя), то не выводится сообщение об ошибке, а используется эта устаревшая конфигурация, и пишется сообщение в лог (#9251).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220711T111434Z" creationid="Марианна" creationdate="20220711T111434Z">
+        <seg>If configiration is requested for the derived component (for example, when loading the package that contains the derived node), and in this case, the outdated configuration was cached in the component, and the base node was locked (for example, if the package in which the base node was located, was opened as the public one and it was activatd within another user session), error message was not displayed, this updated configuration was used, and message was recorded in the log (#9251).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Еще одно новшество — это гибкая настройка импорта данных из хранилища при помощи переменных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220304T150744Z" creationid="Марианна" creationdate="20220304T150719Z">
