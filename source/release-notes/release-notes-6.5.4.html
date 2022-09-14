@@ -1,0 +1,50 @@
+<h2 id="исправление-ошибок">Исправление ошибок</h2>
+
+<p><a href="https://help.loginom.ru/userguide/processors/programming/python/" target="_blank"><strong>Python:</strong></a>&nbsp;Исправлена работа Python с модулем numexpr в режиме выполнения кода Python внутри процесса. Ранее при использовании pandas и пакета numexpr запуск узла&nbsp;<em>Python</em>&nbsp;приводил к ошибке "Offset exceed JPM opcode limit". (#9403).</p>
+
+<p><a href="https://help.loginom.ru/userguide/visualization/cube/" target="_blank"><strong>Визуализатор Куб</strong>:</a>&nbsp;В некоторых случаях идентификаторы заголовков&nbsp;<em>Куба</em>&nbsp;передавались с сервера в урезанном виде. Внесли необходимы правки, чтобы избежать возможных ошибок при отображении заголовков кросс-таблицы&nbsp;<em>Куба</em>&nbsp;(#8708).</p>
+
+<p><a href="https://help.loginom.ru/userguide/integration/import/excel.html" target="_blank"><strong>Импорт из Excel:</strong></a>&nbsp;В импорте из Excel после закрытия мастера настройки узла не сохранялась настройка параметра&nbsp;<em>Имя объекта</em>, заданная переменной. Из-за этого было невозможно выполнить в цикле импорт из нескольких листов книги Excel (#9266).</p>
+Исправлена работа Python с модулем numexpr в режиме выполнения кода внутри процесса, устранены ошибки, возникавших при выполнении запросов к базам данных, регрессионные ошибки в нескольких обработчиках. Добавлена возможность активации узлов JavaScript и Python, порты источников данных которых подключены к неактивным ветвям узла Условие.
+<p><a href="https://help.loginom.ru/userguide/integration/import/database.html" target="_blank"><strong>Импорт из базы данных:</strong></a>&nbsp;Не активировались входные переменные при первом запуске предпросмотра результатов SQL-запроса в мастере настройки импорта из БД. В результате, если запрос содержал переменные в качестве параметра или макроподстановки, пользователь получал сообщение об ошибке: "Ошибка открытия SQL: SELECT from ... near "from": syntax error" (#9353).</p>
+
+<p><a href="https://help.loginom.ru/userguide/processors/preprocessing/coarse-classes.html" target="_blank"><strong>Конечные классы:</strong></a>&nbsp;В мастере настройки узла для выходного дискретного поля переменного типа не сохранялось установленное&nbsp;<em>Настраиваемое значение "события"</em>. После сохранения и повторного открытия мастера настройки&nbsp;<em>Настраиваемое значение "события"</em>&nbsp;сбрасывалось в null (#9356).</p>
+
+<p><a href="https://help.loginom.ru/userguide/processors/transformation/cross-table/" target="_blank"><strong>Кросс-таблица:</strong></a>&nbsp;Добавлена проверка на переполнение для количества результирующих колонок.</p>
+
+<p><a href="https://help.loginom.ru/userguide/integration/connections/list/postgresql.html" target="_blank"><strong>Подключение PostgreSQL:</strong></a>&nbsp;Исправлена ошибка "column "value" is of type json but expression is of type character varying", которая возникала при попытке экспорта 1-ой строки в поля xml или json в БД PostgreSQL (#9247).</p>
+
+<p><a href="https://help.loginom.ru/userguide/integration/connections/list/sqlite.html" target="_blank"><strong>Подключение SQLite:</strong></a>&nbsp;В SQLite с настройками подключения по умолчанию (режим работы LIKE "Без учета регистра") не работали запросы, содержащие LIKE и не заканчивающиеся знаком %. Внесли необходимые исправления (#9361).</p>
+
+<p><a href="https://help.loginom.ru/userguide/processors/transformation/row-filter/" target="_blank"><strong>Фильтр строк:</strong></a>&nbsp;В сценариях, созданных до версии 6.5.0, перестали работать переменные в обработчике&nbsp;<em>Фильтр строк</em>, в случаях если тип поля и переменной несовместимы (#9284).</p>
+
+<p><strong>Фильтр строк:</strong>&nbsp;В мастере настройки узла предпросмотр не изменял данные, при изменении переменной, используемой в условии фильтра (#9423).</p>
+
+<h2 id="улучшения">Улучшения</h2>
+
+<p><a href="https://help.loginom.ru/userguide/processors/programming/java-script/" target="_blank"><strong>JavaScript</strong></a>,&nbsp;<strong>Python:</strong>&nbsp;Добавлена возможность активации узлов&nbsp;<em>JavaScript</em>&nbsp;и&nbsp;<em>Python</em>, порты источников данных которых подключены к неактивным ветвям узла&nbsp;<em>Условие</em>. Если у входных портов есть связи, то по крайней мере один входной порт должен быть подключен к активной ветви. Порт входных переменных должен быть подключен к активной ветви или не иметь связи (#9367).</p>
+
+<p>В связи с внесенными изменениями стоит обратить внимание на следующее:</p>
+
+<ol>
+	<li>
+	<p>Сценарии, подготовленные в более ранних версиях, могут завершаться с ошибкой на узлах&nbsp;<em>JavaScript</em>&nbsp;и&nbsp;<em>Python</em>, которые были не рассчитаны на активацию в неактивной ветви&nbsp;<em>Условия</em>.</p>
+	</li>
+	<li>
+	<p>Может измениться результат работы сценария, если данные, возвращаемые ранее неактивными узлами&nbsp;<em>JavaScript</em>&nbsp;и&nbsp;<em>Python</em>, задействованы в следующих узлах сценария.</p>
+	</li>
+</ol>
+
+<p><strong>SQLite:</strong>&nbsp;Оптимизирована загрузка библиотеки sqlite.</p>
+
+<p><a href="https://help.loginom.ru/userguide/integration/import/txt-csv.html" target="_blank"><strong>Импорт из текстового файла:</strong></a>&nbsp;Оптимизирована обработка значений типа Дата/Время. В результате импорт из текстового файла стал работать в 1.5 раза быстрее.</p>
+
+<p>&nbsp;</p>
+
+<div class="text-align-center">
+<p class="lg-text-btn lg-text-btn_border"><a href="https://loginom.ru/download">Попробовать новую версию</a></p>
+</div>
+
+<p>&nbsp;</p>
+
+<a href="https://day.loginom.ru/"><img src="/sites/default/files/blogpost-files/events_loginom-day_2022_banner-invitation_banner-invitation_792x200.svg" alt=""></a>
