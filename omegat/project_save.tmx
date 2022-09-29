@@ -742,6 +742,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;a0&gt;&lt;s1&gt;Импорт из текстового файла:&lt;/s1&gt;&lt;/a0&gt; Оптимизирована обработка значений типа Дата/Время.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220929T153714Z" creationid="Марианна" creationdate="20220929T153714Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Import from text file:&lt;/s1&gt;&lt;/a0&gt; Processing of Date/Time type values was optimised.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Импорт из текстового файла:&lt;/s1&gt;&lt;/a0&gt; если на странице «Параметры импорта с разделителями» была выделена ячейка в столбце, метка которого содержит запятую &lt;e2&gt;&lt;,&gt;&lt;/e2&gt;, то при изменении настроек в мастере возникала ошибка «Invalid ComponentQuery selector: ...» (#7456).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210616T201317Z" creationid="Марианна" creationdate="20210616T201317Z">
@@ -4162,6 +4170,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211229T100822Z" creationid="Марианна" creationdate="20211229T100822Z">
         <seg>The error was corrected after improvement of the third-party module (#7178, #8877, #8897).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В результате импорт из текстового файла стал работать в 1.5 раза быстрее.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220929T153916Z" creationid="Марианна" creationdate="20220929T153916Z">
+        <seg>In the result, import from text file became by 1.5 times faster.</seg>
       </tuv>
     </tu>
     <tu>
