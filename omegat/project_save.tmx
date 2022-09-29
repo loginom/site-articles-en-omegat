@@ -7482,8 +7482,8 @@
       <tuv lang="ru">
         <seg>Сценарии, подготовленные в более ранних версиях, могут завершаться с ошибкой на узлах &lt;e0&gt;JavaScript&lt;/e0&gt; и &lt;e1&gt;Python&lt;/e1&gt;, которые были не рассчитаны на активацию в неактивной ветви &lt;e2&gt;Условия&lt;/e2&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220929T155404Z" creationid="Марианна" creationdate="20220929T155404Z">
-        <seg>The workflows prepared in the earlier versions can be finished with an error on &lt;e0&gt;JavaScript&lt;/e0&gt; and &lt;e1&gt;Python&lt;/e1&gt; nodes that were not  designed for activation in the inactive &lt;e2&gt;Condition&lt;/e2&gt; branch.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20220929T155436Z" creationid="Марианна" creationdate="20220929T155404Z">
+        <seg>The workflows prepared in the earlier versions can be finished with an error on &lt;e0&gt;JavaScript&lt;/e0&gt; and &lt;e1&gt;Python&lt;/e1&gt; nodes that were not designed for activation in the inactive &lt;e2&gt;Condition&lt;/e2&gt; branch.</seg>
       </tuv>
     </tu>
     <tu>
