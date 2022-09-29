@@ -4222,6 +4222,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В связи с внесенными изменениями стоит обратить внимание на следующее:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220929T154216Z" creationid="Марианна" creationdate="20220929T154216Z">
+        <seg>It is required to pay special attention to the following facts connected with the introduced changes:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В связи с тем, что компонент выполняет код Python на сервере, на его использование накладывается ряд ограничений:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210320T220758Z" creationid="Марианна" creationdate="20210320T220758Z">
@@ -6483,6 +6491,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T202340Z" creationid="Марианна" creationdate="20210314T202340Z">
         <seg>Try new version</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Порт входных переменных должен быть подключен к активной ветви или не иметь связи (#9367).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220929T154403Z" creationid="Марианна" creationdate="20220929T154403Z">
+        <seg>The input variables port must be connected to the active branch or there must be no connection (#9367).</seg>
       </tuv>
     </tu>
     <tu>
