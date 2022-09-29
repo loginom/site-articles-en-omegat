@@ -1398,6 +1398,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;SQLite:&lt;/s0&gt; Оптимизирована загрузка библиотеки sqlite.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220929T154022Z" creationid="Марианна" creationdate="20220929T154022Z">
+        <seg>&lt;s0&gt;SQLite:&lt;/s0&gt; Sqlite library loading was optimised.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Автосохранение пакетов:&lt;/s0&gt; пользователям, не имеющих права на редактирование пакетов, была доступна настройка автосохранения пакетов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220425T153709Z" creationid="Марианна" creationdate="20220425T153709Z">
