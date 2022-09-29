@@ -5288,8 +5288,8 @@
       <tuv lang="ru">
         <seg>Исправлена работа Python с модулем numexpr в режиме выполнения кода внутри процесса, устранены ошибки, возникавших при выполнении запросов к базам данных, регрессионные ошибки в нескольких обработчиках.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220929T135745Z" creationid="Марианна" creationdate="20220929T135745Z">
-        <seg>The Python operation with numexpr module was corrected in the code execution mode inside the process, errors occurring while executing requests to databases were corrected, regression errors in several handlers were corrected.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20220929T143119Z" creationid="Марианна" creationdate="20220929T135745Z">
+        <seg>The Python operation with numexpr module was corrected in the code execution mode inside the process, errors occurring while executing requests to databases were corrected, regression bugs in several handlers were eliminated.</seg>
       </tuv>
     </tu>
     <tu>
