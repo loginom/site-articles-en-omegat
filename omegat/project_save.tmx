@@ -4326,6 +4326,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Внесли необходимые исправления (#9361).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220929T124732Z" creationid="Марианна" creationdate="20220929T124732Z">
+        <seg>The required corrections were introduced (#9361).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Возможность переиспользования компонентов и простота данной операции — одна из самых важных вещей при работе с Loginom.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220224T064255Z" creationid="Марианна" creationdate="20220224T064255Z">
