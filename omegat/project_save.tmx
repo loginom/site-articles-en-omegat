@@ -2070,6 +2070,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Фильтр строк:&lt;/s0&gt; В мастере настройки узла предпросмотр не изменял данные, при изменении переменной, используемой в условии фильтра (#9423).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220929T153539Z" creationid="Марианна" creationdate="20220929T153539Z">
+        <seg>&lt;s0&gt;Row filter:&lt;/s0&gt; The preview did not change data in the node wizard when changing the variable used in the filter condition (#9423).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Фильтр строк:&lt;/s0&gt; было невозможно настроить два и более условий по временному промежутку (&lt;e1&gt;первый/не первый или последний/не последний&lt;/e1&gt;) (#8634).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210903T103055Z" creationid="Марианна" creationdate="20210903T103055Z">
