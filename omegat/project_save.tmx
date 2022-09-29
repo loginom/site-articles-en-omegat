@@ -814,6 +814,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;a0&gt;&lt;s1&gt;Конечные классы:&lt;/s1&gt;&lt;/a0&gt; В мастере настройки узла для выходного дискретного поля переменного типа не сохранялось установленное &lt;e2&gt;Настраиваемое значение "события"&lt;/e2&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220929T151144Z" creationid="Марианна" creationdate="20220929T151144Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Coarse сlasses:&lt;/s1&gt;&lt;/a0&gt; The set &lt;e2&gt;Configured "event" value&lt;/e2&gt; was not saved in the node wizard for the output discrete field related to the variable type.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Конечные классы:&lt;/s1&gt;&lt;/a0&gt; если непрерывное входное поле не содержало ни одного значения, то узел переобучался, но потом его нельзя было активировать (#8298).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210903T113340Z" creationid="Марианна" creationdate="20210616T203234Z">
@@ -6435,6 +6443,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220425T152056Z" creationid="Марианна" creationdate="20220425T152056Z">
         <seg>The table stayed cleared after the error, and export was not executed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>После сохранения и повторного открытия мастера настройки &lt;e3&gt;Настраиваемое значение "события"&lt;/e3&gt; сбрасывалось в null (#9356).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220929T151515Z" creationid="Марианна" creationdate="20220929T151515Z">
+        <seg>After saving and repeated wizard opening &lt;e3&gt;Configured "event" value&lt;/e3&gt; was reset to null (#9356).</seg>
       </tuv>
     </tu>
     <tu>
