@@ -8,36 +8,36 @@
 The Python operation with numexpr module was corrected in the code execution mode inside the process, errors occurring while executing requests to databases were corrected, regression bugs in several handlers were eliminated. It became possible to activate JavaScript and Python nodes data sources ports of which are connected to the inactive Condition node branches.
 <p><a href="https://help.loginom.ru/userguide/integration/import/database.html" target="_blank"><strong>Import from database:</strong></a>&nbsp;The input variables were not activated after the first start of the SQL request results preview in the import from DB wizard. In the result, if the request contained variables as parameter or macro lookup, a user received the following error message: "Error when opening SQL: SELECT from ... near "from": syntax error" (#9353).</p>
 
-<p><a href="https://help.loginom.ru/userguide/processors/preprocessing/coarse-classes.html" target="_blank"><strong>Конечные классы:</strong></a>&nbsp;В мастере настройки узла для выходного дискретного поля переменного типа не сохранялось установленное&nbsp;<em>Настраиваемое значение "события"</em>. После сохранения и повторного открытия мастера настройки&nbsp;<em>Настраиваемое значение "события"</em>&nbsp;сбрасывалось в null (#9356).</p>
+<p><a href="https://help.loginom.ru/userguide/processors/preprocessing/coarse-classes.html" target="_blank"><strong>Coarse сlasses:</strong></a>&nbsp;The set&nbsp;<em>Configured "event" value</em> was not saved in the node wizard for the output discrete field related to the variable type. After saving and repeated wizard opening&nbsp;<em>Configured "event" value</em>&nbsp;was reset to null (#9356).</p>
 
-<p><a href="https://help.loginom.ru/userguide/processors/transformation/cross-table/" target="_blank"><strong>Кросс-таблица:</strong></a>&nbsp;Добавлена проверка на переполнение для количества результирующих колонок.</p>
+<p><a href="https://help.loginom.ru/userguide/processors/transformation/cross-table/" target="_blank"><strong>Cross table:</strong></a>&nbsp;Overflow checking was added for the number of resulting columns.</p>
 
-<p><a href="https://help.loginom.ru/userguide/integration/connections/list/postgresql.html" target="_blank"><strong>Подключение PostgreSQL:</strong></a>&nbsp;Исправлена ошибка "column "value" is of type json but expression is of type character varying", которая возникала при попытке экспорта 1-ой строки в поля xml или json в БД PostgreSQL (#9247).</p>
+<p><a href="https://help.loginom.ru/userguide/integration/connections/list/postgresql.html" target="_blank"><strong>PostgreSQL connection:</strong></a>&nbsp;The following error was corrected: "column "value" is of type json but expression is of type character varying". It occurred when trying to export the first row to xml or json fields in PostgreSQL DB (#9247).</p>
 
-<p><a href="https://help.loginom.ru/userguide/integration/connections/list/sqlite.html" target="_blank"><strong>Подключение SQLite:</strong></a>&nbsp;В SQLite с настройками подключения по умолчанию (режим работы LIKE "Без учета регистра") не работали запросы, содержащие LIKE и не заканчивающиеся знаком %. The required corrections were introduced (#9361).</p>
+<p><a href="https://help.loginom.ru/userguide/integration/connections/list/sqlite.html" target="_blank"><strong>SQLite connection:</strong></a>&nbsp;The requests that contained LIKE and did not end with % character were not operable in SQLite with the default connection settings ("Case-insensitive" LIKE operation mode). The required corrections were introduced (#9361).</p>
 
-<p><a href="https://help.loginom.ru/userguide/processors/transformation/row-filter/" target="_blank"><strong>Фильтр строк:</strong></a>&nbsp;В сценариях, созданных до версии 6.5.0, перестали работать переменные в обработчике&nbsp;<em>Фильтр строк</em>, в случаях если тип поля и переменной несовместимы (#9284).</p>
+<p><a href="https://help.loginom.ru/userguide/processors/transformation/row-filter/" target="_blank"><strong>Row filter:</strong></a>&nbsp;Variables in the&nbsp;<em>Row filter</em> handler became inoperable in the workflows created up to 6.5.0 version, if the field and variable types were incompatible (#9284).</p>
 
-<p><strong>Фильтр строк:</strong>&nbsp;В мастере настройки узла предпросмотр не изменял данные, при изменении переменной, используемой в условии фильтра (#9423).</p>
+<p><strong>Row filter:</strong>&nbsp;The preview did not change data in the node wizard when changing the variable used in the filter condition (#9423).</p>
 
 <h2 id="улучшения">Improvements</h2>
 
-<p><a href="https://help.loginom.ru/userguide/processors/programming/java-script/" target="_blank"><strong>JavaScript</strong></a>,&nbsp;<strong>Python:</strong>&nbsp;Добавлена возможность активации узлов&nbsp;<em>JavaScript</em>&nbsp;и&nbsp;<em>Python</em>, порты источников данных которых подключены к неактивным ветвям узла&nbsp;<em>Условие</em>. Если у входных портов есть связи, то по крайней мере один входной порт должен быть подключен к активной ветви. Порт входных переменных должен быть подключен к активной ветви или не иметь связи (#9367).</p>
+<p><a href="https://help.loginom.ru/userguide/processors/programming/java-script/" target="_blank"><strong>JavaScript</strong></a>,&nbsp;<strong>Python:</strong>&nbsp;It became possible to activate&nbsp;<em>JavaScript</em>&nbsp;and&nbsp;<em>Python</em> nodes, the data sources ports of which are connected to the inactive branches of the&nbsp;<em>Condition</em> node. If there are input ports connections, at least, one input port must be connected to the active branch. The input variables port must be connected to the active branch or there must be no connection (#9367).</p>
 
-<p>В связи с внесенными изменениями стоит обратить внимание на следующее:</p>
+<p>It is required to pay special attention to the following facts connected with the introduced changes:</p>
 
 <ol>
 	<li>
-	<p>Сценарии, подготовленные в более ранних версиях, могут завершаться с ошибкой на узлах&nbsp;<em>JavaScript</em>&nbsp;и&nbsp;<em>Python</em>, которые были не рассчитаны на активацию в неактивной ветви&nbsp;<em>Условия</em>.</p>
+	<p>The workflows prepared in the earlier versions can be finished with an error on <em>JavaScript</em>&nbsp;and&nbsp;<em>Python</em> nodes that were not designed for activation in the inactive <em>Condition</em> branch.</p>
 	</li>
 	<li>
-	<p>Может измениться результат работы сценария, если данные, возвращаемые ранее неактивными узлами&nbsp;<em>JavaScript</em>&nbsp;и&nbsp;<em>Python</em>, задействованы в следующих узлах сценария.</p>
+	<p>The workflow operation result can be changed if the data returned by the earlier inactive&nbsp;<em>JavaScript</em>&nbsp;and&nbsp;<em>Python</em> nodes were used in the next workflow nodes.</p>
 	</li>
 </ol>
 
-<p><strong>SQLite:</strong>&nbsp;Оптимизирована загрузка библиотеки sqlite.</p>
+<p><strong>SQLite:</strong>&nbsp;Sqlite library loading was optimised.</p>
 
-<p><a href="https://help.loginom.ru/userguide/integration/import/txt-csv.html" target="_blank"><strong>Импорт из текстового файла:</strong></a>&nbsp;Оптимизирована обработка значений типа Дата/Время. В результате импорт из текстового файла стал работать в 1.5 раза быстрее.</p>
+<p><a href="https://help.loginom.ru/userguide/integration/import/txt-csv.html" target="_blank"><strong>Import from text file:</strong></a>&nbsp;Processing of Date/Time type values was optimised. In the result, import from text file became by 1.5 times faster.</p>
 
 <p>&nbsp;</p>
 
