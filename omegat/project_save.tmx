@@ -720,8 +720,8 @@
       <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Импорт из базы данных:&lt;/s1&gt;&lt;/a0&gt; Не активировались входные переменные при первом запуске предпросмотра результатов SQL-запроса в мастере настройки импорта из БД.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220929T143944Z" creationid="Марианна" creationdate="20220929T143944Z">
-        <seg>&lt;a0&gt;&lt;s1&gt;Import from database:&lt;/s1&gt;&lt;/a0&gt; Не активировались входные переменные при первом запуске предпросмотра результатов SQL-запроса в мастере настройки импорта из БД.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20220929T145210Z" creationid="Марианна" creationdate="20220929T143944Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Import from database:&lt;/s1&gt;&lt;/a0&gt; The input variables were not activated after the first start of the SQL request results preview in the import from DB wizard.</seg>
       </tuv>
     </tu>
     <tu>
