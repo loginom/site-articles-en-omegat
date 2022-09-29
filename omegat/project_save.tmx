@@ -1016,8 +1016,8 @@
       <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Подключение SQLite:&lt;/s1&gt;&lt;/a0&gt; В SQLite с настройками подключения по умолчанию (режим работы LIKE "Без учета регистра") не работали запросы, содержащие LIKE и не заканчивающиеся знаком %.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220929T152507Z" creationid="Марианна" creationdate="20220929T152507Z">
-        <seg>&lt;a0&gt;&lt;s1&gt;SQLite connection:&lt;/s1&gt;&lt;/a0&gt;  The requests that contained LIKE and did not end with % character were not operable in SQLite with the default connection settings ("Case-insensitive" LIKE operation mode).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20220929T152812Z" creationid="Марианна" creationdate="20220929T152507Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;SQLite connection:&lt;/s1&gt;&lt;/a0&gt; The requests that contained LIKE and did not end with % character were not operable in SQLite with the default connection settings ("Case-insensitive" LIKE operation mode).</seg>
       </tuv>
     </tu>
     <tu>
