@@ -4662,6 +4662,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Добавлена возможность активации узлов JavaScript и Python, порты источников данных которых подключены к неактивным ветвям узла Условие.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220929T143834Z" creationid="Марианна" creationdate="20220929T143834Z">
+        <seg>It became possible to activate JavaScript and Python nodes data sources ports are connected to the inactive Condition node branches.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Добавлена возможность выполнить автоматическое определение структуры импортируемого файла.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220304T151251Z" creationid="Марианна" creationdate="20220304T151251Z">
