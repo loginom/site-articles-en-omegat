@@ -4318,6 +4318,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Внесли необходимы правки, чтобы избежать возможных ошибок при отображении заголовков кросс-таблицы &lt;e3&gt;Куба&lt;/e3&gt; (#8708).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220929T125031Z" creationid="Марианна" creationdate="20220929T125031Z">
+        <seg>The required corrections were made to avoid possible errors while displaying the &lt;e3&gt;Cube&lt;/e3&gt; cross table headers (#8708).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Внесли необходимые исправления (#7377).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220708T164102Z" creationid="Марианна" creationdate="20220708T164102Z">
