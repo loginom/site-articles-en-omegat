@@ -376,8 +376,8 @@
       <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;JavaScript&lt;/s1&gt;&lt;/a0&gt;, &lt;s2&gt;Python:&lt;/s2&gt; Добавлена возможность активации узлов &lt;e3&gt;JavaScript&lt;/e3&gt; и &lt;e4&gt;Python&lt;/e4&gt;, порты источников данных которых подключены к неактивным ветвям узла &lt;e5&gt;Условие&lt;/e5&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220929T154711Z" creationid="Марианна" creationdate="20220929T154711Z">
-        <seg>&lt;a0&gt;&lt;s1&gt;JavaScript&lt;/s1&gt;&lt;/a0&gt;, &lt;s2&gt;Python:&lt;/s2&gt; It became ossible to activate &lt;e3&gt;JavaScript&lt;/e3&gt; and &lt;e4&gt;Python&lt;/e4&gt; nodes, the ports of data sources of which are connected to the inactive branches of the &lt;e5&gt;Condition&lt;/e5&gt; node.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20220929T154752Z" creationid="Марианна" creationdate="20220929T154711Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;JavaScript&lt;/s1&gt;&lt;/a0&gt;, &lt;s2&gt;Python:&lt;/s2&gt; It became possible to activate &lt;e3&gt;JavaScript&lt;/e3&gt; and &lt;e4&gt;Python&lt;/e4&gt; nodes, the data sources ports of which are connected to the inactive branches of the &lt;e5&gt;Condition&lt;/e5&gt; node.</seg>
       </tuv>
     </tu>
     <tu>
