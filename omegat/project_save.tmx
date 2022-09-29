@@ -4142,6 +4142,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В результате, если запрос содержал переменные в качестве параметра или макроподстановки, пользователь получал сообщение об ошибке: "Ошибка открытия SQL: SELECT from ... near "from": syntax error" (#9353).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220929T150355Z" creationid="Марианна" creationdate="20220929T150355Z">
+        <seg>In the result, if the request contained variables as parameter or macro lookup, a user received the following error message: "Error when opening SQL: SELECT from ... near "from": syntax error" (#9353).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В связи с тем, что компонент выполняет код Python на сервере, на его использование накладывается ряд ограничений:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210320T220758Z" creationid="Марианна" creationdate="20210320T220758Z">
