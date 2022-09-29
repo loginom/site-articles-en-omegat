@@ -46,6 +46,22 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>(#9403).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220929T123511Z" creationid="Марианна" creationdate="20220929T123511Z">
+        <seg>(#9403).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>/sites/default/files/blogpost-files/events_loginom-day_2022_banner-invitation_banner-invitation_792x200.svg</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220929T123536Z" creationid="Марианна" creationdate="20220929T123536Z">
+        <seg>/sites/default/files/blogpost-files/events_loginom-day_2022_banner-invitation_banner-invitation_792x200.svg</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>/sites/default/files/blogpost-images/01-python.png</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T174412Z" creationid="Марианна" creationdate="20210314T174412Z">
@@ -402,6 +418,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220425T153716Z" creationid="Марианна" creationdate="20220425T150432Z">
         <seg>&lt;a0&gt;&lt;s1&gt;Python:&lt;/s1&gt;&lt;/a0&gt; The memory leak error while Python using was corrected.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;a0&gt;&lt;s1&gt;Python:&lt;/s1&gt;&lt;/a0&gt; Исправлена работа Python с модулем numexpr в режиме выполнения кода Python внутри процесса.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220929T123922Z" creationid="Марианна" creationdate="20220929T123922Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Python:&lt;/s1&gt;&lt;/a0&gt; the Python operation with numexpr module was corrected in the Python code execution mode inside the process.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2518,6 +2542,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>https://day.loginom.ru/</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220929T123530Z" creationid="Марианна" creationdate="20220929T123530Z">
+        <seg>https://day.loginom.ru/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>https://docs.python.org/3/whatsnew/changelog.html#changelog</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220425T150006Z" creationid="Марианна" creationdate="20220425T150006Z">
@@ -3130,6 +3162,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220220T163503Z" creationid="Марианна" creationdate="20220220T163503Z">
         <seg>https://help.loginom.ru/userguide/processors/transformation/cross-table.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/processors/transformation/cross-table/</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220929T123549Z" creationid="Марианна" creationdate="20220929T123549Z">
+        <seg>https://help.loginom.ru/userguide/processors/transformation/cross-table/</seg>
       </tuv>
     </tu>
     <tu>
