@@ -5094,6 +5094,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Из-за этого было невозможно выполнить в цикле импорт из нескольких листов книги Excel (#9266).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220929T135324Z" creationid="Марианна" creationdate="20220929T135324Z">
+        <seg>That's why it was not possible to import from several Excel workbook sheets in the loop(#9266).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Из-за этого при запуске сценария могли возникать конфликты локалей.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220228T102447Z" creationid="Марианна" creationdate="20220228T102447Z">
