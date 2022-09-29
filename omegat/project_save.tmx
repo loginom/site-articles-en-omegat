@@ -424,8 +424,8 @@
       <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Python:&lt;/s1&gt;&lt;/a0&gt; Исправлена работа Python с модулем numexpr в режиме выполнения кода Python внутри процесса.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220929T123922Z" creationid="Марианна" creationdate="20220929T123922Z">
-        <seg>&lt;a0&gt;&lt;s1&gt;Python:&lt;/s1&gt;&lt;/a0&gt; the Python operation with numexpr module was corrected in the Python code execution mode inside the process.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20220929T124105Z" creationid="Марианна" creationdate="20220929T123922Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Python:&lt;/s1&gt;&lt;/a0&gt; The Python operation with numexpr module was corrected in the Python code execution mode inside the process.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6956,6 +6956,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220307T095709Z" creationid="Марианна" creationdate="20220307T095709Z">
         <seg>Previously, the fine classes model could be changed while execution, and the execution result could differ from the expected one.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Ранее при использовании pandas и пакета numexpr запуск узла &lt;e2&gt;Python&lt;/e2&gt; приводил к ошибке "Offset exceed JPM opcode limit".</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220929T124332Z" creationid="Марианна" creationdate="20220929T124332Z">
+        <seg>Previously, when using pandas and numexpr package, start of the &lt;e2&gt;Python&lt;/e2&gt; node caused the following error: "Offset exceed JPM opcode limit".</seg>
       </tuv>
     </tu>
     <tu>
