@@ -5790,6 +5790,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Может измениться результат работы сценария, если данные, возвращаемые ранее неактивными узлами &lt;e0&gt;JavaScript&lt;/e0&gt; и &lt;e1&gt;Python&lt;/e1&gt;, задействованы в следующих узлах сценария.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20220929T155641Z" creationid="Марианна" creationdate="20220929T155641Z">
+        <seg>The workflow operation result can be changed if the data returned by the earlier inactive &lt;e0&gt;JavaScript&lt;/e0&gt; and &lt;e1&gt;Python&lt;/e1&gt; nodes used in the next workflow nodes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Мониторинг активных пользователей и занятых пакетов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T194928Z" creationid="Марианна" creationdate="20210314T194928Z">
