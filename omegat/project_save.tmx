@@ -4078,6 +4078,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В новой версии библиотеки были исправлены ошибки, из-за которых в некоторых случаях сбивался масштаб пузырьковой диаграммы (#9222).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20221126T153932Z" creationid="Марианна" creationdate="20221126T153932Z">
+        <seg>The errors that caused in some cases incorrect scale settings of the bubble chart were corrected(#9222).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В новой версии платформы его функционал был значительно улучшен:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220227T085621Z" creationid="Марианна" creationdate="20220227T085621Z">
