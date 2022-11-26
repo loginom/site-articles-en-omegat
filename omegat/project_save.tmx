@@ -5166,6 +5166,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если пользователь завершал настройку игнорируя ошибки, то данные импортировались, но все поля имели переменный тип данных (#5790).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20221126T155020Z" creationid="Марианна" creationdate="20221126T155020Z">
+        <seg>If the configuration process was finished by the user in disregard for errors, the data was imported but all fields were related to the variable data type (#5790).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если после объединения классов, нажать на одну из кнопок, то происходило объединение классов, несмотря на то, что ни один из классов не был выделен.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210903T061313Z" creationid="Марианна" creationdate="20210903T061313Z">
