@@ -1558,6 +1558,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Визуализатор Диаграмма:&lt;/s0&gt; Исправлены ошибки сохранения параметров диаграммы, из-за которых могли не сохраняться настройки масштабирования (#9445).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20221126T154242Z" creationid="Марианна" creationdate="20221126T154242Z">
+        <seg>&lt;s0&gt;Chart Visualizer:&lt;/s0&gt; The errors occurring in the process of the chart settings saving that caused inability to save scaling settings were corrected (#9445).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Визуализатор Диаграмма:&lt;/s0&gt; Обновлена библиотека, которая используется для построения диаграммы.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20221126T153325Z" creationid="Марианна" creationdate="20221126T153325Z">
