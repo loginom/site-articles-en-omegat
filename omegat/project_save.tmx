@@ -1614,6 +1614,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Импорт из Excel-файла:&lt;/s0&gt; Исправлено несколько ошибок, которые возникали на этапе настройки импорта из Excel-файла, при задании имени листа или именованного диапазона через переменную.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20221126T154813Z" creationid="Марианна" creationdate="20221126T154813Z">
+        <seg>&lt;s0&gt;Import from Excel file:&lt;/s0&gt; Several errors were corrected. They occurred at the stage of Import from Excel file configuration when setting the sheet name or named range by means of variable.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Импорт из Баз данных:&lt;/s0&gt; при подключении к MS SQL Server с использованием ODBC драйвера, поля типа &lt;e1&gt;TinyInt&lt;/e1&gt; ошибочно определялись, как имеющие неопределенный тип (#8183).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210322T233108Z" creationid="Марианна" creationdate="20210322T232841Z">
