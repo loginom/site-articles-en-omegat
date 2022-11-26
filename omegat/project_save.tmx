@@ -2206,6 +2206,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Экспорт в базу данных:&lt;/s0&gt;В мастере настройки экспорта в БД для исходных столбцов отсутствовало контекстное меню.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20221126T153601Z" creationid="Марианна" creationdate="20221126T153601Z">
+        <seg>&lt;s0&gt;Export to Database:&lt;/s0&gt; There was no context menu for the source columns in Export to Database wizard.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Элементы &lt;a1&gt;пользовательского интерфейса:&lt;/a1&gt;&lt;/s0&gt; при скроле (прокрутке) таблиц, содержащих список полей, а также в визуализаторе Статистика, если отображалось большое количество значений, то могло наблюдаться «дергание» или «сопротивление прокрутке» (#6288, #6700).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211229T121840Z" creationid="Марианна" creationdate="20211229T121723Z">
@@ -3554,6 +3562,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220425T203351Z" creationid="Марианна" creationdate="20220425T203351Z">
         <seg>https://help.loginom.ru/userguide/workflow/derived-component.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>https://loginom.com/download</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20221126T153334Z" creationid="Марианна" creationdate="20221126T153334Z">
+        <seg>https://loginom.com/download</seg>
       </tuv>
     </tu>
     <tu>
@@ -6294,6 +6310,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ошибку исправили (#9268).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20221126T153402Z" creationid="Марианна" creationdate="20221126T153402Z">
+        <seg>The error was corrected (#9268).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Пакет содержит активные процессы, которые не завершились в течение таймаута.», а при попытке повторно открыть такой пакет, он открывался с доступом только на чтение (#8670).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211229T104641Z" creationid="Марианна" creationdate="20211229T104641Z">
@@ -7428,6 +7452,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210902T070438Z" creationid="Марианна" creationdate="20210902T070438Z">
         <seg>System failed to find the specified path" (#8518).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Ситуацию исправили (#8017).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20221126T153350Z" creationid="Марианна" creationdate="20221126T153350Z">
+        <seg>The situation was rectified (#8017).</seg>
       </tuv>
     </tu>
     <tu>
