@@ -1558,6 +1558,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Визуализатор Диаграмма:&lt;/s0&gt; Обновлена библиотека, которая используется для построения диаграммы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20221126T153325Z" creationid="Марианна" creationdate="20221126T153325Z">
+        <seg>&lt;s0&gt;Chart Visualizer:&lt;/s0&gt; The library used for the chart construction was updated.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Визуализатор Диаграмма:&lt;/s0&gt; При использовании в качестве поля абсцисс столбца, содержащего только null-значения, возникала ошибка "Номер строки XXXXXXXXXX вне диапазона [0; 13]" (#9127).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20221126T153031Z" creationid="Марианна" creationdate="20221126T153031Z">
