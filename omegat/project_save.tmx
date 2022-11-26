@@ -1558,6 +1558,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Визуализатор Диаграмма:&lt;/s0&gt; При использовании в качестве поля абсцисс столбца, содержащего только null-значения, возникала ошибка "Номер строки XXXXXXXXXX вне диапазона [0; 13]" (#9127).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20221126T153031Z" creationid="Марианна" creationdate="20221126T153031Z">
+        <seg>&lt;s0&gt;Chart Visualizer:&lt;/s0&gt; When using the column that contained only null values as the abscissa field, the following error occurred: "Row number XXXXXXXXXX is out of [0; 13] range" (#9127).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Импорт из Deductor Warehouse, Экспорт в Deductor Warehouse:&lt;/s0&gt; на странице мастера выбора объектов хранилища данных для ячеек добавлены подсказки, отображающие полное название объекта; добавлена возможность изменить ширину столбца, содержащего названия объектов (#8461).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210617T105043Z" creationid="Марианна" creationdate="20210617T105043Z">
@@ -4422,6 +4430,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Внесены исправления в визуализатор диаграмма.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20221126T152713Z" creationid="Марианна" creationdate="20221126T152620Z">
+        <seg>Chart Visualizer was corrected.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Внесены исправления в соответствующую функцию проверки (#9228).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220708T164408Z" creationid="Марианна" creationdate="20220708T164408Z">
@@ -5402,6 +5418,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210322T144434Z" creationid="Марианна" creationdate="20210322T144059Z">
         <seg>The following error was corrected: "value" column relates to the time with time zone type, and expression - timestamp without time zone". It occurred while trying to export the values of the &lt;a4&gt;&lt;e5&gt;Date/Time&lt;/e5&gt;&lt;/a4&gt; type to the &lt;e6&gt;time with timezone&lt;/e6&gt; field of the PostgreSQL database.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Исправлена ошибка в обработчике Цикл.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20221126T152651Z" creationid="Марианна" creationdate="20221126T152651Z">
+        <seg>The Loop Handler error was corrected.</seg>
       </tuv>
     </tu>
     <tu>
