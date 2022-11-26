@@ -1622,6 +1622,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Импорт из Excel-файла:&lt;/s0&gt; При использовании переменной в качестве значения параметра &lt;e1&gt;Выбор объекта&lt;/e1&gt; после перехода ко второму шагу в мастере настройки возникала ошибка "Индекс листа Excel задан некорректно".</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20221126T155353Z" creationid="Марианна" creationdate="20221126T155353Z">
+        <seg>&lt;s0&gt;Import from Excel file:&lt;/s0&gt; When using the variable as &lt;e1&gt;Select object&lt;/e1&gt;parameter value, the following error occurred when passing to the second stage in the wizard: "Excel sheet index was incorrectly set".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Импорт из Баз данных:&lt;/s0&gt; при подключении к MS SQL Server с использованием ODBC драйвера, поля типа &lt;e1&gt;TinyInt&lt;/e1&gt; ошибочно определялись, как имеющие неопределенный тип (#8183).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210322T233108Z" creationid="Марианна" creationdate="20210322T232841Z">
