@@ -1950,6 +1950,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Приложение:&lt;/s0&gt; В мастерах настройки исправлена ошибка "Cannot read properties of null (reading 'setValue')", которая возникала при перемещении с помощью клавиш навигации в панели переключения страниц (#9399).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20221126T155640Z" creationid="Марианна" creationdate="20221126T155640Z">
+        <seg>&lt;s0&gt;Application:&lt;/s0&gt; The following error was corrected in the wizards: "Cannot read properties of null (reading 'setValue')". It occurred while attempting to move using the navigation keys on the page switch panel (#9399).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Производные компоненты:&lt;/s0&gt; исправлена ошибка «Перемещённый производный компонент недоступен для узла» при сворачивании в Подмодель (#8931).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220425T203912Z" creationid="Марианна" creationdate="20220425T203912Z">
