@@ -2590,6 +2590,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Loginom 6.5.5 — описание изменений Исправлены ошибки в мастере настройки импорта из Excel-файла и экспорта в базу данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20221126T152530Z" creationid="Марианна" creationdate="20221126T152530Z">
+        <seg>Loginom 6.5.5 — Release Notes. Errors in Import from Excel file and Export to Database wizard were corrected.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Loginom Integrator</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220220T163507Z" creationid="Марианна" creationdate="20220220T163507Z">
