@@ -2174,6 +2174,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Цикл:&lt;/s0&gt; Исправлена ошибка Access violation, которая возникала, если на этапе синхронизации перед выполнением в базовом узле происходила ошибка (#9479).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20221126T154434Z" creationid="Марианна" creationdate="20221126T154434Z">
+        <seg>&lt;s0&gt;Цикл:&lt;/s0&gt; Access violation error was corrected. It was observed if an error occurred at the synchronization stage before execution in the base node (#9479).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Цикл:&lt;/s0&gt; при запуске в параллельном режиме в результате создания большого количества производных узлов могла возникать ошибка «Значение индекса … параметра “…” вне диапазона […; …]» (#8200).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210323T091013Z" creationid="Марианна" creationdate="20210323T091013Z">
