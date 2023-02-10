@@ -6976,6 +6976,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При нажатии кнопки "Показатели классов" появлялось предупреждение "Не удалось рассчитать статистику начальных и конечных классов", а должны были рассчитываться фактические показатели.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230210T084626Z" creationid="Марианна" creationdate="20230210T084626Z">
+        <seg>When pressing "Classes indicators" button, the wollowing warning appeared: "Failed to calculate statistics of the fine and coarse classes", whereas it was required to calcualte actual indicators </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При нажатии на кнопку «Автосохранение», можно включить этот параметр, а также задать «Период сохранения» в минутах.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220304T141936Z" creationid="Марианна" creationdate="20220304T141936Z">
