@@ -606,6 +606,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;a0&gt;&lt;s1&gt;Визуализатор Конечные классы:&lt;/s1&gt;&lt;/a0&gt; Не рассчитывалась статистика в визуализаторе Конечные классы для обученного узла, в качестве входного поля которого выбрано дискретное поле.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230210T083242Z" creationid="Марианна" creationdate="20230210T083242Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Coarse сlasses visualizer:&lt;/s1&gt;&lt;/a0&gt; Statistics was not calculated in Coarse classes visualizer for the trained node the discrete field of which was selected as the input field.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Визуализатор Куб&lt;/s1&gt;:&lt;/a0&gt; В некоторых случаях идентификаторы заголовков &lt;e2&gt;Куба&lt;/e2&gt; передавались с сервера в урезанном виде.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220929T124659Z" creationid="Марианна" creationdate="20220929T124659Z">
