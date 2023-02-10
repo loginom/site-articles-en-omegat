@@ -5270,6 +5270,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если после этого нажать кнопку Отмена, снова изменить тип данных замены на Дата/Время и попытаться изменить данные в поле Точное совпадение, то интерфейс приложения полностью ломался.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230210T090057Z" creationid="Марианна" creationdate="20230210T090057Z">
+        <seg>If Cancel button was pressed afterwards, replacement data type was changed to Date/Time again, data was changed in Exact match field, these actions caused the total failure of the application interface.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если при заполнении массивов &lt;e4&gt;numpy&lt;/e4&gt; возникает необходимость обработки пропущенных значений целочисленного и логического типов, то используется вещественный тип, а пропущенные значения преобразуются в &lt;e5&gt;NaN&lt;/e5&gt; (&lt;e6&gt;np.nan&lt;/e6&gt;).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210903T142656Z" creationid="Марианна" creationdate="20210903T114621Z">
