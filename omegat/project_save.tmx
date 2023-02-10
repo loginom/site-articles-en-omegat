@@ -7256,6 +7256,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ранее в таком случае активация узла &lt;e2&gt;Квантование&lt;/e2&gt; завершалась ошибкой Out of memory (#9638).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230210T082754Z" creationid="Марианна" creationdate="20230210T082754Z">
+        <seg>Previously, in this case activation of &lt;e2&gt;Binning&lt;/e2&gt; node caused Out of memory error(#9638).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ранее выводилось оповещение об ошибке, загрузка пакета прерывалась (такой пакет не открывался).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220425T175631Z" creationid="Марианна" creationdate="20220425T175631Z">
