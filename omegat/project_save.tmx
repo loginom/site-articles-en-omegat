@@ -3142,6 +3142,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/processors/data-trees/tree-to-table.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230210T075046Z" creationid="Марианна" creationdate="20230210T075046Z">
+        <seg>https://help.loginom.ru/userguide/processors/data-trees/tree-to-table.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>https://help.loginom.ru/userguide/processors/datamining/arimax.html</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220220T163531Z" creationid="Марианна" creationdate="20220220T163531Z">
@@ -3218,6 +3226,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210902T070251Z" creationid="Марианна" creationdate="20210902T070251Z">
         <seg>https://help.loginom.ru/userguide/processors/integration/soap-request.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/processors/preprocessing/binning.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230210T075056Z" creationid="Марианна" creationdate="20230210T075056Z">
+        <seg>https://help.loginom.ru/userguide/processors/preprocessing/binning.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -3514,6 +3530,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210616T153958Z" creationid="Марианна" creationdate="20210616T153958Z">
         <seg>https://help.loginom.ru/userguide/visualization/cluster-profiles/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/visualization/coarse-classes/</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230210T075042Z" creationid="Марианна" creationdate="20230210T075042Z">
+        <seg>https://help.loginom.ru/userguide/visualization/coarse-classes/</seg>
       </tuv>
     </tu>
     <tu>
