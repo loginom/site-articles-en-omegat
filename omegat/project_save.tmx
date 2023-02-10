@@ -880,8 +880,8 @@
       <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Конечные классы:&lt;/s1&gt;&lt;/a0&gt; Если в настроенном узле &lt;e2&gt;Конечные классы&lt;/e2&gt; удалить поле с назначением Входное, сохранить настройки и запустить узел, возникала ошибка "Нет ссылки на набор данных".</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20230210T083915Z" creationid="Марианна" creationdate="20230210T083314Z">
-        <seg>&lt;a0&gt;&lt;s1&gt;Coarse сlasses:&lt;/s1&gt;&lt;/a0&gt; If the field with Input usage type was deleted, settings were saved and node was started in the configured &lt;e2&gt;Coarse сlasses&lt;/e2&gt; node, the following error occurred: "No reference to data set.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20230210T094148Z" creationid="Марианна" creationdate="20230210T083314Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Coarse сlasses:&lt;/s1&gt;&lt;/a0&gt; If the field with Input usage type was deleted, settings were saved and node was started in the configured &lt;e2&gt;Coarse сlasses&lt;/e2&gt; node, the following error occurred: "No reference to data set".</seg>
       </tuv>
     </tu>
     <tu>
