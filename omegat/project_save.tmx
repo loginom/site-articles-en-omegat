@@ -6414,6 +6414,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ошибку исправили (#9549).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230210T082237Z" creationid="Марианна" creationdate="20230210T082237Z">
+        <seg>The error was corrected (#9549).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Пакет содержит активные процессы, которые не завершились в течение таймаута.», а при попытке повторно открыть такой пакет, он открывался с доступом только на чтение (#8670).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211229T104641Z" creationid="Марианна" creationdate="20211229T104641Z">
