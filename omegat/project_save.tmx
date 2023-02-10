@@ -3814,6 +3814,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>А при активации клона такого узла возникала ошибка Access violation.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230210T082533Z" creationid="Марианна" creationdate="20230210T082533Z">
+        <seg>Access violation error occurred when activating such node clone.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>А также добавлены функции setTimeout и clearTimeout, реализована поддержка кодирования/декодирования данных в формате Base64.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220309T074308Z" creationid="Марианна" creationdate="20220304T163452Z">
@@ -6414,6 +6422,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ошибки исправили (#9179).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230210T082338Z" creationid="Марианна" creationdate="20230210T082338Z">
+        <seg>The errors were corrected (#9179).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ошибку исправили (#9268).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20221126T153402Z" creationid="Марианна" creationdate="20221126T153402Z">
@@ -7580,6 +7596,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220708T164036Z" creationid="Марианна" creationdate="20220708T164036Z">
         <seg>The situation was rectified (#9226).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Ситуацию исправили (#9595).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230210T082312Z" creationid="Марианна" creationdate="20230210T082312Z">
+        <seg>The situation was rectified (#9595).</seg>
       </tuv>
     </tu>
     <tu>
