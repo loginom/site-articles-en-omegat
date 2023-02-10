@@ -5704,8 +5704,8 @@
       <tuv lang="ru">
         <seg>Исправлены ошибки в обработчиках Дерево в таблицу, Замена, Конечные классы, Квантование, Цикл и в визуализаторах Быстрый просмотр и Конечные классы.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20230210T080115Z" creationid="Марианна" creationdate="20230210T075924Z">
-        <seg>The errors in Tree to Table, Замена, Coarse сlasses, Квантование, Loop handlers и в визуализаторах Быстрый просмотр and Coarse сlasses were corrected.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20230210T080815Z" creationid="Марианна" creationdate="20230210T075924Z">
+        <seg>The errors in Tree to table, Replace, Coarse сlasses, Binning, Loop handlers and in Quick view and Coarse сlasses visualizers were corrected.</seg>
       </tuv>
     </tu>
     <tu>
