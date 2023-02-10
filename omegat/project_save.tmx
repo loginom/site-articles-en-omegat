@@ -7896,6 +7896,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Такую ошибку можно было получить, например, если активировать, деактивировать и снова активировать &lt;e2&gt;Цикл&lt;/e2&gt; с групповой обработкой по уникальным значениям полей строкового типа, настроенный на &lt;e3&gt;Подмодель&lt;/e3&gt; с &lt;e4&gt;Нейросетью&lt;/e4&gt; с режимом активации "всегда переобучать" (#9630).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230210T091535Z" creationid="Марианна" creationdate="20230210T091535Z">
+        <seg>Such error occurred when activating, deactivating and then activating once again &lt;e2&gt;Loop&lt;/e2&gt; with the group processing by unique values of the row fields configured to &lt;e3&gt;Supernode&lt;/e3&gt; with &lt;e4&gt;Neural network&lt;/e4&gt; with "always retrain" activation mode (#9630).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Теперь в Loginom можно выполнить весь цикл ETL операций, связанных с Хранилищами данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210321T181201Z" creationid="Марианна" creationdate="20210321T181201Z">
