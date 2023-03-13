@@ -2926,6 +2926,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/integration/connections/list/mysql.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230313T091937Z" creationid="Марианна" creationdate="20230313T091937Z">
+        <seg>https://help.loginom.ru/userguide/integration/connections/list/mysql.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>https://help.loginom.ru/userguide/integration/connections/list/odbc.html</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210616T153906Z" creationid="Марианна" creationdate="20210616T153906Z">
@@ -8268,6 +8276,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T200919Z" creationid="Марианна" creationdate="20210314T200919Z">
         <seg>The Contradiction Notion</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Требуется установить SQL Server Native Client (#9154).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230313T091935Z" creationid="Марианна" creationdate="20230313T091935Z">
+        <seg>It is required to install SQL Server Native Client (#9154).</seg>
       </tuv>
     </tu>
     <tu>
