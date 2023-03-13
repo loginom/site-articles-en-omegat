@@ -2982,6 +2982,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/integration/connections/list/wh-mssql.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230313T091914Z" creationid="Марианна" creationdate="20230313T091914Z">
+        <seg>https://help.loginom.ru/userguide/integration/connections/list/wh-mssql.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>https://help.loginom.ru/userguide/integration/export/database.html</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211215T125711Z" creationid="Марианна" creationdate="20211215T125711Z">
@@ -3886,6 +3894,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>https://www.postman.com/</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230313T091828Z" creationid="Марианна" creationdate="20230313T091828Z">
+        <seg>https://www.postman.com/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>А при активации клона такого узла возникала ошибка Access violation.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230210T082533Z" creationid="Марианна" creationdate="20230210T082533Z">
@@ -4690,6 +4706,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230210T082254Z" creationid="Марианна" creationdate="20230210T082254Z">
         <seg>The required corrections were introduced (#9628).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Внимание.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230313T091926Z" creationid="Марианна" creationdate="20230313T091926Z">
+        <seg>Please note.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6542,6 +6566,22 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ошибку исправили (#5133).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230313T091811Z" creationid="Марианна" creationdate="20230313T091811Z">
+        <seg>The error was corrected (#5133).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Ошибку исправили (#7275).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230313T091843Z" creationid="Марианна" creationdate="20230313T091843Z">
+        <seg>The error was corrected (#7275).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ошибку исправили (#9268).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20221126T153402Z" creationid="Марианна" creationdate="20221126T153402Z">
@@ -6562,6 +6602,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230210T082237Z" creationid="Марианна" creationdate="20230210T082237Z">
         <seg>The error was corrected (#9549).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Ошибку исправили (#9553).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230313T091912Z" creationid="Марианна" creationdate="20230313T091912Z">
+        <seg>The error was corrected (#9553).</seg>
       </tuv>
     </tu>
     <tu>
@@ -7744,10 +7792,34 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ситуацию исправили (#4214).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230313T091755Z" creationid="Марианна" creationdate="20230313T091755Z">
+        <seg>The situation was rectified (#4214).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Ситуацию исправили (#6340).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230313T091820Z" creationid="Марианна" creationdate="20230313T091820Z">
+        <seg>The situation was rectified (#6340).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ситуацию исправили (#8017).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20221126T153350Z" creationid="Марианна" creationdate="20221126T153350Z">
         <seg>The situation was rectified (#8017).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Ситуацию исправили (#8775).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230313T091905Z" creationid="Марианна" creationdate="20230313T091905Z">
+        <seg>The situation was rectified (#8775).</seg>
       </tuv>
     </tu>
     <tu>
@@ -8280,6 +8352,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Улучшена работа некоторых компонентов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230313T091745Z" creationid="Марианна" creationdate="20230313T091745Z">
+        <seg>Operation of some components was improved.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Улучшение исключает логическую ошибку (#9052).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220425T202413Z" creationid="Марианна" creationdate="20220425T202413Z">
@@ -8732,6 +8812,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220304T134928Z" creationid="Марианна" creationdate="20220304T134928Z">
         <seg>Insertion of values to the dimension filter from the clipboard was implemented.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>символов (#7583).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230313T091856Z" creationid="Марианна" creationdate="20230313T091856Z">
+        <seg>characters (#7583).</seg>
       </tuv>
     </tu>
     <tu>
