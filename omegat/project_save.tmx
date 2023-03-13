@@ -3022,6 +3022,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/integration/export/tableau.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230313T092011Z" creationid="Марианна" creationdate="20230313T092011Z">
+        <seg>https://help.loginom.ru/userguide/integration/export/tableau.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>https://help.loginom.ru/userguide/integration/export/warehouse.html</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210616T153950Z" creationid="Марианна" creationdate="20210616T153950Z">
