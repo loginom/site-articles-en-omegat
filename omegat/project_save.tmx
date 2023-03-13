@@ -334,6 +334,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>7.0.1</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230313T090519Z" creationid="Марианна" creationdate="20230313T090519Z">
+        <seg>7.0.1</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Access:&lt;/s1&gt;&lt;/a0&gt; при многопоточной работе подключений, использующих «Microsoft Access Database Engine»: «MS Access», «MS Excel», а также подключений через ODBC, возникали ошибки со стороны данного компонента СУБД.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220426T103027Z" creationid="Марианна" creationdate="20220426T103027Z">
@@ -3398,6 +3406,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/processors/transformation/calc/javascript.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230313T090352Z" creationid="Марианна" creationdate="20230313T090352Z">
+        <seg>https://help.loginom.ru/userguide/processors/transformation/calc/javascript.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>https://help.loginom.ru/userguide/processors/transformation/cross-table.html</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220220T163503Z" creationid="Марианна" creationdate="20220220T163503Z">
@@ -3458,6 +3474,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211215T125706Z" creationid="Марианна" creationdate="20211215T125706Z">
         <seg>https://help.loginom.ru/userguide/processors/transformation/row-filter/index.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/processors/transformation/sorting.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230313T090632Z" creationid="Марианна" creationdate="20230313T090632Z">
+        <seg>https://help.loginom.ru/userguide/processors/transformation/sorting.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -4634,6 +4658,22 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220929T124732Z" creationid="Марианна" creationdate="20220929T124732Z">
         <seg>The required corrections were introduced (#9361).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Внесли необходимые исправления (#9587).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230313T090447Z" creationid="Марианна" creationdate="20230313T090447Z">
+        <seg>The required corrections were introduced (#9587).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Внесли необходимые исправления (#9616).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230313T090321Z" creationid="Марианна" creationdate="20230313T090321Z">
+        <seg>The required corrections were introduced (#9616).</seg>
       </tuv>
     </tu>
     <tu>
@@ -6494,10 +6534,26 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ошибку исправили (#9504).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230313T090405Z" creationid="Марианна" creationdate="20230313T090405Z">
+        <seg>The error was corrected (#9504).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ошибку исправили (#9549).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230210T082237Z" creationid="Марианна" creationdate="20230210T082237Z">
         <seg>The error was corrected (#9549).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Ошибку исправили (#9617).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230313T090341Z" creationid="Марианна" creationdate="20230313T090341Z">
+        <seg>The error was corrected (#9617).</seg>
       </tuv>
     </tu>
     <tu>
@@ -7216,6 +7272,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Производительность</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230313T090630Z" creationid="Марианна" creationdate="20230313T090630Z">
+        <seg>Performance</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Пропорции «событий» и «не событий» могут задаваться автоматически на основе данных обучающего или тестового множества, а также задаваться вручную в мастере настройки или интерактивно в визуализаторе&lt;a0&gt; Качество бинарной классификации.&lt;/a0&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210321T195423Z" creationid="Марианна" creationdate="20210321T195423Z">
@@ -7676,6 +7740,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230210T082312Z" creationid="Марианна" creationdate="20230210T082312Z">
         <seg>The situation was rectified (#9595).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Ситуацию исправили (#9603).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230313T090350Z" creationid="Марианна" creationdate="20230313T090350Z">
+        <seg>The situation was rectified (#9603).</seg>
       </tuv>
     </tu>
     <tu>
@@ -8660,6 +8732,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220304T135418Z" creationid="Марианна" creationdate="20220304T135302Z">
         <seg>The font size of the measures and dimensions headers was decreased as well as the Cube cells height.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>установлен флаг &lt;e0&gt;Кэшировать все данные&lt;/e0&gt;;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230313T090734Z" creationid="Марианна" creationdate="20230313T090734Z">
+        <seg>&lt;e0&gt;Cache all data&lt;/e0&gt; checkbox was selected;</seg>
       </tuv>
     </tu>
 <!-- Alternative translations -->
