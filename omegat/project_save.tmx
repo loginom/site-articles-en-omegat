@@ -5830,6 +5830,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Исправлены ошибки в Loginom Integrator, импортах из файловых источников, в узле Замена, а также в работе других обработчиков.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230313T091616Z" creationid="Марианна" creationdate="20230313T091616Z">
+        <seg>Errors in Loginom Integrator, import from file sources, Replace node and operation of other handlers were corrected.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Исправлены ошибки в обработчиках Дерево в таблицу, Замена, Конечные классы, Квантование, Цикл и в визуализаторах Быстрый просмотр и Конечные классы.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230210T080815Z" creationid="Марианна" creationdate="20230210T075924Z">
