@@ -1,28 +1,28 @@
-<p>Большое количество исправлений внесено в компоненты, связанные с работой баз данных и веб-сервисов. Улучшена работа некоторых компонентов.</p>
+<p>Большое количество исправлений внесено в компоненты, связанные с работой баз данных и веб-сервисов. Operation of some components was improved.</p>
 
 <h2 id="исправление-ошибок">Fixes</h2>
 
-<p><a href="https://help.loginom.ru/adminguide/integrator/" target="_blank"><strong>Loginom Integrator:</strong></a>&nbsp;Если в Integrator отправлялся REST-запрос методом HTTP POST и в вызываемом пакете возникала ошибка, то возвращался статус 400 (Bad Request), что не соответствовало действительности, так как в данном случае правильный статус - 500 (Internal Server Error). Ситуацию исправили (#4214).</p>
+<p><a href="https://help.loginom.ru/adminguide/integrator/" target="_blank"><strong>Loginom Integrator:</strong></a>&nbsp;Если в Integrator отправлялся REST-запрос методом HTTP POST и в вызываемом пакете возникала ошибка, то возвращался статус 400 (Bad Request), что не соответствовало действительности, так как в данном случае правильный статус - 500 (Internal Server Error). The situation was rectified (#4214).</p>
 
-<p><strong>Loginom Integrator:</strong>&nbsp;На странице&nbsp;<code>/Service.svc/Rest/Help</code>&nbsp;для опубликованного пакета с именем Help вместо списка конечных точек веб-сервиса отображалось сообщение "Endpoint not found". При этом сам опубликованный пакет работал корректно. Ошибку исправили (#5133).</p>
+<p><strong>Loginom Integrator:</strong>&nbsp;На странице&nbsp;<code>/Service.svc/Rest/Help</code>&nbsp;для опубликованного пакета с именем Help вместо списка конечных точек веб-сервиса отображалось сообщение "Endpoint not found". При этом сам опубликованный пакет работал корректно. The error was corrected (#5133).</p>
 
 <p><strong>Loginom Integrator:</strong>&nbsp;Исправлена ошибка "Object reference not set to an instance of an object", которая приходила в SOAP-ответе, если через SOAP-запрос передавался пустой массив в порт Дерево данных, корневой элемент которого является массивом (#9537).</p>
 
 <p><a href="https://help.loginom.ru/userguide/processors/integration/rest-request.html" target="_blank"><strong>REST-запрос:</strong></a>&nbsp;Исправлена ошибка "Нераспознанная структура сообщения", которая в некоторых случаях возникала в узле&nbsp;<em>REST-запрос</em>&nbsp;при установленной опции "Имитировать запрос с ответом в файле" (#6239).</p>
 
-<p><strong>REST-запрос:</strong>&nbsp;Если в настройках подключения к REST-сервису явно указан допустимый Content-Type ответа, а ответ получен с другим Content-Type, то все последующие ответы даже при правильном Content-Type содержали ошибку "Нераспознанная структура сообщения". Ситуацию исправили (#6340).</p>
+<p><strong>REST-запрос:</strong>&nbsp;Если в настройках подключения к REST-сервису явно указан допустимый Content-Type ответа, а ответ получен с другим Content-Type, то все последующие ответы даже при правильном Content-Type содержали ошибку "Нераспознанная структура сообщения". The situation was rectified (#6340).</p>
 
 <p><strong>REST-запрос:</strong>&nbsp;При включенной опции "Сохранять текст запроса на диск" в файл записывались http заголовки запроса, генерируемые по умолчанию, а также тело запроса. Заголовки, указанные на странице мастера настройки узла&nbsp;<em>REST-запрос</em>&nbsp;"Настройка пользовательских заголовков", а также переопределенные значения стандартных заголовков не попадали в файл. Т.е. заголовки, которые реально отправлялись в запросе не попадали в файл, а вместо них записывались автоматически сгенерированные. Ошибочное поведение исправили (#6805).</p>
 
 <p><strong>REST-запрос:</strong>&nbsp;Исправили ошибку "The process cannot access the file because it is being used by another process", которая могла возникать при параллельном вызове узла&nbsp;<em>REST-запрос</em>&nbsp;с активным параметром "Сохранять текст запроса на диск" (#6938).</p>
 
-<p><strong>REST-запрос:</strong>&nbsp;Если время ожидания сервиса превышало 30 секунд, то работа узла&nbsp;<em>REST-запрос</em>&nbsp;завершалась ошибкой "Ошибка при получении данных HTTP-клиентом:... Запрос к URL ""..."" завершился с ошибкой ... Execution of request terminated with error: 5023". При этом установка больших значений параметров "Таймаут подключения" и "Таймаут обмена данными" в настройках подключения к REST-сервису на данную ситуацию не влияли. А запрос к аналогичному сервису через&nbsp;<a href="https://www.postman.com/" target="_blank">postman</a>&nbsp;отрабатывал корректно и возвращал ответ. Ошибку исправили (#7275).</p>
+<p><strong>REST-запрос:</strong>&nbsp;Если время ожидания сервиса превышало 30 секунд, то работа узла&nbsp;<em>REST-запрос</em>&nbsp;завершалась ошибкой "Ошибка при получении данных HTTP-клиентом:... Запрос к URL ""..."" завершился с ошибкой ... Execution of request terminated with error: 5023". При этом установка больших значений параметров "Таймаут подключения" и "Таймаут обмена данными" в настройках подключения к REST-сервису на данную ситуацию не влияли. А запрос к аналогичному сервису через&nbsp;<a href="https://www.postman.com/" target="_blank">postman</a>&nbsp;отрабатывал корректно и возвращал ответ. The error was corrected (#7275).</p>
 
 <p><strong>REST-запрос:</strong>&nbsp;Если в настройках подключения к REST-сервису явно указан допустимый Content-Type ответа, а в ответе сервиса заголовок Content-Type отсутствует, то на выходных портах узла&nbsp;<em>REST-запрос</em>&nbsp;не было ни данных, ни сообщения об ошибке. Внесли необходимые изменения, чтобы в выходном порту "Дополнительные данные" выводилось сообщение об ошибке, связанное с некорректным Content-Type (#7552).</p>
 
 <p><strong>REST-запрос:</strong>&nbsp;Узел&nbsp;<em>REST-запрос</em>&nbsp;с настройками по умолчанию, первично активированный без предварительного входа в мастер настройки узла, не возвращал ответ. Исправили ошибочное поведение (#7566).</p>
 
-<p><strong>REST-запрос:</strong>&nbsp;Исправлена ошибка Access violation, которая возникала при выполнении запроса, возвращающего строку более 500 млн. символов (#7583).</p>
+<p><strong>REST-запрос:</strong>&nbsp;Исправлена ошибка Access violation, которая возникала при выполнении запроса, возвращающего строку более 500 млн. characters (#7583).</p>
 
 <p><a href="https://help.loginom.ru/userguide/visualization/preview/quick-view.html" target="_blank"><strong>Quick view:</strong></a>&nbsp;If&nbsp;<em>Quick view</em>&nbsp;was initially opened in the floating window mode and then in was closed, whereas the node was deactivated, the column width was incorrectly calculated, and a user received data in the narrow columns when activating the node repeatedly and&nbsp;opening <em>Quick view</em>. The error was corrected (#9549).</p>
 
@@ -30,16 +30,16 @@
 
 <p><strong>Импорт из базы данных:</strong>&nbsp;В мастере настройки импорта из базы данных при кликах на имена полей и при перемещении по полям вверх/вниз с помощью клавиатуры сбрасывались выставленные ранее "галочки" около полей таблиц. Ошибочное поведение исправили. Отмечать и снимать выделение можно по клику на специальный элемент слева от поля (CheckBox), перемещение по полям не изменяет состояние этого элемента (#9337).</p>
 
-<p><strong>Импорт из базы данных:</strong>&nbsp;Если при активном подключении к базе данных открыть мастер импорта и сразу вызвать Предпросмотр, то выводилось сообщение с текстом: "Сначала выберите поля для предпросмотра". Но в данной ситуации текст сообщения должен быть: "Не указана таблица базы данных". Ситуацию исправили (#8775).</p>
+<p><strong>Импорт из базы данных:</strong>&nbsp;Если при активном подключении к базе данных открыть мастер импорта и сразу вызвать Предпросмотр, то выводилось сообщение с текстом: "Сначала выберите поля для предпросмотра". Но в данной ситуации текст сообщения должен быть: "Не указана таблица базы данных". The situation was rectified (#8775).</p>
 
 <p><a href="https://help.loginom.ru/userguide/processors/transformation/calc/" target="_blank"><strong>Калькулятор:</strong></a>&nbsp;Исправлены ошибки в логике активации/деактивации пунктов "Переместить вверх", "Переместить вниз", "Удалить" контекстного меню списка выражений (#4498).</p>
 
-<p><a href="https://help.loginom.ru/userguide/processors/datamining/linear-regression/index.html" target="_blank"><strong>Линейная регрессия:</strong></a>&nbsp;После открытия ранее настроенного пакета и запуска узла&nbsp;<em>Линейная регрессия</em>&nbsp;без переобучения, значения доверительных интервалов не рассчитывались и были равны 0. Корректные значения доверительных интервалов появлялись в порту "Коэффициенты регрессионной модели" после повторного запуска узла. Ошибку исправили (#9553).</p>
+<p><a href="https://help.loginom.ru/userguide/processors/datamining/linear-regression/index.html" target="_blank"><strong>Линейная регрессия:</strong></a>&nbsp;После открытия ранее настроенного пакета и запуска узла&nbsp;<em>Линейная регрессия</em>&nbsp;без переобучения, значения доверительных интервалов не рассчитывались и были равны 0. Корректные значения доверительных интервалов появлялись в порту "Коэффициенты регрессионной модели" после повторного запуска узла. The error was corrected (#9553).</p>
 
 <p><a href="https://help.loginom.ru/userguide/integration/connections/list/wh-mssql.html" target="_blank"><strong>Подключение Deductor Warehouse MS SQL:</strong></a>&nbsp;Исправлена ошибка "Cannot execute command in current transaction context until previous opened DataSet ...". Ошибка могла возникнуть при активации подключения к Хранилищу данных, у которого длинный (более 25) список объектов (#9154).</p>
 
 <blockquote>
-<p>Внимание. В пакетах, созданных до версии 6.5, имеющих подключение к Хранилищу данных на MS SQL через встроенный клиент, при активации подключения будет выдана ошибка "Required provider is not installed". Требуется установить SQL Server Native Client (#9154).</p>
+<p>Please note. В пакетах, созданных до версии 6.5, имеющих подключение к Хранилищу данных на MS SQL через встроенный клиент, при активации подключения будет выдана ошибка "Required provider is not installed". It is required to install SQL Server Native Client (#9154).</p>
 </blockquote>
 
 <p><a href="https://help.loginom.ru/userguide/integration/connections/list/mysql.html" target="_blank"><strong>Подключение MySQL:</strong></a>&nbsp;Исправлена ошибка "Data type is not supported", которая возникала:</p>
