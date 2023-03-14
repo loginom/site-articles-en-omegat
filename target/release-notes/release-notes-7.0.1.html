@@ -6,7 +6,7 @@
 
 <h2 id="исправление-ошибок">Fixes</h2>
 
-<p><a href="https://help.loginom.ru/adminguide/integrator/" target="_blank"><strong>Loginom Integrator:</strong></a>&nbsp;Если опубликовать пакет, открыть страницу Swagger UI Интегратора по протоколу http (по умолчанию&nbsp;<code>http://localhost/lgi/openapi/index.html</code>), а затем открыть страницу Swagger UI Интегратора с использованием протокола https, то в результате на странице Swagger UI и в сгенерированном OpenAPI документе был указан путь к серверу через http вместо https. В Интеграторе кэшировался OpenAPI документ с тем протоколом, который был использован при первом обращении к этому OpenAPI документу, а затем этот закэшированный документ возвращался и при обращении по http, и по https. Ошибка наблюдалась, если Loginom установлен под Linux в Docker контейнерах и при установке была включена поддержка SSL. The required corrections were introduced (#9616).</p>
+<p><a href="https://help.loginom.ru/adminguide/integrator/" target="_blank"><strong>Loginom Integrator:</strong></a>&nbsp;If the package was published, Integrator Swagger UI page was opened via http protocol (by default&nbsp;<code>http://localhost/lgi/openapi/index.html</code>), and then Integrator Swagger UI page was opened using https protocol, path to the server via http instead of https was specified on Swagger UI page and in the generated OpenAPI  document. OpenAPI document was cached in Integrator with the same protocol that was used on the first access to this OpenAPI document, and then this cached document returned on access both via http and https. The error occured if Loginom was installed for Linux in Docker containers, and SSL support was enabled while installing. The required corrections were introduced (#9616).</p>
 
 <p><strong>Loginom Integrator:</strong>&nbsp;Если опубликовать пакет, открыть страницу Swagger UI Интегратора с использованием имени хоста или&nbsp;<code>localhost</code>, а затем открыть страницу Swagger UI Интегратора с использованием ip-адреса, то на странице Swagger UI выводилась ошибка "Fetch error Internal Server Error /lgi/openapi/PackageName.json". The error was corrected (#9617).</p>
 
@@ -20,7 +20,7 @@
 
 <p><a href="https://help.loginom.ru/userguide/processors/transformation/substitution/" target="_blank"><strong>Replace:</strong></a>&nbsp;When configuring replacement for the field referred to the Date/time type in the internal replacement table, Apply button failed after change of the replacement type to Real and value in the Exact match field. If Cancel button was pressed afterwards, replacement data type was changed to Date/Time again, and attempts were made to change data in the Exact match field, these actions caused the total failure of the application interface. The situation was rectified (#9595).</p>
 
-<p><strong>Замена:</strong>&nbsp;Исправлена некорректная работа обработчика&nbsp;<em>Замена</em>, если таблица замен содержала дублирующие значения. Узел не сообщал об имеющихся в таблице замен дубликатах, а результат выполнения мог быть неправильным. Сценарии, созданные в предыдущих версиях Loginom, в которых используются узлы&nbsp;<em>Замена</em>&nbsp;и таблицы замен с дубликатами, в Loginom 7.0.1 завершатся сообщением об ошибке "Значение дублируется в таблице замен". Это относится к дубликатам как во внутренней так и во внешней таблице замен (#4450, ##7434, #9624).</p>
+<p><strong>Replace:</strong> Incorrect operation of&nbsp;<em>Replace</em> handler was rectified if replacement table contained duplicate values. The node did not provide information on the duplicates in the replacement table, and the execution result could be incorrect. Сценарии, созданные в предыдущих версиях Loginom, в которых используются узлы&nbsp;<em>Замена</em>&nbsp;и таблицы замен с дубликатами, в Loginom 7.0.1 завершатся сообщением об ошибке "Значение дублируется в таблице замен". Это относится к дубликатам как во внутренней так и во внешней таблице замен (#4450, ##7434, #9624).</p>
 
 <p><strong>Замена:</strong>&nbsp;В мастере настройки узла&nbsp;<em>Замена</em>&nbsp;для способа замены&nbsp;<em>Ввод вручную</em>&nbsp;можно выполнить действие&nbsp;<em>Получить уникальные значения</em>&nbsp;и в редакторе значения замены выбрать значение из выпадающего списка. Если среди уникальных значений поля было пропущенное значение, пустая строка или строка, состоящая только из пробельных символов, то такие значения не отображались в этом выпадающем списке. Добавлено отображение таких значений специальным (серым) цветом и в угловых кавычках:&nbsp;<code>&lt;null&gt;, &lt;Пустая строка&gt;</code>. В строках, состоящих только из пробельных символов, каждый пробел заменен на пару символов&nbsp;<code>˽</code>&nbsp;(выступ + пробел) и они также отображаются специальным стилем (#9589).</p>
 
@@ -30,15 +30,15 @@
 
 <p><a href="https://help.loginom.ru/userguide/integration/import/txt-csv.html" target="_blank"><strong>Импорт из текстового файла:</strong></a>&nbsp;При импорте из текстового файла значение&nbsp;<code>NaN</code>&nbsp;в столбце, импортируемом как вещественный, сохранялось в наборе данных как&nbsp;<code>NaN</code>, тогда как в этом случае ожидалось пропущенное значение. The situation was rectified (#9603).</p>
 
-<p><a href="https://help.loginom.ru/userguide/processors/transformation/calc/javascript.html" target="_blank"><strong>Калькулятор JavaScript:</strong></a>&nbsp;В режиме JavaScript в&nbsp;<em>Калькуляторе</em>&nbsp;строковое выражение Null() возвращало пустую строку, а не&nbsp;<code>Null</code>. The error was corrected (#9504).</p>
+<p><a href="https://help.loginom.ru/userguide/processors/transformation/calc/javascript.html" target="_blank"><strong>JavaScript calculator:</strong></a>&nbsp;In JavaScript mode in&nbsp;<em>Calculator</em>&nbsp;string Null() expression returned the empty string but not&nbsp;<code>Null</code>. The error was corrected (#9504).</p>
 
 <p><a href="https://help.loginom.ru/userguide/processors/preprocessing/binning.html" target="_blank"><strong>Binning:</strong></a>&nbsp;The error of bins generation using the Width method was corrected when one integer value was supplied to the input. Previously, in this case activation of <em>Binning</em>&nbsp;node caused Out of memory error(#9638).</p>
 
 <p><a href="https://help.loginom.ru/userguide/processors/preprocessing/coarse-classes.html" target="_blank"><strong>Coarse сlasses:</strong></a>&nbsp;If the field with Input usage type was deleted, settings were saved and node was started in the configured&nbsp;<em>Coarse сlasses</em> node, the following error occurred: "No reference to data set". Access violation error occurred when activating such node clone. The errors were corrected (#9179).</p>
 
-<p><a href="https://help.loginom.ru/userguide/integration/connections/list/schemes.html" target="_blank"><strong>Подключение набора XSD-схем:</strong></a>&nbsp;Исправлена редко возникающая ошибка Access violation. Ошибка появлялась при нажатии "Тестировать" или "Активировать подключение" в мастере настройки подключения, если элементы импортируемой схемы содержали атрибуты и она находилась во вложенной на несколько уровней папке&nbsp;<a href="https://help.loginom.ru/userguide/location_user_files.html" target="_blank">Файлового хранилища</a>&nbsp;(#9631).</p>
+<p><a href="https://help.loginom.ru/userguide/integration/connections/list/schemes.html" target="_blank"><strong>Connection of XSD schemas set:</strong></a>&nbsp;Rarely occurring  Access violation error was corrected. Ошибка появлялась при нажатии "Тестировать" или "Активировать подключение" в мастере настройки подключения, если элементы импортируемой схемы содержали атрибуты и она находилась во вложенной на несколько уровней папке&nbsp;<a href="https://help.loginom.ru/userguide/location_user_files.html" target="_blank">Файлового хранилища</a>&nbsp;(#9631).</p>
 
-<p><strong>Приложение:</strong>&nbsp;Исключили сообщение об ошибке "Строка "__deleted" не может быть преобразована в значение логического типа". Оно появлялось в версии 7.0.0. при загрузке пакета, созданного до версии 6.4.0, в котором использовалось наследуемое&nbsp;<a href="https://help.loginom.ru/userguide/integration/connections/list/rest-service.html" target="_blank">подключение REST-сервис</a>&nbsp;и если в наследнике список GET параметров был очищен. Ошибка никак не влияла на работу приложения (#9579).</p>
+<p><strong>Application:</strong>&nbsp;"Row "__deleted" cannot be transformed to the logical value" error message was deleted. It occurred in version 7.0.0. при загрузке пакета, созданного до версии 6.4.0, в котором использовалось наследуемое&nbsp;<a href="https://help.loginom.ru/userguide/integration/connections/list/rest-service.html" target="_blank">подключение REST-сервис</a>&nbsp;и если в наследнике список GET параметров был очищен. The error had no effect on the application operation (#9579).</p>
 
 <p><a href="https://help.loginom.ru/userguide/processors/transformation/row-filter/" target="_blank"><strong>Фильтр строк</strong></a>&nbsp;Исправлена ошибка "Переход запрещен a.getFullYear is not a function" при повторном переходе на страницу настройки фильтрации после изменении типа данных используемого поля с Вещественного на Дата/Время (#8912).</p>
 
@@ -48,12 +48,12 @@
 
 <p><a href="https://help.loginom.ru/userguide/processors/programming/java-script/" target="_blank"><strong>JavaScript:</strong></a>&nbsp;За счет реализации пула интерпретаторов JavaSсript узел&nbsp;<em>JavaScript</em>&nbsp;стал активироваться быстрее (в некоторых случаях ~ в 70 раз). Следует учитывать, что один run-time, находящийся в пуле, занимает ~3 Мб памяти, максимальный размер пула определяется как количество ядер процессора умноженное на 2. В некоторых сценариях (содержащих большое количество узлов JavaSсript) может увеличиться объем памяти, занятый приложением (#9469).</p>
 
-<p><a href="https://help.loginom.ru/userguide/processors/transformation/sorting.html" target="_blank"><strong>Сортировка:</strong></a>&nbsp;Оптимизирована сортировка набора данных по одному столбцу. Оптимизация применяется для всех типов данных, кроме Переменного, и будет включена при любом из условий:</p>
+<p><a href="https://help.loginom.ru/userguide/processors/transformation/sorting.html" target="_blank"><strong>Sort:</strong></a>&nbsp;Sorting of data set by one column was optimised. Optimisation is applied for all data types with the exception of the Varibale one, and it will be enabled under any of the following conditions:</p>
 
 <ul>
 	<li><em>Cache all data</em> checkbox was selected;</li>
-	<li>строк не больше 65536;</li>
-	<li>любое число строк, если тип данных Логический.</li>
+	<li>not exceeding 65536 rows</li>
+	<li>any row count if the Logical data type is used.</li>
 </ul>
 
 <p>При оптимизированной сортировке прирост производительности для строковых данных составляет 20%, для числовых данных в 5 раз, для логических значений в 10 раз (#9518).</p>
@@ -68,9 +68,9 @@
 
 <h2 id="удобство-использования">Ease of Use</h2>
 
-<p><strong>Визуализатор Конечные классы:</strong>&nbsp;Добавили возможность менять ширину блока со списком полей (#9646).</p>
+<p><strong>Coarse сlasses visualizer:</strong>&nbsp;It became possible to change width of the block with the list of fields (#9646).</p>
 
-<p><strong>Замена:</strong>&nbsp;При добавлении новой замены во внутреннюю таблицу замен для полей строкового и переменного типов в качестве значения по умолчанию используется&nbsp;<code>&lt;Пустая строка&gt;</code>&nbsp;вместо null-значения. Такой подход упрощает введение пустой строки в качестве значения замены. Ранее для этого требовалось ввести в поле пробел, а затем удалить его (#9586).</p>
+<p><strong>Замена:</strong>&nbsp;При добавлении новой замены во внутреннюю таблицу замен для полей строкового и переменного типов в качестве значения по умолчанию используется&nbsp;<code>&lt;Пустая строка&gt;</code>&nbsp;вместо null-значения. Such approach simplifies inclusion of an empty string as the replacement value. Previously, for this purpose it was required to enter a space into the field and then it was deleted (#9586).</p>
 
 <h2 id="прочие-изменения">Other Changes</h2>
 
@@ -81,7 +81,7 @@
 <p><strong>XML Extraction:</strong>&nbsp;Component&nbsp;<em>XML Extraction</em>&nbsp;was renamed to <em>XML parsing</em>. Node wizard page was renamed from "XML extraction parameters" to "XML parsing parameters" (#8493).</p>
 
 <div class="lg-em lg-em_gray">
-<p><strong>Please note:</strong> new licence SP keys or update of USB key weaving are required for Loginom 7.0 version . When updating any 6.хх versions, new licenses are also required.</p>
+<p><strong>Please note:</strong> new license SP dongles or update of USB key weaving are required for Loginom 7.0 version . When updating any 6.хх versions, new licenses are also required.</p>
 </div>
 
 <div class="text-align-center">
