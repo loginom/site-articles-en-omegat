@@ -1478,6 +1478,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Loginom Integrator:&lt;/s0&gt; Если опубликовать пакет, открыть страницу Swagger UI Интегратора с использованием имени хоста или &lt;c1&gt;localhost&lt;/c1&gt;, а затем открыть страницу Swagger UI Интегратора с использованием ip-адреса, то на странице Swagger UI выводилась ошибка "Fetch error Internal Server Error /lgi/openapi/PackageName.json".</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230314T122037Z" creationid="Марианна" creationdate="20230314T122037Z">
+        <seg>&lt;s0&gt;Loginom Integrator:&lt;/s0&gt; If the package was published, Integrator Swagger UI page was opened using the host name or &lt;c1&gt;localhost&lt;/c1&gt;, and then Integrator Swagger UI page was opened using ip address, the following error was displayed on Swagger UI page: "Fetch error Internal Server Error /lgi/openapi/PackageName.json".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Loginom Server:&lt;/s0&gt; при использовании веб-сервера Apache с конфигурацией, создаваемой по умолчанию, не работало подключение через Web Socket Proxy.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210902T071833Z" creationid="Марианна" creationdate="20210902T071833Z">
