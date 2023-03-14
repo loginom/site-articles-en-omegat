@@ -1662,6 +1662,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Замена:&lt;/s0&gt; Исправлена некорректная работа обработчика &lt;e1&gt;Замена&lt;/e1&gt;, если таблица замен содержала дублирующие значения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230314T110713Z" creationid="Марианна" creationdate="20230314T110713Z">
+        <seg>&lt;s0&gt;Replace:&lt;/s0&gt; Incorrect operation of &lt;e1&gt;Replace&lt;/e1&gt; handler was rectified if replacement table contained duplicate values.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Извлечение XML:&lt;/s0&gt; Компонент &lt;e1&gt;Извлечение XML&lt;/e1&gt; переименован в &lt;e2&gt;Разбор XML&lt;/e2&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230314T104736Z" creationid="Марианна" creationdate="20230314T104736Z">
