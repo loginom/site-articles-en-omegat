@@ -1758,6 +1758,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Замена:&lt;/s0&gt; В мастере настройки узла &lt;e1&gt;Замена&lt;/e1&gt; в случае изменения типа данных для значения Замена тип выходных столбцов не может быть однозначно определен, если параметр Заменять остальные не задан.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230314T163024Z" creationid="Марианна" creationdate="20230314T163024Z">
+        <seg>&lt;s0&gt;Replace:&lt;/s0&gt; In &lt;e1&gt;Replace&lt;/e1&gt; node wizard the output columns type cannot be definitely defined in case of data type change for the Replace value if Replace other parameter is not set.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Замена:&lt;/s0&gt; В мастере настройки узла &lt;e1&gt;Замена&lt;/e1&gt; для способа замены &lt;e2&gt;Ввод вручную&lt;/e2&gt; можно выполнить действие &lt;e3&gt;Получить уникальные значения&lt;/e3&gt; и в редакторе значения замены выбрать значение из выпадающего списка.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230314T125627Z" creationid="Марианна" creationdate="20230314T125627Z">
