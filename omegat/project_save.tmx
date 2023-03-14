@@ -1926,6 +1926,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Обращаем внимание:&lt;/s0&gt; для версии Loginom 7.0 необходимы новые лицензионные SP-ключи или обновление прошивки USB-ключа.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230314T105939Z" creationid="Марианна" creationdate="20230314T105939Z">
+        <seg>&lt;s0&gt;Please note:&lt;/s0&gt; new licence SP keys or update of USB key weaving are required for Loginom 7.0 version .</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Отображение ошибок:&lt;/s0&gt; во всплывающем окне с ошибкой обрезались длинные имена файлов, если они не помещались по ширине.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220425T200931Z" creationid="Марианна" creationdate="20220425T200747Z">
