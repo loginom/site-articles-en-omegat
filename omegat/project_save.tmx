@@ -8136,6 +8136,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Сценарии, созданные в предыдущих версиях Loginom, в которых используются узлы &lt;e2&gt;Замена&lt;/e2&gt; и таблицы замен с дубликатами, в Loginom 7.0.1 завершатся сообщением об ошибке "Значение дублируется в таблице замен".</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230314T123744Z" creationid="Марианна" creationdate="20230314T123744Z">
+        <seg>The workflows created in the previous Loginom versions in which &lt;e2&gt;Replace&lt;/e2&gt; nodes and replacement tables with dublicates are used, are finished in Loginom 7.0.1with the following error message: "Значение дублируется в таблице замен".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Сценарий содержит ... заблокированных узлов», а запущенные процессы продолжали выполняться и не освобождалась оперативная память.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210616T150749Z" creationid="Марианна" creationdate="20210616T150749Z">
