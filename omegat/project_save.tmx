@@ -2870,6 +2870,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Execution of request terminated with error: 5023".</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230314T202551Z" creationid="Марианна" creationdate="20230314T202551Z">
+        <seg>Execution of request was terminated with error: 5023".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>InsertColumn — вставка столбца по заданному индексу в выходной набор;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210320T233859Z" creationid="Марианна" creationdate="20210320T233821Z">
@@ -5742,6 +5750,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Запрос к URL ""..."" завершился с ошибкой ...</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230314T202533Z" creationid="Марианна" creationdate="20230314T202533Z">
+        <seg>Request to URL ""..."" was terminated with error ...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Затронутые параметры: «Кодовая страница» для баз данных &lt;e2&gt;Interbase/Firebird&lt;/e2&gt; или &lt;e3&gt;MS SQL&lt;/e3&gt;, а также «Зашифрованная БД» для &lt;e4&gt;SQLite&lt;/e4&gt; (#8759).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211229T110905Z" creationid="Марианна" creationdate="20211229T110905Z">
@@ -5890,6 +5906,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220711T111751Z" creationid="Марианна" creationdate="20220708T163134Z">
         <seg>The errors occurring when working with databases, visualizers, Calculator, JavaScript and Python components were corrected.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Исправили ошибочное поведение (#7566).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230314T202626Z" creationid="Марианна" creationdate="20230314T202626Z">
+        <seg>Error of behavior was corrected (#7566).</seg>
       </tuv>
     </tu>
     <tu>
@@ -6928,8 +6952,16 @@
       <tuv lang="ru">
         <seg>Ошибочное поведение исправили (#6805).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20230314T202438Z" creationid="Марианна" creationdate="20230314T202438Z">
-        <seg>Error of behavior was rectified (#6805).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20230314T202632Z" creationid="Марианна" creationdate="20230314T202438Z">
+        <seg>Error of behavior was corrected (#6805).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Ошибочное поведение исправили.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230314T202613Z" creationid="Марианна" creationdate="20230314T202613Z">
+        <seg>Error of behavior was corrected.</seg>
       </tuv>
     </tu>
     <tu>
