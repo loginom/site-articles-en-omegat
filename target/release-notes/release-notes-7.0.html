@@ -1,10 +1,10 @@
-<p>Большое количество исправлений внесено в компоненты, связанные с работой баз данных и веб-сервисов. Operation of some components was improved.</p>
+<p>Many corrections were made in the components connected with databases and web services operation. Operation of some components was improved.</p>
 
 <h2 id="исправление-ошибок">Fixes</h2>
 
 <p><a href="https://help.loginom.ru/adminguide/integrator/" target="_blank"><strong>Loginom Integrator:</strong></a>&nbsp;Если в Integrator отправлялся REST-запрос методом HTTP POST и в вызываемом пакете возникала ошибка, то возвращался статус 400 (Bad Request), что не соответствовало действительности, так как в данном случае правильный статус - 500 (Internal Server Error). The situation was rectified (#4214).</p>
 
-<p><strong>Loginom Integrator:</strong>&nbsp;На странице&nbsp;<code>/Service.svc/Rest/Help</code>&nbsp;для опубликованного пакета с именем Help вместо списка конечных точек веб-сервиса отображалось сообщение "Endpoint not found". При этом сам опубликованный пакет работал корректно. The error was corrected (#5133).</p>
+<p><strong>Loginom Integrator:</strong>&nbsp;На странице&nbsp;<code>/Service.svc/Rest/Help</code>&nbsp;для опубликованного пакета с именем Help вместо списка конечных точек веб-сервиса отображалось сообщение "Endpoint not found". In this case the published package was correctly operated. The error was corrected (#5133).</p>
 
 <p><strong>Loginom Integrator:</strong>&nbsp;Исправлена ошибка "Object reference not set to an instance of an object", которая приходила в SOAP-ответе, если через SOAP-запрос передавался пустой массив в порт Дерево данных, корневой элемент которого является массивом (#9537).</p>
 
@@ -12,15 +12,15 @@
 
 <p><strong>REST-запрос:</strong>&nbsp;Если в настройках подключения к REST-сервису явно указан допустимый Content-Type ответа, а ответ получен с другим Content-Type, то все последующие ответы даже при правильном Content-Type содержали ошибку "Нераспознанная структура сообщения". The situation was rectified (#6340).</p>
 
-<p><strong>REST-запрос:</strong>&nbsp;При включенной опции "Сохранять текст запроса на диск" в файл записывались http заголовки запроса, генерируемые по умолчанию, а также тело запроса. Заголовки, указанные на странице мастера настройки узла&nbsp;<em>REST-запрос</em>&nbsp;"Настройка пользовательских заголовков", а также переопределенные значения стандартных заголовков не попадали в файл. Т.е. заголовки, которые реально отправлялись в запросе не попадали в файл, а вместо них записывались автоматически сгенерированные. Ошибочное поведение исправили (#6805).</p>
+<p><strong>REST-запрос:</strong>&nbsp;При включенной опции "Сохранять текст запроса на диск" в файл записывались http заголовки запроса, генерируемые по умолчанию, а также тело запроса. Заголовки, указанные на странице мастера настройки узла&nbsp;<em>REST-запрос</em>&nbsp;"Настройка пользовательских заголовков", а также переопределенные значения стандартных заголовков не попадали в файл. Т.е. заголовки, которые реально отправлялись в запросе не попадали в файл, а вместо них записывались автоматически сгенерированные. Error of behavior was corrected (#6805).</p>
 
 <p><strong>REST-запрос:</strong>&nbsp;Исправили ошибку "The process cannot access the file because it is being used by another process", которая могла возникать при параллельном вызове узла&nbsp;<em>REST-запрос</em>&nbsp;с активным параметром "Сохранять текст запроса на диск" (#6938).</p>
 
-<p><strong>REST-запрос:</strong>&nbsp;Если время ожидания сервиса превышало 30 секунд, то работа узла&nbsp;<em>REST-запрос</em>&nbsp;завершалась ошибкой "Ошибка при получении данных HTTP-клиентом:... Запрос к URL ""..."" завершился с ошибкой ... Execution of request terminated with error: 5023". При этом установка больших значений параметров "Таймаут подключения" и "Таймаут обмена данными" в настройках подключения к REST-сервису на данную ситуацию не влияли. А запрос к аналогичному сервису через&nbsp;<a href="https://www.postman.com/" target="_blank">postman</a>&nbsp;отрабатывал корректно и возвращал ответ. The error was corrected (#7275).</p>
+<p><strong>REST-запрос:</strong>&nbsp;Если время ожидания сервиса превышало 30 секунд, то работа узла&nbsp;<em>REST-запрос</em>&nbsp;завершалась ошибкой "Ошибка при получении данных HTTP-клиентом:... Request to URL ""..."" was terminated with error ... Execution of request was terminated with error: 5023". При этом установка больших значений параметров "Таймаут подключения" и "Таймаут обмена данными" в настройках подключения к REST-сервису на данную ситуацию не влияли. А запрос к аналогичному сервису через&nbsp;<a href="https://www.postman.com/" target="_blank">postman</a>&nbsp;отрабатывал корректно и возвращал ответ. The error was corrected (#7275).</p>
 
 <p><strong>REST-запрос:</strong>&nbsp;Если в настройках подключения к REST-сервису явно указан допустимый Content-Type ответа, а в ответе сервиса заголовок Content-Type отсутствует, то на выходных портах узла&nbsp;<em>REST-запрос</em>&nbsp;не было ни данных, ни сообщения об ошибке. Внесли необходимые изменения, чтобы в выходном порту "Дополнительные данные" выводилось сообщение об ошибке, связанное с некорректным Content-Type (#7552).</p>
 
-<p><strong>REST-запрос:</strong>&nbsp;Узел&nbsp;<em>REST-запрос</em>&nbsp;с настройками по умолчанию, первично активированный без предварительного входа в мастер настройки узла, не возвращал ответ. Исправили ошибочное поведение (#7566).</p>
+<p><strong>REST-запрос:</strong>&nbsp;Узел&nbsp;<em>REST-запрос</em>&nbsp;с настройками по умолчанию, первично активированный без предварительного входа в мастер настройки узла, не возвращал ответ. Error of behavior was corrected (#7566).</p>
 
 <p><strong>REST-запрос:</strong>&nbsp;Исправлена ошибка Access violation, которая возникала при выполнении запроса, возвращающего строку более 500 млн. characters (#7583).</p>
 
@@ -28,21 +28,21 @@
 
 <p><a href="https://help.loginom.ru/userguide/integration/import/database.html" target="_blank"><strong>Импорт из базы данных:</strong></a>&nbsp;В мастере настройки импорта из базы данных при заданном фильтре для выбранных полей на следующей странице мастера настройки поля, не соответствующие установленному фильтру, считались не выбранными. Функционал фильтрации не должен снимать отметку о выборе поля, внесены необходимые исправления (#4159).</p>
 
-<p><strong>Импорт из базы данных:</strong>&nbsp;В мастере настройки импорта из базы данных при кликах на имена полей и при перемещении по полям вверх/вниз с помощью клавиатуры сбрасывались выставленные ранее "галочки" около полей таблиц. Ошибочное поведение исправили. Отмечать и снимать выделение можно по клику на специальный элемент слева от поля (CheckBox), перемещение по полям не изменяет состояние этого элемента (#9337).</p>
+<p><strong>Импорт из базы данных:</strong>&nbsp;В мастере настройки импорта из базы данных при кликах на имена полей и при перемещении по полям вверх/вниз с помощью клавиатуры сбрасывались выставленные ранее "галочки" около полей таблиц. Error of behavior was corrected. Отмечать и снимать выделение можно по клику на специальный элемент слева от поля (CheckBox), перемещение по полям не изменяет состояние этого элемента (#9337).</p>
 
-<p><strong>Импорт из базы данных:</strong>&nbsp;Если при активном подключении к базе данных открыть мастер импорта и сразу вызвать Предпросмотр, то выводилось сообщение с текстом: "Сначала выберите поля для предпросмотра". Но в данной ситуации текст сообщения должен быть: "Не указана таблица базы данных". The situation was rectified (#8775).</p>
+<p><strong>Импорт из базы данных:</strong>&nbsp;Если при активном подключении к базе данных открыть мастер импорта и сразу вызвать Предпросмотр, то выводилось сообщение с текстом: "Сначала выберите поля для предпросмотра". But in this case the message text must be read as follows: "Database table was not specified". The situation was rectified (#8775).</p>
 
 <p><a href="https://help.loginom.ru/userguide/processors/transformation/calc/" target="_blank"><strong>Калькулятор:</strong></a>&nbsp;Исправлены ошибки в логике активации/деактивации пунктов "Переместить вверх", "Переместить вниз", "Удалить" контекстного меню списка выражений (#4498).</p>
 
 <p><a href="https://help.loginom.ru/userguide/processors/datamining/linear-regression/index.html" target="_blank"><strong>Линейная регрессия:</strong></a>&nbsp;После открытия ранее настроенного пакета и запуска узла&nbsp;<em>Линейная регрессия</em>&nbsp;без переобучения, значения доверительных интервалов не рассчитывались и были равны 0. Корректные значения доверительных интервалов появлялись в порту "Коэффициенты регрессионной модели" после повторного запуска узла. The error was corrected (#9553).</p>
 
-<p><a href="https://help.loginom.ru/userguide/integration/connections/list/wh-mssql.html" target="_blank"><strong>Подключение Deductor Warehouse MS SQL:</strong></a>&nbsp;Исправлена ошибка "Cannot execute command in current transaction context until previous opened DataSet ...". Ошибка могла возникнуть при активации подключения к Хранилищу данных, у которого длинный (более 25) список объектов (#9154).</p>
+<p><a href="https://help.loginom.ru/userguide/integration/connections/list/wh-mssql.html" target="_blank"><strong>Connection of Deductor Warehouse MS SQL:</strong></a>&nbsp;The following error was corrected: "Cannot execute command in current transaction context until previous opened DataSet ...". Ошибка могла возникнуть при активации подключения к Хранилищу данных, у которого длинный (более 25) список объектов (#9154).</p>
 
 <blockquote>
 <p>Please note. В пакетах, созданных до версии 6.5, имеющих подключение к Хранилищу данных на MS SQL через встроенный клиент, при активации подключения будет выдана ошибка "Required provider is not installed". It is required to install SQL Server Native Client (#9154).</p>
 </blockquote>
 
-<p><a href="https://help.loginom.ru/userguide/integration/connections/list/mysql.html" target="_blank"><strong>Подключение MySQL:</strong></a>&nbsp;Исправлена ошибка "Data type is not supported", которая возникала:</p>
+<p><a href="https://help.loginom.ru/userguide/integration/connections/list/mysql.html" target="_blank"><strong>Connection of MySQL:</strong></a>&nbsp;The following error was corrected: "Data type is not supported". It occurred in the following cases:</p>
 
 <ul>
 	<li>в мастере настройки&nbsp;<em>Импорта из базы данных</em>&nbsp;при выборе таблицы, в которой есть поля типа JSON;</li>
@@ -59,7 +59,7 @@
 
 <p><a href="https://help.loginom.ru/userguide/processors/transformation/row-filter/" target="_blank"><strong>Фильтр строк:</strong></a>&nbsp;При использовании двух последовательных узлов&nbsp;<em>Фильтр строк</em>&nbsp;во втором узле не обновлялся список уникальных значений, если в предыдущем фильтре были внесены изменения. Внесли исправления в алгоритм активации входного порта узла&nbsp;<em>Фильтр строк</em>&nbsp;(#9508).</p>
 
-<p><a href="https://help.loginom.ru/userguide/integration/export/database.html" target="_blank"><strong>Экспорт в базу данных</strong></a>,&nbsp;<a href="https://help.loginom.ru/userguide/integration/export/tableau.html" target="_blank"><strong>Экспорт в Tableau:</strong></a>&nbsp;В этих мастерах настройки переместить поле таблицы с помощью клавиатуры получалось только 1 раз, а последующие нажатия клавиш Ctrl+Up или Ctrl+Down не приводили к перемещению поля. Проблему решили (#7868).</p>
+<p><a href="https://help.loginom.ru/userguide/integration/export/database.html" target="_blank"><strong>Экспорт в базу данных</strong></a>,&nbsp;<a href="https://help.loginom.ru/userguide/integration/export/tableau.html" target="_blank"><strong>Экспорт в Tableau:</strong></a>&nbsp;В этих мастерах настройки переместить поле таблицы с помощью клавиатуры получалось только 1 раз, а последующие нажатия клавиш Ctrl+Up или Ctrl+Down не приводили к перемещению поля. The problem was solved (#7868).</p>
 
 <p><strong>Экспорт в базу данных:</strong>&nbsp;Исправлена ошибка "Invalid precision value", которая возникала при экспорте в MS Access текстовых столбцов полностью состоящих из пустых или null значений (#9501).</p>
 
