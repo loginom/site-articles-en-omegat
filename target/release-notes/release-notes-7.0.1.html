@@ -46,7 +46,7 @@
 
 <h2 id="производительность">Performance</h2>
 
-<p><a href="https://help.loginom.ru/userguide/processors/programming/java-script/" target="_blank"><strong>JavaScript:</strong></a>&nbsp;За счет реализации пула интерпретаторов JavaSсript узел&nbsp;<em>JavaScript</em>&nbsp;стал активироваться быстрее (в некоторых случаях ~ в 70 раз). Следует учитывать, что один run-time, находящийся в пуле, занимает ~3 Мб памяти, максимальный размер пула определяется как количество ядер процессора умноженное на 2. В некоторых сценариях (содержащих большое количество узлов JavaSсript) может увеличиться объем памяти, занятый приложением (#9469).</p>
+<p><a href="https://help.loginom.ru/userguide/processors/programming/java-script/" target="_blank"><strong>JavaScript:</strong></a>&nbsp;За счет реализации пула интерпретаторов JavaSсript узел&nbsp;<em>JavaScript</em>&nbsp;стал активироваться быстрее (в некоторых случаях ~ в 70 раз). Следует учитывать, что один run-time, находящийся в пуле, занимает ~3 Мб памяти, максимальный размер пула определяется как количество ядер процессора умноженное на 2. Memory size used by the application can be increased in some workflows (that contain many JavaScript nodes) (#9469).</p>
 
 <p><a href="https://help.loginom.ru/userguide/processors/transformation/sorting.html" target="_blank"><strong>Sort:</strong></a>&nbsp;Sorting of data set by one column was optimised. Optimisation is applied for all data types with the exception of the Varibale one, and it will be enabled under any of the following conditions:</p>
 
@@ -62,7 +62,7 @@
 
 <p><strong>Замена:</strong>&nbsp;В мастере настройки узла&nbsp;<em>Замена</em>&nbsp;в случае изменения типа данных для значения Замена тип выходных столбцов не может быть однозначно определен, если параметр Заменять остальные не задан. Поэтому поле на выходе узла становилось переменного типа, вместо указанного типа выходных значений. Предупреждение "Тип выходных значений не может быть однозначным без замены других", которое высвечивается в этом случае на поле Заменять остальные, заменили на более информативное "Выходные значения будут переменного типа, если не заменить остальные".</p>
 
-<p><a href="https://help.loginom.ru/userguide/workflow/batchlauncher.html" target="_blank"><strong>Пакетное выполнение:</strong></a>&nbsp;Если BatchLauncher запущен с параметрами, но при этом не указан обязательный параметр&nbsp;<code>Package</code>, то пользователь получит сообщение об этом. Если BatchLauncher запущен без параметров, то, как и ранее, на экран будет выведена справка по использованию утилиты (#9626).</p>
+<p><a href="https://help.loginom.ru/userguide/workflow/batchlauncher.html" target="_blank"><strong>Batch processing:</strong></a>&nbsp;If BatchLauncher was started with the parameters but the obligatory <code>Package</code> parameter was not specified in this case, user will be informed about it in a message. If BatchLauncher is started without parameters, the utility usage guidelines will be displayed as before (#9626).</p>
 
 <p><strong>Приложение:</strong>&nbsp;Сообщение об отсутствии компонента в текущей редакции Loginom сделано более информативным (например,&nbsp;<a href="https://help.loginom.ru/userguide/processors/integration/soap-request.html" target="_blank">SOAP-запрос</a>&nbsp;недоступен в редакциях Loginom CE и Loginom Team). Теперь, если открывается пакет, содержащий компонент Loginom недоступный в текущей редакции, пользователь получит сообщение в котором указано какой именно компонент недоступен (#6093).</p>
 
