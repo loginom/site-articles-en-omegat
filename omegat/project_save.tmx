@@ -7231,6 +7231,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Поэтому поле на выходе узла становилось переменного типа, вместо указанного типа выходных значений.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230314T163202Z" creationid="Марианна" creationdate="20230314T163202Z">
+        <seg>That is why the field at the node output became variable instead of the specified type of output values.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Поэтому, особенно важно обеспечить удобство работы пользователя с конкретным продуктом.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220227T092005Z" creationid="Марианна" creationdate="20220227T092005Z">
