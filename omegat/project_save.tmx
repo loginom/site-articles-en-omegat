@@ -8440,6 +8440,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Узел не сообщал об имеющихся в таблице замен дубликатах, а результат выполнения мог быть неправильным.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230314T113156Z" creationid="Марианна" creationdate="20230314T113156Z">
+        <seg>The node did not provide information on the duplicates in the replacement table, and the execution result could be incorrect.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Улучшена работа некоторых компонентов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230313T091745Z" creationid="Марианна" creationdate="20230313T091745Z">
