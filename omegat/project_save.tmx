@@ -7472,6 +7472,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При оптимизированной сортировке прирост производительности для строковых данных составляет 20%, для числовых данных в 5 раз, для логических значений в 10 раз (#9518).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230314T162549Z" creationid="Марианна" creationdate="20230314T162549Z">
+        <seg>Optimised sorting provided performance increase for the string data up to 20% and up to 5 times for the numeric data and 10 times for the logical values (#9518).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При открытии пакетов, содержащих узлы с модификатором доступа «Опубликованный», пользователю будет выдано предупреждение о том, что будет выполнена конвертация пакета и будут созданы дополнительные производные компоненты.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220227T155803Z" creationid="Марианна" creationdate="20220227T155803Z">
