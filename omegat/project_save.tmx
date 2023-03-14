@@ -4198,6 +4198,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В Интеграторе кэшировался OpenAPI документ с тем протоколом, который был использован при первом обращении к этому OpenAPI документу, а затем этот закэшированный документ возвращался и при обращении по http, и по https.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230314T121227Z" creationid="Марианна" creationdate="20230314T121227Z">
+        <seg>OpenAPI document was cached in Integrator with the same protocol that was used on the first access to this OpenAPI document, and then this cached document returned on access both via http and https.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В Калькуляторе в функции Stat появился еще один показатель для вычислений — &lt;a0&gt;мода&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220304T162855Z" creationid="Марианна" creationdate="20220304T162855Z">
