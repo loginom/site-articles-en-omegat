@@ -1646,6 +1646,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Извлечение XML:&lt;/s0&gt; Компонент &lt;e1&gt;Извлечение XML&lt;/e1&gt; переименован в &lt;e2&gt;Разбор XML&lt;/e2&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230314T104736Z" creationid="Марианна" creationdate="20230314T104736Z">
+        <seg>&lt;s0&gt;XML Extraction:&lt;/s0&gt; Component &lt;e1&gt;XML Extraction&lt;/e1&gt; was renamed to &lt;e2&gt;XML parsing&lt;/e2&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Импорт из Deductor Warehouse, Экспорт в Deductor Warehouse:&lt;/s0&gt; на странице мастера выбора объектов хранилища данных для ячеек добавлены подсказки, отображающие полное название объекта; добавлена возможность изменить ширину столбца, содержащего названия объектов (#8461).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210617T105043Z" creationid="Марианна" creationdate="20210617T105043Z">
@@ -7180,6 +7188,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220309T074234Z" creationid="Марианна" creationdate="20220309T073103Z">
         <seg>When updating up to the new version, if the log file already exists, ANSI encoding will be used. It complies with the user locale used for Loginom Server start.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При обновлении с любых версий 6.хх также необходимы новые лицензии.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230314T105120Z" creationid="Марианна" creationdate="20230314T105120Z">
+        <seg>When updating any 6.хх versions, new licenses are also required.</seg>
       </tuv>
     </tu>
     <tu>
