@@ -8344,6 +8344,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Такую ошибку можно было получить, например, если активировать, деактивировать и снова активировать Цикл с групповой обработкой по уникальным значениям полей строкового типа, настроенный на Подмодель с Нейросетью с режимом активации "всегда переобучать" (#9630).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230314T133452Z" creationid="Марианна" creationdate="20230314T133452Z">
+        <seg>Such error occurred when activating, deactivating and then activating once again Loop with the group processing by unique values of the string fields configured to Supernode with Neural network with "always retrain" activation mode (#9630).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Такую ошибку можно было получить, например, если активировать, деактивировать и снова активировать &lt;e2&gt;Цикл&lt;/e2&gt; с групповой обработкой по уникальным значениям полей строкового типа, настроенный на &lt;e3&gt;Подмодель&lt;/e3&gt; с &lt;e4&gt;Нейросетью&lt;/e4&gt; с режимом активации "всегда переобучать" (#9630).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230210T091737Z" creationid="Марианна" creationdate="20230210T091535Z">
