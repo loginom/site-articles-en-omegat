@@ -5432,8 +5432,8 @@
       <tuv lang="ru">
         <seg>Если BatchLauncher запущен без параметров, то, как и ранее, на экран будет выведена справка по использованию утилиты (#9626).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20230314T134253Z" creationid="Марианна" creationdate="20230314T134253Z">
-        <seg>If BatchLauncher was started without parameters, the information on the utility use will be displayed as before (#9626).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20230314T134358Z" creationid="Марианна" creationdate="20230314T134253Z">
+        <seg>If BatchLauncher is started without parameters, the utility usage guidelines will be displayed as before (#9626).</seg>
       </tuv>
     </tu>
     <tu>
