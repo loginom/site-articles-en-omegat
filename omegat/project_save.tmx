@@ -8568,6 +8568,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Теперь, если открывается пакет, содержащий компонент Loginom недоступный в текущей редакции, пользователь получит сообщение в котором указано какой именно компонент недоступен (#6093).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230314T161400Z" creationid="Марианна" creationdate="20230314T161400Z">
+        <seg>Now, if it is required to open the package that contains the Loginom component that is not available in the current edition, a user will receive the message in which it is specified which component is not available (#6093).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Теперь, если при настройке узла возникает такая ситуация, открывается страница «Настройка соответствия между деревьями данных» (#8659).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210903T083244Z" creationid="Марианна" creationdate="20210903T083244Z">
