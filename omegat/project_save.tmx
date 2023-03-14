@@ -8370,8 +8370,8 @@
       <tuv lang="ru">
         <seg>Сценарии, созданные в предыдущих версиях Loginom, в которых используются узлы &lt;e2&gt;Замена&lt;/e2&gt; и таблицы замен с дубликатами, в Loginom 7.0.1 завершатся сообщением об ошибке "Значение дублируется в таблице замен".</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20230314T124038Z" creationid="Марианна" creationdate="20230314T123744Z">
-        <seg>The workflows created in the previous Loginom versions in which &lt;e2&gt;Replace&lt;/e2&gt; nodes and replacement tables with duplicates are used, are finished with the following error message in Loginom 7.0.1: "The value is duplicated in the replacement table".</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20230314T202931Z" creationid="Марианна" creationdate="20230314T123744Z">
+        <seg>The workflows created in the previous Loginom versions in which &lt;e2&gt;Replace&lt;/e2&gt; nodes and replacement tables with duplicates are used, are terminated with the following error message in Loginom 7.0.1: "The value is duplicated in the replacement table".</seg>
       </tuv>
     </tu>
     <tu>
