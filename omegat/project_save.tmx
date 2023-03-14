@@ -9104,6 +9104,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>при загрузке пакета, созданного до версии 6.4.0, в котором использовалось наследуемое &lt;a1&gt;подключение REST-сервис&lt;/a1&gt; и если в наследнике список GET параметров был очищен.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230314T132821Z" creationid="Марианна" creationdate="20230314T132821Z">
+        <seg>when loading the package created up to 6.4.0 version in which inherited &lt;a1&gt;REST service connection&lt;/a1&gt; was used, and if GET list of parameters was cleared in the descendant.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>реализована вставка значений в фильтр измерений из буфера обмена;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220304T134928Z" creationid="Марианна" creationdate="20220304T134928Z">
