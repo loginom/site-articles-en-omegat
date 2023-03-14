@@ -670,6 +670,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;a0&gt;&lt;s1&gt;Дерево в таблицу:&lt;/s1&gt;&lt;/a0&gt; Исправлена ошибка "Некорректное описание узла", которая возникала при одновременном получении данных несколькими узлами &lt;e2&gt;Дерево в таблицу&lt;/e2&gt; из одного и того же дерева, если корневой узел дерева - массив, содержащий 0 элементов (#9609).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230314T110427Z" creationid="Марианна" creationdate="20230314T110427Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Tree to table:&lt;/s1&gt;&lt;/a0&gt; The following error was corrected: "Incorrect node description". It occurred while simultaneous receiving of data by several &lt;e2&gt;Tree to table&lt;/e2&gt; nodes from one and the same tree, if the root tree node was represented by the array that contained 0 items (#9609).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Дерево в таблицу:&lt;/s1&gt;&lt;/a0&gt; Исправлена ошибка "Некорректное описание узла", которая возникала при параллельном получении данных несколькими узлами &lt;e2&gt;Дерево в таблицу&lt;/e2&gt; из одного и того же дерева, если корневой узел дерева - массив, содержащий 0 элементов (#9609).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230210T092324Z" creationid="Марианна" creationdate="20230210T092134Z">
@@ -1418,6 +1426,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210903T081027Z" creationid="Марианна" creationdate="20210903T081027Z">
         <seg>&lt;s0&gt;&lt;a1&gt;Connections to FireBird DB,&lt;/a1&gt; &lt;a2&gt;Interbase:&lt;/a2&gt;&lt;/s0&gt; upon database server connection loss, connection was not restored on repeated connection activation (#8615).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;s0&gt;BatchLauncher:&lt;/s0&gt; Сообщение об ошибке выводится в stderr вместо stdout (#9639).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230314T110220Z" creationid="Марианна" creationdate="20230314T110220Z">
+        <seg>&lt;s0&gt;BatchLauncher:&lt;/s0&gt; Error message is displayed in stderr instead of stdout (#9639).</seg>
       </tuv>
     </tu>
     <tu>
@@ -3738,6 +3754,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210616T153946Z" creationid="Марианна" creationdate="20210616T153946Z">
         <seg>https://help.loginom.ru/userguide/visualization/table/filter.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/workflow/batchlauncher.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230314T110233Z" creationid="Марианна" creationdate="20230314T110233Z">
+        <seg>https://help.loginom.ru/userguide/workflow/batchlauncher.html</seg>
       </tuv>
     </tu>
     <tu>
