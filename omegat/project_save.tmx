@@ -830,6 +830,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;a0&gt;&lt;s1&gt;Импорт из текстового файла:&lt;/s1&gt;&lt;/a0&gt; При импорте из текстового файла значение &lt;c2&gt;NaN&lt;/c2&gt; в столбце, импортируемом как вещественный, сохранялось в наборе данных как &lt;c3&gt;NaN&lt;/c3&gt;, тогда как в этом случае ожидалось пропущенное значение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230314T131706Z" creationid="Марианна" creationdate="20230314T131706Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Import from Text File:&lt;/s1&gt;&lt;/a0&gt; When importing from the text file, &lt;c2&gt;NaN&lt;/c2&gt; value in the column imported as the real one was saved in the data set as &lt;c3&gt;NaN&lt;/c3&gt;, whereas the null value was expected in this case.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Импорт из текстового файла:&lt;/s1&gt;&lt;/a0&gt; если на странице «Параметры импорта с разделителями» была выделена ячейка в столбце, метка которого содержит запятую &lt;e2&gt;&lt;,&gt;&lt;/e2&gt;, то при изменении настроек в мастере возникала ошибка «Invalid ComponentQuery selector: ...» (#7456).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210616T201317Z" creationid="Марианна" creationdate="20210616T201317Z">
