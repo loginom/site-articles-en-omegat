@@ -6766,6 +6766,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ошибка появлялась при нажатии "Тестировать" или "Активировать подключение" в мастере настройки подключения, если элементы импортируемой схемы содержали атрибуты и она находилась во вложенной на несколько уровней папке &lt;a2&gt;Файлового хранилища&lt;/a2&gt; (#9631).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230314T132035Z" creationid="Марианна" creationdate="20230314T132035Z">
+        <seg>The error appeared when pressing "Test" or "Activate connection" in the connection wizard if the imported schema items contained attributes, and it was located in the &lt;a2&gt;File storage&lt;/a2&gt; folder nested on several levels (#9631).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ошибка устранена (#9035).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220425T161326Z" creationid="Марианна" creationdate="20220425T161326Z">
