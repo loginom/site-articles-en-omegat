@@ -1952,8 +1952,8 @@
       <tuv lang="ru">
         <seg>&lt;s0&gt;Обращаем внимание:&lt;/s0&gt; для версии Loginom 7.0 необходимы новые лицензионные SP-ключи или обновление прошивки USB-ключа.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20230314T105939Z" creationid="Марианна" creationdate="20230314T105939Z">
-        <seg>&lt;s0&gt;Please note:&lt;/s0&gt; new licence SP keys or update of USB key weaving are required for Loginom 7.0 version .</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20230314T113227Z" creationid="Марианна" creationdate="20230314T105939Z">
+        <seg>&lt;s0&gt;Please note:&lt;/s0&gt; new license SP dongles or update of USB key weaving are required for Loginom 7.0 version .</seg>
       </tuv>
     </tu>
     <tu>
@@ -7540,6 +7540,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220425T175631Z" creationid="Марианна" creationdate="20220425T175631Z">
         <seg>Previously, it was informed about an error, the package loading was terminated (such package was not opened).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Ранее для этого требовалось ввести в поле пробел, а затем удалить его (#9586).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230314T113627Z" creationid="Марианна" creationdate="20230314T113627Z">
+        <seg>Previously, for this purpose it was required to enter a space into the field and then it was deleted (#9586).</seg>
       </tuv>
     </tu>
     <tu>
