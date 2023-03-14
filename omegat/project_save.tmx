@@ -6686,6 +6686,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ошибка наблюдалась, если Loginom установлен под Linux в Docker контейнерах и при установке была включена поддержка SSL.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230314T121751Z" creationid="Марианна" creationdate="20230314T121751Z">
+        <seg>The error occured if Loginom was installed for Linux in Docker containers, and SSL support was enabled while installing.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ошибка никак не влияла на работу приложения (#9579).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230314T115321Z" creationid="Марианна" creationdate="20230314T115321Z">
