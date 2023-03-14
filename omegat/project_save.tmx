@@ -488,8 +488,8 @@
       <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;REST-запрос:&lt;/s1&gt;&lt;/a0&gt; Если в сценарии, подготовленном до версии 7.0.0, в узле REST-запрос была настроена связь поля с параметром, в имени которого присутствовал символ $, то после открытия сценария в Loginom 7.0.0 эта связь пропадала.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20230314T162004Z" creationid="Марианна" creationdate="20230314T162004Z">
-        <seg>&lt;a0&gt;&lt;s1&gt;REST request:&lt;/s1&gt;&lt;/a0&gt; If the field was connected with the parameter in which name $ charater was available in the workflow prepared up to 7.0.0 version, after opening of the workflow in Loginom 7.0.0, this connection was lost.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20230314T162356Z" creationid="Марианна" creationdate="20230314T162004Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;REST request:&lt;/s1&gt;&lt;/a0&gt; If the field was connected with the parameter the name of which contained $ character in the workflow prepared up to 7.0.0 version, after workflow opening in Loginom 7.0.0, this connection was lost.</seg>
       </tuv>
     </tu>
     <tu>
