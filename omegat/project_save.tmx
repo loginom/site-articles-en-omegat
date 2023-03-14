@@ -7960,6 +7960,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Страница мастера настройки узла переименована с "Параметры извлечения XML" на "Параметры разбора XML" (#8493).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230314T110146Z" creationid="Марианна" creationdate="20230314T110146Z">
+        <seg>Node wizard page was renamed from "XML extraction parameters" to "XML parsing parameters" (#8493).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Структуру выходных полей можно задавать непосредственно из кода</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T195659Z" creationid="Марианна" creationdate="20210314T195659Z">
