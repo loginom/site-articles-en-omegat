@@ -4222,6 +4222,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Большое количество исправлений внесено в компоненты, связанные с работой баз данных и веб-сервисов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230314T203105Z" creationid="Марианна" creationdate="20230314T203105Z">
+        <seg>Many corrections were made in the components connected with databases and web services operation.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Было обнаружено, что драйвер ODBC для &lt;e2&gt;PostgreSQL&lt;/e2&gt; не может вернуть количество столбцов для подготовленного, но невыполненного запроса.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220711T111907Z" creationid="Марианна" creationdate="20220711T082049Z">
@@ -6614,6 +6622,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Но в данной ситуации текст сообщения должен быть: "Не указана таблица базы данных".</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230314T203308Z" creationid="Марианна" creationdate="20230314T203308Z">
+        <seg>But in this case the message text must be read as follows: "Database table was not specified".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Новая страница «Веб-сервисы»</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220220T162812Z" creationid="Марианна" creationdate="20220220T162812Z">
@@ -7692,6 +7708,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210325T113923Z" creationid="Марианна" creationdate="20210321T211232Z">
         <seg>And it was not possible to define the user or process that used the package.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При этом сам опубликованный пакет работал корректно.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230314T203201Z" creationid="Марианна" creationdate="20230314T203201Z">
+        <seg>In this case the published package was correctly operated.</seg>
       </tuv>
     </tu>
     <tu>
