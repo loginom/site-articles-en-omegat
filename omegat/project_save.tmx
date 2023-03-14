@@ -1766,6 +1766,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Замена:&lt;/s0&gt; При добавлении новой замены во внутреннюю таблицу замен для полей строкового и переменного типов в качестве значения по умолчанию используется &lt;c1&gt;&lt;Пустая строка&gt;&lt;/c1&gt; вместо null-значения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230314T161618Z" creationid="Марианна" creationdate="20230314T161618Z">
+        <seg>&lt;s0&gt;Replace:&lt;/s0&gt; When addding new replacement to the internal replacement table for the string and varibale fields, &lt;c1&gt;&lt;Empty string&gt;&lt;/c1&gt; is used as the default value instead of null-value.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Извлечение XML:&lt;/s0&gt; Компонент &lt;e1&gt;Извлечение XML&lt;/e1&gt; переименован в &lt;e2&gt;Разбор XML&lt;/e2&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230314T104736Z" creationid="Марианна" creationdate="20230314T104736Z">
