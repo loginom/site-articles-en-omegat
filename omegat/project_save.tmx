@@ -1718,6 +1718,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Замена:&lt;/s0&gt; В мастере настройки узла &lt;e1&gt;Замена&lt;/e1&gt; для способа замены &lt;e2&gt;Ввод вручную&lt;/e2&gt; можно выполнить действие &lt;e3&gt;Получить уникальные значения&lt;/e3&gt; и в редакторе значения замены выбрать значение из выпадающего списка.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230314T125627Z" creationid="Марианна" creationdate="20230314T125627Z">
+        <seg>&lt;s0&gt;Replace:&lt;/s0&gt; In &lt;e1&gt;Replace&lt;/e1&gt; node wizard for &lt;e2&gt;Manual entry&lt;/e2&gt; replacement method, it is possible to perform the following action: &lt;e3&gt;Get unique values&lt;/e3&gt; and select the value from the drop-down list in the replacement value editor.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Замена:&lt;/s0&gt; Исправлена некорректная работа обработчика &lt;e1&gt;Замена&lt;/e1&gt;, если таблица замен содержала дублирующие значения.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230314T110713Z" creationid="Марианна" creationdate="20230314T110713Z">
