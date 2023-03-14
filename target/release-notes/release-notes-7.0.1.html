@@ -24,7 +24,7 @@
 
 <p><strong>Replace:</strong>&nbsp;In <em>Replace</em> node&nbsp;wizard for&nbsp;<em>Manual entry</em> replacement method,&nbsp;it is possible to perform the following action:&nbsp;<em>Get unique values</em>&nbsp;and select the value from the drop-down list in the replacement value editor. If there was a null value among the unique field values, empty string or the string that consisted of only white spaces, such values were not displayed in the drop-down list. Display of such values in special (grey) color and in French quotation marks was added:&nbsp;<code>&lt;null&gt;, &lt;Empty string&gt;</code>. Each space in the strings that consisted of only white spaces was replaced to the combination of characters &nbsp;<code>˽</code>&nbsp;(undent + space), and they were also displayed using the special style (#9589).</p>
 
-<p><a href="https://help.loginom.ru/userguide/integration/import/excel.html" target="_blank"><strong>Импорт из Excel файла:</strong></a>&nbsp;Исправлена ошибка "Cannot set properties of undefined (setting 'EmptyListText')", которая возникала, если при настройке импорта после указания Имени файла параметр Выбор объекта задавался неактивной переменной (поданной на узел импорта из неактивированного порта Переменные сценария). Теперь, если не удалось определить значение в поле Выбор объекта, просмотр в мастере настройки импорта не будет показан, а выпадающий список листов будет пустым (#9533).</p>
+<p><a href="https://help.loginom.ru/userguide/integration/import/excel.html" target="_blank"><strong>Import from Excel file:</strong></a>&nbsp;The following error was corrected: "Cannot set properties of undefined (setting 'EmptyListText')". It occurred if Object selection parameter was set by the inactive variable (supplied to the import node from inactivated port of the Workflow variables) when configuring import after specification of the File name. Now, if it was not possible to define the value in Object selection field, view will not be displayed in the import wizard, and drop-down list of sheets wll be empty (#9533).</p>
 
 <p><a href="https://help.loginom.ru/userguide/integration/import/ldf.html" target="_blank"><strong>Import from LGD file:</strong></a>&nbsp;The error that appeared in Loginom 7.0.0 and increased memory consumption when importing data from LGD file was corrected (#9568).</p>
 
@@ -46,7 +46,7 @@
 
 <h2 id="производительность">Performance</h2>
 
-<p><a href="https://help.loginom.ru/userguide/processors/programming/java-script/" target="_blank"><strong>JavaScript:</strong></a>&nbsp;За счет реализации пула интерпретаторов JavaSсript узел&nbsp;<em>JavaScript</em>&nbsp;стал активироваться быстрее (в некоторых случаях ~ в 70 раз). Следует учитывать, что один run-time, находящийся в пуле, занимает ~3 Мб памяти, максимальный размер пула определяется как количество ядер процессора умноженное на 2. Memory size used by the application can be increased in some workflows (that contain many JavaScript nodes) (#9469).</p>
+<p><a href="https://help.loginom.ru/userguide/processors/programming/java-script/" target="_blank"><strong>JavaScript:</strong></a>&nbsp;On account of implementation of JavaSсript interpreters pool,&nbsp;<em>JavaScript</em>&nbsp;node is faster activated (in some cases ~ up to 70 times). It is required to take into account that one run-time that is in the pool takes ~3 MB of the memory, maximum pool size is defined as the number of processor cores multiplied by 2. Memory size used by the application can be increased in some workflows (that contain many JavaScript nodes) (#9469).</p>
 
 <p><a href="https://help.loginom.ru/userguide/processors/transformation/sorting.html" target="_blank"><strong>Sort:</strong></a>&nbsp;Sorting of data set by one column was optimised. Optimisation is applied for all data types with the exception of the Varibale one, and it will be enabled under any of the following conditions:</p>
 
@@ -60,7 +60,7 @@
 
 <h2 id="повышение-информативности">UI/UX Improvements</h2>
 
-<p><strong>Replace:</strong>&nbsp;In&nbsp;<em>Replace</em> node wizard the output columns type cannot be definitely defined in case of data type change for the Replace value if Replace other parameter is not set. That is why the field at the node output became variable instead of the specified type of output values. Предупреждение "Тип выходных значений не может быть однозначным без замены других", которое высвечивается в этом случае на поле Заменять остальные, заменили на более информативное "Выходные значения будут переменного типа, если не заменить остальные".</p>
+<p><strong>Replace:</strong>&nbsp;In&nbsp;<em>Replace</em> node wizard the output columns type cannot be explicitly defined in case of data type change for the Replace value if Replace others parameter is not set. That is why the field at the node output became variable instead of the specified type of output values. "Output values type cannot be single-valued without replacement of others" warning that is displayed in this case in Replace others field was replaced to the following warning that is more informative: "Output values will be variable unless others are replaced".</p>
 
 <p><a href="https://help.loginom.ru/userguide/workflow/batchlauncher.html" target="_blank"><strong>Batch processing:</strong></a>&nbsp;If BatchLauncher was started with the parameters but the obligatory <code>Package</code> parameter was not specified in this case, user will be informed about it in a message. If BatchLauncher is started without parameters, the utility usage guidelines will be displayed as before (#9626).</p>
 
@@ -81,7 +81,7 @@
 <p><strong>XML Extraction:</strong>&nbsp;Component&nbsp;<em>XML Extraction</em>&nbsp;was renamed to <em>XML parsing</em>. Node wizard page was renamed from "XML extraction parameters" to "XML parsing parameters" (#8493).</p>
 
 <div class="lg-em lg-em_gray">
-<p><strong>Please note:</strong> new license SP dongles or update of USB key weaving are required for Loginom 7.0 version . When updating any 6.хх versions, new licenses are also required.</p>
+<p><strong>Please note:</strong> new license SP dongles or update of USB key weaving are required for Loginom 7.0 version. When updating any 6.хх versions, new licenses are also required.</p>
 </div>
 
 <div class="text-align-center">
