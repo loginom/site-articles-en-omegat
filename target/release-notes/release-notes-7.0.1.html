@@ -56,27 +56,27 @@
 	<li>any row count if the Logical data type is used.</li>
 </ul>
 
-<p>При оптимизированной сортировке прирост производительности для строковых данных составляет 20%, для числовых данных в 5 раз, для логических значений в 10 раз (#9518).</p>
+<p>Optimised sorting provided performance increase for the string data up to 20%, up to 5 times for the numeric data and 10 times for the logical values (#9518).</p>
 
 <h2 id="повышение-информативности">UI/UX Improvements</h2>
 
-<p><strong>Замена:</strong>&nbsp;В мастере настройки узла&nbsp;<em>Замена</em>&nbsp;в случае изменения типа данных для значения Замена тип выходных столбцов не может быть однозначно определен, если параметр Заменять остальные не задан. Поэтому поле на выходе узла становилось переменного типа, вместо указанного типа выходных значений. Предупреждение "Тип выходных значений не может быть однозначным без замены других", которое высвечивается в этом случае на поле Заменять остальные, заменили на более информативное "Выходные значения будут переменного типа, если не заменить остальные".</p>
+<p><strong>Replace:</strong>&nbsp;In&nbsp;<em>Replace</em> node wizard the output columns type cannot be definitely defined in case of data type change for the Replace value if Replace other parameter is not set. That is why the field at the node output became variable instead of the specified type of output values. Предупреждение "Тип выходных значений не может быть однозначным без замены других", которое высвечивается в этом случае на поле Заменять остальные, заменили на более информативное "Выходные значения будут переменного типа, если не заменить остальные".</p>
 
 <p><a href="https://help.loginom.ru/userguide/workflow/batchlauncher.html" target="_blank"><strong>Batch processing:</strong></a>&nbsp;If BatchLauncher was started with the parameters but the obligatory <code>Package</code> parameter was not specified in this case, user will be informed about it in a message. If BatchLauncher is started without parameters, the utility usage guidelines will be displayed as before (#9626).</p>
 
-<p><strong>Приложение:</strong>&nbsp;Сообщение об отсутствии компонента в текущей редакции Loginom сделано более информативным (например,&nbsp;<a href="https://help.loginom.ru/userguide/processors/integration/soap-request.html" target="_blank">SOAP-запрос</a>&nbsp;недоступен в редакциях Loginom CE и Loginom Team). Теперь, если открывается пакет, содержащий компонент Loginom недоступный в текущей редакции, пользователь получит сообщение в котором указано какой именно компонент недоступен (#6093).</p>
+<p><strong>Application:</strong>&nbsp;Message on absence of the component in the current Loginom edition became more informative (for example,&nbsp;<a href="https://help.loginom.ru/userguide/processors/integration/soap-request.html" target="_blank">SOAP request </a>&nbsp;is not available in Loginom CE and Loginom Team editions). Now, if it is required to open the package that contains the Loginom component that is not available in the current edition, a user will receive the message in which it is specified which component is not available (#6093).</p>
 
 <h2 id="удобство-использования">Ease of Use</h2>
 
 <p><strong>Coarse сlasses visualizer:</strong>&nbsp;It became possible to change width of the block with the list of fields (#9646).</p>
 
-<p><strong>Замена:</strong>&nbsp;При добавлении новой замены во внутреннюю таблицу замен для полей строкового и переменного типов в качестве значения по умолчанию используется&nbsp;<code>&lt;Пустая строка&gt;</code>&nbsp;вместо null-значения. Such approach simplifies inclusion of an empty string as the replacement value. Previously, for this purpose it was required to enter a space into the field and then it was deleted (#9586).</p>
+<p><strong>Replace:</strong>&nbsp;When addding the new replacement to the internal replacement table for the string and variable fields,&nbsp;<code>&lt;Empty string&gt;</code> is used as the default value&nbsp;instead of null-value. Such approach simplifies inclusion of an empty string as the replacement value. Previously, for this purpose it was required to enter a space into the field and then it was deleted (#9586).</p>
 
 <h2 id="прочие-изменения">Other Changes</h2>
 
 <p><strong>BatchLauncher:</strong>&nbsp;Error message is displayed in stderr instead of stdout (#9639).</p>
 
-<p><a href="https://help.loginom.ru/userguide/processors/integration/rest-request.html" target="_blank"><strong>REST-запрос:</strong></a>&nbsp;Если в сценарии, подготовленном до версии 7.0.0, в узле REST-запрос была настроена связь поля с параметром, в имени которого присутствовал символ $, то после открытия сценария в Loginom 7.0.0 эта связь пропадала. The required corrections were introduced (#9587).</p>
+<p><a href="https://help.loginom.ru/userguide/processors/integration/rest-request.html" target="_blank"><strong>REST request:</strong></a>&nbsp;If the field was connected with the parameter the name of which contained $ character in the workflow prepared up to 7.0.0 version, after workflow opening in Loginom 7.0.0, this connection was lost. The required corrections were introduced (#9587).</p>
 
 <p><strong>XML Extraction:</strong>&nbsp;Component&nbsp;<em>XML Extraction</em>&nbsp;was renamed to <em>XML parsing</em>. Node wizard page was renamed from "XML extraction parameters" to "XML parsing parameters" (#8493).</p>
 
