@@ -2072,8 +2072,8 @@
       <tuv lang="ru">
         <seg>&lt;s0&gt;Обращаем внимание:&lt;/s0&gt; для версии Loginom 7.0 необходимы новые лицензионные SP-ключи или обновление прошивки USB-ключа.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20230314T113227Z" creationid="Марианна" creationdate="20230314T105939Z">
-        <seg>&lt;s0&gt;Please note:&lt;/s0&gt; new license SP dongles or update of USB key weaving are required for Loginom 7.0 version .</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20230314T163228Z" creationid="Марианна" creationdate="20230314T105939Z">
+        <seg>&lt;s0&gt;Please note:&lt;/s0&gt; new license SP dongles or update of USB key weaving are required for Loginom 7.0 version.</seg>
       </tuv>
     </tu>
     <tu>
