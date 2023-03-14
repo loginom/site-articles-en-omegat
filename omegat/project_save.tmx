@@ -2166,6 +2166,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Приложение:&lt;/s0&gt; Сообщение об отсутствии компонента в текущей редакции Loginom сделано более информативным (например, &lt;a1&gt;SOAP-запрос&lt;/a1&gt; недоступен в редакциях Loginom CE и Loginom Team).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230314T160705Z" creationid="Марианна" creationdate="20230314T160705Z">
+        <seg>&lt;s0&gt;Application:&lt;/s0&gt; Message on absence of the component in the current Loginom edition became more informative (for example, &lt;a1&gt;SOAP request &lt;/a1&gt; is not available in Loginom CE and Loginom Team editions).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Производные компоненты:&lt;/s0&gt; исправлена ошибка «Перемещённый производный компонент недоступен для узла» при сворачивании в Подмодель (#8931).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220425T203912Z" creationid="Марианна" creationdate="20220425T203912Z">
