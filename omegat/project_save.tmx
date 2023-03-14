@@ -398,6 +398,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;a0&gt;&lt;s1&gt;Loginom Integrator:&lt;/s1&gt;&lt;/a0&gt; Если опубликовать пакет, открыть страницу Swagger UI Интегратора по протоколу http (по умолчанию &lt;c2&gt;http://localhost/lgi/openapi/index.html&lt;/c2&gt;), а затем открыть страницу Swagger UI Интегратора с использованием протокола https, то в результате на странице Swagger UI и в сгенерированном OpenAPI документе был указан путь к серверу через http вместо https.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230314T120908Z" creationid="Марианна" creationdate="20230314T120908Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Loginom Integrator:&lt;/s1&gt;&lt;/a0&gt; If the package was published, Integrator Swagger UI page was opened via http protocol (by default &lt;c2&gt;http://localhost/lgi/openapi/index.html&lt;/c2&gt;), and then Integrator Swagger UI page was opened using https protocol, path to the server via http instead of https was specified on Swagger UI page and in the generated OpenAPI  document.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Loginom Integrator:&lt;/s1&gt;&lt;/a0&gt; добавлена периодическая проверка соединения с сервером.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220708T164512Z" creationid="Марианна" creationdate="20220708T164512Z">
