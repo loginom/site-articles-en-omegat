@@ -1760,8 +1760,8 @@
       <tuv lang="ru">
         <seg>&lt;s0&gt;Замена:&lt;/s0&gt; В мастере настройки узла &lt;e1&gt;Замена&lt;/e1&gt; в случае изменения типа данных для значения Замена тип выходных столбцов не может быть однозначно определен, если параметр Заменять остальные не задан.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20230314T163024Z" creationid="Марианна" creationdate="20230314T163024Z">
-        <seg>&lt;s0&gt;Replace:&lt;/s0&gt; In &lt;e1&gt;Replace&lt;/e1&gt; node wizard the output columns type cannot be definitely defined in case of data type change for the Replace value if Replace other parameter is not set.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20230314T163849Z" creationid="Марианна" creationdate="20230314T163024Z">
+        <seg>&lt;s0&gt;Replace:&lt;/s0&gt; In &lt;e1&gt;Replace&lt;/e1&gt; node wizard the output columns type cannot be explicitly defined in case of data type change for the Replace value if Replace other parameter is not set.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7315,6 +7315,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220220T162622Z" creationid="Марианна" creationdate="20220220T162622Z">
         <seg>Calculator Calculations Preview</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Предупреждение "Тип выходных значений не может быть однозначным без замены других", которое высвечивается в этом случае на поле Заменять остальные, заменили на более информативное "Выходные значения будут переменного типа, если не заменить остальные".</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230314T164227Z" creationid="Марианна" creationdate="20230314T164227Z">
+        <seg>Warning "Output values type cannot be single-valued without replacement of others" that is displayed in this case in Replace others field was replaced to the following more informative warning: "Output values will be variable unless others are replaced".</seg>
       </tuv>
     </tu>
     <tu>
