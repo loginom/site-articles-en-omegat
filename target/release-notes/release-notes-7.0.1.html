@@ -16,7 +16,7 @@
 
 <p><a href="https://help.loginom.ru/userguide/visualization/coarse-classes/" target="_blank"><strong>Coarse сlasses visualizer:</strong></a>&nbsp;Statistics was not calculated in Coarse classes visualizer for the trained node the discrete field of which was selected as the input field. When pressing "Class indicators" button, the following warning appeared: "Failed to calculate statistics of the fine and coarse classes", whereas it was required to calculate actual indicators  The required corrections were introduced (#9628).</p>
 
-<p><a href="https://help.loginom.ru/userguide/processors/data-trees/tree-to-table.html" target="_blank"><strong>Дерево в таблицу:</strong></a>&nbsp;Исправлена ошибка "Некорректное описание узла", которая возникала при одновременном получении данных несколькими узлами&nbsp;<em>Дерево в таблицу</em>&nbsp;из одного и того же дерева, если корневой узел дерева - массив, содержащий 0 элементов (#9609).</p>
+<p><a href="https://help.loginom.ru/userguide/processors/data-trees/tree-to-table.html" target="_blank"><strong>Tree to table:</strong></a>&nbsp;The following error was corrected: "Incorrect node description". It occurred while simultaneous receiving of data by several&nbsp;<em>Tree to table</em>&nbsp;nodes from one and the same tree, if the root tree node was represented by the array that contained 0 items (#9609).</p>
 
 <p><a href="https://help.loginom.ru/userguide/processors/transformation/substitution/" target="_blank"><strong>Replace:</strong></a>&nbsp;When configuring replacement for the field referred to the Date/time type in the internal replacement table, Apply button failed after change of the replacement type to Real and value in the Exact match field. If Cancel button was pressed afterwards, replacement data type was changed to Date/Time again, and attempts were made to change data in the Exact match field, these actions caused the total failure of the application interface. The situation was rectified (#9595).</p>
 
@@ -74,14 +74,14 @@
 
 <h2 id="прочие-изменения">Other Changes</h2>
 
-<p><strong>BatchLauncher:</strong>&nbsp;Сообщение об ошибке выводится в stderr вместо stdout (#9639).</p>
+<p><strong>BatchLauncher:</strong>&nbsp;Error message is displayed in stderr instead of stdout (#9639).</p>
 
 <p><a href="https://help.loginom.ru/userguide/processors/integration/rest-request.html" target="_blank"><strong>REST-запрос:</strong></a>&nbsp;Если в сценарии, подготовленном до версии 7.0.0, в узле REST-запрос была настроена связь поля с параметром, в имени которого присутствовал символ $, то после открытия сценария в Loginom 7.0.0 эта связь пропадала. The required corrections were introduced (#9587).</p>
 
-<p><strong>Извлечение XML:</strong>&nbsp;Компонент&nbsp;<em>Извлечение XML</em>&nbsp;переименован в&nbsp;<em>Разбор XML</em>. Страница мастера настройки узла переименована с "Параметры извлечения XML" на "Параметры разбора XML" (#8493).</p>
+<p><strong>XML Extraction:</strong>&nbsp;Component&nbsp;<em>XML Extraction</em>&nbsp;was renamed to <em>XML parsing</em>. Node wizard page was renamed from "XML extraction parameters" to "XML parsing parameters" (#8493).</p>
 
 <div class="lg-em lg-em_gray">
-<p><strong>Обращаем внимание:</strong> для версии Loginom 7.0 необходимы новые лицензионные SP-ключи или обновление прошивки USB-ключа. При обновлении с любых версий 6.хх также необходимы новые лицензии.</p>
+<p><strong>Please note:</strong> new licence SP keys or update of USB key weaving are required for Loginom 7.0 version . When updating any 6.хх versions, new licenses are also required.</p>
 </div>
 
 <div class="text-align-center">
