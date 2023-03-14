@@ -8138,8 +8138,8 @@
       <tuv lang="ru">
         <seg>Сценарии, созданные в предыдущих версиях Loginom, в которых используются узлы &lt;e2&gt;Замена&lt;/e2&gt; и таблицы замен с дубликатами, в Loginom 7.0.1 завершатся сообщением об ошибке "Значение дублируется в таблице замен".</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20230314T123744Z" creationid="Марианна" creationdate="20230314T123744Z">
-        <seg>The workflows created in the previous Loginom versions in which &lt;e2&gt;Replace&lt;/e2&gt; nodes and replacement tables with dublicates are used, are finished in Loginom 7.0.1with the following error message: "Значение дублируется в таблице замен".</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20230314T124038Z" creationid="Марианна" creationdate="20230314T123744Z">
+        <seg>The workflows created in the previous Loginom versions in which &lt;e2&gt;Replace&lt;/e2&gt; nodes and replacement tables with duplicates are used, are finished with the following error message in Loginom 7.0.1: "The value is duplicated in the replacement table".</seg>
       </tuv>
     </tu>
     <tu>
@@ -8804,6 +8804,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220304T192220Z" creationid="Марианна" creationdate="20220304T192220Z">
         <seg>It can be done using the context menu or the standard hotkeys (Ctrl+x, Ctrl+c, Ctrl+v for Windows OS).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Это относится к дубликатам как во внутренней так и во внешней таблице замен (#4450, ##7434, #9624).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230314T123938Z" creationid="Марианна" creationdate="20230314T123938Z">
+        <seg>It is applicable to the dublicates both in the internal and external replacement tables(#4450, ##7434, #9624).</seg>
       </tuv>
     </tu>
     <tu>
