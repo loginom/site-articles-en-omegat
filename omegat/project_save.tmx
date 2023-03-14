@@ -486,6 +486,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;a0&gt;&lt;s1&gt;REST-запрос:&lt;/s1&gt;&lt;/a0&gt; Если в сценарии, подготовленном до версии 7.0.0, в узле REST-запрос была настроена связь поля с параметром, в имени которого присутствовал символ $, то после открытия сценария в Loginom 7.0.0 эта связь пропадала.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230314T162004Z" creationid="Марианна" creationdate="20230314T162004Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;REST request:&lt;/s1&gt;&lt;/a0&gt; If the field was connected with the parameter in which name $ charater was available in the workflow prepared up to 7.0.0 version, after opening of the workflow in Loginom 7.0.0, this connection was lost.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;REST-запрос:&lt;/s1&gt;&lt;/a0&gt; если ответ на запрос содержал 4-байтные символы в кодировке UTF-8, то выходной порт с ответом содержал пустое значение, а второй выходной порт содержал код завершения &lt;e2&gt;8&lt;/e2&gt; и сообщение об ошибке «Ошибка при обработке ответа сервера: Необработанная ошибка: СООБЩЕНИЕ: Кодовая единица ... не является началом UTF8 символа из не более чем 3 кодовых единиц» (#8373).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210616T154942Z" creationid="Марианна" creationdate="20210616T154241Z">
