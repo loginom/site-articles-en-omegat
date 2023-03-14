@@ -6638,6 +6638,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ошибка никак не влияла на работу приложения (#9579).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230314T115321Z" creationid="Марианна" creationdate="20230314T115321Z">
+        <seg>The error had no effect on the application operation (#9579).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ошибка устранена (#9035).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220425T161326Z" creationid="Марианна" creationdate="20220425T161326Z">
@@ -8872,6 +8880,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>любое число строк, если тип данных Логический.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230314T115213Z" creationid="Марианна" creationdate="20230314T115213Z">
+        <seg>any row count if the Logical data type is used.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>максимизированное модальное окно;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220425T202724Z" creationid="Марианна" creationdate="20220425T202724Z">
@@ -8964,6 +8980,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220309T065920Z" creationid="Марианна" creationdate="20220309T065920Z">
         <seg>the Russian alphabet characters are replaced with the Latin characters or their combination according to the replacement table;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>строк не больше 65536;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230314T115116Z" creationid="Марианна" creationdate="20230314T115042Z">
+        <seg>not exceeding 65536 rows</seg>
       </tuv>
     </tu>
     <tu>
