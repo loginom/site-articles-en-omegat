@@ -8810,8 +8810,8 @@
       <tuv lang="ru">
         <seg>Это относится к дубликатам как во внутренней так и во внешней таблице замен (#4450, ##7434, #9624).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20230314T123938Z" creationid="Марианна" creationdate="20230314T123938Z">
-        <seg>It is applicable to the dublicates both in the internal and external replacement tables(#4450, ##7434, #9624).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20230314T124101Z" creationid="Марианна" creationdate="20230314T123938Z">
+        <seg>It is applicable to the duplicates both in the internal and external replacement tables(#4450, ##7434, #9624).</seg>
       </tuv>
     </tu>
     <tu>
