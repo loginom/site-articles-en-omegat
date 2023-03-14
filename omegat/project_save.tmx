@@ -5558,6 +5558,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если среди уникальных значений поля было пропущенное значение, пустая строка или строка, состоящая только из пробельных символов, то такие значения не отображались в этом выпадающем списке.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230314T130158Z" creationid="Марианна" creationdate="20230314T130158Z">
+        <seg>If there was a null value among the unique field values, empty string or the string that consisted of only white spaces, such values were not displayed in the drop-down list.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если у входных портов есть связи, то по крайней мере один входной порт должен быть подключен к активной ветви.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220929T154550Z" creationid="Марианна" creationdate="20220929T154550Z">
