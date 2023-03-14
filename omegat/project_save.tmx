@@ -5294,6 +5294,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Добавлено отображение таких значений специальным (серым) цветом и в угловых кавычках: &lt;c4&gt;&lt;null&gt;, &lt;Пустая строка&gt;&lt;/c4&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230314T130418Z" creationid="Марианна" creationdate="20230314T130418Z">
+        <seg>Display of such values in special (grey) color and in French quotation marks was added: &lt;c4&gt;&lt;null&gt;, &lt;Empty string&gt;&lt;/c4&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Добавлены всплывающие подсказки с полным текстом, отображаемые при наведении на поле или метку поля.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210322T213253Z" creationid="Марианна" creationdate="20210322T212649Z">
