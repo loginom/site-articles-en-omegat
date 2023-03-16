@@ -1712,8 +1712,8 @@
       <tuv lang="ru">
         <seg>&lt;s0&gt;REST-запрос:&lt;/s0&gt; Если время ожидания сервиса превышало 30 секунд, то работа узла &lt;e1&gt;REST-запрос&lt;/e1&gt; завершалась ошибкой "Ошибка при получении данных HTTP-клиентом:...</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20230316T052631Z" creationid="Марианна" creationdate="20230316T052631Z">
-        <seg>&lt;s0&gt;REST request:&lt;/s0&gt; Если время ожидания сервиса превышало 30 секунд, то работа узла &lt;e1&gt;REST-запрос&lt;/e1&gt; завершалась ошибкой "Ошибка при получении данных HTTP-клиентом:...</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20230316T052934Z" creationid="Марианна" creationdate="20230316T052631Z">
+        <seg>&lt;s0&gt;REST request:&lt;/s0&gt; If the service timeout period exceeded 30 s, the work of &lt;e1&gt;REST request&lt;/e1&gt; was terminated with the following error: "Error while receiving data by HTTP client:...</seg>
       </tuv>
     </tu>
     <tu>
