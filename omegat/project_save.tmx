@@ -5518,6 +5518,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Добавили поддержку корректного выполнения узлов с сохраняемыми уникальными значениями, обученных в более ранних версиях (#8206).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230316T060058Z" creationid="Марианна" creationdate="20230316T060058Z">
+        <seg>Support of correct execution of nodes with the saved unique values trained in the earlier versions was added (#8206).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Добавлен запрос подтверждения от пользователя на деактивацию узла перед началом настройки узла или его портов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220227T115359Z" creationid="Марианна" creationdate="20220227T115359Z">
