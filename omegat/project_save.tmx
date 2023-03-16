@@ -5936,8 +5936,8 @@
       <tuv lang="ru">
         <seg>Заголовки, указанные на странице мастера настройки узла &lt;e1&gt;REST-запрос&lt;/e1&gt; "Настройка пользовательских заголовков", а также переопределенные значения стандартных заголовков не попадали в файл.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20230316T052217Z" creationid="Марианна" creationdate="20230316T052217Z">
-        <seg>The headers specified on the wizard page of &lt;e1&gt;REST request&lt;/e1&gt; node "Configure user headers" request and redefined values of standard headers were not included into the file.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20230316T052350Z" creationid="Марианна" creationdate="20230316T052217Z">
+        <seg>The headers specified on the wizard page of &lt;e1&gt;REST request&lt;/e1&gt; node "Configure user headers" and redefined values of standard headers were not included into the file.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8668,6 +8668,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210616T150749Z" creationid="Марианна" creationdate="20210616T150749Z">
         <seg>Workflow contains ... locked nodes", and the running processes were still being executed, and the memory was not unallocated.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Т.е. заголовки, которые реально отправлялись в запросе не попадали в файл, а вместо них записывались автоматически сгенерированные.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230316T052527Z" creationid="Марианна" creationdate="20230316T052527Z">
+        <seg>Namely, the headers that were really sent in the request were not included into the file, and automatically generated headers were recorded instead of them.</seg>
       </tuv>
     </tu>
     <tu>
