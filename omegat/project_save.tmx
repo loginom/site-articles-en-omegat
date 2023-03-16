@@ -1710,6 +1710,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;REST-запрос:&lt;/s0&gt; Если время ожидания сервиса превышало 30 секунд, то работа узла &lt;e1&gt;REST-запрос&lt;/e1&gt; завершалась ошибкой "Ошибка при получении данных HTTP-клиентом:...</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230316T052631Z" creationid="Марианна" creationdate="20230316T052631Z">
+        <seg>&lt;s0&gt;REST request:&lt;/s0&gt; Если время ожидания сервиса превышало 30 секунд, то работа узла &lt;e1&gt;REST-запрос&lt;/e1&gt; завершалась ошибкой "Ошибка при получении данных HTTP-клиентом:...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;REST-запрос:&lt;/s0&gt; Исправили ошибку "The process cannot access the file because it is being used by another process", которая могла возникать при параллельном вызове узла &lt;e1&gt;REST-запрос&lt;/e1&gt; с активным параметром "Сохранять текст запроса на диск" (#6938).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230316T051612Z" creationid="Марианна" creationdate="20230316T051351Z">
