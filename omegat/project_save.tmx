@@ -1590,6 +1590,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;a0&gt;&lt;s1&gt;Экспорт в базу данных&lt;/s1&gt;&lt;/a0&gt;, &lt;a2&gt;&lt;s3&gt;Экспорт в Tableau:&lt;/s3&gt;&lt;/a2&gt; В этих мастерах настройки переместить поле таблицы с помощью клавиатуры получалось только 1 раз, а последующие нажатия клавиш Ctrl+Up или Ctrl+Down не приводили к перемещению поля.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230316T060629Z" creationid="Марианна" creationdate="20230316T060629Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Export to database&lt;/s1&gt;&lt;/a0&gt;, &lt;a2&gt;&lt;s3&gt;Export to Tableau:&lt;/s3&gt;&lt;/a2&gt; It was possible to move the table field only 1 time in these wizards using the keyboard, and the subsequent pressing on Ctrl+Up or Ctrl+Down keys combination didn't enable to move the field.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;a0&gt;OLAP-куб&lt;/a0&gt; — один из самых популярных визуализаторов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220227T085434Z" creationid="Марианна" creationdate="20220227T085434Z">
