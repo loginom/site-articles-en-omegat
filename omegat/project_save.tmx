@@ -7080,8 +7080,8 @@
       <tuv lang="ru">
         <seg>Отмечать и снимать выделение можно по клику на специальный элемент слева от поля (CheckBox), перемещение по полям не изменяет состояние этого элемента (#9337).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20230316T055041Z" creationid="Марианна" creationdate="20230316T055031Z">
-        <seg>It is possible to select and deselect by clicking on the special element to the left from the field (CheckBox), movements in the field doesn't change the state of this element (#9337).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20230316T055157Z" creationid="Марианна" creationdate="20230316T055031Z">
+        <seg>It is possible to select and deselect by clicking on the special element to the left from the field (CheckBox), movements in the fields don't change the state of this element (#9337).</seg>
       </tuv>
     </tu>
     <tu>
@@ -9628,6 +9628,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220227T091031Z" creationid="Марианна" creationdate="20220227T091031Z">
         <seg>the context menu with "Go to derived component" option was added on the Derived Components panel for the current module;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>на странице настройки соответствия между столбцами в мастере &lt;e0&gt;Импорта из базы данных&lt;/e0&gt; или на этапе активации узла &lt;e1&gt;Импорт из базы данных&lt;/e1&gt;, в котором задан SELECT-запрос, возвращающий поля с типом JSON (#9248).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230316T055648Z" creationid="Марианна" creationdate="20230316T055648Z">
+        <seg>on the page of columns mapping configuration in &lt;e0&gt;Import from database&lt;/e0&gt; wizard or at the stage of &lt;e1&gt;Import from database&lt;/e1&gt; node activation in which SELECT request is set returning the fields with JSON type (#9248).</seg>
       </tuv>
     </tu>
     <tu>
