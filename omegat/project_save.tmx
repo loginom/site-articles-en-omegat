@@ -7729,8 +7729,8 @@
       <tuv lang="ru">
         <seg>Предупреждение "Тип выходных значений не может быть однозначным без замены других", которое высвечивается в этом случае на поле Заменять остальные, заменили на более информативное "Выходные значения будут переменного типа, если не заменить остальные".</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20230314T195923Z" creationid="Марианна" creationdate="20230314T164227Z">
-        <seg>"Output values type cannot be single-valued without replacement of others" warning that is displayed in this case in Replace others field was replaced to the following warning that is more informative: "Output values will be variable unless others are replaced".</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20230316T063913Z" creationid="Марианна" creationdate="20230314T164227Z">
+        <seg>"Output values type cannot be definite without replacement of others" warning that is displayed in this case in Replace others field was replaced to the following warning that is more informative: "Output values will be variable unless others are replaced".</seg>
       </tuv>
     </tu>
     <tu>
