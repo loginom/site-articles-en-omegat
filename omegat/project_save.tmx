@@ -9090,8 +9090,8 @@
       <tuv lang="ru">
         <seg>Теперь, если не удалось определить значение в поле Выбор объекта, просмотр в мастере настройки импорта не будет показан, а выпадающий список листов будет пустым (#9533).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20230314T202319Z" creationid="Марианна" creationdate="20230314T202151Z">
-        <seg>Now, if it was not possible to define the value in Object selection field, view will not be displayed in the import wizard, and drop-down list of sheets wll be empty (#9533).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20230316T063556Z" creationid="Марианна" creationdate="20230314T202151Z">
+        <seg>Now, if it is not possible to define the value in Object selection field, view will not be displayed in the import wizard, and drop-down list of sheets will be empty (#9533).</seg>
       </tuv>
     </tu>
     <tu>
