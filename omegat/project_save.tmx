@@ -7080,8 +7080,8 @@
       <tuv lang="ru">
         <seg>Отмечать и снимать выделение можно по клику на специальный элемент слева от поля (CheckBox), перемещение по полям не изменяет состояние этого элемента (#9337).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20230316T055031Z" creationid="Марианна" creationdate="20230316T055031Z">
-        <seg>It is possible to delect and deselect by clicking on the special element to the left from the field (CheckBox), movements in the field doesn't change the state of this element (#9337).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20230316T055041Z" creationid="Марианна" creationdate="20230316T055031Z">
+        <seg>It is possible to select and deselect by clicking on the special element to the left from the field (CheckBox), movements in the field doesn't change the state of this element (#9337).</seg>
       </tuv>
     </tu>
     <tu>
