@@ -2054,6 +2054,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Импорт из базы данных:&lt;/s0&gt; В мастере настройки импорта из базы данных при кликах на имена полей и при перемещении по полям вверх/вниз с помощью клавиатуры сбрасывались выставленные ранее "галочки" около полей таблиц.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230316T054652Z" creationid="Марианна" creationdate="20230316T054652Z">
+        <seg>&lt;s0&gt;Import from database:&lt;/s0&gt; Earlier selected checkboxes near the table fields were deselected in the wizard of import from database while clicking on the field names and moving across the fields up and down using the keyboard.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Импорт из базы данных:&lt;/s0&gt; Если при активном подключении к базе данных открыть мастер импорта и сразу вызвать Предпросмотр, то выводилось сообщение с текстом: "Сначала выберите поля для предпросмотра".</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230315T075101Z" creationid="Марианна" creationdate="20230315T075101Z">
