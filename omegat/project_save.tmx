@@ -1702,6 +1702,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;REST-запрос:&lt;/s0&gt; Если в настройках подключения к REST-сервису явно указан допустимый Content-Type ответа, а в ответе сервиса заголовок Content-Type отсутствует, то на выходных портах узла &lt;e1&gt;REST-запрос&lt;/e1&gt; не было ни данных, ни сообщения об ошибке.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230316T053640Z" creationid="Марианна" creationdate="20230316T053640Z">
+        <seg>&lt;s0&gt;REST request:&lt;/s0&gt; If the allowable response Content-Type was explicitly specified in settings of connection to REST service, and there is no Content-Type header in the service response, neither data, nor error message were at the output ports of &lt;e1&gt;REST request&lt;/e1&gt; node.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;REST-запрос:&lt;/s0&gt; Если в настройках подключения к REST-сервису явно указан допустимый Content-Type ответа, а ответ получен с другим Content-Type, то все последующие ответы даже при правильном Content-Type содержали ошибку "Нераспознанная структура сообщения".</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230315T073940Z" creationid="Марианна" creationdate="20230315T073940Z">
