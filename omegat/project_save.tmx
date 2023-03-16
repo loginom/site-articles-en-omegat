@@ -5310,6 +5310,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для баз данных в других кодировках в запросах со строками, содержащими не поддерживаемые кодировкой БД символы, нужно добавлять префикс N перед строковым литералом (N'строка').</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230316T055855Z" creationid="Марианна" creationdate="20230316T055855Z">
+        <seg>It is required to add N prefix before the string literal (N'string') for the databases with other encoding in the requests with the strings containing the characters not supported by the database encoding.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для всех вновь создаваемых узлов будет действовать следующая логика: если настройка «Уникальные значения как имена полей» активна, то валидные уникальные значения будут без изменений использоваться как имена столбцов, а невалидные уникальные значения будут формироваться с помощью транслитерации.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220309T074722Z" creationid="Марианна" creationdate="20220309T074626Z">
