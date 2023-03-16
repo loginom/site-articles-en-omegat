@@ -7960,6 +7960,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При этом установка больших значений параметров "Таймаут подключения" и "Таймаут обмена данными" в настройках подключения к REST-сервису на данную ситуацию не влияли.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230316T053150Z" creationid="Марианна" creationdate="20230316T053150Z">
+        <seg>In this case, set large values of "Connection timeout" parameters and "Data exchange timeout" in settings of connection to REST service didn't influence the situation.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При этом, имена, заканчивающиеся точкой или пробелом, запрещены.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220308T144343Z" creationid="Марианна" creationdate="20220308T144326Z">
