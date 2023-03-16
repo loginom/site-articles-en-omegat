@@ -2056,8 +2056,8 @@
       <tuv lang="ru">
         <seg>&lt;s0&gt;Импорт из базы данных:&lt;/s0&gt; В мастере настройки импорта из базы данных при кликах на имена полей и при перемещении по полям вверх/вниз с помощью клавиатуры сбрасывались выставленные ранее "галочки" около полей таблиц.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20230316T054837Z" creationid="Марианна" creationdate="20230316T054652Z">
-        <seg>&lt;s0&gt;Import from database:&lt;/s0&gt; Earlier selected checkboxes near the table fields were deselected in the wizard of import from database while clicking on the field names and during up and down movements in the fields using the keyboard.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20230316T054906Z" creationid="Марианна" creationdate="20230316T054652Z">
+        <seg>&lt;s0&gt;Import from database:&lt;/s0&gt; Earlier selected checkboxes near the table fields were deselected in the import from database wizard while clicking on the field names and during up and down movements in the fields using the keyboard.</seg>
       </tuv>
     </tu>
     <tu>
