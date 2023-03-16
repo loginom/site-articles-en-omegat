@@ -846,6 +846,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;a0&gt;&lt;s1&gt;Импорт из базы данных:&lt;/s1&gt;&lt;/a0&gt; В мастере настройки импорта из базы данных при заданном фильтре для выбранных полей на следующей странице мастера настройки поля, не соответствующие установленному фильтру, считались не выбранными.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230316T054330Z" creationid="Марианна" creationdate="20230316T054330Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Import from database:&lt;/s1&gt;&lt;/a0&gt; The fields that didn't match the set filter were not considered to be selected in the wizard of import from database with the set filter for the selected fields on the next wizard page.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Импорт из базы данных:&lt;/s1&gt;&lt;/a0&gt; Не активировались входные переменные при первом запуске предпросмотра результатов SQL-запроса в мастере настройки импорта из БД.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220929T145210Z" creationid="Марианна" creationdate="20220929T143944Z">
