@@ -5142,6 +5142,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Внесли необходимые изменения, чтобы в выходном порту "Дополнительные данные" выводилось сообщение об ошибке, связанное с некорректным Content-Type (#7552).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230316T053927Z" creationid="Марианна" creationdate="20230316T053927Z">
+        <seg>The required changes were introduced to display the error message connected with incorrect Content-Type in the output port "Additional data" (#7552).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Внесли необходимые исправления (#7377).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220708T164102Z" creationid="Марианна" creationdate="20220708T164102Z">
