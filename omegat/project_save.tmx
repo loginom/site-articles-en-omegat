@@ -2414,6 +2414,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Приложение:&lt;/s0&gt; В сценариях Loginom подготовленных на Windows 7 и Windows Server 2008 R2, при переносе на более новые версии операционной системы, могли возникать ошибки из-за различий в сортировке строк, содержащих буквы &lt;c1&gt;Й&lt;/c1&gt;, &lt;c2&gt;И&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230316T061221Z" creationid="Марианна" creationdate="20230316T061221Z">
+        <seg>&lt;s0&gt;Application:&lt;/s0&gt; In the Loginom workflows prepared in Windows 7 and Windows Server 2008 R2, when transferring to newer versions of operational system, errors connected with differences in sorting of the strings that contained &lt;c1&gt;Й&lt;/c1&gt;, &lt;c2&gt;И&lt;/c2&gt; letters could occur.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Приложение:&lt;/s0&gt; Исключили сообщение об ошибке "Строка "__deleted" не может быть преобразована в значение логического типа".</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230314T115612Z" creationid="Марианна" creationdate="20230314T115612Z">
