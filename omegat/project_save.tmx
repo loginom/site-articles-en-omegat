@@ -1478,6 +1478,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;a0&gt;&lt;s1&gt;Фильтр строк:&lt;/s1&gt;&lt;/a0&gt; При использовании двух последовательных узлов &lt;e2&gt;Фильтр строк&lt;/e2&gt; во втором узле не обновлялся список уникальных значений, если в предыдущем фильтре были внесены изменения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20230316T060352Z" creationid="Марианна" creationdate="20230316T060352Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Row filter:&lt;/s1&gt;&lt;/a0&gt; When using two successive &lt;e2&gt;Row filter&lt;/e2&gt; nodes, the list of unique values was not updated in the second node if changes were introduced into the preceding filter.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Фильтр строк:&lt;/s1&gt;&lt;/a0&gt; если для фильтрации использовались значения типа &lt;e2&gt;Переменный&lt;/e2&gt; и условие «в списке / не в списке», а затем тип значений списка задавался отличным от &lt;e3&gt;Переменный&lt;/e3&gt;, то могла возникать ошибка "Uncaught Error: Duplicate newKey ... for item with oldKey ..." (#4580).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211229T113241Z" creationid="Марианна" creationdate="20211229T113124Z">
