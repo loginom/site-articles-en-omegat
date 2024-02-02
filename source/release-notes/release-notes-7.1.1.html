@@ -1,0 +1,69 @@
+<h2 id="исправление-ошибок">Исправление ошибок</h2>
+
+<p><a href="https://help.loginom.ru/userguide/components-platform.html#desktop" target="_blank"><strong>Loginom Desktop:</strong></a> В настольной редакции под Linux исправлено отображение результирующего имени файла в заголовке файлового диалога в <a href="https://ru.wikipedia.org/wiki/GTK" target="_blank">GTK</a>.</p>
+
+<p><strong>Loginom Desktop:</strong> В настольной редакции под Linux, если не выбран файл,  в заголовке диалога открытия файла под GTK выводилась строка «./../../». Убрали ее из заголовка.</p>
+
+<p><a href="https://help.loginom.ru/userguide/components-platform.html#server" target="_blank"><strong>Loginom Server:</strong></a> Исправлена ошибка «Access Violation», которая возникала при работе под Linux во время чтения ошибочных или битых конфигурационных файлов сервера (Settings.cfg, Users.cfg и др.). Теперь в этой ситуации информация о проблеме записывается в journald.</p>
+
+<p><a href="https://help.loginom.ru/userguide/processors/programming/python/" target="_blank"><strong>Python:</strong></a> Исправлен конфликт доступа к <code>/dev/shm/loginom</code>. Проблема возникала, если на одном компьютере с Linux было несколько пользователей, у которых установлен Loginom.</p>
+
+<p><strong>Визуализаторы, компоненты:</strong> Значение поля Время для даты 30.12.1899 содержало не только значение времени, но и дату. После внесенных исправлений для даты 30.12.1899 выводится только время. Ранее ошибку можно было заметить:</p>
+
+<ul>
+	<li>в гистограмме визуализатора <a href="https://help.loginom.ru/userguide/visualization/data-quality/" target="_blank">Качество данных</a> (#9731);</li>
+	<li>в визуализаторе <a href="https://help.loginom.ru/userguide/visualization/coarse-classes/" target="_blank"> Конечные классы</a> в метках границ классов (#9733);</li>
+	<li><a href="https://help.loginom.ru/userguide/processors/preprocessing/binning.html" target="_blank">Квантовании</a> <em> Конечных классах</em> при формировании метки для значений времени (#9735, #9734);</li>
+	<li><a href="https://help.loginom.ru/userguide/visualization/cube/" target="_blank">Кубе</a> (#9730);</li>
+	<li>в визуализаторе <a href="https://help.loginom.ru/userguide/visualization/regression/" target="_blank">Отчет по регрессии</a> в описании показателей модели (#9736);</li>
+	<li>в визуализаторе <a href="https://help.loginom.ru/userguide/visualization/cluster-profiles/" target="_blank">Профили кластеров</a> для значений минимум, максимум и среднее поля типа Дата/Время (#9732);</li>
+	<li>в визуализаторе <a href="https://help.loginom.ru/userguide/visualization/statistics/" target="_blank">Статистика</a> на гистограмме, а также для значений минимум и максимум поля типа Дата/Время (#9728).</li>
+</ul>
+
+<p><a href="https://help.loginom.ru/userguide/visualization/chart/" target="_blank"><strong>Визуализатор Диаграмма:</strong></a> При экспорте диаграммы в PDF, если высота изображения превышала ширину, ее нижняя часть была обрезана. Внесли необходимые исправления (#10174).</p>
+
+<p><a href="https://help.loginom.ru/userguide/visualization/binary-classification/" target="_blank"><strong>Визуализатор Качество бинарной классификации:</strong></a> На диаграмме точности не отображались линии графиков NPV и OPR, хотя маркеры для них отображались (т.е. графики были построены). Регрессионную ошибку, появившуюся в версии 7.0.2, исправили (#10178).</p>
+
+<p><strong>Визуализатор Куб:</strong> Фильтр по факту, в котором значение для сравнения указано как значение по умолчанию (0, "" и т.д.), т.е. не изменялось пользователем при его настройке, не срабатывал. Фильтрация срабатывала после изменения значения для сравнения на отличное от значения по умолчанию, а затем на нужное пользователю (0, ""). Ошибочное поведение исправили (#9929).</p>
+
+<p><a href="https://help.loginom.ru/userguide/processors/scrutiny/duplicates.html" target="_blank"><strong>Дубликаты и противоречия:</strong></a> Исправлена ошибка «Abstract method called», которая возникала в визуализаторе <em>Качество данных</em>, настроенном на узле, который получал данные с узла <em>Дубликаты и противоречия</em> (#10201).</p>
+
+<p><a href="https://help.loginom.ru/userguide/processors/transformation/substitution/" target="_blank"><strong>Замена:</strong></a> При способе замены <em>Ввод вручную</em> повторное нажатие на кнопку <em>Экспорт</em> для экспорта таблицы замен приводило к ошибке «Невозможно перейти по адресу: blob:...». Ошибка возникала в настольной версии Loginom. Внесли необходимые исправления (#10164).</p>
+
+<p><a href="https://help.loginom.ru/userguide/integration/import/excel/" target="_blank"><strong>Импорт из Excel файла:</strong></a> Исправлена ошибка «Failed to open / Не удалось открыть Excel», которая возникала при попытке импортировать файл, полученный экспортом из Power BI или Teradata SQL Assistant (#9849).</p>
+
+<p><a href="https://help.loginom.ru/userguide/processors/transformation/calc/" target="_blank"><strong>Калькулятор:</strong></a> Если изменить выражение и, не выходя из редактора, нажать клавишу F3 (открыть <em>Предпросмотр</em>), то результат в <em>Предпросмотре</em> не учитывал последние изменения. Ошибку исправили (#10166).</p>
+
+<p><strong>Область построения сценария:</strong> Если попытаться переименовать заблокированный узел, то после сообщения об ошибке «Узел заблокирован», изменить метку нельзя, скрывалась иконка замка у метки узла. Также пропадали переводы строк у многострочной метки узла. Ошибки исправили (#10077).</p>
+
+<p><strong>Область построения сценария:</strong> В сильно загруженной системе при перетаскивании компонента в область построения сценария он откреплялся от курсора и добавлялся в область построения сценария сразу после того, как появлялся над этой областью. При этом не происходило выделение узла. Ошибочное поведение исправили (#10168).</p>
+
+<p><a href="https://help.loginom.ru/userguide/integration/connections/list/postgresql.html" target="_blank"><strong>Подключение PostgreSQL:</strong></a> Исправлена ошибка «Error on data waiting from the connection: No such file or directory. Socket Error Code: 2($2)». Она возникала нерегулярно в редакциях под Linux и не имела точных шагов воспроизведения (#10179).</p>
+
+<p><a href="https://help.loginom.ru/userguide/integration/connections/list/schemes.html" target="_blank"><strong>Подключение набора XSD-схем:</strong></a> Устранена утечка памяти, которая возникала, если подключение настроено на схему с абстрактными элементами (#10205).</p>
+
+<h2 id="улучшения">Улучшения</h2>
+
+<p><strong>Loginom Desktop:</strong> В настольных редакциях под Linux подключен менеджер памяти TCMalloc вместо стандартного Glibc, который медленно отдает системе неиспользуемую, освобожденную программой память.</p>
+
+<p><strong>Loginom Desktop:</strong> Файловый диалог локализуется в зависимости от текущего местоположения пользователя. Ранее можно было наблюдать ситуацию, когда для англоязычной версии Windows в русскоязычной версии Loginom почти все надписи в окне файлового диалога были на английском языке (т.к. Windows английский), а несколько элементов управления — на русском.</p>
+
+<p><strong>Loginom Desktop:</strong> Когда Loginom Desktop запускается через командную строку с передачей имени файла пакета, через ее аргумент открывается сценарий первого модуля, т.е. аналогично тому, когда пакет запускается через меню приложения (#7090).</p>
+
+<p><strong>Loginom Desktop:</strong> При работе под Linux запоминается последняя открытая папка в файловых диалогах (#10150).</p>
+
+<p><strong>Loginom Desktop:</strong> В приложении под Linux, работающем в окружении рабочего стола <a href="https://ru.wikipedia.org/wiki/KDE_Plasma_5" target="_blank">KDE</a>, используется файловый диалог KDE, а не GTK. Текущее окружение рабочего стола определяется значением переменной окружения <code>XDG_CURRENT_DESKTOP</code>. Использование диалога KDE может быть отключено переменной окружения <code>NO_LOGINOM_KDE_FILE_DIALOG</code>. При любых ошибках, не позволяющих запустить файловый диалог KDE, будет использоваться файловый диалог GTK (#10153).</p>
+
+<p><strong>Loginom Server:</strong> При работе под Linux для логирования ошибок старта <code>loginomd</code> вместо <code>syslog</code> используется <code>journald</code>. Если API <code>journald</code> не доступно, сообщение записывается в <code>stderr</code>.</p>
+
+<p><a href="https://help.loginom.ru/userguide/interface/property-inspector.html" target="_blank"><strong>Инспектор свойств:</strong></a> Оптимизировано начальное заполнение окна инспектора.</p>
+
+<p><strong>Конечные классы:</strong> Учтена ситуация, когда количество конечных классов равно 1. Ранее для непрерывных значений при единственном классе его метка формировалась в виде «до %d» (например, «до 9»), теперь будет «…».</p>
+
+<p><strong>Приложение:</strong> Оптимизировано сравнение значений переменного типа, внутри которых были строки, в результате чего в некоторых сценариях узлы <a href="https://help.loginom.ru/userguide/processors/transformation/row-filter/" target="_blank">Фильтр строк</a> стали активироваться быстрее на 25%.</p>
+
+<p><a href="https://help.loginom.ru/userguide/integration/export/ldf.html" target="_blank"><strong>Экспорт в LGD-файл:</strong></a> В мастере настройки удалено поле <em>Разрядность</em>, т.к. Loginom 7 выпускается только 64-х разрядным (#10047).</p>
+
+<div class="text-align-center">
+<p class="lg-text-btn lg-text-btn_border"><a href="https://loginom.ru/download">Скачать версию</a></p>
+</div>
