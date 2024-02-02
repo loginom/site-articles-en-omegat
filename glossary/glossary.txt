@@ -306,6 +306,7 @@ OPR (Усредненная точность прогноза)	OPR (Overall Prec
 Средняя абсолютная ошибка	Mean absolute error
 Среднеквадратическая ошибка	Root-mean-square error
 Нейросеть	Neural network
+Нейросеть	Neural net	Компонент Нейросеть
 Средняя относительная ошибка	Mean relative error
 Признак контейнера	Container indicator
 Функциональность IF - THEN - ELSE	IF - THEN - ELSE feature
@@ -433,4 +434,3 @@ P-значение	P-value
 Диапазоны квантования = интервалы квантования	Binning ranges	Раньше использовался ошибочный термин binning bins
 Верхняя граница диапазонов открыта	Upper bin bound open
 Нижняя граница диапазонов открыта	Lower bin bound open
-Нейросеть	Neural net	Компонент Нейросеть
