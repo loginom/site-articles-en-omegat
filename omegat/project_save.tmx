@@ -3126,6 +3126,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>EM Кластеризация</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240211T171629Z" creationid="Марианна" creationdate="20240211T171629Z">
+        <seg>EM Clustering</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Execution of request terminated with error: 5023".</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230314T202551Z" creationid="Марианна" creationdate="20230314T202551Z">
@@ -3762,6 +3770,30 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220220T163701Z" creationid="Марианна" creationdate="20220220T163701Z">
         <seg>https://help.loginom.ru/userguide/processors/datamining/logistic-regression/index.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/processors/datamining/neural-network-classification.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240211T171701Z" creationid="Марианна" creationdate="20240211T171701Z">
+        <seg>https://help.loginom.ru/userguide/processors/datamining/neural-network-classification.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/processors/datamining/neural-network-regression.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240211T171747Z" creationid="Марианна" creationdate="20240211T171747Z">
+        <seg>https://help.loginom.ru/userguide/processors/datamining/neural-network-regression.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/processors/datamining/self-organizing-network.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240211T171652Z" creationid="Марианна" creationdate="20240211T171652Z">
+        <seg>https://help.loginom.ru/userguide/processors/datamining/self-organizing-network.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -6970,6 +7002,22 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T204211Z" creationid="Марианна" creationdate="20210314T204211Z">
         <seg>Failed to find the specified file» (#7978).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Нейросеть (классификация)</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240211T171743Z" creationid="Марианна" creationdate="20240211T171743Z">
+        <seg>Neural Network (Classification)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Нейросеть (регрессия)</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240211T171838Z" creationid="Марианна" creationdate="20240211T171838Z">
+        <seg>Neural Network (Regression)</seg>
       </tuv>
     </tu>
     <tu>
