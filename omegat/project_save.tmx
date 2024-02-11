@@ -6678,6 +6678,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Масштабное обновление аналитической платформы Loginom.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240211T171048Z" creationid="Марианна" creationdate="20240211T171048Z">
+        <seg>Large-Scale Update of Loginom Analytical Platform</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Механизм блокировки был сделан более надежным.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T204853Z" creationid="Марианна" creationdate="20210314T204853Z">
