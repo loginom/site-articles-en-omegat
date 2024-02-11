@@ -3886,6 +3886,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/processors/preprocessing/partitioning.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240211T171916Z" creationid="Марианна" creationdate="20240211T171916Z">
+        <seg>https://help.loginom.ru/userguide/processors/preprocessing/partitioning.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>https://help.loginom.ru/userguide/processors/preprocessing/quantization.html</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211215T125806Z" creationid="Марианна" creationdate="20211215T125806Z">
@@ -4226,6 +4234,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T203152Z" creationid="Марианна" creationdate="20210314T203152Z">
         <seg>https://help.loginom.ru/userguide/visualization/preview/quick-view.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/visualization/regression/</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240211T171952Z" creationid="Марианна" creationdate="20240211T171952Z">
+        <seg>https://help.loginom.ru/userguide/visualization/regression/</seg>
       </tuv>
     </tu>
     <tu>
@@ -6602,6 +6618,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220224T065140Z" creationid="Марианна" creationdate="20220224T065140Z">
         <seg>Calculator</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Качество бинарной классификации</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240211T171948Z" creationid="Марианна" creationdate="20240211T171948Z">
+        <seg>Binary Classification Assessment</seg>
       </tuv>
     </tu>
     <tu>
