@@ -3326,6 +3326,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/integration/connections/list/excel.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240211T171125Z" creationid="Марианна" creationdate="20240211T171125Z">
+        <seg>https://help.loginom.ru/userguide/integration/connections/list/excel.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>https://help.loginom.ru/userguide/integration/connections/list/firebird.html</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T202035Z" creationid="Марианна" creationdate="20210314T202035Z">
@@ -3338,6 +3346,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210902T132550Z" creationid="Марианна" creationdate="20210902T132550Z">
         <seg>https://help.loginom.ru/userguide/integration/connections/list/interbase.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/integration/connections/list/kafka.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240211T171151Z" creationid="Марианна" creationdate="20240211T171151Z">
+        <seg>https://help.loginom.ru/userguide/integration/connections/list/kafka.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -3722,6 +3738,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T202038Z" creationid="Марианна" creationdate="20210314T202038Z">
         <seg>https://help.loginom.ru/userguide/processors/func/calc-func/datetime.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/processors/integration/exec-program.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240211T171133Z" creationid="Марианна" creationdate="20240211T171133Z">
+        <seg>https://help.loginom.ru/userguide/processors/integration/exec-program.html</seg>
       </tuv>
     </tu>
     <tu>
