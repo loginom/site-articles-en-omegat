@@ -7102,6 +7102,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Не поддерживается браузер Internet Explorer.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240211T172650Z" creationid="Марианна" creationdate="20240211T172650Z">
+        <seg>Internet Explorer browser is not supported.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Не поддерживаются модули пакета multiprocessing, используемые для реализации параллельной работы через создание нескольких процессов, а также зависимые от них сторонние пакеты.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210320T222545Z" creationid="Марианна" creationdate="20210320T222457Z">
