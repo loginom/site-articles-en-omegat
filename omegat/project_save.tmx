@@ -7390,6 +7390,22 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Отчет по линейной регрессии</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240211T172846Z" creationid="Марианна" creationdate="20240211T172846Z">
+        <seg>Linear Regression Report</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Отчет по логистической регрессии</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240211T172806Z" creationid="Марианна" creationdate="20240211T172806Z">
+        <seg>Logistic Regression Report</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ошибка была связана с тем, что в создаваемом файле &lt;e1&gt;env.conf&lt;/e1&gt; параметр &lt;e2&gt;WS_PROXY_URI&lt;/e2&gt; был задан как &lt;e3&gt;ws/&lt;/e3&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210902T072056Z" creationid="Марианна" creationdate="20210902T071908Z">
@@ -8796,6 +8812,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220304T142425Z" creationid="Марианна" creationdate="20220304T142425Z">
         <seg>.lgp files are not rewritten in this case.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Самоорганизующаяся сеть</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240211T172923Z" creationid="Марианна" creationdate="20240211T172923Z">
+        <seg>Self-Organizing Network</seg>
       </tuv>
     </tu>
     <tu>
