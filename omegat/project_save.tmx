@@ -110,10 +110,26 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>/sites/default/files/blogpost-images/DB_master.png</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240211T171312Z" creationid="Марианна" creationdate="20240211T171312Z">
+        <seg>/sites/default/files/blogpost-images/DB_master.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>/sites/default/files/blogpost-images/admin.png</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T201809Z" creationid="Марианна" creationdate="20210314T201809Z">
         <seg>/sites/default/files/blogpost-images/admin.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>/sites/default/files/blogpost-images/cub_mesure_setting.png</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240211T171427Z" creationid="Марианна" creationdate="20240211T171427Z">
+        <seg>/sites/default/files/blogpost-images/cub_mesure_setting.png</seg>
       </tuv>
     </tu>
     <tu>
@@ -186,6 +202,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T195738Z" creationid="Марианна" creationdate="20210314T195738Z">
         <seg>/sites/default/files/blogpost-images/dw-import.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>/sites/default/files/blogpost-images/notes.png</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240211T171407Z" creationid="Марианна" creationdate="20240211T171407Z">
+        <seg>/sites/default/files/blogpost-images/notes.png</seg>
       </tuv>
     </tu>
     <tu>
@@ -3702,6 +3726,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/processors/datamining/em-clustering.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240211T171554Z" creationid="Марианна" creationdate="20240211T171554Z">
+        <seg>https://help.loginom.ru/userguide/processors/datamining/em-clustering.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>https://help.loginom.ru/userguide/processors/datamining/linear-regression/</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210616T153858Z" creationid="Марианна" creationdate="20210616T153858Z">
@@ -3794,6 +3826,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T203900Z" creationid="Марианна" creationdate="20210314T203900Z">
         <seg>https://help.loginom.ru/userguide/processors/preprocessing/editing-of-emissions.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/processors/preprocessing/eliminate-outliers.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240211T171349Z" creationid="Марианна" creationdate="20240211T171349Z">
+        <seg>https://help.loginom.ru/userguide/processors/preprocessing/eliminate-outliers.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -4154,6 +4194,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T203152Z" creationid="Марианна" creationdate="20210314T203152Z">
         <seg>https://help.loginom.ru/userguide/visualization/preview/quick-view.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/visualization/statistics/</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240211T171531Z" creationid="Марианна" creationdate="20240211T171531Z">
+        <seg>https://help.loginom.ru/userguide/visualization/statistics/</seg>
       </tuv>
     </tu>
     <tu>
@@ -6522,6 +6570,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220224T065140Z" creationid="Марианна" creationdate="20220224T065140Z">
         <seg>Calculator</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Кластеризация</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240211T171550Z" creationid="Марианна" creationdate="20240211T171550Z">
+        <seg>Clustering</seg>
       </tuv>
     </tu>
     <tu>
