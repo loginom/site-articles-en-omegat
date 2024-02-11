@@ -3566,6 +3566,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/integration/export/xml.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240211T173103Z" creationid="Марианна" creationdate="20240211T173103Z">
+        <seg>https://help.loginom.ru/userguide/integration/export/xml.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>https://help.loginom.ru/userguide/integration/import/</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T203239Z" creationid="Марианна" creationdate="20210314T203239Z">
@@ -3886,6 +3894,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/processors/integration/xml-generation.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240211T173111Z" creationid="Марианна" creationdate="20240211T173111Z">
+        <seg>https://help.loginom.ru/userguide/processors/integration/xml-generation.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>https://help.loginom.ru/userguide/processors/preprocessing/binning.html</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230210T075056Z" creationid="Марианна" creationdate="20230210T075056Z">
@@ -3970,6 +3986,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211215T125727Z" creationid="Марианна" creationdate="20211215T125727Z">
         <seg>https://help.loginom.ru/userguide/processors/programming/java-script/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/processors/programming/java-script/fileapi.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240211T173134Z" creationid="Марианна" creationdate="20240211T173134Z">
+        <seg>https://help.loginom.ru/userguide/processors/programming/java-script/fileapi.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -6382,6 +6406,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Импорт из файлов</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240211T173209Z" creationid="Марианна" creationdate="20240211T173209Z">
+        <seg>Import from Files</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Иногда возникают ситуации, когда различия в функционалах нужно учитывать при проектировании сценариев.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220227T085914Z" creationid="Марианна" creationdate="20220227T085914Z">
@@ -7218,6 +7250,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220426T092519Z" creationid="Марианна" creationdate="20220426T092519Z">
         <seg>More detailed information on all changes of the new version is available on the &lt;a1&gt;official site&lt;/a1&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Обновленный мастер настройки импорта из базы данных</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240211T173321Z" creationid="Марианна" creationdate="20240211T173321Z">
+        <seg>Updated import from database wizard</seg>
       </tuv>
     </tu>
     <tu>
@@ -8408,10 +8448,26 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Работа с Веб-сервисами</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240211T173155Z" creationid="Марианна" creationdate="20240211T173155Z">
+        <seg>Web Services Operation</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Работа с базами данных</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T203607Z" creationid="Марианна" creationdate="20210314T202033Z">
         <seg>Databases Operation</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Работа с данными</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240211T173046Z" creationid="Марианна" creationdate="20240211T173046Z">
+        <seg>Data Handling</seg>
       </tuv>
     </tu>
     <tu>
