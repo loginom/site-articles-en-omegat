@@ -7783,6 +7783,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Поддерживается только формат xlsx (MS Excel 2007 и выше).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240211T173455Z" creationid="Марианна" creationdate="20240211T173455Z">
+        <seg>Only xlsx format is supported (MS Excel 2007 and higher).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Поддержка Python 3.10 позволяет полноценно использовать последние версии популярных библиотек (#9047).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220426T092738Z" creationid="Марианна" creationdate="20220426T092738Z">
