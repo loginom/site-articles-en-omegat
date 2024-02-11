@@ -366,6 +366,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;/configSections&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240211T172423Z" creationid="Марианна" creationdate="20240211T172423Z">
+        <seg>&lt;/configSections&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Access:&lt;/s1&gt;&lt;/a0&gt; при многопоточной работе подключений, использующих «Microsoft Access Database Engine»: «MS Access», «MS Excel», а также подключений через ODBC, возникали ошибки со стороны данного компонента СУБД.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220426T103027Z" creationid="Марианна" creationdate="20220426T103027Z">
@@ -1646,6 +1654,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;configSections&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240211T172357Z" creationid="Марианна" creationdate="20240211T172357Z">
+        <seg>&lt;configSections&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;&lt;a1&gt;Loginom Integrator,&lt;/a1&gt; Пакетное выполнение:&lt;/s0&gt; ускорен повторный запуск узла сценария при работе через Loginom Integrator или при Пакетном выполнении (#5295).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211229T122102Z" creationid="Марианна" creationdate="20211229T122029Z">
@@ -2806,6 +2822,22 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;section name="log" type="Integrator.Core.LogConfigurationSection, IntegratorCore"/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240211T172403Z" creationid="Марианна" creationdate="20240211T172403Z">
+        <seg>&lt;section name="log" type="Integrator.Core.LogConfigurationSection, IntegratorCore"/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;section name="loginom" type="Integrator.Core.LoginomConfigurationSection, IntegratorCore"/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240211T172414Z" creationid="Марианна" creationdate="20240211T172414Z">
+        <seg>&lt;section name="loginom" type="Integrator.Core.LoginomConfigurationSection, IntegratorCore"/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;x1/&gt;&lt;x2/&gt;JavaScript, Калькулятор (JavaScript):&lt;x3/&gt;&lt;x4/&gt; веб-приложение зависало, если в мастере настройки JavaScript использовались JSDoc-комментарии и начали вводить имя функции, содержащей такой комментарий, или же вызывался мастер подстановки (&lt;x5/&gt;Ctrl&lt;x6/&gt; + &lt;x7/&gt;Пробел&lt;x8/&gt;); проблема могла также возникнуть после написания строки импорта модуля, если в импортируемом модуле содержались JSDoc-комментарии (#7833).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201122T120310Z" creationid="Марианна" creationdate="20201122T082318Z">
@@ -3254,6 +3286,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>https://en.wikipedia.org/wiki/OpenAPI_Specification</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240211T172439Z" creationid="Марианна" creationdate="20240211T172439Z">
+        <seg>https://en.wikipedia.org/wiki/OpenAPI_Specification</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>https://help.loginom.ru/adminguide/desktop/</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210616T135925Z" creationid="Марианна" creationdate="20210616T135925Z">
@@ -3322,6 +3362,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220220T163426Z" creationid="Марианна" creationdate="20220220T163426Z">
         <seg>https://help.loginom.ru/userguide/admin/ldap.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/admin/parameters.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240211T172456Z" creationid="Марианна" creationdate="20240211T172456Z">
+        <seg>https://help.loginom.ru/userguide/admin/parameters.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -3886,6 +3934,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/processors/preprocessing/imputation.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240211T172538Z" creationid="Марианна" creationdate="20240211T172538Z">
+        <seg>https://help.loginom.ru/userguide/processors/preprocessing/imputation.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>https://help.loginom.ru/userguide/processors/preprocessing/partitioning.html</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240211T171916Z" creationid="Марианна" creationdate="20240211T171916Z">
@@ -4294,6 +4350,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>https://icu.unicode.org/</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240211T172529Z" creationid="Марианна" creationdate="20240211T172529Z">
+        <seg>https://icu.unicode.org/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>https://loginom.com/download</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20221126T153334Z" creationid="Марианна" creationdate="20221126T153334Z">
@@ -4346,6 +4410,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T174724Z" creationid="Марианна" creationdate="20210314T174724Z">
         <seg>https://qa.loginom.ru</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>https://ru.wikipedia.org/wiki/%D0%A1%D0%BE%D0%BA%D0%B5%D1%82_%D0%B4%D0%BE%D0%BC%D0%B5%D0%BD%D0%B0_Unix</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240211T172503Z" creationid="Марианна" creationdate="20240211T172503Z">
+        <seg>https://ru.wikipedia.org/wiki/%D0%A1%D0%BE%D0%BA%D0%B5%D1%82_%D0%B4%D0%BE%D0%BC%D0%B5%D0%BD%D0%B0_Unix</seg>
       </tuv>
     </tu>
     <tu>
@@ -4474,6 +4546,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230313T091828Z" creationid="Марианна" creationdate="20230313T091828Z">
         <seg>https://www.postman.com/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>https://www.rfc-editor.org/rfc/rfc7807.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240211T172519Z" creationid="Марианна" creationdate="20240211T172519Z">
+        <seg>https://www.rfc-editor.org/rfc/rfc7807.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -6826,6 +6906,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T204853Z" creationid="Марианна" creationdate="20210314T204853Z">
         <seg>The locking mechanism became more reliable.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Минимальные требования: Windows 10, Windows Server 2019.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240211T172609Z" creationid="Марианна" creationdate="20240211T172609Z">
+        <seg>Minimum requirements: Windows 10, Windows Server 2019.</seg>
       </tuv>
     </tu>
     <tu>
