@@ -7230,6 +7230,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ниже приведено описание наиболее важных изменений.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240212T085037Z" creationid="Марианна" creationdate="20240212T085037Z">
+        <seg>The most important changes are described below.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Но в данной ситуации текст сообщения должен быть: "Не указана таблица базы данных".</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230314T203308Z" creationid="Марианна" creationdate="20230314T203308Z">
