@@ -7238,6 +7238,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Новые возможности появились в обработчике JavaScript, при импорте данных из файлов, в визуализаторе OLAP-куб и в Отчетах.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240212T083228Z" creationid="Марианна" creationdate="20240212T083228Z">
+        <seg>New features appeared in JavaScript handler when importing data from files as well as in OLAP cube visualizer and Reports.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Новый &lt;a0&gt;визуализатор &lt;/a0&gt;— Качество данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220224T060706Z" creationid="Марианна" creationdate="20220224T060706Z">
@@ -8019,6 +8027,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T200155Z" creationid="Марианна" creationdate="20210314T200155Z">
         <seg>It also became possible to export to the Data Warehouse.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Появилась интеграция с брокером сообщений Kafka.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240212T083001Z" creationid="Марианна" creationdate="20240212T083001Z">
+        <seg>Integration with Kafka message broker became possible.</seg>
       </tuv>
     </tu>
     <tu>
