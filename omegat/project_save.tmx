@@ -7775,6 +7775,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Повышена производительность.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240212T083440Z" creationid="Марианна" creationdate="20240212T083440Z">
+        <seg>Performance was improved.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Повышение информативности</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210902T070508Z" creationid="Марианна" creationdate="20210902T070508Z">
@@ -9594,8 +9602,8 @@
       <tuv lang="ru">
         <seg>Улучшена и оптимизирована работа с базами данных.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240212T083325Z" creationid="Марианна" creationdate="20240212T083325Z">
-        <seg>Databases operation was improved.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240212T083359Z" creationid="Марианна" creationdate="20240212T083325Z">
+        <seg>Databases operation was improved and optimised.</seg>
       </tuv>
     </tu>
     <tu>
