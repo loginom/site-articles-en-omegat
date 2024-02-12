@@ -6358,6 +6358,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Изменения в Loginom Integrator</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240212T111457Z" creationid="Марианна" creationdate="20240212T111457Z">
+        <seg>Changes in Loginom Integrator</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Изменения в Loginom версии 6.4.0</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210322T221445Z" creationid="Марианна" creationdate="20210322T221445Z">
