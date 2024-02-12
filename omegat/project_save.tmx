@@ -8312,6 +8312,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При подготовке релиза основные усилия были направлены на миграцию Loginom на операционную систему Linux.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240212T083641Z" creationid="Марианна" creationdate="20240212T083641Z">
+        <seg>When preparing this release, the main efforts were focused on Loginom migration to Linux operating system.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При попытке перейти на нее в дереве каталогов возникала ошибка «System Error.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210902T132923Z" creationid="Марианна" creationdate="20210902T132923Z">
