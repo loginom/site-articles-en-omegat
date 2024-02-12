@@ -6454,6 +6454,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Интеграция с брокером сообщений Kafka</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240212T111425Z" creationid="Марианна" creationdate="20240212T111425Z">
+        <seg>Integration with Kafka Message Broker</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Исключается возможность закрепления панели в правой области.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220425T203042Z" creationid="Марианна" creationdate="20220425T203042Z">
