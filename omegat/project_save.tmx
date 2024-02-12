@@ -7887,6 +7887,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Под Linux доступно логирование в journald.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240212T111357Z" creationid="Марианна" creationdate="20240212T111357Z">
+        <seg>Logging in journald is available in Linux.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Поддерживается преобразование данных в структуру Pandas DataFrame и обратно.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210320T214755Z" creationid="Марианна" creationdate="20210320T214755Z">
