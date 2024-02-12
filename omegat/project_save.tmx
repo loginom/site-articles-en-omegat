@@ -5606,6 +5606,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для интеграции с 1С:Предприятие можно использовать альтернативные механизмы, например, HTTP-протокол.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240212T110753Z" creationid="Марианна" creationdate="20240212T110753Z">
+        <seg>To provide integration with 1С:Enterprise, it is possible to use alternative mechanisms, for example, HTTP protocol.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для их расчета необходимо выполнить действие «Посчитать показатели качества».</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220302T113251Z" creationid="Марианна" creationdate="20220302T113251Z">
@@ -6734,6 +6742,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>К &lt;a0&gt;MS Excel&lt;/a0&gt; нельзя подключиться &lt;s1&gt;как к базе данных&lt;/s1&gt; из-за отсутствия драйверов под Linux.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240212T110958Z" creationid="Марианна" creationdate="20240212T110958Z">
+        <seg>It is not possible to connect to &lt;a0&gt;MS Excel&lt;/a0&gt; as to &lt;s1&gt;database&lt;/s1&gt; because there is no software driver for Linux.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>К таким ошибкам относятся: «Ошибка подключения к 1С ...», «Ошибка подготовки запроса 1С ...», «Ошибка выполнения запроса 1С ...», «Ошибка подготовки полей запроса 1С ...», «Ошибка выгрузки результатов запроса 1С ...».</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220308T141124Z" creationid="Марианна" creationdate="20220308T141124Z">
@@ -7480,8 +7496,8 @@
       <tuv lang="ru">
         <seg>Отсутствует интеграция с 1С:Предприятие через COM-соединение, т.к. COM-сервер работает только под Windows.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240212T110648Z" creationid="Марианна" creationdate="20240212T110648Z">
-        <seg>There is no integration for 1С:Enterprise via COM-connection because COM-server is available only for Windows.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240212T110815Z" creationid="Марианна" creationdate="20240212T110648Z">
+        <seg>There is no integration for 1С:Enterprise via COM connection because COM server is available only for Windows.</seg>
       </tuv>
     </tu>
     <tu>
