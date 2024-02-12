@@ -1,24 +1,23 @@
-Масштабное обновление аналитической платформы Loginom. Loginom стал кроссплатформенным — серверные редакции Standard и Enterprise доступны для операционных систем Linux и Windows. Появилась интеграция с брокером сообщений Kafka. Новые возможности появились в обработчике JavaScript, при импорте данных из файлов, в визуализаторе OLAP-куб и в Отчетах. Улучшена и оптимизирована работа с базами данных. Повышена производительность.
+Large-Scale Update of Loginom Analytical Platform Loginom became cross-platform. Standard and Enterprise editions are available for Linux and Windows operating systems. Integration with Kafka message broker became possible. New features appeared in JavaScript handler when importing data from files as well as in OLAP cube visualizer and Reports. Databases operation was improved and optimised. Performance was improved.
+<p>When preparing this release, the main efforts were focused on Loginom migration to Linux operating system. The changes affected mostly the technologic platform stack and they are connected with system challenges and libraries, third-party libraries, operations with rows and different integrations. At the same time, 80% percent of the server part was transferred from the previous version, and the client part was not significantly changed. That is why the workflows prepared in Loginom for Windows will be used with Linux as well. In some cases only reconfiguration of nodes will be required.</p>
 
-<p>При подготовке релиза основные усилия были направлены на миграцию Loginom на операционную систему Linux. Изменения коснулись преимущественно технологического стека платформы и связаны с системными вызовами и библиотеками, сторонними библиотеками, работой со строками и различными интеграциями. Вместе с тем 80% серверной части было перенесено с предыдущей версии, а клиентская часть не претерпела значительных изменений, поэтому сценарии, подготовленные в Loginom под Windows, будут работать и под Linux, в некоторых случаях потребуется лишь перенастройка узлов.</p>
+<p>The most important changes are described below.</p>
 
-<p>Ниже приведено описание наиболее важных изменений.</p>
-
-<h2 id="ограничения-loginom-под-linux">Ограничения Loginom под Linux</h2>
+<h2 id="ограничения-loginom-под-linux">Loginom Restrictions for Linux</h2>
 
 <ol>
-	<li>Отсутствует интеграция с 1С:Предприятие через COM-соединение, т.к. COM-сервер работает только под Windows. Для интеграции с 1С:Предприятие можно использовать альтернативные механизмы, например, HTTP-протокол.</li>
-	<li>К <a href="https://help.loginom.ru/userguide/integration/connections/list/excel.html" target="_blank">MS Excel</a> нельзя подключиться <strong>как к базе данных</strong> из-за отсутствия драйверов под Linux. Поддерживается только формат xlsx (MS Excel 2007 и выше).</li>
-	<li>Нет встроенной интеграции с <a href="https://help.loginom.ru/userguide/integration/connections/list/msaccess.html" target="_blank">MS Access</a> из-за отсутствия open source драйверов.</li>
-	<li>Отсутствует экспорт в Tableau.</li>
-	<li>Отсутствует обработчик <a href="https://help.loginom.ru/userguide/processors/integration/exec-program.html" target="_blank">Выполнение программы</a>, который используется для запуска внешних Windows-программ.</li>
+	<li>There is no integration for 1С:Enterprise via COM connection because COM server is available only for Windows. To provide integration with 1С:Enterprise, it is possible to use alternative mechanisms, for example, HTTP protocol.</li>
+	<li>It is not possible to connect to <a href="https://help.loginom.ru/userguide/integration/connections/list/excel.html" target="_blank">MS Excel</a> as to <strong>database</strong> because there is no software driver for Linux. Only xlsx format is supported (MS Excel 2007 and higher).</li>
+	<li>There is no built-in integration with <a href="https://help.loginom.ru/userguide/integration/connections/list/msaccess.html" target="_blank">MS Access</a> because open source driver is not available.</li>
+	<li>There is no export to Tableau.</li>
+	<li>There is no <a href="https://help.loginom.ru/userguide/processors/integration/exec-program.html" target="_blank">Program execution</a> handler that is used to start the external Windows programs.</li>
 </ol>
 
-<h2 id="опциональные-возможности-loginom-под-linux">Опциональные возможности Loginom под Linux</h2>
+<h2 id="опциональные-возможности-loginom-под-linux">Optional Loginom Features for Linux</h2>
 
-<p>Под Linux доступно логирование в journald. На странице <a href="https://help.loginom.ru/userguide/admin/" target="_blank">Администрирование</a> Loginom предусмотрен соответствующие настраиваемый параметр. Для работы метода логирования необходима библиотека systemd.so.0 (она гарантировано имеется, если в дистрибутиве Linux используется система инициализации systemd).</p>
+<p>Logging in journald is available in Linux. На странице <a href="https://help.loginom.ru/userguide/admin/" target="_blank">Администрирование</a> Loginom предусмотрен соответствующие настраиваемый параметр. Для работы метода логирования необходима библиотека systemd.so.0 (она гарантировано имеется, если в дистрибутиве Linux используется система инициализации systemd).</p>
 
-<h2 id="интеграция-с-брокером-сообщений-kafka">Интеграция с брокером сообщений Kafka</h2>
+<h2 id="интеграция-с-брокером-сообщений-kafka">Integration with Kafka Message Broker</h2>
 
 <p>Kafka Apache — популярная распределенная система обмена сообщениями между серверными приложениями в режиме реального времени. Благодаря высокой пропускной способности, масштабируемости и отказоустойчивости применяется в крупных проектах с большими объемами данных.</p>
 
@@ -39,7 +38,7 @@
 
 <p>Добавлена возможность установки встроенного клиента Firebird.</p>
 
-<h3 id="обновленный-мастер-настройки-импорта-из-базы-данных">Обновленный мастер настройки импорта из базы данных</h3>
+<h3 id="обновленный-мастер-настройки-импорта-из-базы-данных">Updated import from database wizard</h3>
 
 <p>Мастер настройки импорта из базы данных полностью переработан. В прежнем исполнении в режиме SQL-запроса было недостаточно места для текста запроса, а также невозможно было тут же увидеть переменные и воспользоваться ими. В обновленном мастере настройки работа с SQL-запросами стала значительно удобнее:</p>
 
@@ -56,15 +55,15 @@
 <figure class="lg-text-img lg-text-img_preview"><a href="/sites/default/files/blogpost-images/DB_master.png"><img alt="" data-entity-type="" data-entity-uuid="" src="/sites/default/files/blogpost-images/DB_master.png" /> </a>
 
 <figcaption>
-<p>Обновленный мастер настройки импорта из базы данных</p>
+<p>Updated import from database wizard</p>
 </figcaption>
 </figure>
 
-<h2 id="импорт-из-файлов">Импорт из файлов</h2>
+<h2 id="импорт-из-файлов">Import from Files</h2>
 
 <p>Реализована возможность в импорте из файлов (txt, csv, XML, Excel) читать данные предварительно выполнив http-запрос. Для этого в мастере настройки импорта из файла вместо имени файла можно указать URL. Поддерживается HTTP Basic Authentication, т.е. в URL можно передать логин и пароль. При импорте форматов txt, csv, xml для предпросмотра или предположения формата скачивается только тот объем данных, который необходим. В случае с xlsx форматом происходит скачивание всего файла в память, поэтому стоит обращать внимание на размер таких файлов.</p>
 
-<h2 id="работа-с-веб-сервисами">Работа с Веб-сервисами</h2>
+<h2 id="работа-с-веб-сервисами">Web Services Operation</h2>
 
 <p>Обработчики <a href="https://help.loginom.ru/userguide/processors/integration/rest-request.html" target="_blank">REST</a> и <a href="https://help.loginom.ru/userguide/processors/integration/soap-request.html" target="_blank">SOAP-запрос</a> функционируют без изменений. Однако при переносе сценариев между Loginom под Windows и Linux, в некоторых случаях потребуется перенастройка подключений <a href="https://help.loginom.ru/userguide/integration/connections/list/rest-service.html" target="_blank">REST</a> и <a href="https://help.loginom.ru/userguide/integration/connections/list/soap-service.html" target="_blank">SOAP-сервис</a>. В версии под Linux не поддерживается аутентификация при помощи предоставления сертификата клиента. В Windows он выбирался из хранилища личных сертификатов. При работе под Linux необходимо задать файл сертификата, ключа и пароля.</p>
 
@@ -132,16 +131,16 @@
 	<li>В <a href="https://help.loginom.ru/userguide/interface/property-inspector.html" target="_blank">Инспекторе свойств</a> убрали иконки для узлов дерева. Это позволило более полно отображать названия свойств в условиях ограниченной ширины окна <em>Инспектора свойств</em>.</li>
 </ul>
 
-<h2 id="работа-с-данными">Работа с данными</h2>
+<h2 id="работа-с-данными">Data Handling</h2>
 
 <p>В свойствах пакета появилась опция «Сравнивать строковые уникальные значения бинарно». Сравнение строк изменится после закрытия пакета и всех зависимых от него открытых пакетов. При изменении настройки «Сравнивать строковые уникальные значения бинарно», может потребоваться переобучение обученных узлов. Действие опции распространяется на компоненты:</p>
 
 <ul>
-	<li><a href="https://help.loginom.ru/userguide/processors/datamining/clustering.html" target="_blank">Кластеризация</a></li>
-	<li><a href="https://help.loginom.ru/userguide/processors/datamining/em-clustering.html" target="_blank">EM Кластеризация</a></li>
-	<li><a href="https://help.loginom.ru/userguide/processors/datamining/self-organizing-network.html" target="_blank">Самоорганизующаяся сеть</a></li>
-	<li><a href="https://help.loginom.ru/userguide/processors/datamining/neural-network-classification.html" target="_blank">Нейросеть (классификация)</a></li>
-	<li><a href="https://help.loginom.ru/userguide/processors/datamining/neural-network-regression.html" target="_blank">Нейросеть (регрессия)</a></li>
+	<li><a href="https://help.loginom.ru/userguide/processors/datamining/clustering.html" target="_blank">Clustering</a></li>
+	<li><a href="https://help.loginom.ru/userguide/processors/datamining/em-clustering.html" target="_blank">EM Clustering</a></li>
+	<li><a href="https://help.loginom.ru/userguide/processors/datamining/self-organizing-network.html" target="_blank">Self-Organizing Network</a></li>
+	<li><a href="https://help.loginom.ru/userguide/processors/datamining/neural-network-classification.html" target="_blank">Neural Network (Classification)</a></li>
+	<li><a href="https://help.loginom.ru/userguide/processors/datamining/neural-network-regression.html" target="_blank">Neural Network (Regression)</a></li>
 	<li><a href="https://help.loginom.ru/userguide/processors/datamining/linear-regression/" target="_blank">Линейная регрессия</a></li>
 	<li><a href="https://help.loginom.ru/userguide/processors/datamining/logistic-regression/" target="_blank">Logistic Regression</a></li>
 	<li><a href="https://help.loginom.ru/userguide/processors/datamining/arimax.html" target="_blank">ARIMAX</a></li>
@@ -153,16 +152,16 @@
 <p>а также на визуализаторы:</p>
 
 <ul>
-	<li><a href="https://help.loginom.ru/userguide/visualization/binary-classification/" target="_blank">Качество бинарной классификации</a></li>
-	<li><a href="https://help.loginom.ru/userguide/visualization/linear-regression/" target="_blank">Отчет по линейной регрессии</a></li>
-	<li><a href="https://help.loginom.ru/userguide/visualization/regression/" target="_blank">Отчет по логистической регрессии</a></li>
+	<li><a href="https://help.loginom.ru/userguide/visualization/binary-classification/" target="_blank">Binary Classification Assessment</a></li>
+	<li><a href="https://help.loginom.ru/userguide/visualization/linear-regression/" target="_blank">Linear Regression Report</a></li>
+	<li><a href="https://help.loginom.ru/userguide/visualization/regression/" target="_blank">Logistic Regression Report</a></li>
 </ul>
 
 <p>Значение опции «Сравнивать строковые уникальные значения бинарно» выводится в <em>Инспекторе свойств</em>.</p>
 
 <p>В мастера настройки обработчиков, алгоритмы которых используют генерацию псевдослучайных чисел, добавлена возможность установить Random Seed. Значение Random Seed можно задать через переменную, сгенирировать или установить флаг «Всегда случайно». Доступна команда копирования значения в буфер обмена.</p>
 
-<h2 id="изменения-в-loginom-integrator">Изменения в Loginom Integrator</h2>
+<h2 id="изменения-в-loginom-integrator">Changes in Loginom Integrator</h2>
 
 <p>Изменился файл конфигурации <a href="https://help.loginom.ru/adminguide/integrator/" target="_blank">Loginom Integrator</a>:</p>
 
@@ -257,8 +256,8 @@
 <ol>
 	<li>В Loginom 7 изменился механизм сравнения и конвертации строк. Вместо встроенных функций Windows используется <a href="https://icu.unicode.org/" target="_blank">библиотека ICU</a> — International Components for Unicode, которая обеспечивает одинаковые результаты работы со строками на разных платформах. В сценариях, подготовленных в более ранних версиях Loginom, может измениться порядок сортировки строк.</li>
 	<li>Изменен алгоритм генерации псевдослучайных чисел. В связи с этим <a href="https://help.loginom.ru/userguide/processors/preprocessing/sampling.html" target="_blank">Сэмплинг</a> и <a href="https://help.loginom.ru/userguide/processors/preprocessing/partitioning.html" target="_blank">Разбиение на множества</a> могут генерировать другое разбиение. В обработчике <a href="https://help.loginom.ru/userguide/processors/preprocessing/imputation.html" target="_blank">Заполнение пропусков</a> иначе работает метод «Заполнение случайными значениями». В <a href="https://help.loginom.ru/userguide/processors/preprocessing/binning.html" target="_blank">Квантовании</a> по-другому работает метод разбиения «Плитка» с типом обработки совпадающих наблюдений «Назначить случайно».</li>
-	<li>Не поддерживается браузер Internet Explorer.</li>
-	<li>Не поддерживаются 32-разрядные операционные системы семейства Windows. Минимальные требования: Windows 10, Windows Server 2019.</li>
+	<li>Internet Explorer browser is not supported.</li>
+	<li>Не поддерживаются 32-разрядные операционные системы семейства Windows. Minimum requirements: Windows 10, Windows Server 2019.</li>
 </ol>
 
 <div class="text-align-center">
