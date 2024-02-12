@@ -7238,6 +7238,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Нет встроенной интеграции с &lt;a0&gt;MS Access&lt;/a0&gt; из-за отсутствия open source драйверов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240212T111104Z" creationid="Марианна" creationdate="20240212T111104Z">
+        <seg>There is no built-in integration with &lt;a0&gt;MS Access&lt;/a0&gt; because open source driver is not available.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ниже приведен список наиболее важных изменений:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220224T055752Z" creationid="Марианна" creationdate="20220224T055752Z">
@@ -7430,6 +7438,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Опциональные возможности Loginom под Linux</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240212T111323Z" creationid="Марианна" creationdate="20240212T111323Z">
+        <seg>Optional Loginom Features for Linux</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Опция активируется при нажатии иконки «Предпросмотр» на панели инструментов в мастере Калькулятора.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220224T062612Z" creationid="Марианна" creationdate="20220224T062612Z">
@@ -7498,6 +7514,22 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240212T110815Z" creationid="Марианна" creationdate="20240212T110648Z">
         <seg>There is no integration for 1С:Enterprise via COM connection because COM server is available only for Windows.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Отсутствует обработчик &lt;a0&gt;Выполнение программы&lt;/a0&gt;, который используется для запуска внешних Windows-программ.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240212T111247Z" creationid="Марианна" creationdate="20240212T111247Z">
+        <seg>There is no &lt;a0&gt;Program execution&lt;/a0&gt; handler that is used to start the external Windows programs.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Отсутствует экспорт в Tableau.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240212T111121Z" creationid="Марианна" creationdate="20240212T111121Z">
+        <seg>There is no export to Tableau.</seg>
       </tuv>
     </tu>
     <tu>
