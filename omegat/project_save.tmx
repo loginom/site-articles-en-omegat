@@ -5358,6 +5358,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Вместе с тем 80% серверной части было перенесено с предыдущей версии, а клиентская часть не претерпела значительных изменений, поэтому сценарии, подготовленные в Loginom под Windows, будут работать и под Linux, в некоторых случаях потребуется лишь перенастройка узлов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240212T084553Z" creationid="Марианна" creationdate="20240212T084553Z">
+        <seg>At the same time, 80% of the server part was transferred from the previous version, and the client part was not changed significantly. That is why the workflows prepared in Loginom for Windows will be used with Linux as well. In some cases only reconfiguration of nodes will be required.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Внесенные исправления предотвращают данный конфликт, обеспечивая надежное автосохранение пакетов (#9025, #9021, #9038).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220426T112444Z" creationid="Марианна" creationdate="20220425T153559Z">
