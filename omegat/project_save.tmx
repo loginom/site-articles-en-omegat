@@ -3254,6 +3254,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Loginom стал кроссплатформенным — серверные редакции Standard и Enterprise доступны для операционных систем Linux и Windows.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240212T082743Z" creationid="Марианна" creationdate="20240212T082743Z">
+        <seg>Loginom became cross-platform. Standard and Enterprise editions are available for Linux and Windows operating systems.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Python</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T174407Z" creationid="Марианна" creationdate="20210314T174407Z">
