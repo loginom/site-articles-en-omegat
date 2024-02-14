@@ -4726,6 +4726,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Блоки заметок</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240214T105834Z" creationid="Марианна" creationdate="20240214T105834Z">
+        <seg>Notes blocks</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Более подробная информация о работе компонента доступна в соответствующем разделе справки, а также всегда можно &lt;a0&gt;задать вопрос в Loginom Q&amp;A&lt;/a0&gt; или &lt;a1&gt;обратиться в службу технической поддержки.&lt;/a1&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210320T232448Z" creationid="Марианна" creationdate="20210320T232355Z">
@@ -7054,6 +7062,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Линейная регрессия</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240214T105951Z" creationid="Марианна" creationdate="20240214T105951Z">
+        <seg>Linear Regression</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Логика формирования имен полей:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220224T064955Z" creationid="Марианна" creationdate="20220224T064955Z">
@@ -7274,6 +7290,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220228T102801Z" creationid="Марианна" creationdate="20220228T102801Z">
         <seg>The workflows configured in such a way won't be dependent on the language Windows and Loginom settings.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Настройка измерений Куба в отдельном окне</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240214T105915Z" creationid="Марианна" creationdate="20240214T105915Z">
+        <seg>Configuring the Cube dimensions in a separate window</seg>
       </tuv>
     </tu>
     <tu>
