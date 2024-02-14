@@ -7070,6 +7070,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Мастер настройки импорта из базы данных полностью переработан.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240214T105559Z" creationid="Марианна" creationdate="20240214T105559Z">
+        <seg>Import from database wizard was completely modified.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Масштабное обновление аналитической платформы Loginom.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240211T171048Z" creationid="Марианна" creationdate="20240211T171048Z">
