@@ -4702,6 +4702,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Базу данных SQLite теперь можно использовать in-memory.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240214T104724Z" creationid="Марианна" creationdate="20240214T104724Z">
+        <seg>SQLite database can be used in-memory now.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Благодаря высокой пропускной способности, масштабируемости и отказоустойчивости применяется в крупных проектах с большими объемами данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240214T103919Z" creationid="Марианна" creationdate="20240214T103903Z">
