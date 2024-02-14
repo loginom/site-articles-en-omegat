@@ -3198,6 +3198,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Kafka Apache — популярная распределенная система обмена сообщениями между серверными приложениями в режиме реального времени.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240214T103622Z" creationid="Марианна" creationdate="20240214T103622Z">
+        <seg>Kafka Apache is a popular distributed system of message exchange between server applications in real time.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Loginom 6.3.5 — описание изменений</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201122T075750Z" creationid="Марианна" creationdate="20201122T075750Z">
