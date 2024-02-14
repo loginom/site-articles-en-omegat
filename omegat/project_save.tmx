@@ -5662,6 +5662,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для работы метода логирования необходима библиотека systemd.so.0 (она гарантировано имеется, если в дистрибутиве Linux используется система инициализации systemd).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240214T103449Z" creationid="Марианна" creationdate="20240214T103449Z">
+        <seg>systemd.so.0 library is required to use the logging method (it is available for sure if systemd initialization system is used in Linux distribution kit).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для работы необходимо задать входные и выходные наборы полей, а далее компонент автоматически выявляет полные &lt;a1&gt;дубли &lt;/a1&gt;и &lt;a2&gt;противоречия&lt;/a2&gt; в наборе данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210321T185053Z" creationid="Марианна" creationdate="20210321T185053Z">
@@ -7042,6 +7050,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220304T193824Z" creationid="Марианна" creationdate="20220304T193824Z">
         <seg>It became possible to open the package from the "Recent opened packages" list on the homepage.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>На странице &lt;a0&gt;Администрирование&lt;/a0&gt; Loginom предусмотрен соответствующие настраиваемый параметр.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240214T103212Z" creationid="Марианна" creationdate="20240214T103212Z">
+        <seg>Corresponding configurable parameter is provided on Loginom &lt;a0&gt;Administration&lt;/a0&gt; page.</seg>
       </tuv>
     </tu>
     <tu>
