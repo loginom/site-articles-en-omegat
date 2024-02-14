@@ -8416,6 +8416,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При настройке &lt;a0&gt;подключения к базе данных SQLite&lt;/a0&gt; достаточно установить соответствующий флаг и она будет развернута в памяти.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240214T104937Z" creationid="Марианна" creationdate="20240214T104937Z">
+        <seg>When configuring &lt;a0&gt;connection to SQLite database&lt;/a0&gt;, it is sufficient to select corresponding checkbox and it will be expanded in memory.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При начальной активации визуализатора рассчитываются только стандартные показатели, такие как: Минимум, Максимум, Среднее, Пропуски.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220302T113309Z" creationid="Марианна" creationdate="20220302T113055Z">
@@ -8548,6 +8556,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220228T102354Z" creationid="Марианна" creationdate="20220228T102354Z">
         <seg>When designing the workflow, one locale can be configured in the server settings, and the other one will be configured on the server where the designed workflow will be executed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При таком использовании значительно увеличивается скорость обработки данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240214T105130Z" creationid="Марианна" creationdate="20240214T105130Z">
+        <seg>Data processing speed will be considerably increased in such case of use.</seg>
       </tuv>
     </tu>
     <tu>
