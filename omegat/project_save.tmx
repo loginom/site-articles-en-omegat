@@ -4702,6 +4702,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>База данных остается в памяти до тех пор, пока активно подключение к ней.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240214T105418Z" creationid="Марианна" creationdate="20240214T105418Z">
+        <seg>Database is kept in memory until its connection is active.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Базу данных SQLite теперь можно использовать in-memory.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240214T104724Z" creationid="Марианна" creationdate="20240214T104724Z">
@@ -5922,6 +5930,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220304T150951Z" creationid="Марианна" creationdate="20220304T150951Z">
         <seg>Connection via &lt;a0&gt;ODBC drivers&lt;/a0&gt; for Apache Hive DBMS using connection strings was added.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Добавлена возможность установки встроенного клиента Firebird.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240214T105508Z" creationid="Марианна" creationdate="20240214T105508Z">
+        <seg>It became possible to install inbuilt Firebird client.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8099,6 +8115,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220426T085641Z" creationid="Марианна" creationdate="20220426T085641Z">
         <seg>It is still not possible to find the package in the current folder, and if it is found, the corresponding information is added to the reference restore error message.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Пока БД находится в памяти, к ней можно подключиться из другого пакета, но при этом существует разграничение прав доступа на БД SQLite in-memory.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240214T105346Z" creationid="Марианна" creationdate="20240214T105346Z">
+        <seg>While DB is in memory, it is possible to connect to it from another package. Still there is access rights differentiation to DB SQLite in-memory.</seg>
       </tuv>
     </tu>
     <tu>
