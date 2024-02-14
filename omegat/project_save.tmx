@@ -1638,6 +1638,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;a0&gt;Интеграция с Kafka&lt;/a0&gt; построена по тому же принципу, что и интеграция с базами данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240214T104142Z" creationid="Марианна" creationdate="20240214T104142Z">
+        <seg>&lt;a0&gt;Integration with Kafka&lt;/a0&gt; is provided according to the same principle as integration with databases.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;a0&gt;Публикация веб-сервисов&lt;/a0&gt; для редакции Team и новая страница настройки публикации &lt;a1&gt;пакетов.&lt;/a1&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220224T060426Z" creationid="Марианна" creationdate="20220224T060426Z">
