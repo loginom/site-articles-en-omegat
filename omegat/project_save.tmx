@@ -1662,6 +1662,22 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;a0&gt;Разбиение на множества&lt;/a0&gt; (отбор со смещением),</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240214T110057Z" creationid="Марианна" creationdate="20240214T110057Z">
+        <seg>&lt;a0&gt;Partitioning&lt;/a0&gt; (sampling with bias),</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;a0&gt;Сэмплинг&lt;/a0&gt; (отбор со смещением)</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240214T110021Z" creationid="Марианна" creationdate="20240214T110021Z">
+        <seg>&lt;a0&gt;Sampling&lt;/a0&gt; (sampling with bias)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;configSections&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240211T172357Z" creationid="Марианна" creationdate="20240211T172357Z">
@@ -5630,6 +5646,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Действие опции распространяется на компоненты:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240214T110224Z" creationid="Марианна" creationdate="20240214T110224Z">
+        <seg>The option effect extends to the following components:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Детализация визуализатора Качество данных</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220220T163202Z" creationid="Марианна" creationdate="20220220T163202Z">
@@ -6122,6 +6146,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210321T210236Z" creationid="Марианна" creationdate="20210321T210236Z">
         <seg>Its value matches either &lt;e3&gt;null&lt;/e3&gt; value by default, or the request identifier value when executing the workflow node by means of Loginom Integrator.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Если &lt;c5&gt;urlPathPrefix="abc"&lt;/c5&gt;, то адрес меняется на: &lt;c6&gt;http://localhost/lgi/abc/rest/help&lt;/c6&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240214T110359Z" creationid="Марианна" creationdate="20240214T110359Z">
+        <seg>If &lt;c5&gt;urlPathPrefix="abc"&lt;/c5&gt;, address was changed as follows: &lt;c6&gt;http://localhost/lgi/abc/rest/help&lt;/c6&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -10212,6 +10244,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220425T202344Z" creationid="Марианна" creationdate="20220425T202344Z">
         <seg>It will prevent occurrence of more serious errors at the next stages.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>а также на визуализаторы:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240214T110132Z" creationid="Марианна" creationdate="20240214T110132Z">
+        <seg>and also to the following visualizers:</seg>
       </tuv>
     </tu>
     <tu>
