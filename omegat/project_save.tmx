@@ -3294,6 +3294,22 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>SCRAM-SHA-256 Authentication и SCRAM-SHA-256-PLUS Authentication для PostgreSQL;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240214T104555Z" creationid="Марианна" creationdate="20240214T104555Z">
+        <seg>SCRAM-SHA-256 Authentication and SCRAM-SHA-256-PLUS Authentication for PostgreSQL;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>SHA-256 authentication для MySQL 8 при подключении без использования клиента;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240214T104614Z" creationid="Марианна" creationdate="20240214T104614Z">
+        <seg>SHA-256 authentication for MySQL 8 when connecting without client use;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>https://day.loginom.ru/</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220929T123530Z" creationid="Марианна" creationdate="20220929T123530Z">
@@ -5178,6 +5194,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220426T084736Z" creationid="Марианна" creationdate="20220426T084736Z">
         <seg>In the result of the error in "Base component selection" window it was sometimes displayed that the list was empty.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В результате появилась поддержка:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240214T104545Z" creationid="Марианна" creationdate="20240214T104545Z">
+        <seg>The following support has been provided:</seg>
       </tuv>
     </tu>
     <tu>
@@ -10200,6 +10224,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>клиента Microsoft OLE DB Driver for SQL Server для подключения к MS SQL Server.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240214T104700Z" creationid="Марианна" creationdate="20240214T104700Z">
+        <seg>Microsoft OLE DB Driver client for SQL Server for connection to MS SQL Server.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>когда фокус находился в поле поиска в панели фильтра измерения «Куба», то вместо копирования содержимого текстового поля происходило копирование состояния фильтра (#9105).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220425T175155Z" creationid="Марианна" creationdate="20220425T175155Z">
@@ -10268,6 +10300,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220425T174954Z" creationid="Марианна" creationdate="20220425T174954Z">
         <seg>the "Cube" dimension filter bar was collapsed when an error occurred during copying or pasting (#9108);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>подключения к Oracle 18c и старше без использования клиента;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240214T104643Z" creationid="Марианна" creationdate="20240214T104643Z">
+        <seg>connection to Oracle 18c иand higher without client use;</seg>
       </tuv>
     </tu>
     <tu>
