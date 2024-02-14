@@ -4678,6 +4678,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Благодаря высокой пропускной способности, масштабируемости и отказоустойчивости применяется в крупных проектах с большими объемами данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240214T103903Z" creationid="Марианна" creationdate="20240214T103903Z">
+        <seg>Due to its high capacity, scalability and failure safety is is applied in large-scale projects with large volumes of data.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Более подробная информация о работе компонента доступна в соответствующем разделе справки, а также всегда можно &lt;a0&gt;задать вопрос в Loginom Q&amp;A&lt;/a0&gt; или &lt;a1&gt;обратиться в службу технической поддержки.&lt;/a1&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210320T232448Z" creationid="Марианна" creationdate="20210320T232355Z">
