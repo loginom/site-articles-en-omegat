@@ -4782,6 +4782,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В Loginom Enterprise появилась возможность импортировать и экспортировать сообщения в очередь Kafka.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240214T104029Z" creationid="Марианна" creationdate="20240214T104029Z">
+        <seg>Import and export of messages to Kafka queue became possible in Loginom Enterprise.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В Loginom Integrator для версии Team поддерживаются публикация только в формате &lt;a0&gt;REST-сервисов.&lt;/a0&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220224T063350Z" creationid="Марианна" creationdate="20220224T063350Z">
