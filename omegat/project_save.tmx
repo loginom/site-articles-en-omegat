@@ -6046,6 +6046,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Добавлена генерация корневого wsdl-документа, который ссылается на все остальные wsdl-документы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240218T185901Z" creationid="Марианна" creationdate="20240218T185901Z">
+        <seg>Generation of root wsdl document that refers to all other wsdl documents was added.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Добавлена группа компонентов «Программирование» (включает в себя Python и JavaScript).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210322T214049Z" creationid="Марианна" creationdate="20210322T214049Z">
@@ -10372,6 +10380,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220227T090300Z" creationid="Марианна" creationdate="20220227T090300Z">
         <seg>These components receive the same caption and visibility as the source node.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Это будет означать, что &lt;c3&gt;workdir&lt;/c3&gt; совпадает с &lt;c4&gt;configdir&lt;/c4&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240218T190019Z" creationid="Марианна" creationdate="20240218T190019Z">
+        <seg>It will mean that &lt;c3&gt;workdir&lt;/c3&gt; matches &lt;c4&gt;configdir&lt;/c4&gt;.</seg>
       </tuv>
     </tu>
     <tu>
