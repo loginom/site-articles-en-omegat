@@ -7326,6 +7326,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Например, если Loginom Integrator развёрнут по адресу: &lt;c2&gt;http://localhost/lgi&lt;/c2&gt;, и атрибут &lt;c3&gt;urlPathPrefix&lt;/c3&gt; не указан, то help-страница для REST доступна по адресу: &lt;c4&gt;http://localhost/lgi/rest/help&lt;/c4&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240218T183545Z" creationid="Марианна" creationdate="20240218T183545Z">
+        <seg>For example, if Loginom Integrator is used at the following address: &lt;c2&gt;http://localhost/lgi&lt;/c2&gt;, and &lt;c3&gt;urlPathPrefix&lt;/c3&gt; attribute is not specified, help page for REST is available at the following address: &lt;c4&gt;http://localhost/lgi/rest/help&lt;/c4&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Например, если было выбрано условие «первый день от текущей даты» (#8633).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210903T102944Z" creationid="Марианна" creationdate="20210903T102944Z">
