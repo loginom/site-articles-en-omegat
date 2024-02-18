@@ -4886,6 +4886,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В Loginom Integrator изменен формат сообщений об ошибке.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240218T183739Z" creationid="Марианна" creationdate="20240218T183739Z">
+        <seg>Error message format was changed in Loginom Integrator.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В Loginom не содержится инструментов разработки, аналогичных PyCharm и другим специализированным продуктам.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210320T220000Z" creationid="Марианна" creationdate="20210320T220000Z">
@@ -6002,6 +6010,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220304T151251Z" creationid="Марианна" creationdate="20220304T151251Z">
         <seg>The automatic definition of the imported file structure became possible.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Добавлена возможность задать расположение файла конфигурации Loginom Integrator.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240218T183659Z" creationid="Марианна" creationdate="20240218T183659Z">
+        <seg>It became possible to set location of Loginom Integrator configuration file.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7182,6 +7198,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Логи с уровнем Warn и выше пишутся в stderr, а остальные — в stdout.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240218T183832Z" creationid="Марианна" creationdate="20240218T183832Z">
+        <seg>Logs with Warn level and higher are written in stderr, whereas the other ones in stdout.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Логика формирования имен полей:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220224T064955Z" creationid="Марианна" creationdate="20220224T064955Z">
@@ -8139,6 +8163,14 @@
       <tuv lang="en" changeid="Марианна" changedate="20220304T160002Z" creationid="Марианна" creationdate="20220304T160002Z">
         <seg>When pressing on "Assume structure" button on "Configure Import Formats" page, the following parameters will be automatically defined and set: column delimiter, text qualifier, decimal separator, date separator, time separator, date format. 
 .</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>По умолчанию используется такой же формат сообщений, что и при логировании в файл.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240218T183920Z" creationid="Марианна" creationdate="20240218T183920Z">
+        <seg>The same message format as for logging to file is used by default.</seg>
       </tuv>
     </tu>
     <tu>
