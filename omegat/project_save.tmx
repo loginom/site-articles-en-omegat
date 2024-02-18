@@ -6294,6 +6294,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если в файле Integrator.dll.config значением атрибута &lt;c0&gt;workDir&lt;/c0&gt; является относительный путь, то он интерпретируется как путь относительно файла Integrator.dll.config.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240218T190328Z" creationid="Марианна" creationdate="20240218T190328Z">
+        <seg>If in Integrator.dll.config file the value of &lt;c0&gt;workDir&lt;/c0&gt; attribute is the relative path, it is interpreted as the path relative to Integrator.dll.config file.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если выбрать опцию «Выполнение узла и Цикл», то будет доступно выполнение компонента или выполнение в цикле.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220227T091347Z" creationid="Марианна" creationdate="20220227T091325Z">
@@ -6530,6 +6538,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211229T110905Z" creationid="Марианна" creationdate="20211229T110905Z">
         <seg>Impacted parameters: "Codepage" for &lt;e2&gt;Interbase/Firebird&lt;/e2&gt; or &lt;e3&gt;MS SQL&lt;/e3&gt; databases and also "Encoded DB" for &lt;e4&gt;SQLite&lt;/e4&gt; (#8759).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Значение атрибута &lt;c1&gt;workDir&lt;/c1&gt; может равняться &lt;c2&gt;.&lt;/c2&gt; (текущая папка).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240218T190100Z" creationid="Марианна" creationdate="20240218T190100Z">
+        <seg>Value of&lt;c1&gt;workDir&lt;/c1&gt; attribute can be equal to &lt;c2&gt;.&lt;/c2&gt; (current folder).</seg>
       </tuv>
     </tu>
     <tu>
