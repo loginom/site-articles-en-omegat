@@ -4878,6 +4878,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В Windows он выбирался из хранилища личных сертификатов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240218T182025Z" creationid="Марианна" creationdate="20240218T182025Z">
+        <seg>In Windows it was selected from the storage of personal certificates.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В Интеграторе кэшировался OpenAPI документ с тем протоколом, который был использован при первом обращении к этому OpenAPI документу, а затем этот закэшированный документ возвращался и при обращении по http, и по https.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230314T121227Z" creationid="Марианна" creationdate="20230314T121227Z">
@@ -7590,6 +7598,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Обработчики &lt;a0&gt;REST&lt;/a0&gt; и &lt;a1&gt;SOAP-запрос&lt;/a1&gt; функционируют без изменений.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240218T181953Z" creationid="Марианна" creationdate="20240218T181953Z">
+        <seg>&lt;a0&gt;REST&lt;/a0&gt; and &lt;a1&gt;SOAP request&lt;/a1&gt; handlers function without changes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Обратите внимание!</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220224T062210Z" creationid="Марианна" creationdate="20220224T062210Z">
@@ -8099,6 +8115,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240212T111357Z" creationid="Марианна" creationdate="20240212T111357Z">
         <seg>Logging in journald is available in Linux.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Поддерживается HTTP Basic Authentication, т.е. в URL можно передать логин и пароль.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240218T181921Z" creationid="Марианна" creationdate="20240218T181921Z">
+        <seg>HTTP Basic Authentication is supported. It means that it is possible to transfer login and password in URL.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8652,6 +8676,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210902T132923Z" creationid="Марианна" creationdate="20210902T132923Z">
         <seg>While attempting to move to it in the directory tree, the following error occurred: "System Error".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При работе под Linux необходимо задать файл сертификата, ключа и пароля.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240218T182118Z" creationid="Марианна" creationdate="20240218T182118Z">
+        <seg>When working with Linux, it is required to set the certificate file, key and password.</seg>
       </tuv>
     </tu>
     <tu>
