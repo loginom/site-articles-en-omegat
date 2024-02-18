@@ -9024,6 +9024,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ранее его можно было использовать только для строкового и логического типов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240218T182617Z" creationid="Марианна" creationdate="20240218T182617Z">
+        <seg>Previously, it was possible to use it only for the string and logical types.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ранее запросы, в тексте которых содержались символы Unicode не работали (#9067).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230315T080050Z" creationid="Марианна" creationdate="20230315T080050Z">
@@ -9804,6 +9812,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220426T111132Z" creationid="Марианна" creationdate="20220426T111132Z">
         <seg>Now, the maximum allowable length of the row parameter for Oracle 12.1 and higher is 32,767 characters, for the earlier versions - 4,000 characters.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Теперь настраивать &lt;e4&gt;Куб&lt;/e4&gt; стало удобнее и быстрее.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240218T182723Z" creationid="Марианна" creationdate="20240218T182723Z">
+        <seg>&lt;e4&gt;Cube&lt;/e4&gt; configuration process became much more comfortable and faster now.</seg>
       </tuv>
     </tu>
     <tu>
