@@ -5198,6 +5198,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В прежнем исполнении в режиме SQL-запроса было недостаточно места для текста запроса, а также невозможно было тут же увидеть переменные и воспользоваться ими.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240218T181100Z" creationid="Марианна" creationdate="20240218T180928Z">
+        <seg>There was not enough space for the request text in the SQL request mode in the previous version, and it was also impossible to see variables and use them.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В процессе коллективной работы или при выполнении сценариев со сложными зависимостями нередко возникала ситуация, что сервер предупреждал о том, что необходимый пакет уже используется.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210321T211015Z" creationid="Марианна" creationdate="20210321T210912Z">
