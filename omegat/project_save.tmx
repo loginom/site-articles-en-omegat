@@ -6550,6 +6550,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Значение этого атрибута по умолчанию — пустая строка.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240218T190533Z" creationid="Марианна" creationdate="20240218T190533Z">
+        <seg>An empty string is the default value of this attribute.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Из-за неправильной установки фокуса мог некорректно работать функционал копирования–вставки через горячие клавиши (#8023, #8516).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210903T101121Z" creationid="Марианна" creationdate="20210903T101121Z">
@@ -7834,6 +7842,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230316T055157Z" creationid="Марианна" creationdate="20230316T055031Z">
         <seg>It is possible to select and deselect by clicking on the special element to the left from the field (CheckBox), movements in the fields don't change the state of this element (#9337).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Относительный путь к рабочей директории Интегратора определяется относительно файла конфигурации.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240218T190444Z" creationid="Марианна" creationdate="20240218T190444Z">
+        <seg>The relative path to the work Integrator directory is defined relative to the configuration file.</seg>
       </tuv>
     </tu>
     <tu>
