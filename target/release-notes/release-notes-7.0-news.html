@@ -15,41 +15,41 @@ Large-Scale Update of Loginom Analytical Platform Loginom became cross-platform.
 
 <h2 id="опциональные-возможности-loginom-под-linux">Optional Loginom Features for Linux</h2>
 
-<p>Logging in journald is available in Linux. На странице <a href="https://help.loginom.ru/userguide/admin/" target="_blank">Администрирование</a> Loginom предусмотрен соответствующие настраиваемый параметр. Для работы метода логирования необходима библиотека systemd.so.0 (она гарантировано имеется, если в дистрибутиве Linux используется система инициализации systemd).</p>
+<p>Logging in journald is available in Linux. Corresponding configurable parameter is provided on Loginom <a href="https://help.loginom.ru/userguide/admin/" target="_blank">Administration</a> page. systemd.so.0 library is required to use the logging method (it is available for sure if systemd initialization system is used in Linux distribution kit).</p>
 
 <h2 id="интеграция-с-брокером-сообщений-kafka">Integration with Kafka Message Broker</h2>
 
-<p>Kafka Apache — популярная распределенная система обмена сообщениями между серверными приложениями в режиме реального времени. Благодаря высокой пропускной способности, масштабируемости и отказоустойчивости применяется в крупных проектах с большими объемами данных.</p>
+<p>Kafka Apache is a popular distributed system of message exchange between server applications in real time. Due to its high capacity, scalability and failure safety it is applied in large-scale projects with large volumes of data.</p>
 
-<p>В Loginom Enterprise появилась возможность импортировать и экспортировать сообщения в очередь Kafka. <a href="https://help.loginom.ru/userguide/integration/connections/list/kafka.html" target="_blank">Интеграция с Kafka</a> построена по тому же принципу, что и интеграция с базами данных. На первом этапе настраивается подключение, а затем в сценарии используются узлы на основе компонентов импорт или экспорт Kafka.</p>
+<p>Import and export of messages to Kafka queue became possible in Loginom Enterprise. <a href="https://help.loginom.ru/userguide/integration/connections/list/kafka.html" target="_blank">Integration with Kafka</a> is provided according to the same principle as integration with databases. Connection is configured at the first stage, and then the nodes based on Kafka import or export components are used.</p>
 
-<h2 id="улучшение-в-работе-с-базами-данных">Улучшение в работе с базами данных</h2>
+<h2 id="улучшение-в-работе-с-базами-данных">Database Use Improvements</h2>
 
-<p>Проведена значительная работа, направленная на улучшение и оптимизацию работы с базами данных. В результате появилась поддержка:</p>
+<p>Considerable work aimed at improvement and optimisation of database use has been done. The following support has been provided:</p>
 
 <ul>
-	<li>SCRAM-SHA-256 Authentication и SCRAM-SHA-256-PLUS Authentication для PostgreSQL;</li>
-	<li>SHA-256 authentication для MySQL 8 при подключении без использования клиента;</li>
-	<li>подключения к Oracle 18c и старше без использования клиента;</li>
-	<li>клиента Microsoft OLE DB Driver for SQL Server для подключения к MS SQL Server.</li>
+	<li>SCRAM-SHA-256 Authentication and SCRAM-SHA-256-PLUS Authentication for PostgreSQL;</li>
+	<li>SHA-256 authentication for MySQL 8 when connecting without client use;</li>
+	<li>connection to Oracle 18c иand higher without client use;</li>
+	<li>Microsoft OLE DB Driver client for SQL Server for connection to MS SQL Server.</li>
 </ul>
 
-<p>Базу данных SQLite теперь можно использовать in-memory. При настройке <a href="https://help.loginom.ru/userguide/integration/connections/list/sqlite.html" target="_blank">подключения к базе данных SQLite</a> достаточно установить соответствующий флаг и она будет развернута в памяти. При таком использовании значительно увеличивается скорость обработки данных. Пока БД находится в памяти, к ней можно подключиться из другого пакета, но при этом существует разграничение прав доступа на БД SQLite in-memory. База данных остается в памяти до тех пор, пока активно подключение к ней.</p>
+<p>SQLite database can be used in-memory now. When configuring <a href="https://help.loginom.ru/userguide/integration/connections/list/sqlite.html" target="_blank">connection to SQLite database</a>, it is sufficient to select corresponding checkbox and it will be expanded in memory. Data processing speed will be considerably increased in such case of use. While DB is in memory, it is possible to connect to it from another package. Still there is access rights differentiation to DB SQLite in-memory. Database is kept in memory until its connection is active.</p>
 
-<p>Добавлена возможность установки встроенного клиента Firebird.</p>
+<p>It became possible to install inbuilt Firebird client.</p>
 
 <h3 id="обновленный-мастер-настройки-импорта-из-базы-данных">Updated import from database wizard</h3>
 
-<p>Мастер настройки импорта из базы данных полностью переработан. В прежнем исполнении в режиме SQL-запроса было недостаточно места для текста запроса, а также невозможно было тут же увидеть переменные и воспользоваться ими. В обновленном мастере настройки работа с SQL-запросами стала значительно удобнее:</p>
+<p>Import from database wizard was completely modified. There was not enough space for the request text in the SQL request mode in the previous version, and it was also impossible to see variables and use them. It became much more comfortable to work with SQL requests in the updated wizard:</p>
 
 <ul>
-	<li>можно выбрать режим представления мастера «Выбор таблицы» или «SQL-запрос»;</li>
-	<li>в режиме SQL-запроса добавлен блок со списком переменных;</li>
-	<li>таблицы, поля и переменные можно перетаскивать в редактор SQL кода drag&amp;drop;</li>
+	<li>it became possible to select the "Table selection" or "SQL request" wizard representation mode;</li>
+	<li>block with a list of variables was added in the SQL request mode;</li>
+	<li>it is possible to drag tables, fields and variables to drag&amp;drop SQL code editor;</li>
 	<li>значение переменной может быть вставлено в редактор SQL кода как параметр (по умолчанию) или как макроподстановка;</li>
 	<li>в режиме SQL-запрос в дереве объектов БД доступен функционал фильтрации полей (при развернутом дереве);</li>
-	<li>появилась возможность задать имя таблицы через переменные;</li>
-	<li>ускорена загрузка объектов БД в дерево объектов.</li>
+	<li>it became possible to set the table name via variables;</li>
+	<li>loading of DB objects to the tree of objects became faster.</li>
 </ul>
 
 <figure class="lg-text-img lg-text-img_preview"><a href="/sites/default/files/blogpost-images/DB_master.png"><img alt="" data-entity-type="" data-entity-uuid="" src="/sites/default/files/blogpost-images/DB_master.png" /> </a>
@@ -61,25 +61,25 @@ Large-Scale Update of Loginom Analytical Platform Loginom became cross-platform.
 
 <h2 id="импорт-из-файлов">Import from Files</h2>
 
-<p>Реализована возможность в импорте из файлов (txt, csv, XML, Excel) читать данные предварительно выполнив http-запрос. Для этого в мастере настройки импорта из файла вместо имени файла можно указать URL. Поддерживается HTTP Basic Authentication, т.е. в URL можно передать логин и пароль. При импорте форматов txt, csv, xml для предпросмотра или предположения формата скачивается только тот объем данных, который необходим. В случае с xlsx форматом происходит скачивание всего файла в память, поэтому стоит обращать внимание на размер таких файлов.</p>
+<p>Реализована возможность в импорте из файлов (txt, csv, XML, Excel) читать данные предварительно выполнив http-запрос. Для этого в мастере настройки импорта из файла вместо имени файла можно указать URL. HTTP Basic Authentication is supported. It means that it is possible to transfer login and password in URL. При импорте форматов txt, csv, xml для предпросмотра или предположения формата скачивается только тот объем данных, который необходим. В случае с xlsx форматом происходит скачивание всего файла в память, поэтому стоит обращать внимание на размер таких файлов.</p>
 
 <h2 id="работа-с-веб-сервисами">Web Services Operation</h2>
 
-<p>Обработчики <a href="https://help.loginom.ru/userguide/processors/integration/rest-request.html" target="_blank">REST</a> и <a href="https://help.loginom.ru/userguide/processors/integration/soap-request.html" target="_blank">SOAP-запрос</a> функционируют без изменений. Однако при переносе сценариев между Loginom под Windows и Linux, в некоторых случаях потребуется перенастройка подключений <a href="https://help.loginom.ru/userguide/integration/connections/list/rest-service.html" target="_blank">REST</a> и <a href="https://help.loginom.ru/userguide/integration/connections/list/soap-service.html" target="_blank">SOAP-сервис</a>. В версии под Linux не поддерживается аутентификация при помощи предоставления сертификата клиента. В Windows он выбирался из хранилища личных сертификатов. При работе под Linux необходимо задать файл сертификата, ключа и пароля.</p>
+<p><a href="https://help.loginom.ru/userguide/processors/integration/rest-request.html" target="_blank">REST</a> and <a href="https://help.loginom.ru/userguide/processors/integration/soap-request.html" target="_blank">SOAP request</a> handlers function without changes. Однако при переносе сценариев между Loginom под Windows и Linux, в некоторых случаях потребуется перенастройка подключений <a href="https://help.loginom.ru/userguide/integration/connections/list/rest-service.html" target="_blank">REST</a> и <a href="https://help.loginom.ru/userguide/integration/connections/list/soap-service.html" target="_blank">SOAP-сервис</a>. В версии под Linux не поддерживается аутентификация при помощи предоставления сертификата клиента. In Windows it was selected from the storage of personal certificates. When working with Linux, it is required to set the certificate file, key and password.</p>
 
-<p>В мастере настройки подключения REST-сервис изменилось значение по умолчанию для параметра «Допустимый Content-Type ответа». Вместо <code>*/*</code> установлено <code>application/json</code>.</p>
+<p>В мастере настройки подключения REST-сервис изменилось значение по умолчанию для параметра «Допустимый Content-Type ответа». Instead of <code>*/*</code> <code>application/json</code> is installed.</p>
 
 <p>Для пакетов, созданных до версии 6.4.0, в порту «Дополнительные данные» узла REST-запрос изменится выходной набор данных. Ранее значение в столбце «Код завершения» равнялось 0 не зависимо от Кода состояния HTTP. Теперь если Код состояния HTTP &gt;= 400, то Код завершения будет равен 6.</p>
 
-<h2 id="использование-языков-программирования">Использование языков программирования</h2>
+<h2 id="использование-языков-программирования">Programming languages use</h2>
 
 <p>В обработчик <a href="https://help.loginom.ru/userguide/processors/programming/java-script/" target="_blank">JavaScript</a> добавлен <a href="https://help.loginom.ru/userguide/processors/programming/java-script/fileapi.html" target="_blank">File Storage API</a>, позволяющий безопасно и без настройки прав выполнять все файловые операции:</p>
 
 <ul>
-	<li>Получение списка файлов.</li>
-	<li>Создание, удаление, перемещение, переименование папок.</li>
-	<li>Удаление, перемещение, переименование файлов.</li>
-	<li>Проверка корректности пути.</li>
+	<li>Get file list.</li>
+	<li>Create, delete, move, rename folders.</li>
+	<li>Delete, move, rename files.</li>
+	<li>Check path correctness.</li>
 </ul>
 
 <p>Появилась возможность запускать <a href="https://help.loginom.ru/userguide/processors/programming/python/" target="_blank">Python</a> в отдельном процессе, в том числе и параллельно. В редакциях под Windows возможен запуск как в рамках процесса Loginom, так и в отдельном процессе, а под Linux поддерживается только вариант работы в отдельном процессе.</p>
@@ -89,11 +89,11 @@ Large-Scale Update of Loginom Analytical Platform Loginom became cross-platform.
 <h2 id="улучшения-в-компонентах-обработки">Processing Components Improvements</h2>
 
 <ol>
-	<li>В редакторах «Дата/время» при вводе данных с клавиатуры можно указать только дату без времени. Ранее требовалось обязательно задать время.</li>
-	<li>В обработчике <a href="https://help.loginom.ru/userguide/processors/control/supernode.html" target="_blank">Подмодель</a> появился необязательный входной табличный порт, что делает проектирование сценариев более гибким. В мастере настройки <em>Подмодели</em> добавлен флаг необязательности портов. Редактирование флага возможно только для табличного порта. При сворачивании узлов в <em>Подмодель</em> флаг необязательности устанавливается только у входных портов типа Таблица, к которым внутри <em>Подмодели</em> подключены необязательные порты.</li>
+	<li>В редакторах «Дата/время» при вводе данных с клавиатуры можно указать только дату без времени. Previously, it was necessarily required to set time.</li>
+	<li>В обработчике <a href="https://help.loginom.ru/userguide/processors/control/supernode.html" target="_blank">Подмодель</a> появился необязательный входной табличный порт, что делает проектирование сценариев более гибким. В мастере настройки <em>Подмодели</em> добавлен флаг необязательности портов. It is possible to edit the checkbox only for the table port. При сворачивании узлов в <em>Подмодель</em> флаг необязательности устанавливается только у входных портов типа Таблица, к которым внутри <em>Подмодели</em> подключены необязательные порты.</li>
 	<li>В <a href="https://help.loginom.ru/userguide/processors/transformation/calc/" target="_blank">Калькуляторе</a> в <a href="https://help.loginom.ru/userguide/processors/transformation/calc/javascript.html" target="_blank">режиме JavaScript</a> доступны функций преобразования base64-закодированных строк в строки двоичных данных и обратно.</li>
-	<li>В обработчике <a href="https://help.loginom.ru/userguide/processors/transformation/sorting.html" target="_blank">Сортировка</a> добавлена опция кэширования данных.</li>
-	<li>В <a href="https://help.loginom.ru/userguide/processors/preprocessing/eliminate-outliers.html" target="_blank">Редактировании выбросов</a> метод обработки «Заменять заданным значением» стал доступен для всех типов данных. Ранее его можно было использовать только для строкового и логического типов.</li>
+	<li>Data caching option was added in <a href="https://help.loginom.ru/userguide/processors/transformation/sorting.html" target="_blank">Sorting</a> handler.</li>
+	<li>В <a href="https://help.loginom.ru/userguide/processors/preprocessing/eliminate-outliers.html" target="_blank">Редактировании выбросов</a> метод обработки «Заменять заданным значением» стал доступен для всех типов данных. Previously, it was possible to use it only for the string and logical types.</li>
 	<li>В XSD-схему запроса и ответа разрешено вносить изменения, совместимые с ранее настроенными списками выбранных элементов. Такие изменения теперь не приводят к ошибке «XSD-схема на входе не соответствует настройкам обработчика» при активации узлов. Изменения касаются всех узлов, в процессе которых происходит формирование или разбор xml документа по схеме: <a href="https://help.loginom.ru/userguide/integration/import/xml.html" target="_blank">Импорт XML файла</a>, <a href="https://help.loginom.ru/userguide/integration/export/xml.html" target="_blank">Экспорт в XML</a>, <a href="https://help.loginom.ru/userguide/processors/integration/extracting-xml.html" target="_blank">Извлечение XML</a>, <a href="https://help.loginom.ru/userguide/processors/integration/xml-generation.html" target="_blank">Формирование XML</a>, SOAP-запрос.</li>
 </ol>
 
@@ -107,18 +107,18 @@ Large-Scale Update of Loginom Analytical Platform Loginom became cross-platform.
 <figure class="lg-text-img lg-text-img_preview"><a href="/sites/default/files/blogpost-images/notes.png"><img alt="" data-entity-type="" data-entity-uuid="" src="/sites/default/files/blogpost-images/notes.png" /> </a>
 
 <figcaption>
-<p>Блоки заметок</p>
+<p>Notes blocks</p>
 </figcaption>
 </figure>
 
 <ul>
-	<li>В <a href="https://help.loginom.ru/userguide/visualization/cube/" target="_blank">визуализаторе Куб</a> появилась возможность настраивать измерения в отдельном окне. Мастер вызывается кнопкой с панели инструментов <em>Куба</em> и через соответствующий пункт контекстного меню. Ранее после добавления каждого измерения <em>Куб</em> перестраивался, и при больших объемах данных настройка <em>Куба</em> занимала много времени. Теперь настраивать <em>Куб</em> стало удобнее и быстрее.</li>
+	<li>В <a href="https://help.loginom.ru/userguide/visualization/cube/" target="_blank">визуализаторе Куб</a> появилась возможность настраивать измерения в отдельном окне. Мастер вызывается кнопкой с панели инструментов <em>Куба</em> и через соответствующий пункт контекстного меню. Ранее после добавления каждого измерения <em>Куб</em> перестраивался, и при больших объемах данных настройка <em>Куба</em> занимала много времени. <em>Cube</em> configuration process became much more comfortable and faster now.</li>
 </ul>
 
 <figure class="lg-text-img lg-text-img_preview"><a href="/sites/default/files/blogpost-images/cub_mesure_setting.png"><img alt="" data-entity-type="" data-entity-uuid="" src="/sites/default/files/blogpost-images/cub_mesure_setting.png" /> </a>
 
 <figcaption>
-<p>Настройка измерений Куба в отдельном окне</p>
+<p>Configuring the Cube dimensions in a separate window</p>
 </figcaption>
 </figure>
 
@@ -133,7 +133,7 @@ Large-Scale Update of Loginom Analytical Platform Loginom became cross-platform.
 
 <h2 id="работа-с-данными">Data Handling</h2>
 
-<p>В свойствах пакета появилась опция «Сравнивать строковые уникальные значения бинарно». Сравнение строк изменится после закрытия пакета и всех зависимых от него открытых пакетов. При изменении настройки «Сравнивать строковые уникальные значения бинарно», может потребоваться переобучение обученных узлов. Действие опции распространяется на компоненты:</p>
+<p>В свойствах пакета появилась опция «Сравнивать строковые уникальные значения бинарно». Сравнение строк изменится после закрытия пакета и всех зависимых от него открытых пакетов. При изменении настройки «Сравнивать строковые уникальные значения бинарно», может потребоваться переобучение обученных узлов. The option effect extends to the following components:</p>
 
 <ul>
 	<li><a href="https://help.loginom.ru/userguide/processors/datamining/clustering.html" target="_blank">Clustering</a></li>
@@ -141,15 +141,15 @@ Large-Scale Update of Loginom Analytical Platform Loginom became cross-platform.
 	<li><a href="https://help.loginom.ru/userguide/processors/datamining/self-organizing-network.html" target="_blank">Self-Organizing Network</a></li>
 	<li><a href="https://help.loginom.ru/userguide/processors/datamining/neural-network-classification.html" target="_blank">Neural Network (Classification)</a></li>
 	<li><a href="https://help.loginom.ru/userguide/processors/datamining/neural-network-regression.html" target="_blank">Neural Network (Regression)</a></li>
-	<li><a href="https://help.loginom.ru/userguide/processors/datamining/linear-regression/" target="_blank">Линейная регрессия</a></li>
+	<li><a href="https://help.loginom.ru/userguide/processors/datamining/linear-regression/" target="_blank">Linear Regression</a></li>
 	<li><a href="https://help.loginom.ru/userguide/processors/datamining/logistic-regression/" target="_blank">Logistic Regression</a></li>
 	<li><a href="https://help.loginom.ru/userguide/processors/datamining/arimax.html" target="_blank">ARIMAX</a></li>
 	<li><a href="https://help.loginom.ru/userguide/processors/preprocessing/coarse-classes.html" target="_blank">Coarse Classes</a></li>
-	<li><a href="https://help.loginom.ru/userguide/processors/preprocessing/sampling.html" target="_blank">Сэмплинг</a> (отбор со смещением)</li>
-	<li><a href="https://help.loginom.ru/userguide/processors/preprocessing/partitioning.html" target="_blank">Разбиение на множества</a> (отбор со смещением),</li>
+	<li><a href="https://help.loginom.ru/userguide/processors/preprocessing/sampling.html" target="_blank">Sampling</a> (sampling with bias)</li>
+	<li><a href="https://help.loginom.ru/userguide/processors/preprocessing/partitioning.html" target="_blank">Partitioning</a> (sampling with bias),</li>
 </ul>
 
-<p>а также на визуализаторы:</p>
+<p>and also to the following visualizers:</p>
 
 <ul>
 	<li><a href="https://help.loginom.ru/userguide/visualization/binary-classification/" target="_blank">Binary Classification Assessment</a></li>
@@ -159,17 +159,17 @@ Large-Scale Update of Loginom Analytical Platform Loginom became cross-platform.
 
 <p>Значение опции «Сравнивать строковые уникальные значения бинарно» выводится в <em>Инспекторе свойств</em>.</p>
 
-<p>В мастера настройки обработчиков, алгоритмы которых используют генерацию псевдослучайных чисел, добавлена возможность установить Random Seed. Значение Random Seed можно задать через переменную, сгенирировать или установить флаг «Всегда случайно». Доступна команда копирования значения в буфер обмена.</p>
+<p>В мастера настройки обработчиков, алгоритмы которых используют генерацию псевдослучайных чисел, добавлена возможность установить Random Seed. Значение Random Seed можно задать через переменную, сгенирировать или установить флаг «Всегда случайно». Command to copy value to the clipboard became available.</p>
 
 <h2 id="изменения-в-loginom-integrator">Changes in Loginom Integrator</h2>
 
-<p>Изменился файл конфигурации <a href="https://help.loginom.ru/adminguide/integrator/" target="_blank">Loginom Integrator</a>:</p>
+<p><a href="https://help.loginom.ru/adminguide/integrator/" target="_blank">Loginom Integrator</a> configuration file was changed:</p>
 
 <ul>
-	<li>Имя файла web.config заменено на <code>Integrator.dll.config</code>.</li>
-	<li>Удалены элементы <code>appSettings</code>, <code>system.web</code>, <code>system.serviceModel</code> и <code>system.webServer</code> вместе со всеми дочерними элементами.</li>
+	<li>web.config file name was replaced with <code>Integrator.dll.config</code>.</li>
+	<li><code>appSettings</code>, <code>system.web</code>, <code>system.serviceModel</code> and <code>system.webServer</code> elements were deleted with all child elements.</li>
 	<li>
-	<p>Изменился формат элемента <code>configSections</code>:</p>
+	<p><code>configSections</code> element format was changed:</p>
 
 	<p>было:</p>
 
@@ -190,12 +190,12 @@ Large-Scale Update of Loginom Analytical Platform Loginom became cross-platform.
 </code></pre>
 	</li>
 	<li>
-	<p>У элемента <code>loginom</code> добавлен необязательный атрибут <code>urlPathPrefix</code>, значение которого используется как префикс к адресу всех конечных точек REST и SOAP. Значение этого атрибута по умолчанию — пустая строка. Например, если Loginom Integrator развёрнут по адресу: <code>http://localhost/lgi</code>, и атрибут <code>urlPathPrefix</code> не указан, то help-страница для REST доступна по адресу: <code>http://localhost/lgi/rest/help</code>. Если <code>urlPathPrefix="abc"</code>, то адрес меняется на: <code>http://localhost/lgi/abc/rest/help</code>. <strong>Чтобы в новом Интеграторе использовались те же адреса, что и в старом, нужно указать</strong> <code>urlPathPrefix="Service.svc"</code>.</p>
+	<p>У элемента <code>loginom</code> добавлен необязательный атрибут <code>urlPathPrefix</code>, значение которого используется как префикс к адресу всех конечных точек REST и SOAP. An empty string is the default value of this attribute. For example, if Loginom Integrator is used at the following address: <code>http://localhost/lgi</code>, and <code>urlPathPrefix</code> attribute is not specified, help page for REST is available at the following address: <code>http://localhost/lgi/rest/help</code>. If <code>urlPathPrefix="abc"</code>, address was changed as follows: <code>http://localhost/lgi/abc/rest/help</code>. <strong>Чтобы в новом Интеграторе использовались те же адреса, что и в старом, нужно указать</strong> <code>urlPathPrefix="Service.svc"</code>.</p>
 	</li>
 	<li>У элемента <code>loginom</code> добавлен необязательный атрибут <code>swaggerUI</code>, который может принимать значение <code>true</code> или <code>false</code>. Атрибут включает/отключает генерацию страницы <code>openapi/index.html</code>, которая реализует доступ к опубликованным сервисам через Swagger UI.</li>
 </ul>
 
-<p>Добавлена возможность задать расположение файла конфигурации Loginom Integrator. Расположение папки, из которой загружаются конфигурационные файлы <code>Integrator.dll.config</code> и <code>appsettings.json</code>, определяется по следующим правилам:</p>
+<p>It became possible to set location of Loginom Integrator configuration file. Расположение папки, из которой загружаются конфигурационные файлы <code>Integrator.dll.config</code> и <code>appsettings.json</code>, определяется по следующим правилам:</p>
 
 <ul>
 	<li>если в командной строке указан параметр <code>configdir</code>, то используется указанная папка (имя параметра можно указать в любом регистре);</li>
@@ -205,9 +205,9 @@ Large-Scale Update of Loginom Analytical Platform Loginom became cross-platform.
 
 <p>Если в указанной папке отсутствует файл <code>Integrator.dll.config</code>, то Integrator не запускается, а пользователь получает сообщение об ошибке.</p>
 
-<p>Относительный путь к рабочей директории Интегратора определяется относительно файла конфигурации. Если в файле Integrator.dll.config значением атрибута <code>workDir</code> является относительный путь, то он интерпретируется как путь относительно файла Integrator.dll.config. Значение атрибута <code>workDir</code> может равняться <code>.</code> (текущая папка). Это будет означать, что <code>workdir</code> совпадает с <code>configdir</code>.</p>
+<p>The relative path to the work Integrator directory is defined relative to the configuration file. If in Integrator.dll.config file the value of <code>workDir</code> attribute is the relative path, it is interpreted as the path relative to Integrator.dll.config file. Value of<code>workDir</code> attribute can be equal to <code>.</code> (current folder). It will mean that <code>workdir</code> matches <code>configdir</code>.</p>
 
-<p>Для каждого опубликованного пакета генерируется отдельный wsdl-файл (ранее описание SOAP-сервиса включало содержимое всех опубликованных пакетов). Добавлена генерация корневого wsdl-документа, который ссылается на все остальные wsdl-документы. По умолчанию корневой wsdl генерируется по адресу <code>/soap?wsdl</code>. Если в конфигурационном файле Loginom Integrator задать значение атрибута <code>urlPathPrefix="Service.svc"</code>, то дополнительно генерируется wsdl по адресу <code>/Service.svc?wsdl</code>, который использовался в старом Интеграторе.</p>
+<p>Для каждого опубликованного пакета генерируется отдельный wsdl-файл (ранее описание SOAP-сервиса включало содержимое всех опубликованных пакетов). Generation of root wsdl document that refers to all other wsdl documents was added. By default, root wsdl is generated at the following address:<code>/soap?wsdl</code>. Если в конфигурационном файле Loginom Integrator задать значение атрибута <code>urlPathPrefix="Service.svc"</code>, то дополнительно генерируется wsdl по адресу <code>/Service.svc?wsdl</code>, который использовался в старом Интеграторе.</p>
 
 <p>В Loginom Integrator появилась поддержка <a href="https://en.wikipedia.org/wiki/OpenAPI_Specification" target="_blank">OpenAPI</a> и Swagger UI. Теперь можно выполнять запросы для тестирования API на странице: <code>http://host/lgi/openapi/index.html</code>.</p>
 
@@ -237,9 +237,9 @@ Large-Scale Update of Loginom Analytical Platform Loginom became cross-platform.
 
 <p>Для версии под Linux добавлена возможность вывода логов Loginom Integrator в journald. В файле конфигурации добавлен элемент <code>&lt;journald level="Off" maxEntrySize="65536"/&gt;</code>, который настраивает логирование в journald под Linux. Под Windows данный элемент игнорируется. Атрибут <code>maxEntrySize</code> задаёт максимальный размер сообщения в байтах. Если атрибут отсутствует или содержит отрицательное значение, то используется значение по умолчанию: 2147483647.</p>
 
-<p>Появилась возможность вывода логов Loginom Integrator в консоль. В секции <code>log</code> файла конфигурации добавлен опциональный элемент <code>console</code>, в котором настраивается уровень логирования в консоль. По умолчанию используется такой же формат сообщений, что и при логировании в файл. Но, если задана переменная окружения <code>DOTNET_RUNNING_IN_CONTAINER</code> со значением <code>true</code> или <code>1</code> (т.е. Integrator запущен из Docker контейнера), то в логируемых сообщениях не пишется текущая дата/время. Логи с уровнем Warn и выше пишутся в stderr, а остальные — в stdout. Если логи перенаправляются из консоли контейнера в journald хоста, то многострочные сообщения разбиваются на несколько (каждая строка получается отдельным сообщением в journald).</p>
+<p>Появилась возможность вывода логов Loginom Integrator в консоль. В секции <code>log</code> файла конфигурации добавлен опциональный элемент <code>console</code>, в котором настраивается уровень логирования в консоль. The same message format as for logging to file is used by default. Но, если задана переменная окружения <code>DOTNET_RUNNING_IN_CONTAINER</code> со значением <code>true</code> или <code>1</code> (т.е. Integrator запущен из Docker контейнера), то в логируемых сообщениях не пишется текущая дата/время. Logs with Warn level and higher are written in stderr, whereas the other ones in stdout. Если логи перенаправляются из консоли контейнера в journald хоста, то многострочные сообщения разбиваются на несколько (каждая строка получается отдельным сообщением в journald).</p>
 
-<p>В Loginom Integrator изменен формат сообщений об ошибке. Для REST ответов реализован формат, соответствующий <a href="https://www.rfc-editor.org/rfc/rfc7807.html" target="_blank">RFC 7807</a>. При ошибках с кодом 400 в REST-сервисе возвращается JSON с описанием ошибки. Для SOAP-сервисов внесены некоторые изменения в структуру элементов.</p>
+<p>Error message format was changed in Loginom Integrator. Для REST ответов реализован формат, соответствующий <a href="https://www.rfc-editor.org/rfc/rfc7807.html" target="_blank">RFC 7807</a>. При ошибках с кодом 400 в REST-сервисе возвращается JSON с описанием ошибки. Для SOAP-сервисов внесены некоторые изменения в структуру элементов.</p>
 
 <h2 id="производительность">Performance</h2>
 
