@@ -10296,6 +10296,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>в режиме SQL-запроса добавлен блок со списком переменных;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240218T181501Z" creationid="Марианна" creationdate="20240218T181501Z">
+        <seg>block with a list of variables was added in the SQL request mode;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>валидные символы переносятся без изменений;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220309T065457Z" creationid="Марианна" creationdate="20220309T065457Z">
@@ -10556,6 +10564,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230314T115116Z" creationid="Марианна" creationdate="20230314T115042Z">
         <seg>not exceeding 65536 rows</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>таблицы, поля и переменные можно перетаскивать в редактор SQL кода drag&amp;drop;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240218T181601Z" creationid="Марианна" creationdate="20240218T181601Z">
+        <seg>it is possible to drag tables, fields and variables to drag&amp;drop SQL code editor;</seg>
       </tuv>
     </tu>
     <tu>
