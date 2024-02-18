@@ -5142,6 +5142,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В обработчике &lt;a0&gt;Сортировка&lt;/a0&gt; добавлена опция кэширования данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240218T182459Z" creationid="Марианна" creationdate="20240218T182459Z">
+        <seg>Data caching option was added in &lt;a0&gt;Sorting&lt;/a0&gt; handler.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В обработчике Заполнение пропусков добавлена возможность заменять пропущенные числовые значения на &lt;e0&gt;0&lt;/e0&gt;, а также оптимизирована работа обработчика, а из списка допустимых методов для Логического типа данных убран вариант &lt;e1&gt;Не задано&lt;/e1&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210325T114543Z" creationid="Марианна" creationdate="20210322T212244Z">
@@ -5482,6 +5490,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240212T085013Z" creationid="Марианна" creationdate="20240212T084553Z">
         <seg>At the same time, 80% percent of the server part was transferred from the previous version, and the client part was not significantly changed. That is why the workflows prepared in Loginom for Windows will be used with Linux as well. In some cases only reconfiguration of nodes will be required.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Вместо &lt;c0&gt;*/*&lt;/c0&gt; установлено &lt;c1&gt;application/json&lt;/c1&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240218T182207Z" creationid="Марианна" creationdate="20240218T182207Z">
+        <seg>Instead of &lt;c0&gt;*/*&lt;/c0&gt; &lt;c1&gt;application/json&lt;/c1&gt; is installed.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9144,6 +9160,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ранее требовалось обязательно задать время.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240218T182310Z" creationid="Марианна" creationdate="20240218T182310Z">
+        <seg>Previously, it was necessarily required to set time.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ранее это можно было сделать только следующим образом: в окне настройки модификатора доступа выбираем статус «Опубликованный», затем задаем имя узла, затем возвращаем прежний статус.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210322T172323Z" creationid="Марианна" creationdate="20210322T172323Z">
@@ -9260,6 +9284,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220711T112359Z" creationid="Марианна" creationdate="20220711T094225Z">
         <seg>More precise position determination was implemented taking into account that the records in the table with fields could be grouped and have a header and/or final row for the group (#9283).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Редактирование флага возможно только для табличного порта.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240218T182340Z" creationid="Марианна" creationdate="20240218T182340Z">
+        <seg>It is possible to edit the checkbox only for the table port.</seg>
       </tuv>
     </tu>
     <tu>
