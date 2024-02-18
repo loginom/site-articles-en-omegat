@@ -6662,6 +6662,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Изменился формат элемента &lt;c0&gt;configSections&lt;/c0&gt;:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240218T190631Z" creationid="Марианна" creationdate="20240218T190631Z">
+        <seg>&lt;c0&gt;configSections&lt;/c0&gt; element format was changed:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Иконка узла подмодели на панели подключений заменена на индивидуальную иконку папки, что исключает путаницу (#8049).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220426T104521Z" creationid="Марианна" creationdate="20220426T104521Z">
