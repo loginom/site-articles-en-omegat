@@ -10512,6 +10512,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>появилась возможность задать имя таблицы через переменные;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240218T181753Z" creationid="Марианна" creationdate="20240218T181753Z">
+        <seg>it became possible to set the table name via variables;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>появилась возможность показа всех заголовков или только заголовков 1-го уровня в кросс-диаграммах;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220304T134717Z" creationid="Марианна" creationdate="20220304T134717Z">
@@ -10588,6 +10596,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220304T135418Z" creationid="Марианна" creationdate="20220304T135302Z">
         <seg>The font size of the measures and dimensions headers was decreased as well as the Cube cells height.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>ускорена загрузка объектов БД в дерево объектов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240218T181728Z" creationid="Марианна" creationdate="20240218T181728Z">
+        <seg>loading of DB objects to the tree of objects became faster.</seg>
       </tuv>
     </tu>
     <tu>
