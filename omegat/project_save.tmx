@@ -2846,10 +2846,26 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;section name="log" type="DeductorIntegrationServer.Core.LogConfigurationSection"/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240218T183009Z" creationid="Марианна" creationdate="20240218T183009Z">
+        <seg>&lt;section name="log" type="DeductorIntegrationServer.Core.LogConfigurationSection"/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;section name="log" type="Integrator.Core.LogConfigurationSection, IntegratorCore"/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240211T172403Z" creationid="Марианна" creationdate="20240211T172403Z">
         <seg>&lt;section name="log" type="Integrator.Core.LogConfigurationSection, IntegratorCore"/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;section name="loginom" type="DeductorIntegrationServer.Core.DeductorConfigurationSection"/&gt;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240218T183012Z" creationid="Марианна" creationdate="20240218T183012Z">
+        <seg>&lt;section name="loginom" type="DeductorIntegrationServer.Core.DeductorConfigurationSection"/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -6142,6 +6158,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Доступна команда копирования значения в буфер обмена.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240218T182855Z" creationid="Марианна" creationdate="20240218T182855Z">
+        <seg>Command to copy value to the clipboard became available.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Доступна общая сводка по набору данных, а также детализированные сводки по &lt;a0&gt;непрерывным &lt;/a0&gt;и по&lt;a1&gt; дискретным данным.&lt;/a1&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220310T114242Z" creationid="Марианна" creationdate="20220228T103701Z">
@@ -6582,6 +6606,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Изменился файл конфигурации &lt;a0&gt;Loginom Integrator&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240218T182929Z" creationid="Марианна" creationdate="20240218T182929Z">
+        <seg>&lt;a0&gt;Loginom Integrator&lt;/a0&gt; configuration file was changed:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Иконка узла подмодели на панели подключений заменена на индивидуальную иконку папки, что исключает путаницу (#8049).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220426T104521Z" creationid="Марианна" creationdate="20220426T104521Z">
@@ -6618,6 +6650,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240211T173209Z" creationid="Марианна" creationdate="20240211T173209Z">
         <seg>Import from Files</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Имя файла web.config заменено на &lt;c0&gt;Integrator.dll.config&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240218T182958Z" creationid="Марианна" creationdate="20240218T182958Z">
+        <seg>web.config file name was replaced with &lt;c0&gt;Integrator.dll.config&lt;/c0&gt;.</seg>
       </tuv>
     </tu>
     <tu>
