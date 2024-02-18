@@ -10152,6 +10152,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Удалены элементы &lt;c0&gt;appSettings&lt;/c0&gt;, &lt;c1&gt;system.web&lt;/c1&gt;, &lt;c2&gt;system.serviceModel&lt;/c2&gt; и &lt;c3&gt;system.webServer&lt;/c3&gt; вместе со всеми дочерними элементами.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240218T190715Z" creationid="Марианна" creationdate="20240218T190715Z">
+        <seg>&lt;c0&gt;appSettings&lt;/c0&gt;, &lt;c1&gt;system.web&lt;/c1&gt;, &lt;c2&gt;system.serviceModel&lt;/c2&gt; and &lt;c3&gt;system.webServer&lt;/c3&gt; elements were deleted with all child elements.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Удобный функционал переиспользования компонентов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220224T060546Z" creationid="Марианна" creationdate="20220224T060546Z">
