@@ -5110,6 +5110,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В обновленном мастере настройки работа с SQL-запросами стала значительно удобнее:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240218T181214Z" creationid="Марианна" creationdate="20240218T181214Z">
+        <seg>It became much more comfortable to work with SQL requests in the updated wizard:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В обработчике &lt;a0&gt;Корреляционный анализ&lt;/a0&gt; при расчете экстремума взаимокорреляционной функции для пользователя добавлен вывод номера лага (величины смещения).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210325T114508Z" creationid="Марианна" creationdate="20210322T210444Z">
@@ -10436,6 +10444,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220425T202702Z" creationid="Марианна" creationdate="20220425T202702Z">
         <seg>modal window (default value);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>можно выбрать режим представления мастера «Выбор таблицы» или «SQL-запрос»;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240218T181427Z" creationid="Марианна" creationdate="20240218T181427Z">
+        <seg>it became possible to select the "Table selection" or "SQL request" wizard representation mode;</seg>
       </tuv>
     </tu>
     <tu>
