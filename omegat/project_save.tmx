@@ -5942,6 +5942,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для этого в мастере настройки импорта из файла вместо имени файла можно указать URL.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240219T120537Z" creationid="Марианна" creationdate="20240219T120537Z">
+        <seg>For this purpose, URL can be specified instead of the file name in import from file wizard.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для этого в мастере настройки полей добавлен параметр «Исключить».</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220304T191553Z" creationid="Марианна" creationdate="20220304T191553Z">
