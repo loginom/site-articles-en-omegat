@@ -4934,6 +4934,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В версии под Linux не поддерживается аутентификация при помощи предоставления сертификата клиента.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240219T121700Z" creationid="Марианна" creationdate="20240219T121700Z">
+        <seg>Authentification via client certificate is not supported in the Linux version.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В визуализаторе &lt;a0&gt;Статистика &lt;/a0&gt;явно обозначены ячейки с нерассчитанными показателями и кнопки запуска расчетов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220307T100832Z" creationid="Марианна" creationdate="20220307T100832Z">
