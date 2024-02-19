@@ -8559,6 +8559,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Появилась возможность запускать &lt;a0&gt;Python&lt;/a0&gt; в отдельном процессе, в том числе и параллельно.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240219T124022Z" creationid="Марианна" creationdate="20240219T124022Z">
+        <seg>It became possible to start &lt;a0&gt;Python&lt;/a0&gt; in a separate process, as well as simultaneously.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Появилась возможность одновременного отображения нескольких фактов на графике диаграммы.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210321T214941Z" creationid="Марианна" creationdate="20210321T214941Z">
