@@ -46,8 +46,8 @@ Large-Scale Update of Loginom Analytical Platform Loginom became cross-platform.
 	<li>it became possible to select the "Table selection" or "SQL request" wizard representation mode;</li>
 	<li>block with a list of variables was added in the SQL request mode;</li>
 	<li>it is possible to drag tables, fields and variables to drag&amp;drop SQL code editor;</li>
-	<li>значение переменной может быть вставлено в редактор SQL кода как параметр (по умолчанию) или как макроподстановка;</li>
-	<li>в режиме SQL-запрос в дереве объектов БД доступен функционал фильтрации полей (при развернутом дереве);</li>
+	<li>variable value can be inserted into SQL code editor as parameter (by default) or as macro substitution;</li>
+	<li>field filtration functionality is available in the SQL request mode in the DB object tree (when tree is expanded);</li>
 	<li>it became possible to set the table name via variables;</li>
 	<li>loading of DB objects to the tree of objects became faster.</li>
 </ul>
@@ -61,19 +61,19 @@ Large-Scale Update of Loginom Analytical Platform Loginom became cross-platform.
 
 <h2 id="импорт-из-файлов">Import from Files</h2>
 
-<p>Реализована возможность в импорте из файлов (txt, csv, XML, Excel) читать данные предварительно выполнив http-запрос. Для этого в мастере настройки импорта из файла вместо имени файла можно указать URL. HTTP Basic Authentication is supported. It means that it is possible to transfer login and password in URL. При импорте форматов txt, csv, xml для предпросмотра или предположения формата скачивается только тот объем данных, который необходим. В случае с xlsx форматом происходит скачивание всего файла в память, поэтому стоит обращать внимание на размер таких файлов.</p>
+<p>It became possible to read data importing from files (txt, csv, XML, Excel) having executed http request beforehand. For this purpose, URL can be specified instead of the file name in import from file wizard. HTTP Basic Authentication is supported. It means that it is possible to transfer login and password in URL. When importing txt, csv, xml formats for preview or format estimate, only the required data volume is downloaded. When it comes to xlsx format, the whole file is downloaded to memory that is why it is required to pay attention to size of such files.</p>
 
 <h2 id="работа-с-веб-сервисами">Web Services Operation</h2>
 
-<p><a href="https://help.loginom.ru/userguide/processors/integration/rest-request.html" target="_blank">REST</a> and <a href="https://help.loginom.ru/userguide/processors/integration/soap-request.html" target="_blank">SOAP request</a> handlers function without changes. Однако при переносе сценариев между Loginom под Windows и Linux, в некоторых случаях потребуется перенастройка подключений <a href="https://help.loginom.ru/userguide/integration/connections/list/rest-service.html" target="_blank">REST</a> и <a href="https://help.loginom.ru/userguide/integration/connections/list/soap-service.html" target="_blank">SOAP-сервис</a>. В версии под Linux не поддерживается аутентификация при помощи предоставления сертификата клиента. In Windows it was selected from the storage of personal certificates. When working with Linux, it is required to set the certificate file, key and password.</p>
+<p><a href="https://help.loginom.ru/userguide/processors/integration/rest-request.html" target="_blank">REST</a> and <a href="https://help.loginom.ru/userguide/processors/integration/soap-request.html" target="_blank">SOAP request</a> handlers function without changes. However, when transferring workflows between Loginom for Windows and Linux, in some cases it will be required to reconfigure <a href="https://help.loginom.ru/userguide/integration/connections/list/rest-service.html" target="_blank">REST</a> connections and <a href="https://help.loginom.ru/userguide/integration/connections/list/soap-service.html" target="_blank">SOAP service</a>. Authentification via client certificate is not supported in the Linux version. In Windows it was selected from the storage of personal certificates. When working with Linux, it is required to set the certificate file, key and password.</p>
 
-<p>В мастере настройки подключения REST-сервис изменилось значение по умолчанию для параметра «Допустимый Content-Type ответа». Instead of <code>*/*</code> <code>application/json</code> is installed.</p>
+<p>The default value of "Allowable Content-type of response" parameter was changed in the REST service connection wizard. Instead of <code>*/*</code> <code>application/json</code> is installed.</p>
 
-<p>Для пакетов, созданных до версии 6.4.0, в порту «Дополнительные данные» узла REST-запрос изменится выходной набор данных. Ранее значение в столбце «Код завершения» равнялось 0 не зависимо от Кода состояния HTTP. Теперь если Код состояния HTTP &gt;= 400, то Код завершения будет равен 6.</p>
+<p>The output data set will be changed for the packages created before version 6.4.0 in the "Additional data" port of the REST service node. Previously, the value in "Error code" column was equal to 0 irrespective of HTTP Status Code. Now, if HTTP Status Code &gt;= 400, Error Code will be equal to 6.</p>
 
 <h2 id="использование-языков-программирования">Programming languages use</h2>
 
-<p>В обработчик <a href="https://help.loginom.ru/userguide/processors/programming/java-script/" target="_blank">JavaScript</a> добавлен <a href="https://help.loginom.ru/userguide/processors/programming/java-script/fileapi.html" target="_blank">File Storage API</a>, позволяющий безопасно и без настройки прав выполнять все файловые операции:</p>
+<p>Now <a href="https://help.loginom.ru/userguide/processors/programming/java-script/" target="_blank">JavaScript</a> handler  includes <a href="https://help.loginom.ru/userguide/processors/programming/java-script/fileapi.html" target="_blank">File Storage API</a> that enables to execute all file operations without rights setup and in a safe manner:</p>
 
 <ul>
 	<li>Get file list.</li>
@@ -82,18 +82,18 @@ Large-Scale Update of Loginom Analytical Platform Loginom became cross-platform.
 	<li>Check path correctness.</li>
 </ul>
 
-<p>Появилась возможность запускать <a href="https://help.loginom.ru/userguide/processors/programming/python/" target="_blank">Python</a> в отдельном процессе, в том числе и параллельно. В редакциях под Windows возможен запуск как в рамках процесса Loginom, так и в отдельном процессе, а под Linux поддерживается только вариант работы в отдельном процессе.</p>
+<p>It became possible to start <a href="https://help.loginom.ru/userguide/processors/programming/python/" target="_blank">Python</a> in a separate process, as well as simultaneously. Start both within the Loginom process and in a separate process is available in Windows editions, whereas operation in Linux is supported only in a separate process.</p>
 
-<p>В Python при отправке таблицы pandas в output_table для меток столбцов не производится транслитерация в функции prepare_compatible_table. Это актуально, если у столбцов pandas таблицы метки записаны кириллицей.</p>
+<p>When sending pandas tables in output_table for column captions in Python, transliteration in prepare_compatible_table function is not performed. This is especially true if captions of pandas columns are written in Cyrillic characters.</p>
 
 <h2 id="улучшения-в-компонентах-обработки">Processing Components Improvements</h2>
 
 <ol>
-	<li>В редакторах «Дата/время» при вводе данных с клавиатуры можно указать только дату без времени. Previously, it was necessarily required to set time.</li>
-	<li>В обработчике <a href="https://help.loginom.ru/userguide/processors/control/supernode.html" target="_blank">Подмодель</a> появился необязательный входной табличный порт, что делает проектирование сценариев более гибким. В мастере настройки <em>Подмодели</em> добавлен флаг необязательности портов. It is possible to edit the checkbox only for the table port. При сворачивании узлов в <em>Подмодель</em> флаг необязательности устанавливается только у входных портов типа Таблица, к которым внутри <em>Подмодели</em> подключены необязательные порты.</li>
-	<li>В <a href="https://help.loginom.ru/userguide/processors/transformation/calc/" target="_blank">Калькуляторе</a> в <a href="https://help.loginom.ru/userguide/processors/transformation/calc/javascript.html" target="_blank">режиме JavaScript</a> доступны функций преобразования base64-закодированных строк в строки двоичных данных и обратно.</li>
+	<li>When entering data from the keyboard in "Date/time" editors, it is possible to specify only date without time. Previously, it was necessarily required to set time.</li>
+	<li>Optional input table port appeared in <a href="https://help.loginom.ru/userguide/processors/control/supernode.html" target="_blank">Supernode</a> handler. It enables to make design of workflows more flexible. Port optionality checkbox was added in the <em>Supernode</em> wizard. It is possible to edit the checkbox only for the table port. When collapsing nodes to the<em>Supernode</em>, optionality checkbox is selected only for the input ports related to the Table type to which optional ports are connected inside the <em>Supernode</em>.</li>
+	<li>Functions of base64 encoded rows transformation to binary data rows and vice versa are available in <a href="https://help.loginom.ru/userguide/processors/transformation/calc/" target="_blank">Calculator</a> in the <a href="https://help.loginom.ru/userguide/processors/transformation/calc/javascript.html" target="_blank">JavaScript mode</a>.</li>
 	<li>Data caching option was added in <a href="https://help.loginom.ru/userguide/processors/transformation/sorting.html" target="_blank">Sorting</a> handler.</li>
-	<li>В <a href="https://help.loginom.ru/userguide/processors/preprocessing/eliminate-outliers.html" target="_blank">Редактировании выбросов</a> метод обработки «Заменять заданным значением» стал доступен для всех типов данных. Previously, it was possible to use it only for the string and logical types.</li>
+	<li>"Replace with set value" processing method became available for all data types in <a href="https://help.loginom.ru/userguide/processors/preprocessing/eliminate-outliers.html" target="_blank">Eliminate outliers</a>. Previously, it was possible to use it only for the string and logical types.</li>
 	<li>В XSD-схему запроса и ответа разрешено вносить изменения, совместимые с ранее настроенными списками выбранных элементов. Такие изменения теперь не приводят к ошибке «XSD-схема на входе не соответствует настройкам обработчика» при активации узлов. Изменения касаются всех узлов, в процессе которых происходит формирование или разбор xml документа по схеме: <a href="https://help.loginom.ru/userguide/integration/import/xml.html" target="_blank">Импорт XML файла</a>, <a href="https://help.loginom.ru/userguide/integration/export/xml.html" target="_blank">Экспорт в XML</a>, <a href="https://help.loginom.ru/userguide/processors/integration/extracting-xml.html" target="_blank">Извлечение XML</a>, <a href="https://help.loginom.ru/userguide/processors/integration/xml-generation.html" target="_blank">Формирование XML</a>, SOAP-запрос.</li>
 </ol>
 
