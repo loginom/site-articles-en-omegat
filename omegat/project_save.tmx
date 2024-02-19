@@ -5366,6 +5366,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В случае с xlsx форматом происходит скачивание всего файла в память, поэтому стоит обращать внимание на размер таких файлов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240219T121234Z" creationid="Марианна" creationdate="20240219T121234Z">
+        <seg>When it comes to xlsx format, the whole file is downloaded to memory that is why it is required to pay attention to size of such files.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В списке оставались несуществующие входные столбцы, а попытка создать на их основе выходные столбцы приводила к ошибке (#8457).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210617T080839Z" creationid="Марианна" creationdate="20210617T080839Z">
