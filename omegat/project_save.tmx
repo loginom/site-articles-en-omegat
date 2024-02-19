@@ -5046,6 +5046,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В мастере настройки &lt;e1&gt;Подмодели&lt;/e1&gt; добавлен флаг необязательности портов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240219T143820Z" creationid="Марианна" creationdate="20240219T143820Z">
+        <seg>Port optionality checkbox was added in the &lt;e1&gt;Supernode&lt;/e1&gt; wizard.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В мастере настройки больше недоступна настройка «Разрешить невалидные имена», но осталась настройка «Уникальные значения как имена полей».</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220306T154446Z" creationid="Марианна" creationdate="20220306T154446Z">
@@ -5194,6 +5202,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220304T191453Z" creationid="Марианна" creationdate="20220304T191453Z">
         <seg>Now it is possible to exclude the columns from the further processing in &lt;a0&gt;Field features&lt;/a0&gt; handler.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В обработчике &lt;a0&gt;Подмодель&lt;/a0&gt; появился необязательный входной табличный порт, что делает проектирование сценариев более гибким.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240219T143721Z" creationid="Марианна" creationdate="20240219T143721Z">
+        <seg>Optional input table port appeared in &lt;a0&gt;Supernode&lt;/a0&gt; handler. It enables to make design of workflows more flexible.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8956,6 +8972,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220228T102354Z" creationid="Марианна" creationdate="20220228T102354Z">
         <seg>When designing the workflow, one locale can be configured in the server settings, and the other one will be configured on the server where the designed workflow will be executed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При сворачивании узлов в &lt;e2&gt;Подмодель&lt;/e2&gt; флаг необязательности устанавливается только у входных портов типа Таблица, к которым внутри &lt;e3&gt;Подмодели&lt;/e3&gt; подключены необязательные порты.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240219T144017Z" creationid="Марианна" creationdate="20240219T144017Z">
+        <seg>When collapsing nodes to the&lt;e2&gt;Supernode&lt;/e2&gt;, optionality checkbox is selected only for the input ports related to the Table type to which optional ports are connected inside the &lt;e3&gt;Supernode&lt;/e3&gt;.</seg>
       </tuv>
     </tu>
     <tu>
