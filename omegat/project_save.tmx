@@ -6766,6 +6766,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Изменения касаются всех узлов, в процессе которых происходит формирование или разбор xml документа по схеме: &lt;a0&gt;Импорт XML файла&lt;/a0&gt;, &lt;a1&gt;Экспорт в XML&lt;/a1&gt;, &lt;a2&gt;Извлечение XML&lt;/a2&gt;, &lt;a3&gt;Формирование XML&lt;/a3&gt;, SOAP-запрос.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240219T150530Z" creationid="Марианна" creationdate="20240219T150530Z">
+        <seg>The changes concern all nodes in the process of which generation or parsing of xml document is peroformed according to the schema: &lt;a0&gt;XML file import&lt;/a0&gt;, &lt;a1&gt;Export toXML&lt;/a1&gt;, &lt;a2&gt;XML extraction&lt;/a2&gt;, &lt;a3&gt;XML generation&lt;/a3&gt;, SOAP request.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Изменения коснулись преимущественно технологического стека платформы и связаны с системными вызовами и библиотеками, сторонними библиотеками, работой со строками и различными интеграциями.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240212T084007Z" creationid="Марианна" creationdate="20240212T084007Z">
@@ -10012,6 +10020,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210902T132117Z" creationid="Марианна" creationdate="20210902T132117Z">
         <seg>It could also cause the following errors: "Next move forbidden Failed to apply fine classes for binning for %s column. There are too many unique values" or "Value 0 of "Index" parameter is out of [-1; -1] range" when switching the wizard pages (#8282, #8582, #8584, #8668, #8700).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Такие изменения теперь не приводят к ошибке «XSD-схема на входе не соответствует настройкам обработчика» при активации узлов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240219T150316Z" creationid="Марианна" creationdate="20240219T150316Z">
+        <seg>Now such changes do not cause "Input XSD schema does not comply with the node settings" error when activating nodes.</seg>
       </tuv>
     </tu>
     <tu>
