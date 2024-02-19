@@ -5302,6 +5302,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В редакторах «Дата/время» при вводе данных с клавиатуры можно указать только дату без времени.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240219T143518Z" creationid="Марианна" creationdate="20240219T143518Z">
+        <seg>When entering data from the keyboard in "Date/time" editors, it is possible to specify only date without time.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В редакциях под Windows возможен запуск как в рамках процесса Loginom, так и в отдельном процессе, а под Linux поддерживается только вариант работы в отдельном процессе.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240219T133425Z" creationid="Марианна" creationdate="20240219T133425Z">
