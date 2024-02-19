@@ -5294,6 +5294,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В редакциях под Windows возможен запуск как в рамках процесса Loginom, так и в отдельном процессе, а под Linux поддерживается только вариант работы в отдельном процессе.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240219T133425Z" creationid="Марианна" creationdate="20240219T133425Z">
+        <seg>Start both within the Loginom process and in a separate process is available in Windows editions, whereas operation in Linux is supported only in a separate process.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В результате доработки стороннего модуля ошибку удалось устранить (#7178, #8877, #8897).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211229T100822Z" creationid="Марианна" creationdate="20211229T100822Z">
