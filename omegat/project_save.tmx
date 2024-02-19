@@ -4766,6 +4766,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Блоки заметок имеют предустановленный набор цветовых стилей.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240219T145919Z" creationid="Марианна" creationdate="20240219T145919Z">
+        <seg>Pre-installed set of color styles is provided for notes blocks.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Более подробная информация о работе компонента доступна в соответствующем разделе справки, а также всегда можно &lt;a0&gt;задать вопрос в Loginom Q&amp;A&lt;/a0&gt; или &lt;a1&gt;обратиться в службу технической поддержки.&lt;/a1&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210320T232448Z" creationid="Марианна" creationdate="20210320T232355Z">
@@ -4834,6 +4842,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240219T145027Z" creationid="Марианна" creationdate="20240219T144727Z">
         <seg>"Replace with set value" processing method became available for all data types in &lt;a0&gt;Eliminate outliers&lt;/a0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В &lt;a0&gt;визуализаторе Куб&lt;/a0&gt; появилась возможность настраивать измерения в отдельном окне.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240219T150007Z" creationid="Марианна" creationdate="20240219T150007Z">
+        <seg>It became possible to configure dimensions in a separate window in &lt;a0&gt;Cube visualizer&lt;/a0&gt;.</seg>
       </tuv>
     </tu>
     <tu>
