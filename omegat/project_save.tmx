@@ -4832,8 +4832,8 @@
       <tuv lang="ru">
         <seg>В &lt;a0&gt;Редактировании выбросов&lt;/a0&gt; метод обработки «Заменять заданным значением» стал доступен для всех типов данных.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240219T144727Z" creationid="Марианна" creationdate="20240219T144727Z">
-        <seg>In &lt;a0&gt;Eliminate outliers&lt;/a0&gt; метод обработки «Заменять заданным значением» стал доступен для всех типов данных.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240219T145027Z" creationid="Марианна" creationdate="20240219T144727Z">
+        <seg>"Replace with set value" processing method became available for all data types in &lt;a0&gt;Eliminate outliers&lt;/a0&gt;.</seg>
       </tuv>
     </tu>
     <tu>
