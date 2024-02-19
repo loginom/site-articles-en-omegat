@@ -10544,6 +10544,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Это актуально, если у столбцов pandas таблицы метки записаны кириллицей.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240219T143329Z" creationid="Марианна" creationdate="20240219T143329Z">
+        <seg>This is especially true if captions of pandas columns are written in Cyrillic characters.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Это будет означать, что &lt;c3&gt;workdir&lt;/c3&gt; совпадает с &lt;c4&gt;configdir&lt;/c4&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240218T190019Z" creationid="Марианна" creationdate="20240218T190019Z">
