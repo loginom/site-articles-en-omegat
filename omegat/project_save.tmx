@@ -10352,6 +10352,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Удобство использования и повышение информативности</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240219T145437Z" creationid="Марианна" creationdate="20240219T145437Z">
+        <seg>Ease of Use and UI/UX Improvements</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Узел Python, активированный в процессе выполнения другого узла Python, будет ожидать завершения работы первого узла, даже если не является зависимым от него.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210320T221912Z" creationid="Марианна" creationdate="20210320T221912Z">
