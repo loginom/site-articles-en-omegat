@@ -5832,8 +5832,8 @@
       <tuv lang="ru">
         <seg>Для пакетов, созданных до версии 6.4.0, в порту «Дополнительные данные» узла REST-запрос изменится выходной набор данных.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240219T122329Z" creationid="Марианна" creationdate="20240219T122329Z">
-        <seg>The output data set will be changed for the packages created up to 6.4.0 version in the "Additional data" port of the REST service node.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240219T122629Z" creationid="Марианна" creationdate="20240219T122329Z">
+        <seg>The output data set will be changed for the packages created before version 6.4.0 in the "Additional data" port of the REST service node.</seg>
       </tuv>
     </tu>
     <tu>
