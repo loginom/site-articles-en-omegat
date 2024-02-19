@@ -5046,6 +5046,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В мастере настройки подключения REST-сервис изменилось значение по умолчанию для параметра «Допустимый Content-Type ответа».</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240219T121853Z" creationid="Марианна" creationdate="20240219T121853Z">
+        <seg>The default value for "Allowable Content_type response" parameter was changed in the wizard of the REST service connection.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В мастере настройки подключения добавлена проверка строки подключения и обязательных параметров.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210321T214600Z" creationid="Марианна" creationdate="20210321T214600Z">
