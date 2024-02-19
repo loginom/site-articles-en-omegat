@@ -7766,6 +7766,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Однако при переносе сценариев между Loginom под Windows и Linux, в некоторых случаях потребуется перенастройка подключений &lt;a2&gt;REST&lt;/a2&gt; и &lt;a3&gt;SOAP-сервис&lt;/a3&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240219T121605Z" creationid="Марианна" creationdate="20240219T121605Z">
+        <seg>However, when transferring workflows between Loginom for Windows and Linux, in some cases it will be required to reconfigure &lt;a2&gt;REST&lt;/a2&gt; connections and &lt;a3&gt;SOAP service&lt;/a3&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Оно появлялось в версии 7.0.0.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230314T115710Z" creationid="Марианна" creationdate="20230314T115710Z">
