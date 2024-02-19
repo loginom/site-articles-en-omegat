@@ -4902,6 +4902,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В Python при отправке таблицы pandas в output_table для меток столбцов не производится транслитерация в функции prepare_compatible_table.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240219T133655Z" creationid="Марианна" creationdate="20240219T133655Z">
+        <seg>When sending pandas tables in output_table for column captions in Python, transliteration in prepare_compatible_table function is not performed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В Windows он выбирался из хранилища личных сертификатов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240218T182025Z" creationid="Марианна" creationdate="20240218T182025Z">
