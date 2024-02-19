@@ -5830,6 +5830,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для пакетов, созданных до версии 6.4.0, в порту «Дополнительные данные» узла REST-запрос изменится выходной набор данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240219T122329Z" creationid="Марианна" creationdate="20240219T122329Z">
+        <seg>The output data set will be changed for the packages created up to 6.4.0 version in the "Additional data" port of the REST service node.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для переиспользования компонентов достаточно в контекстном меню узла выбрать подменю «Создать производный компонент».</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220224T064501Z" creationid="Марианна" creationdate="20220224T064501Z">
