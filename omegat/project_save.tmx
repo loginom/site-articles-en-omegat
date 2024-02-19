@@ -9408,6 +9408,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Реализована возможность в импорте из файлов (txt, csv, XML, Excel) читать данные предварительно выполнив http-запрос.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240219T120417Z" creationid="Марианна" creationdate="20240219T120417Z">
+        <seg>It became possible to read data importing from files (txt, csv, XML, Excel) having executed http request beforehand.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Реализована возможность предварительного просмотра результатов расчетов &lt;a0&gt;Калькулятора&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220224T062508Z" creationid="Марианна" creationdate="20220224T062508Z">
