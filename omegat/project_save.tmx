@@ -5166,6 +5166,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В обработчик &lt;a0&gt;JavaScript&lt;/a0&gt; добавлен &lt;a1&gt;File Storage API&lt;/a1&gt;, позволяющий безопасно и без настройки прав выполнять все файловые операции:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240219T123715Z" creationid="Марианна" creationdate="20240219T123715Z">
+        <seg>Now &lt;a0&gt;JavaScript&lt;/a0&gt; handler  includes &lt;a1&gt;File Storage API&lt;/a1&gt; that enables to execute all file operations without rights setup and in a safe manner:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В обработчике &lt;a0&gt;Корреляционный анализ&lt;/a0&gt; при расчете экстремума взаимокорреляционной функции для пользователя добавлен вывод номера лага (величины смещения).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210325T114508Z" creationid="Марианна" creationdate="20210322T210444Z">
