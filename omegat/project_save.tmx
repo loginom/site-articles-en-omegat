@@ -8688,6 +8688,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При импорте форматов txt, csv, xml для предпросмотра или предположения формата скачивается только тот объем данных, который необходим.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240219T121043Z" creationid="Марианна" creationdate="20240219T121043Z">
+        <seg>When importing txt, csv, xml formats for preview or format estimate, only the required data volume is downloaded.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При клонировании копируются все атрибуты поля или переменной, кроме значения связанного поля или переменной из исходного набора данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220304T192050Z" creationid="Марианна" creationdate="20220304T192050Z">
