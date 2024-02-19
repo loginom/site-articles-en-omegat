@@ -10128,6 +10128,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Теперь можно документировать сценарий непосредственно при его проектировании, добавляя в произвольном месте блоки текста.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240219T145714Z" creationid="Марианна" creationdate="20240219T145714Z">
+        <seg>Now it became possible to document workflow directly during its designing by adding text blocks in any place.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Теперь настраивать &lt;e4&gt;Куб&lt;/e4&gt; стало удобнее и быстрее.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240218T182723Z" creationid="Марианна" creationdate="20240218T182723Z">
