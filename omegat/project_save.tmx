@@ -4950,6 +4950,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В XSD-схему запроса и ответа разрешено вносить изменения, совместимые с ранее настроенными списками выбранных элементов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240219T150853Z" creationid="Марианна" creationdate="20240219T150853Z">
+        <seg>It is allowed to introduce changes compatible with earlier configured lists of selected elements into the XSD schema of request and response.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В Интеграторе кэшировался OpenAPI документ с тем протоколом, который был использован при первом обращении к этому OpenAPI документу, а затем этот закэшированный документ возвращался и при обращении по http, и по https.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230314T121227Z" creationid="Марианна" creationdate="20230314T121227Z">
@@ -6768,8 +6776,8 @@
       <tuv lang="ru">
         <seg>Изменения касаются всех узлов, в процессе которых происходит формирование или разбор xml документа по схеме: &lt;a0&gt;Импорт XML файла&lt;/a0&gt;, &lt;a1&gt;Экспорт в XML&lt;/a1&gt;, &lt;a2&gt;Извлечение XML&lt;/a2&gt;, &lt;a3&gt;Формирование XML&lt;/a3&gt;, SOAP-запрос.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240219T150530Z" creationid="Марианна" creationdate="20240219T150530Z">
-        <seg>The changes concern all nodes in the process of which generation or parsing of xml document is peroformed according to the schema: &lt;a0&gt;XML file import&lt;/a0&gt;, &lt;a1&gt;Export toXML&lt;/a1&gt;, &lt;a2&gt;XML extraction&lt;/a2&gt;, &lt;a3&gt;XML generation&lt;/a3&gt;, SOAP request.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240219T150626Z" creationid="Марианна" creationdate="20240219T150530Z">
+        <seg>The changes concern all nodes in the process of which generation or parsing of xml document is performed according to the schema: &lt;a0&gt;XML file import&lt;/a0&gt;, &lt;a1&gt;Export to XML&lt;/a1&gt;, &lt;a2&gt;XML extraction&lt;/a2&gt;, &lt;a3&gt;XML generation&lt;/a3&gt;, SOAP request.</seg>
       </tuv>
     </tu>
     <tu>
