@@ -7358,6 +7358,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Логин и пароль для входа в Loginom теперь можно передать в URL.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240219T145338Z" creationid="Марианна" creationdate="20240219T145338Z">
+        <seg>Loginom login and password can be transferred in URL now.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Логистическая регрессия</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T200603Z" creationid="Марианна" creationdate="20210314T200603Z">
@@ -8603,6 +8611,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220227T092005Z" creationid="Марианна" creationdate="20220227T092005Z">
         <seg>That is why it is particularly important to provide the specific product operation convenience for a user.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Появилась возможность добавлять заметки на workflow.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240219T145415Z" creationid="Марианна" creationdate="20240219T145415Z">
+        <seg>It became possible to add workflow notes.</seg>
       </tuv>
     </tu>
     <tu>
