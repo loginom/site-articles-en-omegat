@@ -10528,6 +10528,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>в режиме SQL-запрос в дереве объектов БД доступен функционал фильтрации полей (при развернутом дереве);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240219T120034Z" creationid="Марианна" creationdate="20240219T120034Z">
+        <seg>field filtration functionality is available in the SQL request mode in the DB object tree (when tree is expanded);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>в режиме SQL-запроса добавлен блок со списком переменных;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240218T181501Z" creationid="Марианна" creationdate="20240218T181501Z">
@@ -10628,6 +10636,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220304T192754Z" creationid="Марианна" creationdate="20220304T192724Z">
         <seg>the value for comparison for filters: =, &lt;&gt;, &lt;, &lt;=, &gt;, &gt;= , contains, does not contain, starting, not starting, ending, not ending;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>значение переменной может быть вставлено в редактор SQL кода как параметр (по умолчанию) или как макроподстановка;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240219T115915Z" creationid="Марианна" creationdate="20240219T115915Z">
+        <seg>variable value can be inserted into SQL code editor as parameter (by default) or as macro substitution;</seg>
       </tuv>
     </tu>
     <tu>
