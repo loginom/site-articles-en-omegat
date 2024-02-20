@@ -7510,6 +7510,22 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>На странице &lt;a0&gt;Отчеты&lt;/a0&gt; появилась возможность создавать в группах подгруппы любой степени вложенности.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240220T080938Z" creationid="Марианна" creationdate="20240220T080938Z">
+        <seg>It became possible to create subgroups of any nesting level in groups on &lt;a0&gt;Reports&lt;/a0&gt; page.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>На странице &lt;e0&gt;Переменные пакета&lt;/e0&gt; стала доступна панель &lt;e1&gt;Навигация&lt;/e1&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240220T081259Z" creationid="Марианна" creationdate="20240220T081259Z">
+        <seg>On &lt;e0&gt;Package variables&lt;/e0&gt; page &lt;e1&gt;Navigation&lt;/e1&gt; bar became available.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>На этой же странице можно добавить или обновить публикацию веб-сервиса, отредактировать опубликованный пакет или отменить публикацию.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220227T120711Z" creationid="Марианна" creationdate="20220227T120711Z">
