@@ -5054,6 +5054,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В контекстное меню менеджера &lt;a0&gt;файлового хранилища&lt;/a0&gt; был добавлен пункт «Копировать полный путь».</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240220T081858Z" creationid="Марианна" creationdate="20240220T081858Z">
+        <seg>"Copy full path" item was added to the context menu of the &lt;a0&gt;file storage&lt;/a0&gt; manager.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В логистической регрессии исправлен расчет показателей модели, в частности: &lt;a0&gt;Хи-квадрат&lt;/a0&gt;, -2 Логарифма функции правдоподобия, Псевдо-R^2 Макфаддена и Псевдо-R^2 Макфаддена (скорр.), -2 Логарифма функции правдоподобия нулевой модели.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220304T164307Z" creationid="Марианна" creationdate="20220304T164156Z">
