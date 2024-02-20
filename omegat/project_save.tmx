@@ -7294,6 +7294,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Копирование в буфер обмена возможно только при подключении по протоколу https.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240220T082402Z" creationid="Марианна" creationdate="20240220T082402Z">
+        <seg>It is possible to copy to the clipboard only when connecting via https protocol.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Корректное значение параметра – &lt;e4&gt;app/ws/&lt;/e4&gt; (#8544).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210902T072150Z" creationid="Марианна" creationdate="20210902T072150Z">
@@ -8916,6 +8924,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220304T141936Z" creationid="Марианна" creationdate="20220304T141936Z">
         <seg>When pressing on "Auto save", it is possible to enable this parameter and also set "Auto save period" in minutes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При нажатии этого пункта в буфер обмена копируются имена выделенных файлов/папок в том порядке, в котором они представлены в таблице.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240220T082303Z" creationid="Марианна" creationdate="20240220T082303Z">
+        <seg>When pressing this item, names of the selected files/folders are copied to the clipboard in the order in which they are represented in the table.</seg>
       </tuv>
     </tu>
     <tu>
