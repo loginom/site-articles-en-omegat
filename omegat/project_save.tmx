@@ -7414,6 +7414,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Мастер вызывается кнопкой с панели инструментов &lt;e1&gt;Куба&lt;/e1&gt; и через соответствующий пункт контекстного меню.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240220T080123Z" creationid="Марианна" creationdate="20240220T080123Z">
+        <seg>The wizard is called using the button from the &lt;e1&gt;Cube&lt;/e1&gt; Toolbar and corresponding context menu item.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Мастер настройки импорта из базы данных полностью переработан.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240214T105559Z" creationid="Марианна" creationdate="20240214T105559Z">
@@ -9428,6 +9436,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210325T115559Z" creationid="Марианна" creationdate="20210323T081916Z">
         <seg>Previously, attempts to perform these actions could cause undescriptive messages (#8170).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Ранее после добавления каждого измерения &lt;e2&gt;Куб&lt;/e2&gt; перестраивался, и при больших объемах данных настройка &lt;e3&gt;Куба&lt;/e3&gt; занимала много времени.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240220T080620Z" creationid="Марианна" creationdate="20240220T080620Z">
+        <seg>Previously, after adding each dimension, the &lt;e2&gt;Cube&lt;/e2&gt; was rebuilt, and for the large data volumes the &lt;e3&gt;Cube&lt;/e3&gt; configuration took much time.</seg>
       </tuv>
     </tu>
     <tu>
