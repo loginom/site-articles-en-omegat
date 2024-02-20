@@ -6806,6 +6806,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Изменился текст сообщения, которое выводится во время длительной подготовки визуализатора (например, при входе в визуализатор &lt;a0&gt;Статистика&lt;/a0&gt; или &lt;e1&gt;Куб&lt;/e1&gt;, когда в момент активации выполняются вычисления).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240220T083501Z" creationid="Марианна" creationdate="20240220T083501Z">
+        <seg>Text of the message that is displayed during the long visualizer preparation was changed (for example, when entering &lt;a0&gt;Statistics&lt;/a0&gt; or &lt;e1&gt;Cube&lt;/e1&gt; visualizer when calculations are performed at the moment of activation).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Изменился файл конфигурации &lt;a0&gt;Loginom Integrator&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240218T182929Z" creationid="Марианна" creationdate="20240218T182929Z">
