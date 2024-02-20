@@ -9442,8 +9442,8 @@
       <tuv lang="ru">
         <seg>Ранее после добавления каждого измерения &lt;e2&gt;Куб&lt;/e2&gt; перестраивался, и при больших объемах данных настройка &lt;e3&gt;Куба&lt;/e3&gt; занимала много времени.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240220T080620Z" creationid="Марианна" creationdate="20240220T080620Z">
-        <seg>Previously, after adding each dimension, the &lt;e2&gt;Cube&lt;/e2&gt; was rebuilt, and for the large data volumes the &lt;e3&gt;Cube&lt;/e3&gt; configuration took much time.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240220T080657Z" creationid="Марианна" creationdate="20240220T080620Z">
+        <seg>Previously, after adding each dimension, the &lt;e2&gt;Cube&lt;/e2&gt; was rebuilt, and the &lt;e3&gt;Cube&lt;/e3&gt; configuration took much time for the large data volumes.</seg>
       </tuv>
     </tu>
     <tu>
