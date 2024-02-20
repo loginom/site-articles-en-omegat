@@ -5758,6 +5758,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Во всех контекстных меню приложения действие по умолчанию выделено жирным шрифтом.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240220T082636Z" creationid="Марианна" creationdate="20240220T082636Z">
+        <seg>The default action is in bold in all context menus of application.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Возможность переиспользования компонентов и простота данной операции — одна из самых важных вещей при работе с Loginom.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220224T064255Z" creationid="Марианна" creationdate="20220224T064255Z">
