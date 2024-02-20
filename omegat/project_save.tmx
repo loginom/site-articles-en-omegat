@@ -10210,8 +10210,8 @@
       <tuv lang="ru">
         <seg>Теперь вместо «Узел заблокирован» выводится «Загрузка».</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240220T083636Z" creationid="Марианна" creationdate="20240220T083600Z">
-        <seg>Now "Node is locked" is displayed instead of "Downloading".</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240220T083900Z" creationid="Марианна" creationdate="20240220T083600Z">
+        <seg>Now "Node is locked" is displayed instead of "Loading".</seg>
       </tuv>
     </tu>
     <tu>
