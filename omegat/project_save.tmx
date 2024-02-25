@@ -6712,8 +6712,8 @@
       <tuv lang="ru">
         <seg>Значение Random Seed можно задать через переменную, сгенирировать или установить флаг «Всегда случайно».</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240225T163958Z" creationid="Марианна" creationdate="20240225T163843Z">
-        <seg>Random Seed value can be set via variable, it is also possible to generate or select "Always random" checkbox.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240225T164241Z" creationid="Марианна" creationdate="20240225T163843Z">
+        <seg>Random Seed value can be set via variable, it is also possible to generate or select "Always randomly" checkbox.</seg>
       </tuv>
     </tu>
     <tu>
