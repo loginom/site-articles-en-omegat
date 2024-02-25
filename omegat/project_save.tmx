@@ -10480,6 +10480,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>У элемента &lt;c0&gt;loginom&lt;/c0&gt; добавлен необязательный атрибут &lt;c1&gt;urlPathPrefix&lt;/c1&gt;, значение которого используется как префикс к адресу всех конечных точек REST и SOAP.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240225T165351Z" creationid="Марианна" creationdate="20240225T165351Z">
+        <seg>For &lt;c0&gt;loginom&lt;/c0&gt; element optional &lt;c1&gt;urlPathPrefix&lt;/c1&gt; attribute was added. Its value is used as prefix to address of all REST and SOAP end points.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Убрана кнопка «Просмотр» с панели инструментов сценария.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220425T202603Z" creationid="Марианна" creationdate="20220425T202603Z">
