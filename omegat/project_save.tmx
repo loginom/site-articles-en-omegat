@@ -6710,6 +6710,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Значение опции «Сравнивать строковые уникальные значения бинарно» выводится в &lt;e0&gt;Инспекторе свойств&lt;/e0&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240225T163314Z" creationid="Марианна" creationdate="20240225T163314Z">
+        <seg>Value of "Compare string unique values in a binary way" option is displayed in the &lt;e0&gt;Property Inspector&lt;/e0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Значение этого атрибута по умолчанию — пустая строка.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240218T190533Z" creationid="Марианна" creationdate="20240218T190533Z">
