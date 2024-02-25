@@ -112,7 +112,7 @@ Large-Scale Update of Loginom Analytical Platform Loginom became cross-platform.
 </figure>
 
 <ul>
-	<li>It became possible to configure dimensions in a separate window in <a href="https://help.loginom.ru/userguide/visualization/cube/" target="_blank">Cube visualizer</a>. Мастер вызывается кнопкой с панели инструментов <em>Куба</em> и через соответствующий пункт контекстного меню. Ранее после добавления каждого измерения <em>Куб</em> перестраивался, и при больших объемах данных настройка <em>Куба</em> занимала много времени. <em>Cube</em> configuration process became much more comfortable and faster now.</li>
+	<li>It became possible to configure dimensions in a separate window in <a href="https://help.loginom.ru/userguide/visualization/cube/" target="_blank">Cube visualizer</a>. The wizard is called using the button from the <em>Cube</em> Toolbar and corresponding context menu item. Previously, after adding each dimension, the <em>Cube</em> was rebuilt, and the <em>Cube</em> configuration took much time for the large data volumes. <em>Cube</em> configuration process became much more comfortable and faster now.</li>
 </ul>
 
 <figure class="lg-text-img lg-text-img_preview"><a href="/sites/default/files/blogpost-images/cub_mesure_setting.png"><img alt="" data-entity-type="" data-entity-uuid="" src="/sites/default/files/blogpost-images/cub_mesure_setting.png" /> </a>
@@ -123,17 +123,17 @@ Large-Scale Update of Loginom Analytical Platform Loginom became cross-platform.
 </figure>
 
 <ul>
-	<li>На странице <a href="https://help.loginom.ru/userguide/report/" target="_blank">Отчеты</a> появилась возможность создавать в группах подгруппы любой степени вложенности.</li>
-	<li>На странице <em>Переменные пакета</em> стала доступна панель <em>Навигация</em>.</li>
-	<li>В контекстное меню менеджера <a href="https://help.loginom.ru/userguide/location_user_files.html" target="_blank">файлового хранилища</a> был добавлен пункт «Копировать полный путь». При нажатии этого пункта в буфер обмена копируются имена выделенных файлов/папок в том порядке, в котором они представлены в таблице. Копирование в буфер обмена возможно только при подключении по протоколу https.</li>
-	<li>Во всех контекстных меню приложения действие по умолчанию выделено жирным шрифтом.</li>
-	<li>Изменился текст сообщения, которое выводится во время длительной подготовки визуализатора (например, при входе в визуализатор <a href="https://help.loginom.ru/userguide/visualization/statistics/" target="_blank">Статистика</a> или <em>Куб</em>, когда в момент активации выполняются вычисления). Теперь вместо «Узел заблокирован» выводится «Загрузка».</li>
-	<li>В <a href="https://help.loginom.ru/userguide/interface/property-inspector.html" target="_blank">Инспекторе свойств</a> убрали иконки для узлов дерева. Это позволило более полно отображать названия свойств в условиях ограниченной ширины окна <em>Инспектора свойств</em>.</li>
+	<li>It became possible to create subgroups of any nesting level in groups on <a href="https://help.loginom.ru/userguide/report/" target="_blank">Reports</a> page.</li>
+	<li>On <em>Package variables</em> page <em>Navigation</em> bar became available.</li>
+	<li>"Copy full path" item was added to the context menu of the <a href="https://help.loginom.ru/userguide/location_user_files.html" target="_blank">file storage</a> manager. When pressing this item, names of the selected files/folders are copied to the clipboard in the order in which they are represented in the table. It is possible to copy to the clipboard only when connecting via https protocol.</li>
+	<li>The default action is in bold in all context menus of application.</li>
+	<li>Text of the message that is displayed during the long visualizer preparation was changed (for example, when entering <a href="https://help.loginom.ru/userguide/visualization/statistics/" target="_blank">Statistics</a> or <em>Cube</em> visualizer when calculations are performed at the moment of activation). Now "Node is locked" is displayed instead of "Loading".</li>
+	<li>Tree nodes icons were removed in the <a href="https://help.loginom.ru/userguide/interface/property-inspector.html" target="_blank">Property Inspector</a>. It enabled to display the property names more fully under conditions of limited width of the <em>Property Inspector</em> window.</li>
 </ul>
 
 <h2 id="работа-с-данными">Data Handling</h2>
 
-<p>В свойствах пакета появилась опция «Сравнивать строковые уникальные значения бинарно». Сравнение строк изменится после закрытия пакета и всех зависимых от него открытых пакетов. При изменении настройки «Сравнивать строковые уникальные значения бинарно», может потребоваться переобучение обученных узлов. The option effect extends to the following components:</p>
+<p>"Compare string unique values in a binary way" option appeared in the package properties. String comparison will be changed after closing the package and all opened packages dependent on it. When changing "Compare string unique values in a binary way" setting, retraining of trained nodes may be required. The option effect extends to the following components:</p>
 
 <ul>
 	<li><a href="https://help.loginom.ru/userguide/processors/datamining/clustering.html" target="_blank">Clustering</a></li>
