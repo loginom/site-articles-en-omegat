@@ -9936,6 +9936,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Сравнение строк изменится после закрытия пакета и всех зависимых от него открытых пакетов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240225T162239Z" creationid="Марианна" creationdate="20240225T162239Z">
+        <seg>String comparison will be changed after closing the package and all opened packages dependent on it.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Стал учитываться и частичный формат, т.е. в строке может быть только дата или только время (#9110, #3836).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220426T113515Z" creationid="Марианна" creationdate="20220426T094248Z">
