@@ -5958,6 +5958,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для каждого опубликованного пакета генерируется отдельный wsdl-файл (ранее описание SOAP-сервиса включало содержимое всех опубликованных пакетов).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240225T192512Z" creationid="Марианна" creationdate="20240225T192512Z">
+        <seg>A separate wsdl file is generated for each published package (the earlier SOAP service description included content of all published packages).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для каждого пакета отображается список всех опубликованных узлов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220224T063759Z" creationid="Марианна" creationdate="20220224T063759Z">
