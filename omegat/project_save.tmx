@@ -2846,6 +2846,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s7&gt;Чтобы в новом Интеграторе использовались те же адреса, что и в старом, нужно указать&lt;/s7&gt; &lt;c8&gt;urlPathPrefix="Service.svc"&lt;/c8&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240225T190715Z" creationid="Марианна" creationdate="20240225T190715Z">
+        <seg>&lt;s7&gt;To use the same addresses in the new Integrator as in the old one, it is required to specify as follows: &lt;/s7&gt; &lt;c8&gt;urlPathPrefix="Service.svc"&lt;/c8&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;section name="log" type="DeductorIntegrationServer.Core.LogConfigurationSection"/&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240218T183009Z" creationid="Марианна" creationdate="20240218T183009Z">
@@ -10476,6 +10484,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220227T085727Z" creationid="Марианна" creationdate="20220227T085727Z">
         <seg>Different Loginom versions and editions provide different options.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>У элемента &lt;c0&gt;loginom&lt;/c0&gt; добавлен необязательный атрибут &lt;c1&gt;swaggerUI&lt;/c1&gt;, который может принимать значение &lt;c2&gt;true&lt;/c2&gt; или &lt;c3&gt;false&lt;/c3&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240225T190852Z" creationid="Марианна" creationdate="20240225T190852Z">
+        <seg>For &lt;c0&gt;loginom&lt;/c0&gt; element optional &lt;c1&gt;swaggerUI&lt;/c1&gt; attribute was added. It can take &lt;c2&gt;true&lt;/c2&gt; or &lt;c3&gt;false&lt;/c3&gt; value.</seg>
       </tuv>
     </tu>
     <tu>
