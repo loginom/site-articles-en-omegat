@@ -4742,6 +4742,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Атрибут включает/отключает генерацию страницы &lt;c4&gt;openapi/index.html&lt;/c4&gt;, которая реализует доступ к опубликованным сервисам через Swagger UI.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240225T191443Z" creationid="Марианна" creationdate="20240225T191443Z">
+        <seg>The attribute enables/disables generation of  &lt;c4&gt;openapi/index.html&lt;/c4&gt; page that implements access to the published services via Swagger UI.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>База данных остается в памяти до тех пор, пока активно подключение к ней.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240214T105418Z" creationid="Марианна" creationdate="20240214T105418Z">
