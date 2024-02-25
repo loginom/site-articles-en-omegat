@@ -157,9 +157,9 @@ Large-Scale Update of Loginom Analytical Platform Loginom became cross-platform.
 	<li><a href="https://help.loginom.ru/userguide/visualization/regression/" target="_blank">Logistic Regression Report</a></li>
 </ul>
 
-<p>Значение опции «Сравнивать строковые уникальные значения бинарно» выводится в <em>Инспекторе свойств</em>.</p>
+<p>Value of "Compare string unique values in a binary way" option is displayed in the <em>Property Inspector</em>.</p>
 
-<p>В мастера настройки обработчиков, алгоритмы которых используют генерацию псевдослучайных чисел, добавлена возможность установить Random Seed. Значение Random Seed можно задать через переменную, сгенирировать или установить флаг «Всегда случайно». Command to copy value to the clipboard became available.</p>
+<p>Now it is possible to install Random Seed.in the wizard of the handlers algorithms of which use generation of pseudorandom numbers. Random Seed value can be set via variable, it is also possible to generate or select "Always randomly" checkbox. Command to copy value to the clipboard became available.</p>
 
 <h2 id="изменения-в-loginom-integrator">Changes in Loginom Integrator</h2>
 
@@ -171,7 +171,7 @@ Large-Scale Update of Loginom Analytical Platform Loginom became cross-platform.
 	<li>
 	<p><code>configSections</code> element format was changed:</p>
 
-	<p>было:</p>
+	<p>before:</p>
 
 	<pre>
 <code>  &lt;configSections&gt;
@@ -180,7 +180,7 @@ Large-Scale Update of Loginom Analytical Platform Loginom became cross-platform.
   &lt;/configSections&gt;
 </code></pre>
 
-	<p>стало:</p>
+	<p>after:</p>
 
 	<pre>
 <code>  &lt;configSections&gt;
@@ -190,28 +190,28 @@ Large-Scale Update of Loginom Analytical Platform Loginom became cross-platform.
 </code></pre>
 	</li>
 	<li>
-	<p>У элемента <code>loginom</code> добавлен необязательный атрибут <code>urlPathPrefix</code>, значение которого используется как префикс к адресу всех конечных точек REST и SOAP. An empty string is the default value of this attribute. For example, if Loginom Integrator is used at the following address: <code>http://localhost/lgi</code>, and <code>urlPathPrefix</code> attribute is not specified, help page for REST is available at the following address: <code>http://localhost/lgi/rest/help</code>. If <code>urlPathPrefix="abc"</code>, address was changed as follows: <code>http://localhost/lgi/abc/rest/help</code>. <strong>Чтобы в новом Интеграторе использовались те же адреса, что и в старом, нужно указать</strong> <code>urlPathPrefix="Service.svc"</code>.</p>
+	<p>For <code>loginom</code> element optional <code>urlPathPrefix</code> attribute was added. Its value is used as prefix to address of all REST and SOAP end points. An empty string is the default value of this attribute. For example, if Loginom Integrator is used at the following address: <code>http://localhost/lgi</code>, and <code>urlPathPrefix</code> attribute is not specified, help page for REST is available at the following address: <code>http://localhost/lgi/rest/help</code>. If <code>urlPathPrefix="abc"</code>, address was changed as follows: <code>http://localhost/lgi/abc/rest/help</code>. <strong>To use the same addresses in the new Integrator as in the old one, it is required to specify as follows: </strong> <code>urlPathPrefix="Service.svc"</code>.</p>
 	</li>
-	<li>У элемента <code>loginom</code> добавлен необязательный атрибут <code>swaggerUI</code>, который может принимать значение <code>true</code> или <code>false</code>. Атрибут включает/отключает генерацию страницы <code>openapi/index.html</code>, которая реализует доступ к опубликованным сервисам через Swagger UI.</li>
+	<li>For <code>loginom</code> element optional <code>swaggerUI</code> attribute was added. It can take <code>true</code> or <code>false</code> value. The attribute enables/disables generation of  <code>openapi/index.html</code> page that implements access to the published services via Swagger UI.</li>
 </ul>
 
-<p>It became possible to set location of Loginom Integrator configuration file. Расположение папки, из которой загружаются конфигурационные файлы <code>Integrator.dll.config</code> и <code>appsettings.json</code>, определяется по следующим правилам:</p>
+<p>It became possible to set location of Loginom Integrator configuration file. Location of the folder from which <code>Integrator.dll.config</code> and <code>appsettings.json</code> configuration files are downloaded is defined according to the following rules:</p>
 
 <ul>
-	<li>если в командной строке указан параметр <code>configdir</code>, то используется указанная папка (имя параметра можно указать в любом регистре);</li>
-	<li>если параметр не указан, и в текущей папке (<code>$PWD</code>) есть файл <code>Integrator.dll.config</code>, то используется текущая папка;</li>
-	<li>в противном случае используется папка, в которой находится файл <code>Integrator.dll</code>.</li>
+	<li>if <code>configdir</code> parameter is specified in the command line, the specified folder is used (the parameter name can be specified in any register;</li>
+	<li>if the parameter is not specified and in the current folder (<code>$PWD</code>) there is <code>Integrator.dll.config</code> file, the current folder is used;</li>
+	<li>otherwise the folder with <code>Integrator.dll</code> file is used.</li>
 </ul>
 
-<p>Если в указанной папке отсутствует файл <code>Integrator.dll.config</code>, то Integrator не запускается, а пользователь получает сообщение об ошибке.</p>
+<p>If there is no <code>Integrator.dll.config</code> file in the specified folder, Integrator is not started, and the user receives an error message.</p>
 
 <p>The relative path to the work Integrator directory is defined relative to the configuration file. If in Integrator.dll.config file the value of <code>workDir</code> attribute is the relative path, it is interpreted as the path relative to Integrator.dll.config file. Value of<code>workDir</code> attribute can be equal to <code>.</code> (current folder). It will mean that <code>workdir</code> matches <code>configdir</code>.</p>
 
-<p>Для каждого опубликованного пакета генерируется отдельный wsdl-файл (ранее описание SOAP-сервиса включало содержимое всех опубликованных пакетов). Generation of root wsdl document that refers to all other wsdl documents was added. By default, root wsdl is generated at the following address:<code>/soap?wsdl</code>. Если в конфигурационном файле Loginom Integrator задать значение атрибута <code>urlPathPrefix="Service.svc"</code>, то дополнительно генерируется wsdl по адресу <code>/Service.svc?wsdl</code>, который использовался в старом Интеграторе.</p>
+<p>A separate wsdl file is generated for each published package (the earlier description of the SOAP service included content of all published packages). Generation of root wsdl document that refers to all other wsdl documents was added. By default, root wsdl is generated at the following address:<code>/soap?wsdl</code>. If the value of <code>urlPathPrefix="Service.svc"</code> attribute is set in the Loginom configuration file, wsdl is additionally generated by the following address: <code>/Service.svc?wsdl</code> that is used in the old Integrator.</p>
 
-<p>В Loginom Integrator появилась поддержка <a href="https://en.wikipedia.org/wiki/OpenAPI_Specification" target="_blank">OpenAPI</a> и Swagger UI. Теперь можно выполнять запросы для тестирования API на странице: <code>http://host/lgi/openapi/index.html</code>.</p>
+<p>Now <a href="https://en.wikipedia.org/wiki/OpenAPI_Specification" target="_blank">OpenAPI</a> and Swagger UI are supported in Loginom Integrator. Now it is possible to execute requests to test API on the following page: <code>http://host/lgi/openapi/index.html</code>.</p>
 
-<p>Добавлена возможность подключаться к Loginom Server по <a href="https://ru.wikipedia.org/wiki/%D0%A1%D0%BE%D0%BA%D0%B5%D1%82_%D0%B4%D0%BE%D0%BC%D0%B5%D0%BD%D0%B0_Unix" target="_blank">Unix domain socket</a>. Для этого в конфигурационном файле Loginom Integrator у элемента <code>server</code> необходимо добавить атрибут <code>unixsocket</code>, значение которого совпадает со значением параметра "Unix socket", установленного в <a href="https://help.loginom.ru/userguide/admin/parameters.html" target="_blank">параметрах подключения</a> на странице "Администрирование" в Loginom Server.</p>
+<p>Now it is possible to connect to Loginom Server via <a href="https://ru.wikipedia.org/wiki/%D0%A1%D0%BE%D0%BA%D0%B5%D1%82_%D0%B4%D0%BE%D0%BC%D0%B5%D0%BD%D0%B0_Unix" target="_blank">Unix domain socket</a>. Для этого в конфигурационном файле Loginom Integrator у элемента <code>server</code> необходимо добавить атрибут <code>unixsocket</code>, значение которого совпадает со значением параметра "Unix socket", установленного в <a href="https://help.loginom.ru/userguide/admin/parameters.html" target="_blank">параметрах подключения</a> на странице "Администрирование" в Loginom Server.</p>
 
 <p>При установке Loginom Integrator можно задать параметр Unix Socket в диалоге настроек. Для всех редакций значение этого параметра по умолчанию <code>%ProgramData%\Loginom\Server\loginomd.socket</code>.</p>
 
