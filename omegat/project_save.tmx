@@ -10888,6 +10888,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>было:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240225T164635Z" creationid="Марианна" creationdate="20240225T164635Z">
+        <seg>before:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>в 10 раз (со 100 до 1000) увеличилось количество максимально отображаемых серий в &lt;a0&gt;кросс-диаграмме&lt;/a0&gt;;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220304T134544Z" creationid="Марианна" creationdate="20220304T134544Z">
