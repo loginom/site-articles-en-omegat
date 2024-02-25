@@ -6710,6 +6710,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Значение Random Seed можно задать через переменную, сгенирировать или установить флаг «Всегда случайно».</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240225T163843Z" creationid="Марианна" creationdate="20240225T163843Z">
+        <seg>Random Seed value can be set via variable, generate or select "Always random" checkbox.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Значение атрибута &lt;c1&gt;workDir&lt;/c1&gt; может равняться &lt;c2&gt;.&lt;/c2&gt; (текущая папка).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240218T190100Z" creationid="Марианна" creationdate="20240218T190100Z">
