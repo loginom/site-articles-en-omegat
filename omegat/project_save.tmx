@@ -5078,6 +5078,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В мастера настройки обработчиков, алгоритмы которых используют генерацию псевдослучайных чисел, добавлена возможность установить Random Seed.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240225T163725Z" creationid="Марианна" creationdate="20240225T163725Z">
+        <seg>Now it is possible to install Random Seed.in the wizard of the handlers algorithms of which use generation of pseudorandom numbers.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В мастерах настройки соответствия полей и переменных добавлена возможность создавать поля или переменные на основе уже существующих.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220304T191815Z" creationid="Марианна" creationdate="20220304T191815Z">
