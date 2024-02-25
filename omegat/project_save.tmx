@@ -11208,6 +11208,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>стало:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240225T164645Z" creationid="Марианна" creationdate="20240225T164645Z">
+        <seg>after:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>строк не больше 65536;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230314T115116Z" creationid="Марианна" creationdate="20230314T115042Z">
