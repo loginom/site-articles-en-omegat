@@ -8904,6 +8904,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При изменении настройки «Сравнивать строковые уникальные значения бинарно», может потребоваться переобучение обученных узлов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240225T162739Z" creationid="Марианна" creationdate="20240225T162739Z">
+        <seg>When changing "Compare string unique values in a binary way" setting, retraining of trained nodes may be required.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При импорте из Хранилища данных появилась возможность отображения данных в виде иерархической (древовидной) структуры, что существенно упрощает настройку импорта данных, если хранилище имеет сложную структуру.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210325T113536Z" creationid="Марианна" creationdate="20210320T235254Z">
