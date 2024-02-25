@@ -10960,6 +10960,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>в противном случае используется папка, в которой находится файл &lt;c0&gt;Integrator.dll&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240225T192038Z" creationid="Марианна" creationdate="20240225T192038Z">
+        <seg>otherwise, the folder with &lt;c0&gt;Integrator.dll&lt;/c0&gt; file is used.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>в режиме SQL-запрос в дереве объектов БД доступен функционал фильтрации полей (при развернутом дереве);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240219T120034Z" creationid="Марианна" creationdate="20240219T120034Z">
