@@ -6230,6 +6230,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Добавлена возможность подключаться к Loginom Server по &lt;a0&gt;Unix domain socket&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240225T193203Z" creationid="Марианна" creationdate="20240225T193203Z">
+        <seg>Now it is possible to connect to Loginom Server via &lt;a0&gt;Unix domain socket&lt;/a0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Добавлена возможность подключения через &lt;a0&gt;ODBC-драйверы&lt;/a0&gt; для СУБД Apache Hive с использованием строки подключения.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220304T150951Z" creationid="Марианна" creationdate="20220304T150951Z">
