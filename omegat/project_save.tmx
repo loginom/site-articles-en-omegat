@@ -11024,6 +11024,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>если в командной строке указан параметр &lt;c0&gt;configdir&lt;/c0&gt;, то используется указанная папка (имя параметра можно указать в любом регистре);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240225T191841Z" creationid="Марианна" creationdate="20240225T191841Z">
+        <seg>if &lt;c0&gt;configdir&lt;/c0&gt; parameter is specified in the command line, the specified folder is used (the parameter name can be specified in any register;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>если имя начинается с цифры, то в начало имени добавляется символ подчеркивания «_»;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220309T065652Z" creationid="Марианна" creationdate="20220309T065652Z">
@@ -11036,6 +11044,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220309T070203Z" creationid="Марианна" creationdate="20220309T070203Z">
         <seg>if the source name consists of the underscore characters only, it will be used at the output;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>если параметр не указан, и в текущей папке (&lt;c0&gt;$PWD&lt;/c0&gt;) есть файл &lt;c1&gt;Integrator.dll.config&lt;/c1&gt;, то используется текущая папка;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240225T192007Z" creationid="Марианна" creationdate="20240225T192007Z">
+        <seg>if the parameter is not specified and in the current folder (&lt;c0&gt;$PWD&lt;/c0&gt;) there is &lt;c1&gt;Integrator.dll.config&lt;/c1&gt; file, the current folder is used;</seg>
       </tuv>
     </tu>
     <tu>
