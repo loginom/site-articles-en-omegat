@@ -9688,6 +9688,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Расположение папки, из которой загружаются конфигурационные файлы &lt;c0&gt;Integrator.dll.config&lt;/c0&gt; и &lt;c1&gt;appsettings.json&lt;/c1&gt;, определяется по следующим правилам:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240225T191636Z" creationid="Марианна" creationdate="20240225T191636Z">
+        <seg>Location of the folder from which &lt;c0&gt;Integrator.dll.config&lt;/c0&gt; and &lt;c1&gt;appsettings.json&lt;/c1&gt; configuration files are downloaded is defined according to the following rules:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Рассмотрим подробнее некоторые изменения.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220224T062922Z" creationid="Марианна" creationdate="20220224T062922Z">
