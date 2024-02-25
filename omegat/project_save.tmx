@@ -6478,6 +6478,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если в указанной папке отсутствует файл &lt;c0&gt;Integrator.dll.config&lt;/c0&gt;, то Integrator не запускается, а пользователь получает сообщение об ошибке.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240225T192259Z" creationid="Марианна" creationdate="20240225T192259Z">
+        <seg>If there is no &lt;c0&gt;Integrator.dll.config&lt;/c0&gt; file in the specified folder, Integrator is not started, and the user receives an error message.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если в файле Integrator.dll.config значением атрибута &lt;c0&gt;workDir&lt;/c0&gt; является относительный путь, то он интерпретируется как путь относительно файла Integrator.dll.config.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240218T190328Z" creationid="Марианна" creationdate="20240218T190328Z">
@@ -10962,8 +10970,8 @@
       <tuv lang="ru">
         <seg>в противном случае используется папка, в которой находится файл &lt;c0&gt;Integrator.dll&lt;/c0&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240225T192038Z" creationid="Марианна" creationdate="20240225T192038Z">
-        <seg>otherwise, the folder with &lt;c0&gt;Integrator.dll&lt;/c0&gt; file is used.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240225T192108Z" creationid="Марианна" creationdate="20240225T192038Z">
+        <seg>otherwise the folder with &lt;c0&gt;Integrator.dll&lt;/c0&gt; file is used.</seg>
       </tuv>
     </tu>
     <tu>
