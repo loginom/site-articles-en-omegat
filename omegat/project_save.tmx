@@ -5446,6 +5446,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В свойствах пакета появилась опция «Сравнивать строковые уникальные значения бинарно».</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240225T161826Z" creationid="Марианна" creationdate="20240225T161826Z">
+        <seg>"Compare string unique values in a binary way" option appeared in the package properties.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В связи с внесенными изменениями стоит обратить внимание на следующее:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220929T154216Z" creationid="Марианна" creationdate="20220929T154216Z">
