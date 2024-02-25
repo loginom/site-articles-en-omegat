@@ -4830,6 +4830,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В &lt;a0&gt;Инспекторе свойств&lt;/a0&gt; убрали иконки для узлов дерева.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240225T160406Z" creationid="Марианна" creationdate="20240225T160406Z">
+        <seg>Tree nodes icons were removed in the &lt;a0&gt;Property Inspector&lt;/a0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В &lt;a0&gt;Калькуляторе&lt;/a0&gt; в &lt;a1&gt;режиме JavaScript&lt;/a1&gt; доступны функций преобразования base64-закодированных строк в строки двоичных данных и обратно.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240219T144302Z" creationid="Марианна" creationdate="20240219T144302Z">
