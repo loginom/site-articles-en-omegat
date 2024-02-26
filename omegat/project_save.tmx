@@ -5934,6 +5934,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для всех редакций значение этого параметра по умолчанию &lt;c0&gt;%ProgramData%\Loginom\Server\loginomd.socket&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240226T143704Z" creationid="Марианна" creationdate="20240226T143704Z">
+        <seg>The default value of this parameter for all editions is &lt;c0&gt;%ProgramData%\Loginom\Server\loginomd.socket&lt;/c0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для запуска узла в режиме &lt;a0&gt;Пакетного выполнения&lt;/a0&gt; требуется задать для него имя, при этом узел не обязательно должен быть опубликован.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210322T171942Z" creationid="Марианна" creationdate="20210322T171942Z">
@@ -6130,6 +6138,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220426T100741Z" creationid="Марианна" creationdate="20220426T100741Z">
         <seg>Maximum possible count of coefficients will be included for the step-by-step methods with forward pass (Forward or Stepwise). Then the algorithm will stop or return according to its type.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для этого в конфигурационном файле Loginom Integrator у элемента &lt;c1&gt;server&lt;/c1&gt; необходимо добавить атрибут &lt;c2&gt;unixsocket&lt;/c2&gt;, значение которого совпадает со значением параметра "Unix socket", установленного в &lt;a3&gt;параметрах подключения&lt;/a3&gt; на странице "Администрирование" в Loginom Server.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240226T143451Z" creationid="Марианна" creationdate="20240226T143451Z">
+        <seg>For this purpose, for &lt;c1&gt;server&lt;/c1&gt; element in the Loginom Integrator configuration file &lt;c2&gt;unixsocket&lt;/c2&gt; attribute must be added. Its value matches the value of "Unix socket" parameter set in the &lt;a3&gt;connection parameters&lt;/a3&gt; on "Administration" page in Loginom Server.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9220,6 +9236,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240214T105130Z" creationid="Марианна" creationdate="20240214T105130Z">
         <seg>Data processing speed will be considerably increased in such case of use.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При установке Loginom Integrator можно задать параметр Unix Socket в диалоге настроек.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240226T143627Z" creationid="Марианна" creationdate="20240226T143627Z">
+        <seg>When installing Loginom Integrator, it is possible to set Unix Socket parameter in the customization dialog.</seg>
       </tuv>
     </tu>
     <tu>
