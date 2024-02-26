@@ -11024,6 +11024,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>в Integrator Team используется подключение только к unix socket.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240226T145341Z" creationid="Марианна" creationdate="20240226T145341Z">
+        <seg>connection only to unix socket is used in Integrator Team.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>в мастере настройки &lt;e0&gt;Импорта из базы данных&lt;/e0&gt; при выборе таблицы, в которой есть поля типа JSON;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230315T080012Z" creationid="Марианна" creationdate="20230315T080012Z">
@@ -11124,6 +11132,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240226T145021Z" creationid="Марианна" creationdate="20240226T145021Z">
         <seg>if &lt;c0&gt;unixsocket&lt;/c0&gt; and &lt;c1&gt;host&lt;/c1&gt; attributes are specified in the Integrator configuration file, first, an attempt to establish connection to unix socket is made, and if that failed, TCP is used for connection;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>если в файле конфигурации не указано ни одного элемента &lt;c0&gt;server&lt;/c0&gt;, то сначала выполняется попытка подключиться к unix socket, а затем - по TCP;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240226T145226Z" creationid="Марианна" creationdate="20240226T145226Z">
+        <seg>if no &lt;c0&gt;server&lt;/c0&gt; elemet is specified in the configuration file, first, an attempt to establish connection to unix socket is made, and then TCP is used for connection;</seg>
       </tuv>
     </tu>
     <tu>
