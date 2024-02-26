@@ -11120,6 +11120,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>если в конфигурационном файле Интегратора указаны атрибуты &lt;c0&gt;unixsocket&lt;/c0&gt; и &lt;c1&gt;host&lt;/c1&gt;, то сначала выполняется попытка подключения к unix socket, а если это не удалось, то по TCP;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240226T145021Z" creationid="Марианна" creationdate="20240226T145021Z">
+        <seg>if &lt;c0&gt;unixsocket&lt;/c0&gt; and &lt;c1&gt;host&lt;/c1&gt; attributes are specified in the Integrator configuration file, first, an attempt to establish connection to unix socket is made, and if that failed, TCP is used for connection;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>если имя начинается с цифры, то в начало имени добавляется символ подчеркивания «_»;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220309T065652Z" creationid="Марианна" creationdate="20220309T065652Z">
