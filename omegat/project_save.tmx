@@ -4734,6 +4734,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Алгоритм подключения Loginom Integrator к Loginom Server:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240226T143752Z" creationid="Марианна" creationdate="20240226T143752Z">
+        <seg>Algorithm of Loginom Integrator connection to Loginom Server is described below:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Аналогичное ограничение снято для&lt;a1&gt; Фильтра строк.&lt;/a1&gt; Ранее это могло доставлять неудобство, если производилась настройка фильтров по большому количеству записей, например, SKU.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210322T162948Z" creationid="Марианна" creationdate="20210322T162948Z">
