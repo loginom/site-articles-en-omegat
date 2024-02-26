@@ -6486,6 +6486,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если Loginom Server находится не на &lt;c0&gt;localhost&lt;/c0&gt; относительно Интегратора, то при установке Loginom Integrator значение параметра Unix Socket, заданное по умолчанию, необходимо удалить (оставить поле пустым), чтобы избежать лишних попыток подключения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240226T145733Z" creationid="Марианна" creationdate="20240226T145733Z">
+        <seg>If Loginom Server is not on &lt;c0&gt;localhost&lt;/c0&gt; relative to Integrator, when installing Loginom Integrator, Unix Socket parameter value set by default must be deleted (leave the field empty) to avoid unnecessary connection attempts.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если Подмодель выполнялась в Цикле, то это повышало вероятность возникновения ошибки (#8514).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210902T134033Z" creationid="Марианна" creationdate="20210902T134033Z">
