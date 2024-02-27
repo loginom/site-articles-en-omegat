@@ -1270,6 +1270,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;a0&gt;&lt;s1&gt;Подключение MySQL:&lt;/s1&gt;&lt;/a0&gt; Исправлена ошибка "Access violation", которая возникала при остановке выполнения импорта.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T130454Z" creationid="Марианна" creationdate="20240227T130454Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;MySQL connection:&lt;/s1&gt;&lt;/a0&gt; "Access violation" error was corrected. It occurred when import execution process was stopped.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Подключение MySQL:&lt;/s1&gt;&lt;/a0&gt; Исправлена ошибка "Data type is not supported", которая возникала:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230314T202815Z" creationid="Марианна" creationdate="20230314T202815Z">
