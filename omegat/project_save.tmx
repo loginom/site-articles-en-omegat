@@ -7022,6 +7022,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если при редактировании этих параметров будут указаны IP-адрес и порт занятые другим веб-сайтом, то пользователь получит сообщение об ошибке и установка остановится (#9939).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T180840Z" creationid="Марианна" creationdate="20240227T180840Z">
+        <seg>If when editing these parameters the IP address and port occupied by another web site are specified, the user will receive an error message and installation process will be stopped (#9939).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если процессор загружен меньше, чем на 80% и есть очередь процессов на выполнение, то количество рабочих потоков увеличивается, пока загрузка процессора не превысит 80%.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210903T135241Z" creationid="Марианна" creationdate="20210903T134851Z">
