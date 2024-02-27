@@ -382,6 +382,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;a0&gt;&lt;s1&gt;ARIMAX:&lt;/s1&gt;&lt;/a0&gt; В Loginom под Linux модель при обучении выдавала одно значения (константу) на весь прогнозный период.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T121639Z" creationid="Марианна" creationdate="20240227T121639Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;ARIMAX:&lt;/s1&gt;&lt;/a0&gt; While training the model displayed one value (intercept) in Loginom for Linux for the whole forecast period.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Access:&lt;/s1&gt;&lt;/a0&gt; при многопоточной работе подключений, использующих «Microsoft Access Database Engine»: «MS Access», «MS Excel», а также подключений через ODBC, возникали ошибки со стороны данного компонента СУБД.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220426T103027Z" creationid="Марианна" creationdate="20220426T103027Z">
