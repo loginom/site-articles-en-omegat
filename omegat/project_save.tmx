@@ -5144,8 +5144,8 @@
       <tuv lang="ru">
         <seg>В мастера настройки обработчиков, алгоритмы которых используют генерацию псевдослучайных чисел, добавлена возможность установить Random Seed.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240225T163725Z" creationid="Марианна" creationdate="20240225T163725Z">
-        <seg>Now it is possible to install Random Seed.in the wizard of the handlers algorithms of which use generation of pseudorandom numbers.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T071706Z" creationid="Марианна" creationdate="20240225T163725Z">
+        <seg>Now it is possible to install Random Seed in the wizard of the handlers algorithms of which use generation of pseudorandom numbers.</seg>
       </tuv>
     </tu>
     <tu>
