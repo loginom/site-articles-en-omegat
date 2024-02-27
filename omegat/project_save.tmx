@@ -7238,6 +7238,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Изменение этих параметров для существующего сайта без его конфигурирования приводило к тому, что не работали ярлыки для описания сервисов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T180527Z" creationid="Марианна" creationdate="20240227T180527Z">
+        <seg>Change of these parameters for the existing site without its configuration led to the fact that service description shortcuts did not work.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Изменения в Loginom Integrator</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240212T111457Z" creationid="Марианна" creationdate="20240212T111457Z">
