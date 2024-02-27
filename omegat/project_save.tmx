@@ -7566,6 +7566,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Исправлены ошибки в инсталляторе Loginom Integrator, в ARIMAX и других компонентах.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T074357Z" creationid="Марианна" creationdate="20240227T074357Z">
+        <seg>Errors were corrected in Loginom Integrator, ARIMAX and other components.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Исправлены ошибки в обработчиках Дерево в таблицу, Замена, Конечные классы, Квантование, Цикл и в визуализаторах Быстрый просмотр и Конечные классы.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230210T080815Z" creationid="Марианна" creationdate="20230210T075924Z">
