@@ -11496,6 +11496,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Устранили несколько регрессионных ошибок, в том числе в Подключениях к базам данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T074333Z" creationid="Марианна" creationdate="20240227T074333Z">
+        <seg>Several regression errors were corrected, including in Connection to databases.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Файл сокета создаётся в рабочей директории Loginom Server и имеет имя loginomd.socket.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240227T060146Z" creationid="Марианна" creationdate="20240227T060146Z">
