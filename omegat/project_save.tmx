@@ -4798,6 +4798,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Активация любых других узлов сценария, кроме узлов-ссылок, завершалась аналогичной ошибкой.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T075558Z" creationid="Марианна" creationdate="20240227T075558Z">
+        <seg>Activation of all other workflow nodes with the exception of reference nodes was finished with the same error.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Алгоритм определения формата и разделителей дат стал более «строгим» с учетом наличия в строке даты и времени.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220426T114400Z" creationid="Марианна" creationdate="20220426T094143Z">
