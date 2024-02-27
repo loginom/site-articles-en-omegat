@@ -2222,6 +2222,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Инсталлятор:&lt;/s0&gt; Инсталлятор Loginom Integrator не удалял веб-приложение, если оно было установлено на любой сайт, отличный от "Default Web Site".</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T124849Z" creationid="Марианна" creationdate="20240227T124849Z">
+        <seg>&lt;s0&gt;Installer:&lt;/s0&gt; Loginom Integrator installer did not delete the web application if it was installed on any site different from "Default Web Site".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Калькулятор:&lt;/s0&gt; внесены исправления в работу функции &lt;e1&gt;RegExMatchedExp&lt;/e1&gt;, которая в некоторых случаях могла выдать неверный результат (поиск регулярного выражения не начинался заново, если успешно найденная на предыдущем шаге строка была пустой) (#9310).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220711T093713Z" creationid="Марианна" creationdate="20220711T093600Z">
