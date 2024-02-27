@@ -4902,6 +4902,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В &lt;a3&gt;Квантовании&lt;/a3&gt; по-другому работает метод разбиения «Плитка» с типом обработки совпадающих наблюдений «Назначить случайно».</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T065636Z" creationid="Марианна" creationdate="20240227T065636Z">
+        <seg>in &lt;a3&gt;Binning&lt;/a3&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В JavaScript появилась поддержка Fetch API, особенно важного для работы с REST и JSON-запросами и для обращения к внешним веб-сервисам.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220304T163143Z" creationid="Марианна" creationdate="20220304T163040Z">
@@ -5352,8 +5360,8 @@
       <tuv lang="ru">
         <seg>В обработчике &lt;a2&gt;Заполнение пропусков&lt;/a2&gt; иначе работает метод «Заполнение случайными значениями».</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240227T065142Z" creationid="Марианна" creationdate="20240227T065142Z">
-        <seg>В обработчике &lt;a2&gt;Imputation&lt;/a2&gt; иначе работает метод «Заполнение случайными значениями».</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T065539Z" creationid="Марианна" creationdate="20240227T065142Z">
+        <seg>"Imputation with random values" method works differently in &lt;a2&gt;Imputation&lt;/a2&gt; handler.</seg>
       </tuv>
     </tu>
     <tu>
