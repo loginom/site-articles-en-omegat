@@ -9447,6 +9447,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Попытки пользователя изменить настройки других используемых полей приводили к появлению ошибки «Не найдена информация по данной интерфейсной ссылке».</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T130215Z" creationid="Марианна" creationdate="20240227T130215Z">
+        <seg>Attempts of the user to change settings of other used fields caused the following error: "No information on this interface reference found".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Порт входных переменных должен быть подключен к активной ветви или не иметь связи (#9367).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220929T154403Z" creationid="Марианна" creationdate="20220929T154403Z">
