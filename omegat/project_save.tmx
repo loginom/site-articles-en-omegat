@@ -4166,6 +4166,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/processors/transformation/grouping.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T072249Z" creationid="Марианна" creationdate="20240227T072249Z">
+        <seg>https://help.loginom.ru/userguide/processors/transformation/grouping.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>https://help.loginom.ru/userguide/processors/transformation/java-script/</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T173428Z" creationid="Марианна" creationdate="20210314T173428Z">
@@ -4218,6 +4226,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210902T070305Z" creationid="Марианна" creationdate="20210902T070305Z">
         <seg>https://help.loginom.ru/userguide/processors/transformation/trans-datatime/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/processors/transformation/union.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T072242Z" creationid="Марианна" creationdate="20240227T072242Z">
+        <seg>https://help.loginom.ru/userguide/processors/transformation/union.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -8502,6 +8518,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ошибка воспроизводилась редко.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T072454Z" creationid="Марианна" creationdate="20240227T072454Z">
+        <seg>The error occurred seldom.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ошибка исправлена (#9101).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220425T203320Z" creationid="Марианна" creationdate="20220425T203320Z">
@@ -8606,6 +8630,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ошибку исправили (#9453).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T072322Z" creationid="Марианна" creationdate="20240227T072322Z">
+        <seg>The error was corrected (#9453).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ошибку исправили (#9504).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230313T090405Z" creationid="Марианна" creationdate="20230313T090405Z">
@@ -8646,6 +8678,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ошибку исправили (#9727).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T072216Z" creationid="Марианна" creationdate="20240227T072216Z">
+        <seg>The error was corrected (#9727).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ошибку исправили (#9772).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240227T072055Z" creationid="Марианна" creationdate="20240227T072055Z">
@@ -8662,6 +8702,22 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ошибку исправили (#9778).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T072158Z" creationid="Марианна" creationdate="20240227T072158Z">
+        <seg>The error was corrected (#9778).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Ошибочное поведение исправили (#6528).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T072239Z" creationid="Марианна" creationdate="20240227T072239Z">
+        <seg>Error of behavior was corrected (#6528).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ошибочное поведение исправили (#6805).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230314T202632Z" creationid="Марианна" creationdate="20230314T202438Z">
@@ -8670,10 +8726,26 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ошибочное поведение исправили (#8662).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T072228Z" creationid="Марианна" creationdate="20240227T072228Z">
+        <seg>Error of behavior was corrected (#8662).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ошибочное поведение исправили (#9660).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240227T072135Z" creationid="Марианна" creationdate="20240227T072135Z">
         <seg>Error of behavior was corrected (#9660).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Ошибочное поведение исправили (#9675).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T072309Z" creationid="Марианна" creationdate="20240227T072309Z">
+        <seg>Error of behavior was corrected (#9675).</seg>
       </tuv>
     </tu>
     <tu>
@@ -10324,6 +10396,22 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230313T090350Z" creationid="Марианна" creationdate="20230313T090350Z">
         <seg>The situation was rectified (#9603).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Ситуацию исправили (#9777).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T072208Z" creationid="Марианна" creationdate="20240227T072208Z">
+        <seg>The situation was rectified (#9777).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Ситуацию исправили (#9779).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T072145Z" creationid="Марианна" creationdate="20240227T072145Z">
+        <seg>The situation was rectified (#9779).</seg>
       </tuv>
     </tu>
     <tu>
