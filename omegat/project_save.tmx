@@ -4966,6 +4966,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В Loginom Server Team добавлено создание &lt;c0&gt;unix socket&lt;/c0&gt;, если в файле конфигурации отсутствует элемент &lt;c1&gt;Bindings&lt;/c1&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T055955Z" creationid="Марианна" creationdate="20240227T055955Z">
+        <seg>Now it is possible to create &lt;c0&gt;unix socket&lt;/c0&gt; in Loginom Server Team if there is no &lt;c1&gt;Bindings&lt;/c1&gt; element in the configuration file.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В Loginom не содержится инструментов разработки, аналогичных PyCharm и другим специализированным продуктам.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210320T220000Z" creationid="Марианна" creationdate="20210320T220000Z">
