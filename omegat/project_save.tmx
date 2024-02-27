@@ -11032,6 +11032,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Также не удалялся пул приложений, если его имя не "LGI_POOL".</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T125537Z" creationid="Марианна" creationdate="20240227T125537Z">
+        <seg>Also the application pool was not deleted unless its name was "LGI_POOL".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Также цветом отображается статус опубликованных веб-сервисов: зеленым, если веб-сервис соответствует сохраненному пакету; оранжевым, если веб-сервис не соответствует сохраненному пакету; и серым, если нет доступа к опубликованному пакету.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220227T151913Z" creationid="Марианна" creationdate="20220227T151913Z">
