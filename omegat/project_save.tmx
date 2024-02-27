@@ -5776,8 +5776,8 @@
       <tuv lang="ru">
         <seg>Вместо &lt;c0&gt;*/*&lt;/c0&gt; установлено &lt;c1&gt;application/json&lt;/c1&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240218T182207Z" creationid="Марианна" creationdate="20240218T182207Z">
-        <seg>Instead of &lt;c0&gt;*/*&lt;/c0&gt; &lt;c1&gt;application/json&lt;/c1&gt; is installed.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T071335Z" creationid="Марианна" creationdate="20240218T182207Z">
+        <seg>Instead of &lt;c0&gt;*/*&lt;/c0&gt; &lt;c1&gt;application/json&lt;/c1&gt; was installed.</seg>
       </tuv>
     </tu>
     <tu>
