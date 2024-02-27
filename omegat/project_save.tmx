@@ -4934,6 +4934,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В Loginom 7 изменился механизм сравнения и конвертации строк.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T064250Z" creationid="Марианна" creationdate="20240227T064250Z">
+        <seg>The mechanism of row comparison and conversion was changed in Loginom 7.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В Loginom Enterprise появилась возможность импортировать и экспортировать сообщения в очередь Kafka.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240214T104029Z" creationid="Марианна" creationdate="20240214T104029Z">
