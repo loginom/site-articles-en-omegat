@@ -211,53 +211,53 @@ Large-Scale Update of Loginom Analytical Platform Loginom became cross-platform.
 
 <p>Now <a href="https://en.wikipedia.org/wiki/OpenAPI_Specification" target="_blank">OpenAPI</a> and Swagger UI are supported in Loginom Integrator. Now it is possible to execute requests to test API on the following page: <code>http://host/lgi/openapi/index.html</code>.</p>
 
-<p>Now it is possible to connect to Loginom Server via <a href="https://ru.wikipedia.org/wiki/%D0%A1%D0%BE%D0%BA%D0%B5%D1%82_%D0%B4%D0%BE%D0%BC%D0%B5%D0%BD%D0%B0_Unix" target="_blank">Unix domain socket</a>. Для этого в конфигурационном файле Loginom Integrator у элемента <code>server</code> необходимо добавить атрибут <code>unixsocket</code>, значение которого совпадает со значением параметра "Unix socket", установленного в <a href="https://help.loginom.ru/userguide/admin/parameters.html" target="_blank">параметрах подключения</a> на странице "Администрирование" в Loginom Server.</p>
+<p>Now it is possible to connect to Loginom Server via <a href="https://ru.wikipedia.org/wiki/%D0%A1%D0%BE%D0%BA%D0%B5%D1%82_%D0%B4%D0%BE%D0%BC%D0%B5%D0%BD%D0%B0_Unix" target="_blank">Unix domain socket</a>. For this purpose, for <code>server</code> element in the Loginom Integrator configuration file <code>unixsocket</code> attribute must be added. Its value matches the value of "Unix socket" parameter set in the <a href="https://help.loginom.ru/userguide/admin/parameters.html" target="_blank">connection parameters</a> on "Administration" page in Loginom Server.</p>
 
-<p>При установке Loginom Integrator можно задать параметр Unix Socket в диалоге настроек. Для всех редакций значение этого параметра по умолчанию <code>%ProgramData%\Loginom\Server\loginomd.socket</code>.</p>
+<p>When installing Loginom Integrator, it is possible to set Unix Socket parameter in the customization dialog. The default value of this parameter for all editions is <code>%ProgramData%\Loginom\Server\loginomd.socket</code>.</p>
 
-<p>Алгоритм подключения Loginom Integrator к Loginom Server:</p>
+<p>Algorithm of Loginom Integrator connection to Loginom Server is described below:</p>
 
 <ul>
-	<li>если в конфигурационном файле Интегратора указаны атрибуты <code>unixsocket</code> и <code>host</code>, то сначала выполняется попытка подключения к unix socket, а если это не удалось, то по TCP;</li>
-	<li>если в файле конфигурации не указано ни одного элемента <code>server</code>, то сначала выполняется попытка подключиться к unix socket, а затем - по TCP;</li>
-	<li>в Integrator Team используется подключение только к unix socket.</li>
+	<li>if <code>unixsocket</code> and <code>host</code> attributes are specified in the Integrator configuration file, first, an attempt to establish connection to unix socket is made, and if that failed, TCP is used for connection;</li>
+	<li>if no <code>server</code> elemet is specified in the configuration file, first, an attempt to establish connection to unix socket is made, and then TCP is used for connection;</li>
+	<li>connection only to unix socket is used in Integrator Team.</li>
 </ul>
 
-<p>Если Loginom Server находится не на <code>localhost</code> относительно Интегратора, то при установке Loginom Integrator значение параметра Unix Socket, заданное по умолчанию, необходимо удалить (оставить поле пустым), чтобы избежать лишних попыток подключения.</p>
+<p>If Loginom Server is not on <code>localhost</code> relative to Integrator, when installing Loginom Integrator, Unix Socket parameter value set by default must be deleted (leave the field empty) to avoid unnecessary connection attempts.</p>
 
-<p>Логируемые сообщения о подключении/отключении от сервера и т.п. формируются с учётом протокола, по которому выполнено подключение.</p>
+<p>Logged server connection/disconnection messages, etc. are generated taking into account the protocol via which connection is established.</p>
 
-<p>В Loginom Server Team добавлено создание <code>unix socket</code>, если в файле конфигурации отсутствует элемент <code>Bindings</code>. Файл сокета создаётся в рабочей директории Loginom Server и имеет имя loginomd.socket.</p>
+<p>Now it is possible to create <code>unix socket</code> in Loginom Server Team if there is no <code>Bindings</code> element in the configuration file. Socket file is created in the work Loginom Server directory, and it has loginomd.socket name.</p>
 
-<p>Подключение по Unix domain socket при использовании docker контейнеров избавляет от необходимости создавать виртуальную сеть между контейнерами. Кроме того, производительность выше при подключении по UDS как на Linux, так и на Windows.</p>
+<p>Connection via Unix domain socket when using docker containers eliminates the need to create the virtual network between containers. Besides, performance is higher when connecting via UDS both for Linux, and for Windows.</p>
 
-<p>Добавлена обработка заголовков <code>X-Forwarded-Proto</code> и <code>X-Forwarded-Host</code>. Эти заголовки влияют на генерируемые URL-ы в OpenAPI документах и на help-странице для REST-сервиса.</p>
+<p>Processing of <code>X-Forwarded-Proto</code> and <code>X-Forwarded-Host</code> headers was added. These headers influence the generated URLs in OpenAPI documents and on help page for REST service.</p>
 
-<p>Изменился формат ответных SOAP-сообщений для старых пакетов, созданных до версии 6.3.0. Для старых пакетов будет использован тот же формат сообщений, что и для новых. При конвертации пользователь получит соответствующее сообщение.</p>
+<p>Format of response SOAP messages was hanged for old packages created before version 6.3.0. The same message format as for the new packages will be used for the old ones . The user will receive corresponding message when converting.</p>
 
-<p>Для версии под Linux добавлена возможность вывода логов Loginom Integrator в journald. В файле конфигурации добавлен элемент <code>&lt;journald level="Off" maxEntrySize="65536"/&gt;</code>, который настраивает логирование в journald под Linux. Под Windows данный элемент игнорируется. Атрибут <code>maxEntrySize</code> задаёт максимальный размер сообщения в байтах. Если атрибут отсутствует или содержит отрицательное значение, то используется значение по умолчанию: 2147483647.</p>
+<p>It became possible to output Loginom Integrator logs to journald for the Linux version. <code>&lt;journald level="Off" maxEntrySize="65536"/&gt;</code> element was added to the configuration file. It configures logging in journald for Linux. This element is ignored for Windows. <code>maxEntrySize</code> attribute sets the maximum message size in bytes. If there is no attribute or if it contains the negative value, the following default value is used: 2147483647.</p>
 
-<p>Появилась возможность вывода логов Loginom Integrator в консоль. В секции <code>log</code> файла конфигурации добавлен опциональный элемент <code>console</code>, в котором настраивается уровень логирования в консоль. The same message format as for logging to file is used by default. Но, если задана переменная окружения <code>DOTNET_RUNNING_IN_CONTAINER</code> со значением <code>true</code> или <code>1</code> (т.е. Integrator запущен из Docker контейнера), то в логируемых сообщениях не пишется текущая дата/время. Logs with Warn level and higher are written in stderr, whereas the other ones in stdout. Если логи перенаправляются из консоли контейнера в journald хоста, то многострочные сообщения разбиваются на несколько (каждая строка получается отдельным сообщением в journald).</p>
+<p>It became possible to output Loginom Integrator logs to the console. In <code>log</code> section of the configuration file optional <code>console</code> element was added. The level of logging to the console is configured in it. The same message format as for logging to file is used by default. But if <code>DOTNET_RUNNING_IN_CONTAINER</code> environment variable is set with <code>true</code> or <code>1</code> value (namely, Integrator was started from Docker container), the current date/time is not recorded in the logged messages. Logs with Warn level and higher are written in stderr, whereas the other ones in stdout. If logs are redirected from the container console to host journald, the multiline messages are divided into several ones (each line becomes a separate message in journald).</p>
 
-<p>Error message format was changed in Loginom Integrator. Для REST ответов реализован формат, соответствующий <a href="https://www.rfc-editor.org/rfc/rfc7807.html" target="_blank">RFC 7807</a>. При ошибках с кодом 400 в REST-сервисе возвращается JSON с описанием ошибки. Для SOAP-сервисов внесены некоторые изменения в структуру элементов.</p>
+<p>Error message format was changed in Loginom Integrator. The format that matches <a href="https://www.rfc-editor.org/rfc/rfc7807.html" target="_blank">RFC 7807</a> was implemented for RESR responses. JSON with error description is returned for the errors with code 400 in REST service. Some changes were introduced into the element structure for SOAP services.</p>
 
 <h2 id="производительность">Performance</h2>
 
-<p>За счет перехода с UTF16 на UTF-8 увеличилась скорость импорта и экспорта csv-файлов, в некоторых случаях в 1.3 раза.</p>
+<p>The speed of csv files import and export was increased by 1.3 times due to transition from UTF16 to UTF-8.</p>
 
-<p>С переходом на новые библиотеки стали быстрее обрабатываться xml-файлы. Например, при конвертации пакета из старой версии в новую прирост производительности составляет до 1.3 раза.</p>
+<p>xml files are faster processed due to transition to new libraries. For example, when converting the package from the old version to the new one, performance is increased by 1.3 times.</p>
 
-<p>Увеличена скорость работы REST-клиент, особенно, когда в одном узле производится большое количество обращений к веб-сервису. В некоторых случаях до 5 раз быстрее.</p>
+<p>REST client operation speed was increased particularly when web service was accessed many times in one node. In some cases it occurred up to 5 times faster.</p>
 
 <h2 id="прочие-изменения">Other Changes</h2>
 
 <p><strong>Please note!</strong></p>
 
 <ol>
-	<li>В Loginom 7 изменился механизм сравнения и конвертации строк. Вместо встроенных функций Windows используется <a href="https://icu.unicode.org/" target="_blank">библиотека ICU</a> — International Components for Unicode, которая обеспечивает одинаковые результаты работы со строками на разных платформах. В сценариях, подготовленных в более ранних версиях Loginom, может измениться порядок сортировки строк.</li>
-	<li>Изменен алгоритм генерации псевдослучайных чисел. В связи с этим <a href="https://help.loginom.ru/userguide/processors/preprocessing/sampling.html" target="_blank">Сэмплинг</a> и <a href="https://help.loginom.ru/userguide/processors/preprocessing/partitioning.html" target="_blank">Разбиение на множества</a> могут генерировать другое разбиение. В обработчике <a href="https://help.loginom.ru/userguide/processors/preprocessing/imputation.html" target="_blank">Заполнение пропусков</a> иначе работает метод «Заполнение случайными значениями». В <a href="https://help.loginom.ru/userguide/processors/preprocessing/binning.html" target="_blank">Квантовании</a> по-другому работает метод разбиения «Плитка» с типом обработки совпадающих наблюдений «Назначить случайно».</li>
+	<li>The mechanism of row comparison and conversion was changed in Loginom 7. <a href="https://icu.unicode.org/" target="_blank">ICU</a> library — International Components for Unicode is used instead of built-in Windows functions. It provides the same results of work with rows on different platforms. The order of row sorting can be changed in the workflows prepared in the earlier Loginom versions.</li>
+	<li>Algorithm of pseudorandom numbers generation was changed. In this regard, <a href="https://help.loginom.ru/userguide/processors/preprocessing/sampling.html" target="_blank">Sampling</a> and <a href="https://help.loginom.ru/userguide/processors/preprocessing/partitioning.html" target="_blank">Partitioning</a> can generate another partitioning. "Imputation with random values" method works differently in <a href="https://help.loginom.ru/userguide/processors/preprocessing/imputation.html" target="_blank">Imputation</a> handler. "Tile" partitioning method with "Set randomly" type of matching observations processing works differently in <a href="https://help.loginom.ru/userguide/processors/preprocessing/binning.html" target="_blank">Binning</a>.</li>
 	<li>Internet Explorer browser is not supported.</li>
-	<li>Не поддерживаются 32-разрядные операционные системы семейства Windows. Minimum requirements: Windows 10, Windows Server 2019.</li>
+	<li>The 32-bit version of Windows operating systems is not supported. Minimum requirements: Windows 10, Windows Server 2019.</li>
 </ol>
 
 <div class="text-align-center">
