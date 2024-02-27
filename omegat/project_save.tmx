@@ -6302,6 +6302,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Добавлена обработка заголовков &lt;c0&gt;X-Forwarded-Proto&lt;/c0&gt; и &lt;c1&gt;X-Forwarded-Host&lt;/c1&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T060609Z" creationid="Марианна" creationdate="20240227T060609Z">
+        <seg>Processing of &lt;c0&gt;X-Forwarded-Proto&lt;/c0&gt; and &lt;c1&gt;X-Forwarded-Host&lt;/c1&gt; headers was added.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Добавлена поддержка &lt;a0&gt;PostgreSQL 12.&lt;/a0&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T202515Z" creationid="Марианна" creationdate="20210314T202515Z">
@@ -7498,6 +7506,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210321T215417Z" creationid="Марианна" creationdate="20210321T215417Z">
         <seg>Besides, the series shown in the graph can be activated and deactivated.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Кроме того, производительность выше при подключении по UDS как на Linux, так и на Windows.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T060543Z" creationid="Марианна" creationdate="20240227T060543Z">
+        <seg>Besides, performance is higher when connecting via UDS both for Linux, and for Windows.</seg>
       </tuv>
     </tu>
     <tu>
@@ -10940,6 +10956,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220227T160215Z" creationid="Марианна" creationdate="20220227T160215Z">
         <seg>This option is relevant when it is required to process the multilingual text files or date-time data.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Эти заголовки влияют на генерируемые URL-ы в OpenAPI документах и на help-странице для REST-сервиса.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T060736Z" creationid="Марианна" creationdate="20240227T060736Z">
+        <seg>These headers influence the generated URLs in OpenAPI documents and on help page for REST service.</seg>
       </tuv>
     </tu>
     <tu>
