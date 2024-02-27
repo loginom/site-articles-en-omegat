@@ -5950,6 +5950,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для SOAP-сервисов внесены некоторые изменения в структуру элементов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T062946Z" creationid="Марианна" creationdate="20240227T062946Z">
+        <seg>Some changes were introduced into the element structure for SOAP services.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для csv-файлов в качестве разделителя столбцов по умолчанию теперь выставляется не запятая, а берётся из локали параметр «Разделитель элемента списка» (по умолчанию это «;»).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220426T093328Z" creationid="Марианна" creationdate="20220426T092935Z">
@@ -9308,6 +9316,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210322T142705Z" creationid="Марианна" creationdate="20210322T142705Z">
         <seg>When debugging occurring errors, sometimes it was required to enable detailed logging of the occuring errors. For this purpose, it was required to restart Loginom Server placing the special file for debugging information record with the executable file.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При ошибках с кодом 400 в REST-сервисе возвращается JSON с описанием ошибки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T062908Z" creationid="Марианна" creationdate="20240227T062908Z">
+        <seg>JSON with error description is returned for the errors with code 400 in REST service.</seg>
       </tuv>
     </tu>
     <tu>
