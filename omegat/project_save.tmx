@@ -5542,6 +5542,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В секции &lt;c0&gt;log&lt;/c0&gt; файла конфигурации добавлен опциональный элемент &lt;c1&gt;console&lt;/c1&gt;, в котором настраивается уровень логирования в консоль.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T062122Z" creationid="Марианна" creationdate="20240227T062122Z">
+        <seg>In &lt;c0&gt;log&lt;/c0&gt; section of the configuration file optional &lt;c1&gt;console&lt;/c1&gt; element was added. The level of logging to the console is configured in it.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В серверных редакциях на странице настройки пакетов добавлена возможность настроить периодическое автоматическое резервное копирование всех открытых пакетов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220304T141747Z" creationid="Марианна" creationdate="20220304T141747Z">
@@ -5960,8 +5968,8 @@
       <tuv lang="ru">
         <seg>Для версии под Linux добавлена возможность вывода логов Loginom Integrator в journald.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240227T061239Z" creationid="Марианна" creationdate="20240227T061239Z">
-        <seg>It became possible to show Loginom Integrator logs in journald for the Linux version.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T062011Z" creationid="Марианна" creationdate="20240227T061239Z">
+        <seg>It became possible to output Loginom Integrator logs to journald for the Linux version.</seg>
       </tuv>
     </tu>
     <tu>
