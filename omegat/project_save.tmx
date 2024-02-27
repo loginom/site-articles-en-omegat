@@ -4750,6 +4750,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Атрибут &lt;c1&gt;maxEntrySize&lt;/c1&gt; задаёт максимальный размер сообщения в байтах.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T061532Z" creationid="Марианна" creationdate="20240227T061532Z">
+        <seg>&lt;c1&gt;maxEntrySize&lt;/c1&gt; attribute sets the maximum message size in bytes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Атрибут включает/отключает генерацию страницы &lt;c4&gt;openapi/index.html&lt;/c4&gt;, которая реализует доступ к опубликованным сервисам через Swagger UI.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240225T191443Z" creationid="Марианна" creationdate="20240225T191443Z">
@@ -6538,6 +6546,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210902T134033Z" creationid="Марианна" creationdate="20210902T134033Z">
         <seg>If the Supernode was executed in the Loop, it increased the risk of error occurrence(#8514).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Если атрибут отсутствует или содержит отрицательное значение, то используется значение по умолчанию: 2147483647.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T061627Z" creationid="Марианна" creationdate="20240227T061627Z">
+        <seg>If there is no attribute or if it contains the negative value, the following default value is used: 2147483647.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8907,6 +8923,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220227T092005Z" creationid="Марианна" creationdate="20220227T092005Z">
         <seg>That is why it is particularly important to provide the specific product operation convenience for a user.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Появилась возможность вывода логов Loginom Integrator в консоль.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T061847Z" creationid="Марианна" creationdate="20240227T061847Z">
+        <seg>It became possible to output Loginom Integrator logs to the console.</seg>
       </tuv>
     </tu>
     <tu>
