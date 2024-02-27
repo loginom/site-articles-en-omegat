@@ -5934,6 +5934,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Внесли необходимые исправления (#10039).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T073405Z" creationid="Марианна" creationdate="20240227T073405Z">
+        <seg>The required corrections were introduced (#10039).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Внесли необходимые исправления (#7377).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220708T164102Z" creationid="Марианна" creationdate="20220708T164102Z">
@@ -8640,16 +8648,16 @@
       <tuv lang="ru">
         <seg>Ошибка появилась в версии 7.0.0 (#9719).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240227T072617Z" creationid="Марианна" creationdate="20240227T072617Z">
-        <seg>The error occurred in version 7.0.0 (#9719).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T073253Z" creationid="Марианна" creationdate="20240227T072617Z">
+        <seg>The error appeared in version 7.0.0 (#9719).</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>Ошибка появилась в версии 7.0.0.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240227T072545Z" creationid="Марианна" creationdate="20240227T072545Z">
-        <seg>The error occurred in version 7.0.0.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T073244Z" creationid="Марианна" creationdate="20240227T072545Z">
+        <seg>The error appeared in version 7.0.0.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8662,10 +8670,18 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ошибка регрессионная и появилась в версии 7.0.0 (#10024).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T073503Z" creationid="Марианна" creationdate="20240227T073503Z">
+        <seg>It is a regression error and it appeared in version 7.0.0 (#10024).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ошибка регрессионная и появилась в версии 7.0.0 (#9996).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240227T073136Z" creationid="Марианна" creationdate="20240227T073136Z">
-        <seg>It is a regression error and it occurred in version 7.0.0 (#9996).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T073328Z" creationid="Марианна" creationdate="20240227T073136Z">
+        <seg>It is a regression error and it appeared in version 7.0.0 (#9996).</seg>
       </tuv>
     </tu>
     <tu>
@@ -8706,6 +8722,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240227T073029Z" creationid="Марианна" creationdate="20240227T073029Z">
         <seg>The errors were corrected.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Ошибку исправили (#10002).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T073424Z" creationid="Марианна" creationdate="20240227T073424Z">
+        <seg>The error was corrected (#10002).</seg>
       </tuv>
     </tu>
     <tu>
@@ -8894,6 +8918,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ошибочное поведение исправили (#7752).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T073415Z" creationid="Марианна" creationdate="20240227T073415Z">
+        <seg>Error of behavior was corrected (#7752).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ошибочное поведение исправили (#8662).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240227T072228Z" creationid="Марианна" creationdate="20240227T072228Z">
@@ -8922,6 +8954,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240227T072309Z" creationid="Марианна" creationdate="20240227T072309Z">
         <seg>Error of behavior was corrected (#9675).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Ошибочное поведение исправили (#9948).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T073351Z" creationid="Марианна" creationdate="20240227T073351Z">
+        <seg>Error of behavior was corrected (#9948).</seg>
       </tuv>
     </tu>
     <tu>
