@@ -8718,6 +8718,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ошибка регрессионная, появилась в версии 7.0.0 и наблюдалась при подключении к Oracle без использования клиента (#10029).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T075205Z" creationid="Марианна" creationdate="20240227T075205Z">
+        <seg>It is a regression error and it appeared in version 7.0.0. It was observed when connecting to Oracle without client use (#10029).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ошибка устранена (#9035).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220425T161326Z" creationid="Марианна" creationdate="20220425T161326Z">
