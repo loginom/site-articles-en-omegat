@@ -8678,6 +8678,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ошибка регрессионная и появилась в версии 7.0.0 (#10025).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T073543Z" creationid="Марианна" creationdate="20240227T073543Z">
+        <seg>It is a regression error and it appeared in version 7.0.0 (#10025).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ошибка регрессионная и появилась в версии 7.0.0 (#9996).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240227T073328Z" creationid="Марианна" creationdate="20240227T073136Z">
