@@ -8671,6 +8671,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Под Windows данный элемент игнорируется.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T061356Z" creationid="Марианна" creationdate="20240227T061356Z">
+        <seg>This element is ignored for Windows.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Поддерживается HTTP Basic Authentication, т.е. в URL можно передать логин и пароль.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240218T181921Z" creationid="Марианна" creationdate="20240218T181921Z">
