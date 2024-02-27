@@ -6078,6 +6078,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для старых пакетов будет использован тот же формат сообщений, что и для новых.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T060948Z" creationid="Марианна" creationdate="20240227T060948Z">
+        <seg>The same message format as for the new packages will be used for the old ones .</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для того, чтобы на сервере можно было создать общую папку, доступ к которой имели бы все пользователи, в том числе вновь добавляемые, создана стандартная группа пользователей «Все», которая отображается при настройке прав на общие папки.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220308T142228Z" creationid="Марианна" creationdate="20220308T141957Z">
@@ -6962,6 +6970,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240218T182929Z" creationid="Марианна" creationdate="20240218T182929Z">
         <seg>&lt;a0&gt;Loginom Integrator&lt;/a0&gt; configuration file was changed:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Изменился формат ответных SOAP-сообщений для старых пакетов, созданных до версии 6.3.0.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T060838Z" creationid="Марианна" creationdate="20240227T060838Z">
+        <seg>Format of response SOAP messages was hanged for old packages created before version 6.3.0.</seg>
       </tuv>
     </tu>
     <tu>
