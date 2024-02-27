@@ -6830,6 +6830,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>За счет перехода с UTF16 на UTF-8 увеличилась скорость импорта и экспорта csv-файлов, в некоторых случаях в 1.3 раза.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T063430Z" creationid="Марианна" creationdate="20240227T063430Z">
+        <seg>The speed of csv files import and export was increased by 1.3 times due to transition from UTF16 to UTF-8.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Заголовки, указанные на странице мастера настройки узла &lt;e1&gt;REST-запрос&lt;/e1&gt; "Настройка пользовательских заголовков", а также переопределенные значения стандартных заголовков не попадали в файл.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230316T052350Z" creationid="Марианна" creationdate="20230316T052217Z">
