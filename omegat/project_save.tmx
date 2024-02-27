@@ -7886,6 +7886,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Например, при конвертации пакета из старой версии в новую прирост производительности составляет до 1.3 раза.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T063626Z" creationid="Марианна" creationdate="20240227T063626Z">
+        <seg>For example, when converting the package from the old version to the new one, performance is increased by 1.3 times.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Например, при разборе ответа от веб-сервиса.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210320T233251Z" creationid="Марианна" creationdate="20210320T233251Z">
@@ -10040,6 +10048,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>С переходом на новые библиотеки стали быстрее обрабатываться xml-файлы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T063534Z" creationid="Марианна" creationdate="20240227T063534Z">
+        <seg>xml files are faster processed due to transition to new libraries.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>С помощью переменных можно указать:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220304T192312Z" creationid="Марианна" creationdate="20220304T192312Z">
@@ -10780,6 +10796,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220425T202603Z" creationid="Марианна" creationdate="20220425T202603Z">
         <seg>"View" button was removed from the workflow toolbar.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Увеличена скорость работы REST-клиент, особенно, когда в одном узле производится большое количество обращений к веб-сервису.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T064011Z" creationid="Марианна" creationdate="20240227T064011Z">
+        <seg>REST client operation speed was increased particularly when web service was accessed many times in one node.</seg>
       </tuv>
     </tu>
     <tu>
