@@ -5518,6 +5518,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В открытом после ошибки мастере настройки, в поле SQL-запроса, отображалось имя таблицы вместо текста запроса, а дальнейшие действия пользователя в мастере приводили к появлению различных ошибок.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T122842Z" creationid="Марианна" creationdate="20240227T122842Z">
+        <seg>The table name was displayed instead of the request text in the SQL request field in the wizard opened after an error, and further action performed in the wizard by the user caused different errors.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В очередном обновлении уделили внимание удобству использования платформы, оптимизировали работу со сложными сценариями, а также исправили найденные ошибки.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210617T112013Z" creationid="Марианна" creationdate="20210616T143220Z">
