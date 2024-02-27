@@ -8046,6 +8046,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Не поддерживаются 32-разрядные операционные системы семейства Windows.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T070158Z" creationid="Марианна" creationdate="20240227T070158Z">
+        <seg>32-bit Windows operating systems are not supported.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Не поддерживаются модули пакета multiprocessing, используемые для реализации параллельной работы через создание нескольких процессов, а также зависимые от них сторонние пакеты.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210320T222545Z" creationid="Марианна" creationdate="20210320T222457Z">
