@@ -574,6 +574,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;a0&gt;&lt;s1&gt;SOAP-запрос:&lt;/s1&gt;&lt;/a0&gt; Не распознавался Content-Type ответа при использовании mime:content в wsdl.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T122521Z" creationid="Марианна" creationdate="20240227T122521Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;SOAP request:&lt;/s1&gt;&lt;/a0&gt; Content-Type of the response was not recognized when using mime:content in wsdl.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;SOAP-запрос:&lt;/s1&gt;&lt;/a0&gt; если WSDL-схема содержала два элемента с одинаковым именем, один из которых являлся корневым, то при отправке запроса возникала ошибка «XSD-схема на входе не соответствует настройкам обработчика!» (#6179).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210902T072618Z" creationid="Марианна" creationdate="20210902T072412Z">
