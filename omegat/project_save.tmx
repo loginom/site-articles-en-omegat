@@ -10824,6 +10824,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Файл сокета создаётся в рабочей директории Loginom Server и имеет имя loginomd.socket.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T060146Z" creationid="Марианна" creationdate="20240227T060146Z">
+        <seg>Socket file is created in the work Loginom Server directory, and it has loginomd.socket name.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Фильтрация</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220224T065111Z" creationid="Марианна" creationdate="20220224T065111Z">
