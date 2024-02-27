@@ -5942,6 +5942,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для REST ответов реализован формат, соответствующий &lt;a0&gt;RFC 7807&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T062749Z" creationid="Марианна" creationdate="20240227T062749Z">
+        <seg>The format that matches &lt;a0&gt;RFC 7807&lt;/a0&gt; was implemented for RESR responses.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для csv-файлов в качестве разделителя столбцов по умолчанию теперь выставляется не запятая, а берётся из локали параметр «Разделитель элемента списка» (по умолчанию это «;»).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220426T093328Z" creationid="Марианна" creationdate="20220426T092935Z">
