@@ -5590,6 +5590,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В файле конфигурации добавлен элемент &lt;c0&gt;&lt;journald level="Off" maxEntrySize="65536"/&gt;&lt;/c0&gt;, который настраивает логирование в journald под Linux.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T061337Z" creationid="Марианна" creationdate="20240227T061337Z">
+        <seg>&lt;c0&gt;&lt;journald level="Off" maxEntrySize="65536"/&gt;&lt;/c0&gt; element was added to the configuration file. It configures logging in journald for Linux.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В этой версии добавили поддержку временных таблиц в импорте из 1С, улучшили работу Loginom Integrator, повысили информативность сообщений об ошибках в узлах Выполнение узла и Узел-ссылка.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220708T162718Z" creationid="Марианна" creationdate="20220708T162718Z">
@@ -5938,6 +5946,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230316T055855Z" creationid="Марианна" creationdate="20230316T055855Z">
         <seg>It is required to add N prefix before the string literal (N'string') for the databases with other encoding in the requests with the strings containing the characters not supported by the database encoding.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для версии под Linux добавлена возможность вывода логов Loginom Integrator в journald.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T061239Z" creationid="Марианна" creationdate="20240227T061239Z">
+        <seg>It became possible to show Loginom Integrator logs in journald for the Linux version.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9116,6 +9132,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210320T224225Z" creationid="Марианна" creationdate="20210320T224034Z">
         <seg>When converting data set into Pandas DataFrame structure, the whole processed data set is used that can sometimes cause considerable slow-down of the workflows operation.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При конвертации пользователь получит соответствующее сообщение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T061028Z" creationid="Марианна" creationdate="20240227T061028Z">
+        <seg>The user will receive corresponding message when converting.</seg>
       </tuv>
     </tu>
     <tu>
