@@ -1302,6 +1302,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;a0&gt;&lt;s1&gt;Подключение PostgreSQL:&lt;/s1&gt;&lt;/a0&gt; Исправлена ошибка "Access violation", которая возникала при разрыве соединения с сервером.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T181046Z" creationid="Марианна" creationdate="20240227T181046Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;PostgreSQL connection:&lt;/s1&gt;&lt;/a0&gt; "Access violation" error was corrected. It occurred when the connection with the server was lost.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Подключение PostgreSQL:&lt;/s1&gt;&lt;/a0&gt; Исправлена ошибка "column "value" is of type json but expression is of type character varying", которая возникала при попытке экспорта 1-ой строки в поля xml или json в БД PostgreSQL (#9247).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220929T152230Z" creationid="Марианна" creationdate="20220929T152017Z">
