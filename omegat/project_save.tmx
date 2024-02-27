@@ -4870,6 +4870,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Базовый пакет, открытый в одной сессии, в других всегда должен открываться только на чтение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T122330Z" creationid="Марианна" creationdate="20240227T122330Z">
+        <seg>The base package opened in one session must be always read-only opened in all other sessions.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Базу данных SQLite теперь можно использовать in-memory.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240214T104724Z" creationid="Марианна" creationdate="20240214T104724Z">
