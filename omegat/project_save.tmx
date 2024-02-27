@@ -8048,8 +8048,8 @@
       <tuv lang="ru">
         <seg>Не поддерживаются 32-разрядные операционные системы семейства Windows.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240227T070158Z" creationid="Марианна" creationdate="20240227T070158Z">
-        <seg>32-bit Windows operating systems are not supported.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T070408Z" creationid="Марианна" creationdate="20240227T070158Z">
+        <seg>The 32-bit version of Windows operating systems is not supported.</seg>
       </tuv>
     </tu>
     <tu>
