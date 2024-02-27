@@ -6686,6 +6686,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если логи перенаправляются из консоли контейнера в journald хоста, то многострочные сообщения разбиваются на несколько (каждая строка получается отдельным сообщением в journald).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T062652Z" creationid="Марианна" creationdate="20240227T062652Z">
+        <seg>If logs are redirected from the container console to host journald, the multiline messages are divided into several ones (each line becomes a separate message in journald).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если ни одного зависимого узла не найдено, но производный компонент имеет модификатор доступа «Открытый», то об этом также сообщается (#9004).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220426T093926Z" creationid="Марианна" creationdate="20220426T093926Z">
@@ -8026,6 +8034,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230314T203308Z" creationid="Марианна" creationdate="20230314T203308Z">
         <seg>But in this case the message text must be read as follows: "Database table was not specified".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Но, если задана переменная окружения &lt;c2&gt;DOTNET_RUNNING_IN_CONTAINER&lt;/c2&gt; со значением &lt;c3&gt;true&lt;/c3&gt; или &lt;c4&gt;1&lt;/c4&gt; (т.е. Integrator запущен из Docker контейнера), то в логируемых сообщениях не пишется текущая дата/время.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T062337Z" creationid="Марианна" creationdate="20240227T062337Z">
+        <seg>But if &lt;c2&gt;DOTNET_RUNNING_IN_CONTAINER&lt;/c2&gt; environment variable is set with &lt;c3&gt;true&lt;/c3&gt; or &lt;c4&gt;1&lt;/c4&gt; value (namely, Integrator was started from Docker container), the current date/time is not recorded in the logged messages.</seg>
       </tuv>
     </tu>
     <tu>
