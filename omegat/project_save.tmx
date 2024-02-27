@@ -5472,8 +5472,8 @@
       <tuv lang="ru">
         <seg>В редакциях под Windows возможен запуск как в рамках процесса Loginom, так и в отдельном процессе, а под Linux поддерживается только вариант работы в отдельном процессе.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240219T133425Z" creationid="Марианна" creationdate="20240219T133425Z">
-        <seg>Start both within the Loginom process and in a separate process is available in Windows editions, whereas operation in Linux is supported only in a separate process.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T071632Z" creationid="Марианна" creationdate="20240219T133425Z">
+        <seg>Start both within the Loginom process and in a separate process is available in Windows editions, and operation in Linux is supported only in a separate process.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7208,8 +7208,8 @@
       <tuv lang="ru">
         <seg>Использование языков программирования</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240214T105704Z" creationid="Марианна" creationdate="20240214T105704Z">
-        <seg>Programming languages use</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T071410Z" creationid="Марианна" creationdate="20240214T105704Z">
+        <seg>Programming Languages Use</seg>
       </tuv>
     </tu>
     <tu>
