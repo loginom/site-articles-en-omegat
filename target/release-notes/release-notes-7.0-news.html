@@ -67,11 +67,11 @@ Large-Scale Update of Loginom Analytical Platform Loginom became cross-platform.
 
 <p><a href="https://help.loginom.ru/userguide/processors/integration/rest-request.html" target="_blank">REST</a> and <a href="https://help.loginom.ru/userguide/processors/integration/soap-request.html" target="_blank">SOAP request</a> handlers function without changes. However, when transferring workflows between Loginom for Windows and Linux, in some cases it will be required to reconfigure <a href="https://help.loginom.ru/userguide/integration/connections/list/rest-service.html" target="_blank">REST</a> connections and <a href="https://help.loginom.ru/userguide/integration/connections/list/soap-service.html" target="_blank">SOAP service</a>. Authentification via client certificate is not supported in the Linux version. In Windows it was selected from the storage of personal certificates. When working with Linux, it is required to set the certificate file, key and password.</p>
 
-<p>The default value of "Allowable Content-type of response" parameter was changed in the REST service connection wizard. Instead of <code>*/*</code> <code>application/json</code> is installed.</p>
+<p>The default value of "Allowable Content-type of response" parameter was changed in the REST service connection wizard. Instead of <code>*/*</code> <code>application/json</code> was installed.</p>
 
 <p>The output data set will be changed for the packages created before version 6.4.0 in the "Additional data" port of the REST service node. Previously, the value in "Error code" column was equal to 0 irrespective of HTTP Status Code. Now, if HTTP Status Code &gt;= 400, Error Code will be equal to 6.</p>
 
-<h2 id="использование-языков-программирования">Programming languages use</h2>
+<h2 id="использование-языков-программирования">Programming Languages Use</h2>
 
 <p>Now <a href="https://help.loginom.ru/userguide/processors/programming/java-script/" target="_blank">JavaScript</a> handler  includes <a href="https://help.loginom.ru/userguide/processors/programming/java-script/fileapi.html" target="_blank">File Storage API</a> that enables to execute all file operations without rights setup and in a safe manner:</p>
 
@@ -82,7 +82,7 @@ Large-Scale Update of Loginom Analytical Platform Loginom became cross-platform.
 	<li>Check path correctness.</li>
 </ul>
 
-<p>It became possible to start <a href="https://help.loginom.ru/userguide/processors/programming/python/" target="_blank">Python</a> in a separate process, as well as simultaneously. Start both within the Loginom process and in a separate process is available in Windows editions, whereas operation in Linux is supported only in a separate process.</p>
+<p>It became possible to start <a href="https://help.loginom.ru/userguide/processors/programming/python/" target="_blank">Python</a> in a separate process, as well as simultaneously. Start both within the Loginom process and in a separate process is available in Windows editions, and operation in Linux is supported only in a separate process.</p>
 
 <p>When sending pandas tables in output_table for column captions in Python, transliteration in prepare_compatible_table function is not performed. This is especially true if captions of pandas columns are written in Cyrillic characters.</p>
 
@@ -159,7 +159,7 @@ Large-Scale Update of Loginom Analytical Platform Loginom became cross-platform.
 
 <p>Value of "Compare string unique values in a binary way" option is displayed in the <em>Property Inspector</em>.</p>
 
-<p>Now it is possible to install Random Seed.in the wizard of the handlers algorithms of which use generation of pseudorandom numbers. Random Seed value can be set via variable, it is also possible to generate or select "Always randomly" checkbox. Command to copy value to the clipboard became available.</p>
+<p>Now it is possible to install Random Seed in the wizard of the handlers algorithms of which use generation of pseudorandom numbers. Random Seed value can be set via variable, it is also possible to generate or select "Always randomly" checkbox. Command to copy value to the clipboard became available.</p>
 
 <h2 id="изменения-в-loginom-integrator">Changes in Loginom Integrator</h2>
 
