@@ -2774,6 +2774,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Экспорт в Kafka:&lt;/s0&gt; Узел зависал при попытке отправить более 100 000 сообщений.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T074714Z" creationid="Марианна" creationdate="20240227T074714Z">
+        <seg>&lt;s0&gt;Export to Kafka:&lt;/s0&gt; The node was frozen while attempting to send more than 100,000 messages.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Экспорт в PostgreSQL:&lt;/s0&gt; при попытке экспорта строк в поля &lt;e1&gt;xml&lt;/e1&gt; или &lt;e2&gt;json&lt;/e2&gt; возникала ошибка «колонка "..." имеет тип ..., а выражение - character varying».</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210902T133745Z" creationid="Марианна" creationdate="20210902T133745Z">
@@ -3642,6 +3650,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T202358Z" creationid="Марианна" creationdate="20210314T202358Z">
         <seg>https://help.loginom.ru/userguide/integration/export/excel.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/integration/export/kafka.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T074513Z" creationid="Марианна" creationdate="20240227T074513Z">
+        <seg>https://help.loginom.ru/userguide/integration/export/kafka.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -8978,6 +8994,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240227T073351Z" creationid="Марианна" creationdate="20240227T073351Z">
         <seg>Error of behavior was corrected (#9948).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Ошибочное поведение исправили, время модификации файла при копировании не изменяется (#9951).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T074830Z" creationid="Марианна" creationdate="20240227T074830Z">
+        <seg>Error of behavior was corrected, time of file modification while copying was not changed (#9951).</seg>
       </tuv>
     </tu>
     <tu>
