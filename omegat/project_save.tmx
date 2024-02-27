@@ -5350,6 +5350,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В обработчике &lt;a2&gt;Заполнение пропусков&lt;/a2&gt; иначе работает метод «Заполнение случайными значениями».</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T065142Z" creationid="Марианна" creationdate="20240227T065142Z">
+        <seg>В обработчике &lt;a2&gt;Imputation&lt;/a2&gt; иначе работает метод «Заполнение случайными значениями».</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В обработчике Заполнение пропусков добавлена возможность заменять пропущенные числовые значения на &lt;e0&gt;0&lt;/e0&gt;, а также оптимизирована работа обработчика, а из списка допустимых методов для Логического типа данных убран вариант &lt;e1&gt;Не задано&lt;/e1&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210325T114543Z" creationid="Марианна" creationdate="20210322T212244Z">
@@ -5538,6 +5546,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210320T220758Z" creationid="Марианна" creationdate="20210320T220758Z">
         <seg>Taking into consideration the fact that the component executes the Python code on server, there are several restrictions concerning its use:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В связи с этим &lt;a0&gt;Сэмплинг&lt;/a0&gt; и &lt;a1&gt;Разбиение на множества&lt;/a1&gt; могут генерировать другое разбиение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T065116Z" creationid="Марианна" creationdate="20240227T065116Z">
+        <seg>In this regard, &lt;a0&gt;Sampling&lt;/a0&gt; and &lt;a1&gt;Partitioning&lt;/a1&gt; can generate another partitioning.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6978,6 +6994,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220228T102447Z" creationid="Марианна" creationdate="20220228T102447Z">
         <seg>It can cause locale conflict when starting the workflow.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Изменен алгоритм генерации псевдослучайных чисел.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T064938Z" creationid="Марианна" creationdate="20240227T064938Z">
+        <seg>Algorithm of pseudorandom numbers generation was changed.</seg>
       </tuv>
     </tu>
     <tu>
