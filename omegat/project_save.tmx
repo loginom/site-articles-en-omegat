@@ -8679,6 +8679,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Подключение по Unix domain socket при использовании docker контейнеров избавляет от необходимости создавать виртуальную сеть между контейнерами.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T060324Z" creationid="Марианна" creationdate="20240227T060324Z">
+        <seg>Connection via Unix domain socket when using docker containers eliminates the need to create the virtual network between containers.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Подмодель в Loginom</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T203857Z" creationid="Марианна" creationdate="20210314T203857Z">
