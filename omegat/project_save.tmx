@@ -366,6 +366,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>; ' "&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T072755Z" creationid="Марианна" creationdate="20240227T072755Z">
+        <seg>; ' "&lt;/c2&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;/configSections&gt;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240211T172423Z" creationid="Марианна" creationdate="20240211T172423Z">
@@ -3638,6 +3646,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/integration/export/txt-csv.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T072804Z" creationid="Марианна" creationdate="20240227T072804Z">
+        <seg>https://help.loginom.ru/userguide/integration/export/txt-csv.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>https://help.loginom.ru/userguide/integration/export/warehouse.html</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210616T153950Z" creationid="Марианна" creationdate="20210616T153950Z">
@@ -5922,6 +5938,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230210T082254Z" creationid="Марианна" creationdate="20230210T082254Z">
         <seg>The required corrections were introduced (#9628).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Внесли необходимые исправления (#9679).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T072556Z" creationid="Марианна" creationdate="20240227T072556Z">
+        <seg>The required corrections were introduced (#9679).</seg>
       </tuv>
     </tu>
     <tu>
@@ -8574,6 +8598,22 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ошибка появилась в версии 7.0.0 (#9719).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T072617Z" creationid="Марианна" creationdate="20240227T072617Z">
+        <seg>The error occurred in version 7.0.0 (#9719).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Ошибка появилась в версии 7.0.0.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T072545Z" creationid="Марианна" creationdate="20240227T072545Z">
+        <seg>The error occurred in version 7.0.0.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ошибка появлялась при нажатии "Тестировать" или "Активировать подключение" в мастере настройки подключения, если элементы импортируемой схемы содержали атрибуты и она находилась во вложенной на несколько уровней папке &lt;a2&gt;Файлового хранилища&lt;/a2&gt; (#9631).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230314T132035Z" creationid="Марианна" creationdate="20230314T132035Z">
@@ -8678,10 +8718,34 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ошибку исправили (#9694).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T072721Z" creationid="Марианна" creationdate="20240227T072721Z">
+        <seg>The error was corrected (#9694).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ошибку исправили (#9727).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240227T072216Z" creationid="Марианна" creationdate="20240227T072216Z">
         <seg>The error was corrected (#9727).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Ошибку исправили (#9763).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T072710Z" creationid="Марианна" creationdate="20240227T072710Z">
+        <seg>The error was corrected (#9763).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Ошибку исправили (#9768).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T072702Z" creationid="Марианна" creationdate="20240227T072702Z">
+        <seg>The error was corrected (#9768).</seg>
       </tuv>
     </tu>
     <tu>
@@ -8706,6 +8770,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240227T072158Z" creationid="Марианна" creationdate="20240227T072158Z">
         <seg>The error was corrected (#9778).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Ошибочное поведение исправили (#6139).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T072532Z" creationid="Марианна" creationdate="20240227T072532Z">
+        <seg>Error of behavior was corrected (#6139).</seg>
       </tuv>
     </tu>
     <tu>
@@ -10396,6 +10468,30 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230313T090350Z" creationid="Марианна" creationdate="20230313T090350Z">
         <seg>The situation was rectified (#9603).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Ситуацию исправили (#9661).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T072643Z" creationid="Марианна" creationdate="20240227T072643Z">
+        <seg>The situation was rectified (#9661).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Ситуацию исправили (#9748).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T072608Z" creationid="Марианна" creationdate="20240227T072608Z">
+        <seg>The situation was rectified (#9748).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Ситуацию исправили (#9758).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T072753Z" creationid="Марианна" creationdate="20240227T072753Z">
+        <seg>The situation was rectified (#9758).</seg>
       </tuv>
     </tu>
     <tu>
