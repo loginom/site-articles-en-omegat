@@ -2230,6 +2230,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Инсталлятор:&lt;/s0&gt; Редактировать IP-адрес и порт сайта можно только при создании нового сайта.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T125749Z" creationid="Марианна" creationdate="20240227T125749Z">
+        <seg>&lt;s0&gt;Installer:&lt;/s0&gt; It is possible to edit IP address and port of the site only when creating the new site.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Калькулятор:&lt;/s0&gt; внесены исправления в работу функции &lt;e1&gt;RegExMatchedExp&lt;/e1&gt;, которая в некоторых случаях могла выдать неверный результат (поиск регулярного выражения не начинался заново, если успешно найденная на предыдущем шаге строка была пустой) (#9310).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220711T093713Z" creationid="Марианна" creationdate="20220711T093600Z">
@@ -11100,6 +11108,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230210T091737Z" creationid="Марианна" creationdate="20230210T091535Z">
         <seg>Such error occurred when activating, deactivating and then activating once again &lt;e2&gt;Loop&lt;/e2&gt; with the group processing by unique values of the string fields configured to &lt;e3&gt;Supernode&lt;/e3&gt; with &lt;e4&gt;Neural network&lt;/e4&gt; with "always retrain" activation mode (#9630).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Теперь Loginom Integrator может быть установлен на новый сайт, который создаётся в процессе установки приложения (#9938).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T125637Z" creationid="Марианна" creationdate="20240227T125637Z">
+        <seg>Now Loginom Integrator can be intalled on the new site that is created while installing the application (#9938).</seg>
       </tuv>
     </tu>
     <tu>
