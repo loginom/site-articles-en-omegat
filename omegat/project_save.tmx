@@ -5750,6 +5750,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Вместо встроенных функций Windows используется &lt;a0&gt;библиотека ICU&lt;/a0&gt; — International Components for Unicode, которая обеспечивает одинаковые результаты работы со строками на разных платформах.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240227T064748Z" creationid="Марианна" creationdate="20240227T064748Z">
+        <seg>&lt;a0&gt;ICU&lt;/a0&gt; library — International Components for Unicode is used instead of built-in Windows functions. It provides the same results of work with rows on different platforms.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Внесенные исправления предотвращают данный конфликт, обеспечивая надежное автосохранение пакетов (#9025, #9021, #9038).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220426T112444Z" creationid="Марианна" creationdate="20220425T153559Z">
