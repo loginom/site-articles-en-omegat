@@ -9070,6 +9070,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ошибка возникала в настольной версии Loginom.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240228T194650Z" creationid="Марианна" creationdate="20240228T194650Z">
+        <seg>The error occurred in the desktop Loginom version.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ошибка возникала из-за отсутствия многострочного экспорта в &lt;e3&gt;MSSQL 2005&lt;/e3&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211229T121453Z" creationid="Марианна" creationdate="20211229T121123Z">
@@ -11124,6 +11132,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240227T072917Z" creationid="Марианна" creationdate="20240227T072917Z">
         <seg>Regression error was corrected (#10011).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Регрессионную ошибку, появившуюся в версии 7.0.2, исправили (#10178).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240228T194726Z" creationid="Марианна" creationdate="20240228T194726Z">
+        <seg>The regression error occurred in version 7.0.2 was corrected (#10178).</seg>
       </tuv>
     </tu>
     <tu>
