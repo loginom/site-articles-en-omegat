@@ -8222,6 +8222,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Например, если &lt;e2&gt;Имя таблицы&lt;/e2&gt; первоначально определить через &lt;e3&gt;Переменную 1&lt;/e3&gt;, сохранить настройки, а затем открыть мастер и задать &lt;e4&gt;Имя таблицы&lt;/e4&gt; через &lt;e5&gt;Переменную 2&lt;/e5&gt;, то после сохранения и повторного открытия мастера настройки узла &lt;e6&gt;Имя таблицы&lt;/e6&gt; было определено через &lt;e7&gt;Переменную 1&lt;/e7&gt;, вместо ожидаемой &lt;e8&gt;Переменной 2&lt;/e8&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240228T185242Z" creationid="Марианна" creationdate="20240228T185242Z">
+        <seg>For example, if &lt;e2&gt;Table name&lt;/e2&gt; was initially defined via &lt;e3&gt;Variable 1&lt;/e3&gt; saving the settings, and then wizard was opened and &lt;e4&gt;Table name&lt;/e4&gt; was set via &lt;e5&gt;Variable 2&lt;/e5&gt;, &lt;e6&gt;Table name&lt;/e6&gt; was defined via &lt;e7&gt;Variable 1&lt;/e7&gt; instead of the expected &lt;e8&gt;Variable 2&lt;/e8&gt; after saving and repeated opening of the wizard node.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Например, когда речь идет о создании систем принятия решений практически весь функционал базируется на обращении к веб-сервисам.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220227T120307Z" creationid="Марианна" creationdate="20220227T120307Z">
