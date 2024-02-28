@@ -14,31 +14,31 @@
 	<li>в гистограмме визуализатора <a href="https://help.loginom.ru/userguide/visualization/data-quality/" target="_blank">Качество данных</a> (#9731);</li>
 	<li>в визуализаторе <a href="https://help.loginom.ru/userguide/visualization/coarse-classes/" target="_blank"> Конечные классы</a> в метках границ классов (#9733);</li>
 	<li><a href="https://help.loginom.ru/userguide/processors/preprocessing/binning.html" target="_blank">Квантовании</a> <em> Конечных классах</em> при формировании метки для значений времени (#9735, #9734);</li>
-	<li><a href="https://help.loginom.ru/userguide/visualization/cube/" target="_blank">Кубе</a> (#9730);</li>
+	<li><a href="https://help.loginom.ru/userguide/visualization/cube/" target="_blank">Cube</a> (#9730);</li>
 	<li>в визуализаторе <a href="https://help.loginom.ru/userguide/visualization/regression/" target="_blank">Отчет по регрессии</a> в описании показателей модели (#9736);</li>
 	<li>в визуализаторе <a href="https://help.loginom.ru/userguide/visualization/cluster-profiles/" target="_blank">Профили кластеров</a> для значений минимум, максимум и среднее поля типа Дата/Время (#9732);</li>
 	<li>в визуализаторе <a href="https://help.loginom.ru/userguide/visualization/statistics/" target="_blank">Статистика</a> на гистограмме, а также для значений минимум и максимум поля типа Дата/Время (#9728).</li>
 </ul>
 
-<p><a href="https://help.loginom.ru/userguide/visualization/chart/" target="_blank"><strong>Визуализатор Диаграмма:</strong></a> При экспорте диаграммы в PDF, если высота изображения превышала ширину, ее нижняя часть была обрезана. Внесли необходимые исправления (#10174).</p>
+<p><a href="https://help.loginom.ru/userguide/visualization/chart/" target="_blank"><strong>Визуализатор Диаграмма:</strong></a> При экспорте диаграммы в PDF, если высота изображения превышала ширину, ее нижняя часть была обрезана. The required corrections were introduced (#10174).</p>
 
-<p><a href="https://help.loginom.ru/userguide/visualization/binary-classification/" target="_blank"><strong>Визуализатор Качество бинарной классификации:</strong></a> На диаграмме точности не отображались линии графиков NPV и OPR, хотя маркеры для них отображались (т.е. графики были построены). Регрессионную ошибку, появившуюся в версии 7.0.2, исправили (#10178).</p>
+<p><a href="https://help.loginom.ru/userguide/visualization/binary-classification/" target="_blank"><strong>Визуализатор Качество бинарной классификации:</strong></a> На диаграмме точности не отображались линии графиков NPV и OPR, хотя маркеры для них отображались (т.е. графики были построены). The regression error occurred in version 7.0.2 was corrected (#10178).</p>
 
-<p><strong>Визуализатор Куб:</strong> Фильтр по факту, в котором значение для сравнения указано как значение по умолчанию (0, "" и т.д.), т.е. не изменялось пользователем при его настройке, не срабатывал. Фильтрация срабатывала после изменения значения для сравнения на отличное от значения по умолчанию, а затем на нужное пользователю (0, ""). Ошибочное поведение исправили (#9929).</p>
+<p><strong>Визуализатор Куб:</strong> Фильтр по факту, в котором значение для сравнения указано как значение по умолчанию (0, "" и т.д.), т.е. не изменялось пользователем при его настройке, не срабатывал. Фильтрация срабатывала после изменения значения для сравнения на отличное от значения по умолчанию, а затем на нужное пользователю (0, ""). Error of behavior was corrected (#9929).</p>
 
 <p><a href="https://help.loginom.ru/userguide/processors/scrutiny/duplicates.html" target="_blank"><strong>Дубликаты и противоречия:</strong></a> Исправлена ошибка «Abstract method called», которая возникала в визуализаторе <em>Качество данных</em>, настроенном на узле, который получал данные с узла <em>Дубликаты и противоречия</em> (#10201).</p>
 
-<p><a href="https://help.loginom.ru/userguide/processors/transformation/substitution/" target="_blank"><strong>Замена:</strong></a> При способе замены <em>Ввод вручную</em> повторное нажатие на кнопку <em>Экспорт</em> для экспорта таблицы замен приводило к ошибке «Невозможно перейти по адресу: blob:...». Ошибка возникала в настольной версии Loginom. Внесли необходимые исправления (#10164).</p>
+<p><a href="https://help.loginom.ru/userguide/processors/transformation/substitution/" target="_blank"><strong>Замена:</strong></a> При способе замены <em>Ввод вручную</em> повторное нажатие на кнопку <em>Экспорт</em> для экспорта таблицы замен приводило к ошибке «Невозможно перейти по адресу: blob:...». The error occurred in the desktop Loginom version. The required corrections were introduced (#10164).</p>
 
 <p><a href="https://help.loginom.ru/userguide/integration/import/excel/" target="_blank"><strong>Импорт из Excel файла:</strong></a> Исправлена ошибка «Failed to open / Не удалось открыть Excel», которая возникала при попытке импортировать файл, полученный экспортом из Power BI или Teradata SQL Assistant (#9849).</p>
 
-<p><a href="https://help.loginom.ru/userguide/processors/transformation/calc/" target="_blank"><strong>Калькулятор:</strong></a> Если изменить выражение и, не выходя из редактора, нажать клавишу F3 (открыть <em>Предпросмотр</em>), то результат в <em>Предпросмотре</em> не учитывал последние изменения. Ошибку исправили (#10166).</p>
+<p><a href="https://help.loginom.ru/userguide/processors/transformation/calc/" target="_blank"><strong>Калькулятор:</strong></a> Если изменить выражение и, не выходя из редактора, нажать клавишу F3 (открыть <em>Предпросмотр</em>), то результат в <em>Предпросмотре</em> не учитывал последние изменения. The error was corrected (#10166).</p>
 
-<p><strong>Область построения сценария:</strong> Если попытаться переименовать заблокированный узел, то после сообщения об ошибке «Узел заблокирован», изменить метку нельзя, скрывалась иконка замка у метки узла. Также пропадали переводы строк у многострочной метки узла. Ошибки исправили (#10077).</p>
+<p><strong>Область построения сценария:</strong> Если попытаться переименовать заблокированный узел, то после сообщения об ошибке «Узел заблокирован», изменить метку нельзя, скрывалась иконка замка у метки узла. Также пропадали переводы строк у многострочной метки узла. The errors were corrected (#10077).</p>
 
-<p><strong>Область построения сценария:</strong> В сильно загруженной системе при перетаскивании компонента в область построения сценария он откреплялся от курсора и добавлялся в область построения сценария сразу после того, как появлялся над этой областью. При этом не происходило выделение узла. Ошибочное поведение исправили (#10168).</p>
+<p><strong>Область построения сценария:</strong> В сильно загруженной системе при перетаскивании компонента в область построения сценария он откреплялся от курсора и добавлялся в область построения сценария сразу после того, как появлялся над этой областью. In this case, the node was not selected. Error of behavior was corrected (#10168).</p>
 
-<p><a href="https://help.loginom.ru/userguide/integration/connections/list/postgresql.html" target="_blank"><strong>Подключение PostgreSQL:</strong></a> Исправлена ошибка «Error on data waiting from the connection: No such file or directory. Socket Error Code: 2($2)». Она возникала нерегулярно в редакциях под Linux и не имела точных шагов воспроизведения (#10179).</p>
+<p><a href="https://help.loginom.ru/userguide/integration/connections/list/postgresql.html" target="_blank"><strong>PostgreSQL connection:</strong></a> The following error was correcte: "Error on data waiting from the connection: No such file or directory. Socket Error Code: 2($2)". Она возникала нерегулярно в редакциях под Linux и не имела точных шагов воспроизведения (#10179).</p>
 
 <p><a href="https://help.loginom.ru/userguide/integration/connections/list/schemes.html" target="_blank"><strong>Подключение набора XSD-схем:</strong></a> Устранена утечка памяти, которая возникала, если подключение настроено на схему с абстрактными элементами (#10205).</p>
 

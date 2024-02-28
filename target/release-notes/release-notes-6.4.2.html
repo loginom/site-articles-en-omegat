@@ -18,7 +18,7 @@
 
 <p><a href="https://help.loginom.ru/userguide/integration/import/ldf.html" target="_blank"><strong>Import from LGD file:</strong></a>&nbsp;if only a part of the source file fileds is selected while importing, the error that causes unexpected application exit could occur on condition of the particular combination of the source data types of such fields. For example, if the workflow with many cases of import from LGD files was executed in the package mode, the workflow was not executed if such error occurred, and LoginomServer service was stopped (#8363, #8367).</p>
 
-<p><strong>Import from MS Access Database, Export to MS Access Database:</strong> SQL requests that contained integer parameters were not operable while importing, and it was also not possible to export the integer fields (#8422).</p>
+<p><strong>Import from MS Access Database, Export to MS Access Database:</strong> SQL queries that contained integer parameters were not operable while importing, and it was also not possible to export the integer fields (#8422).</p>
 
 <p><a href="https://help.loginom.ru/userguide/integration/import/txt-csv.html" target="_blank"><strong>Import from Text File:</strong></a>&nbsp;if a cell of the column the caption of which contained a comma&nbsp;<em>&lt;,&gt;</em> was selected on "Import Parameters with Separators" page, the following error occurred when changing the settings in the wizard: "Invalid ComponentQuery selector: ..." (#7456).</p>
 
