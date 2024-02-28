@@ -6304,6 +6304,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Внесли исправления (#10111).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240228T195018Z" creationid="Марианна" creationdate="20240228T195018Z">
+        <seg>Corrections were introduced (#10111).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Внесли исправления (#10219).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240228T194946Z" creationid="Марианна" creationdate="20240228T194946Z">
@@ -8592,6 +8600,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Настольные редакции Loginom теперь доступны и для Linux.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240228T195201Z" creationid="Марианна" creationdate="20240228T195201Z">
+        <seg>Now the desktop Loginom editions are also available for Linux.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Настольные редакции под Linux</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240228T193438Z" creationid="Марианна" creationdate="20240228T193438Z">
@@ -10682,6 +10698,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Проблему решили.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240228T195257Z" creationid="Марианна" creationdate="20240228T195257Z">
+        <seg>The problem was solved.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Проведена значительная работа, направленная на улучшение и оптимизацию работы с базами данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240214T104530Z" creationid="Марианна" creationdate="20240214T104530Z">
@@ -12142,6 +12166,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230314T113156Z" creationid="Марианна" creationdate="20230314T113156Z">
         <seg>The node did not provide information on the duplicates in the replacement table, and the execution result could be incorrect.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Улучшен инсталлятор.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240228T195227Z" creationid="Марианна" creationdate="20240228T195227Z">
+        <seg>Installer was improved.</seg>
       </tuv>
     </tu>
     <tu>
