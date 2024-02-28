@@ -1270,6 +1270,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;a0&gt;&lt;s1&gt;Подключение ClickHouse:&lt;/s1&gt;&lt;/a0&gt; Исправлена ошибка, которая заключалась в нарушении порядка следования байтов GUID'а при экспорте в столбцы UUID (#10003).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240228T184249Z" creationid="Марианна" creationdate="20240228T184249Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;ClickHouse connection:&lt;/s1&gt;&lt;/a0&gt; The following error was corrected: GUID bytes sequence order was violated when exporting UUID to columns (#10003).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Подключение Deductor Warehouse MS SQL:&lt;/s1&gt;&lt;/a0&gt; Исправлена ошибка "Cannot execute command in current transaction context until previous opened DataSet ...".</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230314T202715Z" creationid="Марианна" creationdate="20230314T202715Z">
