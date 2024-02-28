@@ -8982,10 +8982,34 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ошибка исправлена (#10096).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240228T193923Z" creationid="Марианна" creationdate="20240228T193923Z">
+        <seg>The error was corrected (#10096).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Ошибка исправлена (#10123).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240228T194005Z" creationid="Марианна" creationdate="20240228T194005Z">
+        <seg>The error was corrected (#10123).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ошибка исправлена (#9101).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220425T203320Z" creationid="Марианна" creationdate="20220425T203320Z">
-        <seg>Error was corrected (#9101).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240228T194013Z" creationid="Марианна" creationdate="20220425T203320Z">
+        <seg>The error was corrected (#9101).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Ошибка исправлена (#9896).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240228T194033Z" creationid="Марианна" creationdate="20240228T193844Z">
+        <seg>The error was corrected (#9896).</seg>
       </tuv>
     </tu>
     <tu>
@@ -9078,6 +9102,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ошибка регрессионная и появилась в версии 7.0.0.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240228T193903Z" creationid="Марианна" creationdate="20240228T193903Z">
+        <seg>It is a regression error and it appeared in version 7.0.0.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ошибка регрессионная, появилась в версии 7.0.0 и наблюдалась при подключении к Oracle без использования клиента (#10029).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240227T075236Z" creationid="Марианна" creationdate="20240227T075205Z">
@@ -9146,6 +9178,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240227T073047Z" creationid="Марианна" creationdate="20240227T073047Z">
         <seg>The error was corrected (#10006).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Ошибку исправили (#10014).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240228T193915Z" creationid="Марианна" creationdate="20240228T193915Z">
+        <seg>The error was corrected (#10014).</seg>
       </tuv>
     </tu>
     <tu>
@@ -9326,6 +9366,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ошибочное поведение исправили (#8104).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240228T193945Z" creationid="Марианна" creationdate="20240228T193945Z">
+        <seg>Error of behavior was corrected (#8104).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ошибочное поведение исправили (#8662).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240227T072228Z" creationid="Марианна" creationdate="20240227T072228Z">
@@ -9362,6 +9410,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240227T073351Z" creationid="Марианна" creationdate="20240227T073351Z">
         <seg>Error of behavior was corrected (#9948).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Ошибочное поведение исправили (#9955).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240228T193938Z" creationid="Марианна" creationdate="20240228T193938Z">
+        <seg>Error of behavior was corrected (#9955).</seg>
       </tuv>
     </tu>
     <tu>
