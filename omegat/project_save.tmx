@@ -134,6 +134,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>/sites/default/files/blogpost-images/cub_cancel_download_0.png</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240228T191752Z" creationid="Марианна" creationdate="20240228T191752Z">
+        <seg>/sites/default/files/blogpost-images/cub_cancel_download_0.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>/sites/default/files/blogpost-images/cub_mesure_setting.png</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240211T171427Z" creationid="Марианна" creationdate="20240211T171427Z">
@@ -298,6 +306,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T201915Z" creationid="Марианна" creationdate="20210314T201915Z">
         <seg>/sites/default/files/styles/image792/public/blogpost-images/admin.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>/sites/default/files/styles/image792/public/blogpost-images/cub_cancel_download_0.png</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240228T191755Z" creationid="Марианна" creationdate="20240228T191755Z">
+        <seg>/sites/default/files/styles/image792/public/blogpost-images/cub_cancel_download_0.png</seg>
       </tuv>
     </tu>
     <tu>
@@ -3630,6 +3646,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/admin/dispatcher.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240228T191639Z" creationid="Марианна" creationdate="20240228T191639Z">
+        <seg>https://help.loginom.ru/userguide/admin/dispatcher.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>https://help.loginom.ru/userguide/admin/index.html</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220425T150127Z" creationid="Марианна" creationdate="20220425T150127Z">
@@ -3966,6 +3990,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/interface/address-bar.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240228T191658Z" creationid="Марианна" creationdate="20240228T191658Z">
+        <seg>https://help.loginom.ru/userguide/interface/address-bar.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>https://help.loginom.ru/userguide/interface/main-menu.html</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240228T191405Z" creationid="Марианна" creationdate="20240228T191405Z">
@@ -4098,6 +4130,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220220T163531Z" creationid="Марианна" creationdate="20220220T163531Z">
         <seg>https://help.loginom.ru/userguide/processors/datamining/arimax.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/processors/datamining/association-rules.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240228T191745Z" creationid="Марианна" creationdate="20240228T191745Z">
+        <seg>https://help.loginom.ru/userguide/processors/datamining/association-rules.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -4478,6 +4518,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/processors/variables/variables-calc.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240228T191646Z" creationid="Марианна" creationdate="20240228T191646Z">
+        <seg>https://help.loginom.ru/userguide/processors/variables/variables-calc.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>https://help.loginom.ru/userguide/processors/variables/variables-from-table.html</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220425T150032Z" creationid="Марианна" creationdate="20220425T150032Z">
@@ -4786,6 +4834,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240211T172503Z" creationid="Марианна" creationdate="20240211T172503Z">
         <seg>https://ru.wikipedia.org/wiki/%D0%A1%D0%BE%D0%BA%D0%B5%D1%82_%D0%B4%D0%BE%D0%BC%D0%B5%D0%BD%D0%B0_Unix</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>https://ru.wikipedia.org/wiki/GTK</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240228T191738Z" creationid="Марианна" creationdate="20240228T191738Z">
+        <seg>https://ru.wikipedia.org/wiki/GTK</seg>
       </tuv>
     </tu>
     <tu>
@@ -8114,6 +8170,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240219T145338Z" creationid="Марианна" creationdate="20240219T145338Z">
         <seg>Loginom login and password can be transferred in URL now.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Логирование</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240228T191716Z" creationid="Марианна" creationdate="20240228T191716Z">
+        <seg>Logging</seg>
       </tuv>
     </tu>
     <tu>
