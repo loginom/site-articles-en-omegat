@@ -3390,6 +3390,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Cannot read properties of undefined (reading 'PrepareFilterField')».</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240228T194159Z" creationid="Марианна" creationdate="20240228T194159Z">
+        <seg>Cannot read properties of undefined (reading 'PrepareFilterField')».</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Cannot read property 'PrepareFilterField' of undefined» (#8394, #8451).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210616T153932Z" creationid="Марианна" creationdate="20210616T153932Z">
@@ -6206,6 +6214,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Внесли исправления (#10069).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240228T194156Z" creationid="Марианна" creationdate="20240228T194156Z">
+        <seg>Corrections were introduced (#10069).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Внесли исправления (#9244).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240227T072045Z" creationid="Марианна" creationdate="20240227T072045Z">
@@ -6258,6 +6274,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240227T073405Z" creationid="Марианна" creationdate="20240227T073405Z">
         <seg>The required corrections were introduced (#10039).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Внесли необходимые исправления (#10065).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240228T194103Z" creationid="Марианна" creationdate="20240228T194103Z">
+        <seg>The required corrections were introduced (#10065).</seg>
       </tuv>
     </tu>
     <tu>
@@ -8782,6 +8806,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Она появилась в версии 7.0.0.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240228T194121Z" creationid="Марианна" creationdate="20240228T194121Z">
+        <seg>It appeared in version 7.0.0.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Оно появлялось в версии 7.0.0.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230314T115710Z" creationid="Марианна" creationdate="20230314T115710Z">
@@ -9206,6 +9238,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ошибку исправили (#6246).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240228T194224Z" creationid="Марианна" creationdate="20240228T194224Z">
+        <seg>The error was corrected (#6246).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ошибку исправили (#7275).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230313T091843Z" creationid="Марианна" creationdate="20230313T091843Z">
@@ -9330,6 +9370,30 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240227T073010Z" creationid="Марианна" creationdate="20240227T073010Z">
         <seg>The error was corrected (#9960, #9888).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Ошибку исправили.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240228T194215Z" creationid="Марианна" creationdate="20240228T194215Z">
+        <seg>The error was corrected.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Ошибочное поведение исправили (#10112).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240228T194139Z" creationid="Марианна" creationdate="20240228T194139Z">
+        <seg>Error of behavior was corrected (#10112).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Ошибочное поведение исправили (#4908).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240228T194254Z" creationid="Марианна" creationdate="20240228T194254Z">
+        <seg>Error of behavior was corrected (#4908).</seg>
       </tuv>
     </tu>
     <tu>
