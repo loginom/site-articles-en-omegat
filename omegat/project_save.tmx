@@ -928,8 +928,8 @@
       <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Импорт из базы данных:&lt;/s1&gt;&lt;/a0&gt; Не активировались входные переменные при первом запуске предпросмотра результатов SQL-запроса в мастере настройки импорта из БД.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220929T145210Z" creationid="Марианна" creationdate="20220929T143944Z">
-        <seg>&lt;a0&gt;&lt;s1&gt;Import from database:&lt;/s1&gt;&lt;/a0&gt; The input variables were not activated after the first start of the SQL request results preview in the import from DB wizard.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240228T191047Z" creationid="Марианна" creationdate="20220929T143944Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Import from database:&lt;/s1&gt;&lt;/a0&gt; The input variables were not activated after the first start of the SQL query results preview in the import from DB wizard.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2248,8 +2248,8 @@
       <tuv lang="ru">
         <seg>&lt;s0&gt;Импорт из базы данных MS Access, Экспорт в базу данных MS Access:&lt;/s0&gt; при импорте не работали SQL-запросы, содержащие параметры целого типа, а также нельзя было выполнить экспорт полей целого типа (#8422).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210617T112458Z" creationid="Марианна" creationdate="20210616T200501Z">
-        <seg>&lt;s0&gt;Import from MS Access Database, Export to MS Access Database:&lt;/s0&gt; SQL requests that contained integer parameters were not operable while importing, and it was also not possible to export the integer fields (#8422).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240228T191019Z" creationid="Марианна" creationdate="20210616T200501Z">
+        <seg>&lt;s0&gt;Import from MS Access Database, Export to MS Access Database:&lt;/s0&gt; SQL queries that contained integer parameters were not operable while importing, and it was also not possible to export the integer fields (#8422).</seg>
       </tuv>
     </tu>
     <tu>
@@ -5544,8 +5544,8 @@
       <tuv lang="ru">
         <seg>В обновленном мастере настройки работа с SQL-запросами стала значительно удобнее:</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240218T181214Z" creationid="Марианна" creationdate="20240218T181214Z">
-        <seg>It became much more comfortable to work with SQL requests in the updated wizard:</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240228T191113Z" creationid="Марианна" creationdate="20240218T181214Z">
+        <seg>It became much more comfortable to work with SQL queries in the updated wizard:</seg>
       </tuv>
     </tu>
     <tu>
@@ -5640,8 +5640,8 @@
       <tuv lang="ru">
         <seg>В открытом после ошибки мастере настройки, в поле SQL-запроса, отображалось имя таблицы вместо текста запроса, а дальнейшие действия пользователя в мастере приводили к появлению различных ошибок.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240227T122842Z" creationid="Марианна" creationdate="20240227T122842Z">
-        <seg>The table name was displayed instead of the request text in the SQL request field in the wizard opened after an error, and further action performed in the wizard by the user caused different errors.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240228T191157Z" creationid="Марианна" creationdate="20240227T122842Z">
+        <seg>The table name was displayed instead of the request text in the SQL query field in the wizard opened after an error, and further action performed in the wizard by the user caused different errors.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5680,8 +5680,8 @@
       <tuv lang="ru">
         <seg>В прежнем исполнении в режиме SQL-запроса было недостаточно места для текста запроса, а также невозможно было тут же увидеть переменные и воспользоваться ими.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240218T181100Z" creationid="Марианна" creationdate="20240218T180928Z">
-        <seg>There was not enough space for the request text in the SQL request mode in the previous version, and it was also impossible to see variables and use them.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240228T191057Z" creationid="Марианна" creationdate="20240218T180928Z">
+        <seg>There was not enough space for the request text in the SQL query mode in the previous version, and it was also impossible to see variables and use them.</seg>
       </tuv>
     </tu>
     <tu>
@@ -11386,8 +11386,8 @@
       <tuv lang="ru">
         <seg>Теперь пользователь получит предупреждение до перехода на следующий шаг мастера, в случае, если в мастере настройки не выбрана таблица базы данных или не задан SQL-запрос (#6525).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220711T112246Z" creationid="Марианна" creationdate="20220711T091736Z">
-        <seg>Now, a user will receive a warning before the next wizard step if database table is not selected in the wizard, or SQL request is not set (#6525).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240228T191036Z" creationid="Марианна" creationdate="20220711T091736Z">
+        <seg>Now, a user will receive a warning before the next wizard step if database table is not selected in the wizard, or SQL query is not set (#6525).</seg>
       </tuv>
     </tu>
     <tu>
@@ -12034,16 +12034,16 @@
       <tuv lang="ru">
         <seg>в режиме SQL-запрос в дереве объектов БД доступен функционал фильтрации полей (при развернутом дереве);</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240219T120034Z" creationid="Марианна" creationdate="20240219T120034Z">
-        <seg>field filtration functionality is available in the SQL request mode in the DB object tree (when tree is expanded);</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240228T191136Z" creationid="Марианна" creationdate="20240219T120034Z">
+        <seg>field filtration functionality is available in the SQL query mode in the DB object tree (when tree is expanded);</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>в режиме SQL-запроса добавлен блок со списком переменных;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240218T181501Z" creationid="Марианна" creationdate="20240218T181501Z">
-        <seg>block with a list of variables was added in the SQL request mode;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240228T191129Z" creationid="Марианна" creationdate="20240218T181501Z">
+        <seg>block with a list of variables was added in the SQL query mode;</seg>
       </tuv>
     </tu>
     <tu>
@@ -12242,8 +12242,8 @@
       <tuv lang="ru">
         <seg>можно выбрать режим представления мастера «Выбор таблицы» или «SQL-запрос»;</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240218T181427Z" creationid="Марианна" creationdate="20240218T181427Z">
-        <seg>it became possible to select the "Table selection" or "SQL request" wizard representation mode;</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240228T191122Z" creationid="Марианна" creationdate="20240218T181427Z">
+        <seg>it became possible to select the "Table selection" or "SQL query" wizard representation mode;</seg>
       </tuv>
     </tu>
     <tu>
