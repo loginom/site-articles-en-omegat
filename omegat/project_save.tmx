@@ -8454,6 +8454,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Настольные редакции под Linux</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240228T193438Z" creationid="Марианна" creationdate="20240228T193438Z">
+        <seg>Desktop Editions for Linux</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Настроенные таким образом сценарии будут независимы от языковых настроек Windows и Loginom.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220228T102801Z" creationid="Марианна" creationdate="20220228T102801Z">
