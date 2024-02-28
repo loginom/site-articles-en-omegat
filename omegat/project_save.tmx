@@ -1398,6 +1398,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;a0&gt;&lt;s1&gt;Подключение PostgreSQL:&lt;/s1&gt;&lt;/a0&gt; Исправлена ошибка «Error on data waiting from the connection: No such file or directory.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240228T194516Z" creationid="Марианна" creationdate="20240228T194516Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;PostgreSQL connection:&lt;/s1&gt;&lt;/a0&gt; The following error was correcte: "Error on data waiting from the connection: No such file or directory.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Подключение PostgreSQL:&lt;/s1&gt;&lt;/a0&gt; Исправлена ошибка "Access violation", которая возникала при разрыве соединения с сервером.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240227T181046Z" creationid="Марианна" creationdate="20240227T181046Z">
@@ -1810,6 +1818,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240214T104142Z" creationid="Марианна" creationdate="20240214T104142Z">
         <seg>&lt;a0&gt;Integration with Kafka&lt;/a0&gt; is provided according to the same principle as integration with databases.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;a0&gt;Кубе&lt;/a0&gt; (#9730);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240228T194332Z" creationid="Марианна" creationdate="20240228T194332Z">
+        <seg>&lt;a0&gt;Cube&lt;/a0&gt; (#9730);</seg>
       </tuv>
     </tu>
     <tu>
@@ -3582,6 +3598,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Socket Error Code: 2($2)».</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240228T194520Z" creationid="Марианна" creationdate="20240228T194520Z">
+        <seg>Socket Error Code: 2($2)".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>https://day.loginom.ru/</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220929T123530Z" creationid="Марианна" creationdate="20220929T123530Z">
@@ -3706,6 +3730,22 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T203120Z" creationid="Марианна" creationdate="20210314T203120Z">
         <seg>https://help.loginom.ru/userguide/admin/users.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/components-platform.html#desktop</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240228T194304Z" creationid="Марианна" creationdate="20240228T194304Z">
+        <seg>https://help.loginom.ru/userguide/components-platform.html#desktop</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/components-platform.html#server</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240228T194312Z" creationid="Марианна" creationdate="20240228T194312Z">
+        <seg>https://help.loginom.ru/userguide/components-platform.html#server</seg>
       </tuv>
     </tu>
     <tu>
@@ -3954,6 +3994,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220220T163436Z" creationid="Марианна" creationdate="20220220T163436Z">
         <seg>https://help.loginom.ru/userguide/integration/import/excel.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/integration/import/excel/</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240228T194408Z" creationid="Марианна" creationdate="20240228T194408Z">
+        <seg>https://help.loginom.ru/userguide/integration/import/excel/</seg>
       </tuv>
     </tu>
     <tu>
@@ -4402,6 +4450,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T202238Z" creationid="Марианна" creationdate="20210314T202238Z">
         <seg>https://help.loginom.ru/userguide/processors/scrutiny/correlation-analysis.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/processors/scrutiny/duplicates.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240228T194353Z" creationid="Марианна" creationdate="20240228T194353Z">
+        <seg>https://help.loginom.ru/userguide/processors/scrutiny/duplicates.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -4858,6 +4914,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240228T191738Z" creationid="Марианна" creationdate="20240228T191738Z">
         <seg>https://ru.wikipedia.org/wiki/GTK</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>https://ru.wikipedia.org/wiki/KDE_Plasma_5</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240228T194528Z" creationid="Марианна" creationdate="20240228T194528Z">
+        <seg>https://ru.wikipedia.org/wiki/KDE_Plasma_5</seg>
       </tuv>
     </tu>
     <tu>
@@ -6282,6 +6346,22 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240228T194103Z" creationid="Марианна" creationdate="20240228T194103Z">
         <seg>The required corrections were introduced (#10065).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Внесли необходимые исправления (#10164).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240228T194406Z" creationid="Марианна" creationdate="20240228T194406Z">
+        <seg>The required corrections were introduced (#10164).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Внесли необходимые исправления (#10174).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240228T194343Z" creationid="Марианна" creationdate="20240228T194343Z">
+        <seg>The required corrections were introduced (#10174).</seg>
       </tuv>
     </tu>
     <tu>
@@ -9166,6 +9246,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ошибки исправили (#10077).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240228T194434Z" creationid="Марианна" creationdate="20240228T194434Z">
+        <seg>The errors were corrected (#10077).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ошибки исправили (#9179).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230210T082338Z" creationid="Марианна" creationdate="20230210T082338Z">
@@ -9226,6 +9314,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240227T072847Z" creationid="Марианна" creationdate="20240227T072847Z">
         <seg>The error was corrected (#10043).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Ошибку исправили (#10166).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240228T194424Z" creationid="Марианна" creationdate="20240228T194424Z">
+        <seg>The error was corrected (#10166).</seg>
       </tuv>
     </tu>
     <tu>
@@ -9390,6 +9486,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ошибочное поведение исправили (#10168).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240228T194451Z" creationid="Марианна" creationdate="20240228T194451Z">
+        <seg>Error of behavior was corrected (#10168).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ошибочное поведение исправили (#4908).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240228T194254Z" creationid="Марианна" creationdate="20240228T194254Z">
@@ -9466,6 +9570,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240227T072309Z" creationid="Марианна" creationdate="20240227T072309Z">
         <seg>Error of behavior was corrected (#9675).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Ошибочное поведение исправили (#9929).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240228T194351Z" creationid="Марианна" creationdate="20240228T194351Z">
+        <seg>Error of behavior was corrected (#9929).</seg>
       </tuv>
     </tu>
     <tu>
@@ -10428,6 +10540,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220307T142822Z" creationid="Марианна" creationdate="20220307T100938Z">
         <seg>When exporting to the databases, if "Update existing table records" export type is selected, and the key field contains &lt;e0&gt;NULL&lt;/e0&gt; values, the correct comparison of values is performed with the use of &lt;e1&gt;IS NULL&lt;/e1&gt; construction.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При этом не происходило выделение узла.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240228T194617Z" creationid="Марианна" creationdate="20240228T194617Z">
+        <seg>In this case, the node was not selected.</seg>
       </tuv>
     </tu>
     <tu>
