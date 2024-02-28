@@ -2262,6 +2262,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Инсталлятор:&lt;/s0&gt; При попытке установить Loginom Integrator с именем несуществующего сайта, работа инсталлятора преждевременно завершалась, а пользователь не получал никаких сообщений о причинах завершения установки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240228T183320Z" creationid="Марианна" creationdate="20240228T183320Z">
+        <seg>&lt;s0&gt;Installer:&lt;/s0&gt; While attempting to install Loginom Integrator with the name of nonexistent site, the installer operation was prematurely terminated, and the user received no messages concerning the reasons of installation termination.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Инсталлятор:&lt;/s0&gt; Редактировать IP-адрес и порт сайта можно только при создании нового сайта.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240227T125749Z" creationid="Марианна" creationdate="20240227T125749Z">
