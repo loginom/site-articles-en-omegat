@@ -918,6 +918,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;a0&gt;&lt;s1&gt;Импорт из базы данных:&lt;/s1&gt;&lt;/a0&gt; Если в мастере настройки задать через переменную &lt;e2&gt;Имя таблицы&lt;/e2&gt;, открыть &lt;e3&gt;Предпросмотр&lt;/e3&gt;, перейти в режим &lt;e4&gt;SQL запрос&lt;/e4&gt;, задать любой запрос, завершить настройку и выполнить узел, то возникала ошибка: «Выполнение запроса... окончилось неудачно, ...».</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240228T190936Z" creationid="Марианна" creationdate="20240228T190936Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Import from database:&lt;/s1&gt;&lt;/a0&gt; If &lt;e2&gt;Table name&lt;/e2&gt; was set via variable in the wizard, &lt;e3&gt;Preview&lt;/e3&gt; was opened,&lt;e4&gt;SQL query&lt;/e4&gt; mode was selected, any query was specified, setup was completed and node was executed, the following error occurred: "Execution of query... failed, ...».</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Импорт из базы данных:&lt;/s1&gt;&lt;/a0&gt; Не активировались входные переменные при первом запуске предпросмотра результатов SQL-запроса в мастере настройки импорта из БД.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220929T145210Z" creationid="Марианна" creationdate="20220929T143944Z">
