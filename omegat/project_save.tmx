@@ -406,6 +406,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>2023-05-12T17:27:37.475 info e688494e9da1c6488e5f505b8e65a92e (Server.exe:7280&gt;user:1:) - Инициализирована сессия для пользователя user{"USER_NAME": "user", "SESSION_TYPE": "Интерактивная сессия", "CLIENT_IP": "127.0.0.1", "CLIENT_HOST": "PC-X.bg.local", "HEADERS": "{host=localhost:8080,connection=Upgrade,pragma=no-cache,cache-control=no-cache,"user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",upgrade=websocket,origin=http://localhost,sec-websocket-version=13,"accept-encoding=gzip, deflate, br","accept-language=en-US,en;q=0.9",sec-websocket-key=rO8ZERq8O9UCJ/Np8j9plA==,"sec-websocket-extensions=permessage-deflate; client_max_window_bits"}"}</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240228T193355Z" creationid="Марианна" creationdate="20240228T193355Z">
+        <seg>2023-05-12T17:27:37.475 info e688494e9da1c6488e5f505b8e65a92e (Server.exe:7280&gt;user:1:) - Session initialized for user user{"USER_NAME": "user", "SESSION_TYPE": "Interactive session", "CLIENT_IP": "127.0.0.1", "CLIENT_HOST": "PC-X.bg.local", "HEADERS": "{host=localhost:8080,connection=Upgrade,pragma=no-cache,cache-control=no-cache,"user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",upgrade=websocket,origin=http://localhost,sec-websocket-version=13,"accept-encoding=gzip, deflate, br","accept-language=en-US,en;q=0.9",sec-websocket-key=rO8ZERq8O9UCJ/Np8j9plA==,"sec-websocket-extensions=permessage-deflate; client_max_window_bits"}"}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>7.0.1</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230313T090519Z" creationid="Марианна" creationdate="20230313T090519Z">
