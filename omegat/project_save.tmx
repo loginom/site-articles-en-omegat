@@ -118,6 +118,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>/sites/default/files/blogpost-images/adm_param.png</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240228T191318Z" creationid="Марианна" creationdate="20240228T191318Z">
+        <seg>/sites/default/files/blogpost-images/adm_param.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>/sites/default/files/blogpost-images/admin.png</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T201809Z" creationid="Марианна" creationdate="20210314T201809Z">
@@ -206,6 +214,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>/sites/default/files/blogpost-images/import_lgd.png</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240228T191429Z" creationid="Марианна" creationdate="20240228T191429Z">
+        <seg>/sites/default/files/blogpost-images/import_lgd.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>/sites/default/files/blogpost-images/notes.png</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240211T171407Z" creationid="Марианна" creationdate="20240211T171407Z">
@@ -266,6 +282,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T200956Z" creationid="Марианна" creationdate="20210314T200956Z">
         <seg>/sites/default/files/styles/image792/public/blogpost-images/09-logregression.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>/sites/default/files/styles/image792/public/blogpost-images/adm_param.png</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240228T191322Z" creationid="Марианна" creationdate="20240228T191322Z">
+        <seg>/sites/default/files/styles/image792/public/blogpost-images/adm_param.png</seg>
       </tuv>
     </tu>
     <tu>
@@ -346,6 +370,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T195932Z" creationid="Марианна" creationdate="20210314T195932Z">
         <seg>/sites/default/files/styles/image792/public/blogpost-images/dw-import.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>/sites/default/files/styles/image792/public/blogpost-images/import_lgd.png</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240228T191433Z" creationid="Марианна" creationdate="20240228T191433Z">
+        <seg>/sites/default/files/styles/image792/public/blogpost-images/import_lgd.png</seg>
       </tuv>
     </tu>
     <tu>
@@ -3438,6 +3470,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Loginom Data File</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240228T191414Z" creationid="Марианна" creationdate="20240228T191414Z">
+        <seg>Loginom Data File</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Loginom Integrator</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220220T163507Z" creationid="Марианна" creationdate="20220220T163507Z">
@@ -3922,6 +3962,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211215T125716Z" creationid="Марианна" creationdate="20211215T125716Z">
         <seg>https://help.loginom.ru/userguide/interface/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>https://help.loginom.ru/userguide/interface/main-menu.html</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240228T191405Z" creationid="Марианна" creationdate="20240228T191405Z">
+        <seg>https://help.loginom.ru/userguide/interface/main-menu.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -4738,6 +4786,30 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240211T172503Z" creationid="Марианна" creationdate="20240211T172503Z">
         <seg>https://ru.wikipedia.org/wiki/%D0%A1%D0%BE%D0%BA%D0%B5%D1%82_%D0%B4%D0%BE%D0%BC%D0%B5%D0%BD%D0%B0_Unix</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>https://ru.wikipedia.org/wiki/LZ4</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240228T191420Z" creationid="Марианна" creationdate="20240228T191420Z">
+        <seg>https://ru.wikipedia.org/wiki/LZ4</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>https://ru.wikipedia.org/wiki/LZO</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240228T191417Z" creationid="Марианна" creationdate="20240228T191417Z">
+        <seg>https://ru.wikipedia.org/wiki/LZO</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>https://t.me/loginom</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240228T191259Z" creationid="Марианна" creationdate="20240228T191259Z">
+        <seg>https://t.me/loginom</seg>
       </tuv>
     </tu>
     <tu>
@@ -8486,10 +8558,26 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Новые возможности в стандартных компонентах</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240228T191621Z" creationid="Марианна" creationdate="20240228T191621Z">
+        <seg>New Opportunities in Standard Components</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Новые возможности появились в обработчике JavaScript, при импорте данных из файлов, в визуализаторе OLAP-куб и в Отчетах.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240212T083228Z" creationid="Марианна" creationdate="20240212T083228Z">
         <seg>New features appeared in JavaScript handler when importing data from files as well as in OLAP cube visualizer and Reports.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Новые параметры в разделе Администрирование</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240228T191357Z" creationid="Марианна" creationdate="20240228T191357Z">
+        <seg>New Parameters in the Administration Section</seg>
       </tuv>
     </tu>
     <tu>
