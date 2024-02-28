@@ -9446,6 +9446,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Параметр Контрольная сумма</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240228T193618Z" creationid="Марианна" creationdate="20240228T193618Z">
+        <seg>Control Sum parameter</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Параметры &lt;a1&gt;«Коэффициент Вальда»&lt;/a1&gt; и «Критерий Вальда» переименованы в параметр «Статистика Вальда», а «Коэффициент детерминации» переименован в «Псевдо-R² Макфаддена»</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220304T191227Z" creationid="Марианна" creationdate="20220304T191227Z">
@@ -10332,6 +10340,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220308T144343Z" creationid="Марианна" creationdate="20220308T144326Z">
         <seg>And the names ending with a point or space are forbidden.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Пример записи:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240228T193516Z" creationid="Марианна" creationdate="20240228T193516Z">
+        <seg>Record example:</seg>
       </tuv>
     </tu>
     <tu>
