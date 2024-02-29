@@ -2592,8 +2592,8 @@
       <tuv lang="ru">
         <seg>&lt;s0&gt;Область построения сценария:&lt;/s0&gt; На выходе &lt;e1&gt;Подмодели&lt;/e1&gt; пропадала иконка служебного порта после сохранения и повторного открытия пакета и удаления одной из нескольких связей, подключенных к этому порту.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240229T101453Z" creationid="Марианна" creationdate="20240229T101453Z">
-        <seg>&lt;s0&gt;Workflow construction area:&lt;/s0&gt; The service port icon disappeared after package was saved and repeatedly opened and when one of several links connected to this port was deleted at the &lt;e1&gt;Supernode&lt;/e1&gt; output.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240229T101613Z" creationid="Марианна" creationdate="20240229T101453Z">
+        <seg>&lt;s0&gt;Workflow construction area:&lt;/s0&gt; At the &lt;e1&gt;Supernode&lt;/e1&gt; output the service port icon disappeared after package was saved and repeatedly opened and when one of several links connected to this port was deleted.</seg>
       </tuv>
     </tu>
     <tu>
