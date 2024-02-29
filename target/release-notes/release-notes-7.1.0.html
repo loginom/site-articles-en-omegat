@@ -8,9 +8,9 @@
 
 <p><a href="https://help.loginom.ru/userguide/processors/programming/python/" target="_blank"><strong>Python:</strong></a> When using Python 3.9.x, start of scripts inside the Loginom process caused "Access violation" error. It appeared in version 7.0.0. The required corrections were introduced (#10065).</p>
 
-<p><a href="https://help.loginom.ru/userguide/processors/datamining/association-rules.html" target="_blank"><strong>Ассоциативные правила:</strong></a> Исправлена регрессионная ошибка "Access violation", которая появилась в версии 7.0.0 и возникала, если остановить процесс обучения узла, зайти в мастер настройки, изменить любой параметр, сохранить настройки и запустить узел на переобучение (#10067).</p>
+<p><a href="https://help.loginom.ru/userguide/processors/datamining/association-rules.html" target="_blank"><strong>Association rules:</strong></a> "Access violation" regression error was corrected. It appeared in version 7.0.0 and it occurred if the user stopped the node training process, entered the wizard, changed any parameter, saved the settings and started the node retraining (#10067).</p>
 
-<p><strong>Ассоциативные правила:</strong> Если при обучении узла возникала ошибка "Out of memory", то после изменения настроек и повторного обучения узла выходной порт оставался пустым, а при попытке выполнить узел появлялось сообщение, что узел не обучен. It was impossible to train other <em>Association rules</em> nodes in the current workflow using the same data. It is a regression error and it appeared in version 7.0.0. Corrections were introduced (#10069).</p>
+<p><strong>Association rules:</strong> If "Out of memory" error occurred when training the node, after settings changing and repeated node training the output port remained empty, and while attempting to execute the node, a message appeared with information that the node was not trained. It was impossible to train other <em>Association rules</em> nodes in the current workflow using the same data. It is a regression error and it appeared in version 7.0.0. Corrections were introduced (#10069).</p>
 
 <p><strong>Ассоциативные правила:</strong> Из-за ошибки округления могли быть отобраны не все правила, удовлетворяющие минимальной достоверности. Ошибку исправили, проверка правил на минимальную достоверность выполняется с точностью до целых процентов (#10091).</p>
 
