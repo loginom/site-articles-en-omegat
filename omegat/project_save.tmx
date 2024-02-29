@@ -1408,8 +1408,8 @@
       <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Подключение Oracle:&lt;/s1&gt;&lt;/a0&gt; Исправлена ошибка "Access violation", которая возникала при разрыве соединения с сервером (при отсутствии подключения к базе данных по локальной сети).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240227T182137Z" creationid="Марианна" creationdate="20240227T181837Z">
-        <seg>&lt;a0&gt;&lt;s1&gt;Oracle connection:&lt;/s1&gt;&lt;/a0&gt; "Access violation" error was corrected. It occurred when the connection with the server was lost (when there is no LAN connection to the database).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240229T123215Z" creationid="Марианна" creationdate="20240227T181837Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Oracle connection:&lt;/s1&gt;&lt;/a0&gt; "Access violation" error was corrected. It occurred when the connection with the server was lost (when there was no LAN connection to the database).</seg>
       </tuv>
     </tu>
     <tu>
