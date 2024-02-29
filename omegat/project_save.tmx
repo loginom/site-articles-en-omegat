@@ -2142,6 +2142,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Ассоциативные правила:&lt;/s0&gt; Если при обучении узла возникала ошибка "Out of memory", то после изменения настроек и повторного обучения узла выходной порт оставался пустым, а при попытке выполнить узел появлялось сообщение, что узел не обучен.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240229T172043Z" creationid="Марианна" creationdate="20240229T172043Z">
+        <seg>&lt;s0&gt;Association rules:&lt;/s0&gt; If "Out of memory" error occurred when training the node, after setting changing and repeated node training the output port was empty, and while attempting to execute the node, a message appeared with information that the node was not trained.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Быстрый просмотр:&lt;/s0&gt; сочетания горячих клавиш для переключения между режимами просмотра «Таблица» и «Форма» изменены с &lt;e1&gt;«Alt + T»&lt;/e1&gt; и &lt;e2&gt;«Alt + F»&lt;/e2&gt; на &lt;e3&gt;«Alt + 1»&lt;/e3&gt; и &lt;e4&gt;«Alt + 2»&lt;/e4&gt; соответственно (#8137).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210323T092150Z" creationid="Марианна" creationdate="20210323T092150Z">
