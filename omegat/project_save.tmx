@@ -1976,8 +1976,8 @@
       <tuv lang="ru">
         <seg>&lt;s0&gt;Loginom Server:&lt;/s0&gt; В &lt;e1&gt;Диспетчере&lt;/e1&gt; отображался старый идентификатор сессии после ее перезапуска, т.е. идентификатор сессии и время ее создания не менялись.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240229T124618Z" creationid="Марианна" creationdate="20240229T124618Z">
-        <seg>&lt;s0&gt;Loginom Server:&lt;/s0&gt; The old session identifier was displayed in the &lt;e1&gt;Session Manager&lt;/e1&gt; after its restart. Namely, identifier of the session and the date of its creation didn't change.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240229T124647Z" creationid="Марианна" creationdate="20240229T124618Z">
+        <seg>&lt;s0&gt;Loginom Server:&lt;/s0&gt; The old session identifier was displayed in the &lt;e1&gt;Session Manager&lt;/e1&gt; after its restart. Namely, the identifier of the session and the date of its creation didn't change.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9252,6 +9252,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211229T121453Z" creationid="Марианна" creationdate="20211229T121123Z">
         <seg>The error was caused by unavailability of the multirow export to &lt;e3&gt;MSSQL 2005&lt;/e3&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Ошибка возникала при запуске специально подготовленных сценариев.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240229T124717Z" creationid="Марианна" creationdate="20240229T124717Z">
+        <seg>The error occurred when starting specially prepared workflows.</seg>
       </tuv>
     </tu>
     <tu>
