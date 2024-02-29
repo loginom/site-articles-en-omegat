@@ -702,6 +702,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;a0&gt;&lt;s1&gt;Ассоциативные правила:&lt;/s1&gt;&lt;/a0&gt; Исправлена регрессионная ошибка "Access violation", которая появилась в версии 7.0.0 и возникала, если остановить процесс обучения узла, зайти в мастер настройки, изменить любой параметр, сохранить настройки и запустить узел на переобучение (#10067).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240229T171745Z" creationid="Марианна" creationdate="20240229T171745Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Association rules:&lt;/s1&gt;&lt;/a0&gt; "Access violation" regression error was corrected. It appeared in version 7.0.0 and it occurred if the user stopped the node training process, entered the wizard, changed any parameter, saved the settings and started the node retraining (#10067).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Быстрый просмотр:&lt;/s1&gt;&lt;/a0&gt; при копировании в буфер обмена в некоторых случаях многострочные значения копировались без экранирующих кавычек (#8138).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210325T115551Z" creationid="Марианна" creationdate="20210322T223950Z">
