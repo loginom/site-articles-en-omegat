@@ -10307,8 +10307,8 @@
       <tuv lang="ru">
         <seg>После нажатия кнопки «Остановить» выдавалось сообщение: «Пустая ссылка на объект».</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240229T124034Z" creationid="Марианна" creationdate="20240229T124034Z">
-        <seg>After clicking on "Stop" button the following message was displayed: "Empty reference to object".</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240229T124052Z" creationid="Марианна" creationdate="20240229T124034Z">
+        <seg>After clicking on "Stop" button the following message was displayed: "Null reference to object".</seg>
       </tuv>
     </tu>
     <tu>
