@@ -8592,6 +8592,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Например, в строке «Год+Квартал» шаблон %Y-Q%Q после клика на строку «Год+Месяц» заменялся на %Y-M%m.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240229T103026Z" creationid="Марианна" creationdate="20240229T103026Z">
+        <seg>For example, %Y-Q%Q template in "Year+Quarter" row was replaced with %Y-M%m after clicking on "Year+Month" row.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Например, если Loginom Integrator развёрнут по адресу: &lt;c2&gt;http://localhost/lgi&lt;/c2&gt;, и атрибут &lt;c3&gt;urlPathPrefix&lt;/c3&gt; не указан, то help-страница для REST доступна по адресу: &lt;c4&gt;http://localhost/lgi/rest/help&lt;/c4&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240218T183545Z" creationid="Марианна" creationdate="20240218T183545Z">
