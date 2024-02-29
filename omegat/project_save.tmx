@@ -10281,6 +10281,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>После внесенных исправлений выполнение пакета останавливается, ошибок не возникает (#10110).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240229T124433Z" creationid="Марианна" creationdate="20240229T124433Z">
+        <seg>The package execution stops after introduced corrections, no errors occur (#10110).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>После деактивации и повторной активации настройки «Уникальные значения как имена полей», имена столбцов будут формироваться уже по-новому с транслитерацией.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220309T074847Z" creationid="Марианна" creationdate="20220309T074847Z">
