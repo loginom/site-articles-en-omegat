@@ -5914,8 +5914,8 @@
       <tuv lang="ru">
         <seg>В обычных условиях применения продукта ошибка не воспроизводилась.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240229T124755Z" creationid="Марианна" creationdate="20240229T124755Z">
-        <seg>Under the normal use conditions the error was not reproduced.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240229T124835Z" creationid="Марианна" creationdate="20240229T124755Z">
+        <seg>Under normal conditions of the product use the error was not reproduced.</seg>
       </tuv>
     </tu>
     <tu>
