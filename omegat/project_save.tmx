@@ -6208,6 +6208,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В текущем сценарии на этих же данных невозможно было обучить и другие узлы &lt;e1&gt;Ассоциативные правила&lt;/e1&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240229T125357Z" creationid="Марианна" creationdate="20240229T125357Z">
+        <seg>It was impossible to train other &lt;e1&gt;Association rules&lt;/e1&gt; nodes in the current workflow using the same data.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В том числе, сообщение будет получено, если в самом пакете нет таких узлов, но они есть в одном из подключенных пакетов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220227T155922Z" creationid="Марианна" creationdate="20220227T155922Z">
