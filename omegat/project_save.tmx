@@ -536,8 +536,8 @@
       <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Loginom Server:&lt;/s1&gt;&lt;/a0&gt; Исправлена ошибка, которая возникала в &lt;a2&gt;Диспетчере&lt;/a2&gt; при попытке остановить выполнение пакета в сессии, созданной из &lt;a3&gt;BatchLauncher&lt;/a3&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240229T123830Z" creationid="Марианна" creationdate="20240229T123830Z">
-        <seg>&lt;a0&gt;&lt;s1&gt;Loginom Server:&lt;/s1&gt;&lt;/a0&gt; The error that occurred in &lt;a2&gt;Session Manager&lt;/a2&gt; while attemting to stop the package execution in the series created from &lt;a3&gt;BatchLauncher&lt;/a3&gt; was corrected.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240229T123853Z" creationid="Марианна" creationdate="20240229T123830Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Loginom Server:&lt;/s1&gt;&lt;/a0&gt; The error that occurred in &lt;a2&gt;Session Manager&lt;/a2&gt; while attempting to stop the package execution in the session created from &lt;a3&gt;BatchLauncher&lt;/a3&gt; was corrected.</seg>
       </tuv>
     </tu>
     <tu>
