@@ -1144,8 +1144,8 @@
       <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Конечные классы:&lt;/s1&gt;&lt;/a0&gt; Для параметра &lt;e2&gt;Максимальное количество классов&lt;/e2&gt; на втором шаге настройки был установлен диапазон допустимых значений [0, 1000], а на третьем — [1, 100].</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240229T095627Z" creationid="Марианна" creationdate="20240229T095038Z">
-        <seg>&lt;a0&gt;&lt;s1&gt;Coarse сlasses:&lt;/s1&gt;&lt;/a0&gt; The range of allowed values equal to [0, 1000] was set at the second configuration step and [1, 100] - at the third configuration step for &lt;e2&gt;Maximum class count&lt;/e2&gt; parameter .</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240229T100829Z" creationid="Марианна" creationdate="20240229T095038Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Coarse сlasses:&lt;/s1&gt;&lt;/a0&gt; The range of allowed values equal to [0, 1000] was set at the second configuration step and [1, 100] - at the third configuration step for the &lt;e2&gt;Maximum class count&lt;/e2&gt; parameter .</seg>
       </tuv>
     </tu>
     <tu>
@@ -6732,6 +6732,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240219T122629Z" creationid="Марианна" creationdate="20240219T122329Z">
         <seg>The output data set will be changed for the packages created before version 6.4.0 in the "Additional data" port of the REST service node.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для параметра &lt;e5&gt;Максимальное количество классов&lt;/e5&gt; установлен диапазон допустимых значений [1, 1000] (#6627, #9198).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240229T101000Z" creationid="Марианна" creationdate="20240229T100923Z">
+        <seg>The range of allowed values equal to [1, 1000] was set for the &lt;e5&gt;Maximum class count&lt;/e5&gt; parameter (#6627, #9198).</seg>
       </tuv>
     </tu>
     <tu>
