@@ -2590,6 +2590,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Область построения сценария:&lt;/s0&gt; На выходе &lt;e1&gt;Подмодели&lt;/e1&gt; пропадала иконка служебного порта после сохранения и повторного открытия пакета и удаления одной из нескольких связей, подключенных к этому порту.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240229T101453Z" creationid="Марианна" creationdate="20240229T101453Z">
+        <seg>&lt;s0&gt;Workflow construction area:&lt;/s0&gt; The service port icon disappeared after package was saved and repeatedly opened and when one of several links connected to this port was deleted at the &lt;e1&gt;Supernode&lt;/e1&gt; output.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Обращаем внимание:&lt;/s0&gt; для версии Loginom 7.0 необходимы новые лицензионные SP-ключи или обновление прошивки USB-ключа.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230314T163228Z" creationid="Марианна" creationdate="20230314T105939Z">
