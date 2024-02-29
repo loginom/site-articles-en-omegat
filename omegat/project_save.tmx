@@ -9730,8 +9730,8 @@
       <tuv lang="ru">
         <seg>Ошибку можно было получить запуская специально подготовленные сценарии.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240229T124911Z" creationid="Марианна" creationdate="20240229T124911Z">
-        <seg>The error could occur when starting specially prepared workflows..</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240229T124950Z" creationid="Марианна" creationdate="20240229T124911Z">
+        <seg>The error could occur when starting specially prepared workflows.</seg>
       </tuv>
     </tu>
     <tu>
