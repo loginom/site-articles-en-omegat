@@ -9728,6 +9728,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ошибку можно было получить запуская специально подготовленные сценарии.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240229T124911Z" creationid="Марианна" creationdate="20240229T124911Z">
+        <seg>The error could occur when starting specially prepared workflows..</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ошибку экспорта исправили (#9683).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240228T195624Z" creationid="Марианна" creationdate="20240228T195624Z">
