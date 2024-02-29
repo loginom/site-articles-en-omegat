@@ -1968,8 +1968,8 @@
       <tuv lang="ru">
         <seg>&lt;s0&gt;Loginom Server:&lt;/s0&gt; Базовый пакет (пакет, на который ссылается другой пакет), заблокированный одним пользователем (открытый с возможностью редактирования), второй пользователь первый раз мог открыть только на чтение, а вот повторное открытие уже позволяло редактировать базовый пакет.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240227T122203Z" creationid="Марианна" creationdate="20240227T122203Z">
-        <seg>&lt;s0&gt;Loginom Server:&lt;/s0&gt; The base package (the package to which another package refers) locked by a user (opened with with the possibility to edit) can be opened by the second user as read-only, whereas the repeated opening enabled to edit the base package.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240229T122557Z" creationid="Марианна" creationdate="20240227T122203Z">
+        <seg>&lt;s0&gt;Loginom Server:&lt;/s0&gt; The base package (the package to which another package refers) locked by the user (opened with the possibility to edit) can be opened by the second user as read-only, whereas the repeated opening enabled to edit the base package.</seg>
       </tuv>
     </tu>
     <tu>
