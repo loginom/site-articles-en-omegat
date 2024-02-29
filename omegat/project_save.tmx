@@ -808,8 +808,8 @@
       <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Визуализатор Профили кластеров:&lt;/s1&gt;&lt;/a0&gt; Если на обученном узле &lt;e2&gt;Кластеризация&lt;/e2&gt; настроить визуализатор и открыть таблицу &lt;e3&gt;Детализация&lt;/e3&gt;, выйти в сценарий и снова войти в настроенный визуализатор (через боковую панель &lt;e4&gt;Навигация&lt;/e4&gt;), то на таблице &lt;e5&gt;Детализация&lt;/e5&gt; была длительная маска «Загрузка».</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240229T095014Z" creationid="Марианна" creationdate="20240229T095014Z">
-        <seg>&lt;a0&gt;&lt;s1&gt;Cluster profiles visualizer:&lt;/s1&gt;&lt;/a0&gt; If visualizer is configured for the trained &lt;e2&gt;Clustering&lt;/e2&gt; node and &lt;e3&gt;Detailing&lt;/e3&gt; table is opened, the workflow is quitted and the configured visualizer is entered again  (via the &lt;e4&gt;Navigation&lt;/e4&gt; side bar), the "Loading" mask was observed on the &lt;e5&gt;Detailing&lt;/e5&gt; table for a long time.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240229T100146Z" creationid="Марианна" creationdate="20240229T095014Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Cluster profiles visualizer:&lt;/s1&gt;&lt;/a0&gt; If visualizer is configured for the trained &lt;e2&gt;Clustering&lt;/e2&gt; node and &lt;e3&gt;Detailing&lt;/e3&gt; table is opened, and the user moves to the workflow and enters the configured visualizer again  (via the &lt;e4&gt;Navigation&lt;/e4&gt; side bar), the "Loading" mask is preserved on the &lt;e5&gt;Detailing&lt;/e5&gt; table for a long time.</seg>
       </tuv>
     </tu>
     <tu>
