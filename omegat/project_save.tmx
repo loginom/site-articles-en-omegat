@@ -10858,6 +10858,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При этом пакет продолжал выполняться.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240229T124319Z" creationid="Марианна" creationdate="20240229T124319Z">
+        <seg>But the package was still being executed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При этом сам опубликованный пакет работал корректно.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230315T072924Z" creationid="Марианна" creationdate="20230314T203201Z">
