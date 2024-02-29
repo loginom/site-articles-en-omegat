@@ -7322,8 +7322,8 @@
       <tuv lang="ru">
         <seg>Если для входного поля обученного узла &lt;e3&gt;Конечны классы&lt;/e3&gt; установить значения параметра &lt;e4&gt;Максимальное количество классов&lt;/e4&gt; равным 0 и активировать узел, то возникала ошибка «Значение 0 параметра "Index" вне диапазона [-1; -1]», после чего изменить значение указанного параметра для этого поля было невозможно.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240229T100328Z" creationid="Марианна" creationdate="20240229T100328Z">
-        <seg>Если для входного поля обученного узла &lt;e3&gt;Coarse classes&lt;/e3&gt; установить значения параметра &lt;e4&gt;Maximum class count&lt;/e4&gt; equal to 0 и активировать узел, the following error occurred: "Value 0 of "Index" parameter is out of [-1; -1] range", после чего изменить значение указанного параметра для этого поля было невозможно.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240229T100757Z" creationid="Марианна" creationdate="20240229T100328Z">
+        <seg>If for the input field of the trained &lt;e3&gt;Coarse classes&lt;/e3&gt; node the &lt;e4&gt;Maximum class count&lt;/e4&gt; parameter value is set equal to 0 and the node is activated, the following error occurrs: "Value 0 of "Index" parameter is out of [-1; -1] range", after that it was impossible to change the value of the specified parameter for this field.</seg>
       </tuv>
     </tu>
     <tu>
