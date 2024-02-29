@@ -10305,6 +10305,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>После нажатия кнопки «Остановить» выдавалось сообщение: «Пустая ссылка на объект».</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240229T124034Z" creationid="Марианна" creationdate="20240229T124034Z">
+        <seg>After clicking on "Stop" button the following message was displayed: "Empty reference to object".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>После ошибки таблица оставалась очищенной, экспорт не производился.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220425T152056Z" creationid="Марианна" creationdate="20220425T152056Z">
