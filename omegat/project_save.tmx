@@ -6032,6 +6032,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В результате чего активация узлов &lt;e9&gt;Выполнение/Цикл&lt;/e9&gt; завершалась ошибкой «Выполнение узла: Порт "Выходные переменные" не настроен».</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240229T102127Z" creationid="Марианна" creationdate="20240229T102127Z">
+        <seg>As a result, activation of &lt;e9&gt;Execution/Loop&lt;/e9&gt; nodes was terminated with the following error: "Node execution: "Output variables" port is not configured".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В результате, даже при выборе конкретного значения из списка, ни одна строка могла не соответствовать условию (#5489).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211229T114206Z" creationid="Марианна" creationdate="20211229T114206Z">
