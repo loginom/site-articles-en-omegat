@@ -5912,6 +5912,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В обычных условиях применения продукта ошибка не воспроизводилась.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240229T124755Z" creationid="Марианна" creationdate="20240229T124755Z">
+        <seg>Under the normal use conditions the error was not reproduced.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В окне «Свойства ссылки на пакет» добавлена также возможность менять путь к пакету, если ссылка разорвана.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220426T090117Z" creationid="Марианна" creationdate="20220426T090117Z">
