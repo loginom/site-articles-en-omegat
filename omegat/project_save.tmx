@@ -9816,6 +9816,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ошибку можно было получить после повторного открытия пакета и активации обученной нейросети, а также если активировать клон такой нейросети (#10137).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240301T075537Z" creationid="Марианна" creationdate="20240301T075537Z">
+        <seg>The error could occur after repeated opening of the package and activation of the trained neural network, and also if the clone of such neural network was activated (#10137).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ошибку экспорта исправили (#9683).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240228T195624Z" creationid="Марианна" creationdate="20240228T195624Z">
