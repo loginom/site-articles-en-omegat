@@ -2654,6 +2654,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Настольное приложение:&lt;/s0&gt; При открытии какого-либо пакета (открыть с помощью Loginom) или просто при запуске Loginom CE, окно приложения открывалось, но интерфейс не отображался.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240301T091026Z" creationid="Марианна" creationdate="20240301T091026Z">
+        <seg>&lt;s0&gt;Desktop application:&lt;/s0&gt; When opening any package (to open using Loginom) or just when starting Loginom CE, the application window was opened but the interface was not displayed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Настольное приложение:&lt;/s0&gt; Решили проблемы некорректного отображения окна приложения при использовании настольных редакций Loginom с двумя мониторами:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240301T075319Z" creationid="Марианна" creationdate="20240301T075319Z">
