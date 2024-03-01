@@ -7696,6 +7696,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Закрыть это окно Loginom CE можно было только через Диспетчер задач.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240301T075359Z" creationid="Марианна" creationdate="20240301T075359Z">
+        <seg>It was possible to close this Loginom CE window only using the Sesson Manager.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Запрос к URL ""..."" завершился с ошибкой ...</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230314T202533Z" creationid="Марианна" creationdate="20230314T202533Z">
