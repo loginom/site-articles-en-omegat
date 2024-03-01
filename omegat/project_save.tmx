@@ -2926,6 +2926,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Страница «Подключения»:&lt;/s0&gt; Исправлена ошибка "Cannot read property 'getStore' of undefined", которая возникала, если закрыть &lt;e1&gt;Страницу «Подключения»&lt;/e1&gt; во время тестирования длительно активирующегося подключения (#8763).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240301T085829Z" creationid="Марианна" creationdate="20240301T085829Z">
+        <seg>&lt;s0&gt;"Connections" page:&lt;/s0&gt; "Cannot read property 'getStore' of undefined" error was corrected. It occurred if &lt;e1&gt;"Connections" page&lt;/e1&gt; was closed while testing the connection being activated for a long time (#8763).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Таблица в переменные:&lt;/s0&gt; при открытии быстрого просмотра узла «Таблица в переменные» не выделялась первая ячейка, что иногда могло приводить к ошибке.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220426T091308Z" creationid="Марианна" creationdate="20220426T091308Z">
