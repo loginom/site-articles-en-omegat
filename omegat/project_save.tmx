@@ -2438,6 +2438,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Импорт из LGD:&lt;/s0&gt; В случае связывания полей разных типов с полем типа &lt;e1&gt;Переменный&lt;/e1&gt; могла возникнуть ошибка: «Неподдерживаемый подтип типа Variant» (#8427).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240301T102623Z" creationid="Марианна" creationdate="20240301T102623Z">
+        <seg>&lt;s0&gt;Импорт из LGD:&lt;/s0&gt; When connecting the fields related to different types with the field related to the &lt;e1&gt;Variable&lt;/e1&gt; type, the following error could occur: "Unsupported Variant subtype" (#8427).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Импорт из Баз данных:&lt;/s0&gt; при подключении к MS SQL Server с использованием ODBC драйвера, поля типа &lt;e1&gt;TinyInt&lt;/e1&gt; ошибочно определялись, как имеющие неопределенный тип (#8183).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210322T233108Z" creationid="Марианна" creationdate="20210322T232841Z">
