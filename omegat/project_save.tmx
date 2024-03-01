@@ -10898,6 +10898,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При расчете количества уникальных значений разные уникальные значения могли учитываться как одно.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240301T074935Z" creationid="Марианна" creationdate="20240301T074935Z">
+        <seg>When calculating the unique values count, different unique values could be counted as one.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При сворачивании узлов в &lt;e2&gt;Подмодель&lt;/e2&gt; флаг необязательности устанавливается только у входных портов типа Таблица, к которым внутри &lt;e3&gt;Подмодели&lt;/e3&gt; подключены необязательные порты.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240219T144017Z" creationid="Марианна" creationdate="20240219T144017Z">
