@@ -9832,6 +9832,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ошибку сохранения координат исправили (#10097).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240301T080035Z" creationid="Марианна" creationdate="20240301T080035Z">
+        <seg>The error of coordinates saving was corrected (#10097).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ошибку экспорта исправили (#9683).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240228T195624Z" creationid="Марианна" creationdate="20240228T195624Z">
