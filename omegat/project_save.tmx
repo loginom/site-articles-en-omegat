@@ -9768,6 +9768,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ошибку исправили, проверка правил на минимальную достоверность выполняется с точностью до целых процентов (#10091).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240301T074155Z" creationid="Марианна" creationdate="20240301T074155Z">
+        <seg>The error was corrected. The rules were checked for the minimum reliability with the accuracy up to the whole percentage (#10091).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ошибку исправили.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240228T194215Z" creationid="Марианна" creationdate="20240228T194215Z">
