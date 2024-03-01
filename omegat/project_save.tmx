@@ -8368,6 +8368,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Исправлены ошибки, появившиеся в Loginom 7.0.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240301T103924Z" creationid="Марианна" creationdate="20240301T103924Z">
+        <seg>The errors occurred in Loginom 7.0 were corrected.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Исправлены ошибки, связанные с некорректной индексацией строк, в результате которых при выполнении кода JavaScript могла возникать ошибка «Номер строки 0 вне диапазона [0; -1]» или некорректно отображаться набор данных в окне предварительного просмотра.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210320T234648Z" creationid="Марианна" creationdate="20210320T234648Z">
@@ -10305,6 +10313,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Повторные попытки закрыть сессию не помогали.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240301T103832Z" creationid="Марианна" creationdate="20240301T103832Z">
+        <seg>Repeated attempts to close the session didn't help.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Повторный запуск приложения был успешным.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240301T080111Z" creationid="Марианна" creationdate="20240229T125904Z">
@@ -11182,6 +11198,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220426T095136Z" creationid="Марианна" creationdate="20220426T095136Z">
         <seg>The problem was that "By default" for "Text qaulifier" was not logically used in that context. It was confused with "By default" for other parameters.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Проблема наблюдалась не для всех текстовых полей и не на всех версиях.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240301T104014Z" creationid="Марианна" creationdate="20240301T104014Z">
+        <seg>The problem was observed not for all text fields and not in all versions.</seg>
       </tuv>
     </tu>
     <tu>
