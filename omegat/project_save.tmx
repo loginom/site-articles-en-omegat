@@ -1974,6 +1974,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;e0&gt;Таблица&lt;/e0&gt;, в которой запущена фильтрация и сортировка данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240301T104144Z" creationid="Марианна" creationdate="20240301T104144Z">
+        <seg>&lt;e0&gt;Table&lt;/e0&gt; in which data filtering and sorting were started.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;&lt;a1&gt;Loginom Integrator,&lt;/a1&gt; Пакетное выполнение:&lt;/s0&gt; ускорен повторный запуск узла сценария при работе через Loginom Integrator или при Пакетном выполнении (#5295).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211229T122102Z" creationid="Марианна" creationdate="20211229T122029Z">
@@ -11782,6 +11790,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240228T195332Z" creationid="Марианна" creationdate="20240228T195332Z">
         <seg>The regression error was corrected.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Регрессионную ошибку, которая появилась в версии 7.0.0, исправили (#9652).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240301T104225Z" creationid="Марианна" creationdate="20240301T104225Z">
+        <seg>The regression error occurred in version 7.0.0 was corrected (#9652).</seg>
       </tuv>
     </tu>
     <tu>
