@@ -2664,8 +2664,8 @@
       <tuv lang="ru">
         <seg>&lt;s0&gt;Логирование:&lt;/s0&gt; Для частей лога, которые записаны в формате JSON (параметры), добавлено экранирование значений строковых параметров, параметры типа &lt;c1&gt;Boolean&lt;/c1&gt; вместо &lt;c2&gt;True&lt;/c2&gt; и &lt;c3&gt;False&lt;/c3&gt; теперь записываются как &lt;c4&gt;true&lt;/c4&gt; и &lt;c5&gt;false&lt;/c5&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240301T105855Z" creationid="Марианна" creationdate="20240301T105628Z">
-        <seg>&lt;s0&gt;Logging:&lt;/s0&gt; for the log parts that were recorded in JSON format (parameters), screening of the string parameters values was added, now the parameters realted to the &lt;c1&gt;Boolean&lt;/c1&gt; type instead of &lt;c2&gt;True&lt;/c2&gt; and &lt;c3&gt;False&lt;/c3&gt; are recorded as &lt;c4&gt;true&lt;/c4&gt;and &lt;c5&gt;false&lt;/c5&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240301T110005Z" creationid="Марианна" creationdate="20240301T105628Z">
+        <seg>&lt;s0&gt;Logging:&lt;/s0&gt; Screening of the string parameters values was added for the log parts that are recorded in JSON format (parameters). Now the parameters related to the &lt;c1&gt;Boolean&lt;/c1&gt; type instead of &lt;c2&gt;True&lt;/c2&gt; and &lt;c3&gt;False&lt;/c3&gt; are recorded as &lt;c4&gt;true&lt;/c4&gt;and &lt;c5&gt;false&lt;/c5&gt;.</seg>
       </tuv>
     </tu>
     <tu>
