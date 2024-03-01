@@ -2822,6 +2822,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Приложение:&lt;/s0&gt; Исправлена ошибка "Cannot read property 'NodeIndex' of null", которая возникала, если пользователь с правами только на администрирование открывал пакет из файлового хранилища.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240301T090208Z" creationid="Марианна" creationdate="20240301T090208Z">
+        <seg>&lt;s0&gt;Application:&lt;/s0&gt; "Cannot read property 'NodeIndex' of null" error was corrected. It occurred if the user only with the administration rights opened the package from the file storage.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Приложение:&lt;/s0&gt; В мастерах настройки исправлена ошибка "Cannot read properties of null (reading 'setValue')", которая возникала при перемещении с помощью клавиш навигации в панели переключения страниц (#9399).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20221126T155735Z" creationid="Марианна" creationdate="20221126T155640Z">
