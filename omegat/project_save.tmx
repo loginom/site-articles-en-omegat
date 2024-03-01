@@ -2160,8 +2160,8 @@
       <tuv lang="ru">
         <seg>&lt;s0&gt;Ассоциативные правила:&lt;/s0&gt; Исправлена ошибка "Access violation", которая возникала, если на оба входа узла поданы большие наборы данных, выполнены настройки узла (заданы элементы и транзакции), а затем запущен и прерван процесс обучения узла (#10094).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240301T074354Z" creationid="Марианна" creationdate="20240301T074354Z">
-        <seg>&lt;s0&gt;Association rules:&lt;/s0&gt; "Access violation" error was corrected. It occurred when large data sets were supplied to both node inputs, nodes were configured (elements and transactions were set_ and then the node training process were started and terminated (#10094).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240301T074444Z" creationid="Марианна" creationdate="20240301T074354Z">
+        <seg>&lt;s0&gt;Association rules:&lt;/s0&gt; "Access violation" error was corrected. It occurred if large data sets were supplied to both node inputs, nodes were configured (elements and transactions were set) and then the node training process was started and terminated (#10094).</seg>
       </tuv>
     </tu>
     <tu>
