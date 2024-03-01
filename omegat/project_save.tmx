@@ -12714,6 +12714,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Узел находился в нижнем углу видимой части сценария, тогда как должен был находиться в том месте, куда его добавили при измененном масштабе.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240301T103156Z" creationid="Марианна" creationdate="20240301T103156Z">
+        <seg>The node was located in the lower corner of the visible workflow part. But it was to be located in the same place where it was added when changing the scale.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Узел не сообщал об имеющихся в таблице замен дубликатах, а результат выполнения мог быть неправильным.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230314T113156Z" creationid="Марианна" creationdate="20230314T113156Z">
