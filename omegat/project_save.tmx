@@ -10040,6 +10040,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ошибочное поведение исправили: если перемещать нечего, то кнопки недоступны (#10013).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240301T080352Z" creationid="Марианна" creationdate="20240301T080352Z">
+        <seg>Error of behavior was corrected. If there is nothing to move, the buttons are not available (#10013).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Пакет содержит активные процессы, которые не завершились в течение таймаута.», а при попытке повторно открыть такой пакет, он открывался с доступом только на чтение (#8670).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211229T104641Z" creationid="Марианна" creationdate="20211229T104641Z">
@@ -10195,8 +10203,8 @@
       <tuv lang="ru">
         <seg>Повторный запуск приложения был успешным.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240229T125904Z" creationid="Марианна" creationdate="20240229T125904Z">
-        <seg>Repeated application launch was successful.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240301T080111Z" creationid="Марианна" creationdate="20240229T125904Z">
+        <seg>The repeated application launch was successful.</seg>
       </tuv>
     </tu>
     <tu>
@@ -10357,6 +10365,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210322T204450Z" creationid="Марианна" creationdate="20210322T204450Z">
         <seg>More detailed information on changes is available in the &lt;a0&gt;speech of Georgy Kiselev during Loginom Days 2020&lt;/a0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Подсказка, ранее отображаемая для связи, не скрывалась.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240301T080323Z" creationid="Марианна" creationdate="20240301T080323Z">
+        <seg>The tip previously displayed for connection was not hidden.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12254,6 +12270,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210321T205009Z" creationid="Марианна" creationdate="20210321T205009Z">
         <seg>Now &lt;e2&gt;RequestId&lt;/e2&gt; variable was added to &lt;a1&gt;"Workflow Variables"&lt;/a1&gt; node to "Session variables" port.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Теперь в этом случае выводится поясняющее сообщение (#6787).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240301T080210Z" creationid="Марианна" creationdate="20240301T080210Z">
+        <seg>Now, in this case the explanatory message is displayed (#6787).</seg>
       </tuv>
     </tu>
     <tu>
