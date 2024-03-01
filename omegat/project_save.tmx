@@ -3110,6 +3110,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Экспорт в LGD-файл:&lt;/s0&gt; Исправлена ошибка "Access violation", которая возникала, при активации узла, во входном порту которого удалены все поля, кроме поля переменного типа (или поле переменного типа перемещено на другую позицию в списке).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240301T085032Z" creationid="Марианна" creationdate="20240301T085032Z">
+        <seg>&lt;s0&gt;Export to LGD file:&lt;/s0&gt; "Access violation" error was corrected. It occurred when activating the node in the input port of which all fields were deleted with the exception of the field related to the variable type (or the field related to the variable type was moved to another position in the list).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Экспорт в PostgreSQL:&lt;/s0&gt; при попытке экспорта строк в поля &lt;e1&gt;xml&lt;/e1&gt; или &lt;e2&gt;json&lt;/e2&gt; возникала ошибка «колонка "..." имеет тип ..., а выражение - character varying».</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210902T133745Z" creationid="Марианна" creationdate="20210902T133745Z">
