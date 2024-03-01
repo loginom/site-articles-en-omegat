@@ -11986,6 +11986,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ситуацию исправили, при отсутствии соединении с сервером базы данных выполнение узла &lt;e2&gt;Импорт из базы данных&lt;/e2&gt; завершается выводом сообщения о возникшей ошибке (#10049).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240301T103332Z" creationid="Марианна" creationdate="20240301T103332Z">
+        <seg>The situation was rectified. Upon database server connection loss, &lt;e2&gt;Import from database&lt;/e2&gt; node execution was finished with an error message (#10049).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ситуацию исправили.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240227T071950Z" creationid="Марианна" creationdate="20240227T071950Z">
