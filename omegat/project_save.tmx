@@ -574,6 +574,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;a0&gt;&lt;s1&gt;Python:&lt;/s1&gt;&lt;/a0&gt; Исправлен конфликт доступа к &lt;c2&gt;/dev/shm/loginom&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240301T103651Z" creationid="Марианна" creationdate="20240301T103651Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Python:&lt;/s1&gt;&lt;/a0&gt; &lt;c2&gt;/dev/shm/loginom&lt;/c2&gt; access conflict was eliminated.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Python:&lt;/s1&gt;&lt;/a0&gt; При использовании Python 3.9.x запуск скриптов внутри процесса Loginom приводил к ошибке "Access violation".</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240229T125104Z" creationid="Марианна" creationdate="20240229T125104Z">
@@ -12378,6 +12386,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Теперь в этой ситуации информация о проблеме записывается в journald.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240301T103545Z" creationid="Марианна" creationdate="20240301T103545Z">
+        <seg>Now, in this case the information on this problem is recorded in journald.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Теперь в этом случае выводится поясняющее сообщение (#6787).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240301T080210Z" creationid="Марианна" creationdate="20240301T080210Z">
@@ -12630,6 +12646,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240225T165351Z" creationid="Марианна" creationdate="20240225T165351Z">
         <seg>For &lt;c0&gt;loginom&lt;/c0&gt; element optional &lt;c1&gt;urlPathPrefix&lt;/c1&gt; attribute was added. Its value is used as prefix to address of all REST and SOAP end points.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Убрали ее из заголовка.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240301T103518Z" creationid="Марианна" creationdate="20240301T103518Z">
+        <seg>It was deleted from the header.</seg>
       </tuv>
     </tu>
     <tu>
