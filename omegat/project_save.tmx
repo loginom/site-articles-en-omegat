@@ -2694,6 +2694,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Область построения сценария:&lt;/s0&gt; Клонированный узел появлялся далеко от исходного, если исходный располагался далеко от левого верхнего угла области построения сценария.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240301T090838Z" creationid="Марианна" creationdate="20240301T090838Z">
+        <seg>&lt;s0&gt;Workflow construction area:&lt;/s0&gt; The cloned node appeared far from the source one if the source node was located far from the left upper corner of the workflow construction area.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Область построения сценария:&lt;/s0&gt; На выходе &lt;e1&gt;Подмодели&lt;/e1&gt; пропадала иконка служебного порта после сохранения и повторного открытия пакета и удаления одной из нескольких связей, подключенных к этому порту.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240229T101613Z" creationid="Марианна" creationdate="20240229T101453Z">
