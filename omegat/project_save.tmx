@@ -6672,6 +6672,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Входной набор данных при этом поступал из узлов &lt;e1&gt;Импорта LGD, TXT, Excel&lt;/e1&gt; или из &lt;e2&gt;Цикла&lt;/e2&gt; (#9612).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240301T084648Z" creationid="Марианна" creationdate="20240301T084648Z">
+        <seg>In this case, the input data set came from &lt;e1&gt;LGD, TXT, Excel import&lt;/e1&gt; or from &lt;e2&gt;Loop&lt;/e2&gt; nodes (#9612).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Выполнена оптимизация запроса списка папок файлового хранилища (#8551).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230315T080835Z" creationid="Марианна" creationdate="20230315T080835Z">
