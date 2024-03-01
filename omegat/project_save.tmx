@@ -2662,6 +2662,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Логирование:&lt;/s0&gt; Для частей лога, которые записаны в формате JSON (параметры), добавлено экранирование значений строковых параметров, параметры типа &lt;c1&gt;Boolean&lt;/c1&gt; вместо &lt;c2&gt;True&lt;/c2&gt; и &lt;c3&gt;False&lt;/c3&gt; теперь записываются как &lt;c4&gt;true&lt;/c4&gt; и &lt;c5&gt;false&lt;/c5&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240301T105628Z" creationid="Марианна" creationdate="20240301T105628Z">
+        <seg>&lt;s0&gt;Logging:&lt;/s0&gt; for the log parts that were recorded in JSON format (parameters), добавлено экранирование значений строковых параметров, параметры типа &lt;c1&gt;Boolean&lt;/c1&gt; вместо &lt;c2&gt;True&lt;/c2&gt; и &lt;c3&gt;False&lt;/c3&gt; теперь записываются как &lt;c4&gt;true&lt;/c4&gt; и &lt;c5&gt;false&lt;/c5&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Логирование:&lt;/s0&gt; в log-файл не писалось имя пользователя при использовании большого количества параллельных потоков, которые не нагружают процессор, в «Цикле».</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220426T111833Z" creationid="Марианна" creationdate="20220426T111833Z">
