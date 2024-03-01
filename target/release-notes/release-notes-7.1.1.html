@@ -2,11 +2,11 @@
 
 <p><a href="https://help.loginom.ru/userguide/components-platform.html#desktop" target="_blank"><strong>Loginom Desktop:</strong></a> В настольной редакции под Linux исправлено отображение результирующего имени файла в заголовке файлового диалога в <a href="https://ru.wikipedia.org/wiki/GTK" target="_blank">GTK</a>.</p>
 
-<p><strong>Loginom Desktop:</strong> В настольной редакции под Linux, если не выбран файл,  в заголовке диалога открытия файла под GTK выводилась строка «./../../». Убрали ее из заголовка.</p>
+<p><strong>Loginom Desktop:</strong> В настольной редакции под Linux, если не выбран файл, в заголовке диалога открытия файла под GTK выводилась строка «./../../». It was deleted from the header.</p>
 
-<p><a href="https://help.loginom.ru/userguide/components-platform.html#server" target="_blank"><strong>Loginom Server:</strong></a> Исправлена ошибка «Access Violation», которая возникала при работе под Linux во время чтения ошибочных или битых конфигурационных файлов сервера (Settings.cfg, Users.cfg и др.). Теперь в этой ситуации информация о проблеме записывается в journald.</p>
+<p><a href="https://help.loginom.ru/userguide/components-platform.html#server" target="_blank"><strong>Loginom Server:</strong></a> Исправлена ошибка «Access Violation», которая возникала при работе под Linux во время чтения ошибочных или битых конфигурационных файлов сервера (Settings.cfg, Users.cfg и др.). Now, in this case the information on this problem is recorded in journald.</p>
 
-<p><a href="https://help.loginom.ru/userguide/processors/programming/python/" target="_blank"><strong>Python:</strong></a> Исправлен конфликт доступа к <code>/dev/shm/loginom</code>. Проблема возникала, если на одном компьютере с Linux было несколько пользователей, у которых установлен Loginom.</p>
+<p><a href="https://help.loginom.ru/userguide/processors/programming/python/" target="_blank"><strong>Python:</strong></a> <code>/dev/shm/loginom</code> access conflict was eliminated. Проблема возникала, если на одном компьютере с Linux было несколько пользователей, у которых установлен Loginom.</p>
 
 <p><strong>Визуализаторы, компоненты:</strong> Значение поля Время для даты 30.12.1899 содержало не только значение времени, но и дату. После внесенных исправлений для даты 30.12.1899 выводится только время. Ранее ошибку можно было заметить:</p>
 
