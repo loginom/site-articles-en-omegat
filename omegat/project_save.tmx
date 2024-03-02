@@ -13506,6 +13506,22 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>при перетаскивании окна приложения с одного экрана (большего размера) на другой, часть окна перекрывалась серой панелью (#9024);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240302T071317Z" creationid="Марианна" creationdate="20240302T071317Z">
+        <seg>when dragging the application window from one screen (the larger one) to another one, a part of the window was covered with the gray panel (#9024);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>при перетаскивании окна приложения с экрана большего размера (~4К) на меньший, окно не изменяло масштаб автоматически (#9091);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240302T071447Z" creationid="Марианна" creationdate="20240302T071447Z">
+        <seg>when dragging the application window from the larger screen (~4К) to the smaller one, the window didn't change the scale automatically (#9091);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>реализована вставка значений в фильтр измерений из буфера обмена;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220304T134928Z" creationid="Марианна" creationdate="20220304T134928Z">
