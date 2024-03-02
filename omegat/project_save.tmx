@@ -1894,6 +1894,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;a0&gt;&lt;s1&gt;Экспорт в LGD-файл:&lt;/s1&gt;&lt;/a0&gt; Если при длительном выполнении экспорта в LGD-файл останавливалось выполнение узла (нажатием на узел), то узел все равно переходил в состояние «Выполнен успешно».</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240302T090819Z" creationid="Марианна" creationdate="20240302T090819Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Export to LGD file:&lt;/s1&gt;&lt;/a0&gt; If the node execution was stopped (by pressing the node) in the case of export to LGD file for a long time, the node moved to "Successfully executed" state anyway.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Экспорт в Базу данных: &lt;/s1&gt;&lt;/a0&gt;при попытке экспорта в &lt;e2&gt;MSSQL 2005&lt;/e2&gt; возникала ошибка «Неправильный синтаксис возле конструкции ...».</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211229T120949Z" creationid="Марианна" creationdate="20211229T120949Z">
