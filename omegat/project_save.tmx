@@ -6664,6 +6664,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Внесли исправления: узел экспорта, выполнение которого остановлено, остается серым, а в &lt;e2&gt;Панели процессов&lt;/e2&gt; указывается, что обработка прервана (#10028).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240302T085422Z" creationid="Марианна" creationdate="20240302T085226Z">
+        <seg>Corrections were introduced: the export node execution of which was terminated remains gray, and it is specified in the &lt;e2&gt;Processes bar&lt;/e2&gt; that processing was terminated (#10028).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Внесли необходимы правки, чтобы избежать возможных ошибок при отображении заголовков кросс-таблицы &lt;e3&gt;Куба&lt;/e3&gt; (#8708).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220929T125031Z" creationid="Марианна" creationdate="20220929T125031Z">
