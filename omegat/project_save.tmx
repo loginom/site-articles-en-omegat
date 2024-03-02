@@ -2374,6 +2374,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Визуализатор Таблица:&lt;/s0&gt; Для некоторых колонок из-за округления и разницы в 1 пиксель не срабатывал автоматический подбор ширины колонки по тексту заголовка.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240302T084111Z" creationid="Марианна" creationdate="20240302T083929Z">
+        <seg>&lt;s0&gt;Table visualizer:&lt;/s0&gt; Auto selection of the column width by the header text didn't work for some columns due to rounding and difference in 1 pixel.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Замена:&lt;/s0&gt; В мастере настройки узла &lt;e1&gt;Замена&lt;/e1&gt; в случае изменения типа данных для значения Замена тип выходных столбцов не может быть однозначно определен, если параметр Заменять остальные не задан.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230314T164234Z" creationid="Марианна" creationdate="20230314T163024Z">
