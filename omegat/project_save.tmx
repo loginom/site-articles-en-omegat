@@ -880,8 +880,8 @@
       <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Группировка&lt;/s1&gt;&lt;/a0&gt;, &lt;a2&gt;&lt;s3&gt;Таблица в переменные:&lt;/s3&gt;&lt;/a2&gt; Для колонок целого типа, содержащих значения большие 2&lt;s4&gt;53&lt;/s4&gt; - 1 или меньшие -2&lt;s5&gt;53&lt;/s5&gt; + 1 могли возникать ошибки в агрегациях: &lt;e6&gt;Минимум, Максимум, Мода, Первый, Последний, Единственный&lt;/e6&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240302T084448Z" creationid="Марианна" creationdate="20240302T084448Z">
-        <seg>&lt;a0&gt;&lt;s1&gt;Grouping&lt;/s1&gt;&lt;/a0&gt;, &lt;a2&gt;&lt;s3&gt;Table to variables:&lt;/s3&gt;&lt;/a2&gt; For the columns that relate to the integer type and contain the values that exceed 2&lt;s4&gt;53&lt;/s4&gt; - 1 or less than -2&lt;s5&gt;53&lt;/s5&gt; + 1 error could occur in aggregations: &lt;e6&gt;Minimum, Maximum, Mode, First, Last, Единственный&lt;/e6&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240302T084818Z" creationid="Марианна" creationdate="20240302T084448Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Grouping&lt;/s1&gt;&lt;/a0&gt;, &lt;a2&gt;&lt;s3&gt;Table to variables:&lt;/s3&gt;&lt;/a2&gt; For the columns that relate to the integer type and contain the values that exceed 2&lt;s4&gt;53&lt;/s4&gt; - 1 or less than -2&lt;s5&gt;53&lt;/s5&gt; + 1, errors can occur in aggregations: &lt;e6&gt;Minimum, Maximum, Mode, First, Last, Single&lt;/e6&gt;.</seg>
       </tuv>
     </tu>
     <tu>
