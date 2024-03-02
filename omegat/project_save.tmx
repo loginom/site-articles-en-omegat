@@ -2054,6 +2054,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Loginom Server:&lt;/s0&gt; При многократных последовательных запусках пакетного выполнения в &lt;e1&gt;Диспетчере&lt;/e1&gt; для сессий, созданных из BatchLauncher, в колонке &lt;e2&gt;Активность&lt;/e2&gt; иногда ошибочно отображалось «Удаляется» во время выполнения пакета.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240302T083824Z" creationid="Марианна" creationdate="20240302T083824Z">
+        <seg>&lt;s0&gt;Loginom Server:&lt;/s0&gt; In the case of the multiple sequential starts of batch processing in the &lt;e1&gt;Session Manager&lt;/e1&gt; for the sessions created from BatchLauncher, sometimes "Deleted" was incorrectly displayed in &lt;e2&gt;Activity&lt;/e2&gt; column during the package execution.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Loginom Server:&lt;/s0&gt; Базовый пакет (пакет, на который ссылается другой пакет), заблокированный одним пользователем (открытый с возможностью редактирования), второй пользователь первый раз мог открыть только на чтение, а вот повторное открытие уже позволяло редактировать базовый пакет.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240229T122557Z" creationid="Марианна" creationdate="20240227T122203Z">
