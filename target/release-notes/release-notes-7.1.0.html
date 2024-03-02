@@ -35,7 +35,7 @@
 <p><strong>Desktop application:</strong> The following problems were solved: incorrect display of the application window when the desktop Loginom edition with two display monitors was used, namely:</p>
 
 <ul>
-	<li>when dragging the application window from one screen (the larger one) to another one, a part of the window was covered with the gray panel (#9024);</li>
+	<li>when dragging the application window from one screen (the larger one) to another one, a part of the window was covered with the grey panel (#9024);</li>
 	<li>when dragging the application window from the larger screen (~4К) to the smaller one, the window didn't change the scale automatically (#9091);</li>
 	<li>if the application was deployed two times to full screen using Win+Up keys on the left screen, a part of the window was displayed on the right screen (when using one screen, a part of the window was under the Taskbar(#8296).</li>
 </ul>
@@ -74,7 +74,7 @@
 
 <p><a href="https://help.loginom.ru/userguide/integration/export/excel.html" target="_blank"><strong>Export to Excel file:</strong></a> "Sheet name not set" error was corrected. It occurred in the Export to Excel file wizard when using the variable as the value of the <em>Sheet name</em> parameter after clicking on <em>Next</em> button at the first wizard step (#10081).</p>
 
-<p><a href="https://help.loginom.ru/userguide/integration/export/ldf.html" target="_blank"><strong>Экспорт в LGD-файл:</strong></a> Если при длительном выполнении экспорта в LGD-файл останавливалось выполнение узла (нажатием на узел), то узел все равно переходил в состояние «Выполнен успешно». It is a regression error and it appeared in version 7.0.0. Внесли исправления: узел экспорта, выполнение которого остановлено, остается серым, а в <em>Панели процессов</em> указывается, что обработка прервана (#10028).</p>
+<p><a href="https://help.loginom.ru/userguide/integration/export/ldf.html" target="_blank"><strong>Экспорт в LGD-файл:</strong></a> Если при длительном выполнении экспорта в LGD-файл останавливалось выполнение узла (нажатием на узел), то узел все равно переходил в состояние «Выполнен успешно». It is a regression error and it appeared in version 7.0.0. Corrections were introduced: the export node execution of which was terminated remained grey, and it was specified in the <em>Processes bar</em> that processing was terminated (#10028).</p>
 
 <p><strong>Экспорт в LGD-файл:</strong> Когда <em>Экспорт</em>&nbsp;происходил из <em>Импорта LGD, TXT, Excel</em> или из <em>Цикла</em>, при перестановке местами полей, содержащих null-значения, поля экспортировались неправильно: вместо null-значений появлялся false, 0, 0.00, 00:00 или пустые строки, в зависимости от типа; вместо ненулевых значений — null-значения. The error was corrected (#9896).</p>
 
