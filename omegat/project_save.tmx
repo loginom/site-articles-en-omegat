@@ -13316,8 +13316,8 @@
       <tuv lang="ru">
         <seg>если на левом экране дважды развернуть приложение на весь экран с помощью клавиш Win+Up, то часть окна отображалась на правом мониторе (при использовании одного экрана в этом случае часть окна оказывалась под Панелью задач) (#8296).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240302T072926Z" creationid="Марианна" creationdate="20240302T072926Z">
-        <seg>if the application is deployed two times to full screen using Win+Up keys on the left screen, a part of the window was displayed on the right screen (when using one screen, a part of the window was under the Taskbar(#8296).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240302T072958Z" creationid="Марианна" creationdate="20240302T072926Z">
+        <seg>if the application was deployed two times to full screen using Win+Up keys on the left screen, a part of the window was displayed on the right screen (when using one screen, a part of the window was under the Taskbar(#8296).</seg>
       </tuv>
     </tu>
     <tu>
