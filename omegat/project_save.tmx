@@ -2750,6 +2750,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Область построения сценария:&lt;/s0&gt; Если изменить масштаб при помощи функции «Карта сценария», добавить в область построения сценария узел в правый нижний угол, затем сохранить и закрыть пакет, то после открытия пакета в масштабе 100% координаты добавленного узла были неверными.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240302T083331Z" creationid="Марианна" creationdate="20240302T081803Z">
+        <seg>&lt;s0&gt;Workflow construction area:&lt;/s0&gt; If the scale was changed using the "Workflow map" function, the node was added to the workflow construction area in the right lower corner, then the package was saved and closed, and the coordinates of the added node were incorrect after saving the package in 100% scale.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Область построения сценария:&lt;/s0&gt; Клонированный узел появлялся далеко от исходного, если исходный располагался далеко от левого верхнего угла области построения сценария.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240301T090838Z" creationid="Марианна" creationdate="20240301T090838Z">
@@ -13020,8 +13028,8 @@
       <tuv lang="ru">
         <seg>Чем дальше узел находился от левого верхнего угла области построения сценария, тем дальше от него появлялся клонированный узел.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240302T074141Z" creationid="Марианна" creationdate="20240302T074141Z">
-        <seg>.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240302T081527Z" creationid="Марианна" creationdate="20240302T074141Z">
+        <seg>The further the node was located from the left upper corner of the workflow construction area, the futher the cloned node appeared from it.</seg>
       </tuv>
     </tu>
     <tu>
