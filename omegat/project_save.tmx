@@ -2758,6 +2758,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Область построения сценария:&lt;/s0&gt; После отмены через &lt;a1&gt;Панель процессов&lt;/a1&gt; длительно выполняющегося процесса (например, узла JavaScript с циклом на 100000000 итераций) продолжала выполняться анимация активации узла в области построения сценария, некоторые элементы интерфейса были недоступны.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240302T073845Z" creationid="Марианна" creationdate="20240302T073845Z">
+        <seg>&lt;s0&gt;Workflow construction area:&lt;/s0&gt; After cancellation of the process executed for a long time via &lt;a1&gt;Processes Bar&lt;/a1&gt; (for example, JavaScript node with the loop for 100,000,000 iterations) animation of the node activation was being executed in the workflow construction area, some interface elements were not available.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Область построения сценария:&lt;/s0&gt; На выходе &lt;e1&gt;Подмодели&lt;/e1&gt; пропадала иконка служебного порта после сохранения и повторного открытия пакета и удаления одной из нескольких связей, подключенных к этому порту.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240229T101613Z" creationid="Марианна" creationdate="20240229T101453Z">
