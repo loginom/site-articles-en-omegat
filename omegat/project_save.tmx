@@ -1574,6 +1574,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;a0&gt;&lt;s1&gt;Подключение к базе данных:&lt;/s1&gt;&lt;/a0&gt; Исправлена ошибка "Login failed for user...", которая возникала после открытия пакета с ранее настроенным подключением к базе данных с паролем более 32 символов, при активации или тестировании подключения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240304T055521Z" creationid="Марианна" creationdate="20240304T055521Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Connection to database:&lt;/s1&gt;&lt;/a0&gt; The following error was corrected: "Login failed for user...". It occurred after opening of the package with preset connection to databse with the password that contained more than 32 characters when activating or testing the connection.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Подключение набора XSD-схем:&lt;/s1&gt;&lt;/a0&gt; Исправлена редко возникающая ошибка Access violation.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230314T120257Z" creationid="Марианна" creationdate="20230314T120257Z">
