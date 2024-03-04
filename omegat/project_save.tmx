@@ -1742,6 +1742,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;a0&gt;&lt;s1&gt;Условие:&lt;/s1&gt;&lt;/a0&gt; В мастере настройки кнопки &lt;e2&gt;Переместить вверх&lt;/e2&gt; и &lt;e3&gt;Переместить вниз&lt;/e3&gt; были доступны при отсутствии портов (если сразу после добавления узла в область построения сценария открыть мастер настройки).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240304T064855Z" creationid="Марианна" creationdate="20240304T064855Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Condition:&lt;/s1&gt;&lt;/a0&gt; &lt;e2&gt;Move up&lt;/e2&gt; and &lt;e3&gt;Move down&lt;/e3&gt; buttons were available in the wizard in the absence of ports (if the wizard was opened just after adding the node to the workflow construction area).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Условие:&lt;/s1&gt;&lt;/a0&gt; при попытке выполнения узлов Объединение или Соединение, подключенных к неактивному порту Условия, возникала ошибка «Нет ни одного активного входа».</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210903T060608Z" creationid="Марианна" creationdate="20210323T075430Z">
