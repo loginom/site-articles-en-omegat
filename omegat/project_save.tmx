@@ -11388,8 +11388,8 @@
       <tuv lang="ru">
         <seg>Проблема характерна для некоторых браузеров (например, Chrome).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240229T125442Z" creationid="Марианна" creationdate="20240229T125442Z">
-        <seg>The problem is typical of somebrowsers (for example, Chrome).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240304T075642Z" creationid="Марианна" creationdate="20240229T125442Z">
+        <seg>The problem is typical of some browsers (for example, Chrome).</seg>
       </tuv>
     </tu>
     <tu>
