@@ -2920,8 +2920,8 @@
       <tuv lang="ru">
         <seg>&lt;s0&gt;Подключение к базе данных:&lt;/s0&gt; При разорванном соединении базы данных с сервером запуск на выполнение узла &lt;e1&gt;Импорт из базы данных&lt;/e1&gt; завершался отменой выполнения узла, т.е. узел не выполнялся, а пользователь не получал никаких сообщений.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240304T060146Z" creationid="Марианна" creationdate="20240304T060146Z">
-        <seg>&lt;s0&gt;Connection to databse:&lt;/s0&gt; When  database and server connection was lost, start of &lt;e1&gt;Import from database&lt;/e1&gt; node execution was finished with cancellation of the node execution. Namely, the node was not executed, and the user received no messages.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240304T060548Z" creationid="Марианна" creationdate="20240304T060146Z">
+        <seg>&lt;s0&gt;Connection to database:&lt;/s0&gt; When  database and server connection was lost, start of &lt;e1&gt;Import from database&lt;/e1&gt; node execution was finished with cancellation of the node execution. Namely, the node was not executed, and the user received no messages.</seg>
       </tuv>
     </tu>
     <tu>
