@@ -3142,6 +3142,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Условие:&lt;/s0&gt; Если на странице мастера настройки «Настройка списка портов» задать 2 порта, а затем второй порт переместить вверх, то нарушается нумерация портов (строк в таблице содержащей список портов) — оба порта имели номер 2.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240304T065135Z" creationid="Марианна" creationdate="20240304T065135Z">
+        <seg>&lt;s0&gt;Condition:&lt;/s0&gt; If 2 ports are set on the page of "Configure list of ports" wizard, and then the second port was moved up, the numeration order of ports (rows in the table containing the list of ports) was distorted. Both ports had number 2.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Установка Loginom:&lt;/s0&gt; при установке одной из серверных редакций Loginom поверх ранее установленной другой редакции не заменялся исполняемый файл &lt;e1&gt;Server.exe&lt;/e1&gt;, в результате чего после обновления запускалась предыдущая редакция Loginom (#8132).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210323T081635Z" creationid="Марианна" creationdate="20210323T081553Z">
