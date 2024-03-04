@@ -2976,8 +2976,8 @@
       <tuv lang="ru">
         <seg>&lt;s0&gt;Приложение:&lt;/s0&gt; В визуализаторе &lt;e1&gt;Таблица&lt;/e1&gt;, в &lt;a2&gt;Инспекторе свойств&lt;/a2&gt; и в &lt;e3&gt;Диспетчере&lt;/e3&gt; можно было столкнуться с ситуацией, когда при клике правой кнопкой мыши в таблице не выделялась ячейка, а контекстное меню отображало пункты для предыдущей выделенной ячейки.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240304T061353Z" creationid="Марианна" creationdate="20240304T061129Z">
-        <seg>&lt;s0&gt;Application:&lt;/s0&gt; The following situation was observed in &lt;e1&gt;Table&lt;/e1&gt;, &lt;a2&gt;Property inspector&lt;/a2&gt; and &lt;e3&gt;Session manager&lt;/e3&gt; visualizers: the cell was not selected in the table after clicking with the right mouse button</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240304T061540Z" creationid="Марианна" creationdate="20240304T061129Z">
+        <seg>&lt;s0&gt;Application:&lt;/s0&gt; The following situation was observed in &lt;e1&gt;Table&lt;/e1&gt;, &lt;a2&gt;Property inspector&lt;/a2&gt; and &lt;e3&gt;Session manager&lt;/e3&gt; visualizers: the cell was not selected in the table after right clicking, and the context menu displayed the items for the previously selected cell.</seg>
       </tuv>
     </tu>
     <tu>
