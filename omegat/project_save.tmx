@@ -12356,24 +12356,24 @@
       <tuv lang="ru">
         <seg>Такая ситуация могла возникнуть, если было отключено отображение итогов в колонках (#8639).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210903T071512Z" creationid="Марианна" creationdate="20210903T071512Z">
-        <seg>Such situation could arise if column totals display was disabled (#8639).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240304T062138Z" creationid="Марианна" creationdate="20210903T071512Z">
+        <seg>Such a situation could arise if column totals display was disabled (#8639).</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>Такая ситуация могла возникнуть, например, если в узле &lt;e1&gt;Квантование&lt;/e1&gt; поданы данные на второй входной порт, в мастере настройки для любого входного поля установлена связь с назначением, далее поля или назначения отфильтрованы так, что связанное поле не попало под условие фильтрации (скрылось).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240304T062106Z" creationid="Марианна" creationdate="20240304T062106Z">
-        <seg>Such situation could arise, for example, &lt;e1&gt;Квантование&lt;/e1&gt; поданы данные на второй входной порт, в мастере настройки для любого входного поля установлена связь с назначением, далее поля или назначения отфильтрованы так, что связанное поле не попало под условие фильтрации (скрылось).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240304T063359Z" creationid="Марианна" creationdate="20240304T062106Z">
+        <seg>Such a situation could arise, for example, if data was supplied to the second input port in the &lt;e1&gt;Binning&lt;/e1&gt; node, connection was set with the usage type in the wizard for any input field, then the fields or usage types were filtered in such a way that the connected field didn't fall under the filtering criterion (it was hidden).</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>Такая ситуация могла, например, возникнуть, если пользователю предоставлял доступ другой пользователь, были изменены права доступа к каталогам через панель Администрирование, или новый каталог был создан через диалог сохранения файла (#5347, #6032, #6423, #8022).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20210903T084603Z" creationid="Марианна" creationdate="20210903T084603Z">
-        <seg>For example, such situation could arise if another user gave access to the user, the rights of access to the directories via the Administration bar were changed, or the new directory was created via the file saving dialog (#5347, #6032, #6423, #8022).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240304T062133Z" creationid="Марианна" creationdate="20210903T084603Z">
+        <seg>For example, such a situation could arise if another user gave access to the user, the rights of access to the directories via the Administration bar were changed, or the new directory was created via the file saving dialog (#5347, #6032, #6423, #8022).</seg>
       </tuv>
     </tu>
     <tu>
