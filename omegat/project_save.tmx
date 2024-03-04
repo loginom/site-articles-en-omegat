@@ -1190,6 +1190,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;a0&gt;&lt;s1&gt;Конечные классы:&lt;/s1&gt;&lt;/a0&gt; Открытие в браузере страницы мастера настройки узла &lt;e2&gt;Конечные классы&lt;/e2&gt; по ссылке, полученной по кнопке Поделиться, приводило к ошибке: «При переходе на "Конечные классы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240304T055001Z" creationid="Марианна" creationdate="20240304T054445Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Coarse сlasses:&lt;/s1&gt;&lt;/a0&gt; Opening of the wizard of the &lt;e2&gt;Coarse сlasses&lt;/e2&gt; node in the page browser following the link received using Share button, caused the following error: "When switching to "Coarse classes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Конечные классы:&lt;/s1&gt;&lt;/a0&gt; при активации узла выполнялась лишняя сортировка начальных классов для входных &lt;e2&gt;дискретных&lt;/e2&gt; полей, в результате чего для могла изменяться модель (#7922).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210322T233547Z" creationid="Марианна" creationdate="20210322T233518Z">
@@ -3706,8 +3714,8 @@
       <tuv lang="ru">
         <seg>Cannot read properties of undefined (reading 'PrepareFilterField')».</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240228T194159Z" creationid="Марианна" creationdate="20240228T194159Z">
-        <seg>Cannot read properties of undefined (reading 'PrepareFilterField')».</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240304T054539Z" creationid="Марианна" creationdate="20240228T194159Z">
+        <seg>Cannot read properties of undefined (reading 'PrepareFilterField')".</seg>
       </tuv>
     </tu>
     <tu>
@@ -9052,6 +9060,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T201319Z" creationid="Марианна" creationdate="20210314T200445Z">
         <seg>Configuring export to the Data Warehouse</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Настройка" возникла ошибка.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240304T054551Z" creationid="Марианна" creationdate="20240304T054454Z">
+        <seg>Configuration", the error occurred.</seg>
       </tuv>
     </tu>
     <tu>
