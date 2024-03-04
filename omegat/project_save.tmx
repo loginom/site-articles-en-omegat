@@ -10737,6 +10737,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>После внесенных исправлений для даты 30.12.1899 выводится только время.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240304T081802Z" creationid="Марианна" creationdate="20240304T081802Z">
+        <seg>Only time is displayed after introduced corections for 30.12.1899.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>После деактивации и повторной активации настройки «Уникальные значения как имена полей», имена столбцов будут формироваться уже по-новому с транслитерацией.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220309T074847Z" creationid="Марианна" creationdate="20220309T074847Z">
@@ -11694,6 +11702,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220426T113339Z" creationid="Марианна" creationdate="20220426T091626Z">
         <seg>Previously, the following text was displayed: "last period to...". Now the following text is displayed: "last perfiod before...". Thus, peculiarities of the Russian language were taken into account (#8848).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Ранее ошибку можно было заметить:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240304T081832Z" creationid="Марианна" creationdate="20240304T081832Z">
+        <seg>Previously, the error was observed here:</seg>
       </tuv>
     </tu>
     <tu>
