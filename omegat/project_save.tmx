@@ -3342,6 +3342,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Экспорт в LGD-файл:&lt;/s0&gt; Когда &lt;e1&gt;Экспорт&lt;/e1&gt; происходил из &lt;e2&gt;Импорта LGD, TXT, Excel&lt;/e2&gt; или из &lt;e3&gt;Цикла&lt;/e3&gt;, при перестановке местами полей, содержащих null-значения, поля экспортировались неправильно: вместо null-значений появлялся false, 0, 0.00, 00:00 или пустые строки, в зависимости от типа; вместо ненулевых значений — null-значения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240304T070210Z" creationid="Марианна" creationdate="20240304T070210Z">
+        <seg>&lt;s0&gt;Export to LGD file:&lt;/s0&gt; When &lt;e1&gt;Export&lt;/e1&gt; was performed from &lt;e2&gt;LGD, TXT, Excel import&lt;/e2&gt; or from &lt;e3&gt;Loop&lt;/e3&gt;, when rearranging the fields that contained null values, the fields were exported incorrectly: false, 0, 0.00, 00:00 or empty rows appeared instead of null values according to the type; null values appeared instead of non-zero values.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Экспорт в PostgreSQL:&lt;/s0&gt; при попытке экспорта строк в поля &lt;e1&gt;xml&lt;/e1&gt; или &lt;e2&gt;json&lt;/e2&gt; возникала ошибка «колонка "..." имеет тип ..., а выражение - character varying».</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210902T133745Z" creationid="Марианна" creationdate="20210902T133745Z">
