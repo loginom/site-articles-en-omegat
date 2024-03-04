@@ -2990,6 +2990,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Приложение:&lt;/s0&gt; В редакторе ввода значений типа Дата/время (используется, например, в узле &lt;a1&gt;Фильтр строк&lt;/a1&gt;) не локализовался первый день недели и текст кнопки установки текущей даты (в русскоязычной и англоязычной версиях кнопка называлась Current Date).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240304T064247Z" creationid="Марианна" creationdate="20240304T064247Z">
+        <seg>&lt;s0&gt;Application:&lt;/s0&gt; The first week day and the text of the current date button (it is Current Date button in the Russian and English versions) were not localized in the Date/time value entry editor (for example, it is used in &lt;a1&gt;Row filter&lt;/a1&gt; node).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Приложение:&lt;/s0&gt; Исправлена ошибка "Cannot read property 'NodeIndex' of null", которая возникала, если пользователь с правами только на администрирование открывал пакет из файлового хранилища.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240301T090208Z" creationid="Марианна" creationdate="20240301T090208Z">
