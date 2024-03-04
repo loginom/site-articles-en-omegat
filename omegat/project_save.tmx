@@ -3008,8 +3008,8 @@
       <tuv lang="ru">
         <seg>&lt;s0&gt;Приложение:&lt;/s0&gt; Исправлена ошибка "Cannot read property 'NodeIndex' of null", которая возникала, если пользователь с правами только на администрирование открывал пакет из файлового хранилища.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240301T090208Z" creationid="Марианна" creationdate="20240301T090208Z">
-        <seg>&lt;s0&gt;Application:&lt;/s0&gt; "Cannot read property 'NodeIndex' of null" error was corrected. It occurred if the user only with the administration rights opened the package from the file storage.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240304T080358Z" creationid="Марианна" creationdate="20240301T090208Z">
+        <seg>&lt;s0&gt;Application:&lt;/s0&gt; "Cannot read property 'NodeIndex' of null" error was corrected. It occurred if the user with the administration rights only opened the package from the file storage.</seg>
       </tuv>
     </tu>
     <tu>
