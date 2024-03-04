@@ -3144,8 +3144,8 @@
       <tuv lang="ru">
         <seg>&lt;s0&gt;Условие:&lt;/s0&gt; Если на странице мастера настройки «Настройка списка портов» задать 2 порта, а затем второй порт переместить вверх, то нарушается нумерация портов (строк в таблице содержащей список портов) — оба порта имели номер 2.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240304T065135Z" creationid="Марианна" creationdate="20240304T065135Z">
-        <seg>&lt;s0&gt;Condition:&lt;/s0&gt; If 2 ports are set on the page of "Configure list of ports" wizard, and then the second port was moved up, the numeration order of ports (rows in the table containing the list of ports) was distorted. Both ports had number 2.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240304T065641Z" creationid="Марианна" creationdate="20240304T065135Z">
+        <seg>&lt;s0&gt;Condition:&lt;/s0&gt; If 2 ports were set on the page of "Configure list of ports" wizard, and then the second port was moved up, the numbering of ports (rows in the table containing the list of ports) was broken. Both ports were numbered 2.</seg>
       </tuv>
     </tu>
     <tu>
