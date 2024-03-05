@@ -2478,6 +2478,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Визуализатор Куб:&lt;/s0&gt; Фильтр по факту, в котором значение для сравнения указано как значение по умолчанию (0, "" и т.д.), т.е. не изменялось пользователем при его настройке, не срабатывал.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240305T102253Z" creationid="Марианна" creationdate="20240305T102253Z">
+        <seg>&lt;s0&gt;Cube visualizer:&lt;/s0&gt; The filter by measure did not work. The compare value in it was specified as the default value (0, "" etc), namely, it was not changed by the user during its configuration.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Визуализатор Таблица:&lt;/s0&gt; Для некоторых колонок из-за округления и разницы в 1 пиксель не срабатывал автоматический подбор ширины колонки по тексту заголовка.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240302T084111Z" creationid="Марианна" creationdate="20240302T083929Z">
