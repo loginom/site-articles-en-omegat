@@ -13210,6 +13210,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Фильтрация срабатывала после изменения значения для сравнения на отличное от значения по умолчанию, а затем на нужное пользователю (0, "").</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240305T103544Z" creationid="Марианна" creationdate="20240305T103544Z">
+        <seg>Filtering was effective after replacing the compare value with the value different from the default value and then with the value needed for the user (0, "").</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Формат по умолчанию для Даты и Времени сделан Фиксированный (&lt;e2&gt;"2021-01-30"&lt;/e2&gt;, &lt;e3&gt;"23:59:59"&lt;/e3&gt;, &lt;e4&gt;"01:01:01"&lt;/e4&gt;) (#8595).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210902T073606Z" creationid="Марианна" creationdate="20210902T073606Z">
