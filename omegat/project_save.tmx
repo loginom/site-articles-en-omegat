@@ -13450,6 +13450,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>в визуализаторе &lt;a0&gt;Статистика&lt;/a0&gt; на гистограмме, а также для значений минимум и максимум поля типа Дата/Время (#9728).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240305T093418Z" creationid="Марианна" creationdate="20240305T093418Z">
+        <seg>in the &lt;a0&gt;Statistics&lt;/a0&gt; visualizer on the histogram and also for the minimum and maximum values of the Date/Time field (#9728).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>в гистограмме визуализатора &lt;a0&gt;Качество данных&lt;/a0&gt; (#9731);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240304T081928Z" creationid="Марианна" creationdate="20240304T081928Z">
