@@ -2462,6 +2462,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Визуализаторы, компоненты:&lt;/s0&gt; Значение поля Время для даты 30.12.1899 содержало не только значение времени, но и дату.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240305T092118Z" creationid="Марианна" creationdate="20240305T092118Z">
+        <seg>&lt;s0&gt;Visualizers, components:&lt;/s0&gt; The value of the Time field for 30.12.1899 contained not only the time value but also the date.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Замена:&lt;/s0&gt; В мастере настройки узла &lt;e1&gt;Замена&lt;/e1&gt; в случае изменения типа данных для значения Замена тип выходных столбцов не может быть однозначно определен, если параметр Заменять остальные не задан.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230314T164234Z" creationid="Марианна" creationdate="20230314T163024Z">
@@ -11406,6 +11414,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220426T095136Z" creationid="Марианна" creationdate="20220426T095136Z">
         <seg>The problem was that "By default" for "Text qaulifier" was not logically used in that context. It was confused with "By default" for other parameters.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Проблема возникала, если на одном компьютере с Linux было несколько пользователей, у которых установлен Loginom.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240305T092003Z" creationid="Марианна" creationdate="20240305T092003Z">
+        <seg>The problem occurred if there were several users of one Linux computer with installed Loginom.</seg>
       </tuv>
     </tu>
     <tu>
