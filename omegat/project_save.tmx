@@ -1998,6 +1998,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;a0&gt;Квантовании&lt;/a0&gt; &lt;e1&gt; Конечных классах&lt;/e1&gt; при формировании метки для значений времени (#9735, #9734);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240305T092432Z" creationid="Марианна" creationdate="20240305T092246Z">
+        <seg>in &lt;a0&gt;Binning&lt;/a0&gt; of &lt;e1&gt; Coarse classes&lt;/e1&gt; when generating the caption for the time values (#9735, #9734);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;a0&gt;Кубе&lt;/a0&gt; (#9730);</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240228T194332Z" creationid="Марианна" creationdate="20240228T194332Z">
@@ -13414,6 +13422,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240226T145341Z" creationid="Марианна" creationdate="20240226T145341Z">
         <seg>connection only to unix socket is used in Integrator Team.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>в визуализаторе &lt;a0&gt; Конечные классы&lt;/a0&gt; в метках границ классов (#9733);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240305T092252Z" creationid="Марианна" creationdate="20240305T092224Z">
+        <seg>in the &lt;a0&gt; Coarse classes&lt;/a0&gt; visualizer in class bounds captions (#9733);</seg>
       </tuv>
     </tu>
     <tu>
