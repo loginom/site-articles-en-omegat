@@ -822,6 +822,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;a0&gt;&lt;s1&gt;Визуализатор Диаграмма:&lt;/s1&gt;&lt;/a0&gt; При экспорте диаграммы в PDF, если высота изображения превышала ширину, ее нижняя часть была обрезана.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240305T093643Z" creationid="Марианна" creationdate="20240305T093643Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Chart visualizer:&lt;/s1&gt;&lt;/a0&gt; When exporting the chart to PDF, its lower part was cut if the image height exceeded the width.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Визуализатор Качество данных:&lt;/s1&gt;&lt;/a0&gt; Исправлена ошибка "Cannot read properties of undefined (reading 'isGroupHeader')", которая возникала при активации визуализатора &lt;e2&gt;Качество данных&lt;/e2&gt; со страницы &lt;e3&gt;Отчеты&lt;/e3&gt;, без предварительного входа в визуализатор со страницы &lt;e4&gt;Визуализаторы&lt;/e4&gt; (#9470).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240301T102741Z" creationid="Марианна" creationdate="20240301T101647Z">
