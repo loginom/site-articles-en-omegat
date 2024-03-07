@@ -2174,6 +2174,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Loginom Desktop:&lt;/s0&gt; При работе под Linux запоминается последняя открытая папка в файловых диалогах (#10150).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240307T092331Z" creationid="Марианна" creationdate="20240307T092331Z">
+        <seg>&lt;s0&gt;Loginom Desktop:&lt;/s0&gt; The last opened folder in the file dialogs is remembered when working with Linux (#10150).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Loginom Desktop:&lt;/s0&gt; Файловый диалог локализуется в зависимости от текущего местоположения пользователя.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240307T092000Z" creationid="Марианна" creationdate="20240307T092000Z">
