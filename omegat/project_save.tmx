@@ -2166,6 +2166,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Loginom Desktop:&lt;/s0&gt; В настольных редакциях под Linux подключен менеджер памяти TCMalloc вместо стандартного Glibc, который медленно отдает системе неиспользуемую, освобожденную программой память.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240307T091829Z" creationid="Марианна" creationdate="20240307T091829Z">
+        <seg>&lt;s0&gt;Loginom Desktop:&lt;/s0&gt; TCMalloc memory manager was connected instead of the standard Glibc in the desktop editions for Linux. It slowly gave unused memory released by the program back to the system.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Loginom Integrator:&lt;/s0&gt; Если опубликовать пакет, открыть страницу Swagger UI Интегратора с использованием имени хоста или &lt;c1&gt;localhost&lt;/c1&gt;, а затем открыть страницу Swagger UI Интегратора с использованием ip-адреса, то на странице Swagger UI выводилась ошибка "Fetch error Internal Server Error /lgi/openapi/PackageName.json".</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230314T122037Z" creationid="Марианна" creationdate="20230314T122037Z">
