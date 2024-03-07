@@ -2136,8 +2136,8 @@
       <tuv lang="ru">
         <seg>&lt;s0&gt;Loginom Desktop:&lt;/s0&gt; В настольной редакции под Linux, если не выбран файл, в заголовке диалога открытия файла под GTK выводилась строка «./../../».</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240307T080453Z" creationid="Марианна" creationdate="20240305T091507Z">
-        <seg>&lt;s0&gt;Loginom Desktop:&lt;/s0&gt; When there was no file selected, GTK open file dialog showed «./../../» title in desktop edition for Linux.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240307T080650Z" creationid="Марианна" creationdate="20240305T091507Z">
+        <seg>&lt;s0&gt;Loginom Desktop:&lt;/s0&gt; When there was no file selected, GTK open file dialog showed "./../../" title in the desktop edition for Linux.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12972,8 +12972,8 @@
       <tuv lang="ru">
         <seg>Убрали ее из заголовка.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240301T103518Z" creationid="Марианна" creationdate="20240301T103518Z">
-        <seg>It was deleted from the header.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240307T080723Z" creationid="Марианна" creationdate="20240301T103518Z">
+        <seg>It was deleted from the title.</seg>
       </tuv>
     </tu>
     <tu>
