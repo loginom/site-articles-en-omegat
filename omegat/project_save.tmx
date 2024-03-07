@@ -2918,6 +2918,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Область построения сценария:&lt;/s0&gt; В сильно загруженной системе при перетаскивании компонента в область построения сценария он откреплялся от курсора и добавлялся в область построения сценария сразу после того, как появлялся над этой областью.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240307T083413Z" creationid="Марианна" creationdate="20240307T083413Z">
+        <seg>&lt;s0&gt;Workflow construction area:&lt;/s0&gt; When dragging the component to the workflow construction area in the heavily loaded system, it was unfixed from the cursor and added to the workflow construction area just after it appeared over this area.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Область построения сценария:&lt;/s0&gt; Если изменить масштаб при помощи функции «Карта сценария», добавить в область построения сценария узел в правый нижний угол, затем сохранить и закрыть пакет, то после открытия пакета в масштабе 100% координаты добавленного узла были неверными.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240302T083331Z" creationid="Марианна" creationdate="20240302T081803Z">
