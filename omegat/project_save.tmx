@@ -2928,8 +2928,8 @@
       <tuv lang="ru">
         <seg>&lt;s0&gt;Область построения сценария:&lt;/s0&gt; Если попытаться переименовать заблокированный узел, то после сообщения об ошибке «Узел заблокирован», изменить метку нельзя, скрывалась иконка замка у метки узла.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240307T082128Z" creationid="Марианна" creationdate="20240307T082128Z">
-        <seg>&lt;s0&gt;Workflow construction area:&lt;/s0&gt; While attempting to rename the locked node, it was not possible to change the caption after "Node locked" message error, and the lock icon was hidden at the node caption.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240307T082356Z" creationid="Марианна" creationdate="20240307T082128Z">
+        <seg>&lt;s0&gt;Workflow construction area:&lt;/s0&gt; While attempting to rename the locked node, it was not possible to change the caption after "Node is locked" message error, and the lock icon was hidden at the node caption.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12606,6 +12606,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240227T125537Z" creationid="Марианна" creationdate="20240227T125537Z">
         <seg>Also the application pool was not deleted unless its name was "LGI_POOL".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Также пропадали переводы строк у многострочной метки узла.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240307T082912Z" creationid="Марианна" creationdate="20240307T082912Z">
+        <seg>Also translations of rows disappeared at the multiline caption of the node.</seg>
       </tuv>
     </tu>
     <tu>
