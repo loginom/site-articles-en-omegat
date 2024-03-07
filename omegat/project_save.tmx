@@ -958,6 +958,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;a0&gt;&lt;s1&gt;Замена:&lt;/s1&gt;&lt;/a0&gt; При способе замены &lt;e2&gt;Ввод вручную&lt;/e2&gt; повторное нажатие на кнопку &lt;e3&gt;Экспорт&lt;/e3&gt; для экспорта таблицы замен приводило к ошибке «Невозможно перейти по адресу: blob:...».</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240307T080331Z" creationid="Марианна" creationdate="20240307T080331Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Replace:&lt;/s1&gt;&lt;/a0&gt; При способе замены &lt;e2&gt;Ввод вручную&lt;/e2&gt; повторное нажатие на кнопку &lt;e3&gt;Export&lt;/e3&gt; для экспорта таблицы замен приводило к ошибке «Невозможно перейти по адресу: blob:...».</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Замена:&lt;/s1&gt;&lt;/a0&gt; отключена возможность на входном порту «Таблица замен» выставлять «Назначение».</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220425T191117Z" creationid="Марианна" creationdate="20220425T191117Z">
@@ -2128,8 +2136,8 @@
       <tuv lang="ru">
         <seg>&lt;s0&gt;Loginom Desktop:&lt;/s0&gt; В настольной редакции под Linux, если не выбран файл, в заголовке диалога открытия файла под GTK выводилась строка «./../../».</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240305T091507Z" creationid="Марианна" creationdate="20240305T091507Z">
-        <seg>&lt;s0&gt;Loginom Desktop:&lt;/s0&gt; "./../../" row was displayed in the header of GTK file open dialog in the desktop edition for Linux if the file was not selected.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240307T080453Z" creationid="Марианна" creationdate="20240305T091507Z">
+        <seg>&lt;s0&gt;Loginom Desktop:&lt;/s0&gt; When there was no file selected, GTK open file dialog showed «./../../» title in desktop edition for Linux.</seg>
       </tuv>
     </tu>
     <tu>
