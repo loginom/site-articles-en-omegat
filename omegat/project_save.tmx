@@ -9536,6 +9536,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Она возникала нерегулярно в редакциях под Linux и не имела точных шагов воспроизведения (#10179).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240307T083605Z" creationid="Марианна" creationdate="20240307T083605Z">
+        <seg>It occurred irregularly in the editions for Linux, and there were no exact reproduction steps (#10179).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Она появилась в версии 7.0.0.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240228T194121Z" creationid="Марианна" creationdate="20240228T194121Z">
