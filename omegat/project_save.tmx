@@ -960,8 +960,8 @@
       <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Замена:&lt;/s1&gt;&lt;/a0&gt; При способе замены &lt;e2&gt;Ввод вручную&lt;/e2&gt; повторное нажатие на кнопку &lt;e3&gt;Экспорт&lt;/e3&gt; для экспорта таблицы замен приводило к ошибке «Невозможно перейти по адресу: blob:...».</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240307T080745Z" creationid="Марианна" creationdate="20240307T080331Z">
-        <seg>&lt;a0&gt;&lt;s1&gt;Replace:&lt;/s1&gt;&lt;/a0&gt; При способе замены &lt;e2&gt;Ввод вручную&lt;/e2&gt; повторное нажатие на кнопку &lt;e3&gt;Export&lt;/e3&gt; для экспорта таблицы замен caused the following error: «Невозможно перейти по адресу: blob:...».</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240307T081254Z" creationid="Марианна" creationdate="20240307T080331Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Replace:&lt;/s1&gt;&lt;/a0&gt; When selecting &lt;e2&gt;Manual input&lt;/e2&gt; replace method, the repeated pressing on &lt;e3&gt;Export&lt;/e3&gt; button to export the replacement table caused the following error: "Failed to go to the following address: blob:...".</seg>
       </tuv>
     </tu>
     <tu>
