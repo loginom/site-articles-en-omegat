@@ -2174,6 +2174,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Loginom Desktop:&lt;/s0&gt; Когда Loginom Desktop запускается через командную строку с передачей имени файла пакета, через ее аргумент открывается сценарий первого модуля, т.е. аналогично тому, когда пакет запускается через меню приложения (#7090).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240308T121744Z" creationid="Марианна" creationdate="20240308T121744Z">
+        <seg>&lt;s0&gt;Loginom Desktop:&lt;/s0&gt; When Loginom Desktop was started via the command line with the package file name transfer, the first module workflow was opened via its argument, namely, similar to the situation when the package was started via the application menu (#7090).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Loginom Desktop:&lt;/s0&gt; При работе под Linux запоминается последняя открытая папка в файловых диалогах (#10150).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240307T092331Z" creationid="Марианна" creationdate="20240307T092331Z">
