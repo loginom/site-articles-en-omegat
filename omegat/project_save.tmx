@@ -1158,6 +1158,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;a0&gt;&lt;s1&gt;Инспектор свойств:&lt;/s1&gt;&lt;/a0&gt; Оптимизировано начальное заполнение окна инспектора.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240308T122842Z" creationid="Марианна" creationdate="20240308T122842Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Property Inspector:&lt;/s1&gt;&lt;/a0&gt; The initial filling in of the inspector window was optimised.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Инспектор свойств:&lt;/s1&gt;&lt;/a0&gt; если более 10 узлов несколько раз подряд сворачивались/разворачивались в Подмодель и при этом был открыт Инспектор свойств, то возникала ошибка «Клиентский прокси-объект финализирован» (#8312).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210616T202321Z" creationid="Марианна" creationdate="20210616T201732Z">
