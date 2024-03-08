@@ -8408,6 +8408,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Использование диалога KDE может быть отключено переменной окружения &lt;c3&gt;NO_LOGINOM_KDE_FILE_DIALOG&lt;/c3&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240308T122149Z" creationid="Марианна" creationdate="20240308T122149Z">
+        <seg>KDE dialog use can be disabled by the variable of &lt;c3&gt;NO_LOGINOM_KDE_FILE_DIALOG&lt;/c3&gt; environment.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Использование скриптов на языке Python</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T174717Z" creationid="Марианна" creationdate="20210314T174717Z">
