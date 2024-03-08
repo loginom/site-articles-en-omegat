@@ -11826,6 +11826,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ранее для непрерывных значений при единственном классе его метка формировалась в виде «до %d» (например, «до 9»), теперь будет «…».</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240308T123252Z" creationid="Марианна" creationdate="20240308T123252Z">
+        <seg>Previously, in the case of the single class its caption for the continuous values was generated as follows: "up to %d" (for example, "up to 9"). Now, it will be as follows: "...". </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ранее для строковых полей нельзя было в качестве значения замены указать null-значение (#3206).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230315T093812Z" creationid="Марианна" creationdate="20230315T093812Z">
