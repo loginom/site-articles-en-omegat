@@ -3198,6 +3198,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Приложение:&lt;/s0&gt; Оптимизировано сравнение значений переменного типа, внутри которых были строки, в результате чего в некоторых сценариях узлы &lt;a1&gt;Фильтр строк&lt;/a1&gt; стали активироваться быстрее на 25%.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240308T123515Z" creationid="Марианна" creationdate="20240308T123515Z">
+        <seg>&lt;s0&gt;Application:&lt;/s0&gt; Comparison of the variable values with the rows inside was optimised. In the result, &lt;a1&gt;Row filter&lt;/a1&gt; nodes in some workflows are activated 25% faster.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Приложение:&lt;/s0&gt; В мастерах настройки исправлена ошибка "Cannot read properties of null (reading 'setValue')", которая возникала при перемещении с помощью клавиш навигации в панели переключения страниц (#9399).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20221126T155735Z" creationid="Марианна" creationdate="20221126T155640Z">
