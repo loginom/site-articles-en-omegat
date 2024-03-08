@@ -2790,6 +2790,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Конечные классы:&lt;/s0&gt; Учтена ситуация, когда количество конечных классов равно 1.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240308T122938Z" creationid="Марианна" creationdate="20240308T122938Z">
+        <seg>&lt;s0&gt;Coarse сlasses:&lt;/s0&gt; The situation when the coarse classes count was equal to 1 was taken into account.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Конечные классы:&lt;/s0&gt; ошибка, возникавшая при обработке волатильного поля, например, полученного после «Калькулятора» при использовании функции «Random».</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220425T195012Z" creationid="Марианна" creationdate="20220425T195012Z">
