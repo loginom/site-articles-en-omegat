@@ -1,68 +1,68 @@
 <h2 id="исправление-ошибок">Fixes</h2>
 
-<p><a href="https://help.loginom.ru/userguide/components-platform.html#desktop" target="_blank"><strong>Loginom Desktop:</strong></a> В настольной редакции под Linux исправлено отображение результирующего имени файла в заголовке файлового диалога в <a href="https://ru.wikipedia.org/wiki/GTK" target="_blank">GTK</a>.</p>
+<p><a href="https://help.loginom.ru/userguide/components-platform.html#desktop" target="_blank"><strong>Loginom Desktop:</strong></a> Display of the resulting file name in the header of the file dialog in <a href="https://ru.wikipedia.org/wiki/GTK" target="_blank">GTK</a> was corrected in the desktop edition for Linux.</p>
 
-<p><strong>Loginom Desktop:</strong> В настольной редакции под Linux, если не выбран файл, в заголовке диалога открытия файла под GTK выводилась строка «./../../». It was deleted from the header.</p>
+<p><strong>Loginom Desktop:</strong> When there was no file selected, GTK open file dialog showed "./../../" title in the desktop edition for Linux. It was deleted from the title.</p>
 
-<p><a href="https://help.loginom.ru/userguide/components-platform.html#server" target="_blank"><strong>Loginom Server:</strong></a> Исправлена ошибка «Access Violation», которая возникала при работе под Linux во время чтения ошибочных или битых конфигурационных файлов сервера (Settings.cfg, Users.cfg и др.). Now, in this case the information on this problem is recorded in journald.</p>
+<p><a href="https://help.loginom.ru/userguide/components-platform.html#server" target="_blank"><strong>Loginom Server:</strong></a> "Access Violation" error was corrected. It occurred in Linux while reading erroneous or damaged configuration server files (Settings.cfg, Users.cfg, etc). Now, in this case the information on this problem is recorded in journald.</p>
 
-<p><a href="https://help.loginom.ru/userguide/processors/programming/python/" target="_blank"><strong>Python:</strong></a> <code>/dev/shm/loginom</code> access conflict was eliminated. Проблема возникала, если на одном компьютере с Linux было несколько пользователей, у которых установлен Loginom.</p>
+<p><a href="https://help.loginom.ru/userguide/processors/programming/python/" target="_blank"><strong>Python:</strong></a> <code>/dev/shm/loginom</code> access conflict was eliminated. The problem occurred if there were several users of one Linux computer with installed Loginom.</p>
 
-<p><strong>Визуализаторы, компоненты:</strong> Значение поля Время для даты 30.12.1899 содержало не только значение времени, но и дату. После внесенных исправлений для даты 30.12.1899 выводится только время. Ранее ошибку можно было заметить:</p>
+<p><strong>Visualizers, components:</strong> The value of the Time field for 30.12.1899 contained not only the time value but also the date. Only time is displayed after introduced corections for 30.12.1899. Previously, the error could be observed here:</p>
 
 <ul>
-	<li>в гистограмме визуализатора <a href="https://help.loginom.ru/userguide/visualization/data-quality/" target="_blank">Качество данных</a> (#9731);</li>
-	<li>в визуализаторе <a href="https://help.loginom.ru/userguide/visualization/coarse-classes/" target="_blank"> Конечные классы</a> в метках границ классов (#9733);</li>
-	<li><a href="https://help.loginom.ru/userguide/processors/preprocessing/binning.html" target="_blank">Квантовании</a> <em> Конечных классах</em> при формировании метки для значений времени (#9735, #9734);</li>
+	<li>in <a href="https://help.loginom.ru/userguide/visualization/data-quality/" target="_blank">Data quality</a> visualizer histogram (#9731);</li>
+	<li>in the <a href="https://help.loginom.ru/userguide/visualization/coarse-classes/" target="_blank"> Coarse classes</a> visualizer in class bounds captions (#9733);</li>
+	<li>in <a href="https://help.loginom.ru/userguide/processors/preprocessing/binning.html" target="_blank">Binning</a> of <em> Coarse classes</em> when generating the caption for the time values (#9735, #9734);</li>
 	<li><a href="https://help.loginom.ru/userguide/visualization/cube/" target="_blank">Cube</a> (#9730);</li>
-	<li>в визуализаторе <a href="https://help.loginom.ru/userguide/visualization/regression/" target="_blank">Отчет по регрессии</a> в описании показателей модели (#9736);</li>
-	<li>в визуализаторе <a href="https://help.loginom.ru/userguide/visualization/cluster-profiles/" target="_blank">Профили кластеров</a> для значений минимум, максимум и среднее поля типа Дата/Время (#9732);</li>
-	<li>в визуализаторе <a href="https://help.loginom.ru/userguide/visualization/statistics/" target="_blank">Статистика</a> на гистограмме, а также для значений минимум и максимум поля типа Дата/Время (#9728).</li>
+	<li>in <a href="https://help.loginom.ru/userguide/visualization/regression/" target="_blank">Regression report</a> visualizer in description of the model parameters (#9736);</li>
+	<li>in the <a href="https://help.loginom.ru/userguide/visualization/cluster-profiles/" target="_blank">Cluster profiles</a> visualizer for the minimum, maximum and average values of the Date/Time field (#9732);</li>
+	<li>in the <a href="https://help.loginom.ru/userguide/visualization/statistics/" target="_blank">Statistics</a> visualizer on the histogram and also for the minimum and maximum values of the Date/Time field (#9728).</li>
 </ul>
 
-<p><a href="https://help.loginom.ru/userguide/visualization/chart/" target="_blank"><strong>Визуализатор Диаграмма:</strong></a> При экспорте диаграммы в PDF, если высота изображения превышала ширину, ее нижняя часть была обрезана. The required corrections were introduced (#10174).</p>
+<p><a href="https://help.loginom.ru/userguide/visualization/chart/" target="_blank"><strong>Chart visualizer:</strong></a> When exporting the chart to PDF, its lower part was cut if the image height exceeded the width. The required corrections were introduced (#10174).</p>
 
-<p><a href="https://help.loginom.ru/userguide/visualization/binary-classification/" target="_blank"><strong>Визуализатор Качество бинарной классификации:</strong></a> На диаграмме точности не отображались линии графиков NPV и OPR, хотя маркеры для них отображались (т.е. графики были построены). The regression error occurred in version 7.0.2 was corrected (#10178).</p>
+<p><a href="https://help.loginom.ru/userguide/visualization/binary-classification/" target="_blank"><strong>Binary сlassification assessment visualizer:</strong></a> NPV and OPR graph lines were not displayed on the accuracy chart, although markers designated for them were displayed (namely, the charts were constructed). The regression error occurred in version 7.0.2 was corrected (#10178).</p>
 
-<p><strong>Визуализатор Куб:</strong> Фильтр по факту, в котором значение для сравнения указано как значение по умолчанию (0, "" и т.д.), т.е. не изменялось пользователем при его настройке, не срабатывал. Фильтрация срабатывала после изменения значения для сравнения на отличное от значения по умолчанию, а затем на нужное пользователю (0, ""). Error of behavior was corrected (#9929).</p>
+<p><strong>Cube visualizer:</strong> The filter by measure did not work. The compare value in it was specified as the default value (0, "" etc), namely, it was not changed by the user during its configuration. Filtering was effective after replacing the compare value with the value different from the default value and then with the value needed for the user (0, ""). Error of behavior was corrected (#9929).</p>
 
-<p><a href="https://help.loginom.ru/userguide/processors/scrutiny/duplicates.html" target="_blank"><strong>Дубликаты и противоречия:</strong></a> Исправлена ошибка «Abstract method called», которая возникала в визуализаторе <em>Качество данных</em>, настроенном на узле, который получал данные с узла <em>Дубликаты и противоречия</em> (#10201).</p>
+<p><a href="https://help.loginom.ru/userguide/processors/scrutiny/duplicates.html" target="_blank"><strong>Duplicates and Contradictions:</strong></a> "Abstract method called" error was corrected. It occurred in the <em>Data quality</em> visualizer configured on the node that received data from the <em>Duplicates and Contradictions</em> node (#10201).</p>
 
-<p><a href="https://help.loginom.ru/userguide/processors/transformation/substitution/" target="_blank"><strong>Замена:</strong></a> При способе замены <em>Ввод вручную</em> повторное нажатие на кнопку <em>Экспорт</em> для экспорта таблицы замен приводило к ошибке «Невозможно перейти по адресу: blob:...». The error occurred in the desktop Loginom version. The required corrections were introduced (#10164).</p>
+<p><a href="https://help.loginom.ru/userguide/processors/transformation/substitution/" target="_blank"><strong>Replace:</strong></a> When selecting <em>Manual input</em> replace method, the repeated pressing on <em>Export</em> button to export the replacement table caused the following error: "Failed to go to the following address: blob:...". The error occurred in the desktop Loginom version. The required corrections were introduced (#10164).</p>
 
-<p><a href="https://help.loginom.ru/userguide/integration/import/excel/" target="_blank"><strong>Импорт из Excel файла:</strong></a> Исправлена ошибка «Failed to open / Не удалось открыть Excel», которая возникала при попытке импортировать файл, полученный экспортом из Power BI или Teradata SQL Assistant (#9849).</p>
+<p><a href="https://help.loginom.ru/userguide/integration/import/excel/" target="_blank"><strong>Import from Excel file:</strong></a> The following error was corrected: "Failed to open / Failed to open Excel". It occurred while attempting to import the file exported from Power BI or Teradata SQL Assistant (#9849).</p>
 
-<p><a href="https://help.loginom.ru/userguide/processors/transformation/calc/" target="_blank"><strong>Калькулятор:</strong></a> Если изменить выражение и, не выходя из редактора, нажать клавишу F3 (открыть <em>Предпросмотр</em>), то результат в <em>Предпросмотре</em> не учитывал последние изменения. The error was corrected (#10166).</p>
+<p><a href="https://help.loginom.ru/userguide/processors/transformation/calc/" target="_blank"><strong>Calculator:</strong></a> If the user changed the expression and pressed F3 key without exiting the editor (open <em>Preview</em>), changes were not taken into account in the result in <em>Preview</em>. The error was corrected (#10166).</p>
 
-<p><strong>Область построения сценария:</strong> Если попытаться переименовать заблокированный узел, то после сообщения об ошибке «Узел заблокирован», изменить метку нельзя, скрывалась иконка замка у метки узла. Также пропадали переводы строк у многострочной метки узла. The errors were corrected (#10077).</p>
+<p><strong>Workflow construction area:</strong> While attempting to rename the locked node, it was not possible to change the caption after "Node is locked" message error, and the lock icon was hidden at the node caption. Also translations of rows disappeared at the multiline caption of the node. The errors were corrected (#10077).</p>
 
-<p><strong>Область построения сценария:</strong> В сильно загруженной системе при перетаскивании компонента в область построения сценария он откреплялся от курсора и добавлялся в область построения сценария сразу после того, как появлялся над этой областью. In this case, the node was not selected. Error of behavior was corrected (#10168).</p>
+<p><strong>Workflow construction area:</strong> When dragging the component to the workflow construction area in the heavily loaded system, it was unfixed from the cursor and added to the workflow construction area just after it appeared over this area. In this case, the node was not selected. Error of behavior was corrected (#10168).</p>
 
-<p><a href="https://help.loginom.ru/userguide/integration/connections/list/postgresql.html" target="_blank"><strong>PostgreSQL connection:</strong></a> The following error was correcte: "Error on data waiting from the connection: No such file or directory. Socket Error Code: 2($2)". Она возникала нерегулярно в редакциях под Linux и не имела точных шагов воспроизведения (#10179).</p>
+<p><a href="https://help.loginom.ru/userguide/integration/connections/list/postgresql.html" target="_blank"><strong>PostgreSQL connection:</strong></a> The following error was correcte: "Error on data waiting from the connection: No such file or directory. Socket Error Code: 2($2)". It occurred irregularly in the editions for Linux, and there were no exact reproduction steps (#10179).</p>
 
-<p><a href="https://help.loginom.ru/userguide/integration/connections/list/schemes.html" target="_blank"><strong>Подключение набора XSD-схем:</strong></a> Устранена утечка памяти, которая возникала, если подключение настроено на схему с абстрактными элементами (#10205).</p>
+<p><a href="https://help.loginom.ru/userguide/integration/connections/list/schemes.html" target="_blank"><strong>Connection of XSD schemas set:</strong></a> Memory leak was  eliminated. It occurred if the connection was configured for the schema with the abstract elements (#10205).</p>
 
 <h2 id="улучшения">Improvements</h2>
 
-<p><strong>Loginom Desktop:</strong> В настольных редакциях под Linux подключен менеджер памяти TCMalloc вместо стандартного Glibc, который медленно отдает системе неиспользуемую, освобожденную программой память.</p>
+<p><strong>Loginom Desktop:</strong> TCMalloc memory manager was connected instead of the standard Glibc in the desktop editions for Linux. It slowly gave unused memory released by the program back to the system.</p>
 
-<p><strong>Loginom Desktop:</strong> Файловый диалог локализуется в зависимости от текущего местоположения пользователя. Ранее можно было наблюдать ситуацию, когда для англоязычной версии Windows в русскоязычной версии Loginom почти все надписи в окне файлового диалога были на английском языке (т.к. Windows английский), а несколько элементов управления — на русском.</p>
+<p><strong>Loginom Desktop:</strong> The file dialog is localised according to the current location of the user. Previously, it was observed that almost all texts in the file dialog window for the English Windows version in the Russian Loginom version were in the English language (because Windows was in English), and several control elements were in the Russian language.</p>
 
-<p><strong>Loginom Desktop:</strong> Когда Loginom Desktop запускается через командную строку с передачей имени файла пакета, через ее аргумент открывается сценарий первого модуля, т.е. аналогично тому, когда пакет запускается через меню приложения (#7090).</p>
+<p><strong>Loginom Desktop:</strong> When Loginom Desktop was started via the command line with the package file name transfer, the first module workflow was opened via its argument, namely, similar to the situation when the package was started via the application menu (#7090).</p>
 
-<p><strong>Loginom Desktop:</strong> При работе под Linux запоминается последняя открытая папка в файловых диалогах (#10150).</p>
+<p><strong>Loginom Desktop:</strong> The last opened folder in the file dialogs is remembered when working with Linux (#10150).</p>
 
-<p><strong>Loginom Desktop:</strong> В приложении под Linux, работающем в окружении рабочего стола <a href="https://ru.wikipedia.org/wiki/KDE_Plasma_5" target="_blank">KDE</a>, используется файловый диалог KDE, а не GTK. Текущее окружение рабочего стола определяется значением переменной окружения <code>XDG_CURRENT_DESKTOP</code>. Использование диалога KDE может быть отключено переменной окружения <code>NO_LOGINOM_KDE_FILE_DIALOG</code>. При любых ошибках, не позволяющих запустить файловый диалог KDE, будет использоваться файловый диалог GTK (#10153).</p>
+<p><strong>Loginom Desktop:</strong> KDE file dialog but not GTK is used in the application for Linux that works in the environment of <a href="https://ru.wikipedia.org/wiki/KDE_Plasma_5" target="_blank">KDE</a> desktop. The current desktop environment is defined by the value of the variable of <code>XDG_CURRENT_DESKTOP</code> environment. KDE dialog use can be disabled by the variable of <code>NO_LOGINOM_KDE_FILE_DIALOG</code> environment. In the case of any errors that do not allow to start KDE file dialog, GTK file dialog will be used (#10153).</p>
 
-<p><strong>Loginom Server:</strong> При работе под Linux для логирования ошибок старта <code>loginomd</code> вместо <code>syslog</code> используется <code>journald</code>. Если API <code>journald</code> не доступно, сообщение записывается в <code>stderr</code>.</p>
+<p><strong>Loginom Server:</strong> When working with Linux, for logging  <code>loginomd</code> start errors instead of <code>syslog</code> <code>journald</code> is used. If API <code>journald</code> is not available, the message is recorded in <code>stderr</code>.</p>
 
-<p><a href="https://help.loginom.ru/userguide/interface/property-inspector.html" target="_blank"><strong>Инспектор свойств:</strong></a> Оптимизировано начальное заполнение окна инспектора.</p>
+<p><a href="https://help.loginom.ru/userguide/interface/property-inspector.html" target="_blank"><strong>Property Inspector:</strong></a> The initial filling in of the inspector window was optimised.</p>
 
-<p><strong>Конечные классы:</strong> Учтена ситуация, когда количество конечных классов равно 1. Ранее для непрерывных значений при единственном классе его метка формировалась в виде «до %d» (например, «до 9»), теперь будет «…».</p>
+<p><strong>Coarse сlasses:</strong> The situation when the coarse classes count was equal to 1 was taken into account. Previously, in the case of the single class its caption for the continuous values was generated as follows: "up to %d" (for example, "up to 9"). Now, it will be as follows: "...". </p>
 
-<p><strong>Приложение:</strong> Оптимизировано сравнение значений переменного типа, внутри которых были строки, в результате чего в некоторых сценариях узлы <a href="https://help.loginom.ru/userguide/processors/transformation/row-filter/" target="_blank">Фильтр строк</a> стали активироваться быстрее на 25%.</p>
+<p><strong>Application:</strong> Comparison of the variable values with the rows inside was optimised. As a result, <a href="https://help.loginom.ru/userguide/processors/transformation/row-filter/" target="_blank">Row filter</a> nodes in some workflows are activated 25% faster.</p>
 
-<p><a href="https://help.loginom.ru/userguide/integration/export/ldf.html" target="_blank"><strong>Экспорт в LGD-файл:</strong></a> В мастере настройки удалено поле <em>Разрядность</em>, т.к. Loginom 7 выпускается только 64-х разрядным (#10047).</p>
+<p><a href="https://help.loginom.ru/userguide/integration/export/ldf.html" target="_blank"><strong>Export to LGD file:</strong></a> <em>Bitness</em> field was deleted in the wizard because Loginom 7 is available only in 64-bit form (#10047).</p>
 
 <div class="text-align-center">
 <p class="lg-text-btn lg-text-btn_border"><a href="https://loginom.ru/download">Try version</a></p>

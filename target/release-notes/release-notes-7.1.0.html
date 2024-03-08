@@ -1,6 +1,6 @@
 <h2 id="исправление-ошибок">Fixes</h2>
 
-<p><a href="https://help.loginom.ru/adminguide/server/" target="_blank"><strong>Loginom Server:</strong></a> The error that occurred in the <a href="https://help.loginom.ru/userguide/admin/dispatcher.html" target="_blank">Session Manager</a> while attempting to stop the package execution in the session created from <a href="https://help.loginom.ru/userguide/workflow/batchlauncher.html" target="_blank">BatchLauncher</a> was corrected. After clicking on "Stop" button the following message was displayed: "Null reference to object". But the package was still being executed. The package execution stops after introduced corrections, no errors occur (#10110).</p>
+<p><a href="https://help.loginom.ru/adminguide/server/" target="_blank"><strong>Loginom Server:</strong></a> The error that occurred in the <a href="https://help.loginom.ru/userguide/admin/dispatcher.html" target="_blank">Session Manager</a> while attempting to stop the package execution in the session created from <a href="https://help.loginom.ru/userguide/workflow/batchlauncher.html" target="_blank">BatchLauncher</a> was corrected. After clicking on "Stop" button the following message was displayed: "Null reference to object". But the package was still being executed. The package execution stopps after introduced corrections, no errors occur (#10110).</p>
 
 <p><strong>Loginom Server:</strong> The old session identifier was displayed in the <em>Session Manager</em> after its restart. Namely, the identifier of the session and the date of its creation didn't change. The error occurred when starting specially prepared workflows. Under normal conditions of the product use the error was not reproduced. Corrections were introduced (#10111).</p>
 
@@ -20,7 +20,7 @@
 
 <p><a href="https://help.loginom.ru/userguide/visualization/table/" target="_blank"><strong>Table visualizer:</strong></a> The following error was corrected: "Data set is not in the closed state". It occurred if the user set the sorting by ~20 columns in the table with many columns (~200), quickly went to the workflow opened on the next tab and deactivated the node on which the visualizer was configured (#9963).</p>
 
-<p><strong>Table visualizer:</strong> Auto selection of the column width by the header text didn't work for some columns due to rounding and difference in 1 pixel. The problem is typical of somebrowsers (for example, Chrome). Corrections were introduced.</p>
+<p><strong>Table visualizer:</strong> Auto selection of the column width by the header text didn't work for some columns due to rounding and difference in 1 pixel. The problem is typical of some browsers (for example, Chrome). Corrections were introduced.</p>
 
 <p><a href="https://help.loginom.ru/userguide/processors/transformation/grouping.html" target="_blank"><strong>Grouping</strong></a>, <a href="https://help.loginom.ru/userguide/processors/variables/variables-from-table.html" target="_blank"><strong>Table to variables:</strong></a> For the columns that relate to the integer type and contain the values that are more than 2<sup>53</sup> - 1 or less than -2<sup>53</sup> + 1, errors can occur in aggregations: <em>Minimum, Maximum, Mode, First, Last, Single</em>. When calculating the unique values count, different unique values could be counted as one. The required corrections were introduced, indicators are calculated without loss of accuracy (#9943).</p>
 
@@ -60,7 +60,7 @@
 
 <p><strong>Application:</strong> The following situation was observed in <em>Table</em>, <a href="https://help.loginom.ru/userguide/interface/property-inspector.html" target="_blank">Property inspector</a> and <em>Session manager</em> visualizers: the cell was not selected in the table after right-clicking, and the context menu displayed the items for the previous selected cell. Error of behavior was corrected (#8104).</p>
 
-<p><strong>Application:</strong> "Cannot read property 'NodeIndex' of null" error was corrected. It occurred if the user only with the administration rights opened the package from the file storage. Now, in this case the explanatory message is displayed (#6787).</p>
+<p><strong>Application:</strong> "Cannot read property 'NodeIndex' of null" error was corrected. It occurred if the user with the administration rights only opened the package from the file storage. Now, in this case the explanatory message is displayed (#6787).</p>
 
 <p><strong>Application:</strong> The pop-up tip was not hidden in the wizards for the link for which there was no field. Such a situation could arise, for example, if data was supplied to the second input port in the <em>Binning</em> node, connection was set with the usage type in the wizard for any input field, then the fields or usage types were filtered in such a way that the connected field didn't fall under the filtering criterion (it was hidden). The tip previously displayed for connection was not hidden. Error of behavior was corrected (#9955).</p>
 
