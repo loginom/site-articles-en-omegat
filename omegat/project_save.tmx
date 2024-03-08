@@ -2246,6 +2246,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Loginom Server:&lt;/s0&gt; При работе под Linux для логирования ошибок старта &lt;c1&gt;loginomd&lt;/c1&gt; вместо &lt;c2&gt;syslog&lt;/c2&gt; используется &lt;c3&gt;journald&lt;/c3&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240308T122548Z" creationid="Марианна" creationdate="20240308T122548Z">
+        <seg>&lt;s0&gt;Loginom Server:&lt;/s0&gt; When working with Linux,for logging  &lt;c1&gt;loginomd&lt;/c1&gt; start errors instead of &lt;c2&gt;syslog&lt;/c2&gt; &lt;c3&gt;journald&lt;/c3&gt; is used.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Loginom Server:&lt;/s0&gt; Базовый пакет (пакет, на который ссылается другой пакет), заблокированный одним пользователем (открытый с возможностью редактирования), второй пользователь первый раз мог открыть только на чтение, а вот повторное открытие уже позволяло редактировать базовый пакет.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240229T122557Z" creationid="Марианна" creationdate="20240227T122203Z">
