@@ -11828,8 +11828,8 @@
       <tuv lang="ru">
         <seg>Ранее можно было наблюдать ситуацию, когда для англоязычной версии Windows в русскоязычной версии Loginom почти все надписи в окне файлового диалога были на английском языке (т.к. Windows английский), а несколько элементов управления — на русском.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240308T115944Z" creationid="Марианна" creationdate="20240308T115944Z">
-        <seg>Previously, it was observed that almost all .</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240308T120440Z" creationid="Марианна" creationdate="20240308T115944Z">
+        <seg>Previously, it was observed that almost all texts in the file dialog window for the English Windows version in the Russian Loginom version were in the English language (because Windows was in English), and several control elements were in the Russian language.</seg>
       </tuv>
     </tu>
     <tu>
