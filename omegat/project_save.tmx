@@ -2014,6 +2014,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;a0&gt;&lt;s1&gt;Экспорт в LGD-файл:&lt;/s1&gt;&lt;/a0&gt; В мастере настройки удалено поле &lt;e2&gt;Разрядность&lt;/e2&gt;, т.к. Loginom 7 выпускается только 64-х разрядным (#10047).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240308T123909Z" creationid="Марианна" creationdate="20240308T123909Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Export to LGD file:&lt;/s1&gt;&lt;/a0&gt; &lt;e2&gt;Bitness&lt;/e2&gt; field was deleted in the wizard because Loginom 7 is available only in 64-bit form (#10047).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Экспорт в LGD-файл:&lt;/s1&gt;&lt;/a0&gt; Если при длительном выполнении экспорта в LGD-файл останавливалось выполнение узла (нажатием на узел), то узел все равно переходил в состояние «Выполнен успешно».</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240302T091044Z" creationid="Марианна" creationdate="20240302T090819Z">
@@ -3200,8 +3208,8 @@
       <tuv lang="ru">
         <seg>&lt;s0&gt;Приложение:&lt;/s0&gt; Оптимизировано сравнение значений переменного типа, внутри которых были строки, в результате чего в некоторых сценариях узлы &lt;a1&gt;Фильтр строк&lt;/a1&gt; стали активироваться быстрее на 25%.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240308T123515Z" creationid="Марианна" creationdate="20240308T123515Z">
-        <seg>&lt;s0&gt;Application:&lt;/s0&gt; Comparison of the variable values with the rows inside was optimised. In the result, &lt;a1&gt;Row filter&lt;/a1&gt; nodes in some workflows are activated 25% faster.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240308T123611Z" creationid="Марианна" creationdate="20240308T123515Z">
+        <seg>&lt;s0&gt;Application:&lt;/s0&gt; Comparison of the variable values with the rows inside was optimised. As a result, &lt;a1&gt;Row filter&lt;/a1&gt; nodes in some workflows are activated 25% faster.</seg>
       </tuv>
     </tu>
     <tu>
