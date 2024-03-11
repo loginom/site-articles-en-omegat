@@ -3016,8 +3016,8 @@
       <tuv lang="ru">
         <seg>&lt;s0&gt;Область построения сценария:&lt;/s0&gt; Если попытаться переименовать заблокированный узел, то после сообщения об ошибке «Узел заблокирован», изменить метку нельзя, скрывалась иконка замка у метки узла.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240307T082356Z" creationid="Марианна" creationdate="20240307T082128Z">
-        <seg>&lt;s0&gt;Workflow construction area:&lt;/s0&gt; While attempting to rename the locked node, it was not possible to change the caption after "Node is locked" message error, and the lock icon was hidden at the node caption.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240311T110623Z" creationid="Марианна" creationdate="20240307T082128Z">
+        <seg>&lt;s0&gt;Workflow construction area:&lt;/s0&gt; While attempting to rename the locked node, it was not possible to change the caption after "Node is locked" error message, and the lock icon was hidden at the node caption.</seg>
       </tuv>
     </tu>
     <tu>
