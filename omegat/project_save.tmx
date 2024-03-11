@@ -3406,6 +3406,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Производительность:&lt;/s0&gt; Выполнение в &lt;a1&gt;Цикле&lt;/a1&gt; &lt;e2&gt;Подмодели&lt;/e2&gt; с большим количеством производных узлов стало быстрее на 30%.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240311T150423Z" creationid="Марианна" creationdate="20240311T150423Z">
+        <seg>&lt;s0&gt;Performance:&lt;/s0&gt; Execution in the &lt;a1&gt;Loop&lt;/a1&gt; of the &lt;e2&gt;Supernode&lt;/e2&gt; with many derived nodes became 30% faster.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Производные компоненты:&lt;/s0&gt; исправлена ошибка «Перемещённый производный компонент недоступен для узла» при сворачивании в Подмодель (#8931).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220425T203912Z" creationid="Марианна" creationdate="20220425T203912Z">
@@ -12966,6 +12974,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220310T113920Z" creationid="Марианна" creationdate="20220227T161505Z">
         <seg>The derived components for all nodes with the "Public" or "Published" &lt;a0&gt;visibility&lt;/a0&gt; are automatically created in the same way as references to these nodes can be available in other packages.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Также быстрее стали загружаться пакеты, содержащие большое количество производных компонентов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240311T150540Z" creationid="Марианна" creationdate="20240311T150540Z">
+        <seg>The packages that contain many derived components began to load faster.</seg>
       </tuv>
     </tu>
     <tu>
