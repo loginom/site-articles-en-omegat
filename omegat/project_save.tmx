@@ -976,8 +976,8 @@
       <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Диспетчер:&lt;/s1&gt;&lt;/a0&gt; Если во время закрытия сессии через Диспетчер отсутствовало сетевое соединения с клиентским компьютером или клиентский компьютер находился в спящем режиме, то удаляемая сессия исчезала из списка, а затем сразу появлялась снова.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240311T134953Z" creationid="Марианна" creationdate="20240311T134953Z">
-        <seg>&lt;a0&gt;&lt;s1&gt;Session Manager:&lt;/s1&gt;&lt;/a0&gt; If there was no network connection with the client computer when closing the session via the Session Manager, or the client computer was in sleep mode, the deleted session disappeared from the list and then it appeared again.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240311T135025Z" creationid="Марианна" creationdate="20240311T134953Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Session Manager:&lt;/s1&gt;&lt;/a0&gt; If there was no network connection with the client computer or the client computer was in sleep mode when closing the session via the Session Manager, the deleted session disappeared from the list and then it appeared again.</seg>
       </tuv>
     </tu>
     <tu>
