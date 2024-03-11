@@ -1568,8 +1568,8 @@
       <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Подключение PostgreSQL:&lt;/s1&gt;&lt;/a0&gt; Исправлена ошибка «Error on data waiting from the connection: No such file or directory.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240228T194516Z" creationid="Марианна" creationdate="20240228T194516Z">
-        <seg>&lt;a0&gt;&lt;s1&gt;PostgreSQL connection:&lt;/s1&gt;&lt;/a0&gt; The following error was correcte: "Error on data waiting from the connection: No such file or directory.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240311T110701Z" creationid="Марианна" creationdate="20240228T194516Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;PostgreSQL connection:&lt;/s1&gt;&lt;/a0&gt; The following error was corrected: "Error on data waiting from the connection: No such file or directory.</seg>
       </tuv>
     </tu>
     <tu>
