@@ -9472,6 +9472,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Не удалось выделить в списке, т.к. не соответствует фильтру».</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240311T140856Z" creationid="Марианна" creationdate="20240311T140856Z">
+        <seg>Failed to select in the list because it does not match the filter".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Нейросеть (классификация)</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240211T171743Z" creationid="Марианна" creationdate="20240211T171743Z">
