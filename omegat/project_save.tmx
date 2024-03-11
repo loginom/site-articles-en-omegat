@@ -12980,8 +12980,8 @@
       <tuv lang="ru">
         <seg>Также быстрее стали загружаться пакеты, содержащие большое количество производных компонентов.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240311T150540Z" creationid="Марианна" creationdate="20240311T150540Z">
-        <seg>The packages that contain many derived components began to load faster.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240311T150558Z" creationid="Марианна" creationdate="20240311T150540Z">
+        <seg>The packages that contain many derived components began to load also faster.</seg>
       </tuv>
     </tu>
     <tu>
