@@ -2230,6 +2230,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Loginom Integrator:&lt;/s0&gt; Исправлена ошибка «Не задано ни одного столбца для логирования», которая возникала при запуске Интегратора, если в &lt;a1&gt;конфигурационном файле Интегратора&lt;/a1&gt;, было включено логирование в базу данных и заданы не все столбцы, например, только &lt;c2&gt;packageNameColumn&lt;/c2&gt; и &lt;c3&gt;nodeNameColumn&lt;/c3&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240311T125854Z" creationid="Марианна" creationdate="20240311T125854Z">
+        <seg>&lt;s0&gt;Loginom Integrator:&lt;/s0&gt; Исправлена ошибка «No column was specified for log-in», которая возникала при запуске Интегратора, если в &lt;a1&gt;конфигурационном файле Интегратора&lt;/a1&gt;, было включено логирование в базу данных и заданы не все столбцы, например, только &lt;c2&gt;packageNameColumn&lt;/c2&gt; и &lt;c3&gt;nodeNameColumn&lt;/c3&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Loginom Integrator:&lt;/s0&gt; Если опубликовать пакет, открыть страницу Swagger UI Интегратора с использованием имени хоста или &lt;c1&gt;localhost&lt;/c1&gt;, а затем открыть страницу Swagger UI Интегратора с использованием ip-адреса, то на странице Swagger UI выводилась ошибка "Fetch error Internal Server Error /lgi/openapi/PackageName.json".</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230314T122037Z" creationid="Марианна" creationdate="20230314T122037Z">
