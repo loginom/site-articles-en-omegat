@@ -13594,6 +13594,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Эти строки нигде не использовались, при этом они могли приводить к появлению ошибок в некоторых приложениях (например, 1С), которые подключались к Интегратору (#10296).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240311T133800Z" creationid="Марианна" creationdate="20240311T133800Z">
+        <seg>These rows were never used but they could cause errors in some applications (for example, 1C) connected to Integrator (#10296).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Это актуально, если у столбцов pandas таблицы метки записаны кириллицей.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240219T143329Z" creationid="Марианна" creationdate="20240219T143329Z">
