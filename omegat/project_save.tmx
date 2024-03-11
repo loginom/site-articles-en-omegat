@@ -11634,6 +11634,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Приходилось завершать публикацию такого пакета и снова его публиковать для устранения ошибки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240311T133358Z" creationid="Марианна" creationdate="20240311T133358Z">
+        <seg>Publication of such package was to be terminated, and it was to be published once again to fix the problem.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Проблема была в том, что данном контексте «По умолчанию» для «Ограничитель строк» использовать не логично, и это путается с «По умолчанию» для других параметров.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220426T095136Z" creationid="Марианна" creationdate="20220426T095136Z">
