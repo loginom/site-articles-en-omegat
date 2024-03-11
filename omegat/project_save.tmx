@@ -504,8 +504,8 @@
       <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Loginom Desktop:&lt;/s1&gt;&lt;/a0&gt; В настольной редакции под Linux исправлено отображение результирующего имени файла в заголовке файлового диалога в &lt;a2&gt;GTK&lt;/a2&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240305T090506Z" creationid="Марианна" creationdate="20240305T090506Z">
-        <seg>&lt;a0&gt;&lt;s1&gt;Loginom Desktop:&lt;/s1&gt;&lt;/a0&gt; Display of the resulting file name in the header of the file dialog in &lt;a2&gt;GTK&lt;/a2&gt; was corrected in the desktop edition for Linux.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240311T110314Z" creationid="Марианна" creationdate="20240305T090506Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Loginom Desktop:&lt;/s1&gt;&lt;/a0&gt; Display of the resulting file name in the title of the file dialog in &lt;a2&gt;GTK&lt;/a2&gt; was corrected in the desktop edition for Linux.</seg>
       </tuv>
     </tu>
     <tu>
