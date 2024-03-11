@@ -8802,8 +8802,8 @@
       <tuv lang="ru">
         <seg>Как следствие, при запросе через Интегратор возникала ошибка «Недопустимое количество столбцов во входной матрице значений...».</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240311T132114Z" creationid="Марианна" creationdate="20240311T132114Z">
-        <seg>As a consequence, the following error occurred when requesting via Integrator: .</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240311T132300Z" creationid="Марианна" creationdate="20240311T132114Z">
+        <seg>As a consequence, the following error occurred when requesting via Integrator: "Invalid column count in the input matrix of values...".</seg>
       </tuv>
     </tu>
     <tu>
