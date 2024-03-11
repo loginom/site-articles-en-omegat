@@ -2238,6 +2238,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Loginom Integrator:&lt;/s0&gt; Из генерируемых wsdl в Интеграторе удалены лишние строки:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240311T133637Z" creationid="Марианна" creationdate="20240311T133637Z">
+        <seg>&lt;s0&gt;Loginom Integrator:&lt;/s0&gt; Unnecessary rows were deleted from generated wsdl  in Integrator:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Loginom Integrator:&lt;/s0&gt; Исправлена ошибка «Не задано ни одного столбца для логирования», которая возникала при запуске Интегратора, если в &lt;a1&gt;конфигурационном файле Интегратора&lt;/a1&gt;, было включено логирование в базу данных и заданы не все столбцы, например, только &lt;c2&gt;packageNameColumn&lt;/c2&gt; и &lt;c3&gt;nodeNameColumn&lt;/c3&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240311T131314Z" creationid="Марианна" creationdate="20240311T125854Z">
