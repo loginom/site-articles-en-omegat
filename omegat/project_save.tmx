@@ -518,6 +518,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;a0&gt;&lt;s1&gt;Loginom Integrator:&lt;/s1&gt;&lt;/a0&gt; Если у Loginom Server и Loginom Integrator не совпадали версии, то после попытки подключения возникала ошибка, а в Loginom Integrator оставались зависшие потоки чтения и записи, которые мешали нормальному завершению работы Loginom Integrator.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240311T112446Z" creationid="Марианна" creationdate="20240311T112446Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Loginom Integrator:&lt;/s1&gt;&lt;/a0&gt; If Loginom Server and Loginom Integrator versions didn't match each other, an error occurred after connection attempt, and read and write threads were kept frozen in Loginom Integrator. It prevented Loginom Integrator from being shut down normally.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Loginom Integrator:&lt;/s1&gt;&lt;/a0&gt; Если в Integrator отправлялся REST-запрос методом HTTP POST и в вызываемом пакете возникала ошибка, то возвращался статус 400 (Bad Request), что не соответствовало действительности, так как в данном случае правильный статус - 500 (Internal Server Error).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230315T071248Z" creationid="Марианна" creationdate="20230315T071248Z">
