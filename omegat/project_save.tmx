@@ -3214,6 +3214,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Подключение ODBC:&lt;/s0&gt; При подключении к Excel через ODBC не отображался список листов в дереве «Таблица/Представление».</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240311T144031Z" creationid="Марианна" creationdate="20240311T144031Z">
+        <seg>&lt;s0&gt;ODBC connection:&lt;/s0&gt; When connecting to Excel via ODBC, the list of sheets in the "Table/View" tree was not displayed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Подключение Oracle:&lt;/s0&gt; Исправлена ошибка "Can bind a LONG value only for insert a LONG column", которая возникала при экспорте в базу данных Oracle в Direct mode для длинных строк при включенном расширении типов (#9147).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230315T101729Z" creationid="Марианна" creationdate="20230315T101729Z">
@@ -5804,6 +5812,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230210T082533Z" creationid="Марианна" creationdate="20230210T082533Z">
         <seg>Access violation error occurred when activating such node clone.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>А при использовании драйвера Microsoft Access Text Driver в мастере настройки был пустой список столбцов (#9193, #10225).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240311T144155Z" creationid="Марианна" creationdate="20240311T144155Z">
+        <seg>When using Microsoft Access Text Driver, there was an empty list of columns in the wizard (#9193, #10225).</seg>
       </tuv>
     </tu>
     <tu>
