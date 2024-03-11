@@ -12314,6 +12314,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ранее, можно было на выходном порту связывать поле целого типа с вещественным, а поле переменного типа с полями других типов, в результате чего при активации узла возникала ошибка «Смена типа столбца в Импорте LGD не поддерживается» (#10122).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240311T145506Z" creationid="Марианна" creationdate="20240311T145506Z">
+        <seg>Previously, it was possible to connect the field related to the integer type with the real one at the output port, and the field related to the variable type with the fields related to other types that caused the following error when activating the node: "Change of column type is not supported in LGD Import" (#10122).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ранее, пользователь, пароль которого в Active Directory содержал русские буквы, не мог авторизоваться в Loginom через LDAP.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220308T145559Z" creationid="Марианна" creationdate="20220308T145559Z">
