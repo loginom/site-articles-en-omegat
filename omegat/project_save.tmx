@@ -12124,8 +12124,8 @@
       <tuv lang="ru">
         <seg>Ранее логирование выполнялась только в случае блокировки сессии по тайм-ауту неактивности (#10276).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240311T145842Z" creationid="Марианна" creationdate="20240311T145842Z">
-        <seg>Previously, logging was performed only in cases of session lock (#10276).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240311T150155Z" creationid="Марианна" creationdate="20240311T145842Z">
+        <seg>Previously, logging was performed only when the session was locked by idle timeout (#10276).</seg>
       </tuv>
     </tu>
     <tu>
