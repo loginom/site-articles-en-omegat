@@ -3102,6 +3102,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Область построения сценария:&lt;/s0&gt; Если клонировать узел со скрытым комментарием, а потом сразу сохранить сценарий или свернуть клонированный узел в &lt;a1&gt;Подмодель&lt;/a1&gt;, то статусы видимости и свернутости у комментария клонированного узла были перепутаны, и у клонированного узла был виден скрытый комментарий.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240311T143254Z" creationid="Марианна" creationdate="20240311T143254Z">
+        <seg>&lt;s0&gt;Workflow construction area:&lt;/s0&gt; If the node was cloned with the hidden comment and then the workflow was saved or the cloned node was collapsed to the &lt;a1&gt;Supernode&lt;/a1&gt;, the visibility and collapse statuses of the cloned node comment were confused, and the hidden comment of the cloned node was visible.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Область построения сценария:&lt;/s0&gt; Если попытаться переименовать заблокированный узел, то после сообщения об ошибке «Узел заблокирован», изменить метку нельзя, скрывалась иконка замка у метки узла.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240311T110623Z" creationid="Марианна" creationdate="20240307T082128Z">
