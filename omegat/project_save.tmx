@@ -462,6 +462,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;a0&gt;&lt;s1&gt;JavaScript:&lt;/s1&gt;&lt;/a0&gt; Исправлена ошибка «Access violation», которая возникала при работе под Linux после перезагрузки сервера при первой одновременной активации нескольких узлов (#10293).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240311T134056Z" creationid="Марианна" creationdate="20240311T134056Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;JavaScript:&lt;/s1&gt;&lt;/a0&gt; "Access violation" error was corrected. It occurred when working with Linux after the server restart when several nodes were simultaneously activated for the first time (#10293).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;JavaScript:&lt;/s1&gt;&lt;/a0&gt; За счет реализации пула интерпретаторов JavaSсript узел &lt;e2&gt;JavaScript&lt;/e2&gt; стал активироваться быстрее (в некоторых случаях ~ в 70 раз).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230314T200216Z" creationid="Марианна" creationdate="20230314T200216Z">
