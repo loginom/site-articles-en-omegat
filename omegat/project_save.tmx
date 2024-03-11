@@ -1126,6 +1126,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;a0&gt;&lt;s1&gt;Импорт из базы данных:&lt;/s1&gt;&lt;/a0&gt; Если в мастере настройки узла настроить фильтр для списка таблиц, а затем выбрать таблицу из отфильтрованного списка, то можно было получить всплывающее сообщение ­«Таблица(представление)... подготовлена к работе.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240311T140744Z" creationid="Марианна" creationdate="20240311T140744Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Import from database:&lt;/s1&gt;&lt;/a0&gt; If the filter for table list is configured in the node wizard, and then table is selected from the filtered list, it was possible to get the following pop-up message: "Table (view)... is prepared for work.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Импорт из базы данных:&lt;/s1&gt;&lt;/a0&gt; В мастере настройки импорта из базы данных при заданном фильтре для выбранных полей на следующей странице мастера настройки поля, не соответствующие установленному фильтру, считались не выбранными.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230316T054330Z" creationid="Марианна" creationdate="20230316T054330Z">
