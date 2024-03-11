@@ -11674,6 +11674,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Проблему с завершением потоков устранили (#10313).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240311T114505Z" creationid="Марианна" creationdate="20240311T114505Z">
+        <seg>The problem with completion of streams was eliminated (#10313).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Проведена значительная работа, направленная на улучшение и оптимизацию работы с базами данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240214T104530Z" creationid="Марианна" creationdate="20240214T104530Z">
