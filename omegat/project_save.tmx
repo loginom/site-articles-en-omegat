@@ -8544,6 +8544,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Исправили поведение, теперь в подобной ситуации при закрытии сессии из Диспетчера в столбце &lt;e2&gt;Активность&lt;/e2&gt; отображается надпись «Удаляется», а после восстановления соединения (выхода из спящего режима) клиент получит сообщение «Администратор закрыл сессию через диспетчер».</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240311T140044Z" creationid="Марианна" creationdate="20240311T140044Z">
+        <seg>Error of behavior was corrected. Now in this situation when closing the session from the Sesion Manager, "Deleted" is displayed in &lt;e2&gt;Activity&lt;/e2&gt; column, and after restoration of connection (wake from sleep) the client receives the following message: "Administrator closed the session via Session Manager".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Исправлен откат транзакций (#8103).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220425T152138Z" creationid="Марианна" creationdate="20220425T152138Z">
