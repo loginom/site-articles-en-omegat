@@ -12090,6 +12090,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ранее ошибочно в качестве значения такого выражения всегда возвращалось &lt;c3&gt;NULL&lt;/c3&gt; (#10303).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240311T141435Z" creationid="Марианна" creationdate="20240311T141435Z">
+        <seg>Previously, &lt;c3&gt;NULL&lt;/c3&gt; always returned as the value of such expression that was incorrectly (#10303).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ранее пользователи часто путали значение «По умолчанию» для «Ограничителя строк» с аналогичным значением для других параметров (#5351).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220426T094938Z" creationid="Марианна" creationdate="20220426T094938Z">
