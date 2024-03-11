@@ -3038,6 +3038,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Логирование:&lt;/s0&gt; При блокировании/разблокировании сессии пользователя через главное меню, в лог будет записано соответствующее сообщение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240311T145733Z" creationid="Марианна" creationdate="20240311T145733Z">
+        <seg>&lt;s0&gt;Logging:&lt;/s0&gt; When locking/unlocking the user session via the main menu, corresponding message will be recorded in the log.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Логирование:&lt;/s0&gt; в log-файл не писалось имя пользователя при использовании большого количества параллельных потоков, которые не нагружают процессор, в «Цикле».</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220426T111833Z" creationid="Марианна" creationdate="20220426T111833Z">
@@ -8328,6 +8336,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Запись осуществляется при уровне «Информация».</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240311T145800Z" creationid="Марианна" creationdate="20240311T145800Z">
+        <seg>Record is performed at the "Information" level.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Запрос к URL ""..."" завершился с ошибкой ...</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230314T202533Z" creationid="Марианна" creationdate="20230314T202533Z">
@@ -12102,6 +12118,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240219T123205Z" creationid="Марианна" creationdate="20240219T123205Z">
         <seg>Previously, the value in "Error code" column was equal to 0 irrespective of HTTP Status Code.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Ранее логирование выполнялась только в случае блокировки сессии по тайм-ауту неактивности (#10276).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240311T145842Z" creationid="Марианна" creationdate="20240311T145842Z">
+        <seg>Previously, logging was performed only in cases of session lock (#10276).</seg>
       </tuv>
     </tu>
     <tu>
