@@ -8800,6 +8800,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Как следствие, при запросе через Интегратор возникала ошибка «Недопустимое количество столбцов во входной матрице значений...».</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240311T132114Z" creationid="Марианна" creationdate="20240311T132114Z">
+        <seg>As a consequence, the following error occurred when requesting via Integrator: .</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Калибровка модели при помощи поправки на априорную вероятность позволяет скорректировать искажения, которые могут вноситься на этапе построения модели при балансировке классов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210321T194939Z" creationid="Марианна" creationdate="20210321T194557Z">
