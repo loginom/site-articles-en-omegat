@@ -1222,6 +1222,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;a0&gt;&lt;s1&gt;Калькулятор:&lt;/s1&gt;&lt;/a0&gt; В режиме работы ­«Выражение» разрешено выполнение оператора &lt;c2&gt;NOT&lt;/c2&gt; со значениями переменного типа (NOT VAR, где VAR - любое выражение с результатом переменного типа).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240311T141304Z" creationid="Марианна" creationdate="20240311T141304Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Calculator:&lt;/s1&gt;&lt;/a0&gt; &lt;c2&gt;NOT&lt;/c2&gt; operator execution with the values related to the variable type (NOT VAR where VAR - any expression with the result related to the variable type) is allowed in the "Expression" mode of operation.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Калькулятор:&lt;/s1&gt;&lt;/a0&gt; Если изменить выражение и, не выходя из редактора, нажать клавишу F3 (открыть &lt;e2&gt;Предпросмотр&lt;/e2&gt;), то результат в &lt;e3&gt;Предпросмотре&lt;/e3&gt; не учитывал последние изменения.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240307T081849Z" creationid="Марианна" creationdate="20240307T081849Z">
