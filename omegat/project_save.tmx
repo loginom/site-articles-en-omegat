@@ -12018,6 +12018,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ранее во время настройки импорта из Calcculation view SAP HANA, при наличии таких таблиц/схем, попытка выбора таблицы из списка или ввода ее имени в поле «Таблица/представление» приводила к ошибке «Неверно указано имя таблицы».</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240311T144354Z" creationid="Марианна" creationdate="20240311T144354Z">
+        <seg>Previously, when configuring import from  Calculation view SAP HANA, in the case of such tables/schemas, attempt to select the table from the list or enter its name in the "Table/View" field, caused the following error: .</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ранее выводилось оповещение об ошибке, загрузка пакета прерывалась (такой пакет не открывался).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220425T175631Z" creationid="Марианна" creationdate="20220425T175631Z">
