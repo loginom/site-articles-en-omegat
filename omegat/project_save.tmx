@@ -2862,6 +2862,22 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Калькулятор:&lt;/s0&gt; Вставка текста в редакторе кода выражения выполнялась не на текущую позицию курсора.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240311T141634Z" creationid="Марианна" creationdate="20240311T141634Z">
+        <seg>&lt;s0&gt;Calculator:&lt;/s0&gt; Text in the expression code editor was pasted not to the current cursor position.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;s0&gt;Калькулятор:&lt;/s0&gt; Функции &lt;c1&gt;DateTimeToStr&lt;/c1&gt; и &lt;c2&gt;DateToStr&lt;/c2&gt; не возвращали результат, если необязательный параметр &lt;c3&gt;Format&lt;/c3&gt; был равен "".</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240311T141838Z" creationid="Марианна" creationdate="20240311T141838Z">
+        <seg>&lt;s0&gt;Calculator:&lt;/s0&gt; &lt;c1&gt;DateTimeToStr&lt;/c1&gt; and &lt;c2&gt;DateToStr&lt;/c2&gt; functions didn't return the result if the optional &lt;c3&gt;Format&lt;/c3&gt; parameter was equal to "".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Калькулятор:&lt;/s0&gt; внесены исправления в работу функции &lt;e1&gt;RegExMatchedExp&lt;/e1&gt;, которая в некоторых случаях могла выдать неверный результат (поиск регулярного выражения не начинался заново, если успешно найденная на предыдущем шаге строка была пустой) (#9310).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220711T093713Z" creationid="Марианна" creationdate="20220711T093600Z">
