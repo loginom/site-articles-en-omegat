@@ -616,8 +616,8 @@
       <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Python:&lt;/s1&gt;&lt;/a0&gt; Исправлена работа узла с большими строковыми значениями в режиме выполнения внутри процесса.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240311T134238Z" creationid="Марианна" creationdate="20240311T134238Z">
-        <seg>&lt;a0&gt;&lt;s1&gt;Python:&lt;/s1&gt;&lt;/a0&gt;  The node operation with large string values in the execution mode inside the process was corrected.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240311T134251Z" creationid="Марианна" creationdate="20240311T134238Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Python:&lt;/s1&gt;&lt;/a0&gt; The node operation with large string values in the execution mode inside the process was corrected.</seg>
       </tuv>
     </tu>
     <tu>
