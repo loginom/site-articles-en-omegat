@@ -1606,6 +1606,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;a0&gt;&lt;s1&gt;Подключение ODBC:&lt;/s1&gt;&lt;/a0&gt; В серверных редакциях появилась возможность подключаться к SAP HANA с использованием строки подключения (#10211).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240311T150300Z" creationid="Марианна" creationdate="20240311T150300Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;ODBC connection:&lt;/s1&gt;&lt;/a0&gt; It became possible to connect to SAP HANA using the connection string in the server editions (#10211).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Подключение ODBC:&lt;/s1&gt;&lt;/a0&gt; При использовании ODBC драйвера при импорте из базы данных поддерживаются имена таблиц и схем, содержащих символ «.» (точка).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240311T143849Z" creationid="Марианна" creationdate="20240311T143849Z">
