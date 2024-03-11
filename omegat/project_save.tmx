@@ -11282,6 +11282,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При выходе из спящего режима в некоторых случаях может быть получено сообщение «Произошёл разрыв связи с сервером» (#10278).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240311T140440Z" creationid="Марианна" creationdate="20240311T140440Z">
+        <seg>When waking from sleep, the following message can be received in some cases:  "Server connection lost" (#10278).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При запуске настольных редакций Loginom в качестве рабочего каталога устанавливается рабочий каталог, указанный в параметрах ярлыка.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220306T153934Z" creationid="Марианна" creationdate="20220306T153934Z">
