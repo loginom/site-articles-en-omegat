@@ -11978,6 +11978,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ранее могла возникать ошибка «Access violation» или в итоговой строке содержалась произвольная последовательность символов при получении из Python строки длиной более 1365 символов кириллицей или более 2048 латинских символов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240311T134638Z" creationid="Марианна" creationdate="20240311T134638Z">
+        <seg>Previously, "Access violation" error could occur or random sequence of characters was in the final row when receiving the row from Python with a length exceeding 1365 Cyrillic characters or 2048 Latin characters.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ранее можно было наблюдать ситуацию, когда для англоязычной версии Windows в русскоязычной версии Loginom почти все надписи в окне файлового диалога были на английском языке (т.к. Windows английский), а несколько элементов управления — на русском.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240308T120440Z" creationid="Марианна" creationdate="20240308T115944Z">
