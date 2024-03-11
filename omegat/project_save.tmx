@@ -3126,6 +3126,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Область построения сценария:&lt;/s0&gt; После помещения узла в область построения сценария не завершался процесс его перетаскивания, в результате чего на экране наблюдались различные визуальные дефекты (подсказки, анимация, не полное прорисовывание иконок узлов).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240311T142312Z" creationid="Марианна" creationdate="20240311T142312Z">
+        <seg>&lt;s0&gt;Workflow construction area:&lt;/s0&gt; After dragging the node to the workflow construction area, the process of its dragging was not finished. That is why different visual defects were observed on the screen (tips, animation, incomplete drawing of node icons).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Область построения сценария:&lt;/s0&gt; На выходе &lt;e1&gt;Подмодели&lt;/e1&gt; пропадала иконка служебного порта после сохранения и повторного открытия пакета и удаления одной из нескольких связей, подключенных к этому порту.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240229T101613Z" creationid="Марианна" creationdate="20240229T101453Z">
@@ -12942,6 +12950,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210320T233104Z" creationid="Марианна" creationdate="20210320T233104Z">
         <seg>Such behaviour could be required if the data structure is not known in advance and it is generated in the node execution process.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Такое поведение наблюдалось в очень редких случаях при быстром перетаскивании новых узлов в область построения сценария.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240311T142019Z" creationid="Марианна" creationdate="20240311T142019Z">
+        <seg>Such behavior was observed in very rare cases when quickly dragging new nodes to the workflow construction area.</seg>
       </tuv>
     </tu>
     <tu>
