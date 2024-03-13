@@ -478,6 +478,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;a0&gt;&lt;s1&gt;JavaScript:&lt;/s1&gt;&lt;/a0&gt; Исправлена ошибка "Runtime is in exception state", которая возникала при одновременной остановке выполнения скрипта и возникновении ошибки в скрипте.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240313T121204Z" creationid="Марианна" creationdate="20240313T121204Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;JavaScript:&lt;/s1&gt;&lt;/a0&gt; The following error was corrected: "Runtime is in exception state". It occurred when script execution process was stopped and error occurred in script in one and the same time.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;JavaScript:&lt;/s1&gt;&lt;/a0&gt; исправлено появление имени несуществующего модуля в автодополнении кода, подсказки по типам аргументов функций и их возвращаемых значений для модуля «builtIn/Fetch».</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220426T111500Z" creationid="Марианна" creationdate="20220426T111406Z">
