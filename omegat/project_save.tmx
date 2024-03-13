@@ -7312,6 +7312,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Внесли исправления, теперь пакет открывается без права на сохранение изменений, а пользователь получает соответствующее уведомление (#9861).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240313T150512Z" creationid="Марианна" creationdate="20240313T150512Z">
+        <seg>Corrections were made, and now the package is opened without the right to save changes, and the user receives corresponing message (#9861).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Внесли исправления.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240227T073001Z" creationid="Марианна" creationdate="20240227T073001Z">
