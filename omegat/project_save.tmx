@@ -8248,6 +8248,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если в окне интерактивного визуализатора мастера настройки узла отредактировать верхнюю границу первого класса, а затем изменить верхнюю границу последующего класса, то после нажатия клавиши Enter изменялась и нижняя граница второго класса.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240313T150100Z" creationid="Марианна" creationdate="20240313T150100Z">
+        <seg>If the upper bound of the first class was edited in the interactive visualizer window of the node wizard, and then the upper bound of the next class was changed, also the lower bound of the second class was changed after pressing Enter.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если в процессе выполнения кода Python возникнут критические ошибки, то приложение может аварийно завершится.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210320T223505Z" creationid="Марианна" creationdate="20210320T223505Z">
