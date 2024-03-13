@@ -12122,6 +12122,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Привели к единообразию, теперь в обеих системах неподдерживаемые символы будут заменены на &lt;c3&gt;0x1A&lt;/c3&gt; (#9920).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240313T155840Z" creationid="Марианна" creationdate="20240313T155840Z">
+        <seg>Uniformity was provided. Unsupported characters will be replaced with &lt;c3&gt;0x1A&lt;/c3&gt; (#9920) in both systems.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Пример записи:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240228T193516Z" creationid="Марианна" creationdate="20240228T193516Z">
