@@ -2950,6 +2950,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Калькулятор:&lt;/s0&gt; В мастере настройки узла актуализировали описание функции StrToDate.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240313T123508Z" creationid="Марианна" creationdate="20240313T123508Z">
+        <seg>&lt;s0&gt;Calculator:&lt;/s0&gt; StrToDate function description was updated in the node wizard.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Калькулятор:&lt;/s0&gt; Функции ArcSin и ArcCos выдавали неверный результат.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240313T123229Z" creationid="Марианна" creationdate="20240313T123229Z">
