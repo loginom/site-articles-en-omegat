@@ -8528,6 +8528,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Изменились системные требования для Loginom под Linux.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240313T120753Z" creationid="Марианна" creationdate="20240313T120753Z">
+        <seg>Loginom system requirements changed for Linux.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Изменился текст сообщения, которое выводится во время длительной подготовки визуализатора (например, при входе в визуализатор &lt;a0&gt;Статистика&lt;/a0&gt; или &lt;e1&gt;Куб&lt;/e1&gt;, когда в момент активации выполняются вычисления).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240220T083501Z" creationid="Марианна" creationdate="20240220T083501Z">
@@ -8916,6 +8924,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240227T074357Z" creationid="Марианна" creationdate="20240227T074357Z">
         <seg>Errors were corrected in Loginom Integrator, ARIMAX and other components.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Исправлены ошибки в нескольких Подключениях к источникам данных, в визуализаторах, в компонентах Калькулятор, Конечные классы, Дата и время, а также в компонентах, входящих в группы Импорт, Дерево данных, Программирование и Экспорт.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240313T120652Z" creationid="Марианна" creationdate="20240313T120652Z">
+        <seg>Errors were corrected in several Connections to data sources, visualizers, Calculator, Coarse classes, Date and time components and also in the components included into Import, Data tree, Programming and Export groups.</seg>
       </tuv>
     </tu>
     <tu>
