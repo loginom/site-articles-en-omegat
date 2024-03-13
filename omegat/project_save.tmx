@@ -14618,6 +14618,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>символов)) возникала ошибка браузера "Aw, Snap!</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240313T144211Z" creationid="Марианна" creationdate="20240313T144211Z">
+        <seg>characters)) the following browser error occurred: "Aw, Snap!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>символы русского алфавита заменяются по таблице замен на латинские символы или их комбинацию;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220309T065920Z" creationid="Марианна" creationdate="20220309T065920Z">
