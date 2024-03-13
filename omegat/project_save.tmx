@@ -6904,6 +6904,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В результате строковое значение разбивалось на разные строки без какой-либо информации о том, что оно должно быть одной строкой.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240313T155224Z" creationid="Марианна" creationdate="20240313T155224Z">
+        <seg>In the result, the string value was broken up into different strings without any information on the fact that it was to be one string.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В результате упрощается поиск проблемных узлов (#8952).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220426T084235Z" creationid="Марианна" creationdate="20220426T084235Z">
