@@ -2950,6 +2950,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Калькулятор:&lt;/s0&gt; Функции ArcSin и ArcCos выдавали неверный результат.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240313T123229Z" creationid="Марианна" creationdate="20240313T123229Z">
+        <seg>&lt;s0&gt;Calculator:&lt;/s0&gt; ArcSin and ArcCos functions returned incorrect result.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Калькулятор:&lt;/s0&gt; внесены исправления в работу функции &lt;e1&gt;RegExMatchedExp&lt;/e1&gt;, которая в некоторых случаях могла выдать неверный результат (поиск регулярного выражения не начинался заново, если успешно найденная на предыдущем шаге строка была пустой) (#9310).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220711T093713Z" creationid="Марианна" creationdate="20220711T093600Z">
@@ -4372,6 +4380,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240228T194520Z" creationid="Марианна" creationdate="20240228T194520Z">
         <seg>Socket Error Code: 2($2)".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Something went wrong while displaying this webpage.".</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240313T122804Z" creationid="Марианна" creationdate="20240313T122804Z">
+        <seg>Something went wrong while displaying this webpage.".</seg>
       </tuv>
     </tu>
     <tu>
@@ -8472,6 +8488,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Из-за ошибки на некоторых наборах данных визуализатор не отображался (#9839).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240313T123007Z" creationid="Марианна" creationdate="20240313T123007Z">
+        <seg>Due to an error the visualizer was not displayed in some data sets (#9839).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Из-за этого было невозможно выполнить в цикле импорт из нескольких листов книги Excel (#9266).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220929T135324Z" creationid="Марианна" creationdate="20220929T135324Z">
@@ -11922,6 +11946,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Проблема наблюдалась при включенной автосинхронизации.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240313T123053Z" creationid="Марианна" creationdate="20240313T123053Z">
+        <seg>The problem was observed when automapping was enabled.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Проблема приводила к некорректной работе компонента если при обучении в дискретных данных появились новые значения (которых не было при расчёте статистики).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220425T195242Z" creationid="Марианна" creationdate="20220425T195242Z">
@@ -12998,6 +13030,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220227T160835Z" creationid="Марианна" creationdate="20220227T160446Z">
         <seg>As the conversion process can take much time, it is recommended to perform the successive conversion of all used packages and save them after the executed conversion. Beforehand it is required to delete the derived components that are not planned to be used where relevant.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Такая проблема могла наблюдаться и в других визуализаторах с детализацией.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240313T122857Z" creationid="Марианна" creationdate="20240313T122857Z">
+        <seg>Such problem could occur also in other visualizers with detailing.</seg>
       </tuv>
     </tu>
     <tu>
