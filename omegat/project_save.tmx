@@ -7048,6 +7048,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В этой ситуации нижняя граница второго класса не должна изменяться и должна совпадать с верхней границей предыдущего класса.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240313T131033Z" creationid="Марианна" creationdate="20240313T131033Z">
+        <seg>In this situation the lower bound of the second class must not change and it must match the upper bound of the previous class.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В этом обновлении доработали файловое хранилище, оптимизировали использование процессора и оперативной памяти в многопоточном режиме, а также исправили обнаруженные ошибки.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211215T123230Z" creationid="Марианна" creationdate="20210902T070150Z">
@@ -7828,6 +7836,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220227T115021Z" creationid="Марианна" creationdate="20220227T115021Z">
         <seg>For this purpose, it became possible to move such package to the user session if it is used only in the current session.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Добавили поддержку NULL-значений для парамеров в параметризированных SELECT-запросах.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240313T130935Z" creationid="Марианна" creationdate="20240313T130935Z">
+        <seg>NULL values support was added for the parameters in parametrized SELECT requests.</seg>
       </tuv>
     </tu>
     <tu>
