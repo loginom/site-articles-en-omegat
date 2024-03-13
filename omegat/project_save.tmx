@@ -13770,6 +13770,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Чаще всего ошибка возникала в &lt;e2&gt;Предпросмотре&lt;/e2&gt; узла &lt;e3&gt;JavaScript&lt;/e3&gt;, т.к. в этом случае обрабатываются только первые 100 строк набора данных и скрипт останавливается (#9876).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240313T121438Z" creationid="Марианна" creationdate="20240313T121438Z">
+        <seg>Most often, the error occurred in &lt;e2&gt;Preview&lt;/e2&gt; of &lt;e3&gt;JavaScript&lt;/e3&gt; node because in this case only the first 100 rows of the data set were processed and the script stopped (#9876).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Чем больше итераций было выбрано в настройках Цикла, тем выше была вероятность возникновения ошибки (#8531).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210903T104042Z" creationid="Марианна" creationdate="20210903T103432Z">
