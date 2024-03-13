@@ -83,11 +83,11 @@ Errors were corrected in several Connections to data sources, visualizers, Calcu
 
 <p><a href="https://help.loginom.ru/userguide/location_user_files.html" target="_blank"><strong>File storage:</strong></a>&nbsp;When opening the package from the read-only folder, an error occurred, and the package could not be opened. It is a regression error. Corrections were made, and now the package is opened without the right to save changes, and the user receives corresponing message (#9861).</p>
 
-<p><a href="https://help.loginom.ru/userguide/integration/export/txt-csv.html" target="_blank"><strong>Export to text file:</strong></a>&nbsp;The multiline values (the string values that contained line breaks) were exported without framing quotation marks. В результате строковое значение разбивалось на разные строки без какой-либо информации о том, что оно должно быть одной строкой. При последующем импорте структура файла могла быть нарушена, данные считывались не как одна строка, а разбивались на несколько значений. The export error was corrected (#9683).</p>
+<p><a href="https://help.loginom.ru/userguide/integration/export/txt-csv.html" target="_blank"><strong>Export to text file:</strong></a>&nbsp;The multiline values (the string values that contained line breaks) were exported without framing quotation marks. In the result, the string value was broken up into different strings without any information on the fact that it was to be one string. При последующем импорте структура файла могла быть нарушена, данные считывались не как одна строка, а разбивались на несколько значений. The export error was corrected (#9683).</p>
 
-<p><strong>Экспорт в текстовый файл:</strong>&nbsp;При экспорте строк с не-ASCII-символами в файл с фиксированной шириной столбцов, ширина столбцов в полученном файле не была одинаковой. The error was corrected (#9905).</p>
+<p><strong>Export to text file:</strong>&nbsp;When exporting the strings with non ASCII characters to the file with the fixed column width, the column width in the received file was not the same. The error was corrected (#9905).</p>
 
-<p><strong>Экспорт в текстовый файл:</strong>&nbsp;Символы, которые не поддерживаются кодировкой экспортируемого текстового файла, в Loginom под Windows заменялись символом с кодом&nbsp;<code>0x3F</code>, а в Loginom под Linux —&nbsp;<code>0x1A</code>. Привели к единообразию, теперь в обеих системах неподдерживаемые символы будут заменены на&nbsp;<code>0x1A</code>&nbsp;(#9920).</p>
+<p><strong>Export to text file:</strong>&nbsp;The characters that were not supported by encoding of the exported text file were replaced in Loginom for Windows with the character with&nbsp;<code>0x3F</code> code, and in Loginom for Linux with&nbsp;<code>0x1A</code>. Uniformity was provided. Unsupported characters will be replaced with&nbsp;<code>0x1A</code>&nbsp;(#9920) in both systems.</p>
 
 <h2 id="улучшения">Improvements</h2>
 
