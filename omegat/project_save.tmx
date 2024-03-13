@@ -2950,6 +2950,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Инсталлятор:&lt;/s0&gt; Файл &lt;c1&gt;loginomd.socket&lt;/c1&gt; перенесен в папку &lt;c2&gt;%ProgramData%\Loginom&lt;/c2&gt; из подпапки &lt;c3&gt;%ProgramData%\Loginom\Server&lt;/c3&gt; (#6640).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240313T124956Z" creationid="Марианна" creationdate="20240313T124956Z">
+        <seg>&lt;s0&gt;Installer:&lt;/s0&gt; &lt;c1&gt;loginomd.socket&lt;/c1&gt; file was transferred to &lt;c2&gt;%ProgramData%\Loginom&lt;/c2&gt; folder from &lt;c3&gt;%ProgramData%\Loginom\Server&lt;/c3&gt; subfolder (#6640).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Калькулятор:&lt;/s0&gt; Вставка текста в редакторе кода выражения выполнялась не на текущую позицию курсора.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240311T141634Z" creationid="Марианна" creationdate="20240311T141634Z">
