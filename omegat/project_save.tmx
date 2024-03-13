@@ -13490,6 +13490,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Теперь длина строки для быстрого просмотра ограничена 5000 символов, чтобы браузер мог отобразить данные (#5776, #6166).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240313T145701Z" creationid="Марианна" creationdate="20240313T145701Z">
+        <seg>Now the string length for the quick view is limited by 5000 characters so that the browser could display data (#5776, #6166).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Теперь добавлена возможность задать имя для узла модели с модификатором доступа «Открытый».</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210322T172606Z" creationid="Марианна" creationdate="20210322T172606Z">
