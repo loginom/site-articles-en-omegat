@@ -6920,6 +6920,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В частности, в это сообщение теперь не записываются элементы вида &lt;c0&gt;"Container": null&lt;/c0&gt; для отсутствующих контейнеров в древовидной структуре данных (#9793).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240313T122302Z" creationid="Марианна" creationdate="20240313T122302Z">
+        <seg>In particular, now &lt;c0&gt;"Container": null&lt;/c0&gt; elements are not recorded in this message for the nonavailable containers in the tree-like data structure (#9793).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В этой версии добавили поддержку временных таблиц в импорте из 1С, улучшили работу Loginom Integrator, повысили информативность сообщений об ошибках в узлах Выполнение узла и Узел-ссылка.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220708T162718Z" creationid="Марианна" creationdate="20220708T162718Z">
