@@ -2320,8 +2320,8 @@
       <tuv lang="ru">
         <seg>&lt;s0&gt;Loginom Integrator:&lt;/s0&gt; Из генерируемых wsdl в Интеграторе удалены лишние строки:</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240311T133637Z" creationid="Марианна" creationdate="20240311T133637Z">
-        <seg>&lt;s0&gt;Loginom Integrator:&lt;/s0&gt; Unnecessary rows were deleted from generated wsdl  in Integrator:</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240313T044843Z" creationid="Марианна" creationdate="20240311T133637Z">
+        <seg>&lt;s0&gt;Loginom Integrator:&lt;/s0&gt; Unnecessary rows were deleted from generated wsdl in Integrator:</seg>
       </tuv>
     </tu>
     <tu>
