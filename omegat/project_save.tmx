@@ -12220,8 +12220,8 @@
       <tuv lang="ru">
         <seg>Ранее ошибочно в качестве значения такого выражения всегда возвращалось &lt;c3&gt;NULL&lt;/c3&gt; (#10303).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240311T141435Z" creationid="Марианна" creationdate="20240311T141435Z">
-        <seg>Previously, &lt;c3&gt;NULL&lt;/c3&gt; always returned as the value of such expression that was incorrectly (#10303).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240313T044854Z" creationid="Марианна" creationdate="20240311T141435Z">
+        <seg>Previously, &lt;c3&gt;NULL&lt;/c3&gt; always returned as the value of such expression that wasn't right (#10303).</seg>
       </tuv>
     </tu>
     <tu>
