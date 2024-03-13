@@ -2014,6 +2014,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;a0&gt;&lt;s1&gt;Файловое хранилище:&lt;/s1&gt;&lt;/a0&gt; При открытии пакета из папки с правами только на чтение возникала ошибка и пакет не открывался.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240313T150259Z" creationid="Марианна" creationdate="20240313T150259Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;File storage:&lt;/s1&gt;&lt;/a0&gt; When opening the package from the read-only folder, an error occurred, and the package could not be opened.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Файловое хранилище:&lt;/s1&gt;&lt;/a0&gt; если новые каталоги стали доступны пользователю во время его текущей сессии, то при попытки перейти в такой каталог, пользователь получал ошибку "Cannot read property 'expandAsync' of undefined".</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210903T084146Z" creationid="Марианна" creationdate="20210903T084146Z">
