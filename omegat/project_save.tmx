@@ -6576,6 +6576,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В некоторых случаях после просмотра данных ошибка не появлялась, но наблюдалось значительное замедление работы Loginom Studio и требовался перезапуск браузера.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240313T145338Z" creationid="Марианна" creationdate="20240313T145338Z">
+        <seg>In some cases the error didn't occur after data view but significant slowdown of Loginom Studio operation was observerd, and it was required to restart the browser.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В некоторых сценариях (содержащих большое количество узлов JavaSсript) может увеличиться объем памяти, занятый приложением (#9469).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230314T133832Z" creationid="Марианна" creationdate="20230314T133832Z">
