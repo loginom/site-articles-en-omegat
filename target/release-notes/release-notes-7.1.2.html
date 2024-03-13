@@ -6,7 +6,7 @@
 
 <p><strong>Loginom Integrator:</strong> If the input fields count was changed for the published node while automapping, such package was not marked as the changed one on "Web services" page, and pressing on "Update publication" button did not lead to update of metadata for Integrator. As a consequence, the following error occurred when requesting via Integrator: "Invalid column count in the input matrix of values...". Publication of such package was to be terminated, and it was to be published once again to fix the problem. Error of behavior was corrected (#10269).</p>
 
-<p><strong>Loginom Integrator:</strong> Unnecessary rows were deleted from generated wsdl  in Integrator:</p>
+<p><strong>Loginom Integrator:</strong> Unnecessary rows were deleted from generated wsdl in Integrator:</p>
 
 <pre>
 <code>&lt;xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/&gt;
@@ -23,7 +23,7 @@
 
 <p><a href="https://help.loginom.ru/userguide/integration/import/database.html" target="_blank"><strong>Import from database:</strong></a> If the table list filter was configured in the node wizard, and then the table was selected from the filtered list, the following pop-up message could be received: "Table (view)... is prepared for work. Failed to select in the list because it does not match the filter". Error of behavior was corrected (#10226).</p>
 
-<p><a href="https://help.loginom.ru/userguide/processors/transformation/calc/" target="_blank"><strong>Calculator:</strong></a> <code>NOT</code> operator execution with the values related to the variable type (NOT VAR where VAR - any expression with the result related to the variable type) is allowed in the "Expression" mode of operation. Previously, <code>NULL</code> always returned as the value of such expression that was incorrectly (#10303).</p>
+<p><a href="https://help.loginom.ru/userguide/processors/transformation/calc/" target="_blank"><strong>Calculator:</strong></a> <code>NOT</code> operator execution with the values related to the variable type (NOT VAR where VAR - any expression with the result related to the variable type) is allowed in the "Expression" mode of operation. Previously, <code>NULL</code> always returned as the value of such expression that wasn't right (#10303).</p>
 
 <p><strong>Calculator:</strong> Text in the expression code editor was pasted not to the current cursor position. The regression error was corrected (#10308).</p>
 
