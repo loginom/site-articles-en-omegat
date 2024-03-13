@@ -6624,6 +6624,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В ответное json-сообщение Интегратора не записываются опциональные элементы, у которых не задано значение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240313T121927Z" creationid="Марианна" creationdate="20240313T121927Z">
+        <seg>The optional elements for which no value is specified are not recorded in the response json message of Integrator.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В открывшемся окне доступны две опции на выбор: «Выполнение узла и Цикл» и «Производные узлы».</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220227T091339Z" creationid="Марианна" creationdate="20220224T064637Z">
@@ -14082,10 +14090,26 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>для контейнеров в древовидной структуре данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240313T121822Z" creationid="Марианна" creationdate="20240313T121822Z">
+        <seg>for the containers in the tree-like data structure.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>для свойств, соответствующих портам узла;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240313T121719Z" creationid="Марианна" creationdate="20240313T121719Z">
         <seg>for the properties that match the node ports;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>для свойства Rows в наборе данных;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240313T121736Z" creationid="Марианна" creationdate="20240313T121736Z">
+        <seg>for the Rows properties in the data set;</seg>
       </tuv>
     </tu>
     <tu>
