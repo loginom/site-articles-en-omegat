@@ -3910,6 +3910,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Экспорт в текстовый файл:&lt;/s0&gt; Символы, которые не поддерживаются кодировкой экспортируемого текстового файла, в Loginom под Windows заменялись символом с кодом &lt;c1&gt;0x3F&lt;/c1&gt;, а в Loginom под Linux — &lt;c2&gt;0x1A&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240313T155701Z" creationid="Марианна" creationdate="20240313T155701Z">
+        <seg>&lt;s0&gt;Export to text file:&lt;/s0&gt; The characters that were not supported by encoding of the exported text file were replaced in Loginom for Windows with the character with &lt;c1&gt;0x3F&lt;/c1&gt; code, and in Loginom for Linux with &lt;c2&gt;0x1A&lt;/c2&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Элементы &lt;a1&gt;пользовательского интерфейса:&lt;/a1&gt;&lt;/s0&gt; при скроле (прокрутке) таблиц, содержащих список полей, а также в визуализаторе Статистика, если отображалось большое количество значений, то могло наблюдаться «дергание» или «сопротивление прокрутке» (#6288, #6700).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211229T121840Z" creationid="Марианна" creationdate="20211229T121723Z">
