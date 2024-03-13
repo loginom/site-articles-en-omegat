@@ -3902,6 +3902,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Экспорт в текстовый файл:&lt;/s0&gt; При экспорте строк с не-ASCII-символами в файл с фиксированной шириной столбцов, ширина столбцов в полученном файле не была одинаковой.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240313T155408Z" creationid="Марианна" creationdate="20240313T155408Z">
+        <seg>&lt;s0&gt;Export to text file:&lt;/s0&gt; When exporting the strings with non ASCII characters to the file with the fixed column width, the column width in the received file was not the same.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Элементы &lt;a1&gt;пользовательского интерфейса:&lt;/a1&gt;&lt;/s0&gt; при скроле (прокрутке) таблиц, содержащих список полей, а также в визуализаторе Статистика, если отображалось большое количество значений, то могло наблюдаться «дергание» или «сопротивление прокрутке» (#6288, #6700).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211229T121840Z" creationid="Марианна" creationdate="20211229T121723Z">
