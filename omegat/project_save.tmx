@@ -3126,6 +3126,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Логирование:&lt;/s0&gt; Появилась возможность логирования больших сообщений из узла JavaScript при логировании в journald.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240313T124722Z" creationid="Марианна" creationdate="20240313T124722Z">
+        <seg>&lt;s0&gt;Logging:&lt;/s0&gt; Logging of large messages from JavaScript when logging to journald became possible.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Логирование:&lt;/s0&gt; в log-файл не писалось имя пользователя при использовании большого количества параллельных потоков, которые не нагружают процессор, в «Цикле».</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220426T111833Z" creationid="Марианна" creationdate="20220426T111833Z">
@@ -11974,6 +11982,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240228T193516Z" creationid="Марианна" creationdate="20240228T193516Z">
         <seg>Record example:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Прирост производительности будет на подключениях, созданных в Loginom 7.0.3 (#8213).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240313T124600Z" creationid="Марианна" creationdate="20240313T124600Z">
+        <seg>Performance improvement will be observed for the connections created in Loginom 7.0.3 (#8213).</seg>
       </tuv>
     </tu>
     <tu>
