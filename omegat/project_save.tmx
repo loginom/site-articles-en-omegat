@@ -6640,6 +6640,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В ответ на такой запрос можно было получить ошибку "Bad Request" (#9850).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240313T122747Z" creationid="Марианна" creationdate="20240313T122747Z">
+        <seg>"Bad Request" error could occur in response to such request (#9850).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В ответное json-сообщение Интегратора не записываются опциональные элементы, у которых не задано значение.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240313T121927Z" creationid="Марианна" creationdate="20240313T121927Z">
