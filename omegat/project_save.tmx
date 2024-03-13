@@ -2214,6 +2214,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;a0&gt;&lt;s1&gt;Экспорт в текстовый файл:&lt;/s1&gt;&lt;/a0&gt; Многострочные значения (строковые значения, содержащие символы переноса строк) экспортировались без обрамляющих кавычек.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240313T150800Z" creationid="Марианна" creationdate="20240313T150800Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Export to text file:&lt;/s1&gt;&lt;/a0&gt; The multiline values (the string values that contained line breaks) were exported without framing quotation marks.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;a0&gt;OLAP-куб&lt;/a0&gt; — один из самых популярных визуализаторов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220227T085434Z" creationid="Марианна" creationdate="20220227T085434Z">
