@@ -1464,8 +1464,8 @@
       <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Конечные классы:&lt;/s1&gt;&lt;/a0&gt; Если в качестве входного поля выбрать поле типа Дата/Время, то в мастере настройки узла &lt;e2&gt;Конченые классы&lt;/e2&gt; отображались вещественные значения Даты/Время, хотя в порту &lt;e3&gt;Параметры классов&lt;/e3&gt;, значения были правильными.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240314T081027Z" creationid="Марианна" creationdate="20240314T081027Z">
-        <seg>&lt;a0&gt;&lt;s1&gt;Coarse classes:&lt;/s1&gt;&lt;/a0&gt; If the date?time field was eelected as the input field, the real Date/Time values were displayed in the &lt;e2&gt;Coarse classes&lt;/e2&gt; node wizard, although the values in  &lt;e3&gt;Class parameters&lt;/e3&gt; port were correct.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240314T081122Z" creationid="Марианна" creationdate="20240314T081027Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Coarse classes:&lt;/s1&gt;&lt;/a0&gt; If the Date/Time field was selected as the input field, the real Date/Time values were displayed in the &lt;e2&gt;Coarse classes&lt;/e2&gt; node wizard, although the values in &lt;e3&gt;Class parameters&lt;/e3&gt; port were correct.</seg>
       </tuv>
     </tu>
     <tu>
