@@ -1022,6 +1022,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;a0&gt;&lt;s1&gt;Дата и время:&lt;/s1&gt;&lt;/a0&gt; В пакетах, подготовленных в 6-ой версии с настроенным компонентом Дата/время, который выделяет из даты месяц в строковом формате (%F), после открытия в Logimon 7 название месяца формировалось в родительном падеже.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240314T074611Z" creationid="Марианна" creationdate="20240314T074611Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Date and time:&lt;/s1&gt;&lt;/a0&gt; The month name was in the genitive case in the packages prepared in the 6th version with the configured Date/time component that selects the month from the date in the string format (%F) after opening in Loginom 7.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Дерево в таблицу:&lt;/s1&gt;&lt;/a0&gt; Исправлена ошибка "Некорректное описание узла", которая возникала при одновременном получении данных несколькими узлами &lt;e2&gt;Дерево в таблицу&lt;/e2&gt; из одного и того же дерева, если корневой узел дерева - массив, содержащий 0 элементов (#9609).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230314T110427Z" creationid="Марианна" creationdate="20230314T110427Z">
