@@ -13396,8 +13396,8 @@
       <tuv lang="ru">
         <seg>Такая ситуация возможна, например, если есть Файл 1 и Файл 2, отличающиеся только типом данных одного из столбцов, и импорт данных первоначально настроен на Файл 1, затем Файл 1 удален, а Файл 2 переименован в Файл 1 (#6990).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240314T080040Z" creationid="Марианна" creationdate="20240314T080040Z">
-        <seg>Such situation was possible, for example, if there are File 1 and File 2 that differ only by the data type of one of the columns, and data import was initially configured for File 1, then File 1 was deleted and File 2 was renamed to File 1 (#6990).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240314T080158Z" creationid="Марианна" creationdate="20240314T080040Z">
+        <seg>Such situation was possible, for example, if there were File 1 and File 2 that differed only by the data type of one of the columns, and data import was initially configured to File 1, then File 1 was deleted and File 2 was renamed to File 1 (#6990).</seg>
       </tuv>
     </tu>
     <tu>
