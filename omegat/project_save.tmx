@@ -12154,6 +12154,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При последующем импорте структура файла могла быть нарушена, данные считывались не как одна строка, а разбивались на несколько значений.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240314T084619Z" creationid="Марианна" creationdate="20240314T084619Z">
+        <seg>In case of the subsequent import, the file structure could be damaged, data was read not as one string but it was divided into several values.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При работе под Linux необходимо задать файл сертификата, ключа и пароля.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240218T182118Z" creationid="Марианна" creationdate="20240218T182118Z">
