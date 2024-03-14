@@ -10496,6 +10496,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ошибка возникала при некоторых действиях пользователя по редактированию разбиения во время клика на ячейку границы (#8666).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240314T081332Z" creationid="Марианна" creationdate="20240314T081332Z">
+        <seg>The error ocurred when the user performed some actions to edit binning while clicking on the bound cell (#8666).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ошибка воспроизводилась при выполнении узла «Python» в цикле с групповой обработкой.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220426T101231Z" creationid="Марианна" creationdate="20220426T101231Z">
