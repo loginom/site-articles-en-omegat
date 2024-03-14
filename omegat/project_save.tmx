@@ -11368,6 +11368,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Перед построением образа сервера происходит проверка на наличие в &lt;c3&gt;server/Dockerfile&lt;/c3&gt;, если образ не найден, то скрипт завершает свою работу с выводом ошибки (#9809).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240314T090430Z" creationid="Марианна" creationdate="20240314T090430Z">
+        <seg>Before the server image construction availability in &lt;c3&gt;server/Dockerfile&lt;/c3&gt; is checked, if the image is not found, the script operation is terminated with an error (#9809).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Перед тем, как открывать в новой версии Loginom пакеты, разработанные в предыдущих версиях платформы, рекомендуется сделать резервные копии исходных пакетов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220227T122141Z" creationid="Марианна" creationdate="20220227T122141Z">
