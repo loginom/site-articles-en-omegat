@@ -7048,6 +7048,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В параметры, принимаемые скриптом, добавлен еще один — &lt;c1&gt;--from_image&lt;/c1&gt;, за которым пользователю необходимо указать желаемый базовый образ из присутствующих в &lt;c2&gt;server/Dockerfile&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240314T090301Z" creationid="Марианна" creationdate="20240314T090301Z">
+        <seg>One more &lt;c1&gt;--from_image&lt;/c1&gt; parameter is added to the parameters taken by the script behind which the user must specify the required base image from the ones available in &lt;c2&gt;server/Dockerfile&lt;/c2&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В прежнем исполнении в режиме SQL-запроса было недостаточно места для текста запроса, а также невозможно было тут же увидеть переменные и воспользоваться ими.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240228T191057Z" creationid="Марианна" creationdate="20240218T180928Z">
