@@ -3126,6 +3126,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Инсталлятор:&lt;/s0&gt; При установке Loginom Integrator редакций Standard и Enterprise создается ярлык на страницу «OpenAPI описание сервиса» (#9673).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240314T084947Z" creationid="Марианна" creationdate="20240314T084947Z">
+        <seg>&lt;s0&gt;Installer:&lt;/s0&gt; When installing Standard and Enterprise editions by Loginom Integrator, "OpenAPI service description" page shortcut is created(#9673).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Инсталлятор:&lt;/s0&gt; Редактировать IP-адрес и порт сайта можно только при создании нового сайта.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240227T125749Z" creationid="Марианна" creationdate="20240227T125749Z">
