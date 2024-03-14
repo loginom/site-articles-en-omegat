@@ -3584,8 +3584,8 @@
       <tuv lang="ru">
         <seg>&lt;s0&gt;Подключение SOAP-сервис:&lt;/s0&gt; Исправлена ошибка Access violation at address при подключении к SOAP-сервису, если схема содержит ComplexType с mixed содержимым (#9864).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240313T130843Z" creationid="Марианна" creationdate="20240313T130843Z">
-        <seg>&lt;s0&gt;SOAP service connection:&lt;/s0&gt; Access violation at address error was corrected. It occurred when connectin to SOAP service if the schema contained ComplexType with mixed content (#9864).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240314T091619Z" creationid="Марианна" creationdate="20240313T130843Z">
+        <seg>&lt;s0&gt;SOAP service connection:&lt;/s0&gt; Access violation at address error was corrected. It occurred when connection to SOAP service if the schema contained ComplexType with mixed content (#9864).</seg>
       </tuv>
     </tu>
     <tu>
