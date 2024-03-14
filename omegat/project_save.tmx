@@ -2470,6 +2470,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Loginom Server:&lt;/s0&gt; Для определения IP адреса клиента, подключившегося к Loginom Server по WebSocket через Proxy-сервер, используется заголовок X-Forwarded-For.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240314T072252Z" creationid="Марианна" creationdate="20240314T072252Z">
+        <seg>&lt;s0&gt;Loginom Server:&lt;/s0&gt; To define IP address of the client who connected to Loginom Server via WebSocket via Proxy server, X-Forwarded-For header is used.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Loginom Server:&lt;/s0&gt; при использовании веб-сервера Apache с конфигурацией, создаваемой по умолчанию, не работало подключение через Web Socket Proxy.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210902T071833Z" creationid="Марианна" creationdate="20210902T071833Z">
