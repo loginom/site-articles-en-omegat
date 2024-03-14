@@ -7728,6 +7728,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для задания полного имени месяца в родительном падеже добавили маркер формата %P (#9925).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240314T074746Z" creationid="Марианна" creationdate="20240314T074746Z">
+        <seg>When setting the full month name in the genitive case, %P format marker was added (#9925).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для запуска узла в режиме &lt;a0&gt;Пакетного выполнения&lt;/a0&gt; требуется задать для него имя, при этом узел не обязательно должен быть опубликован.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210322T171942Z" creationid="Марианна" creationdate="20210322T171942Z">
@@ -13934,6 +13942,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240219T145437Z" creationid="Марианна" creationdate="20240219T145437Z">
         <seg>Ease of Use and UI/UX Improvements</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Узел "Дата и время" формирует строку месяца в именительном падеже.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240314T074645Z" creationid="Марианна" creationdate="20240314T074645Z">
+        <seg>The "Date/time" node generates the month string in the nominative case.</seg>
       </tuv>
     </tu>
     <tu>
