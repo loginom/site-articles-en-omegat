@@ -1782,6 +1782,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;a0&gt;&lt;s1&gt;Подключение PostgreSQL:&lt;/s1&gt;&lt;/a0&gt; В мастере настройки &lt;e2&gt;Импорта из Базы данных&lt;/e2&gt; не отображались материализованные представления (Materialized View), cекционированные таблицы (Table Partitioning) и внешние таблицы (Foreign Data).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240314T081620Z" creationid="Марианна" creationdate="20240314T081620Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;PostgreSQL connection:&lt;/s1&gt;&lt;/a0&gt; Materialized views (Materialized View), partitioned tables (Table Partitioning) and foreign tables (Foreign Data) were not displayed in &lt;e2&gt;Import from database&lt;/e2&gt; wizard.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Подключение PostgreSQL:&lt;/s1&gt;&lt;/a0&gt; Исправлена ошибка "Access violation", которая возникала при разрыве соединения с сервером.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240227T181046Z" creationid="Марианна" creationdate="20240227T181046Z">
