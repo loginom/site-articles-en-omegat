@@ -2878,6 +2878,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Дерево в таблицу:&lt;/s0&gt; У узла &lt;e1&gt;Дерево в таблицу&lt;/e1&gt;, находящегося внутри &lt;e2&gt;Подмодели&lt;/e2&gt; с включенной автосинхронизацией на входном порту, сбрасывались настройки после закрытия и повторного открытия пакета.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240314T075253Z" creationid="Марианна" creationdate="20240314T075253Z">
+        <seg>&lt;s0&gt;Tree to table:&lt;/s0&gt; Settings were reset after package closure and repeated opening for &lt;e1&gt;Tree to table&lt;/e1&gt; node tha was inside the &lt;e2&gt;Supernode&lt;/e2&gt; with the enabled automapping at the input port.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Замена:&lt;/s0&gt; В мастере настройки узла &lt;e1&gt;Замена&lt;/e1&gt; в случае изменения типа данных для значения Замена тип выходных столбцов не может быть однозначно определен, если параметр Заменять остальные не задан.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230314T164234Z" creationid="Марианна" creationdate="20230314T163024Z">
