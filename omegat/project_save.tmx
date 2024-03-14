@@ -1358,6 +1358,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;a0&gt;&lt;s1&gt;Калькулятор:&lt;/s1&gt;&lt;/a0&gt; Если в мастере настройки узла открыть на редактирование выражение, изменить несколько его свойств, а затем, пока выражение находится в режиме редактирования, переместить его вверх или вниз, то изменения, выполненные до перемещения, не сохранялись.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240314T080801Z" creationid="Марианна" creationdate="20240314T080801Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Calculator:&lt;/s1&gt;&lt;/a0&gt; If the user opened the expression for editing in the node wizard, changed its properties somehow, and then moved it up and down while the expression was in the editing mode, the changes introduced before moving were not saved.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Калькулятор:&lt;/s1&gt;&lt;/a0&gt; Если в узле &lt;e2&gt;Калькулятор&lt;/e2&gt; добавить несколько выражений, одно из них открыть на редактирование и в таком состоянии удалить, то переставал работать Drag&amp;Drop выражений (выражения можно было перемещать вверх или вниз только с помощью кнопок).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240228T190140Z" creationid="Марианна" creationdate="20240228T190140Z">
