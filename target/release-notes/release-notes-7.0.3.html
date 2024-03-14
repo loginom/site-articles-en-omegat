@@ -4,7 +4,7 @@ Errors were corrected in several Connections to data sources, visualizers, Calcu
 
 <p><a href="https://help.loginom.ru/userguide/processors/programming/java-script/" target="_blank"><strong>JavaScript:</strong></a>&nbsp;The following error was corrected: "Runtime is in exception state". It occurred when script execution process was stopped and error occurred in script in one and the same time. Most often, the error occurred in&nbsp;<em>Preview</em>&nbsp;of&nbsp;<em>JavaScript</em> node because in this case only the first 100 rows of the data set were processed and the script stopped (#9876).</p>
 
-<p><a href="https://help.loginom.ru/adminguide/integrator/" target="_blank"><strong>Loginom Intergator:</strong></a>Generation of&nbsp;<code>"nullable": true</code> was eliminated in OpenAPI&nbsp;for the properties that must not take null value:</p>
+<p><a href="https://help.loginom.ru/adminguide/integrator/" target="_blank"><strong>Loginom Integrator:</strong></a>Generation of&nbsp;<code>"nullable": true</code> was eliminated in OpenAPI&nbsp;for the properties that were not to take null value:</p>
 
 <ul>
 	<li>for the properties that match the node ports;</li>
@@ -12,7 +12,7 @@ Errors were corrected in several Connections to data sources, visualizers, Calcu
 	<li>for the containers in the tree-like data structure.</li>
 </ul>
 
-<p>The optional elements for which no value is specified are not recorded in the response json message of Integrator. In particular,&nbsp;now <code>"Container": null</code> elements are not recorded in this message for the nonavailable containers in the tree-like data structure (#9793).</p>
+<p>The optional elements for which no value is specified are not recorded in the response json message of Integrator. In particular,&nbsp;now <code>"Container": null</code> elements are not recorded in this message for nonavailable containers in the tree-like data structure (#9793).</p>
 
 <p><a href="https://help.loginom.ru/userguide/processors/programming/python/" target="_blank"><strong>Python:</strong></a>&nbsp;The following error was corrected: "Failed to start /usr/bin/python". It occurred in Loginom for Linux installed in docker container on AstraLinux SE (#9843).</p>
 
@@ -34,11 +34,11 @@ Errors were corrected in several Connections to data sources, visualizers, Calcu
 
 <p><a href="https://help.loginom.ru/userguide/visualization/statistics/" target="_blank"><strong>Statistics visualizer:</strong></a>&nbsp;The borderline case was fixed when the required point didn't get into the histogram when calculating quintiles. Due to an error the visualizer was not displayed in some data sets (#9839).</p>
 
-<p><a href="https://help.loginom.ru/userguide/processors/transformation/trans-datatime/" target="_blank"><strong>Date and time:</strong></a>&nbsp;The month name was in the genitive case in the packages prepared in the 6th version with the configured Date/time component that selects the month from the date in the string format (%F) after opening in Loginom 7. The regression error was corrected. The "Date/time" node generates the month string in the nominative case. When setting the full month name in the genitive case, %P format marker was added (#9925).</p>
+<p><a href="https://help.loginom.ru/userguide/processors/transformation/trans-datatime/" target="_blank"><strong>Date and time:</strong></a>&nbsp;The month name was in the genitive case in the packages prepared in the 6th version with the configured Date/time component that selected the month from the date in the string format (%F) after opening in Loginom 7. The regression error was corrected. The "Date/time" node generates the month string in the nominative case. When setting the full month name in the genitive case, %P format marker was added (#9925).</p>
 
 <p><a href="https://help.loginom.ru/userguide/processors/data-trees/tree-to-table.html" target="_blank"><strong>Tree to table:</strong></a>&nbsp;The container nodes with the used nodes disappeared in the&nbsp;<em>Tree</em>&nbsp;type ports after package closure and repeated opening. The problem was observed when automapping was enabled. Error of behavior was corrected (#7509).</p>
 
-<p><strong>Tree to table:</strong>&nbsp;Settings were reset after package closure and repeated opening for&nbsp;<em>Tree to table</em> node tha was inside the&nbsp;<em>Supernode</em>&nbsp;with the enabled automapping at the input port. The situation was rectified (#9076).</p>
+<p><strong>Tree to table:</strong>&nbsp;Settings were reset after package closure and repeated opening for&nbsp;<em>Tree to table</em> node that was inside the&nbsp;<em>Supernode</em>&nbsp;with the enabled automapping at the input port. The situation was rectified (#9076).</p>
 
 <p><a href="https://help.loginom.ru/userguide/integration/import/excel/" target="_blank"><strong>Excel import:</strong></a>&nbsp;When specifying explicitly set range for the file that contained the same columns, the following error occurred on the second wizard page: "Invalid row/column index". A similar error occurred for any data set when specifying explicitly set range that included all rows or all columns (for example, A:B - all rows from columns A and B). The error was corrected (#9883, #5734).</p>
 
@@ -61,7 +61,7 @@ Errors were corrected in several Connections to data sources, visualizers, Calcu
 
 <p><strong>Coarse classes:</strong> Access violation at address error was corrected. The error ocurred when the user performed some actions to edit binning while clicking on the bound cell (#8666).</p>
 
-<p><strong>Coarse classes:</strong>&nbsp;The lower class cound differed from the upper bound of the previous class in the coarse classes table. If the upper bound of the first class was edited in the interactive visualizer window of the node wizard, and then the upper bound of the next class was changed, also the lower bound of the second class was changed after pressing Enter. In this situation the lower bound of the second class must not change and it must match the upper bound of the previous class. The error was corrected (#8679).</p>
+<p><strong>Coarse classes:</strong>&nbsp;The lower class bound differed from the upper bound of the previous class in the coarse classes table. If the upper bound of the first class was edited in the interactive visualizer window of the node wizard, and then the upper bound of the next class was changed, also the lower bound of the second class was changed after pressing Enter. In this situation the lower bound of the second class must not change and it must match the upper bound of the previous class. The error was corrected (#8679).</p>
 
 <p><a href="https://help.loginom.ru/userguide/integration/connections/list/clickhouse.html" target="_blank"><strong>ClickHouse connection:</strong></a>&nbsp;The memory leak error was corrected. NULL values support was added for the parameters in parametrized SELECT requests.</p>
 
@@ -73,11 +73,11 @@ Errors were corrected in several Connections to data sources, visualizers, Calcu
 
 <p><strong>SOAP service connection:</strong>&nbsp;When configuring the SOAP request node on&nbsp;<em>Select request method</em>&nbsp;page, there were no elements matching the published package if connection to SOAP service was used. WSDL source was the root WSDL document Loginom Integrator&nbsp;<code>/soap?wsdl</code> in it. Error of behavior was corrected (#9851).</p>
 
-<p><strong>SOAP service connection:</strong>&nbsp;Access violation at address error was corrected. It occurred when connectin to SOAP service if the schema contained ComplexType with mixed content (#9864).</p>
+<p><strong>SOAP service connection:</strong>&nbsp;Access violation at address error was corrected. It occurred when connecting to SOAP service if the schema contained ComplexType with mixed content (#9864).</p>
 
 <p><a href="https://help.loginom.ru/userguide/integration/connections/list/schemes.html" target="_blank"><strong>Set of XSD schemas connection:</strong></a>&nbsp;The error in processing of simpleContent extension construction was corrected. This error caused absence of child elements of the root element (#9868).</p>
 
-<p><strong>Приложение:</strong>&nbsp;The following error was corrected:"Variable manager for IDOMNode type not registered". It occurred when opening some packages created in the versions below 6.1.4 (#9837).</p>
+<p><strong>Application:</strong>&nbsp;The following error was corrected: "Variable manager for IDOMNode type not registered". It occurred when opening some packages created in the versions below 6.1.4 (#9837).</p>
 
 <p><a href="https://help.loginom.ru/userguide/processors/data-trees/table-to-tree.html" target="_blank"><strong>Table to tree:</strong></a>&nbsp;There were no several nodes in the output port of&nbsp;<em>Table to tree</em>&nbsp;node in the presence of nested arrays. The error was corrected (#9887).</p>
 
