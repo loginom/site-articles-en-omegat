@@ -3560,8 +3560,8 @@
       <tuv lang="ru">
         <seg>&lt;s0&gt;Подключение SOAP-сервис:&lt;/s0&gt; При настройке узла SOAP-запрос на странице &lt;e1&gt;Выбор метода запроса&lt;/e1&gt; отсутствовали элементы, соответствующие опубликованному пакету, если использовалось подключение к SOAP-сервису, в котором источником WSDL являлся корневой WSDL документ Loginom Integrator &lt;c2&gt;/soap?wsdl&lt;/c2&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240314T083410Z" creationid="Марианна" creationdate="20240314T083410Z">
-        <seg>&lt;s0&gt;SOAP service connection:&lt;/s0&gt; When configuring the SOAP request node on &lt;e1&gt;Select request method&lt;/e1&gt; page, there were no elements matching the published package if connection to SOAP service was used in which WSDL source was the root WSDL document Loginom Integrator &lt;c2&gt;/soap?wsdl&lt;/c2&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240314T083556Z" creationid="Марианна" creationdate="20240314T083410Z">
+        <seg>&lt;s0&gt;SOAP service connection:&lt;/s0&gt; When configuring the SOAP request node on &lt;e1&gt;Select request method&lt;/e1&gt; page, there were no elements matching the published package if connection to SOAP service was used. WSDL source was the root WSDL document Loginom Integrator &lt;c2&gt;/soap?wsdl&lt;/c2&gt; in it.</seg>
       </tuv>
     </tu>
     <tu>
