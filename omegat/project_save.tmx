@@ -3534,6 +3534,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Подключение PostgreSQL:&lt;/s0&gt; Для сервера PostgreSQL, у которого конфигурационный параметр lc_messages = 'Russian_Russia.1251', сообщения об ошибках на кириллице выводились в неверной кодировке.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240314T081951Z" creationid="Марианна" creationdate="20240314T081951Z">
+        <seg>&lt;s0&gt;PostgreSQL connection:&lt;/s0&gt; Error messages in Cyrillic were displayed in the incorrect encoding for PostgreSQL server with lc_messages = 'Russian_Russia.1251' configuration parameter.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Подключение SOAP-сервис:&lt;/s0&gt; Исправлена ошибка Access violation at address при подключении к SOAP-сервису, если схема содержит ComplexType с mixed содержимым (#9864).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240313T130843Z" creationid="Марианна" creationdate="20240313T130843Z">
