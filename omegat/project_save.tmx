@@ -2814,6 +2814,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Визуализатор Куб:&lt;/s0&gt; Если в &lt;e1&gt;Кубе&lt;/e1&gt; открыть детализацию и быстро перемещаться по ячейкам кросс-таблицы &lt;e2&gt;Куба&lt;/e2&gt;, то иногда детализация не соответствовала выделенной ячейке.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240314T073407Z" creationid="Марианна" creationdate="20240314T073407Z">
+        <seg>&lt;s0&gt;Cube visualizer:&lt;/s0&gt; If the user opened detailing in the &lt;e1&gt;Cube&lt;/e1&gt; and  quickly moved along the cells of the &lt;e2&gt;Cube&lt;/e2&gt; cross table, sometimes the detailing didn't match the selected cell.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Визуализатор Таблица:&lt;/s0&gt; Для некоторых колонок из-за округления и разницы в 1 пиксель не срабатывал автоматический подбор ширины колонки по тексту заголовка.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240302T084111Z" creationid="Марианна" creationdate="20240302T083929Z">
