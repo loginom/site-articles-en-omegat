@@ -1254,6 +1254,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;a0&gt;&lt;s1&gt;Импорт из базы данных:&lt;/s1&gt;&lt;/a0&gt; Исправлена ошибка "Клиентский прокси-объект финализирован", которая возникала после нажатии кнопки "Сохранить" в мастере настройки импорта из базы данных, если при настройке таблица для импорта выбрана через пустую переменную (#9745).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240314T080420Z" creationid="Марианна" creationdate="20240314T080420Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Import from database:&lt;/s1&gt;&lt;/a0&gt; The following error was corrected: "Client proxy object was finalized". It occurred after pressing on "Save" button in the import from database wizard if the table for import was selected via the empty variable when configuring the table (#9745).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Импорт из базы данных:&lt;/s1&gt;&lt;/a0&gt; Не активировались входные переменные при первом запуске предпросмотра результатов SQL-запроса в мастере настройки импорта из БД.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240228T191047Z" creationid="Марианна" creationdate="20220929T143944Z">
