@@ -3702,6 +3702,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Приложение:&lt;/s0&gt; Исправлена ошибка "Менеджер переменных для типа IDOMNode не зарегистрирован", которая возникала при открытии некоторых пакетов, созданных в версиях младше 6.1.4 (#9837).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240314T084335Z" creationid="Марианна" creationdate="20240314T084335Z">
+        <seg>&lt;s0&gt;Приложение:&lt;/s0&gt; The following error was corrected:"Variable manager for IDOMNode type not registered". It occurred when opening some packages created in the versions below 6.1.4 (#9837).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Приложение:&lt;/s0&gt; Сообщение об отсутствии компонента в текущей редакции Loginom сделано более информативным (например, &lt;a1&gt;SOAP-запрос&lt;/a1&gt; недоступен в редакциях Loginom CE и Loginom Team).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230314T160705Z" creationid="Марианна" creationdate="20230314T160705Z">
