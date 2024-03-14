@@ -966,6 +966,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;a0&gt;&lt;s1&gt;Визуализатор Статистика:&lt;/s1&gt;&lt;/a0&gt; Исправлен граничный случай непопадания требуемой точки в гистограмму при расчете квантилей.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240314T074146Z" creationid="Марианна" creationdate="20240314T074146Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Statistics visualizer:&lt;/s1&gt;&lt;/a0&gt; The borderline case was fixed when the required point didn't get into the histogram when calculating quintiles.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Визуализатор Таблица:&lt;/s1&gt;&lt;/a0&gt; Исправлена ошибка «Набор данных не находится в закрытом состоянии», которая возникала, если в таблице с большим количеством колонок (~200) настроить сортировку по ~20 столбцам, быстро перейти в сценарий, открытый на соседней вкладке, и деактивировать узел, на котором настроен визуализатор (#9963).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240304T054331Z" creationid="Марианна" creationdate="20240304T054038Z">
