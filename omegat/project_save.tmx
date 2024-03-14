@@ -2822,6 +2822,22 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Визуализатор Куб:&lt;/s0&gt; Исправлена ошибка "Cannot read properties of undefined (reading 'DimensionType')", которая иногда возникала в пакетах, подготовленных в 6-ой версии Loginom, при настройке измерений через окно &lt;e1&gt;Настроить измерения&lt;/e1&gt; (#9904).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240314T073613Z" creationid="Марианна" creationdate="20240314T073613Z">
+        <seg>&lt;s0&gt;Cube visualizer:&lt;/s0&gt; The following error was corrected: "Cannot read properties of undefined (reading 'DimensionType')". Sometimes it occurred in the packages prepared in the 6th Loginom version when configuring dimensions using &lt;e1&gt;Configure dimensions&lt;/e1&gt; window (#9904).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;s0&gt;Визуализатор Куб:&lt;/s0&gt; Исправлена ошибка "Could not convert variant of type (UnicodeString) into type (Integer)", которая возникала в &lt;e1&gt;Кубе&lt;/e1&gt; с измерением переменного типа при попытке вставить произвольное значение в строку поиска через Ctrl+V или кнопку на панели инструментов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240314T073802Z" creationid="Марианна" creationdate="20240314T073802Z">
+        <seg>&lt;s0&gt;Cube visualizer:&lt;/s0&gt; The following error was corrected: "Could not convert variant of type (UnicodeString) into type (Integer)". It occurred in the &lt;e1&gt;Cube&lt;/e1&gt; with the dimension related to the variable type while attempting to paste the random value to the search string using Ctrl+V or the toolbar button.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Визуализатор Таблица:&lt;/s0&gt; Для некоторых колонок из-за округления и разницы в 1 пиксель не срабатывал автоматический подбор ширины колонки по тексту заголовка.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240302T084111Z" creationid="Марианна" creationdate="20240302T083929Z">
