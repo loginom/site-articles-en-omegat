@@ -3224,8 +3224,8 @@
       <tuv lang="ru">
         <seg>&lt;s0&gt;Конечные классы:&lt;/s0&gt; В таблице конечных классов нижняя граница класса отличалась от верхней границы предыдущего класса.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240313T145802Z" creationid="Марианна" creationdate="20240313T145802Z">
-        <seg>&lt;s0&gt;Coarse classes:&lt;/s0&gt; The lower class cound differed from the upper bound of the previous class in the coarse classes table.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240314T091438Z" creationid="Марианна" creationdate="20240313T145802Z">
+        <seg>&lt;s0&gt;Coarse classes:&lt;/s0&gt; The lower class bound differed from the upper bound of the previous class in the coarse classes table.</seg>
       </tuv>
     </tu>
     <tu>
