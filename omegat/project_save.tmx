@@ -934,6 +934,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;a0&gt;&lt;s1&gt;Визуализатор Куб:&lt;/s1&gt;&lt;/a0&gt; При выгрузке кросс-таблицы &lt;e2&gt;Куба&lt;/e2&gt; в Exсel единицы измерения на кириллице, установленные через окно &lt;e3&gt;Форматирование&lt;/e3&gt; в редакторе свойств &lt;e4&gt;Денежный знак&lt;/e4&gt;, отображались в неверной кодировке.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240314T073046Z" creationid="Марианна" creationdate="20240314T073046Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Cube visualizer:&lt;/s1&gt;&lt;/a0&gt; When unloading the &lt;e2&gt;Cube&lt;/e2&gt; cross table to Exсel, the measurement units in Cyrillic set via the &lt;e3&gt;Formatting&lt;/e3&gt; window in &lt;e4&gt;Currency&lt;/e4&gt; property editor were displayed in the incorrect encoding.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Визуализатор Куб&lt;/s1&gt;:&lt;/a0&gt; В некоторых случаях идентификаторы заголовков &lt;e2&gt;Куба&lt;/e2&gt; передавались с сервера в урезанном виде.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220929T124659Z" creationid="Марианна" creationdate="20220929T124659Z">
