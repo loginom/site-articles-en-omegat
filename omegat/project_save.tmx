@@ -3118,6 +3118,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Инсталлятор:&lt;/s0&gt; В интерфейсе инсталлятора под Linux появилась возможность выбрать базовый образ сервера.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240314T090010Z" creationid="Марианна" creationdate="20240314T090010Z">
+        <seg>&lt;s0&gt;Installer:&lt;/s0&gt; It became possible to select the base server image in the installer interface for Linux.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Инсталлятор:&lt;/s0&gt; Инсталлятор Loginom Integrator не удалял веб-приложение, если оно было установлено на любой сайт, отличный от "Default Web Site".</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240227T124849Z" creationid="Марианна" creationdate="20240227T124849Z">
