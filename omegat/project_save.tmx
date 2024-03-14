@@ -518,6 +518,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;a0&gt;&lt;s1&gt;Loginom Community Edition:&lt;/s1&gt;&lt;/a0&gt; Некоторые пользователи Loginom CE 7-ой версии сталкиваются с "проблемой первого запуска", когда при попытке запустить приложение открывается окно, но не отображается интерфейс.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240314T085258Z" creationid="Марианна" creationdate="20240314T085258Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Loginom Community Edition:&lt;/s1&gt;&lt;/a0&gt; Some users of Loginom CE, 7th version, face the "first launch problem" when the window is opened, but the interface is not displayed while attempting to launch the application.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Loginom Desktop:&lt;/s1&gt;&lt;/a0&gt; В настольной редакции под Linux исправлено отображение результирующего имени файла в заголовке файлового диалога в &lt;a2&gt;GTK&lt;/a2&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240311T110314Z" creationid="Марианна" creationdate="20240305T090506Z">
