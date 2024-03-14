@@ -11713,6 +11713,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>После обновления Loginom CE необходимо открыть свойства ярлыка и в редакторе ввода "Объект" в конце строки добавить через пробел &lt;c3&gt;--disable-cache&lt;/c3&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240314T085838Z" creationid="Марианна" creationdate="20240314T085838Z">
+        <seg>After Loginom CE update it is required to open the shortcut properties and add space-separated &lt;c3&gt;--disable-cache&lt;/c3&gt; at the line end in "Object" input editor.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>После ошибки таблица оставалась очищенной, экспорт не производился.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220425T152056Z" creationid="Марианна" creationdate="20220425T152056Z">
@@ -12302,6 +12310,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240229T124319Z" creationid="Марианна" creationdate="20240229T124319Z">
         <seg>But the package was still being executed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При этом повторный запуск позволяет начать работу.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240314T085338Z" creationid="Марианна" creationdate="20240314T085338Z">
+        <seg>But the repeated launch enables to start the work.</seg>
       </tuv>
     </tu>
     <tu>
@@ -14358,6 +14374,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240302T081527Z" creationid="Марианна" creationdate="20240302T074141Z">
         <seg>The further the node was located from the left upper corner of the workflow construction area, the futher the cloned node appeared from it.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Чтобы обойти эту проблему добавили возможность запуска Loginom CE с аргументом командной строки &lt;c2&gt;--disable-cache&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240314T085552Z" creationid="Марианна" creationdate="20240314T085552Z">
+        <seg>To solve this problem, option to start Loginom CE with the command line argument &lt;c2&gt;--disable-cache&lt;/c2&gt; was added.</seg>
       </tuv>
     </tu>
     <tu>
