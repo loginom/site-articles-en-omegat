@@ -13746,6 +13746,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Теперь в логах и в &lt;a1&gt;Диспетчере&lt;/a1&gt; раздела &lt;a2&gt;Администрирование&lt;/a2&gt; можно увидеть всю цепочку IP адресов — &lt;c3&gt;Исходный IP -&gt; IP proxy 1 -&gt; IP proxy 2&lt;/c3&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240314T090559Z" creationid="Марианна" creationdate="20240314T090559Z">
+        <seg>Now in logs and in &lt;a1&gt;Session Manager&lt;/a1&gt; of the &lt;a2&gt;Administration&lt;/a2&gt; section the whole chain of IP addresses is displayed — &lt;c3&gt;Source IP -&gt; IP proxy 1 -&gt; IP proxy 2&lt;/c3&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Теперь в случае принудительного закрытия пакета через главное меню выполняется попытка завершить все текущие процессы, если в течение пяти секунд не удалось остановить все запущенные процессы, то пользователь получит сообщение о невозможности закрыть пакет (#5157, #7216).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210616T164752Z" creationid="Марианна" creationdate="20210616T152757Z">
