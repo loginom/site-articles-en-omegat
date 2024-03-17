@@ -7008,6 +7008,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В некоторых случаях при изменении ширины столбца «Способ Замены» полностью блокировалось окно мастера настройки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240317T113417Z" creationid="Марианна" creationdate="20240317T113417Z">
+        <seg>In some cases when changing the width of "Replacement Method" column, the wizard window was completely blocked.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В некоторых сценариях (содержащих большое количество узлов JavaSсript) может увеличиться объем памяти, занятый приложением (#9469).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230314T133832Z" creationid="Марианна" creationdate="20230314T133832Z">
