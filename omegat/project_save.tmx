@@ -12276,8 +12276,8 @@
       <tuv lang="ru">
         <seg>При импорте из текстового файла значения, в т.ч.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240317T114251Z" creationid="Марианна" creationdate="20240317T114251Z">
-        <seg>When importing values from the text file, namely,</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240317T114440Z" creationid="Марианна" creationdate="20240317T114251Z">
+        <seg>When importing values from the text file, including</seg>
       </tuv>
     </tu>
     <tu>
@@ -15388,8 +15388,8 @@
       <tuv lang="ru">
         <seg>строки, могут быть обрамлены кавычками.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240317T114415Z" creationid="Марианна" creationdate="20240317T114415Z">
-        <seg>rows, can be put in quotation marks.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240317T114527Z" creationid="Марианна" creationdate="20240317T114415Z">
+        <seg>rows, they can be put in quotation marks.</seg>
       </tuv>
     </tu>
     <tu>
