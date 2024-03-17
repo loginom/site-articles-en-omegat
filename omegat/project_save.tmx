@@ -1054,6 +1054,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;a0&gt;&lt;s1&gt;Выполнение узла:&lt;/s1&gt;&lt;/a0&gt; Исправлена ошибка Access violation, которая возникала при одновременном восстановлении конфигурации двух узлов &lt;e2&gt;Выполнение узла&lt;/e2&gt; на одном workflow.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240317T124121Z" creationid="Марианна" creationdate="20240317T124121Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Node execution:&lt;/s1&gt;&lt;/a0&gt; Access violation error was corrected. It occurred in case of the simultaneous configuration restoration of two &lt;e2&gt;Node execution&lt;/e2&gt; nodes for one workflow.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Выполнение узла:&lt;/s1&gt;&lt;/a0&gt; если в настройках «Выполнения узла» в качестве выполняемого выбирался узел, для которого ранее порядок выполнения ранее был задан таким образом, что узел «Выполнения узла» должен выполниться раньше выбираемого узла, то возникала ошибка «Переход запрещен.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210902T122005Z" creationid="Марианна" creationdate="20210902T121955Z">
