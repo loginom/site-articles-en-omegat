@@ -3278,6 +3278,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Импорт из текстового файла:&lt;/s0&gt; Добавлена поддержка импорта многострочных значений.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240317T114201Z" creationid="Марианна" creationdate="20240317T114201Z">
+        <seg>&lt;s0&gt;Import from text file:&lt;/s0&gt; Support of the multiline values import was added.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Инспектор свойств:&lt;/s0&gt; если был открыт Инспектор свойств и в нем отображались параметры Подмодели, то после разворачивания этой Подмодели в Инспекторе свойств продолжали отображаться параметры уже не существующего узла (#8313).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210616T202823Z" creationid="Марианна" creationdate="20210616T202823Z">
