@@ -3102,6 +3102,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Визуализатор Куб:&lt;/s0&gt; При форматировании значений измерений целого типа большие значения (более &lt;c1&gt;9007199254740991&lt;/c1&gt;) отображались с потерей точности.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240317T123742Z" creationid="Марианна" creationdate="20240317T123742Z">
+        <seg>&lt;s0&gt;Cube visualizer:&lt;/s0&gt; When formatting values of the dimensions related to the integer type, large values (exceeding &lt;c1&gt;9007199254740991&lt;/c1&gt;) were displayed with accuracy loss.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Визуализатор Статистика:&lt;/s0&gt; Исправлена ошибка в алгоритме расчета медианы, верхнего и нижнего квартилей.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240317T112022Z" creationid="Марианна" creationdate="20240317T112022Z">
