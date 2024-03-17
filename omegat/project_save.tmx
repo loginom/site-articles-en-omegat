@@ -3142,6 +3142,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Замена:&lt;/s0&gt; Исправлена ошибка "Cannot read properties of null (reading '1')", которая могла возникнуть при изменении ширины столбца «Способ Замены» в мастере настройки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240317T113150Z" creationid="Марианна" creationdate="20240317T113150Z">
+        <seg>&lt;s0&gt;Replace:&lt;/s0&gt; The following error was corrected: "Cannot read properties of null (reading '1')". It could occur when changing the width of "Replacement method" column in the wizard.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Замена:&lt;/s0&gt; При добавлении новой замены во внутреннюю таблицу замен для полей строкового и переменного типов в качестве значения по умолчанию используется &lt;c1&gt;&lt;Пустая строка&gt;&lt;/c1&gt; вместо null-значения.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230314T161718Z" creationid="Марианна" creationdate="20230314T161618Z">
