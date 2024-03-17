@@ -2566,6 +2566,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Loginom Integrator:&lt;/s0&gt; Из Loginom Integrator в Loginom Server неверно передавалось значение параметра типа Дата/Время, если в запросе с помощью постфикса Z указан часовой пояс.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240317T101342Z" creationid="Марианна" creationdate="20240317T101342Z">
+        <seg>&lt;s0&gt;Loginom Integrator:&lt;/s0&gt; The Date/Time parameter was incorrectly transferred from Loginom Integrator to Loginom Server if the time zone was specified in the request using Z postfix.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Loginom Integrator:&lt;/s0&gt; Исправлена ошибка "Object reference not set to an instance of an object", которая приходила в SOAP-ответе, если через SOAP-запрос передавался пустой массив в порт Дерево данных, корневой элемент которого является массивом (#9537).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230315T073600Z" creationid="Марианна" creationdate="20230315T073216Z">
