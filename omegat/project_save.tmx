@@ -2974,6 +2974,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Визуализатор Качество данных:&lt;/s0&gt; Исправлена ошибка в детализации данных для выбросов в полях с непрерывным видом значений.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240317T104651Z" creationid="Марианна" creationdate="20240317T104651Z">
+        <seg>&lt;s0&gt;Data Quality visualizer:&lt;/s0&gt; The error in detailing of the data for outliers in the fields with continuous kind of values was corrected.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Визуализатор Конечные классы:&lt;/s0&gt; Добавили возможность менять ширину блока со списком полей (#9646).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230314T114112Z" creationid="Марианна" creationdate="20230314T114112Z">
