@@ -3902,6 +3902,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Приложение:&lt;/s0&gt; Исправлена ошибка в функции преобразования даты/времени к строке.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240317T113921Z" creationid="Марианна" creationdate="20240317T113921Z">
+        <seg>&lt;s0&gt;Application:&lt;/s0&gt; Error in the function of date/time to row transformation function was corrected.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Приложение:&lt;/s0&gt; Сообщение об отсутствии компонента в текущей редакции Loginom сделано более информативным (например, &lt;a1&gt;SOAP-запрос&lt;/a1&gt; недоступен в редакциях Loginom CE и Loginom Team).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230314T160705Z" creationid="Марианна" creationdate="20230314T160705Z">
@@ -12718,6 +12726,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230314T202845Z" creationid="Марианна" creationdate="20230314T202845Z">
         <seg>The problem was solved (#7868).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Проблему решили, при выполнении цикла workflow не блокируется (#9796).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240317T114038Z" creationid="Марианна" creationdate="20240317T114038Z">
+        <seg>The problem was solved. When executing the loop, workflow is not blocked (#9796).</seg>
       </tuv>
     </tu>
     <tu>
