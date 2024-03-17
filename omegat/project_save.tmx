@@ -3086,6 +3086,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Визуализатор Куб:&lt;/s0&gt; Когда в область измерения &lt;e1&gt;Куба&lt;/e1&gt; последовательно добавляется большое количество полей, пользователь может получить сообщение «Выбрано слишком много измерений».</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240317T123557Z" creationid="Марианна" creationdate="20240317T123557Z">
+        <seg>&lt;s0&gt;Cube visualizer:&lt;/s0&gt; When many fields are sequentially added to the area of the  &lt;e1&gt;Cube&lt;/e1&gt; dimension, the user can receive the following message: "Too many dimensions selected".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Визуализатор Куб:&lt;/s0&gt; При тестировании формата в окне &lt;e1&gt;Форматирование&lt;/e1&gt; не учитывалась локаль пакета.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240317T105447Z" creationid="Марианна" creationdate="20240317T105447Z">
