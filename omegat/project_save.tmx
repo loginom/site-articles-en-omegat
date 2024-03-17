@@ -2518,6 +2518,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Loginom Desktop:&lt;/s0&gt; Второй и последующие экземпляры приложения запускались с некоторой задержкой.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240317T101015Z" creationid="Марианна" creationdate="20240317T101015Z">
+        <seg>&lt;s0&gt;Loginom Desktop:&lt;/s0&gt; The second and subsequent instances of the application were launched with some delay.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Loginom Integrator:&lt;/s0&gt; Если у опубликованного узла менялось количество входных полей при автосинхронизации, то на странице «Веб-сервисы» такой пакет не помечался как измененный, а нажатие на кнопку «Обновить публикацию» не приводило к обновлению метаданных для Интегратора.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240311T132022Z" creationid="Марианна" creationdate="20240311T132022Z">
@@ -14438,6 +14446,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240302T081527Z" creationid="Марианна" creationdate="20240302T074141Z">
         <seg>The further the node was located from the left upper corner of the workflow construction area, the futher the cloned node appeared from it.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Чтобы избежать такой ситуации, приложение всегда запускается в режиме обычного окна.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240317T100843Z" creationid="Марианна" creationdate="20240317T100818Z">
+        <seg>To avoid this situation, the application is always launched in the normal window mode.</seg>
       </tuv>
     </tu>
     <tu>
