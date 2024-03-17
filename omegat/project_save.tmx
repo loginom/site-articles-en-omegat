@@ -702,6 +702,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;a0&gt;&lt;s1&gt;Python:&lt;/s1&gt;&lt;/a0&gt; При подготовке выходной таблицы по pandas.DataFrame столбцы получали вид данных «Неопределённый», тогда как вид данных должен инициализироваться в соответствии с типом данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240317T101845Z" creationid="Марианна" creationdate="20240317T101845Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Python:&lt;/s1&gt;&lt;/a0&gt; When preparing the output table by pandas.DataFrame columns, "Undefiend" data type was received whereas the data kind must be initialized according to the data type.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Python:&lt;/s1&gt;&lt;/a0&gt; исправлена ошибка «"" не является допустимым номером версии.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220426T101026Z" creationid="Марианна" creationdate="20220426T101026Z">
