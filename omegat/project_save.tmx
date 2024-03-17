@@ -7304,6 +7304,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В результате запуск узла заканчивался ошибкой выполнения запроса к БД.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240317T113532Z" creationid="Марианна" creationdate="20240317T113532Z">
+        <seg>In the result, the node start was finished with the request to DB execution error.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В результате импорт из текстового файла стал работать в 1.5 раза быстрее.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220929T153916Z" creationid="Марианна" creationdate="20220929T153916Z">
