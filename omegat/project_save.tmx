@@ -6672,6 +6672,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В импорте из текстового файла появилась поддержка импорта многострочных значений и разбора дат в формате ISO 8601 со смещением времени.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240317T095252Z" creationid="Марианна" creationdate="20240317T095252Z">
+        <seg>Support of import of multiline values and parsing of dates in ISO 8601 format with time offset appeared in import from text file.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В интеграторе отсутствует возможность построения отказоустойчивого кластера.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220224T063218Z" creationid="Марианна" creationdate="20220224T063218Z">
@@ -6836,6 +6844,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20221126T153932Z" creationid="Марианна" creationdate="20221126T153932Z">
         <seg>The errors that caused in some cases incorrect scale settings of the bubble chart were corrected(#9222).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В новой версии большое количество исправлений в визуализаторах, компонентах импорта и экспорта.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240317T094938Z" creationid="Марианна" creationdate="20240317T094938Z">
+        <seg>There are many fixes in visualizers, import and export components in the new version.</seg>
       </tuv>
     </tu>
     <tu>
