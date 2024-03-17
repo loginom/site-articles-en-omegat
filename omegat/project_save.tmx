@@ -2758,6 +2758,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Workflow:&lt;/s0&gt; При наведении курсора на элемент выбора стиля &lt;a1&gt;Заметки&lt;/a1&gt; элемент выделятся рамкой (#9718).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240317T103753Z" creationid="Марианна" creationdate="20240317T103753Z">
+        <seg>&lt;s0&gt;Workflow:&lt;/s0&gt; When hovering a cursor over the &lt;a1&gt;Notes&lt;/a1&gt; selection element, it is enclosed in the frame (#9718).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Автосохранение пакетов:&lt;/s0&gt; пользователям, не имеющих права на редактирование пакетов, была доступна настройка автосохранения пакетов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220425T153709Z" creationid="Марианна" creationdate="20220425T153709Z">
