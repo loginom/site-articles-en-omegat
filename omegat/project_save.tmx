@@ -11897,6 +11897,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>После предупреждения «Выбрано слишком много измерений» поле остается в списке измерений (#9655).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240317T105233Z" creationid="Марианна" creationdate="20240317T105233Z">
+        <seg>The field remains in the dimension list after the following warning: "Too many dimensions selected" (#9655).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>После сохранения и повторного открытия мастера настройки &lt;e3&gt;Настраиваемое значение "события"&lt;/e3&gt; сбрасывалось в null (#9356).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220929T151515Z" creationid="Марианна" creationdate="20220929T151515Z">
