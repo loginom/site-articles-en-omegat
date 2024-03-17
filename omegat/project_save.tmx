@@ -2568,8 +2568,8 @@
       <tuv lang="ru">
         <seg>&lt;s0&gt;Loginom Integrator:&lt;/s0&gt; Из Loginom Integrator в Loginom Server неверно передавалось значение параметра типа Дата/Время, если в запросе с помощью постфикса Z указан часовой пояс.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240317T101342Z" creationid="Марианна" creationdate="20240317T101342Z">
-        <seg>&lt;s0&gt;Loginom Integrator:&lt;/s0&gt; The Date/Time parameter was incorrectly transferred from Loginom Integrator to Loginom Server if the time zone was specified in the request using Z postfix.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240317T101416Z" creationid="Марианна" creationdate="20240317T101342Z">
+        <seg>&lt;s0&gt;Loginom Integrator:&lt;/s0&gt; The Date/Time parameter value was incorrectly transferred from Loginom Integrator to Loginom Server if the time zone was specified in the request using Z postfix.</seg>
       </tuv>
     </tu>
     <tu>
