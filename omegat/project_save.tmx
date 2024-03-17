@@ -582,6 +582,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;a0&gt;&lt;s1&gt;Loginom Integrator:&lt;/s1&gt;&lt;/a0&gt; Исправлена ошибка "Object reference not set to an instance of an object", которая возникала, если в Интегратор через REST-запрос в порт типа Таблица передавался массив Rows, содержащий элемент, равный null (#9795).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240317T101133Z" creationid="Марианна" creationdate="20240317T101133Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Loginom Integrator:&lt;/s1&gt;&lt;/a0&gt; The following error was corrected: "Object reference not set to an instance of an object". It occurred if Rows arra that contained the elemenet equal to null was tranferred to Integrator via REST request to the Table port (#9795).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Loginom Integrator:&lt;/s1&gt;&lt;/a0&gt; добавлена периодическая проверка соединения с сервером.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220708T164512Z" creationid="Марианна" creationdate="20220708T164512Z">
