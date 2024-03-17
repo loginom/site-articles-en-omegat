@@ -3078,6 +3078,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Визуализаторы:&lt;/s0&gt; Возникали различные ошибки, в том числе ошибки Access violation, при деактивации визуализатора с открытой детализацией, когда визуализатор детализации активируется (#9746).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240317T112257Z" creationid="Марианна" creationdate="20240317T112257Z">
+        <seg>&lt;s0&gt;Visualizer:&lt;/s0&gt; Different errors occurred, including Access violation errors when deactivating the visualizer with the open detailing when the detailing visualizer was activated (#9746).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Дерево в таблицу:&lt;/s0&gt; У узла &lt;e1&gt;Дерево в таблицу&lt;/e1&gt;, находящегося внутри &lt;e2&gt;Подмодели&lt;/e2&gt; с включенной автосинхронизацией на входном порту, сбрасывались настройки после закрытия и повторного открытия пакета.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240314T091231Z" creationid="Марианна" creationdate="20240314T075253Z">
