@@ -6272,6 +6272,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>А при выполнении аналогичного кода внутри процесса Loginom, пользователь получал сообщение: "LoginomError: Преобразование переданного объекта Python в значение переменного типа не поддерживается".</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240317T102653Z" creationid="Марианна" creationdate="20240317T102653Z">
+        <seg>When executing the similar code inside the Loginom process, the user received the following message: "LoginomError: Transformation of the passed Python object into the variable type value is not supported".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>А при использовании драйвера Microsoft Access Text Driver в мастере настройки был пустой список столбцов (#9193, #10225).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240311T144155Z" creationid="Марианна" creationdate="20240311T144155Z">
