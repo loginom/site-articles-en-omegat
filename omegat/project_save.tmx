@@ -2454,6 +2454,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;e0&gt;Диаграмма&lt;/e0&gt;, в котором в область построения диаграммы перетащили новое поле (#5766).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240317T112122Z" creationid="Марианна" creationdate="20240317T112122Z">
+        <seg>&lt;e0&gt;Chart&lt;/e0&gt; in which the new field was dragged to the area of chart construction (#5766).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;e0&gt;Таблица&lt;/e0&gt;, в которой запущена фильтрация и сортировка данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240301T104144Z" creationid="Марианна" creationdate="20240301T104144Z">
