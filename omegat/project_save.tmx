@@ -7528,6 +7528,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Вероятность получения ошибки сильно зависела от операционной системы и аппаратного обеспечения (#9563).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240317T112416Z" creationid="Марианна" creationdate="20240317T112416Z">
+        <seg>Error probability depended heavily on operating system and hardware (#9563).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Версия должна иметь формат: Мажорная.Минорная.Патч[-ПредрелизнаяВерсия][+СборочныеМетаданные]».</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220426T113848Z" creationid="Марианна" creationdate="20220426T101145Z">
