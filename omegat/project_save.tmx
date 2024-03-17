@@ -3014,6 +3014,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Визуализатор Куб:&lt;/s0&gt; Значение факта &lt;c1&gt;9223372036854775807&lt;/c1&gt; при агрегации &lt;e2&gt;Максимум&lt;/e2&gt; ошибочно отображалось как &lt;c3&gt;-1&lt;/c3&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240317T105351Z" creationid="Марианна" creationdate="20240317T105351Z">
+        <seg>&lt;s0&gt;Cube visualizer:&lt;/s0&gt; The value of &lt;c1&gt;9223372036854775807&lt;/c1&gt; measure when using &lt;e2&gt;Maximum&lt;/e2&gt; aggregation was incorrectly displayed as &lt;c3&gt;-1&lt;/c3&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Визуализатор Куб:&lt;/s0&gt; Исправлена ошибка "Cannot read properties of undefined (reading 'DimensionType')", которая иногда возникала в пакетах, подготовленных в 6-ой версии Loginom, при настройке измерений через окно &lt;e1&gt;Настроить измерения&lt;/e1&gt; (#9904).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240314T073613Z" creationid="Марианна" creationdate="20240314T073613Z">
