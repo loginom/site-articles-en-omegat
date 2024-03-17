@@ -14642,6 +14642,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Чтобы данные отобразились, нужно было переключиться на другое поле, а затем вернуться обратно.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240317T113053Z" creationid="Марианна" creationdate="20240317T113053Z">
+        <seg>To display the data, it was required to switch to another field and then return back.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Чтобы избежать такой ситуации, приложение всегда запускается в режиме обычного окна.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240317T100843Z" creationid="Марианна" creationdate="20240317T100818Z">
