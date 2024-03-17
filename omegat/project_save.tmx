@@ -12274,6 +12274,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При импорте из текстового файла значения, в т.ч.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240317T114251Z" creationid="Марианна" creationdate="20240317T114251Z">
+        <seg>When importing values from the text file, namely,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При импорте форматов txt, csv, xml для предпросмотра или предположения формата скачивается только тот объем данных, который необходим.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240219T121043Z" creationid="Марианна" creationdate="20240219T121043Z">
@@ -15374,6 +15382,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240313T123703Z" creationid="Марианна" creationdate="20240313T123703Z">
         <seg>the date/time string was changed from &lt;c0&gt;25/12/04/12:44:54&lt;/c0&gt; to&lt;c1&gt;25/12/04 12:44:54&lt;/c1&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>строки, могут быть обрамлены кавычками.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240317T114415Z" creationid="Марианна" creationdate="20240317T114415Z">
+        <seg>rows, can be put in quotation marks.</seg>
       </tuv>
     </tu>
     <tu>
