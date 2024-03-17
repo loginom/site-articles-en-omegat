@@ -10760,6 +10760,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ошибка наблюдалась в пакетах, подготовленных в более ранних версиях Loginom и открытых в Loginom 6.5.1 и старше.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240317T104042Z" creationid="Марианна" creationdate="20240317T104042Z">
+        <seg>The error was observed in the packages prepared in the earlier version of Loginom and opened in Loginom 6.5.1 and higher.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ошибка наблюдалась, если Loginom установлен под Linux в Docker контейнерах и при установке была включена поддержка SSL.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230314T121751Z" creationid="Марианна" creationdate="20230314T121751Z">
