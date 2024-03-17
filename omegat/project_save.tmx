@@ -2678,6 +2678,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Python:&lt;/s0&gt; Значения целого типа неправильно записывались в выходной столбец переменного типа при выполнении кода в отдельном процессе.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240317T102212Z" creationid="Марианна" creationdate="20240317T102212Z">
+        <seg>&lt;s0&gt;Python:&lt;/s0&gt; The values related to the integer type were incorrectly recorded in the output column related to the variable type when executing the code in a separate process.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;REST-запрос:&lt;/s0&gt; Если в настройках подключения к REST-сервису явно указан допустимый Content-Type ответа, а в ответе сервиса заголовок Content-Type отсутствует, то на выходных портах узла &lt;e1&gt;REST-запрос&lt;/e1&gt; не было ни данных, ни сообщения об ошибке.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230316T064357Z" creationid="Марианна" creationdate="20230316T053640Z">
