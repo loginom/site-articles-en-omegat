@@ -11592,6 +11592,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ошибочные расчеты были для наборов данных, в которых больше 1000 строк (#9786).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240317T123907Z" creationid="Марианна" creationdate="20240317T123907Z">
+        <seg>Calculations for the data sets that included more than 1000 rows were erroneous (#9786).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Пакет содержит активные процессы, которые не завершились в течение таймаута.», а при попытке повторно открыть такой пакет, он открывался с доступом только на чтение (#8670).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211229T104641Z" creationid="Марианна" creationdate="20211229T104641Z">
