@@ -10762,8 +10762,8 @@
       <tuv lang="ru">
         <seg>Ошибка наблюдалась в пакетах, подготовленных в более ранних версиях Loginom и открытых в Loginom 6.5.1 и старше.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240317T104042Z" creationid="Марианна" creationdate="20240317T104042Z">
-        <seg>The error was observed in the packages prepared in the earlier version of Loginom and opened in Loginom 6.5.1 and higher.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240317T104323Z" creationid="Марианна" creationdate="20240317T104042Z">
+        <seg>The error was observed in the packages prepared in the earlier Loginom versions that were also opened in Loginom 6.5.1 and higher.</seg>
       </tuv>
     </tu>
     <tu>
