@@ -6448,6 +6448,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>А в мастере настройки узла размер валидационного множества равнялся 0.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240317T124513Z" creationid="Марианна" creationdate="20240317T124513Z">
+        <seg>But the validation set size in the wizard was equal to 0.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>А запрос к аналогичному сервису через &lt;a2&gt;postman&lt;/a2&gt; отрабатывал корректно и возвращал ответ.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230315T074054Z" creationid="Марианна" creationdate="20230315T074054Z">
@@ -12109,6 +12117,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220426T103129Z" creationid="Марианна" creationdate="20220426T103129Z">
         <seg>It was not possible to open packages after this error. It was required to reboot the server (#9156).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Потерю размера валидационного множества после загрузки конфигурации нейросети исправили (#9739).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240317T124602Z" creationid="Марианна" creationdate="20240317T124602Z">
+        <seg>Decrease of the validation set size after loading of the neural network configuration was corrected (#9739).</seg>
       </tuv>
     </tu>
     <tu>
