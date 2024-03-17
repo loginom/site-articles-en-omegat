@@ -1158,6 +1158,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;a0&gt;&lt;s1&gt;Замена:&lt;/s1&gt;&lt;/a0&gt; При добавлении новой строки в таблицу замен, только что добавленная замена не отображалась.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240317T113011Z" creationid="Марианна" creationdate="20240317T113011Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Replace:&lt;/s1&gt;&lt;/a0&gt; When adding the new row to the replacement table, the newly added replacement was not displayed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Замена:&lt;/s1&gt;&lt;/a0&gt; При настройке замены для поля типа Дата/время во внутренней таблице замен переставала работать кнопка Применить, после изменения типа замены на Вещественный и значения в поле Точное совпадение.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230210T090757Z" creationid="Марианна" creationdate="20230210T090534Z">
