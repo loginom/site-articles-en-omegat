@@ -6674,8 +6674,8 @@
       <tuv lang="ru">
         <seg>В импорте из текстового файла появилась поддержка импорта многострочных значений и разбора дат в формате ISO 8601 со смещением времени.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240317T095252Z" creationid="Марианна" creationdate="20240317T095252Z">
-        <seg>Support of import of multiline values and parsing of dates in ISO 8601 format with time offset appeared in import from text file.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240317T095337Z" creationid="Марианна" creationdate="20240317T095252Z">
+        <seg>Support of multiline values import and parsing of dates in ISO 8601 format with time offset appeared in import from text file.</seg>
       </tuv>
     </tu>
     <tu>
