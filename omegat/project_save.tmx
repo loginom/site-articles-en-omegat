@@ -3046,6 +3046,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Визуализатор Статистика:&lt;/s0&gt; Исправлена ошибка в алгоритме расчета медианы, верхнего и нижнего квартилей.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240317T112022Z" creationid="Марианна" creationdate="20240317T112022Z">
+        <seg>&lt;s0&gt;Statistics visualizer:&lt;/s0&gt; The error in the algorithm of median, upper and lower quartiles calculation was corrected.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Визуализатор Таблица:&lt;/s0&gt; Для некоторых колонок из-за округления и разницы в 1 пиксель не срабатывал автоматический подбор ширины колонки по тексту заголовка.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240302T084111Z" creationid="Марианна" creationdate="20240302T083929Z">
