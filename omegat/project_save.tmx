@@ -3086,6 +3086,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Выполнение узла&lt;/s0&gt;, &lt;a1&gt;&lt;s2&gt;Цикл:&lt;/s2&gt;&lt;/a1&gt; Исправлена ошибка Access violation, которая возникала при удалении узлов &lt;e3&gt;Выполнение&lt;/e3&gt; и &lt;e4&gt;Цикл&lt;/e4&gt; с открытым инспектором свойств (#9751).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240317T112604Z" creationid="Марианна" creationdate="20240317T112604Z">
+        <seg>&lt;s0&gt;Node execution&lt;/s0&gt;, &lt;a1&gt;&lt;s2&gt;Loop:&lt;/s2&gt;&lt;/a1&gt; Access violation error was corrected. It occurred when deleting &lt;e3&gt;Execution&lt;/e3&gt; and &lt;e4&gt;Loop&lt;/e4&gt; nodes with open property inspector (#9751).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Дерево в таблицу:&lt;/s0&gt; У узла &lt;e1&gt;Дерево в таблицу&lt;/e1&gt;, находящегося внутри &lt;e2&gt;Подмодели&lt;/e2&gt; с включенной автосинхронизацией на входном порту, сбрасывались настройки после закрытия и повторного открытия пакета.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240314T091231Z" creationid="Марианна" creationdate="20240314T075253Z">
