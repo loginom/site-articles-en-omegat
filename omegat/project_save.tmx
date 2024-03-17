@@ -3366,6 +3366,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Калькулятор:&lt;/s0&gt; Оптимизирована работа функций &lt;e1&gt;Left&lt;/e1&gt;, &lt;e2&gt;Right&lt;/e2&gt;, &lt;e3&gt;Substr&lt;/e3&gt;, &lt;e4&gt;Stuff&lt;/e4&gt; (#9724).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240317T114711Z" creationid="Марианна" creationdate="20240317T114711Z">
+        <seg>&lt;s0&gt;Calculator:&lt;/s0&gt; Work of the following functions was optimised:&lt;e1&gt;Left&lt;/e1&gt;, &lt;e2&gt;Right&lt;/e2&gt;, &lt;e3&gt;Substr&lt;/e3&gt;, &lt;e4&gt;Stuff&lt;/e4&gt; (#9724).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Калькулятор:&lt;/s0&gt; Функции ArcSin и ArcCos выдавали неверный результат.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240313T123229Z" creationid="Марианна" creationdate="20240313T123229Z">
