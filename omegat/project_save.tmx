@@ -10056,6 +10056,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Мастер настройки сохраняет флаг выбора узла, который является массивом, но не контейнером, и этот флаг не сбрасывается при завершении настройки (#9263).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240317T124346Z" creationid="Марианна" creationdate="20240317T124346Z">
+        <seg>The wizard saves the node selection checkbox that is an array but not a container, and this checkbox is not reset when setup is completed  (#9263).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Масштабное обновление аналитической платформы Loginom.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240211T171048Z" creationid="Марианна" creationdate="20240211T171048Z">
