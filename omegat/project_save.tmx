@@ -9280,6 +9280,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Исправили ошибочную отмену перетаскивания поля.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240317T104922Z" creationid="Марианна" creationdate="20240317T104922Z">
+        <seg>The erroneous cancellation of field dragging was fixed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Исправили поведение, теперь в подобной ситуации при закрытии сессии из Диспетчера в столбце &lt;e2&gt;Активность&lt;/e2&gt; отображается надпись «Удаляется», а после восстановления соединения (выхода из спящего режима) клиент получит сообщение «Администратор закрыл сессию через диспетчер».</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240311T140226Z" creationid="Марианна" creationdate="20240311T140044Z">
