@@ -3088,8 +3088,8 @@
       <tuv lang="ru">
         <seg>&lt;s0&gt;Визуализатор Куб:&lt;/s0&gt; Если деактивировать узел, на котором настроен &lt;e1&gt;Куб&lt;/e1&gt;, находящийся в режиме «Приостановить автовычисление», а затем снова активировать &lt;e2&gt;Куб&lt;/e2&gt; и открыть фильтр измерений, то пользователь видел в окне фильтра измерений пустой или неверный список измерений, кроме того, могла возникнуть ошибка Access violation.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240318T074014Z" creationid="Марианна" creationdate="20240318T074014Z">
-        <seg>&lt;s0&gt;Cube visualizer:&lt;/s0&gt; If the node on which the &lt;e1&gt;Cube&lt;/e1&gt; was configured that was in "Stop autocalculation" mode, and then the &lt;e2&gt;Cube&lt;/e2&gt; was activated again, and the dimension filter was opened, the user could see an empty or incorrect list of dimensions in the filter window, or Access violation error could occur.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240318T074238Z" creationid="Марианна" creationdate="20240318T074014Z">
+        <seg>&lt;s0&gt;Cube visualizer:&lt;/s0&gt; If the user deactivated the node on which the &lt;e1&gt;Cube&lt;/e1&gt; was configured that was in "Defer layout update" mode, and then the &lt;e2&gt;Cube&lt;/e2&gt; was activated again, and the dimension filter was opened, the user could see an empty or incorrect list of dimensions in the filter window, or Access violation error could occur.</seg>
       </tuv>
     </tu>
     <tu>
