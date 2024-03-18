@@ -3120,8 +3120,8 @@
       <tuv lang="ru">
         <seg>&lt;s0&gt;Визуализатор Куб:&lt;/s0&gt; При сортировке в &lt;e1&gt;Кубе&lt;/e1&gt; по отображениям «Процент по вертикали» и «Процент по горизонтали» порядок ячеек в некоторых случаях мог быть некорректным.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240318T073435Z" creationid="Марианна" creationdate="20240318T073435Z">
-        <seg>&lt;s0&gt;Cube visualizer:&lt;/s0&gt; When sorting in the &lt;e1&gt;Cube&lt;/e1&gt; по отображениям «Процент по вертикали» и «Процент по горизонтали» in some cases order of cells was incorrect.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240318T073708Z" creationid="Марианна" creationdate="20240318T073435Z">
+        <seg>&lt;s0&gt;Cube visualizer:&lt;/s0&gt; When sorting in the &lt;e1&gt;Cube&lt;/e1&gt; by "Percent by column" and "Percent by rows" views, in some cases order of cells could be incorrect.</seg>
       </tuv>
     </tu>
     <tu>
