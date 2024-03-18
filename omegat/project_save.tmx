@@ -9016,6 +9016,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если поменять локаль пакета (например, на английскую) и отобразить гистограмму для непрерывного Вещественного или Дата/Время поля, можно было заметить, что значение отображается в локали по умолчанию, а не в выставленной для пакета.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240318T075550Z" creationid="Марианна" creationdate="20240318T075550Z">
+        <seg>If the package locale was changed (for example, to the English one) and the histogram was displayed for the countinuous Real or Date/Time field, it was observed that the value was displayed in the default locale but not in the one selected for the package.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если после объединения классов, нажать на одну из кнопок, то происходило объединение классов, несмотря на то, что ни один из классов не был выделен.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210903T061313Z" creationid="Марианна" creationdate="20210903T061313Z">
