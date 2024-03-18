@@ -1112,8 +1112,8 @@
       <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Группировка&lt;/s1&gt;&lt;/a0&gt;, &lt;a2&gt;&lt;s3&gt;Таблица в переменные&lt;/s3&gt;&lt;/a2&gt;, &lt;s4&gt;Визуализатор Статистика:&lt;/s4&gt; Исправлена ошибка Access violation, которая возникала при расчете медианы для поля, значения которого таковы, что в диапазон [среднее - СКО; среднее + СКО] не попадало ни одно значение.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240318T082252Z" creationid="Марианна" creationdate="20240318T082252Z">
-        <seg>&lt;a0&gt;&lt;s1&gt;Grouping&lt;/s1&gt;&lt;/a0&gt;, &lt;a2&gt;&lt;s3&gt;Table to variables&lt;/s3&gt;&lt;/a2&gt;, &lt;s4&gt;Statistics visualizer:&lt;/s4&gt; Access violation order was corrected. It occurred when calculating median for the field the values of which that no value got into the range [mean - root-mean-square error; mean + root-mean-square error].</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240318T082542Z" creationid="Марианна" creationdate="20240318T082252Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Grouping&lt;/s1&gt;&lt;/a0&gt;, &lt;a2&gt;&lt;s3&gt;Table to variables&lt;/s3&gt;&lt;/a2&gt;, &lt;s4&gt;Statistics visualizer:&lt;/s4&gt; Access violation error was corrected. It occurred when calculating median for the field the values of which were such that no value got in range [mean - root-mean-square error; mean + root-mean-square error].</seg>
       </tuv>
     </tu>
     <tu>
