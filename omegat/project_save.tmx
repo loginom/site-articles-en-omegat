@@ -1062,6 +1062,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;a0&gt;&lt;s1&gt;Визуализатор Таблица:&lt;/s1&gt;&lt;/a0&gt; После настройки форматирования для колонки с целыми числами, числа больше &lt;c2&gt;2^57&lt;/c2&gt; отображались в экспоненциальном формате.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240318T075719Z" creationid="Марианна" creationdate="20240318T075719Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Table visualizer:&lt;/s1&gt;&lt;/a0&gt; After formatting configuration for the column with integer numbers, the numbers exceeding &lt;c2&gt;2^57&lt;/c2&gt; were displayed in the exponential format.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Выполнение узла:&lt;/s1&gt;&lt;/a0&gt; исправлена ошибка которая возникала, когда «Выполнение узла» ссылался на производный узел, у которого не найден исходный компонент.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220425T175522Z" creationid="Марианна" creationdate="20220425T175522Z">
