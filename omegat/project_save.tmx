@@ -3294,6 +3294,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Замена:&lt;/s0&gt; Колонки таблицы замен меняли свои размеры при добавлении большого количества замен, при прокрутке списка полей (если список полей большой), после многократного нажатия на кнопку «Сортировать» при наличии более 2-х полей точного совпадения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240318T083445Z" creationid="Марианна" creationdate="20240318T083445Z">
+        <seg>&lt;s0&gt;Replace:&lt;/s0&gt; The replacement table columns changed their sizes when adding many replacements, when scrolling the list of fields (if the list of fields was long), when "Sort" button was pressed multiple times if there were more than 2 exact match fields.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Замена:&lt;/s0&gt; При добавлении новой замены во внутреннюю таблицу замен для полей строкового и переменного типов в качестве значения по умолчанию используется &lt;c1&gt;&lt;Пустая строка&gt;&lt;/c1&gt; вместо null-значения.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230314T161718Z" creationid="Марианна" creationdate="20230314T161618Z">
