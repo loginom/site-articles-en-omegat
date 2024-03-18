@@ -12386,6 +12386,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При вычислении индекса порядковой статистики допущена ошибка на единицу.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240318T075155Z" creationid="Марианна" creationdate="20240318T075155Z">
+        <seg>When calculating the order statistics index, off-by-one error error was made.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При запуске настольных редакций Loginom в качестве рабочего каталога устанавливается рабочий каталог, указанный в параметрах ярлыка.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220306T153934Z" creationid="Марианна" creationdate="20220306T153934Z">
