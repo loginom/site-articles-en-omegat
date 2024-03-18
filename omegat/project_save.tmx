@@ -1374,6 +1374,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;a0&gt;&lt;s1&gt;Импорт из базы данных:&lt;/s1&gt;&lt;/a0&gt; В редакторе SQL-запросов мастера настройки импорта из БД при повторном открытии мастера настройки удалялись символы перевода строки в тексте SQL-запроса.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240318T083726Z" creationid="Марианна" creationdate="20240318T083726Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Import from database:&lt;/s1&gt;&lt;/a0&gt; The line break characters in the SQL query text were deleted in the SQL query editor of the import from DB wizard in the case of repeated opening of the wizard.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Импорт из базы данных:&lt;/s1&gt;&lt;/a0&gt; Если в мастере настройки задать через переменную &lt;e2&gt;Имя таблицы&lt;/e2&gt;, открыть &lt;e3&gt;Предпросмотр&lt;/e3&gt;, перейти в режим &lt;e4&gt;SQL запрос&lt;/e4&gt;, задать любой запрос, завершить настройку и выполнить узел, то возникала ошибка: «Выполнение запроса... окончилось неудачно, ...».</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240228T190936Z" creationid="Марианна" creationdate="20240228T190936Z">
