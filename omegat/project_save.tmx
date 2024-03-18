@@ -3390,6 +3390,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Импорт из XML-файла:&lt;/s0&gt; Не работал импорт Даты/Времени без смещения, если задано смещение временной зоны по умолчанию, а также импорт Даты/Времени со смещением.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240318T084853Z" creationid="Марианна" creationdate="20240318T084853Z">
+        <seg>&lt;s0&gt;Import from XML file:&lt;/s0&gt; Import of Date/Time without offset didn't work if the time zone offset was set by default and also import of Date/Time with offset.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Импорт из Баз данных:&lt;/s0&gt; при подключении к MS SQL Server с использованием ODBC драйвера, поля типа &lt;e1&gt;TinyInt&lt;/e1&gt; ошибочно определялись, как имеющие неопределенный тип (#8183).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210322T233108Z" creationid="Марианна" creationdate="20210322T232841Z">
