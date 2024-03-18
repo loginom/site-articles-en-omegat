@@ -13250,6 +13250,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ранее при наличии среди значений поля с непрерывными данными как выбросов, так и экстремальных значений, в детализации выбросов в списке могли оказаться и экстремальные значения (#9780).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240318T071348Z" creationid="Марианна" creationdate="20240318T071348Z">
+        <seg>Previously, when there were both outliers and extreme values among the values of the field with the continuous data, also extreme values could get into detailing of outliers in the list (#9780).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ранее при попытке открытия такого пакета он не открывался и выводилась ошибка.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220425T201437Z" creationid="Марианна" creationdate="20220425T201408Z">
