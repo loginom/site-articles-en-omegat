@@ -3384,8 +3384,8 @@
       <tuv lang="ru">
         <seg>&lt;s0&gt;Импорт из XML-файла:&lt;/s0&gt; Если XML документ содержал элементы, которые в схеме были обозначены как any, то при импорте возникала ошибка: "Превышение максимального количества появлений элемента "/person{}/any" (разрешено 0)".</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240318T084516Z" creationid="Марианна" creationdate="20240318T084516Z">
-        <seg>&lt;s0&gt;Import from XML file:&lt;/s0&gt; If XML document contained the elements that were marked as any in the schema, the following error occurred while importing: "Превышение максимального количества появлений элемента "/person{}/any" (разрешено 0)".</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240318T084701Z" creationid="Марианна" creationdate="20240318T084516Z">
+        <seg>&lt;s0&gt;Import from XML file:&lt;/s0&gt; If the XML document contained the elements that were marked as any in the schema, the following error occurred while importing: "Maximum number of "/person{}/any" element occurrences exceeded (0 allowed)".</seg>
       </tuv>
     </tu>
     <tu>
