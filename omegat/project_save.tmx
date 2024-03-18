@@ -3198,6 +3198,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Визуализатор Таблица:&lt;/s0&gt; Убрали лишнюю подготовку данных при повторной активации &lt;e1&gt;Таблицы&lt;/e1&gt;, деактивированной во время сортировки или фильтрации (#9702).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240318T080734Z" creationid="Марианна" creationdate="20240318T080734Z">
+        <seg>&lt;s0&gt;Table visualizer:&lt;/s0&gt; Unnecessary data preparation was removed in the case of repeated activation of the &lt;e1&gt;Table&lt;/e1&gt; deactivated when sorting or filtering (#9702).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Визуализаторы, компоненты:&lt;/s0&gt; Значение поля Время для даты 30.12.1899 содержало не только значение времени, но и дату.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240305T092118Z" creationid="Марианна" creationdate="20240305T092118Z">
