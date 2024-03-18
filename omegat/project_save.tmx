@@ -1056,8 +1056,8 @@
       <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Визуализатор Таблица:&lt;/s1&gt;&lt;/a0&gt; Исправлена ошибка «Набор данных не находится в закрытом состоянии», которая возникала, если в таблице с большим количеством колонок (~200) настроить сортировку по ~20 столбцам, быстро перейти в сценарий, открытый на соседней вкладке, и деактивировать узел, на котором настроен визуализатор (#9963).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240304T054331Z" creationid="Марианна" creationdate="20240304T054038Z">
-        <seg>&lt;a0&gt;&lt;s1&gt;Table visualizer:&lt;/s1&gt;&lt;/a0&gt; The following error was corrected: "Data set is not in the closed state". It occurred if the user set the sorting by ~20 columns in the table with many columns (~200), quickly went to the workflow opened on the next tab and deactivated the node on which the visualizer was configured (#9963).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240318T081344Z" creationid="Марианна" creationdate="20240304T054038Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Table visualizer:&lt;/s1&gt;&lt;/a0&gt; The following error was corrected: "Data set is not in the closed state". It occurred if the user set the sorting by ~20 columns in the table with many columns (~200), quickly went to the workflow opened in the next tab and deactivated the node on which the visualizer was configured (#9963).</seg>
       </tuv>
     </tu>
     <tu>
