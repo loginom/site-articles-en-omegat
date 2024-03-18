@@ -3174,6 +3174,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Визуализатор Статистика:&lt;/s0&gt; Исправлено отображение значения метки для непрерывного поля в гистограмме визуализатора.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240318T075258Z" creationid="Марианна" creationdate="20240318T075258Z">
+        <seg>&lt;s0&gt;Statistics visualizer:&lt;/s0&gt; Display of the caption value for the continuous field in the visualizer histogram was corrected.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Визуализатор Таблица:&lt;/s0&gt; Для некоторых колонок из-за округления и разницы в 1 пиксель не срабатывал автоматический подбор ширины колонки по тексту заголовка.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240302T084111Z" creationid="Марианна" creationdate="20240302T083929Z">
