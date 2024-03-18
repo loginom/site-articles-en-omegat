@@ -2536,8 +2536,8 @@
       <tuv lang="ru">
         <seg>&lt;e0&gt;Статистика&lt;/e0&gt;, в котором идет расчет порядковых статистик и уникальных значений, запущенный через команду на панели инструментов.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240318T081607Z" creationid="Марианна" creationdate="20240318T081607Z">
-        <seg>&lt;e0&gt;Statistics&lt;/e0&gt; in which the order statistics started using the toolbar command are calculated.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240318T081711Z" creationid="Марианна" creationdate="20240318T081607Z">
+        <seg>&lt;e0&gt;Statistics&lt;/e0&gt; in which calculation of the order statistics and unique values started using the toolbar command is performed.</seg>
       </tuv>
     </tu>
     <tu>
