@@ -3030,6 +3030,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Визуализатор Качество данных:&lt;/s0&gt; Если минимальное строковое значение содержало символы кириллицы, то в визуализаторе при отображении статистик для дискретных данных, открытие окна с гистограммой приводило к полному зависанию Loginom (#9682).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240318T071652Z" creationid="Марианна" creationdate="20240318T071652Z">
+        <seg>&lt;s0&gt;Data Quality visualizer:&lt;/s0&gt; If the minimum string value contained the Cyrillic characters, when displaying statistics for discrete data in the visualizer, opening of the window with histogram resulted in complete Loginom hangup (#9682).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Визуализатор Качество данных:&lt;/s0&gt; Исправлена ошибка в детализации данных для выбросов в полях с непрерывным видом значений.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240317T104651Z" creationid="Марианна" creationdate="20240317T104651Z">
