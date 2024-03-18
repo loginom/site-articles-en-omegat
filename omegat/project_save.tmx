@@ -3662,6 +3662,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Конфигурация:&lt;/s0&gt; В пакетах, созданных в Loginom 6 и открытых в Loginom 7, в редакторе Калькулятора отступы в выражениях, заданные Tab'ом, заменялись на единичный пробел.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240318T093449Z" creationid="Марианна" creationdate="20240318T093449Z">
+        <seg>&lt;s0&gt;Configuration:&lt;/s0&gt; Indentations in the expressions set by Tab were replaced with a single space in the Calculator editor in the packages created in Loginom 6 and opened in Loginom 7.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Куб, &lt;a1&gt;Подмодель:&lt;/a1&gt;&lt;/s0&gt; если внутри базовой Подмодели у одного из узлов был настроен визуализатор Куб с настроенной сортировкой по одному из столбцов, то при попытке настроить производную Подмодель возникала ошибка "Атрибут __baseName не существует" (#8536).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210903T074157Z" creationid="Марианна" creationdate="20210903T072745Z">
