@@ -8896,6 +8896,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если XSD схема содержала группу выбора (choice), у которой есть необязательные элементы (с minOccurs="0"), но сама группа не была отмечена как необязательная, то xml, содержащие пропуски такой группы, выдавали ошибку при импорте.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240318T084408Z" creationid="Марианна" creationdate="20240318T084408Z">
+        <seg>If the XSD schema contained the choice group with optional elements (with minOccurs="0") but the group as such was not marked as the optional one, the xml that contained null data of such group returned an error when importing.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если Подмодель выполнялась в Цикле, то это повышало вероятность возникновения ошибки (#8514).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210902T134033Z" creationid="Марианна" creationdate="20210902T134033Z">
