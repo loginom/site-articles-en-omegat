@@ -950,6 +950,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;a0&gt;&lt;s1&gt;Визуализатор Качество бинарной классификации:&lt;/s1&gt;&lt;/a0&gt; Исправлено построение графиков NPV (Точность отрицательного прогноза) и OPR (Усредненная точность прогноза) для граничных случаев: для NPV, когда есть только «события», а для OPR — когда есть только «события» или только «не-события».</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240318T072907Z" creationid="Марианна" creationdate="20240318T072907Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Binary сlassification assessment visualizer:&lt;/s1&gt;&lt;/a0&gt; Construction of NPV (Negative Predictive Value ) and OPR (Overall Precision Rate) profiles was corrected for borderline cases: for NPV when there are only "events", and for OPR when there are only "events" or only "non-events".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Визуализатор Качество данных:&lt;/s1&gt;&lt;/a0&gt; Исправлена ошибка "Cannot read properties of undefined (reading 'isGroupHeader')", которая возникала при активации визуализатора &lt;e2&gt;Качество данных&lt;/e2&gt; со страницы &lt;e3&gt;Отчеты&lt;/e3&gt;, без предварительного входа в визуализатор со страницы &lt;e4&gt;Визуализаторы&lt;/e4&gt; (#9470).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240301T102741Z" creationid="Марианна" creationdate="20240301T101647Z">
@@ -3032,8 +3040,8 @@
       <tuv lang="ru">
         <seg>&lt;s0&gt;Визуализатор Качество данных:&lt;/s0&gt; Если минимальное строковое значение содержало символы кириллицы, то в визуализаторе при отображении статистик для дискретных данных, открытие окна с гистограммой приводило к полному зависанию Loginom (#9682).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240318T071652Z" creationid="Марианна" creationdate="20240318T071652Z">
-        <seg>&lt;s0&gt;Data Quality visualizer:&lt;/s0&gt; If the minimum string value contained the Cyrillic characters, when displaying statistics for discrete data in the visualizer, opening of the window with histogram resulted in complete Loginom hangup (#9682).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240318T071722Z" creationid="Марианна" creationdate="20240318T071652Z">
+        <seg>&lt;s0&gt;Data Quality visualizer:&lt;/s0&gt; If the minimum string value contained the Cyrillic characters, when displaying the statistics for discrete data in the visualizer, opening of the window with histogram resulted in complete Loginom hangup (#9682).</seg>
       </tuv>
     </tu>
     <tu>
