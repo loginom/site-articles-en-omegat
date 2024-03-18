@@ -3206,6 +3206,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Визуализаторы (Таблица, Статистика и Диаграмма):&lt;/s0&gt; Исправлены различные ошибки, в том числе ошибки Access violation, которые возникали, если деактивировать узел во время выполнения в визуализаторе асинхронных вычислений, выполняемых в отдельном потоке.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240318T080953Z" creationid="Марианна" creationdate="20240318T080953Z">
+        <seg>&lt;s0&gt;Visualizers (Table, Statistics and Chart):&lt;/s0&gt; Different errors were corrected, including Access violation error. They occurred if the node was deactivated while performing asynchronous computations in a separate stream in the visualizer.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Визуализаторы, компоненты:&lt;/s0&gt; Значение поля Время для даты 30.12.1899 содержало не только значение времени, но и дату.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240305T092118Z" creationid="Марианна" creationdate="20240305T092118Z">
