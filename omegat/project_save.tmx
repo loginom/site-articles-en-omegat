@@ -1560,8 +1560,8 @@
       <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Квантование:&lt;/s1&gt;&lt;/a0&gt; Исправлено неправильное формирование меток интервалов квантования при использовании подстроки из метки поля, заданной кириллицей.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240318T085321Z" creationid="Марианна" creationdate="20240318T085243Z">
-        <seg>&lt;a0&gt;&lt;s1&gt;Binning:&lt;/s1&gt;&lt;/a0&gt; Incorrect generation of binning bin captions when using substring from the field caption in Cyrillic characters was corrected.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240318T085501Z" creationid="Марианна" creationdate="20240318T085243Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Binning:&lt;/s1&gt;&lt;/a0&gt; Incorrect generation of binning range captions when using substring from the field caption in Cyrillic characters was corrected.</seg>
       </tuv>
     </tu>
     <tu>
