@@ -11176,6 +11176,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ошибки возникали, например, если на workflow деактивировать узел с большим набором данных, при открытом в отдельной вкладке настроенном на этом узле визуализаторе:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240318T081338Z" creationid="Марианна" creationdate="20240318T081338Z">
+        <seg>For example, errors occurred if the node with large data set was deactivated on the workflow when the visualizer configured on this node was opened in a separate tab:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ошибки исправили (#10029).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240227T072936Z" creationid="Марианна" creationdate="20240227T072936Z">
