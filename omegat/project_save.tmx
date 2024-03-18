@@ -12129,6 +12129,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>После этого последнее добавленное в область измерений поле отскакивало в список полей, но при этом выглядело, как поле которое находится в области измерений (выделялось жирным шрифтом).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240318T073320Z" creationid="Марианна" creationdate="20240318T073320Z">
+        <seg>Then the last field added to the dimension area moved to the list of fields but in this case it looked like as the filed that was located in the area of dimensions (it was highlighted in bold).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>После этой ошибки нельзя было открыть ни один пакет, требовалась перезагрузка сервера (#9156).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220426T103129Z" creationid="Марианна" creationdate="20220426T103129Z">
