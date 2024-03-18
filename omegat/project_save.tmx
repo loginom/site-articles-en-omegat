@@ -10232,6 +10232,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Маска оставалась на workflow даже поле завершения работы цикла.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240318T093745Z" creationid="Марианна" creationdate="20240318T093745Z">
+        <seg>The mask remained on the workflow even when the loop completed its operation.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Мастер вызывается кнопкой с панели инструментов &lt;e1&gt;Куба&lt;/e1&gt; и через соответствующий пункт контекстного меню.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240220T080123Z" creationid="Марианна" creationdate="20240220T080123Z">
