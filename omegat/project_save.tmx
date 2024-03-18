@@ -1040,8 +1040,8 @@
       <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Визуализатор Статистика:&lt;/s1&gt;&lt;/a0&gt; Если отменить процесс «Рассчитать порядковые статистики» после 50% процентов выполнения, то кнопка, запускающая этот процесс, оставалась в неактивном состоянии.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240318T074843Z" creationid="Марианна" creationdate="20240318T074843Z">
-        <seg>&lt;a0&gt;&lt;s1&gt;Statistics visualizer:&lt;/s1&gt;&lt;/a0&gt; If "Calculate order statistics" process was cancelled after 50% of execution, the button that started this process remained in an inactive state.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240318T074938Z" creationid="Марианна" creationdate="20240318T074843Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Statistics visualizer:&lt;/s1&gt;&lt;/a0&gt; If "Count order statistics" process was cancelled after 50% of execution, the button that started this process remained in an inactive state.</seg>
       </tuv>
     </tu>
     <tu>
