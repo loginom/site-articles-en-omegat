@@ -12161,6 +12161,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>После внесенных исправлений узел массива, который не является контейнером, и «Глобальный индекс узла» можно выбирать отдельно (т.е. флаг выбора у одного из этих узлов не влияет на флаг выбора другого).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240318T083032Z" creationid="Марианна" creationdate="20240318T083032Z">
+        <seg>After introduced changes the corrected array node that is not a container and the "Global node index" can be selected separately (namely, selection checkbox of one of these nodes doesn't have influence on selection checkbox of the other one).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>После деактивации и повторной активации настройки «Уникальные значения как имена полей», имена столбцов будут формироваться уже по-новому с транслитерацией.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220309T074847Z" creationid="Марианна" creationdate="20220309T074847Z">
