@@ -3080,8 +3080,8 @@
       <tuv lang="ru">
         <seg>&lt;s0&gt;Визуализатор Куб:&lt;/s0&gt; В окне &lt;e1&gt;Настройка измерений&lt;/e1&gt; в качестве свободных полей, которые можно добавить в измерения, не учитывались поля, которые ранее использовались как факты и были скрытые в кросс-таблице.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240318T074255Z" creationid="Марианна" creationdate="20240318T074255Z">
-        <seg>&lt;s0&gt;Cube visualizer:&lt;/s0&gt; В окне &lt;e1&gt;Настройка измерений&lt;/e1&gt; в качестве свободных полей, которые можно добавить в измерения, не учитывались поля, которые ранее использовались как факты и были скрытые в кросс-таблице.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240318T074621Z" creationid="Марианна" creationdate="20240318T074255Z">
+        <seg>&lt;s0&gt;Cube visualizer:&lt;/s0&gt; The fields previously used as measures and hidden in the cross table were not considered in &lt;e1&gt;Configure dimensions&lt;/e1&gt; window as empty fields that could be added to dimensions.</seg>
       </tuv>
     </tu>
     <tu>
