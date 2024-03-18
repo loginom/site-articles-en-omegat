@@ -14082,6 +14082,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Такая ситуация могла возникнуть, например, если два узла &lt;e3&gt;Выполнение&lt;/e3&gt;, в которых снят флаг «Сохранять конфигурацию выбранного узла», выполняют одну и ту же &lt;a4&gt;Подмодель&lt;/a4&gt; и их выходные порты подключены ко входу одного и того же узла &lt;a5&gt;Объединение&lt;/a5&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240318T081930Z" creationid="Марианна" creationdate="20240318T081930Z">
+        <seg>Such a situation could arise, for example, if two &lt;e3&gt;Execution&lt;/e3&gt; nodes in which "Save configuration of the selected node" checkbox was deselected, executed one and the same &lt;a4&gt;Supernode&lt;/a4&gt; and their output ports were connected to the input of one and the same &lt;a5&gt;Union&lt;/a5&gt; node.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Такая ситуация могла, например, возникнуть, если пользователю предоставлял доступ другой пользователь, были изменены права доступа к каталогам через панель Администрирование, или новый каталог был создан через диалог сохранения файла (#5347, #6032, #6423, #8022).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240304T062133Z" creationid="Марианна" creationdate="20210903T084603Z">
