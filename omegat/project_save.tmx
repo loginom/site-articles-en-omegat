@@ -3414,6 +3414,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Импорт из базы данных:&lt;/s0&gt; Исправлена ошибка Access violation, которая иногда возникала при определении назначения управляющей переменной узла &lt;e1&gt;Импорт из базы данных&lt;/e1&gt; внутри &lt;e2&gt;Цикла&lt;/e2&gt; (#8685, #9467).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240318T083913Z" creationid="Марианна" creationdate="20240318T083913Z">
+        <seg>&lt;s0&gt;Import from database:&lt;/s0&gt; Access violation error was corrected. It occurred when defining the usage type of the control variable of &lt;e1&gt;Import from database&lt;/e1&gt; node inside the &lt;e2&gt;Loop&lt;/e2&gt; (#8685, #9467).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Импорт из текстового файла:&lt;/s0&gt; значение «По умолчанию» параметра «Ограничителя строк» переименовано в «Нет», что упростило восприятие.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220426T094836Z" creationid="Марианна" creationdate="20220426T094836Z">
