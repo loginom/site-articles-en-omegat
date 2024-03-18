@@ -4022,6 +4022,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Подмодель:&lt;/s0&gt; Исправлена ошибка Access violation, которая возникала при выполнении пакета через Loginom Integrator, если метаданные не соответствовали текущей версии пакета.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240318T093609Z" creationid="Марианна" creationdate="20240318T093609Z">
+        <seg>&lt;s0&gt;Supernode:&lt;/s0&gt; Access violation error was corrected. It occurred when executing the package using Loginom Integrator if the metadata didn't match the current package version.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Подмодель:&lt;/s0&gt; если был активирован узел, подключенный к выходному порту Подмодели, а сама Подмодель не была активирована, а после после этого пакет, содержащий Подмодель, был сохранен и закрыт, то при повторном открытии пакета и попытки активировать Подмодель, возникала ошибка «Порт не настроен» (#8538).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210903T081341Z" creationid="Марианна" creationdate="20210903T081250Z">
