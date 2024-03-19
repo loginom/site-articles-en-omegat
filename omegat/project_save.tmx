@@ -9315,8 +9315,8 @@
       <tuv lang="ru">
         <seg>Если для набора данных, в котором метки полей заданы на русском языке, в узле &lt;e2&gt;Квантование&lt;/e2&gt; на этапе настройки компонентов квантования был задан шаблон меток интервалов, содержащий ключ &lt;c3&gt;FD&lt;/c3&gt; (например &lt;c4&gt;%FD[5]&lt;/c4&gt; — метка интервала содержит первые 5 символов метки поля), то на выходе узла в столбце меток интервалов, вместо ожидаемых символов из метки поля, была другая подстрока.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240319T095845Z" creationid="Марианна" creationdate="20240319T095845Z">
-        <seg>If the template of bin captions containing &lt;c3&gt;FD&lt;/c3&gt; key (for example,  &lt;c4&gt;%FD[5]&lt;/c4&gt; — bin caption contains the first five characters of the field caption), </seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T100248Z" creationid="Марианна" creationdate="20240319T095845Z">
+        <seg>If for the data set in which the field captions were set in the Russian language in &lt;e2&gt;Binning&lt;/e2&gt; node at the stage of binning components configuration the template of bin captions containing &lt;c3&gt;FD&lt;/c3&gt; key (for example,  &lt;c4&gt;%FD[5]&lt;/c4&gt; — bin caption contains the first five characters of the field caption) was set, another substring was at the node output in the bin caption column instead of the expected characters from the field caption.</seg>
       </tuv>
     </tu>
     <tu>
