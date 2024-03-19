@@ -3566,6 +3566,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Импорт из текстового файла:&lt;/s0&gt; Добавлена поддержка разбора дат, в которых месяц записан как в именительном, так и в родительном падеже.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T084321Z" creationid="Марианна" creationdate="20240319T084321Z">
+        <seg>&lt;s0&gt;Import from text file:&lt;/s0&gt; Parsing of the dates in which the month is recorded both in the nominative, and in genetive cases is now supported.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Импорт из текстового файла:&lt;/s0&gt; Появилась поддержка разбора дат в формате ISO 8601 со смещением времени.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240319T083741Z" creationid="Марианна" creationdate="20240319T083741Z">
@@ -12318,6 +12326,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240301T080323Z" creationid="Марианна" creationdate="20240301T080323Z">
         <seg>The tip previously displayed for connection was not hidden.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Подсчет числа кавычек в строке производится таким образом, чтобы разбор плохо сформированных пользовательских строк был максимально корректным (как в Excel).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T084140Z" creationid="Марианна" creationdate="20240319T084140Z">
+        <seg>The number of quotation marks in the row is calculated in the way that provides parsing of poorly generated user rows as correctly as possible (as in Excel).</seg>
       </tuv>
     </tu>
     <tu>
