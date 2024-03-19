@@ -9528,6 +9528,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Изменения коснулись &lt;e1&gt;Быстрого просмотра&lt;/e1&gt;, предпросмотров в компонентах импорта, &lt;e2&gt;Калькулятор&lt;/e2&gt; и &lt;e3&gt;Фильтр строк&lt;/e3&gt;, а также всех редакторов значений для типов данных Дата/Время и Переменный (настройка переменных, компоненты &lt;e4&gt;Фильтр строк&lt;/e4&gt;, &lt;e5&gt;Замена&lt;/e5&gt; и др.) (#9715).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T080437Z" creationid="Марианна" creationdate="20240319T080437Z">
+        <seg>Changes affected the &lt;e1&gt;Quick view&lt;/e1&gt;, previews in the import components, &lt;e2&gt;Calculator&lt;/e2&gt; and &lt;e3&gt;Row filter&lt;/e3&gt; and also all editors of values for the Date/Time and Variable data types (configuration of variables, &lt;e4&gt;Row filter&lt;/e4&gt;, &lt;e5&gt;Replace&lt;/e5&gt; components, etc.) (#9715).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Изменились системные требования для Loginom под Linux.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240313T120753Z" creationid="Марианна" creationdate="20240313T120753Z">
