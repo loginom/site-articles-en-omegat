@@ -125,7 +125,7 @@ There are many fixes in visualizers, import and export components in the new ver
 
 <p><a href="https://help.loginom.ru/adminguide/server/" target="_blank"><strong>Loginom Server:</strong></a>&nbsp;After the Loginom server stop in the case of Linux OS use with the active connection via web socket, its restart was possible after ~ 60 с. Required improvements were made to provide restart of the Loginom service in Linux without prior waiting, including in the automatic mode(#9691).</p>
 
-<p><strong>Workflow:</strong>&nbsp;Реализовано сохранение позиций и размера блока комментария к узлу при его перемещении, изменении размеров, раскрытии и закрытии, а также при сохранении пакета (#335).</p>
+<p><strong>Workflow:</strong>&nbsp;Positions and size of the node comment block are saved in the case of its moving, changing its size, opening and closing, and also saving the package (#335).</p>
 
 <p><strong>Визуализатор Куб:</strong>&nbsp;Сокращено время перестройки&nbsp;<em>Куба</em>, убрана задержка при добавлении/удалении измерения или факта в режиме «Приостановить автовычисление», кэширование фактов стало избирательным (неиспользуемые факты не кэшируются) (#6763, #6816, #7139).</p>
 
@@ -135,7 +135,7 @@ There are many fixes in visualizers, import and export components in the new ver
 
 <p><strong>Encoded package:</strong>&nbsp;If there are problems with decryption of the encoded package, the user can get the following message: "Invalid password". The message with replaced with the one that is more informative: "The current application version cannot decrypt package...: unsupported method of package encoding" (#7834).</p>
 
-<p><strong>Import from text file:</strong>&nbsp;Date parsing in ISO 8601 format with time offset is now supported. Если в импортируемых данных указано только время (дата 30.12.1899) с указанием смещения относительно UTC, то при преобразовании в тип Дата/Время применяется смещение во временной зоне приложения, а также учитывается история переводов времени (#9747).</p>
+<p><strong>Import from text file:</strong>&nbsp;Date parsing in ISO 8601 format with time offset is now supported. If only time is specified in the imported data (30.12.1899) with offset specified relative to UTC, offset in the application time zone is applied when transforming to the Date/Time type, and also the history of time conversion is taken into account (#9747).</p>
 
 <p><strong>Import from text file:</strong>&nbsp;Support of the multiline values import was added. When importing values from the text file, including rows, they can be put in quotation marks. If the odd number of quotation marks or other line terminators is detected inside the row, the rows will be further read until the matching quotation mark is found, and they will be combined into one . Line break characters inside the quotation marks will be included into the total row. The number of quotation marks in the row is calculated in the way that provides parsing of poorly generated user rows as correctly as possible (as in Excel). If it is not possible to find the matching quotation mark, operation of import from text file will be continued and warning will be recorded in the shared log (#100).</p>
 
@@ -161,6 +161,6 @@ There are many fixes in visualizers, import and export components in the new ver
 
 <p><strong>Приложение:</strong>&nbsp;При задании значения переменной или поля переменного типа (например, при задании условия в&nbsp;<a href="https://help.loginom.ru/userguide/processors/transformation/row-filter/" target="_blank">Фильтре строк</a>) убрана возможность выбрать для этого значения переменный&nbsp;<a href="https://help.loginom.ru/userguide/data/datatype.html" target="_blank">тип данных</a>, т.к. для задаваемого значения можно однозначно указать тип данных (#9357).</p>
 
-<p><strong>Экспорт в XML-файл</strong>,&nbsp;<a href="https://help.loginom.ru/userguide/processors/integration/xml-generation.html" target="_blank"><strong>Формирование XML</strong></a>,&nbsp;<a href="https://help.loginom.ru/userguide/processors/integration/soap-request.html" target="_blank"><strong>SOAP-запрос:</strong></a>&nbsp;При преобразовании Даты/Времени в строку XML используется не фиксированное смещение времени, а смещение времени с учётом исторических временных поправок — переходов на летнее/зимнее время (#9755).</p>
+<p><strong>Export to XML file</strong>,&nbsp;<a href="https://help.loginom.ru/userguide/processors/integration/xml-generation.html" target="_blank"><strong>XML Generation</strong></a>,&nbsp;<a href="https://help.loginom.ru/userguide/processors/integration/soap-request.html" target="_blank"><strong>SOAP request:</strong></a>&nbsp;When transforming Date/Time to the XML row, not fixed time offset is used but the time offset with the historical time amendments taken into account, namely, summer/winter time conversions (#9755).</p>
 
 <p><strong>Элемент Фильтр/Поиск:</strong>&nbsp;При выполнении поиска с помощью элемента Фильтр/Поиск пропускаются пустые ячейки (ячейки, содержащие только неразрывный пробел).</p>
