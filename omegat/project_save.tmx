@@ -960,8 +960,8 @@
       <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Визуализатор Качество бинарной классификации:&lt;/s1&gt;&lt;/a0&gt; Исправлено построение графиков NPV (Точность отрицательного прогноза) и OPR (Усредненная точность прогноза) для граничных случаев: для NPV, когда есть только «события», а для OPR — когда есть только «события» или только «не-события».</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240318T072907Z" creationid="Марианна" creationdate="20240318T072907Z">
-        <seg>&lt;a0&gt;&lt;s1&gt;Binary сlassification assessment visualizer:&lt;/s1&gt;&lt;/a0&gt; Construction of NPV (Negative Predictive Value ) and OPR (Overall Precision Rate) profiles was corrected for borderline cases: for NPV when there are only "events", and for OPR when there are only "events" or only "non-events".</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T112604Z" creationid="Марианна" creationdate="20240318T072907Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Binary сlassification assessment visualizer:&lt;/s1&gt;&lt;/a0&gt; Construction of NPV (Negative Predictive Value ) and OPR (Overall Precision Rate) profiles was corrected for borderline cases: for NPV when there were only "events", and for OPR when there were only "events" or only "non-events".</seg>
       </tuv>
     </tu>
     <tu>
@@ -1488,8 +1488,8 @@
       <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Калькулятор:&lt;/s1&gt;&lt;/a0&gt; В режиме работы ­«Выражение» разрешено выполнение оператора &lt;c2&gt;NOT&lt;/c2&gt; со значениями переменного типа (NOT VAR, где VAR - любое выражение с результатом переменного типа).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240311T141304Z" creationid="Марианна" creationdate="20240311T141304Z">
-        <seg>&lt;a0&gt;&lt;s1&gt;Calculator:&lt;/s1&gt;&lt;/a0&gt; &lt;c2&gt;NOT&lt;/c2&gt; operator execution with the values related to the variable type (NOT VAR where VAR - any expression with the result related to the variable type) is allowed in the "Expression" mode of operation.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T111856Z" creationid="Марианна" creationdate="20240311T141304Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Calculator:&lt;/s1&gt;&lt;/a0&gt; &lt;c2&gt;NOT&lt;/c2&gt; operator execution with the values related to the variant type (NOT VAR where VAR - any expression with the result related to the variant type) is allowed in the "Expression" mode of operation.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1536,8 +1536,8 @@
       <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Калькулятор:&lt;/s1&gt;&lt;/a0&gt; Упростили «шаблон» функций &lt;e2&gt;Find, Replace, Round&lt;/e2&gt;, который задается при их вставке в выражение &lt;e3&gt;Калькулятора&lt;/e3&gt;:</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240319T091440Z" creationid="Марианна" creationdate="20240319T091440Z">
-        <seg>&lt;a0&gt;&lt;s1&gt;Calculator:&lt;/s1&gt;&lt;/a0&gt; "Template" of the following functions was simplified: &lt;e2&gt;Find, Replace, Round&lt;/e2&gt;. It is set when thay are pasted to the &lt;e3&gt;Calculator&lt;/e3&gt; expression:</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T114015Z" creationid="Марианна" creationdate="20240319T091440Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Calculator:&lt;/s1&gt;&lt;/a0&gt; "Template" of the following functions was simplified: &lt;e2&gt;Find, Replace, Round&lt;/e2&gt;. It is set when they are pasted to the &lt;e3&gt;Calculator&lt;/e3&gt; expression:</seg>
       </tuv>
     </tu>
     <tu>
@@ -1616,8 +1616,8 @@
       <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Конечные классы:&lt;/s1&gt;&lt;/a0&gt; В мастере настройки узла для выходного дискретного поля переменного типа не сохранялось установленное &lt;e2&gt;Настраиваемое значение "события"&lt;/e2&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20220929T151144Z" creationid="Марианна" creationdate="20220929T151144Z">
-        <seg>&lt;a0&gt;&lt;s1&gt;Coarse сlasses:&lt;/s1&gt;&lt;/a0&gt; The set &lt;e2&gt;Configured "event" value&lt;/e2&gt; was not saved in the node wizard for the output discrete field related to the variable type.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T111832Z" creationid="Марианна" creationdate="20220929T151144Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Coarse сlasses:&lt;/s1&gt;&lt;/a0&gt; The set &lt;e2&gt;Configured "event" value&lt;/e2&gt; was not saved in the node wizard for the output discrete field related to the variant type.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1832,8 +1832,8 @@
       <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Параметры полей:&lt;/s1&gt;&lt;/a0&gt; При конвертации значений из переменного типа данных (например, в вещественный) возникала ошибка «"Строка" is an invalid float», если в конвертируемом столбце присутствовали пустые строки или строки, содержащие обычный текст.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240228T183750Z" creationid="Марианна" creationdate="20240228T183750Z">
-        <seg>&lt;a0&gt;&lt;s1&gt;Field features:&lt;/s1&gt;&lt;/a0&gt; When converting values from the variable data type (for example, to real), the following error occurred:  "Row" is an invalid float" if there were empty rows or rows with the plain text in the converted column.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T111708Z" creationid="Марианна" creationdate="20240228T183750Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Field features:&lt;/s1&gt;&lt;/a0&gt; When converting values from the variant data type (for example, to real), the following error occurred:  "Row" is an invalid float" if there were empty rows or rows with the plain text in the converted column.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1888,8 +1888,8 @@
       <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Подключение MS Access&lt;/s1&gt;&lt;/a0&gt;, &lt;a2&gt;&lt;s3&gt;Подключение ODBC:&lt;/s3&gt;&lt;/a2&gt; Устранили потерю данных при экспорте в базу данных строковых параметров, содержащих символы Unicode, которая появилась в версии 7.0.0 (#9669, #9668).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240319T073245Z" creationid="Марианна" creationdate="20240319T072937Z">
-        <seg>&lt;a0&gt;&lt;s1&gt;MS Access connection&lt;/s1&gt;&lt;/a0&gt;, &lt;a2&gt;&lt;s3&gt;ODBC connection:&lt;/s3&gt;&lt;/a2&gt; Data loss was eliminated. It occurred when exporting to the database of the string parameters that contained Unicode characters, this data loss appeared in version 7.0.0 (#9669, #9668).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T113416Z" creationid="Марианна" creationdate="20240319T072937Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;MS Access connection&lt;/s1&gt;&lt;/a0&gt;, &lt;a2&gt;&lt;s3&gt;ODBC connection:&lt;/s3&gt;&lt;/a2&gt; Data loss was eliminated. It occurred when exporting the string parameters that contained Unicode characters to the database, this data loss appeared in version 7.0.0 (#9669, #9668).</seg>
       </tuv>
     </tu>
     <tu>
@@ -2664,8 +2664,8 @@
       <tuv lang="ru">
         <seg>&lt;e0&gt;Статистика&lt;/e0&gt;, в котором идет расчет порядковых статистик и уникальных значений, запущенный через команду на панели инструментов.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240318T081711Z" creationid="Марианна" creationdate="20240318T081607Z">
-        <seg>&lt;e0&gt;Statistics&lt;/e0&gt; in which calculation of the order statistics and unique values started using the toolbar command is performed.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T113358Z" creationid="Марианна" creationdate="20240318T081607Z">
+        <seg>&lt;e0&gt;Statistics&lt;/e0&gt; in which calculation of the order statistics and unique values started using the toolbar command was performed.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2920,8 +2920,8 @@
       <tuv lang="ru">
         <seg>&lt;s0&gt;Python:&lt;/s0&gt; Значения целого типа неправильно записывались в выходной столбец переменного типа при выполнении кода в отдельном процессе.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240317T102212Z" creationid="Марианна" creationdate="20240317T102212Z">
-        <seg>&lt;s0&gt;Python:&lt;/s0&gt; The values related to the integer type were incorrectly recorded in the output column related to the variable type when executing the code in a separate process.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T111515Z" creationid="Марианна" creationdate="20240317T102212Z">
+        <seg>&lt;s0&gt;Python:&lt;/s0&gt; The values related to the integer type were incorrectly recorded in the output column related to the variant type when executing the code in a separate process.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3288,8 +3288,8 @@
       <tuv lang="ru">
         <seg>&lt;s0&gt;Визуализатор Куб:&lt;/s0&gt; Исправлена ошибка "Could not convert variant of type (UnicodeString) into type (Integer)", которая возникала в &lt;e1&gt;Кубе&lt;/e1&gt; с измерением переменного типа при попытке вставить произвольное значение в строку поиска через Ctrl+V или кнопку на панели инструментов.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240314T073802Z" creationid="Марианна" creationdate="20240314T073802Z">
-        <seg>&lt;s0&gt;Cube visualizer:&lt;/s0&gt; The following error was corrected: "Could not convert variant of type (UnicodeString) into type (Integer)". It occurred in the &lt;e1&gt;Cube&lt;/e1&gt; with the dimension related to the variable type while attempting to paste the random value to the search string using Ctrl+V or the toolbar button.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T111625Z" creationid="Марианна" creationdate="20240314T073802Z">
+        <seg>&lt;s0&gt;Cube visualizer:&lt;/s0&gt; The following error was corrected: "Could not convert variant of type (UnicodeString) into type (Integer)". It occurred in the &lt;e1&gt;Cube&lt;/e1&gt; with the dimension related to the variant type while attempting to paste the random value to the search string using Ctrl+V or the toolbar button.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3464,8 +3464,8 @@
       <tuv lang="ru">
         <seg>&lt;s0&gt;Замена:&lt;/s0&gt; При добавлении новой замены во внутреннюю таблицу замен для полей строкового и переменного типов в качестве значения по умолчанию используется &lt;c1&gt;&lt;Пустая строка&gt;&lt;/c1&gt; вместо null-значения.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20230314T161718Z" creationid="Марианна" creationdate="20230314T161618Z">
-        <seg>&lt;s0&gt;Replace:&lt;/s0&gt; When addding the new replacement to the internal replacement table for the string and variable fields, &lt;c1&gt;&lt;Empty string&gt;&lt;/c1&gt; is used as the default value instead of null-value.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T111459Z" creationid="Марианна" creationdate="20230314T161618Z">
+        <seg>&lt;s0&gt;Replace:&lt;/s0&gt; When addding the new replacement to the internal replacement table for the string and fields related to the variant type, &lt;c1&gt;&lt;Empty string&gt;&lt;/c1&gt; is used as the default value instead of null-value.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4264,8 +4264,8 @@
       <tuv lang="ru">
         <seg>&lt;s0&gt;Приложение:&lt;/s0&gt; Оптимизировано сравнение значений переменного типа, внутри которых были строки, в результате чего в некоторых сценариях узлы &lt;a1&gt;Фильтр строк&lt;/a1&gt; стали активироваться быстрее на 25%.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240308T123611Z" creationid="Марианна" creationdate="20240308T123515Z">
-        <seg>&lt;s0&gt;Application:&lt;/s0&gt; Comparison of the variable values with the rows inside was optimised. As a result, &lt;a1&gt;Row filter&lt;/a1&gt; nodes in some workflows are activated 25% faster.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T111744Z" creationid="Марианна" creationdate="20240308T123515Z">
+        <seg>&lt;s0&gt;Application:&lt;/s0&gt; Comparison of the variant values with the rows inside was optimised. As a result, &lt;a1&gt;Row filter&lt;/a1&gt; nodes in some workflows are activated 25% faster.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4320,8 +4320,8 @@
       <tuv lang="ru">
         <seg>&lt;s0&gt;Приложение:&lt;/s0&gt; При задании значения переменной или поля переменного типа (например, при задании условия в &lt;a1&gt;Фильтре строк&lt;/a1&gt;) убрана возможность выбрать для этого значения переменный &lt;a2&gt;тип данных&lt;/a2&gt;, т.к. для задаваемого значения можно однозначно указать тип данных (#9357).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240319T095017Z" creationid="Марианна" creationdate="20240319T094758Z">
-        <seg>&lt;s0&gt;Application:&lt;/s0&gt; When setting the value of the variable or the field related to the variable type (for example, when setting condition in &lt;a1&gt;Row filter&lt;/a1&gt;), it became impossible to select the variable &lt;a2&gt;data type&lt;/a2&gt; for this value, because it was possible to specify data type for the set value explicitly (#9357).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T114331Z" creationid="Марианна" creationdate="20240319T094758Z">
+        <seg>&lt;s0&gt;Application:&lt;/s0&gt; When setting the value of the variable or the field related to the variant type (for example, when setting condition in &lt;a1&gt;Row filter&lt;/a1&gt;), it became impossible to select the variant &lt;a2&gt;data type&lt;/a2&gt; for this value, because it was possible to specify data type for the set value explicitly (#9357).</seg>
       </tuv>
     </tu>
     <tu>
@@ -4616,8 +4616,8 @@
       <tuv lang="ru">
         <seg>&lt;s0&gt;Цикл:&lt;/s0&gt; При выполнении цикла вида Групповая обработка с большим количеством групп, настроенного на узел, для которого рассчитывается статистика по входному набору данных (например, &lt;a1&gt;Редактирование выбросов&lt;/a1&gt;) наблюдалась длительная блокировка workflow маской с надписью «Загрузка».</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240319T080802Z" creationid="Марианна" creationdate="20240319T080736Z">
-        <seg>&lt;s0&gt;Loop:&lt;/s0&gt; When executing the loop related to the Group processing kind with many groups that was configured to the node for which statistics is calcualted by the input data set (for example, &lt;a1&gt;Eliminate outliers
+      <tuv lang="en" changeid="Марианна" changedate="20240319T113619Z" creationid="Марианна" creationdate="20240319T080736Z">
+        <seg>&lt;s0&gt;Loop:&lt;/s0&gt; When executing the loop related to the Group processing kind with many groups that was configured to the node for which statistics was calculated by the input data set (for example, &lt;a1&gt;Eliminate outliers
 &lt;/a1&gt;), workflow was locked by the mask with "Loading" text for a long time.</seg>
       </tuv>
     </tu>
@@ -4657,8 +4657,8 @@
       <tuv lang="ru">
         <seg>&lt;s0&gt;Экспорт в LGD-файл:&lt;/s0&gt; Исправлена ошибка "Access violation", которая возникала, при активации узла, во входном порту которого удалены все поля, кроме поля переменного типа (или поле переменного типа перемещено на другую позицию в списке).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240301T085032Z" creationid="Марианна" creationdate="20240301T085032Z">
-        <seg>&lt;s0&gt;Export to LGD file:&lt;/s0&gt; "Access violation" error was corrected. It occurred when activating the node in the input port of which all fields were deleted with the exception of the field related to the variable type (or the field related to the variable type was moved to another position in the list).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T111734Z" creationid="Марианна" creationdate="20240301T085032Z">
+        <seg>&lt;s0&gt;Export to LGD file:&lt;/s0&gt; "Access violation" error was corrected. It occurred when activating the node in the input port of which all fields were deleted with the exception of the field related to the variant type (or the field related to the variant type was moved to another position in the list).</seg>
       </tuv>
     </tu>
     <tu>
@@ -6859,8 +6859,8 @@
       <tuv lang="ru">
         <seg>А при выполнении аналогичного кода внутри процесса Loginom, пользователь получал сообщение: "LoginomError: Преобразование переданного объекта Python в значение переменного типа не поддерживается".</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240317T102653Z" creationid="Марианна" creationdate="20240317T102653Z">
-        <seg>When executing the similar code inside the Loginom process, the user received the following message: "LoginomError: Transformation of the passed Python object into the variable type value is not supported".</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T111525Z" creationid="Марианна" creationdate="20240317T102653Z">
+        <seg>When executing the similar code inside the Loginom process, the user received the following message: "LoginomError: Transformation of the passed Python object into the variant type value is not supported".</seg>
       </tuv>
     </tu>
     <tu>
@@ -9795,8 +9795,8 @@
       <tuv lang="ru">
         <seg>Изменения коснулись &lt;e1&gt;Быстрого просмотра&lt;/e1&gt;, предпросмотров в компонентах импорта, &lt;e2&gt;Калькулятор&lt;/e2&gt; и &lt;e3&gt;Фильтр строк&lt;/e3&gt;, а также всех редакторов значений для типов данных Дата/Время и Переменный (настройка переменных, компоненты &lt;e4&gt;Фильтр строк&lt;/e4&gt;, &lt;e5&gt;Замена&lt;/e5&gt; и др.) (#9715).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240319T080437Z" creationid="Марианна" creationdate="20240319T080437Z">
-        <seg>Changes affected the &lt;e1&gt;Quick view&lt;/e1&gt;, previews in the import components, &lt;e2&gt;Calculator&lt;/e2&gt; and &lt;e3&gt;Row filter&lt;/e3&gt; and also all editors of values for the Date/Time and Variable data types (configuration of variables, &lt;e4&gt;Row filter&lt;/e4&gt;, &lt;e5&gt;Replace&lt;/e5&gt; components, etc.) (#9715).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T113534Z" creationid="Марианна" creationdate="20240319T080437Z">
+        <seg>Changes affected the &lt;e1&gt;Quick view&lt;/e1&gt;, previews in the import components, &lt;e2&gt;Calculator&lt;/e2&gt; and &lt;e3&gt;Row filter&lt;/e3&gt; and also all editors of values for the Date/Time and Variant data types (configuration of variables, &lt;e4&gt;Row filter&lt;/e4&gt;, &lt;e5&gt;Replace&lt;/e5&gt; components, etc.) (#9715).</seg>
       </tuv>
     </tu>
     <tu>
@@ -12660,8 +12660,8 @@
       <tuv lang="ru">
         <seg>После этого последнее добавленное в область измерений поле отскакивало в список полей, но при этом выглядело, как поле которое находится в области измерений (выделялось жирным шрифтом).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240318T073320Z" creationid="Марианна" creationdate="20240318T073320Z">
-        <seg>Then the last field added to the dimension area moved to the list of fields but in this case it looked like as the filed that was located in the area of dimensions (it was highlighted in bold).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T112852Z" creationid="Марианна" creationdate="20240318T073320Z">
+        <seg>Then the last field added to the dimension area moved to the list of fields but in this case it looked like as the field that was located in the area of dimensions (it was highlighted in bold).</seg>
       </tuv>
     </tu>
     <tu>
@@ -13333,8 +13333,8 @@
       <tuv lang="ru">
         <seg>Приложение при этом оставалось работоспособным, можно было перейти к другому разделу (через адресную строку или меню), после чего блокировка workflow исчезала.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240319T080938Z" creationid="Марианна" creationdate="20240319T080752Z">
-        <seg>The application remain operational, It was possible to go to another section (using the address line or menu). Then locking of workflows disappeared.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T113641Z" creationid="Марианна" creationdate="20240319T080752Z">
+        <seg>The application remained operational. It was possible to go to another section (using the address line or menu). Then locking of workflows disappeared.</seg>
       </tuv>
     </tu>
     <tu>
@@ -13965,8 +13965,8 @@
       <tuv lang="ru">
         <seg>Ранее, можно было на выходном порту связывать поле целого типа с вещественным, а поле переменного типа с полями других типов, в результате чего при активации узла возникала ошибка «Смена типа столбца в Импорте LGD не поддерживается» (#10122).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240311T145506Z" creationid="Марианна" creationdate="20240311T145506Z">
-        <seg>Previously, it was possible to connect the field related to the integer type with the real one at the output port, and the field related to the variable type with the fields related to other types that caused the following error when activating the node: "Change of column type is not supported in LGD Import" (#10122).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T111815Z" creationid="Марианна" creationdate="20240311T145506Z">
+        <seg>Previously, it was possible to connect the field related to the integer type with the real one at the output port, and the field related to the variant type with the fields related to other types that caused the following error when activating the node: "Change of column type is not supported in LGD Import" (#10122).</seg>
       </tuv>
     </tu>
     <tu>
