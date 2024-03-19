@@ -3006,6 +3006,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Workflow:&lt;/s0&gt; Реализовано сохранение позиций и размера блока комментария к узлу при его перемещении, изменении размеров, раскрытии и закрытии, а также при сохранении пакета (#335).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T093251Z" creationid="Марианна" creationdate="20240319T093251Z">
+        <seg>&lt;s0&gt;Workflow:&lt;/s0&gt; Positions and size of the node comment block are saved in the case of its moving, size changing, opening and closing, and also when saving the package (#335).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Автосохранение пакетов:&lt;/s0&gt; пользователям, не имеющих права на редактирование пакетов, была доступна настройка автосохранения пакетов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220425T153709Z" creationid="Марианна" creationdate="20220425T153709Z">
