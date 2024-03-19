@@ -8113,6 +8113,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Внесли доработки, чтобы преобразование вещественных десятичных числе в строки производилось с меньшими потерями точности.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T085407Z" creationid="Марианна" creationdate="20240319T085407Z">
+        <seg>Improvements were made to provide transformation of the real decimal numbers to rows with less accuracy loss.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Внесли исправления (#10069).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240228T194156Z" creationid="Марианна" creationdate="20240228T194156Z">
