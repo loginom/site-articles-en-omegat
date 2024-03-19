@@ -4497,8 +4497,8 @@
       <tuv lang="ru">
         <seg>&lt;s0&gt;Экспорт в Excel-файл:&lt;/s0&gt; Исправили ошибку "Имя листа excel не может быть длиннее 31 символа", которая возникала в мастере настройки экспорта в Excel, в случае, если в поле «Имя листа» была строка длиннее 17 символов (#9665).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240319T081644Z" creationid="Марианна" creationdate="20240319T081644Z">
-        <seg>&lt;s0&gt;Export to Excel file:&lt;/s0&gt; The following error was corrected: "Имя листа excel не может быть длиннее 31 символа". It occurred in the export to Excel wizard if the row length was more than 17 characters in the "Sheet name" field (#9665).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T081828Z" creationid="Марианна" creationdate="20240319T081644Z">
+        <seg>&lt;s0&gt;Export to Excel file:&lt;/s0&gt; The following error was corrected: "Excel sheet name cannot be longer than 31 characters". It occurred in the export to Excel wizard if the row was longer than 17 characters in the "Sheet name" field (#9665).</seg>
       </tuv>
     </tu>
     <tu>
