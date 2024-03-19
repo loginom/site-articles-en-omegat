@@ -9753,6 +9753,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Изменения в работе Loginom Server</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T114620Z" creationid="Марианна" creationdate="20240319T114620Z">
+        <seg>Changes in Loginom Server</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Изменения в разделе Администрирование</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220224T064926Z" creationid="Марианна" creationdate="20220224T064926Z">
@@ -11097,6 +11105,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Обновленный менеджер Файлового хранилища</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T114741Z" creationid="Марианна" creationdate="20240319T114741Z">
+        <seg>Updated File Storage Manager</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Обработка не запускалась (#8885).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220425T161309Z" creationid="Марианна" creationdate="20220425T161309Z">
@@ -12294,6 +12310,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240218T183920Z" creationid="Марианна" creationdate="20240218T183920Z">
         <seg>The same message format as for logging to file is used by default.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>По умолчанию контрольная сумма проверяется (флаг установлен).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T114706Z" creationid="Марианна" creationdate="20240319T114706Z">
+        <seg>By default, the control sum is checked (the checkbox is selected).</seg>
       </tuv>
     </tu>
     <tu>
