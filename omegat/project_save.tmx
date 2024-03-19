@@ -9344,6 +9344,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Затем удалить Package1.lgp, а Package2.lgp переименовать в Package1.lgp и выполнить через Loginom Integrator (#9584).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T074359Z" creationid="Марианна" creationdate="20240319T074359Z">
+        <seg>Then Package1.lgp was deleted and Package2.lgp was renamed to Package1.lgp and it was executed using Loginom Integrator (#9584).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Затронутые параметры: «Кодовая страница» для баз данных &lt;e2&gt;Interbase/Firebird&lt;/e2&gt; или &lt;e3&gt;MS SQL&lt;/e3&gt;, а также «Зашифрованная БД» для &lt;e4&gt;SQLite&lt;/e4&gt; (#8759).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211229T110905Z" creationid="Марианна" creationdate="20211229T110905Z">
