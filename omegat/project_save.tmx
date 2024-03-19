@@ -4254,6 +4254,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Приложение:&lt;/s0&gt; Преобразование некоторых вещественных чисел в строки происходит с потерей точности.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T084903Z" creationid="Марианна" creationdate="20240319T084903Z">
+        <seg>&lt;s0&gt;Application:&lt;/s0&gt; Transformation of some real numbers to rows is performed with accuracy loss.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Приложение:&lt;/s0&gt; Сообщение об отсутствии компонента в текущей редакции Loginom сделано более информативным (например, &lt;a1&gt;SOAP-запрос&lt;/a1&gt; недоступен в редакциях Loginom CE и Loginom Team).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230314T160705Z" creationid="Марианна" creationdate="20230314T160705Z">
@@ -15447,6 +15455,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220425T202344Z" creationid="Марианна" creationdate="20220425T202344Z">
         <seg>It will prevent occurrence of more serious errors at the next stages.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Это связано с особенностями хранения дробных десятичных чисел в двоичной системе счисления.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T085025Z" creationid="Марианна" creationdate="20240319T085025Z">
+        <seg>It is connected with peculiarities of the fractional decimal numbers in the binary number system.</seg>
       </tuv>
     </tu>
     <tu>
