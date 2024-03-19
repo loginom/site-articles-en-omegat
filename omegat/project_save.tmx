@@ -9233,6 +9233,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если внутри строки обнаружено нечетное число кавычек или других ограничителей строк, строки будут считываться дальше до нахождения парной кавычки, и будут соединены в одну.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T092705Z" creationid="Марианна" creationdate="20240319T092705Z">
+        <seg>If the odd number of quotation marks or other line terminators is detected inside the rowm the rows will be further read until the matching quotation mark is found, and they will be combined into one .</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если выбрать опцию «Выполнение узла и Цикл», то будет доступно выполнение компонента или выполнение в цикле.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220227T091347Z" creationid="Марианна" creationdate="20220227T091325Z">
