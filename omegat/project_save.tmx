@@ -3424,8 +3424,8 @@
       <tuv lang="ru">
         <seg>&lt;s0&gt;Зашифрованный пакет:&lt;/s0&gt; В случае, если возникали проблемы с расшифровкой зашифрованного пакета, пользователь получал сообщение с текстом: "Неверный пароль".</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240319T090424Z" creationid="Марианна" creationdate="20240319T090424Z">
-        <seg>&lt;s0&gt;Encoded package:&lt;/s0&gt; В случае, если возникали проблемы с расшифровкой зашифрованного пакета, пользователь получал сообщение с текстом: "Неверный пароль".</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T090701Z" creationid="Марианна" creationdate="20240319T090424Z">
+        <seg>&lt;s0&gt;Encoded package:&lt;/s0&gt; If there are problems with decryption of the encoded package, the user can get the following message: "Invalid password".</seg>
       </tuv>
     </tu>
     <tu>
