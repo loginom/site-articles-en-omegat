@@ -4721,8 +4721,8 @@
       <tuv lang="ru">
         <seg>&lt;s0&gt;Элемент Фильтр/Поиск:&lt;/s0&gt; При выполнении поиска с помощью элемента Фильтр/Поиск пропускаются пустые ячейки (ячейки, содержащие только неразрывный пробел).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240319T094240Z" creationid="Марианна" creationdate="20240319T094240Z">
-        <seg>&lt;s0&gt;Filter/Search element:&lt;/s0&gt; When searchinh using Filter/Search element, empty cells (the cells that contain only nonbreaking space are missed).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T094359Z" creationid="Марианна" creationdate="20240319T094240Z">
+        <seg>&lt;s0&gt;Filter/Search element:&lt;/s0&gt; When searching using Filter/Search element, empty cells (the cells that contain only nonbreaking space) are skipped.</seg>
       </tuv>
     </tu>
     <tu>
