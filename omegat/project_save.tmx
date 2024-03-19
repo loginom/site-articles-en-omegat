@@ -632,8 +632,8 @@
       <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Loginom Server:&lt;/s1&gt;&lt;/a0&gt; Исправлена ошибка Access violation, которая возникала при открытии зашифрованного пакета на Linux версии Loginom, развернутой на машине с устаревшим процессором без поддержки AES-NI (#9640).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240319T090432Z" creationid="Марианна" creationdate="20230314T122446Z">
-        <seg>&lt;a0&gt;&lt;s1&gt;Loginom Server:&lt;/s1&gt;&lt;/a0&gt; Access violation error was corrected. It occurred when opening encoded package in the Linux Loginom version using the computer with the out-dated processor without AES-NI support (#9640).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T100550Z" creationid="Марианна" creationdate="20230314T122446Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Loginom Server:&lt;/s1&gt;&lt;/a0&gt; Access violation error was corrected. It occurred when opening encrypted package in the Linux Loginom version using the computer with the out-dated processor without AES-NI support (#9640).</seg>
       </tuv>
     </tu>
     <tu>
@@ -9579,8 +9579,8 @@
       <tuv lang="ru">
         <seg>Заменили сообщение на более информативное: "Текущая версия приложения не может расшифровать пакет...: неподдерживаемый способ шифрования пакета" (#7834).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240319T091031Z" creationid="Марианна" creationdate="20240319T091031Z">
-        <seg>The message with replaced with the one that is more informative: "The current application version cannot decrypt package...: unsupported method of package encoding" (#7834).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T100655Z" creationid="Марианна" creationdate="20240319T091031Z">
+        <seg>The message was replaced with the following more informative message: "The current application version cannot decrypt package...: unsupported method of package encryption" (#7834).</seg>
       </tuv>
     </tu>
     <tu>
@@ -9611,8 +9611,8 @@
       <tuv lang="ru">
         <seg>Затронутые параметры: «Кодовая страница» для баз данных &lt;e2&gt;Interbase/Firebird&lt;/e2&gt; или &lt;e3&gt;MS SQL&lt;/e3&gt;, а также «Зашифрованная БД» для &lt;e4&gt;SQLite&lt;/e4&gt; (#8759).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20211229T110905Z" creationid="Марианна" creationdate="20211229T110905Z">
-        <seg>Impacted parameters: "Codepage" for &lt;e2&gt;Interbase/Firebird&lt;/e2&gt; or &lt;e3&gt;MS SQL&lt;/e3&gt; databases and also "Encoded DB" for &lt;e4&gt;SQLite&lt;/e4&gt; (#8759).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T100536Z" creationid="Марианна" creationdate="20211229T110905Z">
+        <seg>Impacted parameters: "Codepage" for &lt;e2&gt;Interbase/Firebird&lt;/e2&gt; or &lt;e3&gt;MS SQL&lt;/e3&gt; databases and also "Encrypted DB" for &lt;e4&gt;SQLite&lt;/e4&gt; (#8759).</seg>
       </tuv>
     </tu>
     <tu>
