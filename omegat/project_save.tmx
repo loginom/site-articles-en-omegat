@@ -4719,6 +4719,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Элемент Фильтр/Поиск:&lt;/s0&gt; При выполнении поиска с помощью элемента Фильтр/Поиск пропускаются пустые ячейки (ячейки, содержащие только неразрывный пробел).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T094240Z" creationid="Марианна" creationdate="20240319T094240Z">
+        <seg>&lt;s0&gt;Filter/Search element:&lt;/s0&gt; When searchinh using Filter/Search element, empty cells (the cells that contain only nonbreaking space are missed).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Элементы &lt;a1&gt;пользовательского интерфейса:&lt;/a1&gt;&lt;/s0&gt; при скроле (прокрутке) таблиц, содержащих список полей, а также в визуализаторе Статистика, если отображалось большое количество значений, то могло наблюдаться «дергание» или «сопротивление прокрутке» (#6288, #6700).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211229T121840Z" creationid="Марианна" creationdate="20211229T121723Z">
