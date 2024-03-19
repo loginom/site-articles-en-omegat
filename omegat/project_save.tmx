@@ -3302,6 +3302,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Визуализатор Таблица:&lt;/s0&gt; Оптимизирована загрузка данных в визуализаторе после нажатии кнопки «Отмена» в окне &lt;e1&gt;Форматирование&lt;/e1&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T083351Z" creationid="Марианна" creationdate="20240319T083351Z">
+        <seg>&lt;s0&gt;Table visualizer&lt;/s0&gt; Data loading in the visualizer after pressing on "Cancel" button in the &lt;e1&gt;Formatting&lt;/e1&gt; window was optimized.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Визуализатор Таблица:&lt;/s0&gt; Убрали лишнюю подготовку данных при повторной активации &lt;e1&gt;Таблицы&lt;/e1&gt;, деактивированной во время сортировки или фильтрации (#9702).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240318T080734Z" creationid="Марианна" creationdate="20240318T080734Z">
