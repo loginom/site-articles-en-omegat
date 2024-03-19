@@ -2662,6 +2662,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;e0&gt;Мода&lt;/e0&gt;, который доступен для всех видов и типов данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T115904Z" creationid="Марианна" creationdate="20240319T115904Z">
+        <seg>&lt;e0&gt;Mode&lt;/e0&gt; that is available for all data kinds and types.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;e0&gt;Статистика&lt;/e0&gt;, в котором идет расчет порядковых статистик и уникальных значений, запущенный через команду на панели инструментов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240319T113358Z" creationid="Марианна" creationdate="20240318T081607Z">
@@ -7933,6 +7941,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240219T121234Z" creationid="Марианна" creationdate="20240219T121234Z">
         <seg>When it comes to xlsx format, the whole file is downloaded to memory that is why it is required to pay attention to size of such files.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В случае, если мод несколько, будет выбрано наименьшее значение:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T115938Z" creationid="Марианна" creationdate="20240319T115938Z">
+        <seg>If there are several modes, the minimum value will be selected:</seg>
       </tuv>
     </tu>
     <tu>
