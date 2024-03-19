@@ -3326,6 +3326,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Визуализатор Куб:&lt;/s0&gt; Сокращено время перестройки &lt;e1&gt;Куба&lt;/e1&gt;, убрана задержка при добавлении/удалении измерения или факта в режиме «Приостановить автовычисление», кэширование фактов стало избирательным (неиспользуемые факты не кэшируются) (#6763, #6816, #7139).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T095623Z" creationid="Марианна" creationdate="20240319T095623Z">
+        <seg>&lt;s0&gt;Cube visualizer:&lt;/s0&gt; The &lt;e1&gt;Cube&lt;/e1&gt; reconstruction time was reduced, delay when adding/deleting dimension or measure in "Defer layout update" mode was removed, caching of measures became selective(unused measures are not cached) (#6763, #6816, #7139).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Визуализатор Статистика:&lt;/s0&gt; Исправлена ошибка в алгоритме расчета медианы, верхнего и нижнего квартилей.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240317T112022Z" creationid="Марианна" creationdate="20240317T112022Z">
