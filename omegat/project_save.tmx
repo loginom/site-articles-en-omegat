@@ -4312,8 +4312,8 @@
       <tuv lang="ru">
         <seg>&lt;s0&gt;Приложение:&lt;/s0&gt; При задании значения переменной или поля переменного типа (например, при задании условия в &lt;a1&gt;Фильтре строк&lt;/a1&gt;) убрана возможность выбрать для этого значения переменный &lt;a2&gt;тип данных&lt;/a2&gt;, т.к. для задаваемого значения можно однозначно указать тип данных (#9357).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240319T094856Z" creationid="Марианна" creationdate="20240319T094758Z">
-        <seg>&lt;s0&gt;Application:&lt;/s0&gt; When setting the value of the variable or the variable field (for example, when setting condition in &lt;a1&gt;Row filter&lt;/a1&gt;), it became impossible to select the variable &lt;a2&gt;data type&lt;/a2&gt; for this value, because it was possible to specify data type for the set value explicitly (#9357).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T095017Z" creationid="Марианна" creationdate="20240319T094758Z">
+        <seg>&lt;s0&gt;Application:&lt;/s0&gt; When setting the value of the variable or the field related to the variable type (for example, when setting condition in &lt;a1&gt;Row filter&lt;/a1&gt;), it became impossible to select the variable &lt;a2&gt;data type&lt;/a2&gt; for this value, because it was possible to specify data type for the set value explicitly (#9357).</seg>
       </tuv>
     </tu>
     <tu>
