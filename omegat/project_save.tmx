@@ -11624,6 +11624,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ошибку можно было получить, например, если опубликовать пакет (Package1.lgp), после этого добавить опубликованной &lt;e1&gt;Подмодели&lt;/e1&gt; несколько выходных портов, в которые приходят данные, и сохранить пакет под другим именем через меню «Сохранить как» (Package2.lgp).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T074149Z" creationid="Марианна" creationdate="20240319T074149Z">
+        <seg>For example, the error could occur if the package (Package1.lgp) was published, and then several output ports to which data came were added for the published &lt;e1&gt;Supernode&lt;/e1&gt;, and then the package was saved under another name using "Save as" menu (Package2.lgp).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ошибку сохранения координат исправили (#10097).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240301T080035Z" creationid="Марианна" creationdate="20240301T080035Z">
