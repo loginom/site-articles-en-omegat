@@ -12899,6 +12899,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При нестандартном использовании функции с вещественными числами (стандартное использование — с целым аргументом), десятичный разделитель будет взят из настроек локали пакета или сервера Loginom.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T085719Z" creationid="Марианна" creationdate="20240319T085719Z">
+        <seg>In the case of the non-standard use of the function with the real numbers (the standard use - with the integer argument), the decimal separator will be taken from the package locale settings or from the Loginom server.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При обновлении до новой версии, если уже существует файл логов, то будет использована кодировка ANSI, соответствующая локали пользователя, из под которого запущен Loginom Server.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220309T074234Z" creationid="Марианна" creationdate="20220309T073103Z">
