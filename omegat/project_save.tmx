@@ -2110,6 +2110,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;a0&gt;&lt;s1&gt;Подключение набора XSD-схемы:&lt;/s1&gt;&lt;/a0&gt; Поддерживается импорт схем, в которых &lt;c2&gt;schemaLocation&lt;/c2&gt; и &lt;c3&gt;namespace&lt;/c3&gt; указаны на кириллице.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T084748Z" creationid="Марианна" creationdate="20240319T084748Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Connection of XSD schemas set:&lt;/s1&gt;&lt;/a0&gt; Import of the schemas is supported.&lt;c2&gt;schemaLocation&lt;/c2&gt; and &lt;c3&gt;namespace&lt;/c3&gt; in them are in Cyrillic characters.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Подключения:&lt;/s1&gt;&lt;/a0&gt; при нажатии на кнопку «Тестировать» на странице Подключения, тестирование подключения выполнялось даже в том случае, если в момент тестирования выбранное подключение было активно, что могло приводить к ошибкам, например «REST-запрос: Не выбрана конечная точка сервиса WSDL для осуществления запроса».</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211229T111617Z" creationid="Марианна" creationdate="20211229T111005Z">
