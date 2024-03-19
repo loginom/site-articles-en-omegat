@@ -9473,6 +9473,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Заменили сообщение на более информативное: "Текущая версия приложения не может расшифровать пакет...: неподдерживаемый способ шифрования пакета" (#7834).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T091031Z" creationid="Марианна" creationdate="20240319T091031Z">
+        <seg>The message with replaced with the one that is more informative: "The current application version cannot decrypt package...: unsupported method of package encoding" (#7834).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Запись осуществляется при уровне «Информация».</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240311T145800Z" creationid="Марианна" creationdate="20240311T145800Z">
