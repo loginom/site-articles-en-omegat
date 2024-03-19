@@ -2640,8 +2640,8 @@
       <tuv lang="ru">
         <seg>&lt;e0&gt;Replace&lt;/e0&gt; — убраны 2 запятые, по умолчанию параметры &lt;e1&gt;Заменять_все&lt;/e1&gt; и &lt;e2&gt;Игнорировать_регистр&lt;/e2&gt; не предлагается указывать.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240319T092134Z" creationid="Марианна" creationdate="20240319T092134Z">
-        <seg>&lt;e0&gt;Replace&lt;/e0&gt;: 2 commas were deleted, by default  &lt;e1&gt;Replace_all&lt;/e1&gt; and &lt;e2&gt;Ignore_case&lt;/e2&gt; parameters are not to be specified.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T092146Z" creationid="Марианна" creationdate="20240319T092134Z">
+        <seg>&lt;e0&gt;Replace&lt;/e0&gt;: 2 commas were deleted, by default  &lt;e1&gt;Replace_all&lt;/e1&gt; and &lt;e2&gt;Ignore_case&lt;/e2&gt; parameters were not to be specified.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7877,6 +7877,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240219T121234Z" creationid="Марианна" creationdate="20240219T121234Z">
         <seg>When it comes to xlsx format, the whole file is downloaded to memory that is why it is required to pay attention to size of such files.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В случае, если парную кавычку не удалось найти, работа импорта из текстового файла продолжится, а в общий лог будет записано предупреждение (#100).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T092402Z" creationid="Марианна" creationdate="20240319T092402Z">
+        <seg>If it is not possible to find the matching quotation mark, operation of import from text file will be continued and warning will be recorded in the shared log (#100).</seg>
       </tuv>
     </tu>
     <tu>
