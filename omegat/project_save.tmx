@@ -13699,6 +13699,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ранее после отмены действий в окне &lt;e2&gt;Форматирование&lt;/e2&gt; обновление &lt;e3&gt;Таблицы&lt;/e3&gt; происходило с задержкой (#8051).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T090043Z" creationid="Марианна" creationdate="20240319T090043Z">
+        <seg>Previously, after cancellation of actions in the &lt;e2&gt;Formatting&lt;/e2&gt; window, the &lt;e3&gt;Table&lt;/e3&gt; was updated with a delay (#8051).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ранее при выполнении могла изменяться модель начальных классов, а результат выполнения мог отличаться от ожидаемого.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220307T095709Z" creationid="Марианна" creationdate="20220307T095709Z">
