@@ -15907,6 +15907,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>для логического типа данных — False;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T120002Z" creationid="Марианна" creationdate="20240319T120002Z">
+        <seg>for the logical data type — False;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>для свойств, соответствующих портам узла;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240313T121719Z" creationid="Марианна" creationdate="20240313T121719Z">
