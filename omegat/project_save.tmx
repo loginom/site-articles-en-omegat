@@ -2638,6 +2638,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;e0&gt;Replace&lt;/e0&gt; — убраны 2 запятые, по умолчанию параметры &lt;e1&gt;Заменять_все&lt;/e1&gt; и &lt;e2&gt;Игнорировать_регистр&lt;/e2&gt; не предлагается указывать.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T092134Z" creationid="Марианна" creationdate="20240319T092134Z">
+        <seg>&lt;e0&gt;Replace&lt;/e0&gt;: 2 commas were deleted, by default  &lt;e1&gt;Replace_all&lt;/e1&gt; and &lt;e2&gt;Ignore_case&lt;/e2&gt; parameters are not to be specified.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;e0&gt;Round&lt;/e0&gt; — убрана запятая, отделяющая последний необязательный параметр &lt;e1&gt;Аргумент2&lt;/e1&gt; (количество цифр после запятой), т.к. он используется нечасто.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240319T091928Z" creationid="Марианна" creationdate="20240319T091906Z">
