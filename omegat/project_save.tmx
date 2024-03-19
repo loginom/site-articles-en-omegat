@@ -8827,8 +8827,8 @@
       <tuv lang="ru">
         <seg>Для этого в контекстное меню добавлена соответствующая команда.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240319T115747Z" creationid="Марианна" creationdate="20240319T115747Z">
-        <seg>Corresponding command was added to the contet menu for this purpose.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T115805Z" creationid="Марианна" creationdate="20240319T115747Z">
+        <seg>Corresponding command was added to the context menu for this purpose.</seg>
       </tuv>
     </tu>
     <tu>
