@@ -9657,6 +9657,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Изменения коснулись работы компонентов &lt;a1&gt;Экспорт в текстовый файл&lt;/a1&gt;, &lt;e2&gt;Экспорт в Excel&lt;/e2&gt;, &lt;e3&gt;Калькулятор&lt;/e3&gt; и др.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T085145Z" creationid="Марианна" creationdate="20240319T085145Z">
+        <seg>The changes affected the operation of the following components: &lt;a1&gt;Export to text file&lt;/a1&gt;, &lt;e2&gt;Export to Excel&lt;/e2&gt;, &lt;e3&gt;Calculator&lt;/e3&gt;, etc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Изменения коснулись &lt;e1&gt;Быстрого просмотра&lt;/e1&gt;, предпросмотров в компонентах импорта, &lt;e2&gt;Калькулятор&lt;/e2&gt; и &lt;e3&gt;Фильтр строк&lt;/e3&gt;, а также всех редакторов значений для типов данных Дата/Время и Переменный (настройка переменных, компоненты &lt;e4&gt;Фильтр строк&lt;/e4&gt;, &lt;e5&gt;Замена&lt;/e5&gt; и др.) (#9715).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240319T080437Z" creationid="Марианна" creationdate="20240319T080437Z">
@@ -15461,8 +15469,8 @@
       <tuv lang="ru">
         <seg>Это связано с особенностями хранения дробных десятичных чисел в двоичной системе счисления.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240319T085025Z" creationid="Марианна" creationdate="20240319T085025Z">
-        <seg>It is connected with peculiarities of the fractional decimal numbers in the binary number system.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T085048Z" creationid="Марианна" creationdate="20240319T085025Z">
+        <seg>It is connected with peculiarities of the fractional decimal numbers holding in the binary number system.</seg>
       </tuv>
     </tu>
     <tu>
