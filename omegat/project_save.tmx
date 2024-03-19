@@ -7987,8 +7987,8 @@
       <tuv lang="ru">
         <seg>Вне зависимости от того, какой вариант настройки «Наличие временной зоны» выбран, всегда работало, как при варианте «Не указывать».</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240319T082205Z" creationid="Марианна" creationdate="20240319T082047Z">
-        <seg>According to the selected configuration option of "Specify time zone" setting, operation was "Do not specify" option was always.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T082409Z" creationid="Марианна" creationdate="20240319T082047Z">
+        <seg>According to the selected configuration option of "Specify time zone" setting, operation was performed as if "Do not specify" option was selected.</seg>
       </tuv>
     </tu>
     <tu>
