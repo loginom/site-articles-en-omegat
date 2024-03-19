@@ -7753,6 +7753,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В разделе &lt;e0&gt;Администрирование&lt;/e0&gt; на странице &lt;e1&gt;Параметры&lt;/e1&gt; появились новые параметры:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T115648Z" creationid="Марианна" creationdate="20240319T115648Z">
+        <seg>In the &lt;e0&gt;Administration&lt;/e0&gt; section on &lt;e1&gt;Parameters&lt;/e1&gt; page new options appeared:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В рамках каждого пакета компоненты сортируются в алфавитном порядке.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220227T090912Z" creationid="Марианна" creationdate="20220227T090912Z">
