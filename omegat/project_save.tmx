@@ -4495,6 +4495,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Экспорт в Excel-файл:&lt;/s0&gt; Исправили ошибку "Имя листа excel не может быть длиннее 31 символа", которая возникала в мастере настройки экспорта в Excel, в случае, если в поле «Имя листа» была строка длиннее 17 символов (#9665).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T081644Z" creationid="Марианна" creationdate="20240319T081644Z">
+        <seg>&lt;s0&gt;Export to Excel file:&lt;/s0&gt; The following error was corrected: "Имя листа excel не может быть длиннее 31 символа". It occurred in the export to Excel wizard if the row length was more than 17 characters in the "Sheet name" field (#9665).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Экспорт в Kafka:&lt;/s0&gt; Узел зависал при попытке отправить более 100 000 сообщений.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240227T074714Z" creationid="Марианна" creationdate="20240227T074714Z">
@@ -13117,8 +13125,8 @@
       <tuv lang="ru">
         <seg>Проблема наблюдалась в пакетах, подготовленных в более ранних версиях и открытых в Loginom 7.0.1.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240319T081450Z" creationid="Марианна" creationdate="20240319T081450Z">
-        <seg>The problem was observed in the packages prepared in the eralier versions and opened in Loginom 7.0.1.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T081515Z" creationid="Марианна" creationdate="20240319T081450Z">
+        <seg>The problem was observed in the packages prepared in the earlier versions and opened in Loginom 7.0.1.</seg>
       </tuv>
     </tu>
     <tu>
