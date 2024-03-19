@@ -2488,8 +2488,8 @@
       <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Экспорт в XML-файл:&lt;/s1&gt;&lt;/a0&gt; Не работала настройка «Наличие временной зоны».</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240319T081849Z" creationid="Марианна" creationdate="20240319T081849Z">
-        <seg>&lt;a0&gt;&lt;s1&gt;Export to XML file:&lt;/s1&gt;&lt;/a0&gt; Не работала настройка «Наличие временной зоны».</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T082053Z" creationid="Марианна" creationdate="20240319T081849Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Export to XML file:&lt;/s1&gt;&lt;/a0&gt; "Specify time zone" setting was not operable.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7981,6 +7981,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240227T064748Z" creationid="Марианна" creationdate="20240227T064748Z">
         <seg>&lt;a0&gt;ICU&lt;/a0&gt; library — International Components for Unicode is used instead of built-in Windows functions. It provides the same results of work with rows on different platforms.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Вне зависимости от того, какой вариант настройки «Наличие временной зоны» выбран, всегда работало, как при варианте «Не указывать».</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T082205Z" creationid="Марианна" creationdate="20240319T082047Z">
+        <seg>According to the selected configuration option of "Specify time zone" setting, operation was "Do not specify" option was always.</seg>
       </tuv>
     </tu>
     <tu>
