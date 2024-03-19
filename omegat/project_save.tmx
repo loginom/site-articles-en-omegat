@@ -10881,6 +10881,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Настольные редакции Loginom теперь доступны и под Linux.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T115433Z" creationid="Марианна" creationdate="20240319T115433Z">
+        <seg>Now the desktop Loginom editions are also available for Linux.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Настольные редакции под Linux</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240228T193438Z" creationid="Марианна" creationdate="20240228T193438Z">
@@ -15671,6 +15679,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220304T192220Z" creationid="Марианна" creationdate="20220304T192220Z">
         <seg>It can be done using the context menu or the standard hotkeys (Ctrl+x, Ctrl+c, Ctrl+v for Windows OS).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Это можно сделать через контекстное меню окна.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T115418Z" creationid="Марианна" creationdate="20240319T115418Z">
+        <seg>It can be done using the context menu of the window.</seg>
       </tuv>
     </tu>
     <tu>
