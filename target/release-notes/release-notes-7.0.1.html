@@ -10,7 +10,7 @@
 
 <p><strong>Loginom Integrator:</strong>&nbsp;If the package was published, Integrator Swagger UI page was opened using the host name or&nbsp;<code>localhost</code>, and then Integrator Swagger UI page was opened using ip address, the following error was displayed on Swagger UI page: "Fetch error Internal Server Error /lgi/openapi/PackageName.json". The error was corrected (#9617).</p>
 
-<p><a href="https://help.loginom.ru/adminguide/server/" target="_blank"><strong>Loginom Server:</strong></a>&nbsp;Access violation error was corrected. It occurred when opening encoded package in the Linux Loginom version using the computer with the out-dated processor without AES-NI support (#9640).</p>
+<p><a href="https://help.loginom.ru/adminguide/server/" target="_blank"><strong>Loginom Server:</strong></a>&nbsp;Access violation error was corrected. It occurred when opening encrypted package in the Linux Loginom version using the computer with the out-dated processor without AES-NI support (#9640).</p>
 
 <p><a href="https://help.loginom.ru/userguide/visualization/preview/quick-view.html" target="_blank"><strong>Quick view:</strong></a>&nbsp;If&nbsp;<em>Quick view</em>&nbsp;was initially opened in the floating window mode and then in was closed, whereas the node was deactivated, the column width was incorrectly calculated, and a user received data in the narrow columns when activating the node repeatedly and&nbsp;opening <em>Quick view</em>. The error was corrected (#9549).</p>
 
@@ -60,7 +60,7 @@
 
 <h2 id="повышение-информативности">UI/UX Improvements</h2>
 
-<p><strong>Replace:</strong>&nbsp;In&nbsp;<em>Replace</em> node wizard the output columns type cannot be explicitly defined in case of data type change for the Replace value if Replace others parameter is not set. That is why the field at the node output became variable instead of the specified type of output values. "Output values type cannot be definite without replacement of others" warning that is displayed in this case in Replace others field was replaced to the following warning that is more informative: "Output values will be variable unless others are replaced".</p>
+<p><strong>Replace:</strong>&nbsp;In&nbsp;<em>Replace</em> node wizard the output columns type cannot be explicitly defined in case of data type change for the Replace value if Replace others parameter is not set. That is why the field at the node output became variant instead of the specified type of output values. "Output values type cannot be definite without replacement of others" warning that is displayed in this case in Replace others field was replaced to the following warning that is more informative: "Output values will be related to the variant type unless others are replaced".</p>
 
 <p><a href="https://help.loginom.ru/userguide/workflow/batchlauncher.html" target="_blank"><strong>Batch processing:</strong></a>&nbsp;If BatchLauncher was started with the parameters but the obligatory <code>Package</code> parameter was not specified in this case, user will be informed about it in a message. If BatchLauncher is started without parameters, the utility usage guidelines will be displayed as before (#9626).</p>
 
@@ -70,7 +70,7 @@
 
 <p><strong>Coarse сlasses visualizer:</strong>&nbsp;It became possible to change width of the block with the list of fields (#9646).</p>
 
-<p><strong>Replace:</strong>&nbsp;When addding the new replacement to the internal replacement table for the string and variable fields,&nbsp;<code>&lt;Empty string&gt;</code> is used as the default value&nbsp;instead of null-value. Such approach simplifies inclusion of an empty string as the replacement value. Previously, for this purpose it was required to enter a space into the field and then it was deleted (#9586).</p>
+<p><strong>Replace:</strong>&nbsp;When addding the new replacement to the internal replacement table for the string and fields related to the variant type,&nbsp;<code>&lt;Empty string&gt;</code> is used as the default value&nbsp;instead of null-value. Such approach simplifies inclusion of an empty string as the replacement value. Previously, for this purpose it was required to enter a space into the field and then it was deleted (#9586).</p>
 
 <h2 id="прочие-изменения">Other Changes</h2>
 

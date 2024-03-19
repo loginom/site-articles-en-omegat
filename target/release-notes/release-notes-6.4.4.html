@@ -25,7 +25,7 @@
 
 <p><strong>Fields mapping settings:</strong>&nbsp;if "Back" button was pressed to return to the wizard page that was earlier missed by pressing on "Next anyway" button, "Next anyway" button was still displayed although it was to be changed (#8781).</p>
 
-<p><a href="https://help.loginom.ru/userguide/quick-start/database.html" target="_blank"><strong>Connection to Databases:</strong></a>&nbsp;initially configured connection parameters were not changed during the following reconfiguration. Impacted parameters: "Codepage" for <em>Interbase/Firebird</em>&nbsp;or&nbsp;<em>MS SQL</em> databases and also "Encoded DB" for&nbsp;<em>SQLite</em>&nbsp;(#8759).</p>
+<p><a href="https://help.loginom.ru/userguide/quick-start/database.html" target="_blank"><strong>Connection to Databases:</strong></a>&nbsp;initially configured connection parameters were not changed during the following reconfiguration. Impacted parameters: "Codepage" for <em>Interbase/Firebird</em>&nbsp;or&nbsp;<em>MS SQL</em> databases and also "Encrypted DB" for&nbsp;<em>SQLite</em>&nbsp;(#8759).</p>
 
 <p><a href="https://help.loginom.ru/userguide/integration/connections/" target="_blank"><strong>Connections:</strong></a>&nbsp;when pressing on "Test" button on the Connections page, the connections were tested even if the selected connection was active at the moment of testing that could cause errors, for example, "REST request: no WSDL service endpoint selected to execute the request". Now, if only active connections are selected on the connections page, "Test" button will be inactive. If there are both active and inactive connections among the selected connections, only inactive connections will be tested when pressing on the button (#8304).</p>
 

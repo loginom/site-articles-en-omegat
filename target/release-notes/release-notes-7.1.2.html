@@ -23,7 +23,7 @@
 
 <p><a href="https://help.loginom.ru/userguide/integration/import/database.html" target="_blank"><strong>Import from database:</strong></a> If the table list filter was configured in the node wizard, and then the table was selected from the filtered list, the following pop-up message could be received: "Table (view)... is prepared for work. Failed to select in the list because it does not match the filter". Error of behavior was corrected (#10226).</p>
 
-<p><a href="https://help.loginom.ru/userguide/processors/transformation/calc/" target="_blank"><strong>Calculator:</strong></a> <code>NOT</code> operator execution with the values related to the variable type (NOT VAR where VAR - any expression with the result related to the variable type) is allowed in the "Expression" mode of operation. Previously, <code>NULL</code> always returned as the value of such expression that wasn't right (#10303).</p>
+<p><a href="https://help.loginom.ru/userguide/processors/transformation/calc/" target="_blank"><strong>Calculator:</strong></a> <code>NOT</code> operator execution with the values related to the variant type (NOT VAR where VAR - any expression with the result related to the variant type) is allowed in the "Expression" mode of operation. Previously, <code>NULL</code> always returned as the value of such expression that wasn't right (#10303).</p>
 
 <p><strong>Calculator:</strong> Text in the expression code editor was pasted not to the current cursor position. The regression error was corrected (#10308).</p>
 
@@ -43,7 +43,7 @@
 
 <h2 id="улучшения">Improvements</h2>
 
-<p><a href="https://help.loginom.ru/userguide/integration/import/ldf.html" target="_blank"><strong>Import from LGD file:</strong></a> As <em>Import from LGD file</em> node does not support change of data types of the output fields, such option was disabled at the output port. Previously, it was possible to connect the field related to the integer type with the real one at the output port, and the field related to the variable type with the fields related to other types that caused the following error when activating the node: "Change of column type is not supported in LGD Import" (#10122).</p>
+<p><a href="https://help.loginom.ru/userguide/integration/import/ldf.html" target="_blank"><strong>Import from LGD file:</strong></a> As <em>Import from LGD file</em> node does not support change of data types of the output fields, such option was disabled at the output port. Previously, it was possible to connect the field related to the integer type with the real one at the output port, and the field related to the variant type with the fields related to other types that caused the following error when activating the node: "Change of column type is not supported in LGD Import" (#10122).</p>
 
 <p><strong>Logging:</strong> When locking/unlocking the user session via the main menu, corresponding message will be recorded in the log. Record is performed at the "Information" level. Previously, logging was performed only when the session was locked by idle timeout (#10276).</p>
 

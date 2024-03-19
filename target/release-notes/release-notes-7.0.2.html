@@ -14,7 +14,7 @@ There are many fixes in visualizers, import and export components in the new ver
 
 <p><a href="https://help.loginom.ru/userguide/processors/programming/python/" target="_blank"><strong>Python:</strong></a>&nbsp;When preparing the output table by pandas.DataFrame columns, the "Undefined" data kind was received whereas the data kind must be initialized according to the data type. The error was corrected (#9775).</p>
 
-<p><strong>Python:</strong>&nbsp;The values related to the integer type were incorrectly recorded in the output column related to the variable type when executing the code in a separate process. When executing the similar code inside the Loginom process, the user received the following message: "LoginomError: Transformation of the passed Python object into the variable type value is not supported". The errors were corrected (#9692, #9689).</p>
+<p><strong>Python:</strong>&nbsp;The values related to the integer type were incorrectly recorded in the output column related to the variant type when executing the code in a separate process. When executing the similar code inside the Loginom process, the user received the following message: "LoginomError: Transformation of the passed Python object into the variant type value is not supported". The errors were corrected (#9692, #9689).</p>
 
 <p><strong>Workflow:</strong>&nbsp;When hovering a cursor over the <a href="https://help.loginom.ru/userguide/workflow/note.html" target="_blank">Notes</a> selection element, it is enclosed in the frame (#9718).</p>
 
@@ -28,11 +28,11 @@ There are many fixes in visualizers, import and export components in the new ver
 
 <p><strong>Data Quality visualizer:</strong>&nbsp;Values of parameters were not updated when changing data set. The situation was rectified (#9227, #9680).</p>
 
-<p><a href="https://help.loginom.ru/userguide/visualization/binary-classification/" target="_blank"><strong>Binary сlassification assessment visualizer:</strong></a>&nbsp;Construction of NPV (Negative Predictive Value ) and OPR (Overall Precision Rate) profiles was corrected for borderline cases: for NPV when there are only "events", and for OPR when there are only "events" or only "non-events".</p>
+<p><a href="https://help.loginom.ru/userguide/visualization/binary-classification/" target="_blank"><strong>Binary сlassification assessment visualizer:</strong></a>&nbsp;Construction of NPV (Negative Predictive Value ) and OPR (Overall Precision Rate) profiles was corrected for borderline cases: for NPV when there were only "events", and for OPR when there were only "events" or only "non-events".</p>
 
 <p><a href="https://help.loginom.ru/userguide/visualization/cube/" target="_blank"><strong>Cube visualizer:</strong></a>&nbsp;Access violation error was corrected. It occurred when adding many fields to the area of dimensions after receiving "Too many dimensions selected" message and when trying to expand the dimension hereafter (#9238).</p>
 
-<p><strong>Cube visualizer:</strong>&nbsp;When many fields are sequentially added to the area of the &nbsp;<em>Cube</em>&nbsp;dimension, the user can receive the following message: "Too many dimensions selected". Then the last field added to the dimension area moved to the list of fields but in this case it looked like as the filed that was located in the area of dimensions (it was highlighted in bold). The erroneous cancellation of field dragging was fixed. The field remains in the dimension list after the following warning: "Too many dimensions selected" (#9655).</p>
+<p><strong>Cube visualizer:</strong>&nbsp;When many fields are sequentially added to the area of the &nbsp;<em>Cube</em>&nbsp;dimension, the user can receive the following message: "Too many dimensions selected". Then the last field added to the dimension area moved to the list of fields but in this case it looked like as the field that was located in the area of dimensions (it was highlighted in bold). The erroneous cancellation of field dragging was fixed. The field remains in the dimension list after the following warning: "Too many dimensions selected" (#9655).</p>
 
 <p><strong>Cube visualizer:</strong>&nbsp;When sorting in the&nbsp;<em>Cube</em>&nbsp;by "Percent by column" and "Percent by rows" views, in some cases order of cells could be incorrect. The situation was rectified (#9468).</p>
 
@@ -60,7 +60,7 @@ There are many fixes in visualizers, import and export components in the new ver
 
 <ul>
 	<li><em>Table</em> in which data filtering and sorting were started.</li>
-	<li><em>Statistics</em> in which calculation of the order statistics and unique values started using the toolbar command is performed.</li>
+	<li><em>Statistics</em> in which calculation of the order statistics and unique values started using the toolbar command was performed.</li>
 	<li><em>Chart</em> in which the new field was dragged to the area of chart construction (#5766).</li>
 </ul>
 
@@ -98,16 +98,16 @@ There are many fixes in visualizers, import and export components in the new ver
 
 <p><a href="https://help.loginom.ru/userguide/processors/datamining/neural-network-classification.html" target="_blank"><strong>Neural network (classification):</strong></a>&nbsp;Attempt to retrain the node in the repeatedly opened package with the configured neural network resulted in the following error message: "The validation data set must contain at least one row". But the validation set size in the wizard was equal to 0. Such problem could be faced when retraining the cloned <em>Neural network (classification)</em> node. Decrease of the validation set size after loading of the neural network configuration was corrected (#9739).</p>
 
-<p><a href="https://help.loginom.ru/userguide/integration/connections/list/msaccess.html" target="_blank"><strong>MS Access connection</strong></a>,&nbsp;<a href="https://help.loginom.ru/userguide/integration/connections/list/odbc.html" target="_blank"><strong>ODBC connection:</strong></a>&nbsp;Data loss was eliminated. It occurred when exporting to the database of the string parameters that contained Unicode characters, this data loss appeared in version 7.0.0 (#9669, #9668).</p>
+<p><a href="https://help.loginom.ru/userguide/integration/connections/list/msaccess.html" target="_blank"><strong>MS Access connection</strong></a>,&nbsp;<a href="https://help.loginom.ru/userguide/integration/connections/list/odbc.html" target="_blank"><strong>ODBC connection:</strong></a>&nbsp;Data loss was eliminated. It occurred when exporting the string parameters that contained Unicode characters to the database, this data loss appeared in version 7.0.0 (#9669, #9668).</p>
 
 <p><a href="https://help.loginom.ru/userguide/integration/connections/list/soap-service.html" target="_blank"><strong>SOAP service connection:</strong></a>&nbsp;The connections in which WSDL source was specified via HTTP protocol and WSDL file contained imports with the relative location of files didn't work:&nbsp;<code>&lt;xsd:import schemaLocation="path1/xsd0.xsd" namespace="..."/&gt;</code>. The error was corrected (#9768).</p>
 
 <p><strong>Supernode:</strong>&nbsp;Access violation error was corrected. It occurred when executing the package using Loginom Integrator if the metadata didn't match the current package version. For example, the error could occur if the package (Package1.lgp) was published, and then several output ports to which data came were added for the published&nbsp;<em>Supernode</em>, and then the package was saved under another name using "Save as" menu (Package2.lgp). Then Package1.lgp was deleted and Package2.lgp was renamed to Package1.lgp and it was executed using Loginom Integrator (#9584).</p>
 
-<p><strong>Application:</strong>&nbsp;Error in the function of date/time to row transformation function was corrected. Only time was displayed in the row for 30.12.1899 after introduced changes, and when transforming to OLE Automation Date, 0 is obtained in the integer part. Changes affected the&nbsp;<em>Quick view</em>, previews in the import components,&nbsp;<em>Calculator</em>&nbsp;and&nbsp;<em>Row filter</em> and also all editors of values for the Date/Time and Variable data types&nbsp;(configuration of variables, <em>Row filter</em>,&nbsp;<em>Replace</em> components, etc.) (#9715).</p>
+<p><strong>Application:</strong>&nbsp;Error in the function of date/time to row transformation function was corrected. Only time was displayed in the row for 30.12.1899 after introduced changes, and when transforming to OLE Automation Date, 0 is obtained in the integer part. Changes affected the&nbsp;<em>Quick view</em>, previews in the import components,&nbsp;<em>Calculator</em>&nbsp;and&nbsp;<em>Row filter</em> and also all editors of values for the Date/Time and Variant data types&nbsp;(configuration of variables, <em>Row filter</em>,&nbsp;<em>Replace</em> components, etc.) (#9715).</p>
 
-<p><strong>Loop:</strong>&nbsp;When executing the loop related to the Group processing kind with many groups that was configured to the node for which statistics is calcualted by the input data set (for example,&nbsp;<a href="https://help.loginom.ru/userguide/processors/preprocessing/eliminate-outliers.html" target="_blank">Eliminate outliers
-</a>), workflow was locked by the mask with "Loading" text for a long time. The mask remained on the workflow even when the loop completed its operation. The application remain operational, It was possible to go to another section (using the address line or menu). Then locking of workflows disappeared. The problem was solved. When executing the loop, workflow is not blocked (#9796).</p>
+<p><strong>Loop:</strong>&nbsp;When executing the loop related to the Group processing kind with many groups that was configured to the node for which statistics was calculated by the input data set (for example,&nbsp;<a href="https://help.loginom.ru/userguide/processors/preprocessing/eliminate-outliers.html" target="_blank">Eliminate outliers
+</a>), workflow was locked by the mask with "Loading" text for a long time. The mask remained on the workflow even when the loop completed its operation. The application remained operational. It was possible to go to another section (using the address line or menu). Then locking of workflows disappeared. The problem was solved. When executing the loop, workflow is not blocked (#9796).</p>
 
 <p><a href="https://help.loginom.ru/userguide/integration/export/excel.html" target="_blank"><strong>Export to Excel file:</strong></a>&nbsp;30.12.1899 and 31.12.1899 dates were exported to Excel in the form of the number with the integer part equal to 0. In case of further import of this data to Loginom, both dates were as follows: 31.12.1899. The error was corrected (#9763).</p>
 
@@ -133,7 +133,7 @@ There are many fixes in visualizers, import and export components in the new ver
 
 <p><strong>Visualizers:</strong>&nbsp;Large integers (exceeding&nbsp;<code>2^53-1</code>) are displayed without accuracy loss (#7953).</p>
 
-<p><strong>Encoded package:</strong>&nbsp;If there are problems with decryption of the encoded package, the user can get the following message: "Invalid password". The message with replaced with the one that is more informative: "The current application version cannot decrypt package...: unsupported method of package encoding" (#7834).</p>
+<p><strong>Encrypted package:</strong>&nbsp;If there are problems with decryption of the encrypted package, the user can get the following message: "Invalid password". The message was replaced with the following more informative message: "The current application version cannot decrypt package...: unsupported method of package encryption" (#7834).</p>
 
 <p><strong>Import from text file:</strong>&nbsp;Date parsing in ISO 8601 format with time offset is now supported. If only time is specified in the imported data (30.12.1899) with offset specified relative to UTC, offset in the application time zone is applied when transforming to the Date/Time type, and also the history of time conversion is taken into account (#9747).</p>
 
@@ -141,7 +141,7 @@ There are many fixes in visualizers, import and export components in the new ver
 
 <p><strong>Import from text file:</strong>&nbsp;Parsing of the dates in which the month is recorded both in the nominative, and in genetive cases is now supported. Date parsing algorithm was optimized. It had a positive effect on performance. In some cases dates are parsed by 10 times faster (#9627).</p>
 
-<p><a href="https://help.loginom.ru/userguide/processors/transformation/calc/" target="_blank"><strong>Calculator:</strong></a>&nbsp;"Template" of the following functions was simplified:&nbsp;<em>Find, Replace, Round</em>. It is set when thay are pasted to the&nbsp;<em>Calculator</em> expression:</p>
+<p><a href="https://help.loginom.ru/userguide/processors/transformation/calc/" target="_blank"><strong>Calculator:</strong></a>&nbsp;"Template" of the following functions was simplified:&nbsp;<em>Find, Replace, Round</em>. It is set when they are pasted to the&nbsp;<em>Calculator</em> expression:</p>
 
 <ul>
 	<li><em>Find</em>: the comma was deleted. It separated the last optional parameter <em>Order</em> because it was rarely used.</li>
@@ -159,7 +159,7 @@ There are many fixes in visualizers, import and export components in the new ver
 
 <p><strong>Application:</strong>&nbsp;Transformation of some real numbers to rows is performed with accuracy loss. It is connected with peculiarities of the fractional decimal numbers holding in the binary number system. Improvements were made to provide transformation of the real decimal numbers to rows with less accuracy loss. The changes affected the operation of the following components:&nbsp;<a href="https://help.loginom.ru/userguide/integration/export/txt-csv.html" target="_blank">Export to text file</a>,&nbsp;<em>Export to Excel</em>,&nbsp;<em>Calculator</em>, etc.</p>
 
-<p><strong>Application:</strong>&nbsp;When setting the value of the variable or the field related to the variable type (for example, when setting condition in <a href="https://help.loginom.ru/userguide/processors/transformation/row-filter/" target="_blank">Row filter</a>), it became impossible to select the variable <a href="https://help.loginom.ru/userguide/data/datatype.html" target="_blank">data type</a> for this value, because it was possible to specify data type for the set value explicitly (#9357).</p>
+<p><strong>Application:</strong>&nbsp;When setting the value of the variable or the field related to the variant type (for example, when setting condition in <a href="https://help.loginom.ru/userguide/processors/transformation/row-filter/" target="_blank">Row filter</a>), it became impossible to select the variant <a href="https://help.loginom.ru/userguide/data/datatype.html" target="_blank">data type</a> for this value, because it was possible to specify data type for the set value explicitly (#9357).</p>
 
 <p><strong>Export to XML file</strong>,&nbsp;<a href="https://help.loginom.ru/userguide/processors/integration/xml-generation.html" target="_blank"><strong>XML Generation</strong></a>,&nbsp;<a href="https://help.loginom.ru/userguide/processors/integration/soap-request.html" target="_blank"><strong>SOAP request:</strong></a>&nbsp;When transforming Date/Time to the XML row, not fixed time offset is used but the time offset with the historical time amendments taken into account, namely, summer/winter time conversions (#9755).</p>
 
