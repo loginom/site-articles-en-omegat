@@ -11121,6 +11121,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Оптимизирован алгоритм разбора дат, что положительно отразилось на производительности – в некоторых случаях даты разбираются в 10 раз быстрее (#9627).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T091248Z" creationid="Марианна" creationdate="20240319T091240Z">
+        <seg>Date parsing algorithm was optimized. It had a positive effect on performance. In some cases dates are parsed by 10 times faster (#9627).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Оптимизирован расход памяти (#9054).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220425T150520Z" creationid="Марианна" creationdate="20220425T150520Z">
