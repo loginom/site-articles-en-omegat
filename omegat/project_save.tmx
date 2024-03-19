@@ -7129,6 +7129,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В ClickHouse появилась поддержка типов DateTime64, IPv4, IPv6, LowCardinality и Bool.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T115256Z" creationid="Марианна" creationdate="20240319T115256Z">
+        <seg>DateTime64, IPv4, IPv6, LowCardinality and Bool are now supported in ClickHouse.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В JavaScript появилась поддержка Fetch API, особенно важного для работы с REST и JSON-запросами и для обращения к внешним веб-сервисам.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220304T163143Z" creationid="Марианна" creationdate="20220304T163040Z">
@@ -9505,6 +9513,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если элементов xsd:documentation несколько, то учитывается только 1-й элемент.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T115329Z" creationid="Марианна" creationdate="20240319T115329Z">
+        <seg>If there are several xsd:documentation elements, only the first element is taken into account.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Еще одно новшество — это гибкая настройка импорта данных из хранилища при помощи переменных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220304T150744Z" creationid="Марианна" creationdate="20220304T150719Z">
@@ -10997,6 +11013,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210320T221121Z" creationid="Марианна" creationdate="20210320T221121Z">
         <seg>It is not allowed to run the commands to work with GUI (graphical user interface, graphic user interface).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Необходимо нажать кнопку &lt;e0&gt;Активировать&lt;/e0&gt; в правом верхнем узлу мастера настройки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T115211Z" creationid="Марианна" creationdate="20240319T115211Z">
+        <seg>It is required to press on &lt;e0&gt;Activate&lt;/e0&gt; button in the right upper node of the wizard.</seg>
       </tuv>
     </tu>
     <tu>
