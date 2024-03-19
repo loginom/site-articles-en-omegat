@@ -7755,8 +7755,8 @@
       <tuv lang="ru">
         <seg>В разделе &lt;e0&gt;Администрирование&lt;/e0&gt; на странице &lt;e1&gt;Параметры&lt;/e1&gt; появились новые параметры:</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240319T115648Z" creationid="Марианна" creationdate="20240319T115648Z">
-        <seg>In the &lt;e0&gt;Administration&lt;/e0&gt; section on &lt;e1&gt;Parameters&lt;/e1&gt; page new options appeared:</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T115726Z" creationid="Марианна" creationdate="20240319T115648Z">
+        <seg>In the &lt;e0&gt;Administration&lt;/e0&gt; section on &lt;e1&gt;Parameters&lt;/e1&gt; page new parameters appeared:</seg>
       </tuv>
     </tu>
     <tu>
@@ -8821,6 +8821,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220426T100741Z" creationid="Марианна" creationdate="20220426T100741Z">
         <seg>Maximum possible count of coefficients will be included for the step-by-step methods with forward pass (Forward or Stepwise). Then the algorithm will stop or return according to its type.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для этого в контекстное меню добавлена соответствующая команда.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T115747Z" creationid="Марианна" creationdate="20240319T115747Z">
+        <seg>Corresponding command was added to the contet menu for this purpose.</seg>
       </tuv>
     </tu>
     <tu>
