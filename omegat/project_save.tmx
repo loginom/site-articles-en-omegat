@@ -3566,6 +3566,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Импорт из текстового файла:&lt;/s0&gt; Появилась поддержка разбора дат в формате ISO 8601 со смещением времени.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T083741Z" creationid="Марианна" creationdate="20240319T083741Z">
+        <seg>&lt;s0&gt;Import from text file:&lt;/s0&gt; Date parsing in ISO 8601 format with time offset is now supported.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Инспектор свойств:&lt;/s0&gt; если был открыт Инспектор свойств и в нем отображались параметры Подмодели, то после разворачивания этой Подмодели в Инспекторе свойств продолжали отображаться параметры уже не существующего узла (#8313).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210616T202823Z" creationid="Марианна" creationdate="20210616T202823Z">
@@ -13975,6 +13983,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220227T085351Z" creationid="Марианна" creationdate="20220227T085351Z">
         <seg>Summary of the Data Quality Visualizer</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Символы перевода строк, находящиеся внутри кавычек, войдут в итоговую строку.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T083857Z" creationid="Марианна" creationdate="20240319T083857Z">
+        <seg>Line break characters inside the quotation marks will be included into the total row.</seg>
       </tuv>
     </tu>
     <tu>
