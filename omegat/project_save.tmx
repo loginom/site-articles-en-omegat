@@ -9761,6 +9761,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Изменения в работе с базами данных</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T115025Z" creationid="Марианна" creationdate="20240319T115025Z">
+        <seg>Database Use Changes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Изменения в разделе Администрирование</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220224T064926Z" creationid="Марианна" creationdate="20220224T064926Z">
@@ -9813,6 +9821,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240313T120753Z" creationid="Марианна" creationdate="20240313T120753Z">
         <seg>Loginom system requirements changed for Linux.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Изменилось поведение мастера настройки импорта из базы данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T115059Z" creationid="Марианна" creationdate="20240319T115059Z">
+        <seg>Import from database wizard behavior changed.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12778,6 +12794,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Появилась возможность распаковать zip-архив.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T114918Z" creationid="Марианна" creationdate="20240319T114918Z">
+        <seg>It became possible to unzip zip archive.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Появилась возможность экспорта в Хранилище данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T200155Z" creationid="Марианна" creationdate="20210314T200155Z">
@@ -13215,6 +13239,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240301T074935Z" creationid="Марианна" creationdate="20240301T074935Z">
         <seg>When calculating the unique values count, different unique values could be counted as one.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При расчете моды пропущенные значения игнорируются.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T114957Z" creationid="Марианна" creationdate="20240319T114957Z">
+        <seg>When calculating the mode, null values are ignored.</seg>
       </tuv>
     </tu>
     <tu>
