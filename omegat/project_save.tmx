@@ -1752,8 +1752,8 @@
       <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Нейросеть (классификация):&lt;/s1&gt;&lt;/a0&gt; В повторно открытом пакете с настроенной нейросетью попытка переобучить узел приводила к появлению сообщения об ошибке: "В валидационном наборе данных должна быть как минимум одна строка".</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240319T081159Z" creationid="Марианна" creationdate="20240319T081159Z">
-        <seg>&lt;a0&gt;&lt;s1&gt;Нейросеть (классификация):&lt;/s1&gt;&lt;/a0&gt; Attempt to retrain the node in the repeatedly opened package with the configured neural network resulted in the following error message: "The validation data set must contain at least one row".</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T081246Z" creationid="Марианна" creationdate="20240319T081159Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;Neural network (classification):&lt;/s1&gt;&lt;/a0&gt; Attempt to retrain the node in the repeatedly opened package with the configured neural network resulted in the following error message: "The validation data set must contain at least one row".</seg>
       </tuv>
     </tu>
     <tu>
@@ -4483,6 +4483,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220426T105153Z" creationid="Марианна" creationdate="20220426T105153Z">
         <seg>&lt;s0&gt;Loop:&lt;/s0&gt; Incorrect value of the Loop variable for the 1st Loop iteration configured for import from database was used.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;s0&gt;Экспорт в Excel-файл:&lt;/s0&gt; В файле, который был создан в результате экспорта данных из Loginom в Excel, даты отображались некорректно (порядок дней и месяцев не соответствовал формату).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T081423Z" creationid="Марианна" creationdate="20240319T081423Z">
+        <seg>&lt;s0&gt;Export to Excel file:&lt;/s0&gt; Dates were incorrectly displayed in the file that was created in the result of data export from Loginom to Excel (the order of days and months didn't comply with the format).</seg>
       </tuv>
     </tu>
     <tu>
@@ -13103,6 +13111,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240305T092003Z" creationid="Марианна" creationdate="20240305T092003Z">
         <seg>The problem occurred if there were several users of one Linux computer with installed Loginom.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Проблема наблюдалась в пакетах, подготовленных в более ранних версиях и открытых в Loginom 7.0.1.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T081450Z" creationid="Марианна" creationdate="20240319T081450Z">
+        <seg>The problem was observed in the packages prepared in the eralier versions and opened in Loginom 7.0.1.</seg>
       </tuv>
     </tu>
     <tu>
