@@ -4663,6 +4663,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;s0&gt;Экспорт в XML-файл&lt;/s0&gt;, &lt;a1&gt;&lt;s2&gt;Формирование XML&lt;/s2&gt;&lt;/a1&gt;, &lt;a3&gt;&lt;s4&gt;SOAP-запрос:&lt;/s4&gt;&lt;/a3&gt; При преобразовании Даты/Времени в строку XML используется не фиксированное смещение времени, а смещение времени с учётом исторических временных поправок — переходов на летнее/зимнее время (#9755).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T093802Z" creationid="Марианна" creationdate="20240319T093802Z">
+        <seg>&lt;s0&gt;Export to XML file&lt;/s0&gt;, &lt;a1&gt;&lt;s2&gt;XML Generation&lt;/s2&gt;&lt;/a1&gt;, &lt;a3&gt;&lt;s4&gt;SOAP request:&lt;/s4&gt;&lt;/a3&gt; When transforming Date/Time to the XML row, not fixed time offset is used but the time offset with considered historical time ammendments, namely, Summer/winter time conversions (#9755).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;Экспорт в базу данных MySQL:&lt;/s0&gt; если в Таблицу с &lt;e1&gt;CHARACTER SET utf8&lt;/e1&gt; в поле типа TEXT экспортировалась одна строка, состоящая из трехбайтных Unicode символов (например, иероглифов китайского языка), то это значение могло экспортироваться с ошибкой (#8229).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210617T110140Z" creationid="Марианна" creationdate="20210617T110140Z">
