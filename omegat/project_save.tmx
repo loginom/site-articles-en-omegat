@@ -13763,6 +13763,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ранее разбор прерывался при обнаружении не ASCII символа и, если вся строка не была разобрана до конца, то завершался с ошибкой (#9651).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T085911Z" creationid="Марианна" creationdate="20240319T085911Z">
+        <seg>Previously, parsing was terminated when non ASCII character was detected, and if the whole row was not parsed till the end, it was finished with an error (#9651).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ранее существовала возможность выставить несколько «Назначений» равных «Входное» и «Выходное», что приводило к ошибке в работе узла «Замена» (#8574).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220425T191250Z" creationid="Марианна" creationdate="20220425T191250Z">
