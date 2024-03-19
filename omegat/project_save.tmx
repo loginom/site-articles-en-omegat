@@ -13539,6 +13539,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ранее идентификатор БД in memory мог состоять из: символов латинского алфавита, цифр, и символов &lt;c3&gt;/ _ .&lt;/c3&gt; (#9688).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T084456Z" creationid="Марианна" creationdate="20240319T084456Z">
+        <seg>Previously, in memory DB identifier could consist of the following characters: the Latin alphabeth characters, numbers and characters &lt;c3&gt;/ _ .&lt;/c3&gt; (#9688).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ранее логирование выполнялась только в случае блокировки сессии по тайм-ауту неактивности (#10276).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240311T150155Z" creationid="Марианна" creationdate="20240311T145842Z">
