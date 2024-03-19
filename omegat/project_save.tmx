@@ -9171,8 +9171,8 @@
       <tuv lang="ru">
         <seg>Если в импортируемых данных указано только время (дата 30.12.1899) с указанием смещения относительно UTC, то при преобразовании в тип Дата/Время применяется смещение во временной зоне приложения, а также учитывается история переводов времени (#9747).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240319T093017Z" creationid="Марианна" creationdate="20240319T093017Z">
-        <seg>If only time is specified in the imported data (30.12.1899) with offset specified relative to UTC, when transforming to the Date/Time type, offset in the application time zone is applied, and also the history of time conversion is taken into account (#9747).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T093057Z" creationid="Марианна" creationdate="20240319T093017Z">
+        <seg>If only time is specified in the imported data (30.12.1899) with offset specified relative to UTC, offset in the application time zone is applied when transforming to the Date/Time type, and also the history of time conversion is taken into account (#9747).</seg>
       </tuv>
     </tu>
     <tu>
