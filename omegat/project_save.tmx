@@ -9313,6 +9313,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если для набора данных, в котором метки полей заданы на русском языке, в узле &lt;e2&gt;Квантование&lt;/e2&gt; на этапе настройки компонентов квантования был задан шаблон меток интервалов, содержащий ключ &lt;c3&gt;FD&lt;/c3&gt; (например &lt;c4&gt;%FD[5]&lt;/c4&gt; — метка интервала содержит первые 5 символов метки поля), то на выходе узла в столбце меток интервалов, вместо ожидаемых символов из метки поля, была другая подстрока.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T095845Z" creationid="Марианна" creationdate="20240319T095845Z">
+        <seg>If the template of bin captions containing &lt;c3&gt;FD&lt;/c3&gt; key (for example,  &lt;c4&gt;%FD[5]&lt;/c4&gt; — bin caption contains the first five characters of the field caption), </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если для поля установлено свойство «Исключить», то это поле не будет добавлено в выходной набор данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220304T191656Z" creationid="Марианна" creationdate="20220304T191656Z">
