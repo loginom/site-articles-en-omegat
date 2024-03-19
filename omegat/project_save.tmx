@@ -15931,6 +15931,22 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>для строк — наименьшее в лексикографическом порядке.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T120140Z" creationid="Марианна" creationdate="20240319T120140Z">
+        <seg>for the rows — the smallest one in the lexicographical order.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>для числовых данных — наименьшее из чисел;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T120053Z" creationid="Марианна" creationdate="20240319T120053Z">
+        <seg>for the numeric data — the smallest number;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>до 2-х раз повысилась отзывчивость интерфейса при работе с большими наборами данных;</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220304T134153Z" creationid="Марианна" creationdate="20220304T134153Z">
