@@ -1864,8 +1864,8 @@
       <tuv lang="ru">
         <seg>&lt;a0&gt;&lt;s1&gt;Подключение MS Access&lt;/s1&gt;&lt;/a0&gt;, &lt;a2&gt;&lt;s3&gt;Подключение ODBC:&lt;/s3&gt;&lt;/a2&gt; Устранили потерю данных при экспорте в базу данных строковых параметров, содержащих символы Unicode, которая появилась в версии 7.0.0 (#9669, #9668).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240319T072937Z" creationid="Марианна" creationdate="20240319T072937Z">
-        <seg>&lt;a0&gt;&lt;s1&gt;MS Access connection&lt;/s1&gt;&lt;/a0&gt;, &lt;a2&gt;&lt;s3&gt;ODBC connection:&lt;/s3&gt;&lt;/a2&gt; Data loss was eliminated. It occurred when exporting to the database of the string parameters that contain Unicode characters that appeared in version 7.0.0 (#9669, #9668).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T073245Z" creationid="Марианна" creationdate="20240319T072937Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;MS Access connection&lt;/s1&gt;&lt;/a0&gt;, &lt;a2&gt;&lt;s3&gt;ODBC connection:&lt;/s3&gt;&lt;/a2&gt; Data loss was eliminated. It occurred when exporting to the database of the string parameters that contained Unicode characters, this data loss appeared in version 7.0.0 (#9669, #9668).</seg>
       </tuv>
     </tu>
     <tu>
@@ -1978,6 +1978,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240314T083114Z" creationid="Марианна" creationdate="20240314T082858Z">
         <seg>&lt;a0&gt;&lt;s1&gt;SOAP service connection:&lt;/s1&gt;&lt;/a0&gt; If the path was specified to the file in which namespace prefix used in the schema was declared in &lt;c2&gt;wsdl:definitions&lt;/c2&gt; element, when configuring connection in WSDL Source field, the following WSDL load error occurred when testing connection: "libxml2 error (code 3004): Element '{&lt;a3&gt;http://www.w3.org/2001/XMLSchema}element&lt;/a3&gt;', attribute 'type': References from this schema to components in no namespace are not allowed, since not indicated by an import statement." The error was corrected (#9844).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>&lt;a0&gt;&lt;s1&gt;Подключение SOAP-сервиса:&lt;/s1&gt;&lt;/a0&gt; Не работали подключения, в которых указан источник WSDL по протоколу HTTP и WSDL-файл содержал импорты с относительным расположением файлов: &lt;c2&gt;&lt;xsd:import schemaLocation="path1/xsd0.xsd" namespace="..."/&gt;&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T073739Z" creationid="Марианна" creationdate="20240319T073739Z">
+        <seg>&lt;a0&gt;&lt;s1&gt;SOAP service connection:&lt;/s1&gt;&lt;/a0&gt; The connections in which WSDL source was specified via HTTP protocol and WSDL file contained imports with the relative location of files didn't work: &lt;c2&gt;&lt;xsd:import schemaLocation="path1/xsd0.xsd" namespace="..."/&gt;&lt;/c2&gt;.</seg>
       </tuv>
     </tu>
     <tu>
