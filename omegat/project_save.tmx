@@ -4464,8 +4464,8 @@
       <tuv lang="ru">
         <seg>&lt;s0&gt;Цикл:&lt;/s0&gt; При выполнении цикла вида Групповая обработка с большим количеством групп, настроенного на узел, для которого рассчитывается статистика по входному набору данных (например, &lt;a1&gt;Редактирование выбросов&lt;/a1&gt;) наблюдалась длительная блокировка workflow маской с надписью «Загрузка».</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240319T080736Z" creationid="Марианна" creationdate="20240319T080736Z">
-        <seg>&lt;s0&gt;Loop:&lt;/s0&gt; When executing the loop related to the Group processing kind with many groups that is configured to the node for which statistics is calcualted by the input data set (for example, &lt;a1&gt;Eliminate outliers
+      <tuv lang="en" changeid="Марианна" changedate="20240319T080802Z" creationid="Марианна" creationdate="20240319T080736Z">
+        <seg>&lt;s0&gt;Loop:&lt;/s0&gt; When executing the loop related to the Group processing kind with many groups that was configured to the node for which statistics is calcualted by the input data set (for example, &lt;a1&gt;Eliminate outliers
 &lt;/a1&gt;), workflow was locked by the mask with "Loading" text for a long time.</seg>
       </tuv>
     </tu>
@@ -13047,6 +13047,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240313T155840Z" creationid="Марианна" creationdate="20240313T155840Z">
         <seg>Uniformity was provided. Unsupported characters will be replaced with &lt;c3&gt;0x1A&lt;/c3&gt; (#9920) in both systems.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Приложение при этом оставалось работоспособным, можно было перейти к другому разделу (через адресную строку или меню), после чего блокировка workflow исчезала.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T080938Z" creationid="Марианна" creationdate="20240319T080752Z">
+        <seg>The application remain operational, It was possible to go to another section (using the address line or menu). Then locking of workflows disappeared.</seg>
       </tuv>
     </tu>
     <tu>
