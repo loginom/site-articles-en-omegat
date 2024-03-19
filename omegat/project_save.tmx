@@ -2632,16 +2632,16 @@
       <tuv lang="ru">
         <seg>&lt;e0&gt;Find&lt;/e0&gt; — убрана запятая, отделяющая последний необязательный параметр &lt;e1&gt;Порядок&lt;/e1&gt;, т.к. он используется редко.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240319T091615Z" creationid="Марианна" creationdate="20240319T091615Z">
-        <seg>&lt;e0&gt;Find&lt;/e0&gt;: the comma was deleted. It separated the last optional &lt;e1&gt;Order&lt;/e1&gt; parameter because it was rarely used.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T091939Z" creationid="Марианна" creationdate="20240319T091615Z">
+        <seg>&lt;e0&gt;Find&lt;/e0&gt;: the comma was deleted. It separated the last optional parameter &lt;e1&gt;Order&lt;/e1&gt; because it was rarely used.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="ru">
         <seg>&lt;e0&gt;Round&lt;/e0&gt; — убрана запятая, отделяющая последний необязательный параметр &lt;e1&gt;Аргумент2&lt;/e1&gt; (количество цифр после запятой), т.к. он используется нечасто.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240319T091906Z" creationid="Марианна" creationdate="20240319T091906Z">
-        <seg>&lt;e0&gt;Round&lt;/e0&gt;: the comma was deleted. It separated the last optional &lt;e1&gt;Argument2&lt;/e1&gt; parameter (the number of digits after the comma)  because it was infrequently used.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240319T091928Z" creationid="Марианна" creationdate="20240319T091906Z">
+        <seg>&lt;e0&gt;Round&lt;/e0&gt;: the comma was deleted. It separated the last optional parameter &lt;e1&gt;Argument2&lt;/e1&gt; (the number of digits after the comma)  because it was infrequently used.</seg>
       </tuv>
     </tu>
     <tu>
