@@ -7505,6 +7505,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В мастерах настройки узлов &lt;e1&gt;Группировка&lt;/e1&gt; и &lt;e2&gt;Таблица в переменные&lt;/e2&gt; для не числовых (Строковый, Дата/Время, Логический, Переменный) полей в фактах этот вариант агрегации применяется по умолчанию.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T141312Z" creationid="Марианна" creationdate="20240325T141312Z">
+        <seg>This aggregation option is used by default in &lt;e1&gt;Grouping&lt;/e1&gt; and &lt;e2&gt;Table to variables&lt;/e2&gt; node wizards for non-numerical fields (String, Date/Time, Logical, Variable) in measures.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В мастерах подключения к Хранилищу данных на СУБД &lt;a0&gt;MS SQL&lt;/a0&gt; и &lt;a1&gt;Oracle &lt;/a1&gt;добавлена возможность указать имя схемы, в которой находятся метаданные и данные ХД.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210321T180551Z" creationid="Марианна" creationdate="20210321T180229Z">
