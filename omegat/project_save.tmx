@@ -7473,6 +7473,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В мастере настройки &lt;a0&gt;Узла-ссылки&lt;/a0&gt; разрешено ссылаться на узлы подключений.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T102656Z" creationid="Марианна" creationdate="20240325T102656Z">
+        <seg>It is allowed to refer to the connection nodes in the  &lt;a0&gt;Reference node&lt;/a0&gt; wizard.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В мастере настройки &lt;e1&gt;Подмодели&lt;/e1&gt; добавлен флаг необязательности портов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240219T143820Z" creationid="Марианна" creationdate="20240219T143820Z">
