@@ -12666,6 +12666,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>По умолчанию название имеет вид: активный элемент · путь до активного элемента · название продукта.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T131251Z" creationid="Марианна" creationdate="20240325T131251Z">
+        <seg>By default, the following form of the name is used: path to the active element · the product name.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Повторные попытки закрыть сессию не помогали.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240301T103832Z" creationid="Марианна" creationdate="20240301T103832Z">
