@@ -9617,6 +9617,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если смещение времени не указано, дата/время остается без изменений.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T102608Z" creationid="Марианна" creationdate="20240325T102608Z">
+        <seg>If data offset is not set, date/time remains unchanged.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если среди уникальных значений поля было пропущенное значение, пустая строка или строка, состоящая только из пробельных символов, то такие значения не отображались в этом выпадающем списке.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230314T130158Z" creationid="Марианна" creationdate="20230314T130158Z">
