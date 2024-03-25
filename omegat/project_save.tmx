@@ -9777,6 +9777,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если процесс был отменен, то на панели фильтра измерения будет видна кнопка «Загрузить» для повторного начала загрузки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T142652Z" creationid="Марианна" creationdate="20240325T142652Z">
+        <seg>If the process is cancelled, "Load" button will be visisble on the dimension filter panel for the repeated loading start.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если процессор загружен меньше, чем на 80% и есть очередь процессов на выполнение, то количество рабочих потоков увеличивается, пока загрузка процессора не превысит 80%.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210903T135241Z" creationid="Марианна" creationdate="20210903T134851Z">
