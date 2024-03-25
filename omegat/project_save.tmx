@@ -11089,6 +11089,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>На экране пользователь видит только окно аутентификации, он может ввести пароль и восстановить сессию, либо закрыть вкладку браузера и вместе с ней сессию.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T140435Z" creationid="Марианна" creationdate="20240325T140435Z">
+        <seg>The user can see only authentification window on the screen, and he can enter the password and restore the session or close the browser tab and the session along with it.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>На этой же странице можно добавить или обновить публикацию веб-сервиса, отредактировать опубликованный пакет или отменить публикацию.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220227T120711Z" creationid="Марианна" creationdate="20220227T120711Z">
