@@ -9713,6 +9713,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если импорт из базы данных или экспорт в базу данных будет выполняться в режиме игнорирования ошибок, то в случае неудавшегося подключения в течение установленного времени, соответствующая ошибка будет записана в порт &lt;e7&gt;Статус выполнения&lt;/e7&gt;, а при импорте/экспорте в обычном режиме — выполнение узла завершится ошибкой.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T143955Z" creationid="Марианна" creationdate="20240325T143955Z">
+        <seg>If import from database or export to database is executed in the error ignoring mode, corresponding errror will be recorded to &lt;e7&gt;Execution status&lt;/e7&gt; port in case of connection failure during the set period of time, and when importing/exporting in the normal mode, the node execution will be finished with an error.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если к пакету подключаются библиотеки компонентов, к которым нет доступа на редактирование, то необходимо запросить новые версии библиотек у их разработчика.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220227T161209Z" creationid="Марианна" creationdate="20220227T161209Z">
