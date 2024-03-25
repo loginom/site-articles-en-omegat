@@ -2710,6 +2710,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;e1&gt;Тайм-аут импорта&lt;/e1&gt; не распространяется на предварительный просмотр внутри мастера настройки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T103454Z" creationid="Марианна" creationdate="20240325T103454Z">
+        <seg>&lt;e1&gt;Import timeout&lt;/e1&gt; does not apply to preview inside the wizard.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;s0&gt;&lt;a1&gt;Loginom Integrator,&lt;/a1&gt; Пакетное выполнение:&lt;/s0&gt; ускорен повторный запуск узла сценария при работе через Loginom Integrator или при Пакетном выполнении (#5295).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211229T122102Z" creationid="Марианна" creationdate="20211229T122029Z">
@@ -7001,6 +7009,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Аналогичный режим игнорирования ошибок появился и в узле &lt;a0&gt;Экспорт в базу данных&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T103552Z" creationid="Марианна" creationdate="20240325T103552Z">
+        <seg>The similar error ignoring mode also appeared in &lt;a0&gt;Export to database&lt;/a0&gt; node.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Атрибут &lt;c1&gt;maxEntrySize&lt;/c1&gt; задаёт максимальный размер сообщения в байтах.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240227T061532Z" creationid="Марианна" creationdate="20240227T061532Z">
@@ -7117,6 +7133,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220224T055922Z" creationid="Марианна" creationdate="20220224T055922Z">
         <seg>Quick view of the calculation results when selecting the node.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В &lt;a0&gt;Импорте из базы данных&lt;/a0&gt; появился режим выполнения с игнорированием ошибок.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T103348Z" creationid="Марианна" creationdate="20240325T103348Z">
+        <seg>Execution mode with error ignoring appeared in &lt;a0&gt;Import from database&lt;/a0&gt;.</seg>
       </tuv>
     </tu>
     <tu>
