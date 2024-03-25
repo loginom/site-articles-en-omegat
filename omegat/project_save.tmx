@@ -2662,6 +2662,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;e0&gt;Доля используемой памяти&lt;/e0&gt; (по умолчанию — «не ограничено» (0)).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T100532Z" creationid="Марианна" creationdate="20240325T100532Z">
+        <seg>&lt;e0&gt;Memory usage ratio&lt;/e0&gt; (by default — "not limited" (0)).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;e0&gt;Максимум используемой памяти (КБ)&lt;/e0&gt; (по умолчанию — «не ограничено» (0)).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240325T100418Z" creationid="Марианна" creationdate="20240325T100418Z">
