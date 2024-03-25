@@ -2710,6 +2710,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;e0&gt;Тайм-аут блокировки сессии&lt;/e0&gt; — определяет период неактивности пользователя, по истечении которого сессия переходит в заблокированное состояние.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T172642Z" creationid="Марианна" creationdate="20240325T172642Z">
+        <seg>&lt;e0&gt;Session lock timeout&lt;/e0&gt; defines the user inactivity period upon expiration of which the session goes to the locked state.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;e1&gt;Тайм-аут импорта&lt;/e1&gt; не распространяется на предварительный просмотр внутри мастера настройки.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240325T103454Z" creationid="Марианна" creationdate="20240325T103454Z">
