@@ -12994,6 +12994,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Появилась возможность выполнения &lt;a0&gt;Python&lt;/a0&gt; в изолированном окружении пользователя.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T102902Z" creationid="Марианна" creationdate="20240325T102902Z">
+        <seg>It became possible to execute &lt;a0&gt;Python&lt;/a0&gt; in the isolated environment of the user.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Появилась возможность добавлять заметки на workflow.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240219T145415Z" creationid="Марианна" creationdate="20240219T145415Z">
@@ -15291,10 +15299,26 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Теперь можно передавать переменные окружения в процесс интерпретатора Python.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T103026Z" creationid="Марианна" creationdate="20240325T103026Z">
+        <seg>Now it became possible to transfer the environment variables to the Python interpreter process.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Теперь настраивать &lt;e4&gt;Куб&lt;/e4&gt; стало удобнее и быстрее.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240218T182723Z" creationid="Марианна" creationdate="20240218T182723Z">
         <seg>&lt;e4&gt;Cube&lt;/e4&gt; configuration process became much more comfortable and faster now.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Теперь необходимости в дополнительных узлах нет.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T102813Z" creationid="Марианна" creationdate="20240325T102813Z">
+        <seg>Now there is no need in the additional nodes.</seg>
       </tuv>
     </tu>
     <tu>
