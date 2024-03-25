@@ -10729,6 +10729,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Минимальное значение ограничения на RAM — 300 Мб.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T100719Z" creationid="Марианна" creationdate="20240325T100719Z">
+        <seg>Minimum value of RAM restriction — 300 MB.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Минимальные требования: Windows 10, Windows Server 2019.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240211T172609Z" creationid="Марианна" creationdate="20240211T172609Z">
@@ -11317,6 +11325,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220224T062210Z" creationid="Марианна" creationdate="20220224T062210Z">
         <seg>Please note!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Ограничение действует на виртуальную память.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T100806Z" creationid="Марианна" creationdate="20240325T100806Z">
+        <seg>The restriction applies to the virtual memory.</seg>
       </tuv>
     </tu>
     <tu>
