@@ -14,7 +14,7 @@ The First Major Update of of the 7th Loginom Version While working on the releas
 <p>Если пользователь Loginom не проявляет активность в течение заданного периода времени, то сессия может быть заблокирована или соединение с сервером может быть принудительно закрыто. На странице <em>Параметры</em> в разделе <em>Администрирование</em> появились новые параметры, которые используются для интерактивных сессий из веб-клиента:</p>
 
 <ul>
-	<li><em>Тайм-аут блокировки сессии</em> — определяет период неактивности пользователя, по истечении которого сессия переходит в заблокированное состояние. При этом соединение с сервером не закрывается, никакие данные от сервера к клиенту и наоборот не передаются. Проходят некоторые служебные сообщения, и разрешен вызов разблокировки с передачей аутентификационных данных. На экране пользователь видит только окно аутентификации, он может ввести пароль и восстановить сессию, либо закрыть вкладку браузера и вместе с ней сессию.</li>
+	<li><em>Тайм-аут блокировки сессии</em> — определяет период неактивности пользователя, по истечении которого сессия переходит в заблокированное состояние. And connection with the server is not closed, no data is tranferred from the server to the client and vice versa. Some service messages are received, and it is allowed to call unlocking with authentication data transfer. The user can see only authentification window on the screen, and he can enter the password and restore the session or close the browser tab and the session along with it.</li>
 	<li><em>Тайм-аут закрытия сессии</em> — определяет период неактивности пользователя, по истечении которого&nbsp; соединение с сервером будет закрыто. And corresponding message will be recorded in the log.</li>
 </ul>
 
@@ -60,7 +60,7 @@ The First Major Update of of the 7th Loginom Version While working on the releas
 
 <p>В мастере настройки <a href="https://help.loginom.ru/userguide/integration/export/ldf.html" target="_blank">Экспорта в LGD-файл</a> алгоритм LZ4 добавлен в выпадающий список форматов сжатия и используется по умолчанию.</p>
 
-<p>Стандарт LZ4 позволяет передавать опциональную контрольную сумму блока и всего содержимого. В мастере узла <em>Экспорт в LGD-файл</em>, если выбрано сжатие LZ4, пользователь может установить значение параметра <em>Контрольная сумма</em>:</p>
+<p>LZ4 standard enables to transfer the optional control sum of block and all its content. В мастере узла <em>Экспорт в LGD-файл</em>, если выбрано сжатие LZ4, пользователь может установить значение параметра <em>Контрольная сумма</em>:</p>
 
 <ul>
 	<li>записывать контрольную сумму сжатых данных после каждого блока (по умолчанию);</li>
@@ -96,7 +96,7 @@ The First Major Update of of the 7th Loginom Version While working on the releas
 <ul>
 	<li>It became possible to load folders with files/folders inside them using Drag-and-Drop. Previously, it was possible to load only files, and folder structure was to be manually set.</li>
 	<li>Now it is possible to create a new package directly from the file storage folder. Corresponding command appeared in the context menu of the manager.</li>
-	<li>При загрузке файлов с одинаковыми именами появилась возможность выбрать один из вариантов решения конфликта Заменить/Заменить все, Пропустить/Пропустить все или Отменить.</li>
+	<li>When loading the files with the same names, it became possible to select one of the confict solution options: Replace/Replace all, Skip/Skip all or Cancel.</li>
 	<li>It is possible to load files and folders from the file storage in the archive form.</li>
 	<li>It became possible to unzip zip archive. Corresponding command was added to the context menu for this purpose.</li>
 	<li>The initial order of column sorting was changed from the "ascending" order to the "descending" order. The changes affected the following columns in the File Storage: Select file/folder, Size, Date of change and Read-only. In the File Dialog — Size and Changed.</li>
@@ -112,7 +112,7 @@ The First Major Update of of the 7th Loginom Version While working on the releas
 <p>New aggregation options appeared in  <a href="https://help.loginom.ru/userguide/processors/transformation/grouping.html" target="_blank">Grouping</a> and <a href="https://help.loginom.ru/userguide/processors/variables/variables-from-table.html" target="_blank">Table to variables</a> components:</p>
 
 <ol>
-	<li><em>Only</em> that returns the value of the aggregated field if it is the only one at the group level. В мастерах настройки узлов <em>Группировка</em>&nbsp;и <em>Таблица в переменные</em> для не числовых (Строковый, Дата/Время, Логический, Переменный) полей в фактах этот вариант агрегации применяется по умолчанию.</li>
+	<li><em>Only</em> that returns the value of the aggregated field if it is the only one at the group level. This aggregation option is used by default in <em>Grouping</em>&nbsp;and <em>Table to variables</em> node wizards for non-numerical fields (String, Date/Time, Logical, Variable) in measures.</li>
 	<li><em>Mode</em> that is available for all data kinds and types. When calculating the mode, null values are ignored. If there are several modes, the minimum value will be selected:
 	<ul>
 		<li>for the logical data type — False;</li>
@@ -164,13 +164,13 @@ The First Major Update of of the 7th Loginom Version While working on the releas
 
 <h2 id="удобство-использования">Ease of Use</h2>
 
-<p>В обновление вошло большое количество изменений, направленных на удобство использования платформы:</p>
+<p>Many changes aimed at ease of the platform use were introduced into the update:</p>
 
 <ul>
-	<li>В серверных редакциях название вкладки браузера меняется в зависимости от активного элемента Loginom Studio. По умолчанию название имеет вид: активный элемент · путь до активного элемента · название продукта. Например, если пользователь создал черновик, то на экране отобразится страница Сценарий, а вкладка браузера будет иметь название «Сценарий · Package1/Модуль1».</li>
-	<li>Добавлена возможность разворачивать/сворачивать Главную (вертикальную) панель инструментов. В нижней части панели под меню «Процессы» появилась соответствующая кнопка. В развернутом состоянии ширину панели можно изменять, перетаскивая ее правую границу. Эта функция полезна, когда на панели отображаются настроенные визуализаторы, названия которых могут быть длинными.</li>
-	<li>На главной (вертикальной) панели инструментов при большом количестве настроенных визуализаторов появляются кнопки, позволяющие прокручивать список настроенных визуализаторов. Вместе со списком визуализаторов «прокручивалась» и кнопка «Настройка визуализаторов», что неудобно. Внесли изменения: теперь кнопка «Настройка визуализаторов» всегда видна на главной панели, а прокручивается только список визуализаторов.</li>
-	<li>При перемещении узла с панели компонентов в область построения сценария он отображается в процессе перетаскивания, и при этом происходят попытки автоматического связывания портов с отображением создаваемых связей. Если в процессе перетаскивания зажать клавишу Alt, то автоматическое соединение не будет выполняться.</li>
+	<li>Name of the browser tab changes according to the Loginom Studio active element in the server editions. By default, the following form of the name is used: path to the active element · the product name. For example, if the user creates a draft, the Workflow page will be displayed on the screen, and the browser tab will have the following name: "Workflow · Package1/Module1".</li>
+	<li>It became possible to expand/collapse the Main (vertical) Toolbar. Corresponding button appeared in the lower part of the toolbar under "Processes" menu. The toolbar width can be changed in the expanded state by dragging its right border. This function is useful when configured visualizers with long names are displayed on the toolbar.</li>
+	<li>The buttons that enable to scroll the list of configured visualizers appear on the main (vertical) toolbar when there are many configured visualizers. "Configure visualizers" button was "scrolled" with the list of visualizers. It wasn't comfortable. The following changes were introduced: now "Configure visualizers" button is always visible on the main toolbar, and only the list of visualizers can be scrolled.</li>
+	<li>When moving the node from the component panel to the workflow construction area, it is displayed in the process of dragging, and attempts to connect the ports with the view of created links are made. If the ALT key is held down when dragging, the automatic connection will not be performed.</li>
 </ul>
 
 <p>
@@ -178,14 +178,14 @@ The First Major Update of of the 7th Loginom Version While working on the releas
 </p>
 
 <ul>
-	<li>Если сессия была закрыта из <a href="https://help.loginom.ru/userguide/admin/dispatcher.html" target="_blank">Диспетчера</a>, то пользователь получит сообщение: «Администратор закрыл сессию через диспетчер». Ранее для пользователя это выглядело как потеря связи с сервером.</li>
+	<li>If the session was closed from <a href="https://help.loginom.ru/userguide/admin/dispatcher.html" target="_blank">Session Manager</a>, the user received the following message: "Admin closed session via Session Manager". Previously, it looked like server connection loss for the user.</li>
 	<li>На странице <em>Пользователи</em> в разделе <em>Администрирование</em> можно увидеть не только список зарегистрированных пользователей, но и их общее количество.</li>
-	<li>После добавления узла в сценарий он переходит в выделенное состояние и на узле отображаются кнопки настройки. Таким образом, пользователь выполняет меньшее количество кликов мышью, для того чтобы перейти к настройке узла.</li>
-	<li>В мастерах настройки <a href="https://help.loginom.ru/userguide/integration/import/txt-csv.html" target="_blank">Импорта из текстового файла</a> и <a href="https://help.loginom.ru/userguide/integration/export/txt-csv.html" target="_blank">Экспорта в текстовый файл</a> в редакторах свойств, задающих разделители (десятичный, даты, времени и т.д.), вместо значения «по умолчанию» показано значение, которое будет использоваться при разборе файла, если пользователь не изменит настройки. Например, для десятичного разделителя: «Не задано (,)».</li>
-	<li>В мастере настройки узла <a href="https://help.loginom.ru/userguide/processors/variables/variables-calc.html" target="_blank">Калькулятор (переменные)</a> появился Предпросмотр результата вычисления. В качестве результата возвращаются имена, метки и типы входных используемых переменных, значения входных переменных; имена, метки и типы выражений и значения рассчитанных выражений.</li>
+	<li>When the node is added to the workflow, it passes to the selected state, and setup buttons are displayed on the node. Thus, the user makes less mouse clicks to go to the node configuration.</li>
+	<li>В мастерах настройки <a href="https://help.loginom.ru/userguide/integration/import/txt-csv.html" target="_blank">Импорта из текстового файла</a> и <a href="https://help.loginom.ru/userguide/integration/export/txt-csv.html" target="_blank">Экспорта в текстовый файл</a> в редакторах свойств, задающих разделители (десятичный, даты, времени и т.д.), вместо значения «по умолчанию» показано значение, которое будет использоваться при разборе файла, если пользователь не изменит настройки. For example, for the decimal separator: "Not set (,)".</li>
+	<li>Preview of the calculation result appeared in <a href="https://help.loginom.ru/userguide/processors/variables/variables-calc.html" target="_blank">Calculator (variables)</a> node wizard. В качестве результата возвращаются имена, метки и типы входных используемых переменных, значения входных переменных; имена, метки и типы выражений и значения рассчитанных выражений.</li>
 	<li>При настройке узла <a href="https://help.loginom.ru/userguide/processors/data-trees/table-to-tree.html" target="_blank">Таблица в дерево</a> появилась возможность заполнять метки узлов дерева из 1-й строки xsd:documentation при загрузке структуры из XSD схемы. В окне генерации дерева данных по XSD схеме добавлен параметр <em>Формировать метки узлов по xsd:documentation</em>. Если указать у этого параметра значение True, то генерируемые узлы дерева получают метку, равную 1-й непустой строке из элемента xsd:documentation для исходного элемента или атрибута в XSD схеме. If there are several xsd:documentation elements, only the first element is taken into account. Если документация отсутствует или значение параметра <em>Формировать метки узлов по xsd:documentation</em> равно False, то метка генерируется по имени элемента или атрибута, как и раньше.</li>
-	<li>В&nbsp;<a href="https://help.loginom.ru/userguide/visualization/table/" target="_blank">визуализаторе Таблица</a>&nbsp;теперь есть возможность делать длинные заголовки многострочными. Соответствующая настройка появилась в контекстном меню и на панели инструментов визуализатора.</li>
-	<li>В&nbsp;<a href="https://help.loginom.ru/userguide/visualization/data-quality/" target="_blank">визуализаторе Качество данных</a>&nbsp;после расчета статистик список проблем для некоторых полей мог оказаться слишком большим и не умещался на экране. При этом не появлялся горизонтальный скроллбар. Теперь после расчета статистик вся информация помещается на экране, а при необходимости появляется горизонтальный скроллбар. Кроме того, таблицу характеристик набора данных можно скрыть, чтобы появилось больше места для отображения списка проблем.</li>
+	<li>В&nbsp;<a href="https://help.loginom.ru/userguide/visualization/table/" target="_blank">визуализаторе Таблица</a>&nbsp;теперь есть возможность делать длинные заголовки многострочными. Corresponding setting appeared in the context menu and on the visualizer toolbar.</li>
+	<li>В&nbsp;<a href="https://help.loginom.ru/userguide/visualization/data-quality/" target="_blank">визуализаторе Качество данных</a>&nbsp;после расчета статистик список проблем для некоторых полей мог оказаться слишком большим и не умещался на экране. And the horizontal toolbar didn't appear in this case. Now all information fits on the screen after statistics calculation, and the horizontal scrollbar appears if required. Besides, the data set characteristics table can be hidden to provide more space to display the list of problems.</li>
 	<li>Оптимизировали время подготовки визуализаторов <em>Таблица</em> и <a href="https://help.loginom.ru/userguide/visualization/preview/quick-view.html" target="_blank">Быстрый просмотр</a> для наборов с большим количеством столбцов.</li>
 	<li>В визуализаторах обновление таблицы&nbsp;<em>Детализация</em> происходит быстрее и визуально комфортнее для пользователя.</li>
 	<li>В мастерах настройки <a href="https://help.loginom.ru/userguide/integration/import/warehouse.html" target="_blank">Импорт из Deductor Warehouse</a> и <a href="https://help.loginom.ru/userguide/integration/export/warehouse.html" target="_blank">Экспорт в Deductor Warehouse</a> в списке столбцов исходного набора и в дереве доступных элементов объекта хранилища данных появились всплывающие подсказки для значений, которые не помещаются в ячейке.</li>
@@ -223,25 +223,25 @@ The First Major Update of of the 7th Loginom Version While working on the releas
 
 <h2 id="настольные-редакции-под-linux">Desktop Editions for Linux</h2>
 
-<p>Now the desktop Loginom editions are also available for Linux. Loginom Desktop под Linux использует кроссплатформенную библиотеку элементов интерфейса <a href="https://ru.wikipedia.org/wiki/GTK" target="_blank">GTK3</a> и может быть установлен на дистрибутивы операционной системы, поддерживающие GTK3, с минимальной версией ядра 5.3 (если не планируется использование Python-a, то минимальная версия ядра 4.11). Кроме того, в некоторых случаях используются утилиты <code>xdg-open</code> и <code>dbus-send</code>, значение переменной окружения <code>DESKTOP_SESSION</code>.</p>
+<p>Now the desktop Loginom editions are also available for Linux. Loginom Desktop под Linux использует кроссплатформенную библиотеку элементов интерфейса <a href="https://ru.wikipedia.org/wiki/GTK" target="_blank">GTK3</a> и может быть установлен на дистрибутивы операционной системы, поддерживающие GTK3, с минимальной версией ядра 5.3 (если не планируется использование Python-a, то минимальная версия ядра 4.11). Besides, in some cases <code>xdg-open</code> and <code>dbus-send</code> utilities, the value of the environment variable <code>DESKTOP_SESSION</code> are used.</p>
 
-<p>Дистрибутив Loginom Desktop поставляется в виде архива. Для начала работы достаточно просто распаковать архив и запустить исполняемый файл. В архиве находится файл README.txt, в котором даны инструкции по установке и созданию ярлыка для Loginom Desktop, а также другая полезная информация. При использовании сторонних библиотек может потребоваться их самостоятельная установка.</p>
+<p>Loginom Desktop distribution kit is supplied in the archive form. To start the work it is sufficicent just to unzip the archive and start the executed file. В архиве находится файл README.txt, в котором даны инструкции по установке и созданию ярлыка для Loginom Desktop, а также другая полезная информация. Self-installation may be required when using the third-party libraries.</p>
 
-<p>Еще одна новая возможность настольной редакции — полноэкранный режим работы, в который можно перейти, нажав на клавишу F11.</p>
+<p>The desktop edition provides one more option, namely, full-screen mode of operation. It can be used by pressing the F11 key.</p>
 
 <h2 id="прочие-изменения">Other Changes</h2>
 
 <p>Для компонента <a href="https://help.loginom.ru/userguide/processors/datamining/association-rules.html" target="_blank">Ассоциативные правила</a> доработан алгоритм — в дерево популярных наборов, которое используется при построении модели, не попадают наборы с поддержкой больше максимальной. Таким образом, в конфигурации узла сохраняется меньшее дерево, значительно повысилась скорость обработки, если количество элементов в исходных транзакциях большое.</p>
 
-<p>В <a href="https://help.loginom.ru/userguide/visualization/cube/" target="_blank">визуализаторе Куб</a> в режим «Приостановить автовычисления» при открытии панели фильтра измерения начинается загрузка данных и, если данные долго загружаются, отображается кнопка «Отменить», позволяющая приостановить загрузку. Если процесс был отменен, то на панели фильтра измерения будет видна кнопка «Загрузить» для повторного начала загрузки. Ранее остановить долгий процесс загрузки можно было только через <a href="https://help.loginom.ru/userguide/interface/processes-panel.html" target="_blank">Панель «Процессы»</a>.</p>
+<p>В <a href="https://help.loginom.ru/userguide/visualization/cube/" target="_blank">визуализаторе Куб</a> в режим «Приостановить автовычисления» при открытии панели фильтра измерения начинается загрузка данных и, если данные долго загружаются, отображается кнопка «Отменить», позволяющая приостановить загрузку. Если процесс был отменен, то на панели фильтра измерения будет видна кнопка «Загрузить» для повторного начала загрузки. Previously, it was possible to stop the long process of loading only via <a href="https://help.loginom.ru/userguide/interface/processes-panel.html" target="_blank">"Processes" panel</a>.</p>
 
 
   <figure class="lg-text-img lg-text-img_preview">
     <a href="/sites/default/files/blogpost-images/cub_cancel_download_0.png">
-      <img src="/sites/default/files/styles/image792/public/blogpost-images/cub_cancel_download_0.png" alt="Кнопка приостановки загрузки в Кубе" title="Кнопка приостановки загрузки в Кубе" data-insert-type="image" data-entity-type="file" data-entity-uuid="insert-image792-38a6875a-5dd0-49a1-af30-ac1bb3fc703f">
+      <img src="/sites/default/files/styles/image792/public/blogpost-images/cub_cancel_download_0.png" alt="Loading to Cube pause button" title="Loading to Cube pause button" data-insert-type="image" data-entity-type="file" data-entity-uuid="insert-image792-38a6875a-5dd0-49a1-af30-ac1bb3fc703f">
     </a>
     <figcaption>
-      <p>Кнопка приостановки загрузки в Кубе</p>
+      <p>Loading to Cube pause button</p>
     </figcaption>
   </figure>
                       
@@ -254,7 +254,7 @@ The First Major Update of of the 7th Loginom Version While working on the releas
         
 
 
-<div class="lg-em lg-em_green">В связи с переходом на OpenSSL 3.0. нельзя использовать сертификаты с хэш-алгоритмом подписи SHA1 и MD5. Такой сертификат, например, нельзя задать как «Сертификат пользователя» в параметрах подключения к MySQL.</div>
+<div class="lg-em lg-em_green">In connection with transfer to OpenSSL 3.0. it is not possible to use the certificates with hash signature algorithm SHA1 and MD5. For example, such certificate cannot be set as the "User certificate" in parameters of connection to MySQL.</div>
 
 <div class="text-align-center">
 <p class="lg-text-btn lg-text-btn_border"><a href="https://loginom.ru/download">Try new version</a></p>
