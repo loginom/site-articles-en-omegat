@@ -11169,6 +11169,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>На странице &lt;e0&gt;Вход&lt;/e0&gt; опционально можно убрать настройку &lt;e1&gt;Запомнить&lt;/e1&gt; (пользователя).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T171936Z" creationid="Марианна" creationdate="20240325T171936Z">
+        <seg>On &lt;e0&gt;Login&lt;/e0&gt; page it is optionally possible to remove &lt;e1&gt;Remember me&lt;/e1&gt; (user) setting.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>На странице &lt;e0&gt;Переменные пакета&lt;/e0&gt; стала доступна панель &lt;e1&gt;Навигация&lt;/e1&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240220T081259Z" creationid="Марианна" creationdate="20240220T081259Z">
