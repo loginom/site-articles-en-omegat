@@ -8417,6 +8417,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Внесли изменения: теперь кнопка «Настройка визуализаторов» всегда видна на главной панели, а прокручивается только список визуализаторов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T132401Z" creationid="Марианна" creationdate="20240325T132401Z">
+        <seg>The following changes were introduced: now "Configure visualizers" button is always visible on the main toolbar, and only the list of visualizers can be scrolled.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Внесли исправления (#10069).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240228T194156Z" creationid="Марианна" creationdate="20240228T194156Z">
