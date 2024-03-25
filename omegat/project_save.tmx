@@ -13571,6 +13571,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При перемещении узла с панели компонентов в область построения сценария он отображается в процессе перетаскивания, и при этом происходят попытки автоматического связывания портов с отображением создаваемых связей.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T132846Z" creationid="Марианна" creationdate="20240325T132846Z">
+        <seg>When moving the node from the component panel to the workflow construction area, it is displayed in the process of dragging, and attempts to connect the ports with the view of created links are made.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При перетаскивании производного компонента в область сценария по умолчанию создаётся узел &lt;a0&gt;Выполнение&lt;/a0&gt;; если нажат Shift, то создаётся &lt;a1&gt;Цикл&lt;/a1&gt;, а если нажат Ctrl, — то производный узел.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220227T155001Z" creationid="Марианна" creationdate="20220227T155001Z">
