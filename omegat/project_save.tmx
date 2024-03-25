@@ -9137,6 +9137,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Добавлена возможность разворачивать/сворачивать Главную (вертикальную) панель инструментов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T131521Z" creationid="Марианна" creationdate="20240325T131521Z">
+        <seg>It became possible to expand/collapse the Main (vertical) Toolbar.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Добавлена возможность с помощью Drag-and-Drop загружать папки с находящимися внутри файлами/папками.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240325T101106Z" creationid="Марианна" creationdate="20240325T101106Z">
@@ -11037,6 +11045,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240313T144750Z" creationid="Марианна" creationdate="20240313T144750Z">
         <seg>For example, if two packages are published with the published supernode inside them with one and the same name, and the SOAP request node initially configured to the service operation from the first package is reconfigured to the same operation from the second package.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Например, если пользователь создал черновик, то на экране отобразится страница Сценарий, а вкладка браузера будет иметь название «Сценарий · Package1/Модуль1».</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T131441Z" creationid="Марианна" creationdate="20240325T131441Z">
+        <seg>For example, if the user creates a draft, the Workflow page will be displayed on the screen, and the browser tab will have the following name: "Workflow · Package1/Module1".</seg>
       </tuv>
     </tu>
     <tu>
