@@ -1,13 +1,13 @@
 
-Первое крупное обновление 7-ой версии Loginom. При работе над релизом значительное внимание уделялось запросам, которые поступали от наших пользователей. Основные изменения коснулись повышения безопасности и удобства использования. Кроме того, появились новые возможности при работе с базами данных, расширен функционал некоторых стандартных компонентов. Now the desktop Loginom editions are also available for Linux.
+The First Major Update of of the 7th Loginom Version While working on the release, considerable attention was paid to the requests that came from our users. The main changes affected safety and usability improvements. Besides, new opportunities concerning database operation emerged, functionality of some standard components was expanded. Now the desktop Loginom editions are also available for Linux.
 
 <div class="lg-em lg-em_green">
-<p>Возможность скачать бесплатную версию для некоммерческого использования <strong>Loginom Community на Linux</strong> появится на официальном сайте в течение сентября. Следите за новостями в <a href="https://t.me/loginom" target="_blank">Телеграм-канале Loginom</a>.</p>
+<p>It will be possible to download free version of <strong>Loginom Community for Linux</strong> for non-commercial use on the official website during September. Follow the news in the <a href="https://t.me/loginom" target="_blank">Loginom Telegram channel</a>.</p>
 </div>
 
 <h2 id="изменения-в-работе-loginom-server">Changes in Loginom Server</h2>
 
-<p>В серверных редакциях Loginom введено ограничение на количество неудачных попыток ввода пароля на странице аутентификации. В разделе <a href="https://help.loginom.ru/userguide/admin/" target="_blank">Администрирование</a> на странице <a href="https://help.loginom.ru/userguide/admin/parameters.html" target="_blank">Параметры</a> появились новые настройки <em>Лимит попыток ввода пароля (N)</em>&nbsp;и <em>Тайм-аут ввода пароля (Т)</em>. При каждой попытке входа пользователя в систему выполняется проверка: сколько неудачных попыток ввода пароля было совершено для данного аккаунта пользователя за последние T секунд. Если количество попыток больше или равно N, то проверка пароля не выполняется, и выводится ошибка: "Превышено максимальное количество попыток входа в учётную запись".</p>
+<p>The number of unsuccessful attempts of entering password on the authentication page became limited in the server Loginom editions. In the <a href="https://help.loginom.ru/userguide/admin/" target="_blank">Administration</a> section on <a href="https://help.loginom.ru/userguide/admin/parameters.html" target="_blank">Parameters</a> page new <em>Password entry limit (N)</em>&nbsp;and <em>Password entry timeout (Т)</em> settings appeared. При каждой попытке входа пользователя в систему выполняется проверка: сколько неудачных попыток ввода пароля было совершено для данного аккаунта пользователя за последние T секунд. Если количество попыток больше или равно N, то проверка пароля не выполняется, и выводится ошибка: "Превышено максимальное количество попыток входа в учётную запись".</p>
 
 <p>На странице <em>Вход</em> опционально можно убрать настройку <em>Запомнить</em> (пользователя). Для этого нужно в файле client.json, который добавлен в папку %ProgramFiles%\Loginom\Client, установить для свойства <code>rememberuser</code> значение <code>false</code>.</p>
 
@@ -15,7 +15,7 @@
 
 <ul>
 	<li><em>Тайм-аут блокировки сессии</em> — определяет период неактивности пользователя, по истечении которого сессия переходит в заблокированное состояние. При этом соединение с сервером не закрывается, никакие данные от сервера к клиенту и наоборот не передаются. Проходят некоторые служебные сообщения, и разрешен вызов разблокировки с передачей аутентификационных данных. На экране пользователь видит только окно аутентификации, он может ввести пароль и восстановить сессию, либо закрыть вкладку браузера и вместе с ней сессию.</li>
-	<li><em>Тайм-аут закрытия сессии</em> — определяет период неактивности пользователя, по истечении которого&nbsp; соединение с сервером будет закрыто. При этом в лог будет записано соответствующее сообщение.</li>
+	<li><em>Тайм-аут закрытия сессии</em> — определяет период неактивности пользователя, по истечении которого&nbsp; соединение с сервером будет закрыто. And corresponding message will be recorded in the log.</li>
 </ul>
 
 
@@ -37,20 +37,20 @@
         
 
 
-<p>Активностью пользователя считается нажатие клавиш, кнопок мыши и использование полос прокрутки.</p>
+<p>Pressing keys, mouse buttons and scroll bar use are considered to be user activity.</p>
 
 <p>Пользователь самостоятельно может перевести сессию в заблокированное состояние — в <a href="https://help.loginom.ru/userguide/interface/main-menu.html" target="_blank">Меню</a> появился пункт <em>Заблокировать</em>.</p>
 
-<p>Периодическая проверка соединения со стороны сервера по умолчанию отключена. В разделе <em>Администрирование</em> значение параметра <em>Период проверки соединения</em> по умолчанию установлено равным 1 (ранее было 300 сек.).</p>
+<p>Periodic connection check from the server part is disabled by default. В разделе <em>Администрирование</em> значение параметра <em>Период проверки соединения</em> по умолчанию установлено равным 1 (ранее было 300 сек.).</p>
 
 <p>Для Loginom Server под Linux можно настроить ограничение объема RAM, используемого приложением Loginom. In the <em>Administration</em> section on <em>Parameters</em> page new parameters appeared:</p>
 
 <ul>
-	<li><em>Максимум используемой памяти (КБ)</em> (по умолчанию — «не ограничено» (0)).</li>
-	<li><em>Доля используемой памяти</em> (по умолчанию — «не ограничено» (0)).</li>
+	<li><em>Used memory maximum (KB)</em> (by default — "not limited" (0)).</li>
+	<li><em>Memory usage ratio</em> (by default — "not limited" (0)).</li>
 </ul>
 
-<p>Минимальное значение ограничения на RAM — 300 Мб. При увеличении лимита использования памяти новое значение применяется сразу, при уменьшении лимита требуется перезапуск приложения. Ограничение действует на виртуальную память. Автоматическое расширение стека главного потока не затрагивается.</p>
+<p>Minimum value of RAM restriction — 300 MB. При увеличении лимита использования памяти новое значение применяется сразу, при уменьшении лимита требуется перезапуск приложения. The restriction applies to the virtual memory. Автоматическое расширение стека главного потока не затрагивается.</p>
 
 <p>Преимущество настройки заключается в том, что при достижении лимита не срабатывает OOM Killer. Но если память в системе закончилась до достижения лимита, OOM Killer сработает.</p>
 
@@ -68,7 +68,7 @@
 	<li>записывать контрольную сумму сжатых данных после каждого блока, а также контрольную сумму всех несжатых данных в конце файла, при этом запись будет выполняться медленнее на 1,5%.</li>
 </ul>
 
-<p>В мастер настройки <a href="https://help.loginom.ru/userguide/integration/import/ldf.html" target="_blank">Импорта из LGD-файла</a> добавлен параметр <em>Контрольная сумма</em>, который показывает, с какой контрольной суммой был создан файл с LZ4-сжатием, и новая настройка — флаг&nbsp;<em>Проверять контрольную сумму</em>. При установленном флаге производится проверка контрольной суммы, если она есть в файле. Это страхует пользователя от незаметных искажений и от ошибки "Access Violation", если файл по какой-то причине испорчен. При этом чтение будет производиться медленнее на 2%, если контрольная сумма была от сжатых данных, и до 7%, если были оба вида контрольной суммы. By default, the control sum is checked (the checkbox is selected).</p>
+<p>В мастер настройки <a href="https://help.loginom.ru/userguide/integration/import/ldf.html" target="_blank">Импорта из LGD-файла</a> добавлен параметр <em>Контрольная сумма</em>, который показывает, с какой контрольной суммой был создан файл с LZ4-сжатием, и новая настройка — флаг&nbsp;<em>Проверять контрольную сумму</em>. When the checkbox is selected, the control sum is checked if it is available in the file. Это страхует пользователя от незаметных искажений и от ошибки "Access Violation", если файл по какой-то причине испорчен. При этом чтение будет производиться медленнее на 2%, если контрольная сумма была от сжатых данных, и до 7%, если были оба вида контрольной суммы. By default, the control sum is checked (the checkbox is selected).</p>
 
 
   <figure class="lg-text-img lg-text-img_preview">
@@ -91,16 +91,16 @@
 
 <h2 id="обновленный-менеджер-файлового-хранилища">Updated File Storage Manager</h2>
 
-<p>В менеджере файлового хранилища появилось много новых функций, благодаря чему работа с файлами стала удобнее:</p>
+<p>Many new functions appeared in the file storage manager. File management became more comfortable due to this fact.</p>
 
 <ul>
-	<li>Добавлена возможность с помощью Drag-and-Drop загружать папки с находящимися внутри файлами/папками. Ранее можно было загружать только файлы, а структуру папок приходилось задавать вручную.</li>
-	<li>Можно создать новый пакет прямо из папки файлового хранилища: в контекстном меню менеджера появилась соответствующая команда.</li>
+	<li>It became possible to load folders with files/folders inside them using Drag-and-Drop. Previously, it was possible to load only files, and folder structure was to be manually set.</li>
+	<li>Now it is possible to create a new package directly from the file storage folder. Corresponding command appeared in the context menu of the manager.</li>
 	<li>При загрузке файлов с одинаковыми именами появилась возможность выбрать один из вариантов решения конфликта Заменить/Заменить все, Пропустить/Пропустить все или Отменить.</li>
-	<li>Скачивать файлы и папки из файлового хранилища можно в виде архива.</li>
+	<li>It is possible to load files and folders from the file storage in the archive form.</li>
 	<li>It became possible to unzip zip archive. Corresponding command was added to the context menu for this purpose.</li>
-	<li>Изменен начальный порядок сортировки колонок с «по возрастанию» на «по убыванию». В Файловом хранилище изменения коснулись колонок: Выделение файла/папки, Размер, Дата изменения и Только чтение. В Файловом Диалоге — Размер и Изменен.</li>
-	<li>Навигация по списку файлов/папок при помощи клавиатуры стала удобнее. Появился инкрементный поиск/позиционирование на файле/папке при вводе первых символов с клавиатуры.</li>
+	<li>The initial order of column sorting was changed from the "ascending" order to the "descending" order. The changes affected the following columns in the File Storage: Select file/folder, Size, Date of change and Read-only. In the File Dialog — Size and Changed.</li>
+	<li>Navigation through the list of files/foders using the keyboard became more comfortable. The incremental search/positioning on file/folder appeared when entering the first characters from the keyboard</li>
 </ul>
 
 <p>
@@ -109,10 +109,10 @@
 
 <h2 id="новые-возможности-в-стандартных-компонентах">New Opportunities in Standard Components</h2>
 
-<p>В компонентах <a href="https://help.loginom.ru/userguide/processors/transformation/grouping.html" target="_blank">Группировка</a> и <a href="https://help.loginom.ru/userguide/processors/variables/variables-from-table.html" target="_blank">Таблица в переменные</a> появились новые варианты агрегации:</p>
+<p>New aggregation options appeared in  <a href="https://help.loginom.ru/userguide/processors/transformation/grouping.html" target="_blank">Grouping</a> and <a href="https://help.loginom.ru/userguide/processors/variables/variables-from-table.html" target="_blank">Table to variables</a> components:</p>
 
 <ol>
-	<li><em>Единственный (Only)</em>, который возвращает значение агрегированного поля, если оно единственное на уровне группы. В мастерах настройки узлов <em>Группировка</em>&nbsp;и <em>Таблица в переменные</em> для не числовых (Строковый, Дата/Время, Логический, Переменный) полей в фактах этот вариант агрегации применяется по умолчанию.</li>
+	<li><em>Only</em> that returns the value of the aggregated field if it is the only one at the group level. В мастерах настройки узлов <em>Группировка</em>&nbsp;и <em>Таблица в переменные</em> для не числовых (Строковый, Дата/Время, Логический, Переменный) полей в фактах этот вариант агрегации применяется по умолчанию.</li>
 	<li><em>Mode</em> that is available for all data kinds and types. When calculating the mode, null values are ignored. If there are several modes, the minimum value will be selected:
 	<ul>
 		<li>for the logical data type — False;</li>
@@ -128,39 +128,39 @@
 <video class="lg-intro__video__container" controls="controls" style="width: 100%"><source src="/sites/default/files/blogpost-files/imputation.mp4" type="video/mp4"></video>
 </p>
 
-<p>В <a href="https://help.loginom.ru/userguide/processors/transformation/calc/" target="_blank">Калькулятор</a> добавлена функция ISO8601ToDate, которая конвертирует строку, содержащую дату/время в формате ISO 8601, в значение типа Дата/Время. При указанном смещении времени относительно UTC дата/время приводится к текущей временной зоне. Если смещение времени не указано, дата/время остается без изменений.</p>
+<p>В <a href="https://help.loginom.ru/userguide/processors/transformation/calc/" target="_blank">Калькулятор</a> добавлена функция ISO8601ToDate, которая конвертирует строку, содержащую дату/время в формате ISO 8601, в значение типа Дата/Время. При указанном смещении времени относительно UTC дата/время приводится к текущей временной зоне. If data offset is not set, date/time remains unchanged.</p>
 
 <p>В <em>Калькуляторе</em> поля и переменные теперь отображаются в разных таблицах, между которыми можно переключаться. Если в редакторе выражений дважды кликнуть мышью на переменной, то появляется подсказка, в которой выводится ее значение.</p>
 
-<p>В мастере настройки <a href="https://help.loginom.ru/userguide/processors/control/reference-node.html" target="_blank">Узла-ссылки</a> разрешено ссылаться на узлы подключений.</p>
+<p>It is allowed to refer to the connection nodes in the  <a href="https://help.loginom.ru/userguide/processors/control/reference-node.html" target="_blank">Reference node</a> wizard.</p>
 
-<p>В компонентах <a href="https://help.loginom.ru/userguide/processors/datamining/neural-network-regression.html" target="_blank">Нейросеть(регрессия)</a>, <a href="https://help.loginom.ru/userguide/processors/datamining/neural-network-classification.html" target="_blank">Нейросеть(классификация)</a>, <a href="https://help.loginom.ru/userguide/processors/datamining/logistic-regression/" target="_blank">Логистическая</a> и <a href="https://help.loginom.ru/userguide/processors/datamining/linear-regression/" target="_blank">Линейная</a> регрессии, в настройках разбиения на множества добавлен метод выборки <em>По столбцу</em>. Теперь появилась возможность заранее разбить множество на обучающее и тестовое (узел <a href="https://help.loginom.ru/userguide/processors/preprocessing/partitioning.html" target="_blank">Разбиение на множества</a>) и подавать общее множество на узел, выбрав разбиение по столбцу. Ранее после узла <em>Разбиение на множество</em> приходилось разделять тестовое и обучающее множество, а затем обучающее подавать на основной узел, а тестовое — на <a href="https://help.loginom.ru/userguide/processors/control/execute-node.html" target="_blank">Выполнение узла</a>. Если же затем требовался общий набор (обучающий + тестовый), то надо было использовать узел <a href="https://help.loginom.ru/userguide/processors/transformation/union.html" target="_blank">Объединение</a>. Теперь необходимости в дополнительных узлах нет.</p>
+<p>В компонентах <a href="https://help.loginom.ru/userguide/processors/datamining/neural-network-regression.html" target="_blank">Нейросеть(регрессия)</a>, <a href="https://help.loginom.ru/userguide/processors/datamining/neural-network-classification.html" target="_blank">Нейросеть(классификация)</a>, <a href="https://help.loginom.ru/userguide/processors/datamining/logistic-regression/" target="_blank">Логистическая</a> и <a href="https://help.loginom.ru/userguide/processors/datamining/linear-regression/" target="_blank">Линейная</a> регрессии, в настройках разбиения на множества добавлен метод выборки <em>По столбцу</em>. Теперь появилась возможность заранее разбить множество на обучающее и тестовое (узел <a href="https://help.loginom.ru/userguide/processors/preprocessing/partitioning.html" target="_blank">Разбиение на множества</a>) и подавать общее множество на узел, выбрав разбиение по столбцу. Ранее после узла <em>Разбиение на множество</em> приходилось разделять тестовое и обучающее множество, а затем обучающее подавать на основной узел, а тестовое — на <a href="https://help.loginom.ru/userguide/processors/control/execute-node.html" target="_blank">Выполнение узла</a>. Если же затем требовался общий набор (обучающий + тестовый), то надо было использовать узел <a href="https://help.loginom.ru/userguide/processors/transformation/union.html" target="_blank">Объединение</a>. Now there is no need in the additional nodes.</p>
 
-<p>Появилась возможность выполнения <a href="https://help.loginom.ru/userguide/processors/programming/python/" target="_blank">Python</a> в изолированном окружении пользователя. Теперь можно передавать переменные окружения в процесс интерпретатора Python. В качестве процесса интерпретатора Python можно указать скрипт python_run.sh (или аналогичный), который будет использовать переменные окружения для реализации логики запуска Python.</p>
+<p>It became possible to execute <a href="https://help.loginom.ru/userguide/processors/programming/python/" target="_blank">Python</a> in the isolated environment of the user. Now it became possible to transfer the environment variables to the Python interpreter process. В качестве процесса интерпретатора Python можно указать скрипт python_run.sh (или аналогичный), который будет использовать переменные окружения для реализации логики запуска Python.</p>
 
 <p>Чтобы Python выполнялся в изолированном окружении пользователя, необходимо указать соответствующие значения параметрам <em>Передавать переменные окружения узла</em>&nbsp;и <em>Путь интерпретатора</em> в разделе <em>Администрирование</em>&nbsp;на странице <em>Параметры</em>. В случае python_run.sh должен быть Linux, на котором установлен docker или podman, а также подготовлен базовый docker образ c Python и нужными пакетами внутри.</p>
 
 <h2 id="изменения-в-работе-с-базами-данных">Database Use Changes</h2>
 
-<p>Import from database wizard behavior changed. При первоначальном открытии мастера по умолчанию не отображается список таблиц, даже если подключение к базе данных активировано. It is required to press on <em>Activate</em> button in the right upper node of the wizard. При последующих открытиях мастера настройки, а также мастеров настройки новых узлов <em>Импорт из базы данных</em>, которые используют&nbsp;<em>Подключение с&nbsp;</em>ранее полученным списком таблиц, активация из мастера настройки не потребуется.</p>
+<p>Import from database wizard behavior changed. When the wizard is opened for the first time, the table list is not displayed by default even if database connection is activated. It is required to press on <em>Activate</em> button in the right upper node of the wizard. При последующих открытиях мастера настройки, а также мастеров настройки новых узлов <em>Импорт из базы данных</em>, которые используют&nbsp;<em>Подключение с&nbsp;</em>ранее полученным списком таблиц, активация из мастера настройки не потребуется.</p>
 
-<p>В <a href="https://help.loginom.ru/userguide/integration/import/database.html" target="_blank">Импорте из базы данных</a> появился режим выполнения с игнорированием ошибок. В мастер настройки добавлен редактор выбора режима активации и параметр <em>Тайм-аут импорта (мс)</em>, а узел <em>Импорт из базы данных</em> получил дополнительный выходной порт переменных <em>Статус выполнения</em>.</p>
+<p>Execution mode with error ignoring appeared in <a href="https://help.loginom.ru/userguide/integration/import/database.html" target="_blank">Import from database</a>. В мастер настройки добавлен редактор выбора режима активации и параметр <em>Тайм-аут импорта (мс)</em>, а узел <em>Импорт из базы данных</em> получил дополнительный выходной порт переменных <em>Статус выполнения</em>.</p>
 
 <p>При импорте в режиме <em>Игнорировать ошибки</em> узел активируется успешно даже при наличии в процессе активации ошибок, а информация об ошибках (код завершения и текст ошибки) записывается в выходной порт <em>Статус выполнения</em>.</p>
 
-<p>Следует учитывать, что при срабатывании тайм-аута в зависимости от этапа выполнения останавливается выполнение запроса или заполнение выходного набора. Таким образом, в режиме <em>Игнорировать ошибки</em> выходной набор данных может оказаться частично заполненным. <em>Тайм-аут импорта</em>&nbsp;не распространяется на предварительный просмотр внутри мастера настройки.</p>
+<p>Следует учитывать, что при срабатывании тайм-аута в зависимости от этапа выполнения останавливается выполнение запроса или заполнение выходного набора. Таким образом, в режиме <em>Игнорировать ошибки</em> выходной набор данных может оказаться частично заполненным. <em>Import timeout</em>&nbsp;does not apply to preview inside the wizard.</p>
 
-<p>Аналогичный режим игнорирования ошибок появился и в узле <a href="https://help.loginom.ru/userguide/integration/export/database.html" target="_blank">Экспорт в базу данных</a>.</p>
+<p>The similar error ignoring mode also appeared in <a href="https://help.loginom.ru/userguide/integration/export/database.html" target="_blank">Export to database</a> node.</p>
 
 <p>При настройке подключения к <a href="https://help.loginom.ru/userguide/integration/connections/list/mssql.html" target="_blank">MS SQL</a>, <a href="https://help.loginom.ru/userguide/integration/connections/list/postgresql.html" target="_blank">PostgreSQL</a>, <a href="https://help.loginom.ru/userguide/integration/connections/list/oracle.html" target="_blank">Oracle</a> (без клиента), <a href="https://help.loginom.ru/userguide/integration/connections/list/mysql.html" target="_blank">MySQL</a>, <a href="https://help.loginom.ru/userguide/integration/connections/list/clickhouse.html" target="_blank">ClickHouse</a> и <a href="https://help.loginom.ru/userguide/integration/connections/list/odbc.html" target="_blank">ODBC</a> (если поддерживается драйвером) можно указать <em>Тайм-аут подключения</em>. Если импорт из базы данных или экспорт в базу данных будет выполняться в режиме игнорирования ошибок, то в случае неудавшегося подключения в течение установленного времени, соответствующая ошибка будет записана в порт <em>Статус выполнения</em>, а при импорте/экспорте в обычном режиме — выполнение узла завершится ошибкой.</p>
 
-<p>Кроме того, при настройке подключения к&nbsp;<em>MS SQL</em>, <em>ClickHouse</em>, <em>PostgreSQL</em> и&nbsp;<em>MySQL</em> можно указать <em>Тайм-аут блокировки (с)</em>, который устанавливает тайм-аут ожидания снятия блокировки с ресурса (таблицы, строки). Без этой настройки узлы Импорта/Экспорта могут зависнуть на неограниченное время.</p>
+<p>Кроме того, при настройке подключения к&nbsp;<em>MS SQL</em>, <em>ClickHouse</em>, <em>PostgreSQL</em> и&nbsp;<em>MySQL</em> можно указать <em>Тайм-аут блокировки (с)</em>, который устанавливает тайм-аут ожидания снятия блокировки с ресурса (таблицы, строки). Import/Export nodes can be frozen for an unlimited time without this setting.</p>
 
-<p>В <a href="https://help.loginom.ru/userguide/integration/connections/list/sqlite.html" target="_blank">Подключение SQLite</a> добавлена настройка PRAGMA temp_store. Параметр позволяет определять место хранения временных файлов, таблиц и индексов (в памяти или на диске). По умолчанию они сохраняются на диске даже для баз in-memory, что при выполнении некоторых сценариев может приводить к существенному использованию диска и, соответственно, к его износу.</p>
+<p>PRAGMA temp_store setting was added to <a href="https://help.loginom.ru/userguide/integration/connections/list/sqlite.html" target="_blank">SQLite connection</a>. This parameter enables to define the storage place of temporary files, tables and indices (in memory or on disk). По умолчанию они сохраняются на диске даже для баз in-memory, что при выполнении некоторых сценариев может приводить к существенному использованию диска и, соответственно, к его износу.</p>
 
 <p>DateTime64, IPv4, IPv6,&nbsp;LowCardinality and Bool are now supported in ClickHouse.</p>
 
-<p>В PostgreSQL теперь поддерживается выполнение скриптов через <em>Импорт из базы данных</em>.</p>
+<p>Execution of scripts via <em>Import from database</em> is supported in PostgreSQL.</p>
 
 <h2 id="удобство-использования">Ease of Use</h2>
 
