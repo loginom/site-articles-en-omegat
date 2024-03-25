@@ -9891,8 +9891,8 @@
       <tuv lang="ru">
         <seg>Закрыть это окно Loginom CE можно было только через Диспетчер задач.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240301T075359Z" creationid="Марианна" creationdate="20240301T075359Z">
-        <seg>It was possible to close this Loginom CE window only using the Sesson Manager.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T135928Z" creationid="Марианна" creationdate="20240301T075359Z">
+        <seg>It was possible to close this Loginom CE window only using the Session Manager.</seg>
       </tuv>
     </tu>
     <tu>
@@ -13915,6 +13915,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При этом соединение с сервером не закрывается, никакие данные от сервера к клиенту и наоборот не передаются.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T140034Z" creationid="Марианна" creationdate="20240325T140034Z">
+        <seg>And connection with the server is not closed, no data is tranferred from the server to the client and vice versa.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При этом установка больших значений параметров "Таймаут подключения" и "Таймаут обмена данными" в настройках подключения к REST-сервису на данную ситуацию не влияли.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230316T053219Z" creationid="Марианна" creationdate="20230316T053150Z">
@@ -14119,6 +14127,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210321T195423Z" creationid="Марианна" creationdate="20210321T195423Z">
         <seg>Events to non-events ratio can be automatically set according to the training or test set data and it can be also manually set in the wizard or interactively in &lt;a0&gt; Binary сlassification assessment&lt;/a0&gt; visualizer.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Проходят некоторые служебные сообщения, и разрешен вызов разблокировки с передачей аутентификационных данных.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T140240Z" creationid="Марианна" creationdate="20240325T140240Z">
+        <seg>Some service messages are received, and it is allowed to call unlocking with authentication data transfer.</seg>
       </tuv>
     </tu>
     <tu>
