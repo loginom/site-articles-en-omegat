@@ -12321,6 +12321,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Первое крупное обновление 7-ой версии Loginom.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T093050Z" creationid="Марианна" creationdate="20240325T092635Z">
+        <seg>The First Major Update of of the 7th Loginom Version</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Перед открытием новой версии рекомендуем отдельно сохранить копии обновляемых пакетов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220224T065423Z" creationid="Марианна" creationdate="20220224T065423Z">
