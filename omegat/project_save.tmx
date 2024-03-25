@@ -11097,6 +11097,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>На странице &lt;e0&gt;Пользователи&lt;/e0&gt; в разделе &lt;e1&gt;Администрирование&lt;/e1&gt; можно увидеть не только список зарегистрированных пользователей, но и их общее количество.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T141519Z" creationid="Марианна" creationdate="20240325T141519Z">
+        <seg>Not only the list of registered users but also their number are displayed on &lt;e0&gt;Users&lt;/e0&gt; page in the &lt;e1&gt;Administration&lt;/e1&gt; section.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>На экране пользователь видит только окно аутентификации, он может ввести пароль и восстановить сессию, либо закрыть вкладку браузера и вместе с ней сессию.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240325T140435Z" creationid="Марианна" creationdate="20240325T140435Z">
