@@ -8473,6 +8473,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Возможность скачать бесплатную версию для некоммерческого использования &lt;s0&gt;Loginom Community на Linux&lt;/s0&gt; появится на официальном сайте в течение сентября.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T095153Z" creationid="Марианна" creationdate="20240325T095153Z">
+        <seg>It will be possible to download free version of &lt;s0&gt;Loginom Community for Linux&lt;/s0&gt; for non-commercial use on the official website during September.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Все лишние производные компоненты можно удалить вручную, после чего сохранить пакет.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220310T114008Z" creationid="Марианна" creationdate="20220227T155552Z">
