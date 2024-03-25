@@ -8329,6 +8329,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Вместе со списком визуализаторов «прокручивалась» и кнопка «Настройка визуализаторов», что неудобно.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T132234Z" creationid="Марианна" creationdate="20240325T132234Z">
+        <seg>"Configure visualizers" button was "scrolled" with the list of visualizers. It wasn't comfortable.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Вместо &lt;c0&gt;*/*&lt;/c0&gt; установлено &lt;c1&gt;application/json&lt;/c1&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240227T071335Z" creationid="Марианна" creationdate="20240218T182207Z">
@@ -10941,6 +10949,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T194928Z" creationid="Марианна" creationdate="20210314T194928Z">
         <seg>Monitoring of active users and busy packages.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>На главной (вертикальной) панели инструментов при большом количестве настроенных визуализаторов появляются кнопки, позволяющие прокручивать список настроенных визуализаторов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T132121Z" creationid="Марианна" creationdate="20240325T132121Z">
+        <seg>The buttons that enable to scroll the list of configured visualizers appear on the main (vertical) toolbar when there are many configured visualizers.</seg>
       </tuv>
     </tu>
     <tu>
@@ -16023,6 +16039,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220227T160215Z" creationid="Марианна" creationdate="20220227T160215Z">
         <seg>This option is relevant when it is required to process the multilingual text files or date-time data.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Эта функция полезна, когда на панели отображаются настроенные визуализаторы, названия которых могут быть длинными.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T131950Z" creationid="Марианна" creationdate="20240325T131950Z">
+        <seg>This function is useful when configured visualizers with long names are displayed on the toolbar.</seg>
       </tuv>
     </tu>
     <tu>
