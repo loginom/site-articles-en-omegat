@@ -7313,6 +7313,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В PostgreSQL теперь поддерживается выполнение скриптов через &lt;e0&gt;Импорт из базы данных&lt;/e0&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T104008Z" creationid="Марианна" creationdate="20240325T104008Z">
+        <seg>Execution of scripts via &lt;e0&gt;Import from database&lt;/e0&gt; is supported in PostgreSQL.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В Python при отправке таблицы pandas в output_table для меток столбцов не производится транслитерация в функции prepare_compatible_table.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240219T133655Z" creationid="Марианна" creationdate="20240219T133655Z">
