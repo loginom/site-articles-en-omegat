@@ -13451,6 +13451,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При загрузке файлов с одинаковыми именами появилась возможность выбрать один из вариантов решения конфликта Заменить/Заменить все, Пропустить/Пропустить все или Отменить.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T140738Z" creationid="Марианна" creationdate="20240325T140738Z">
+        <seg>аWhen loading the files with the same names, it became possible to select one of the confict solution options Replace/Replace all, .</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При запуске настольных редакций Loginom в качестве рабочего каталога устанавливается рабочий каталог, указанный в параметрах ярлыка.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220306T153934Z" creationid="Марианна" creationdate="20220306T153934Z">
@@ -15151,6 +15159,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220227T114740Z" creationid="Марианна" creationdate="20220227T114740Z">
         <seg>It became more convenient to design and debug the packages connected on the Reference page.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Стандарт LZ4 позволяет передавать опциональную контрольную сумму блока и всего содержимого.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T140648Z" creationid="Марианна" creationdate="20240325T140648Z">
+        <seg>LZ4 standard enables to transfer the optional control sum of block and all its content.</seg>
       </tuv>
     </tu>
     <tu>
