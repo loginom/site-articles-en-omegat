@@ -13338,6 +13338,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Появилась возможность скопировать текст сообщения из всплывающего окна об ошибке.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T142150Z" creationid="Марианна" creationdate="20240325T142150Z">
+        <seg>It became possible to copy message text from the popup error window.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Появилась возможность экспорта в Хранилище данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T200155Z" creationid="Марианна" creationdate="20210314T200155Z">
