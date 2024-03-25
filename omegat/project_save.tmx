@@ -7475,8 +7475,8 @@
       <tuv lang="ru">
         <seg>В качестве результата возвращаются имена, метки и типы входных используемых переменных, значения входных переменных; имена, метки и типы выражений и значения рассчитанных выражений.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240325T143229Z" creationid="Марианна" creationdate="20240325T143229Z">
-        <seg>Names, captions and types of the used input variables, values of the input variables; names, captions and types of expresssions and values of the calculated expressions are returned as the result.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T143352Z" creationid="Марианна" creationdate="20240325T143229Z">
+        <seg>Names, captions and types of the used input variables, values of the input variables; names, captions and types of expressions and values of the calculated expressions are returned as the result.</seg>
       </tuv>
     </tu>
     <tu>
@@ -13679,6 +13679,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240214T104937Z" creationid="Марианна" creationdate="20240214T104937Z">
         <seg>When configuring &lt;a0&gt;connection to SQLite database&lt;/a0&gt;, it is sufficient to select corresponding checkbox and it will be expanded in memory.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При настройке подключения к &lt;a0&gt;MS SQL&lt;/a0&gt;, &lt;a1&gt;PostgreSQL&lt;/a1&gt;, &lt;a2&gt;Oracle&lt;/a2&gt; (без клиента), &lt;a3&gt;MySQL&lt;/a3&gt;, &lt;a4&gt;ClickHouse&lt;/a4&gt; и &lt;a5&gt;ODBC&lt;/a5&gt; (если поддерживается драйвером) можно указать &lt;e6&gt;Тайм-аут подключения&lt;/e6&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T143504Z" creationid="Марианна" creationdate="20240325T143504Z">
+        <seg>When configuring connection to &lt;a0&gt;MS SQL&lt;/a0&gt;, &lt;a1&gt;PostgreSQL&lt;/a1&gt;, &lt;a2&gt;Oracle&lt;/a2&gt; (without client), &lt;a3&gt;MySQL&lt;/a3&gt;, &lt;a4&gt;ClickHouse&lt;/a4&gt; and &lt;a5&gt;ODBC&lt;/a5&gt; (if it is supported by driver), &lt;e6&gt;Connection timeout&lt;/e6&gt; can be specified.</seg>
       </tuv>
     </tu>
     <tu>
