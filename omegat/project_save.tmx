@@ -9505,6 +9505,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если в процессе перетаскивания зажать клавишу Alt, то автоматическое соединение не будет выполняться.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T133011Z" creationid="Марианна" creationdate="20240325T133011Z">
+        <seg>If the ALT key is held down when dragging, the automatic connection will not be performed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если в течение таймаута не удалось завершить активные процессы, то выдаётся сообщение об ошибке.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210616T164828Z" creationid="Марианна" creationdate="20210616T164654Z">
