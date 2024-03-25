@@ -9769,6 +9769,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если пользователь Loginom не проявляет активность в течение заданного периода времени, то сессия может быть заблокирована или соединение с сервером может быть принудительно закрыто.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T172114Z" creationid="Марианна" creationdate="20240325T172114Z">
+        <seg>If the Loginom user does not show activity during the set period of time, the session can be locked, or the server connection can be forcibly closed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если пользователь завершал настройку игнорируя ошибки, то данные импортировались, но все поля имели переменный тип данных (#5790).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20221126T155020Z" creationid="Марианна" creationdate="20221126T155020Z">
@@ -11173,6 +11181,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240325T171936Z" creationid="Марианна" creationdate="20240325T171936Z">
         <seg>On &lt;e0&gt;Login&lt;/e0&gt; page it is optionally possible to remove &lt;e1&gt;Remember me&lt;/e1&gt; (user) setting.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>На странице &lt;e0&gt;Параметры&lt;/e0&gt; в разделе &lt;e1&gt;Администрирование&lt;/e1&gt; появились новые параметры, которые используются для интерактивных сессий из веб-клиента:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T172245Z" creationid="Марианна" creationdate="20240325T172245Z">
+        <seg>New parameters used for the interactive sessions from web client appeared on &lt;e0&gt;Parameters&lt;/e0&gt; page in the &lt;e1&gt;Administration&lt;/e1&gt; section:</seg>
       </tuv>
     </tu>
     <tu>
