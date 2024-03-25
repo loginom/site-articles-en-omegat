@@ -13795,6 +13795,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При этом не появлялся горизонтальный скроллбар.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T134020Z" creationid="Марианна" creationdate="20240325T134020Z">
+        <seg>And the horizontal toolbar didn't appear in this case.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При этом не происходило выделение узла.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240228T194617Z" creationid="Марианна" creationdate="20240228T194617Z">
@@ -14983,6 +14991,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240214T105730Z" creationid="Марианна" creationdate="20240214T105730Z">
         <seg>Create, delete, move, rename folders.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Соответствующая настройка появилась в контекстном меню и на панели инструментов визуализатора.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T133940Z" creationid="Марианна" creationdate="20240325T133940Z">
+        <seg>Corresponding setting appeared in the context menu and on the visualizer toolbar.</seg>
       </tuv>
     </tu>
     <tu>
