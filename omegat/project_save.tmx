@@ -13275,6 +13275,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При работе над релизом значительное внимание уделялось запросам, которые поступали от наших пользователей.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T093234Z" creationid="Марианна" creationdate="20240325T093234Z">
+        <seg>While working on the release, considerable attention was paid to the requests that came from our users.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При работе под Linux необходимо задать файл сертификата, ключа и пароля.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240218T182118Z" creationid="Марианна" creationdate="20240218T182118Z">
