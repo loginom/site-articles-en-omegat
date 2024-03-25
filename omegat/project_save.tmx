@@ -10507,8 +10507,8 @@
       <tuv lang="ru">
         <seg>Кроме того, появились новые возможности при работе с базами данных, расширен функционал некоторых стандартных компонентов.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240325T093547Z" creationid="Марианна" creationdate="20240325T093547Z">
-        <seg>Besides, new opportunities concerning database operation appeared, functionality of some standard components was expanded.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T093649Z" creationid="Марианна" creationdate="20240325T093547Z">
+        <seg>Besides, new opportunities concerning database operation emerged, functionality of some standard components was expanded.</seg>
       </tuv>
     </tu>
     <tu>
@@ -14551,6 +14551,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230315T095452Z" creationid="Марианна" creationdate="20230315T095452Z">
         <seg>The drop-down list size near "Add" button was corrected to display "Data tree" port name fully on the screen (#8084, #8085).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Следите за новостями в &lt;a1&gt;Телеграм-канале Loginom&lt;/a1&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T093826Z" creationid="Марианна" creationdate="20240325T093826Z">
+        <seg>Follow the news in the &lt;a1&gt;Loginom Telegram channel&lt;/a1&gt;.</seg>
       </tuv>
     </tu>
     <tu>
