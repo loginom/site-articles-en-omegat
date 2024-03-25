@@ -7561,6 +7561,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В мастере настройки узла &lt;a0&gt;Калькулятор (переменные)&lt;/a0&gt; появился Предпросмотр результата вычисления.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T133852Z" creationid="Марианна" creationdate="20240325T133852Z">
+        <seg>Preview of the calculation result appeared in &lt;a0&gt;Calculator (variables)&lt;/a0&gt; node wizard.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В менеджере файлового хранилища появилось много новых функций, благодаря чему работа с файлами стала удобнее:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240325T101026Z" creationid="Марианна" creationdate="20240325T101026Z">
@@ -11077,6 +11085,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240317T101726Z" creationid="Марианна" creationdate="20240317T101726Z">
         <seg>For example, for GET request with the value of &lt;c1&gt;2015-07-31T18:30:00Z&lt;/c1&gt; parameter for UTC+03:00 as a response &lt;c2&gt;2015-07-31T18:30:00&lt;/c2&gt; value instead of the expected  &lt;c3&gt;2015-07-31T21:30:00&lt;/c3&gt; was received (#9650).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Например, для десятичного разделителя: «Не задано (,)».</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T133754Z" creationid="Марианна" creationdate="20240325T133754Z">
+        <seg>For example, for the decimal separator: "Not set (,)".</seg>
       </tuv>
     </tu>
     <tu>
@@ -15271,6 +15287,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T201726Z" creationid="Марианна" creationdate="20210314T201726Z">
         <seg>Such methods could be required for operation of some web services.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Таким образом, пользователь выполняет меньшее количество кликов мышью, для того чтобы перейти к настройке узла.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T133722Z" creationid="Марианна" creationdate="20240325T133722Z">
+        <seg>Thus, the user makes less mouse clicks to go to the node configuration.</seg>
       </tuv>
     </tu>
     <tu>
