@@ -9737,6 +9737,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если сессия была закрыта из &lt;a0&gt;Диспетчера&lt;/a0&gt;, то пользователь получит сообщение: «Администратор закрыл сессию через диспетчер».</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T133124Z" creationid="Марианна" creationdate="20240325T133124Z">
+        <seg>If the session was closed from &lt;a0&gt;Session Manager&lt;/a0&gt;, the user received the following message: "Administrator closed the session via Session Manager".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если смещение времени не указано, дата/время остается без изменений.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240325T102608Z" creationid="Марианна" creationdate="20240325T102608Z">
