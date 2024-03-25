@@ -7985,6 +7985,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В разделе &lt;e0&gt;Администрирование&lt;/e0&gt; значение параметра &lt;e1&gt;Период проверки соединения&lt;/e1&gt; по умолчанию установлено равным 1 (ранее было 300 сек.).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T174729Z" creationid="Марианна" creationdate="20240325T174729Z">
+        <seg>In the &lt;e0&gt;Administration&lt;/e0&gt; section the value of &lt;e1&gt;Connection check period&lt;/e1&gt; parameter was set to 1 by default (previously, it was 300 s).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В разделе &lt;e0&gt;Администрирование&lt;/e0&gt; на странице &lt;e1&gt;Параметры&lt;/e1&gt; появились новые параметры:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240319T115726Z" creationid="Марианна" creationdate="20240319T115648Z">
