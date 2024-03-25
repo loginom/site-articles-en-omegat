@@ -9737,6 +9737,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если количество попыток больше или равно N, то проверка пароля не выполняется, и выводится ошибка: "Превышено максимальное количество попыток входа в учётную запись".</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T171508Z" creationid="Марианна" creationdate="20240325T171508Z">
+        <seg>If the number of attempts was greater than or equal to N, the password was not checked, and the following error was displayed: "Maximum number of account login attempts was exceeded".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если логи перенаправляются из консоли контейнера в journald хоста, то многострочные сообщения разбиваются на несколько (каждая строка получается отдельным сообщением в journald).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240227T062652Z" creationid="Марианна" creationdate="20240227T062652Z">
