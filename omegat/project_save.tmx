@@ -7473,6 +7473,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В качестве результата возвращаются имена, метки и типы входных используемых переменных, значения входных переменных; имена, метки и типы выражений и значения рассчитанных выражений.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T143229Z" creationid="Марианна" creationdate="20240325T143229Z">
+        <seg>Names, captions and types of the used input variables, values of the input variables; names, captions and types of expresssions and values of the calculated expressions are returned as the result.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В качестве среды исполнения используется CPython, а работа с компонентом Python в сценарии идентична работе с компонентом JavaScript.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210320T214623Z" creationid="Марианна" creationdate="20210320T214623Z">
