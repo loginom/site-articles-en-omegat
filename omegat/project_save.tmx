@@ -8761,6 +8761,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Дистрибутив Loginom Desktop поставляется в виде архива.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T135151Z" creationid="Марианна" creationdate="20240325T135151Z">
+        <seg>Loginom Desktop distribution kit is supplied in the archive form.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для REST ответов реализован формат, соответствующий &lt;a0&gt;RFC 7807&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240227T062749Z" creationid="Марианна" creationdate="20240227T062749Z">
@@ -10757,6 +10765,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220426T105654Z" creationid="Марианна" creationdate="20220426T105634Z">
         <seg>Apart from the node name with GUID, the package name is also currently shown when logging an error message (#9176).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Кроме того, в некоторых случаях используются утилиты &lt;c1&gt;xdg-open&lt;/c1&gt; и &lt;c2&gt;dbus-send&lt;/c2&gt;, значение переменной окружения &lt;c3&gt;DESKTOP_SESSION&lt;/c3&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T135331Z" creationid="Марианна" creationdate="20240325T135331Z">
+        <seg>Besides, in some cases &lt;c1&gt;xdg-open&lt;/c1&gt; and &lt;c2&gt;dbus-send&lt;/c2&gt; utilities, the value of the environment variable &lt;c3&gt;DESKTOP_SESSION&lt;/c3&gt; are used.</seg>
       </tuv>
     </tu>
     <tu>
@@ -13471,6 +13487,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240219T121043Z" creationid="Марианна" creationdate="20240219T121043Z">
         <seg>When importing txt, csv, xml formats for preview or format estimate, only the required data volume is downloaded.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При использовании сторонних библиотек может потребоваться их самостоятельная установка.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T135443Z" creationid="Марианна" creationdate="20240325T135443Z">
+        <seg>Self-installation may be required when using the third-party libraries.</seg>
       </tuv>
     </tu>
     <tu>
