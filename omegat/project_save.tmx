@@ -7057,6 +7057,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Без этой настройки узлы Импорта/Экспорта могут зависнуть на неограниченное время.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T103707Z" creationid="Марианна" creationdate="20240325T103707Z">
+        <seg>Import/Export nodes can be frozen for an unlimited time without this setting.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Благодаря высокой пропускной способности, масштабируемости и отказоустойчивости применяется в крупных проектах с большими объемами данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240214T103919Z" creationid="Марианна" creationdate="20240214T103903Z">
@@ -7157,6 +7165,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240219T144302Z" creationid="Марианна" creationdate="20240219T144302Z">
         <seg>Functions of base64 encoded rows transformation to binary data rows and vice versa are available in &lt;a0&gt;Calculator&lt;/a0&gt; in the &lt;a1&gt;JavaScript mode&lt;/a1&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В &lt;a0&gt;Подключение SQLite&lt;/a0&gt; добавлена настройка PRAGMA temp_store.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T103742Z" creationid="Марианна" creationdate="20240325T103742Z">
+        <seg>PRAGMA temp_store setting was added to &lt;a0&gt;SQLite connection&lt;/a0&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12501,6 +12517,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240228T193618Z" creationid="Марианна" creationdate="20240228T193618Z">
         <seg>Control Sum parameter</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Параметр позволяет определять место хранения временных файлов, таблиц и индексов (в памяти или на диске).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T103925Z" creationid="Марианна" creationdate="20240325T103925Z">
+        <seg>This parameter enables to define the storage place of temporary files, tables and indices (in memory or on disk).</seg>
       </tuv>
     </tu>
     <tu>
