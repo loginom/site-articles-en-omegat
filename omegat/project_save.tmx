@@ -7473,6 +7473,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В менеджере файлового хранилища появилось много новых функций, благодаря чему работа с файлами стала удобнее:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T101026Z" creationid="Марианна" creationdate="20240325T101026Z">
+        <seg>Many new functions appeared in the file storage manager. File management became more comfortable due to this fact.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В настройках администрирования добавлена стандартная группа пользователей «Все».</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220227T084721Z" creationid="Марианна" creationdate="20220227T084721Z">
@@ -9021,6 +9029,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220304T150951Z" creationid="Марианна" creationdate="20220304T150951Z">
         <seg>Connection via &lt;a0&gt;ODBC drivers&lt;/a0&gt; for Apache Hive DBMS using connection strings was added.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Добавлена возможность с помощью Drag-and-Drop загружать папки с находящимися внутри файлами/папками.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T101106Z" creationid="Марианна" creationdate="20240325T101106Z">
+        <seg>It became possible to load folders with files/folders inside them using Drag-and-Drop.</seg>
       </tuv>
     </tu>
     <tu>
@@ -13459,6 +13475,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При установленном флаге производится проверка контрольной суммы, если она есть в файле.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T100905Z" creationid="Марианна" creationdate="20240325T100905Z">
+        <seg>When the checkbox is selected, the control sum is checked if it is available in the file.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При фильтрации по уникальным значениям в &lt;a0&gt;Кубе&lt;/a0&gt; снято ограничение в отображении не более 10000 уникальных элементов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210322T162746Z" creationid="Марианна" creationdate="20210322T162746Z">
@@ -13975,6 +13999,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240311T134638Z" creationid="Марианна" creationdate="20240311T134638Z">
         <seg>Previously, "Access violation" error could occur or random sequence of characters was in the final row when receiving the row from Python with a length exceeding 1365 Cyrillic characters or 2048 Latin characters.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Ранее можно было загружать только файлы, а структуру папок приходилось задавать вручную.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T101159Z" creationid="Марианна" creationdate="20240325T101159Z">
+        <seg>Previously, it was possible to load only files, and folder structure was to be manually set.</seg>
       </tuv>
     </tu>
     <tu>
