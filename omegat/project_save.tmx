@@ -6937,6 +6937,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Активностью пользователя считается нажатие клавиш, кнопок мыши и использование полос прокрутки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T100037Z" creationid="Марианна" creationdate="20240325T100037Z">
+        <seg>Pressing keys, mouse buttons and scroll bar use are considered to be user activity.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Алгоритм определения формата и разделителей дат стал более «строгим» с учетом наличия в строке даты и времени.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220426T114400Z" creationid="Марианна" creationdate="20220426T094143Z">
@@ -13431,6 +13439,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220307T142822Z" creationid="Марианна" creationdate="20220307T100938Z">
         <seg>When exporting to the databases, if "Update existing table records" export type is selected, and the key field contains &lt;e0&gt;NULL&lt;/e0&gt; values, the correct comparison of values is performed with the use of &lt;e1&gt;IS NULL&lt;/e1&gt; construction.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При этом в лог будет записано соответствующее сообщение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T095829Z" creationid="Марианна" creationdate="20240325T095829Z">
+        <seg>And corresponding message will be recorded in the log.</seg>
       </tuv>
     </tu>
     <tu>
