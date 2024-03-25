@@ -9153,6 +9153,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для этого нужно в файле client.json, который добавлен в папку %ProgramFiles%\Loginom\Client, установить для свойства &lt;c2&gt;rememberuser&lt;/c2&gt; значение &lt;c3&gt;false&lt;/c3&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T144259Z" creationid="Марианна" creationdate="20240325T144259Z">
+        <seg>For this purpose, it is required to set for &lt;c2&gt;rememberuser&lt;/c2&gt; property &lt;c3&gt;false&lt;/c3&gt; value in client.json file added to %ProgramFiles%\Loginom\Client folder.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для этого при клике на имя пакета необходимо удерживать клавишу «Ctrl» («Cmd» для MacOS).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220304T194140Z" creationid="Марианна" creationdate="20220304T193927Z">
