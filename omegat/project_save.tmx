@@ -2718,6 +2718,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;e0&gt;Тайм-аут закрытия сессии&lt;/e0&gt; — определяет период неактивности пользователя, по истечении которого  соединение с сервером будет закрыто.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T173958Z" creationid="Марианна" creationdate="20240325T173958Z">
+        <seg>&lt;e0&gt;Session disconnection timeout&lt;/e0&gt; defines the user inactivity period upon expiration of which the server connection will be closed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;e1&gt;Тайм-аут импорта&lt;/e1&gt; не распространяется на предварительный просмотр внутри мастера настройки.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240325T103454Z" creationid="Марианна" creationdate="20240325T103454Z">
