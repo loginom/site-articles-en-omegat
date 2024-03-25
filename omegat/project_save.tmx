@@ -10505,6 +10505,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Кроме того, появились новые возможности при работе с базами данных, расширен функционал некоторых стандартных компонентов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T093547Z" creationid="Марианна" creationdate="20240325T093547Z">
+        <seg>Besides, new opportunities concerning database operation appeared, functionality of some standard components was expanded.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Кроме того, производительность выше при подключении по UDS как на Linux, так и на Windows.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240227T060543Z" creationid="Марианна" creationdate="20240227T060543Z">
