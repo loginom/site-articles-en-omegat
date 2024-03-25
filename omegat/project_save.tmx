@@ -7633,6 +7633,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В нижней части панели под меню «Процессы» появилась соответствующая кнопка.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T131744Z" creationid="Марианна" creationdate="20240325T131744Z">
+        <seg>Corresponding button appeared in the lower part of the toolbar under "Processes" menu.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В новой версии библиотеки были исправлены ошибки, из-за которых в некоторых случаях сбивался масштаб пузырьковой диаграммы (#9222).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20221126T153932Z" creationid="Марианна" creationdate="20221126T153932Z">
@@ -7885,6 +7893,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210321T211015Z" creationid="Марианна" creationdate="20210321T210912Z">
         <seg>In the teamwork process or when executing the workflows with complex dependences, it frequently happened that the server notified that the required package was already used.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В развернутом состоянии ширину панели можно изменять, перетаскивая ее правую границу.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T131837Z" creationid="Марианна" creationdate="20240325T131837Z">
+        <seg>The toolbar width can be changed in the expanded state by dragging its right border.</seg>
       </tuv>
     </tu>
     <tu>
