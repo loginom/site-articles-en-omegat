@@ -7305,10 +7305,18 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В Файловом Диалоге — Размер и Изменен.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T101940Z" creationid="Марианна" creationdate="20240325T101940Z">
+        <seg>In the File Dialog — Size and Changed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В Файловом хранилище изменения коснулись колонок: Выделение файла/папки, Размер, Дата изменения и Только чтение.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240325T101722Z" creationid="Марианна" creationdate="20240325T101722Z">
-        <seg>The changes affected the following columns in the file storage: .</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T101911Z" creationid="Марианна" creationdate="20240325T101722Z">
+        <seg>The changes affected the following columns in the File Storage: Select file/folder, Size, Date of change and Read-only.</seg>
       </tuv>
     </tu>
     <tu>
@@ -10873,6 +10881,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Навигация по списку файлов/папок при помощи клавиатуры стала удобнее.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T102028Z" creationid="Марианна" creationdate="20240325T102028Z">
+        <seg>Navigation through the list of files/foders using the keyboard became more comfortable.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Нажатие на кнопку «Применить» не срабатывало, значения переменных не изменялись (#8987).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220425T203607Z" creationid="Марианна" creationdate="20220425T203537Z">
@@ -13014,6 +13030,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240212T083001Z" creationid="Марианна" creationdate="20240212T083001Z">
         <seg>Integration with Kafka message broker became possible.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Появился инкрементный поиск/позиционирование на файле/папке при вводе первых символов с клавиатуры.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T102229Z" creationid="Марианна" creationdate="20240325T102229Z">
+        <seg>The incremental search/positioning on file/folder appeared when entering the first characters from the keyboard</seg>
       </tuv>
     </tu>
     <tu>
