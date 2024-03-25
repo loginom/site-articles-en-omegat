@@ -9739,8 +9739,8 @@
       <tuv lang="ru">
         <seg>Если сессия была закрыта из &lt;a0&gt;Диспетчера&lt;/a0&gt;, то пользователь получит сообщение: «Администратор закрыл сессию через диспетчер».</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240325T133124Z" creationid="Марианна" creationdate="20240325T133124Z">
-        <seg>If the session was closed from &lt;a0&gt;Session Manager&lt;/a0&gt;, the user received the following message: "Administrator closed the session via Session Manager".</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T133226Z" creationid="Марианна" creationdate="20240325T133124Z">
+        <seg>If the session was closed from &lt;a0&gt;Session Manager&lt;/a0&gt;, the user received the following message: "Admin closed session via Session Manager".</seg>
       </tuv>
     </tu>
     <tu>
@@ -13042,6 +13042,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>После добавления узла в сценарий он переходит в выделенное состояние и на узле отображаются кнопки настройки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T133613Z" creationid="Марианна" creationdate="20240325T133613Z">
+        <seg>When the node is added to the workflow, it passes to the selected state, and setup buttons are displayed on the node.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>После исправления алгоритма, как и заявлено, выполняется сравнение без учёта регистра символов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230315T094102Z" creationid="Марианна" creationdate="20230315T080513Z">
@@ -14175,6 +14183,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240308T123252Z" creationid="Марианна" creationdate="20240308T123252Z">
         <seg>Previously, in the case of the single class its caption for the continuous values was generated as follows: "up to %d" (for example, "up to 9"). Now, it will be as follows: "...". </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Ранее для пользователя это выглядело как потеря связи с сервером.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T133416Z" creationid="Марианна" creationdate="20240325T133416Z">
+        <seg>Previously, it looked like server connection loss for the user.</seg>
       </tuv>
     </tu>
     <tu>
