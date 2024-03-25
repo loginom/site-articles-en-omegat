@@ -13419,6 +13419,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При первоначальном открытии мастера по умолчанию не отображается список таблиц, даже если подключение к базе данных активировано.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T103214Z" creationid="Марианна" creationdate="20240325T103214Z">
+        <seg>When the wizard is opened for the first time, the table list is not displayed by default even if database connection is activated.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При перезапуске приложения окно также оставалось свернутым (#7467, #8078).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240229T130057Z" creationid="Марианна" creationdate="20210322T221335Z">
