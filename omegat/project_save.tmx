@@ -2670,6 +2670,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>&lt;e0&gt;Единственный (Only)&lt;/e0&gt;, который возвращает значение агрегированного поля, если оно единственное на уровне группы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T102452Z" creationid="Марианна" creationdate="20240325T102452Z">
+        <seg>&lt;e0&gt;Only&lt;/e0&gt; that returns the value of the aggregated field if it is the only one at the group level.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>&lt;e0&gt;Максимум используемой памяти (КБ)&lt;/e0&gt; (по умолчанию — «не ограничено» (0)).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240325T100418Z" creationid="Марианна" creationdate="20240325T100418Z">
@@ -7397,6 +7405,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210320T214623Z" creationid="Марианна" creationdate="20210320T214623Z">
         <seg>CPython is used as the runtime environment, and the Python component operation in the workflow is identical to the JavaScript component operation.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В компонентах &lt;a0&gt;Группировка&lt;/a0&gt; и &lt;a1&gt;Таблица в переменные&lt;/a1&gt; появились новые варианты агрегации:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T102339Z" creationid="Марианна" creationdate="20240325T102339Z">
+        <seg>New aggregation options appeared in  &lt;a0&gt;Grouping&lt;/a0&gt; and &lt;a1&gt;Table to variables&lt;/a1&gt; components:</seg>
       </tuv>
     </tu>
     <tu>
