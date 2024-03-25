@@ -5241,6 +5241,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Integrator сравнивает этот список со своим собственным, если есть изменения, то применяет их.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T142250Z" creationid="Марианна" creationdate="20240325T142250Z">
+        <seg>Integrator compares this list with its own one, and if there are chnages, it applies them.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>JavaScript</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T174732Z" creationid="Марианна" creationdate="20210314T174732Z">
@@ -7485,6 +7493,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240220T081858Z" creationid="Марианна" creationdate="20240220T081858Z">
         <seg>"Copy full path" item was added to the context menu of the &lt;a0&gt;file storage&lt;/a0&gt; manager.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В конфигурационном файле Loginom Integrator Integrator.dll.config секция loginom переименована в settings.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T142501Z" creationid="Марианна" creationdate="20240325T142501Z">
+        <seg>loginom section in Loginom Integrator Integrator.dll.config configuration file was renamed to settings.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12862,6 +12878,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240325T131251Z" creationid="Марианна" creationdate="20240325T131251Z">
         <seg>By default, the following form of the name is used: path to the active element · the product name.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>По умолчанию параметр &lt;c1&gt;packageRefreshPeriod&lt;/c1&gt; отсутствует, периодического запроса списка пакетов не происходит.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T142420Z" creationid="Марианна" creationdate="20240325T142420Z">
+        <seg>&lt;c1&gt;packageRefreshPeriod&lt;/c1&gt; parameter is not available by default, the list of packages is not periodically requested.</seg>
       </tuv>
     </tu>
     <tu>
