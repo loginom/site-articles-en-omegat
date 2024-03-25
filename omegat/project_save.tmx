@@ -8265,6 +8265,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В &lt;a0&gt;визуализаторе Таблица&lt;/a0&gt; теперь есть возможность делать длинные заголовки многострочными.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T141732Z" creationid="Марианна" creationdate="20240325T141732Z">
+        <seg>It became possible to make multiline headers from the long ones in the &lt;a0&gt;Table visualizer&lt;/a0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Важно, чтобы этот процесс был максимально комфортным для специалиста, отвечал всем его запросам.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220227T092437Z" creationid="Марианна" creationdate="20220227T092437Z">
@@ -11709,6 +11717,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20201123T103954Z" creationid="Марианна" creationdate="20201123T103954Z">
         <seg>Performance Improvements</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Оптимизировали время подготовки визуализаторов &lt;e0&gt;Таблица&lt;/e0&gt; и &lt;a1&gt;Быстрый просмотр&lt;/a1&gt; для наборов с большим количеством столбцов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T141848Z" creationid="Марианна" creationdate="20240325T141848Z">
+        <seg>Time of &lt;e0&gt;Table&lt;/e0&gt; and &lt;a1&gt;Quick view&lt;/a1&gt; visualizers preparation was optimized.</seg>
       </tuv>
     </tu>
     <tu>
