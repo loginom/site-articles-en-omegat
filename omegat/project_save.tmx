@@ -7761,6 +7761,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В разделе &lt;a0&gt;Администрирование&lt;/a0&gt; на странице &lt;a1&gt;Параметры&lt;/a1&gt; появились новые настройки &lt;e2&gt;Лимит попыток ввода пароля (N)&lt;/e2&gt; и &lt;e3&gt;Тайм-аут ввода пароля (Т)&lt;/e3&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T095656Z" creationid="Марианна" creationdate="20240325T095656Z">
+        <seg>In the &lt;a0&gt;Administration&lt;/a0&gt; section on &lt;a1&gt;Parameters&lt;/a1&gt; page new &lt;e2&gt;Password entry limit (N)&lt;/e2&gt; and &lt;e3&gt;Password entry timeout (Т)&lt;/e3&gt; settings appeared.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В разделе &lt;e0&gt;Администрирование&lt;/e0&gt; на странице &lt;e1&gt;Параметры&lt;/e1&gt; появились новые параметры:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240319T115726Z" creationid="Марианна" creationdate="20240319T115648Z">
@@ -7925,6 +7933,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240227T062122Z" creationid="Марианна" creationdate="20240227T062122Z">
         <seg>In &lt;c0&gt;log&lt;/c0&gt; section of the configuration file optional &lt;c1&gt;console&lt;/c1&gt; element was added. The level of logging to the console is configured in it.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В серверных редакциях Loginom введено ограничение на количество неудачных попыток ввода пароля на странице аутентификации.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T095438Z" creationid="Марианна" creationdate="20240325T095438Z">
+        <seg>The number of unsuccessful attempts of entering password on the authentication page became limited in the server Loginom editions.</seg>
       </tuv>
     </tu>
     <tu>
