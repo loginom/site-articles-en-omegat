@@ -7689,6 +7689,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В обновление вошло большое количество изменений, направленных на удобство использования платформы:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T104200Z" creationid="Марианна" creationdate="20240325T104200Z">
+        <seg>Many changes aimed at ease of the platform use were introduced into the update:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В обновление вошло большое количество улучшений и новых возможностей, направленных на удобство использования платформы.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220224T061622Z" creationid="Марианна" creationdate="20220224T061622Z">
