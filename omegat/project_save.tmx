@@ -8049,6 +8049,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В связи с переходом на OpenSSL 3.0.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T134452Z" creationid="Марианна" creationdate="20240325T134452Z">
+        <seg>In connection with transfer to OpenSSL 3.0.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В связи с тем, что компонент выполняет код Python на сервере, на его использование накладывается ряд ограничений:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210320T220758Z" creationid="Марианна" creationdate="20210320T220758Z">
@@ -10621,6 +10629,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240211T171550Z" creationid="Марианна" creationdate="20240211T171550Z">
         <seg>Clustering</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Кнопка приостановки загрузки в Кубе</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T134949Z" creationid="Марианна" creationdate="20240325T134949Z">
+        <seg>Loading to Cube pause button</seg>
       </tuv>
     </tu>
     <tu>
@@ -15347,6 +15363,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Такой сертификат, например, нельзя задать как «Сертификат пользователя» в параметрах подключения к MySQL.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T134715Z" creationid="Марианна" creationdate="20240325T134715Z">
+        <seg>For example, such certificate cannot be set as the "User certificate" in parameters of connection to MySQL.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Такую ошибку можно было получить, например, если активировать, деактивировать и снова активировать Цикл с групповой обработкой по уникальным значениям полей строкового типа, настроенный на Подмодель с Нейросетью с режимом активации "всегда переобучать" (#9630).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230314T133452Z" creationid="Марианна" creationdate="20230314T133452Z">
@@ -16663,6 +16687,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230316T055648Z" creationid="Марианна" creationdate="20230316T055648Z">
         <seg>on the page of columns mapping configuration in &lt;e0&gt;Import from database&lt;/e0&gt; wizard or at the stage of &lt;e1&gt;Import from database&lt;/e1&gt; node activation in which SELECT request is set returning the fields with JSON type (#9248).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>нельзя использовать сертификаты с хэш-алгоритмом подписи SHA1 и MD5.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T134628Z" creationid="Марианна" creationdate="20240325T134628Z">
+        <seg>it is not possible to use the certificates with hash signature algorithm SHA1 and MD5.</seg>
       </tuv>
     </tu>
     <tu>
