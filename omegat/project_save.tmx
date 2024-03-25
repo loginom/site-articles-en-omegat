@@ -14411,6 +14411,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ранее остановить долгий процесс загрузки можно было только через &lt;a1&gt;Панель «Процессы»&lt;/a1&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T135744Z" creationid="Марианна" creationdate="20240325T135744Z">
+        <seg>Previously, it was possible to stop the long process of loading only via &lt;a1&gt;"Processes" panel&lt;/a1&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ранее отображался текст «последнее период до ...», теперь «последний период до ...», т.е. учтены особенности русского языка (#8848).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220426T113339Z" creationid="Марианна" creationdate="20220426T091626Z">
