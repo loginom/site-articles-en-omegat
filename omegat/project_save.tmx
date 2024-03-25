@@ -8081,6 +8081,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В серверных редакциях название вкладки браузера меняется в зависимости от активного элемента Loginom Studio.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T130538Z" creationid="Марианна" creationdate="20240325T130538Z">
+        <seg>Name of the browser tab changes according to the Loginom Studio active element in the server editions.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В случае с xlsx форматом происходит скачивание всего файла в память, поэтому стоит обращать внимание на размер таких файлов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240219T121234Z" creationid="Марианна" creationdate="20240219T121234Z">
