@@ -12417,6 +12417,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Периодическая проверка соединения со стороны сервера по умолчанию отключена.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T100227Z" creationid="Марианна" creationdate="20240325T100227Z">
+        <seg>Periodic connection check from the server part is disabled by default.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>По достижению максимального числа коэффициентов об этом будет записано сообщение в лог (#7968).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220426T093756Z" creationid="Марианна" creationdate="20220426T093756Z">
