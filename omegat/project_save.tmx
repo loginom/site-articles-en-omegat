@@ -13635,6 +13635,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При каждой попытке входа пользователя в систему выполняется проверка: сколько неудачных попыток ввода пароля было совершено для данного аккаунта пользователя за последние T секунд.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T171104Z" creationid="Марианна" creationdate="20240325T171104Z">
+        <seg>Check is performed for any attempt of the user login: how many failed attempts to enter password were performed for this user account in the last 5 seconds.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При клонировании копируются все атрибуты поля или переменной, кроме значения связанного поля или переменной из исходного набора данных.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220304T192050Z" creationid="Марианна" creationdate="20220304T192050Z">
