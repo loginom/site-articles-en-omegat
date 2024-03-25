@@ -11377,6 +11377,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Основные изменения коснулись повышения безопасности и удобства использования.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T093407Z" creationid="Марианна" creationdate="20240325T093407Z">
+        <seg>The main changes affected safety and usability improvements.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Особенно часто это могло доставлять неудобства, если в экспортируемых наборах встречались поля с артикулами товаров, начинающихся с нулей.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210322T165801Z" creationid="Марианна" creationdate="20210322T165801Z">
