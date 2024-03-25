@@ -10785,6 +10785,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Можно создать новый пакет прямо из папки файлового хранилища: в контекстном меню менеджера появилась соответствующая команда.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T101329Z" creationid="Марианна" creationdate="20240325T101329Z">
+        <seg>Now it is possible to create a new package directly from the file storage folder. Corresponding command appeared in the context menu of the manager.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Мониторинг активных пользователей и занятых пакетов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T194928Z" creationid="Марианна" creationdate="20210314T194928Z">
@@ -14647,6 +14655,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220425T150004Z" creationid="Марианна" creationdate="20220425T150004Z">
         <seg>Try version</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Скачивать файлы и папки из файлового хранилища можно в виде архива.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T101412Z" creationid="Марианна" creationdate="20240325T101412Z">
+        <seg>It is possible to load files and folders from the file storage in the archive form.</seg>
       </tuv>
     </tu>
     <tu>
