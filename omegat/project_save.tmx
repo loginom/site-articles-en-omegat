@@ -7393,6 +7393,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В визуализаторах обновление таблицы &lt;e0&gt;Детализация&lt;/e0&gt; происходит быстрее и визуально комфортнее для пользователя.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T142046Z" creationid="Марианна" creationdate="20240325T142046Z">
+        <seg>&lt;e0&gt;Detailing&lt;/e0&gt; table in visualizers is updated faster and visually more comfortable for the user.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В визуализаторе &lt;a0&gt;Статистика &lt;/a0&gt;явно обозначены ячейки с нерассчитанными показателями и кнопки запуска расчетов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220307T100832Z" creationid="Марианна" creationdate="20220307T100832Z">
