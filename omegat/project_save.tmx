@@ -7305,6 +7305,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В Файловом хранилище изменения коснулись колонок: Выделение файла/папки, Размер, Дата изменения и Только чтение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T101722Z" creationid="Марианна" creationdate="20240325T101722Z">
+        <seg>The changes affected the following columns in the file storage: .</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В большинстве случаев это позволяет более точно определить типы данных, используемые в импортируемом наборе.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220304T155326Z" creationid="Марианна" creationdate="20220304T155326Z">
@@ -9797,6 +9805,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240227T064938Z" creationid="Марианна" creationdate="20240227T064938Z">
         <seg>Algorithm of pseudorandom numbers generation was changed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Изменен начальный порядок сортировки колонок с «по возрастанию» на «по убыванию».</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T101641Z" creationid="Марианна" creationdate="20240325T101641Z">
+        <seg>The initial order of column sorting was changed from the "ascending" order to the "descending" order.</seg>
       </tuv>
     </tu>
     <tu>
