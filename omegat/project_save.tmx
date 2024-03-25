@@ -13453,8 +13453,8 @@
       <tuv lang="ru">
         <seg>При загрузке файлов с одинаковыми именами появилась возможность выбрать один из вариантов решения конфликта Заменить/Заменить все, Пропустить/Пропустить все или Отменить.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240325T140738Z" creationid="Марианна" creationdate="20240325T140738Z">
-        <seg>аWhen loading the files with the same names, it became possible to select one of the confict solution options Replace/Replace all, .</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T140800Z" creationid="Марианна" creationdate="20240325T140738Z">
+        <seg>When loading the files with the same names, it became possible to select one of the confict solution options Replace/Replace all, .</seg>
       </tuv>
     </tu>
     <tu>
