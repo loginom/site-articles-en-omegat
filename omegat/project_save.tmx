@@ -10769,6 +10769,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Кроме того, таблицу характеристик набора данных можно скрыть, чтобы появилось больше места для отображения списка проблем.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T134422Z" creationid="Марианна" creationdate="20240325T134422Z">
+        <seg>Besides, the data set characteristics table can be hidden to provide more space to display the list of problems.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Кросс-таблица</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220220T163605Z" creationid="Марианна" creationdate="20220220T163605Z">
@@ -15567,6 +15575,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240228T191036Z" creationid="Марианна" creationdate="20220711T091736Z">
         <seg>Now, a user will receive a warning before the next wizard step if database table is not selected in the wizard, or SQL query is not set (#6525).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Теперь после расчета статистик вся информация помещается на экране, а при необходимости появляется горизонтальный скроллбар.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240325T134251Z" creationid="Марианна" creationdate="20240325T134251Z">
+        <seg>Now all information fits on the screen after statistics calculation, and the horizontal scrollbar appears if required.</seg>
       </tuv>
     </tu>
     <tu>
