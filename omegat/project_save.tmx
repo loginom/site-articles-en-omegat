@@ -7545,6 +7545,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В компонентах &lt;a0&gt;Нейросеть(регрессия)&lt;/a0&gt;, &lt;a1&gt;Нейросеть(классификация)&lt;/a1&gt;, &lt;a2&gt;Логистическая&lt;/a2&gt; и &lt;a3&gt;Линейная&lt;/a3&gt; регрессии, в настройках разбиения на множества добавлен метод выборки &lt;e4&gt;По столбцу&lt;/e4&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240326T072050Z" creationid="Марианна" creationdate="20240326T072050Z">
+        <seg>In &lt;a0&gt;Neural network(regression)&lt;/a0&gt;, &lt;a1&gt;Neural network(classification)&lt;/a1&gt;, &lt;a2&gt;Logistic&lt;/a2&gt; and &lt;a3&gt;Linear&lt;/a3&gt; regression new &lt;e4&gt;By column&lt;/e4&gt; sampling method was added in partitioning settings.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В компоненте &lt;a0&gt;Фильтр строк &lt;/a0&gt;при выборе условия фильтрации «В списке / Вне списка» добавлена возможность копирования и вставки данных через буфер обмена.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220308T140622Z" creationid="Марианна" creationdate="20220307T142923Z">
