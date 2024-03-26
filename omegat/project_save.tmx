@@ -8857,6 +8857,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для &lt;a0&gt;LGD-файлов&lt;/a0&gt; в дополнение к алгоритму сжатия &lt;a1&gt;LZO&lt;/a1&gt; стал доступен алгоритм &lt;a2&gt;LZ4&lt;/a2&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240326T064723Z" creationid="Марианна" creationdate="20240326T064723Z">
+        <seg>For &lt;a0&gt;LGD files&lt;/a0&gt; in addition to &lt;a1&gt;LZO&lt;/a1&gt; compression algorithm &lt;a2&gt;LZ4&lt;/a2&gt; algorithm became available.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для Loginom Server под Linux можно настроить ограничение объема RAM, используемого приложением Loginom.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240326T063827Z" creationid="Марианна" creationdate="20240326T063827Z">
@@ -11825,6 +11833,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Однако файлы, сжатые алгоритмом LZ4, примерно на 9-10% больше по размеру, чем сжатые с помощью алгоритма LZ0.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240326T065127Z" creationid="Марианна" creationdate="20240326T065127Z">
+        <seg>However, the files compressed with LZ4 algorithm are about 9-10% larger in size as compared with the ones compressed with LZ0 algorithm.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Она возникала нерегулярно в редакциях под Linux и не имела точных шагов воспроизведения (#10179).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240307T083605Z" creationid="Марианна" creationdate="20240307T083605Z">
@@ -12966,6 +12982,14 @@
       <tuv lang="en" changeid="Марианна" changedate="20220304T160002Z" creationid="Марианна" creationdate="20220304T160002Z">
         <seg>When pressing on "Assume structure" button on "Configure Import Formats" page, the following parameters will be automatically defined and set: column delimiter, text qualifier, decimal separator, date separator, time separator, date format. 
 .</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>По сравнению с LZO прирост скорости при записи файлов с LZ4 составляет до 10%, при чтении — до 40%.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240326T064827Z" creationid="Марианна" creationdate="20240326T064827Z">
+        <seg>As compared with LZO, the speed increase when recording the files with LZ4 is up to 10%, when reading — up to 40%.</seg>
       </tuv>
     </tu>
     <tu>
