@@ -7553,6 +7553,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В мастер настройки &lt;a0&gt;Импорта из LGD-файла&lt;/a0&gt; добавлен параметр &lt;e1&gt;Контрольная сумма&lt;/e1&gt;, который показывает, с какой контрольной суммой был создан файл с LZ4-сжатием, и новая настройка — флаг &lt;e2&gt;Проверять контрольную сумму&lt;/e2&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240326T070441Z" creationid="Марианна" creationdate="20240326T070441Z">
+        <seg>To &lt;a0&gt;Import from LGD file&lt;/a0&gt; &lt;e1&gt;Control sum&lt;/e1&gt; parameter was added. It shows the control sum with which the file was created with LZ4 compression, and new setting - &lt;e2&gt;Check control sum&lt;/e2&gt; checkbox.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В мастера настройки обработчиков, алгоритмы которых используют генерацию псевдослучайных чисел, добавлена возможность установить Random Seed.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240227T071706Z" creationid="Марианна" creationdate="20240225T163725Z">
