@@ -15555,6 +15555,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Следует учитывать, что при срабатывании тайм-аута в зависимости от этапа выполнения останавливается выполнение запроса или заполнение выходного набора.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240326T083434Z" creationid="Марианна" creationdate="20240326T083434Z">
+        <seg>It should be noted that when timeout is activated according to the execution stage the request execution or the output data set filling in stops.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Создание, удаление, перемещение, переименование папок.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240214T105730Z" creationid="Марианна" creationdate="20240214T105730Z">
