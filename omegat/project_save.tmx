@@ -7243,8 +7243,8 @@
       <tuv lang="ru">
         <seg>В &lt;a0&gt;визуализаторе Куб&lt;/a0&gt; в режим «Приостановить автовычисления» при открытии панели фильтра измерения начинается загрузка данных и, если данные долго загружаются, отображается кнопка «Отменить», позволяющая приостановить загрузку.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240326T080535Z" creationid="Марианна" creationdate="20240326T080535Z">
-        <seg>in the &lt;a0&gt;Cube visualizer&lt;/a0&gt; в режим «Приостановить автовычисления» при открытии панели фильтра измерения начинается загрузка данных и, если данные долго загружаются, отображается кнопка «Отменить», позволяющая приостановить загрузку.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240326T081006Z" creationid="Марианна" creationdate="20240326T080535Z">
+        <seg>When opening the dimension filter panel in the &lt;a0&gt;Cube visualizer&lt;/a0&gt; in "Defer layout update" mode, data loading starts, and if the data is loading for a long time, "Cancel" button is displayed. It enables to stop the loading process.</seg>
       </tuv>
     </tu>
     <tu>
