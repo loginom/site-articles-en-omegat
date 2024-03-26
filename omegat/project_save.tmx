@@ -7177,6 +7177,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В &lt;a0&gt;Заполнении пропусков&lt;/a0&gt; для метода заполнения «Заменять на «Не задано»» появилась возможность настройки значения «Не задано».</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240326T070747Z" creationid="Марианна" creationdate="20240326T070747Z">
+        <seg>It became possible to configure "Not set" value in &lt;a0&gt;Imputation&lt;/a0&gt; for "Replace with "Not set" imputation method.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В &lt;a0&gt;Импорте из базы данных&lt;/a0&gt; появился режим выполнения с игнорированием ошибок.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240325T103348Z" creationid="Марианна" creationdate="20240325T103348Z">
