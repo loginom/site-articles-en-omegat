@@ -16667,6 +16667,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Чтобы Python выполнялся в изолированном окружении пользователя, необходимо указать соответствующие значения параметрам &lt;e0&gt;Передавать переменные окружения узла&lt;/e0&gt; и &lt;e1&gt;Путь интерпретатора&lt;/e1&gt; в разделе &lt;e2&gt;Администрирование&lt;/e2&gt; на странице &lt;e3&gt;Параметры&lt;/e3&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240326T082214Z" creationid="Марианна" creationdate="20240326T082214Z">
+        <seg>To execute Python in the isolated user environment, it is required to specify the values matching &lt;e0&gt;Передавать переменные окружения узла&lt;/e0&gt; и &lt;e1&gt;Путь интерпретатора&lt;/e1&gt; parameters in the &lt;e2&gt;Administration&lt;/e2&gt; section on &lt;e3&gt;Parameters&lt;/e3&gt; page.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Чтобы данные отобразились, нужно было переключиться на другое поле, а затем вернуться обратно.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240317T113053Z" creationid="Марианна" creationdate="20240317T113053Z">
