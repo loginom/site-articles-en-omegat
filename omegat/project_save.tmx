@@ -7537,6 +7537,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В качестве процесса интерпретатора Python можно указать скрипт python_run.sh (или аналогичный), который будет использовать переменные окружения для реализации логики запуска Python.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240326T082012Z" creationid="Марианна" creationdate="20240326T082012Z">
+        <seg>As Python interpreter process it is possible to specify python_run.sh script (or the similar one) that will use the environment variables for implementation of Python start logics.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В качестве результата возвращаются имена, метки и типы входных используемых переменных, значения входных переменных; имена, метки и типы выражений и значения рассчитанных выражений.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240325T143352Z" creationid="Марианна" creationdate="20240325T143229Z">
