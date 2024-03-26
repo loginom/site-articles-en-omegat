@@ -16955,6 +16955,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>записывать контрольную сумму сжатых данных после каждого блока, а также контрольную сумму всех несжатых данных в конце файла, при этом запись будет выполняться медленнее на 1,5%.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240326T065836Z" creationid="Марианна" creationdate="20240326T065836Z">
+        <seg>to record the control sum of the compressed data after each block and also the control sum of all uncompressed data at the end of the file, and in this case the record will be performed 1.5% slower.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>значение для определения периода — базовая дата, тип временного промежутка и значение временного промежутка для фильтров: первый, не первый, последний не последний.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220304T193231Z" creationid="Марианна" creationdate="20220304T193231Z">
