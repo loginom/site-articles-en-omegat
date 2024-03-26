@@ -8417,6 +8417,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В &lt;a0&gt;визуализаторе Качество данных&lt;/a0&gt; после расчета статистик список проблем для некоторых полей мог оказаться слишком большим и не умещался на экране.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240326T081652Z" creationid="Марианна" creationdate="20240326T081652Z">
+        <seg>The list of problems for some fields after statistics calculation could be to large for the screen in the &lt;a0&gt;Data quality visualizer&lt;/a0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В &lt;a0&gt;визуализаторе Таблица&lt;/a0&gt; теперь есть возможность делать длинные заголовки многострочными.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240325T141732Z" creationid="Марианна" creationdate="20240325T141732Z">
