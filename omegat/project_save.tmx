@@ -11121,6 +11121,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Кроме того, при настройке подключения к &lt;e0&gt;MS SQL&lt;/e0&gt;, &lt;e1&gt;ClickHouse&lt;/e1&gt;, &lt;e2&gt;PostgreSQL&lt;/e2&gt; и &lt;e3&gt;MySQL&lt;/e3&gt; можно указать &lt;e4&gt;Тайм-аут блокировки (с)&lt;/e4&gt;, который устанавливает тайм-аут ожидания снятия блокировки с ресурса (таблицы, строки).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240326T084839Z" creationid="Марианна" creationdate="20240326T084839Z">
+        <seg>Besides, when configuring connection to &lt;e0&gt;MS SQL&lt;/e0&gt;, &lt;e1&gt;ClickHouse&lt;/e1&gt;, &lt;e2&gt;PostgreSQL&lt;/e2&gt; and &lt;e3&gt;MySQL&lt;/e3&gt;, it is possible to specify &lt;e4&gt;Lock timeout (s)&lt;/e4&gt; that sets timeout of resource (table, string) unlocking.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Кроме того, производительность выше при подключении по UDS как на Linux, так и на Windows.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240227T060543Z" creationid="Марианна" creationdate="20240227T060543Z">
