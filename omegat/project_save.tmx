@@ -7601,6 +7601,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В мастере настройки &lt;a0&gt;Экспорта в LGD-файл&lt;/a0&gt; алгоритм LZ4 добавлен в выпадающий список форматов сжатия и используется по умолчанию.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240326T065245Z" creationid="Марианна" creationdate="20240326T065245Z">
+        <seg>In &lt;a0&gt;Export to LGD file&lt;/a0&gt; LZ4 algorithm is added to the drop-down list of compression formats and it is used by default.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В мастере настройки &lt;e1&gt;Подмодели&lt;/e1&gt; добавлен флаг необязательности портов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240219T143820Z" creationid="Марианна" creationdate="20240219T143820Z">
