@@ -36,10 +36,10 @@
 
 <p><a href="https://help.loginom.ru/userguide/processors/datamining/linear-regression/index.html" target="_blank"><strong>Linear regression:</strong></a>&nbsp;After opening of earlier configured package and start of&nbsp;<em>Linear regression</em>&nbsp;node without retraining, confidence intervals values were not calculated and were equal to 0. Correct values of confidence intervals appeared in "Regression model coefficients" after the repeated node start. The error was corrected (#9553).</p>
 
-<p><a href="https://help.loginom.ru/userguide/integration/connections/list/wh-mssql.html" target="_blank"><strong>Connection of Deductor Warehouse MS SQL:</strong></a>&nbsp;The following error was corrected: "Cannot execute command in current transaction context until previous opened DataSet ...". The error could occur when connection to the Data storage with the long list of objects (more than 25) was activated (#9154).</p>
+<p><a href="https://help.loginom.ru/userguide/integration/connections/list/wh-mssql.html" target="_blank"><strong>Connection of Deductor Warehouse MS SQL:</strong></a>&nbsp;The following error was corrected: "Cannot execute command in current transaction context until previous opened DataSet ...". The error could occur when connection to the Data Warehouse with the long list of objects (more than 25) was activated (#9154).</p>
 
 <blockquote>
-<p>Please note. On activation of connection "Required provider is not installed" error will be displayed for the packages created up to 6.5 version that are connected with Data storage on MS SQL via built-in client. It is required to install SQL Server Native Client (#9154).</p>
+<p>Please note. On activation of connection "Required provider is not installed" error will be displayed for the packages created up to 6.5 version that are connected with Data Warehouse on MS SQL via built-in client. It is required to install SQL Server Native Client (#9154).</p>
 </blockquote>
 
 <p><a href="https://help.loginom.ru/userguide/integration/connections/list/mysql.html" target="_blank"><strong>Connection of MySQL:</strong></a>&nbsp;The following error was corrected: "Data type is not supported". It occurred in the following cases:</p>
