@@ -7241,6 +7241,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В &lt;a0&gt;визуализаторе Куб&lt;/a0&gt; в режим «Приостановить автовычисления» при открытии панели фильтра измерения начинается загрузка данных и, если данные долго загружаются, отображается кнопка «Отменить», позволяющая приостановить загрузку.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240326T080535Z" creationid="Марианна" creationdate="20240326T080535Z">
+        <seg>in the &lt;a0&gt;Cube visualizer&lt;/a0&gt; в режим «Приостановить автовычисления» при открытии панели фильтра измерения начинается загрузка данных и, если данные долго загружаются, отображается кнопка «Отменить», позволяющая приостановить загрузку.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В &lt;a0&gt;визуализаторе Куб&lt;/a0&gt; появилась возможность настраивать измерения в отдельном окне.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240219T150007Z" creationid="Марианна" creationdate="20240219T150007Z">
@@ -9283,8 +9291,8 @@
       <tuv lang="ru">
         <seg>Для этого в файле конфигурации Integrator-а необходимо указать параметр &lt;c0&gt;packageRefreshPeriod&lt;/c0&gt;, задающий период (в секундах), с которым запрашивается с сервера список опубликованных пакетов.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240326T080444Z" creationid="Марианна" creationdate="20240326T080444Z">
-        <seg>For this purpose, it is required to specify &lt;c0&gt;packageRefreshPeriod&lt;/c0&gt; parameter in the Integrator configuration file that set the period (in seconds) of request of the published packages list from the server.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240326T080513Z" creationid="Марианна" creationdate="20240326T080444Z">
+        <seg>For this purpose, it is required to specify &lt;c0&gt;packageRefreshPeriod&lt;/c0&gt; parameter in the Integrator configuration file that sets the period (in seconds) of request of the published packages list from the server.</seg>
       </tuv>
     </tu>
     <tu>
