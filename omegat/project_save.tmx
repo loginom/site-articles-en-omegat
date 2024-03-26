@@ -7617,6 +7617,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В мастер настройки добавлен редактор выбора режима активации и параметр &lt;e1&gt;Тайм-аут импорта (мс)&lt;/e1&gt;, а узел &lt;e2&gt;Импорт из базы данных&lt;/e2&gt; получил дополнительный выходной порт переменных &lt;e3&gt;Статус выполнения&lt;/e3&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240326T084554Z" creationid="Марианна" creationdate="20240326T084554Z">
+        <seg>Editor of activation mode selection and &lt;e1&gt;Import timeout (ms)&lt;/e1&gt; parameter were added to the wizard, and &lt;e2&gt;Import from database&lt;/e2&gt; node received additional output port of variables - &lt;e3&gt;Execution status&lt;/e3&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В мастера настройки обработчиков, алгоритмы которых используют генерацию псевдослучайных чисел, добавлена возможность установить Random Seed.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240227T071706Z" creationid="Марианна" creationdate="20240225T163725Z">
