@@ -13883,6 +13883,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При импорте в режиме &lt;e0&gt;Игнорировать ошибки&lt;/e0&gt; узел активируется успешно даже при наличии в процессе активации ошибок, а информация об ошибках (код завершения и текст ошибки) записывается в выходной порт &lt;e1&gt;Статус выполнения&lt;/e1&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240326T084232Z" creationid="Марианна" creationdate="20240326T084232Z">
+        <seg>When importing in &lt;e0&gt;Ignore errors&lt;/e0&gt; mode, the node is successfully activated even in case of errors in the activation process, and information on errors (completion code and error text) is recorded in &lt;e1&gt;Execution status&lt;/e1&gt; output port.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При импорте из Хранилища данных появилась возможность отображения данных в виде иерархической (древовидной) структуры, что существенно упрощает настройку импорта данных, если хранилище имеет сложную структуру.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210325T113536Z" creationid="Марианна" creationdate="20210320T235254Z">
@@ -15895,6 +15903,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240326T081512Z" creationid="Марианна" creationdate="20240326T081512Z">
         <seg>Thus, less trees are saved in the node configuration, the processing speed is much higher if there are many elements in the source transactions.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Таким образом, в режиме &lt;e0&gt;Игнорировать ошибки&lt;/e0&gt; выходной набор данных может оказаться частично заполненным.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240326T083539Z" creationid="Марианна" creationdate="20240326T083539Z">
+        <seg>Thus, the output data set can be partially filled in for &lt;e0&gt;Ignore errors&lt;/e0&gt; mode.</seg>
       </tuv>
     </tu>
     <tu>
