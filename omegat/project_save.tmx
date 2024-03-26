@@ -14219,6 +14219,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При этом чтение будет производиться медленнее на 2%, если контрольная сумма была от сжатых данных, и до 7%, если были оба вида контрольной суммы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240326T070203Z" creationid="Марианна" creationdate="20240326T070203Z">
+        <seg>And reading will be performed 2% slower if the control sum is from the compressed data, and up to 7% if there are both kinds of the control sum.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При этом, имена, заканчивающиеся точкой или пробелом, запрещены.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220308T144343Z" creationid="Марианна" creationdate="20220308T144326Z">
@@ -16663,6 +16671,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240319T085048Z" creationid="Марианна" creationdate="20240319T085025Z">
         <seg>It is connected with peculiarities of the fractional decimal numbers holding in the binary number system.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Это страхует пользователя от незаметных искажений и от ошибки "Access Violation", если файл по какой-то причине испорчен.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240326T070042Z" creationid="Марианна" creationdate="20240326T070042Z">
+        <seg>This insures the user against hidden distortions and "Access Violation" error if the file is somehow damaged.</seg>
       </tuv>
     </tu>
     <tu>
