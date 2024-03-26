@@ -9817,6 +9817,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если же затем требовался общий набор (обучающий + тестовый), то надо было использовать узел &lt;a8&gt;Объединение&lt;/a8&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240326T071832Z" creationid="Марианна" creationdate="20240326T071832Z">
+        <seg>If the shared data set was required (training + test) afterwards, &lt;a8&gt;Union&lt;/a8&gt; node was to be used.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если же среди выбранных подключений есть как активные, так и не активные, то при нажатии кнопки будут протестированы только неактивные подключения (#8304).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20211229T111901Z" creationid="Марианна" creationdate="20211229T111901Z">
