@@ -7833,6 +7833,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В новой версии значительно расширен объем информации, которая записывается в лог.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240326T090517Z" creationid="Марианна" creationdate="20240326T090517Z">
+        <seg>The information volume recorded in the log was significantly expanded.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В новой версии платформы его функционал был значительно улучшен:</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220227T085621Z" creationid="Марианна" creationdate="20220227T085621Z">
@@ -16055,6 +16063,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210321T181201Z" creationid="Марианна" creationdate="20210321T181201Z">
         <seg>Now Loginom enables to perform the whole cycle of the ETL operations connected with the Data Warehouses.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Теперь в журнале фиксируются не только удачные, но и неудачные попытки аутентификации пользователя.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240326T090629Z" creationid="Марианна" creationdate="20240326T090629Z">
+        <seg>Now not only successful but also unsuccessful user authentication attempts are recorded in the log.</seg>
       </tuv>
     </tu>
     <tu>
