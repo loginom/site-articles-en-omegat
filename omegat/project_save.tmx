@@ -15093,8 +15093,8 @@
       <tuv lang="ru">
         <seg>Ранее после узла &lt;e6&gt;Разбиение на множество&lt;/e6&gt; приходилось разделять тестовое и обучающее множество, а затем обучающее подавать на основной узел, а тестовое — на &lt;a7&gt;Выполнение узла&lt;/a7&gt;.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240326T072904Z" creationid="Марианна" creationdate="20240326T072904Z">
-        <seg>Previously, it was required to divide the test and training sets after &lt;e6&gt;Partitioning&lt;/e6&gt; node, and then it was required to supply the training set to the main node, and the test on to &lt;a7&gt;Node execution&lt;/a7&gt;.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240326T103821Z" creationid="Марианна" creationdate="20240326T072904Z">
+        <seg>Previously, it was required to divide the test and training sets after &lt;e6&gt;Partitioning&lt;/e6&gt; node, and then it was required to supply the training set to the main node, and the test one to &lt;a7&gt;Node execution&lt;/a7&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -16333,8 +16333,8 @@
       <tuv lang="ru">
         <seg>Теперь появилась возможность заранее разбить множество на обучающее и тестовое (узел &lt;a5&gt;Разбиение на множества&lt;/a5&gt;) и подавать общее множество на узел, выбрав разбиение по столбцу.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240326T072536Z" creationid="Марианна" creationdate="20240326T072536Z">
-        <seg>Now it became possible to partition the set to the training and test onesin advance (&lt;a5&gt;Partitioning&lt;/a5&gt; node) and supply the shared set to the node by selecting partitioning by column.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240326T103802Z" creationid="Марианна" creationdate="20240326T072536Z">
+        <seg>Now it became possible to partition the set to the training and test ones in advance (&lt;a5&gt;Partitioning&lt;/a5&gt; node) and supply the shared set to the node by selecting partitioning by column.</seg>
       </tuv>
     </tu>
     <tu>
