@@ -7721,6 +7721,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В некоторых случаях Integrator прекращает реагировать на изменение опубликованных пакетов, например, если в момент изменения отсутствовало сетевое соединение между Server-ом и Integrator-ом, а затем оно было восстановлено.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240326T080007Z" creationid="Марианна" creationdate="20240326T080007Z">
+        <seg>In some cases Integrator ceases to respond to change of published packages, for example, if there is no network connection between Server and Integrator, and then it was restored.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В некоторых случаях были проблемы при дальнейшей обработке данных (#5903).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220425T191756Z" creationid="Марианна" creationdate="20220425T191756Z">
