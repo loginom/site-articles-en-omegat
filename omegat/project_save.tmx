@@ -8849,6 +8849,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для Loginom Server под Linux можно настроить ограничение объема RAM, используемого приложением Loginom.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240326T063827Z" creationid="Марианна" creationdate="20240326T063827Z">
+        <seg>It is possible to set restricted size of the RAM used by the Loginom application in Loginom Server for Linux.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для REST ответов реализован формат, соответствующий &lt;a0&gt;RFC 7807&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240227T062749Z" creationid="Марианна" creationdate="20240227T062749Z">
