@@ -9121,6 +9121,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для сценариев, которые были подготовлены в более ранних версиях, значение по умолчанию остается зависимым от языка до перенастройки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240326T071134Z" creationid="Марианна" creationdate="20240326T071134Z">
+        <seg>The default value remains dependent on the language until reconfiguration for the workflows prepared in the earlier versions.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для того, чтобы на сервере можно было создать общую папку, доступ к которой имели бы все пользователи, в том числе вновь добавляемые, создана стандартная группа пользователей «Все», которая отображается при настройке прав на общие папки.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220308T142228Z" creationid="Марианна" creationdate="20220308T141957Z">
@@ -10133,6 +10141,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240225T163314Z" creationid="Марианна" creationdate="20240225T163314Z">
         <seg>Value of "Compare string unique values in a binary way" option is displayed in the &lt;e0&gt;Property Inspector&lt;/e0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Значение по умолчанию — это зависимая от локализации строка «Не задано».</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240326T071008Z" creationid="Марианна" creationdate="20240326T071008Z">
+        <seg>The default value is "Not set" string dependent on localization.</seg>
       </tuv>
     </tu>
     <tu>
@@ -11333,6 +11349,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220309T084006Z" creationid="Марианна" creationdate="20220309T084006Z">
         <seg>"Likelihood maximum" parameter name in the linear regression report was replaced with "Log-likelihood", and "P-value (model)" parameter name was replaced with "Model P-value".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Например, «Заменить на «Пропуск»».</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240326T070916Z" creationid="Марианна" creationdate="20240326T070916Z">
+        <seg>For example, "Replace with "Null data".</seg>
       </tuv>
     </tu>
     <tu>
@@ -15895,6 +15919,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240313T145701Z" creationid="Марианна" creationdate="20240313T145701Z">
         <seg>Now the string length for the quick view is limited by 5000 characters so that the browser could display data (#5776, #6166).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Теперь для каждого поля можно указать значение, на которое нужно заменить пропущенное.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240326T070845Z" creationid="Марианна" creationdate="20240326T070845Z">
+        <seg>Now it is possible to specify the value with which the null value can be replaced.</seg>
       </tuv>
     </tu>
     <tu>
