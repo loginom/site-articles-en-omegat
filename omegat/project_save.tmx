@@ -14163,6 +14163,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При последующих открытиях мастера настройки, а также мастеров настройки новых узлов &lt;e1&gt;Импорт из базы данных&lt;/e1&gt;, которые используют &lt;e2&gt;Подключение с &lt;/e2&gt;ранее полученным списком таблиц, активация из мастера настройки не потребуется.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240326T083149Z" creationid="Марианна" creationdate="20240326T083149Z">
+        <seg>When opening the wizard afterwards and also the wizards of new &lt;e1&gt;Import from database&lt;/e1&gt; nodes that use &lt;e2&gt;Connection with &lt;/e2&gt; previously received list of tables, activation from the wizard is not required.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При работе над релизом значительное внимание уделялось запросам, которые поступали от наших пользователей.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240325T093234Z" creationid="Марианна" creationdate="20240325T093234Z">
