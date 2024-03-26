@@ -14067,6 +14067,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При настройке узла &lt;a0&gt;Таблица в дерево&lt;/a0&gt; появилась возможность заполнять метки узлов дерева из 1-й строки xsd:documentation при загрузке структуры из XSD схемы.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240326T090117Z" creationid="Марианна" creationdate="20240326T090117Z">
+        <seg>When configuring  &lt;a0&gt;Table to tree&lt;/a0&gt; node, it became possible to fill in the tree node captions from the 1st xsd:documentation string when loading the structure from XSD schema.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При начальной активации визуализатора рассчитываются только стандартные показатели, такие как: Минимум, Максимум, Среднее, Пропуски.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220302T113309Z" creationid="Марианна" creationdate="20220302T113055Z">
