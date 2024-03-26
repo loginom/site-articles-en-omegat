@@ -6953,6 +6953,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Автоматическое расширение стека главного потока не затрагивается.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240326T064235Z" creationid="Марианна" creationdate="20240326T064235Z">
+        <seg>The automatic extension of the main thread stack is not affected.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Автоматическое сохранение резервных копий пакетов</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220224T064737Z" creationid="Марианна" creationdate="20220224T064737Z">
@@ -14015,6 +14023,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240214T105130Z" creationid="Марианна" creationdate="20240214T105130Z">
         <seg>Data processing speed will be considerably increased in such case of use.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При увеличении лимита использования памяти новое значение применяется сразу, при уменьшении лимита требуется перезапуск приложения.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240326T063947Z" creationid="Марианна" creationdate="20240326T063947Z">
+        <seg>When the memory usage limit is increased, the new value is applied at once, when the limit is decreased, it is required to restart the application.</seg>
       </tuv>
     </tu>
     <tu>
