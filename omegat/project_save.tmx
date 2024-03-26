@@ -12395,8 +12395,8 @@
       <tuv lang="ru">
         <seg>Ошибка могла возникнуть при активации подключения к Хранилищу данных, у которого длинный (более 25) список объектов (#9154).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240326T092628Z" creationid="Марианна" creationdate="20230315T075917Z">
-        <seg>The error could occur when connection to the Data warehouse with the long list of objects (more than 25) was activated (#9154).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240326T092725Z" creationid="Марианна" creationdate="20230315T075917Z">
+        <seg>The error could occur when connection to the Data Warehouse with the long list of objects (more than 25) was activated (#9154).</seg>
       </tuv>
     </tu>
     <tu>
