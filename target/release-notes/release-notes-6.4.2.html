@@ -8,7 +8,7 @@
 
 <p><a href="https://help.loginom.ru/userguide/processors/integration/rest-request.html" target="_blank"><strong>REST Request:</strong></a> if the request response contained 4-byte UTF-8 encoded characters, the output port with the response contained the null value, and the second output port contained&nbsp;<em>8</em>&nbsp;error code and the following error message: "Error processing server response: Unhandled error: MESSAGE: Code unit ... is not the start of UTF8 character that consists of not more than 3 code units" (#8373).</p>
 
-<p><a href="https://help.loginom.ru/userguide/admin/" target="_blank"><strong>Administration:</strong>&nbsp;</a>if the package that contained active processes was forcibly closed, and then the Administrator user opened the Session Manager bar, this user came across the following error: "When switching to "Administration.Session Manager", error occurred" (#8326).</p>
+<p><a href="https://help.loginom.ru/userguide/admin/" target="_blank"><strong>Administration:</strong>&nbsp;</a>if the package that contained active processes was forcibly closed, and then the Admin user opened the Session Manager bar, this user came across the following error: "When switching to "Administration.Session Manager", error occurred" (#8326).</p>
 
 <p><strong>Administration:</strong>&nbsp;when closing the package or user session using the Session Manager on the Administration bar, 5 s timeout was added. If all active processes are not finished during the timeout, the error message will appear. Previously, the Session Manager was frozen, if the package or user session contained frozen processes (#8338).</p>
 
