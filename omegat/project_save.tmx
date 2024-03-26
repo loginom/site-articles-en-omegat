@@ -14875,6 +14875,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Ранее после узла &lt;e6&gt;Разбиение на множество&lt;/e6&gt; приходилось разделять тестовое и обучающее множество, а затем обучающее подавать на основной узел, а тестовое — на &lt;a7&gt;Выполнение узла&lt;/a7&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240326T072904Z" creationid="Марианна" creationdate="20240326T072904Z">
+        <seg>Previously, it was required to divide the test and training sets after &lt;e6&gt;Partitioning&lt;/e6&gt; node, and then it was required to supply the training set to the main node, and the test on to &lt;a7&gt;Node execution&lt;/a7&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Ранее при выполнении могла изменяться модель начальных классов, а результат выполнения мог отличаться от ожидаемого.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220307T095709Z" creationid="Марианна" creationdate="20220307T095709Z">
