@@ -13210,6 +13210,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>По умолчанию они сохраняются на диске даже для баз in-memory, что при выполнении некоторых сценариев может приводить к существенному использованию диска и, соответственно, к его износу.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240326T085127Z" creationid="Марианна" creationdate="20240326T085127Z">
+        <seg>By default, they are saved on disk even for in-memory bases that can result in significant use of the disk and its corresponding wear when executing some workflows.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>По умолчанию параметр &lt;c1&gt;packageRefreshPeriod&lt;/c1&gt; отсутствует, периодического запроса списка пакетов не происходит.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240325T142420Z" creationid="Марианна" creationdate="20240325T142420Z">
