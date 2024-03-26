@@ -17147,6 +17147,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>идентификатор представляет собой 128-битное число (GUID), представленное в виде строки шестнадцатеричного формата (32 символа в нижнем регистре).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240326T073508Z" creationid="Марианна" creationdate="20240326T073508Z">
+        <seg>the identifier is 128-bit number (GUID) represented in the form of the string in the hexadecimal format (32 characters in in lower case).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>клиента Microsoft OLE DB Driver for SQL Server для подключения к MS SQL Server.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240214T104700Z" creationid="Марианна" creationdate="20240214T104700Z">
