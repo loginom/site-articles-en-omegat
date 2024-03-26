@@ -5259,8 +5259,8 @@
       <tuv lang="ru">
         <seg>Integrator сравнивает этот список со своим собственным, если есть изменения, то применяет их.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240325T142250Z" creationid="Марианна" creationdate="20240325T142250Z">
-        <seg>Integrator compares this list with its own one, and if there are chnages, it applies them.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240326T104842Z" creationid="Марианна" creationdate="20240325T142250Z">
+        <seg>Integrator compares this list with its own one, and if there are changes, it applies them.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7483,8 +7483,8 @@
       <tuv lang="ru">
         <seg>В визуализаторах обновление таблицы &lt;e0&gt;Детализация&lt;/e0&gt; происходит быстрее и визуально комфортнее для пользователя.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240325T142046Z" creationid="Марианна" creationdate="20240325T142046Z">
-        <seg>&lt;e0&gt;Detailing&lt;/e0&gt; table in visualizers is updated faster and visually more comfortable for the user.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240326T104623Z" creationid="Марианна" creationdate="20240325T142046Z">
+        <seg>&lt;e0&gt;Detailing&lt;/e0&gt; table in visualizers is updated faster and it is visually more comfortable for the user.</seg>
       </tuv>
     </tu>
     <tu>
