@@ -5313,6 +5313,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Loginom Desktop под Linux использует кроссплатформенную библиотеку элементов интерфейса &lt;a0&gt;GTK3&lt;/a0&gt; и может быть установлен на дистрибутивы операционной системы, поддерживающие GTK3, с минимальной версией ядра 5.3 (если не планируется использование Python-a, то минимальная версия ядра 4.11).</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240326T091521Z" creationid="Марианна" creationdate="20240326T091521Z">
+        <seg>Loginom Desktop for Linux uses the cross-platform library of &lt;a0&gt;GTK3&lt;/a0&gt; interface elements, and it can be installed at the operating system distribution kits supporting GTK3 with minimum core version 5.3 (if it is not planned to use Python, the minimum core version is 4.11).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Loginom Integrator</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220220T163507Z" creationid="Марианна" creationdate="20220220T163507Z">
