@@ -8393,6 +8393,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В табличном представлении Сценария при выделении одной записи (узла) появилась возможность посмотреть информацию по узлу в &lt;a0&gt;Инспекторе свойств&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240326T092132Z" creationid="Марианна" creationdate="20240326T092132Z">
+        <seg>When selecting one record (node) in the table view of the Workflow, it became possible to view the information on the node in the &lt;a0&gt;Property inspector&lt;/a0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В тексте сообщения содержится GUID исходного узла, а в некоторых случаях также выводится метка узла (#9259, #9315).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220708T165208Z" creationid="Марианна" creationdate="20220708T165208Z">
@@ -16815,6 +16823,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240302T081527Z" creationid="Марианна" creationdate="20240302T074141Z">
         <seg>The further the node was located from the left upper corner of the workflow construction area, the futher the cloned node appeared from it.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Через &lt;a0&gt;Адресную строку&lt;/a0&gt; можно перейти к любому объекту пакета, при этом страница объекта откроется в текущей вкладке.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240326T092008Z" creationid="Марианна" creationdate="20240326T092008Z">
+        <seg>It is possible to go to any package object using the &lt;a0&gt;Address line&lt;/a0&gt;, and the object page will be opened in the current tab.</seg>
       </tuv>
     </tu>
     <tu>
