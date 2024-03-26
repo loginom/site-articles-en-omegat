@@ -7257,6 +7257,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В &lt;e0&gt;Калькуляторе&lt;/e0&gt; поля и переменные теперь отображаются в разных таблицах, между которыми можно переключаться.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240326T071453Z" creationid="Марианна" creationdate="20240326T071453Z">
+        <seg>Now fields and variables in &lt;e0&gt;Calculator&lt;/e0&gt; are displayed in different tables that can be switched.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В ClickHouse появилась поддержка типов DateTime64, IPv4, IPv6, LowCardinality и Bool.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240319T115256Z" creationid="Марианна" creationdate="20240319T115256Z">
