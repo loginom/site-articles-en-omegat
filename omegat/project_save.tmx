@@ -5329,6 +5329,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Loginom Integrator отслеживает изменения в списке опубликованных пакетов по событию, которое приходит от Loginom Server.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240326T073606Z" creationid="Марианна" creationdate="20240326T073606Z">
+        <seg>Loginom Integrator tracks the changes in the list of published packages by event that comes from Loginom Server.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Loginom Server</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210314T201728Z" creationid="Марианна" creationdate="20210314T201728Z">
@@ -17149,8 +17157,8 @@
       <tuv lang="ru">
         <seg>идентификатор представляет собой 128-битное число (GUID), представленное в виде строки шестнадцатеричного формата (32 символа в нижнем регистре).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240326T073508Z" creationid="Марианна" creationdate="20240326T073508Z">
-        <seg>the identifier is 128-bit number (GUID) represented in the form of the string in the hexadecimal format (32 characters in in lower case).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240326T073520Z" creationid="Марианна" creationdate="20240326T073508Z">
+        <seg>the identifier is 128-bit number (GUID) represented in the form of the string in the hexadecimal format (32 characters in lower case).</seg>
       </tuv>
     </tu>
     <tu>
