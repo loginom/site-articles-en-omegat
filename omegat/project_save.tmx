@@ -10073,6 +10073,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Заголовки содержат user-agent с информацией о типе и версии браузера.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240326T073017Z" creationid="Марианна" creationdate="20240326T073017Z">
+        <seg>Headers contain user-agent with information on the browser type and version.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Заголовки, указанные на странице мастера настройки узла &lt;e1&gt;REST-запрос&lt;/e1&gt; "Настройка пользовательских заголовков", а также переопределенные значения стандартных заголовков не попадали в файл.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230316T052350Z" creationid="Марианна" creationdate="20230316T052217Z">
@@ -13883,6 +13891,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>При логировании в файл в каждом сообщении выводится идентификатор сообщения (также как и при логировании в journald):</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240326T073202Z" creationid="Марианна" creationdate="20240326T073202Z">
+        <seg>When logging to file, the message identifier is displayed in each message (as well as when logging to journald):</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При любых ошибках, не позволяющих запустить файловый диалог KDE, будет использоваться файловый диалог GTK (#10153).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240308T122403Z" creationid="Марианна" creationdate="20240308T122403Z">
@@ -17119,6 +17135,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220304T192951Z" creationid="Марианна" creationdate="20220304T192859Z">
         <seg>the interval boundaries for filters: within the range and out of the range;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>идентификатор в сообщениях выводится после времени и критичности (типа) события.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240326T073315Z" creationid="Марианна" creationdate="20240326T073315Z">
+        <seg>the identifier in messages is displayed after the event time and criticality (type).</seg>
       </tuv>
     </tu>
     <tu>
