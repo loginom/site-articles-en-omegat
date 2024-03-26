@@ -7107,8 +7107,8 @@
       <tuv lang="ru">
         <seg>Без этой настройки узлы Импорта/Экспорта могут зависнуть на неограниченное время.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240325T103707Z" creationid="Марианна" creationdate="20240325T103707Z">
-        <seg>Import/Export nodes can be frozen for an unlimited time without this setting.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240326T104200Z" creationid="Марианна" creationdate="20240325T103707Z">
+        <seg>Import/Export nodes can be frozen for unlimited time without this setting.</seg>
       </tuv>
     </tu>
     <tu>
