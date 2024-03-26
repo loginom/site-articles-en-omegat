@@ -9713,6 +9713,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Если в редакторе выражений дважды кликнуть мышью на переменной, то появляется подсказка, в которой выводится ее значение.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240326T071700Z" creationid="Марианна" creationdate="20240326T071700Z">
+        <seg>If the user double clicks on the variable in the expression editor, the tip with its value will be displayed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Если в течение таймаута не удалось завершить активные процессы, то выдаётся сообщение об ошибке.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210616T164828Z" creationid="Марианна" creationdate="20210616T164654Z">
