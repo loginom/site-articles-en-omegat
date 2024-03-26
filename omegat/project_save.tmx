@@ -7641,6 +7641,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В мастерах настройки &lt;a0&gt;Импорт из Deductor Warehouse&lt;/a0&gt; и &lt;a1&gt;Экспорт в Deductor Warehouse&lt;/a1&gt; в списке столбцов исходного набора и в дереве доступных элементов объекта хранилища данных появились всплывающие подсказки для значений, которые не помещаются в ячейке.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240326T092617Z" creationid="Марианна" creationdate="20240326T092617Z">
+        <seg>Pop-up tips for the values for which there was no enough space in the cell appeared in the list of columns of the source data set and in the tree of available elements of the data warehouse object in &lt;a0&gt;Import from Deductor Warehouse&lt;/a0&gt; and &lt;a1&gt;Export to Deductor Warehouse&lt;/a1&gt; wizards.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В мастерах настройки соответствия полей и переменных добавлена возможность создавать поля или переменные на основе уже существующих.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220304T191815Z" creationid="Марианна" creationdate="20220304T191815Z">
