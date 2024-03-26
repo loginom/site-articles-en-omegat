@@ -11539,8 +11539,8 @@
       <tuv lang="ru">
         <seg>Навигация по списку файлов/папок при помощи клавиатуры стала удобнее.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240325T102028Z" creationid="Марианна" creationdate="20240325T102028Z">
-        <seg>Navigation through the list of files/foders using the keyboard became more comfortable.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240326T103504Z" creationid="Марианна" creationdate="20240325T102028Z">
+        <seg>Navigation through the list of files/folders using the keyboard became more comfortable.</seg>
       </tuv>
     </tu>
     <tu>
@@ -13820,8 +13820,8 @@
       <tuv lang="ru">
         <seg>Появился инкрементный поиск/позиционирование на файле/папке при вводе первых символов с клавиатуры.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240325T102229Z" creationid="Марианна" creationdate="20240325T102229Z">
-        <seg>The incremental search/positioning on file/folder appeared when entering the first characters from the keyboard</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240326T103521Z" creationid="Марианна" creationdate="20240325T102229Z">
+        <seg>The incremental search/positioning on file/folder appeared when entering the first characters from the keyboard.</seg>
       </tuv>
     </tu>
     <tu>
