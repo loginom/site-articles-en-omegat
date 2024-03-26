@@ -16315,6 +16315,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Теперь появилась возможность открывать адрес в отдельной вкладке, для этого нужно нажать на объект средней кнопкой мыши или левой кнопкой, удерживая клавишу &lt;e1&gt;Ctrl&lt;/e1&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240326T091749Z" creationid="Марианна" creationdate="20240326T091749Z">
+        <seg>Now it became possible to open address in a separate tab by pressing on the object with the middle mouse button or left button holding down the &lt;e1&gt;Ctrl&lt;/e1&gt; key.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Теперь появляется предупреждение, что не выбран объект хранилища данных (#8515).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210903T104823Z" creationid="Марианна" creationdate="20210903T104823Z">
