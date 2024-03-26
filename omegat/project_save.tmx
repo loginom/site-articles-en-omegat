@@ -13563,6 +13563,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Преимущество настройки заключается в том, что при достижении лимита не срабатывает OOM Killer.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240326T064420Z" creationid="Марианна" creationdate="20240326T064420Z">
+        <seg>The setting advantage is that OOM Killer doesn't work when the limit is reached.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>При &lt;a0&gt;экспорте в Loginom Data файл&lt;/a0&gt; оптимизировано сжатие строковых данных — скорость чтения больших наборов данных увеличилась до 2-х раз.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220304T151538Z" creationid="Марианна" creationdate="20220304T151538Z">
