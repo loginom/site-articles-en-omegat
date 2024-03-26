@@ -16075,6 +16075,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Теперь появилась возможность заранее разбить множество на обучающее и тестовое (узел &lt;a5&gt;Разбиение на множества&lt;/a5&gt;) и подавать общее множество на узел, выбрав разбиение по столбцу.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240326T072536Z" creationid="Марианна" creationdate="20240326T072536Z">
+        <seg>Now it became possible to partition the set to the training and test onesin advance (&lt;a5&gt;Partitioning&lt;/a5&gt; node) and supply the shared set to the node by selecting partitioning by column.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Теперь появляется предупреждение, что не выбран объект хранилища данных (#8515).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210903T104823Z" creationid="Марианна" creationdate="20210903T104823Z">
