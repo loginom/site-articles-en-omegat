@@ -9609,6 +9609,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Доменное имя выводится опционально, в случае, если в разделе &lt;e0&gt;Администрирование&lt;/e0&gt; на странице &lt;e1&gt;Параметры&lt;/e1&gt; установлен флаг «Разрешать доменные имена».</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240326T090958Z" creationid="Марианна" creationdate="20240326T090958Z">
+        <seg>The domain name is optionally displayed if "Allow domain names" checkbox is selected in the &lt;e0&gt;Administration&lt;/e0&gt; section on &lt;e1&gt;Parameters&lt;/e1&gt; page.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Дополнительно в администрировании Loginom 6.5 появилась отдельная &lt;a0&gt;роль &lt;/a0&gt;и возможность управлять правами на публикацию веб-сервисов.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220227T121004Z" creationid="Марианна" creationdate="20220227T120822Z">
@@ -13486,6 +13494,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20210323T080820Z" creationid="Марианна" creationdate="20210323T080820Z">
         <seg>A user will see the error message only when explicitly attempting to activate the node connected to the inactive Condition branch (#3453).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Помимо имени пользователя в логируемых сообщениях выводится его IP-адрес и доменное имя.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240326T090746Z" creationid="Марианна" creationdate="20240326T090746Z">
+        <seg>Apart from user name, his IP address and domain name are also displayed in the logged messages.</seg>
       </tuv>
     </tu>
     <tu>
