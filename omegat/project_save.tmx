@@ -8059,8 +8059,8 @@
       <tuv lang="ru">
         <seg>В пакетах, созданных до версии 6.5, имеющих подключение к Хранилищу данных на MS SQL через встроенный клиент, при активации подключения будет выдана ошибка "Required provider is not installed".</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20230315T101405Z" creationid="Марианна" creationdate="20230315T101405Z">
-        <seg>On activation of connection "Required provider is not installed" error will be displayed for the packages created up to 6.5 version that are connected with Data storage on MS SQL via built-in client.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240326T092658Z" creationid="Марианна" creationdate="20230315T101405Z">
+        <seg>On activation of connection "Required provider is not installed" error will be displayed for the packages created up to 6.5 version that are connected with Data Warehouse on MS SQL via built-in client.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12395,8 +12395,8 @@
       <tuv lang="ru">
         <seg>Ошибка могла возникнуть при активации подключения к Хранилищу данных, у которого длинный (более 25) список объектов (#9154).</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20230315T075917Z" creationid="Марианна" creationdate="20230315T075917Z">
-        <seg>The error could occur when connection to the Data storage with the long list of objects (more than 25) was activated (#9154).</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240326T092628Z" creationid="Марианна" creationdate="20230315T075917Z">
+        <seg>The error could occur when connection to the Data warehouse with the long list of objects (more than 25) was activated (#9154).</seg>
       </tuv>
     </tu>
     <tu>
