@@ -7603,8 +7603,8 @@
       <tuv lang="ru">
         <seg>В мастере настройки &lt;a0&gt;Экспорта в LGD-файл&lt;/a0&gt; алгоритм LZ4 добавлен в выпадающий список форматов сжатия и используется по умолчанию.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240326T065245Z" creationid="Марианна" creationdate="20240326T065245Z">
-        <seg>In &lt;a0&gt;Export to LGD file&lt;/a0&gt; LZ4 algorithm is added to the drop-down list of compression formats and it is used by default.</seg>
+      <tuv lang="en" changeid="Марианна" changedate="20240326T065305Z" creationid="Марианна" creationdate="20240326T065245Z">
+        <seg>In &lt;a0&gt;Export to LGD file&lt;/a0&gt; wizard LZ4 algorithm is added to the drop-down list of compression formats and it is used by default.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7645,6 +7645,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240325T133852Z" creationid="Марианна" creationdate="20240325T133852Z">
         <seg>Preview of the calculation result appeared in &lt;a0&gt;Calculator (variables)&lt;/a0&gt; node wizard.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>В мастере узла &lt;e0&gt;Экспорт в LGD-файл&lt;/e0&gt;, если выбрано сжатие LZ4, пользователь может установить значение параметра &lt;e1&gt;Контрольная сумма&lt;/e1&gt;:</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240326T065447Z" creationid="Марианна" creationdate="20240326T065257Z">
+        <seg>In &lt;e0&gt;Export to LGD file&lt;/e0&gt; node wizard if LZ4 compression is selected, the user can set the value of the &lt;e1&gt;Control sum&lt;/e1&gt; parameter:</seg>
       </tuv>
     </tu>
     <tu>
@@ -16939,6 +16947,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>записывать контрольную сумму сжатых данных после каждого блока (по умолчанию);</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240326T065528Z" creationid="Марианна" creationdate="20240326T065523Z">
+        <seg>to record the control sum of the compressed data after each block (by default);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>значение для определения периода — базовая дата, тип временного промежутка и значение временного промежутка для фильтров: первый, не первый, последний не последний.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220304T193231Z" creationid="Марианна" creationdate="20220304T193231Z">
@@ -17039,6 +17055,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20230316T055648Z" creationid="Марианна" creationdate="20230316T055648Z">
         <seg>on the page of columns mapping configuration in &lt;e0&gt;Import from database&lt;/e0&gt; wizard or at the stage of &lt;e1&gt;Import from database&lt;/e1&gt; node activation in which SELECT request is set returning the fields with JSON type (#9248).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>не записывать никакую контрольную сумму, при этом запись будет выполняться быстрее на 1%;</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240326T065607Z" creationid="Марианна" creationdate="20240326T065607Z">
+        <seg>not to record any control sum, and in this case the record will be performed 1% faster;</seg>
       </tuv>
     </tu>
     <tu>
