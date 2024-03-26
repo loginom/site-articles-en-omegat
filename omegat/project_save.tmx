@@ -11633,6 +11633,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Но если память в системе закончилась до достижения лимита, OOM Killer сработает.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240326T064613Z" creationid="Марианна" creationdate="20240326T064613Z">
+        <seg>But if there is no enough memory in the system before the limit is reached, OOM Killer will be activated.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Но, если задана переменная окружения &lt;c2&gt;DOTNET_RUNNING_IN_CONTAINER&lt;/c2&gt; со значением &lt;c3&gt;true&lt;/c3&gt; или &lt;c4&gt;1&lt;/c4&gt; (т.е. Integrator запущен из Docker контейнера), то в логируемых сообщениях не пишется текущая дата/время.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240227T062337Z" creationid="Марианна" creationdate="20240227T062337Z">
