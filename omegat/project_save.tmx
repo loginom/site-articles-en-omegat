@@ -7649,6 +7649,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В мастерах настройки &lt;a0&gt;Импорта из текстового файла&lt;/a0&gt; и &lt;a1&gt;Экспорта в текстовый файл&lt;/a1&gt; в редакторах свойств, задающих разделители (десятичный, даты, времени и т.д.), вместо значения «по умолчанию» показано значение, которое будет использоваться при разборе файла, если пользователь не изменит настройки.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240326T094928Z" creationid="Марианна" creationdate="20240326T094928Z">
+        <seg>The value that will be used when parsing the file if the user doesn't change the settings was displayed in editors of properties that set separators (decimal separator, date separator, time separator, etc.) instead of  the "default" value in &lt;a0&gt;Import from text file&lt;/a0&gt; and &lt;a1&gt;Export to text file&lt;/a1&gt; wizards.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В мастерах настройки соответствия полей и переменных добавлена возможность создавать поля или переменные на основе уже существующих.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220304T191815Z" creationid="Марианна" creationdate="20220304T191815Z">
