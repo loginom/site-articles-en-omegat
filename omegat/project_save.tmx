@@ -7985,6 +7985,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В окне генерации дерева данных по XSD схеме добавлен параметр &lt;e1&gt;Формировать метки узлов по xsd:documentation&lt;/e1&gt;.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240326T085902Z" creationid="Марианна" creationdate="20240326T085902Z">
+        <seg>&lt;e1&gt;Generate node captions by xsd:documentation&lt;/e1&gt; parameter was added in the window of the data tree generation by XSD schema.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В ответ на такой запрос можно было получить ошибку "Bad Request" (#9850).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240313T122747Z" creationid="Марианна" creationdate="20240313T122747Z">
@@ -10109,6 +10117,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220711T112609Z" creationid="Марианна" creationdate="20220711T111434Z">
         <seg>If configuration was requested for the derived component (for example, when loading the package that contained the derived node), and in this case, the outdated configuration was cached in the component, and the base node was locked (for example, if the package in which the base node was located, was opened as the public one and it was activated within another user session), an error message was not displayed, this outdated configuration was used, and message was recorded to the log (#9251).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Если указать у этого параметра значение True, то генерируемые узлы дерева получают метку, равную 1-й непустой строке из элемента xsd:documentation для исходного элемента или атрибута в XSD схеме.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240326T085653Z" creationid="Марианна" creationdate="20240326T085653Z">
+        <seg>If True value is specified for this parameter, the generated tree nodes get the caption equal to the 1st non-empty string from xsd:documentation element for the source element or the attribute in XSD schema.</seg>
       </tuv>
     </tu>
     <tu>
