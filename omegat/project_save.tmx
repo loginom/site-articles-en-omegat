@@ -7201,6 +7201,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>В &lt;a0&gt;Калькулятор&lt;/a0&gt; добавлена функция ISO8601ToDate, которая конвертирует строку, содержащую дату/время в формате ISO 8601, в значение типа Дата/Время.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240326T071259Z" creationid="Марианна" creationdate="20240326T071259Z">
+        <seg>ISO8601ToDate function was added to &lt;a0&gt;Calculator&lt;/a0&gt;. It converts the string containing date/time in ISO 8601 format to the Date/Time value.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>В &lt;a0&gt;Калькуляторе&lt;/a0&gt; в &lt;a1&gt;режиме JavaScript&lt;/a1&gt; доступны функций преобразования base64-закодированных строк в строки двоичных данных и обратно.</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240219T144302Z" creationid="Марианна" creationdate="20240219T144302Z">
@@ -14127,6 +14135,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240326T063947Z" creationid="Марианна" creationdate="20240326T063947Z">
         <seg>When the memory usage limit is increased, the new value is applied at once, when the limit is decreased, it is required to restart the application.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>При указанном смещении времени относительно UTC дата/время приводится к текущей временной зоне.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240326T071404Z" creationid="Марианна" creationdate="20240326T071404Z">
+        <seg>The date/time is set to the current time zone for the specified time offset relative to UTC.</seg>
       </tuv>
     </tu>
     <tu>
