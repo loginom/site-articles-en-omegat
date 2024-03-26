@@ -9073,6 +9073,14 @@
     </tu>
     <tu>
       <tuv lang="ru">
+        <seg>Для компонента &lt;a0&gt;Ассоциативные правила&lt;/a0&gt; доработан алгоритм — в дерево популярных наборов, которое используется при построении модели, не попадают наборы с поддержкой больше максимальной.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240326T081332Z" creationid="Марианна" creationdate="20240326T081332Z">
+        <seg>The algorithm was improved for &lt;a0&gt;Association rules&lt;/a0&gt; component. The data sets with the support that exceeds the maximum one do not get into the tree of popular data sets used for model training.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
         <seg>Для методов, которые изначально требуют наличие всех коэффициентов (Enter, Backward, Ridge, LASSO и ElasticNet), будет выдана ошибка до момента обучения модели, если число строк меньше числа коэффициентов (включая константу).</seg>
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220426T100509Z" creationid="Марианна" creationdate="20220426T100509Z">
