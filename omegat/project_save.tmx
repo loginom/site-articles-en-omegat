@@ -7723,7 +7723,7 @@
       <tuv lang="ru">
         <seg>В некоторых случаях Integrator прекращает реагировать на изменение опубликованных пакетов, например, если в момент изменения отсутствовало сетевое соединение между Server-ом и Integrator-ом, а затем оно было восстановлено.</seg>
       </tuv>
-      <tuv lang="en" changeid="Марианна" changedate="20240326T080007Z" creationid="Марианна" creationdate="20240326T080007Z">
+      <tuv lang="en" changeid="Марианна" changedate="20240326T080126Z" creationid="Марианна" creationdate="20240326T080007Z">
         <seg>In some cases Integrator ceases to respond to change of published packages, for example, if there is no network connection between Server and Integrator, and then it was restored.</seg>
       </tuv>
     </tu>
@@ -9277,6 +9277,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20220304T191553Z" creationid="Марианна" creationdate="20220304T191553Z">
         <seg>For this purpose, such parameter as "Exclude" was added to the fields wizard.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Для этого в файле конфигурации Integrator-а необходимо указать параметр &lt;c0&gt;packageRefreshPeriod&lt;/c0&gt;, задающий период (в секундах), с которым запрашивается с сервера список опубликованных пакетов.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240326T080444Z" creationid="Марианна" creationdate="20240326T080444Z">
+        <seg>For this purpose, it is required to specify &lt;c0&gt;packageRefreshPeriod&lt;/c0&gt; parameter in the Integrator configuration file that set the period (in seconds) of request of the published packages list from the server.</seg>
       </tuv>
     </tu>
     <tu>
@@ -16623,6 +16631,14 @@
       </tuv>
       <tuv lang="en" changeid="Марианна" changedate="20240317T113053Z" creationid="Марианна" creationdate="20240317T113053Z">
         <seg>To display the data, it was required to switch to another field and then return back.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="ru">
+        <seg>Чтобы избежать проблем с отслеживанием изменений в опубликованных пакетах, в Loginom Integrator добавлена возможность периодически запрашивать список опубликованных пакетов с сервера.</seg>
+      </tuv>
+      <tuv lang="en" changeid="Марианна" changedate="20240326T080246Z" creationid="Марианна" creationdate="20240326T080037Z">
+        <seg>To avoid problems with tracking of changes in published packages, option of regular request of the published packages list was added to Loginom Integrator.</seg>
       </tuv>
     </tu>
     <tu>
